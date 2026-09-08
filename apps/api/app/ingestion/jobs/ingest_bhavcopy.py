@@ -116,5 +116,5 @@ if __name__ == "__main__":
     from datetime import timedelta
 
     logging.basicConfig(level="INFO")
-    days_back = int(os.environ.get("INGEST_BACKFILL_DAYS", "5"))
+    days_back = int(os.environ.get("INGEST_BACKFILL_DAYS", "250"))
     run(backfill_from=last_trading_day() - timedelta(days=days_back))

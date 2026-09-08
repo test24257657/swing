@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     api_port: int = 8000
     cors_origins: str = "http://localhost:3000"
 
-    ingest_backfill_days: int = 5
+    ingest_backfill_days: int = 250
     raw_cache_dir: str = "./data/raw_cache"
 
     # Gemini — news impact classification + AI summaries (Phase 7). Empty = feature off.
