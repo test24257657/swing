@@ -1,5 +1,13 @@
 import { PhaseStub } from "@/components/screen/phase-stub";
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
+import { screenMetadata } from "@/lib/seo";
+
+export const metadata = screenMetadata({
+  title: "Sector Rotation",
+  description:
+    "Which NSE sectors capital is rotating into and out of — a market-cap heatmap, a momentum ranking with rank-change arrows, and a relative rotation graph vs NIFTY 500.",
+  path: "/sectors",
+});
 
 export default function SectorsPage() {
   return (

@@ -52,6 +52,7 @@ via the build command.
    |---|---|---|
    | `API_PROXY_TARGET` | `https://swing-api.onrender.com` | Next rewrites `/api/*` here server-side — the browser stays same-origin, no CORS |
    | `NEXT_PUBLIC_API_BASE` | `/api` | default; leave as-is to use the proxy |
+   | `NEXT_PUBLIC_SITE_URL` | `https://swing-terminal.vercel.app` | public origin — drives SEO `metadataBase`, canonical URLs, sitemap, robots |
 
    To skip the proxy and call Render directly instead, set `NEXT_PUBLIC_API_BASE` to the
    Render URL and add the Vercel domain to `CORS_ORIGINS` on Render.

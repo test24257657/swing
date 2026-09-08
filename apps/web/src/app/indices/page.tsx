@@ -1,5 +1,13 @@
 import { PhaseStub } from "@/components/screen/phase-stub";
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
+import { screenMetadata } from "@/lib/seo";
+
+export const metadata = screenMetadata({
+  title: "Indices",
+  description:
+    "NSE indices — broad, sectoral, thematic and strategy — with OHLC, 1W/1M/3M returns, distance from 52-week high, advance/decline and a constituents breakdown.",
+  path: "/indices",
+});
 
 export default function IndicesPage() {
   return (

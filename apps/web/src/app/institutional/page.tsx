@@ -1,5 +1,13 @@
 import { PhaseStub } from "@/components/screen/phase-stub";
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
+import { screenMetadata } from "@/lib/seo";
+
+export const metadata = screenMetadata({
+  title: "Institutional Activity",
+  description:
+    "NSE bulk and block deals with repeat-accumulation flags, participant-wise open interest (FII/DII/Pro/Client), and the FII derivatives long/short ratio.",
+  path: "/institutional",
+});
 
 export default function InstitutionalPage() {
   return (

@@ -34,8 +34,15 @@ frontend — do these in order. Do not skip steps.
   `data.meta.stale` → amber treatment.
 - Build with the UI primitives in `components/ui/` and **all** number/price formatting
   through `lib/format.ts` (Indian grouping, Unicode `−`, explicit signs, ₹cr, IST stamps).
-- Match the design file: light theme, violet accent, tabular numerals, mono for
-  timestamps and `source:` footers, every data panel gets a `<DataSourceFooter>`.
+- Match the design file: light theme, violet accent `#7C3AED`, Inter for UI + JetBrains
+  Mono for timestamps / `source:` footers / numeric metadata, tabular numerals on all
+  price data, every data panel gets a `<DataSourceFooter>`.
+- **SEO — required on every route.** Server pages `export const metadata`; client pages
+  get a sibling `layout.tsx` that does. Always go through `screenMetadata()` in
+  `lib/seo.ts` (canonical + Open Graph + Twitter). One real `<h1>` per page (via
+  `ScreenHeader`), semantic landmarks, descriptive link text. Dynamic routes use
+  `generateMetadata`. User-specific/thin pages pass `noindex: true`. Keep
+  `robots.ts` / `sitemap.ts` / `manifest.ts` current when add/removing routes.
 
 ### 5. Verify (must actually run — report real output)
 - API: `cd apps/api && .venv/bin/ruff check app && .venv/bin/pytest -q`

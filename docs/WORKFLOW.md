@@ -94,6 +94,19 @@ Order of construction: **source adapter → job → service → router.**
   sector, ranges; indices category/timeframe; news filters) belong in the URL via `nuqs`.
   Transient UI (open accordion, expanded row, drawer, remembered view mode) belongs in a
   Zustand store.
+- **SEO — every route ships with metadata:**
+  - Server page → `export const metadata`. Client page (`"use client"`) → a sibling
+    `layout.tsx` (server component) that exports it. Dynamic route → `generateMetadata`.
+  - Build it with `screenMetadata({ title, description, path, noindex? })` from
+    `lib/seo.ts` — that adds the canonical URL, Open Graph and Twitter tags consistently.
+    `title` is the bare screen name; the root layout's template appends `· Swing Terminal`.
+  - `description` is one sentence, specific, mentions "NSE" and what the page does.
+  - Exactly one `<h1>` per page — `ScreenHeader` renders it. Use semantic elements
+    (`<nav>`, `<main>`, `<header>`), real link text (never "click here"), `alt` on images.
+  - User-specific or data-thin pages (watchlist) pass `noindex: true`.
+  - Adding or removing a route → update `app/robots.ts` and `app/sitemap.ts`.
+  - `NEXT_PUBLIC_SITE_URL` must be set in production (Vercel) — it drives `metadataBase`,
+    canonicals, the sitemap and robots host.
 
 ## Step 5 — Verify
 
