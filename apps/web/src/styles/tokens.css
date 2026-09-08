@@ -1,0 +1,14 @@
+/*
+ * Non-theme layout constants. Colours, fonts and radii live in the `@theme` block in
+ * globals.css (Tailwind v4 emits matching `:root` custom properties for those, so both
+ * `bg-surface` utilities and `var(--color-surface)` inline styles resolve).
+ *
+ * Only shell geometry lives here — values read straight from
+ * design/swing-terminal.dc.html.
+ */
+:root {
+  --shell-rail-w: 64px;
+  --shell-rail-w-expanded: 220px;
+  --shell-topbar-h: 56px;
+  --canvas-w: 1440px;
+}

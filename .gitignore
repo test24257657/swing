@@ -1,0 +1,38 @@
+# Node / Next
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+.turbo/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
+
+# Env
+.env
+.env.local
+*.env
+!.env.example
+!*.env.example
+
+# Data / caches
+data/
+.cache/
+raw_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Claude
+.claude/worktrees/

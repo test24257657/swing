@@ -1,0 +1,89 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+/*
+ * Design tokens — extracted verbatim from design/swing-terminal.dc.html.
+ * Light theme, violet accent. Tailwind v4 `@theme` emits both the utility classes
+ * (`bg-surface`, `text-up-text`, `font-mono`) and matching `:root` CSS variables
+ * (`var(--color-surface)`), so inline styles and utilities share one source.
+ * The design is a single fixed 1440px desktop canvas — no dark mode for v1.
+ */
+@theme {
+  --color-bg: #f5f5f6;
+  --color-surface: #ffffff;
+  --color-surface-2: #efeff1;
+  --color-surface-3: #fafafa;
+  --color-surface-inset: #e4e4e7;
+
+  --color-text: #18181b;
+  --color-text-secondary: #52525b;
+  --color-text-muted: #8b8b93;
+  --color-text-faint: #a8a8b0;
+
+  --color-border: rgba(9, 9, 11, 0.1);
+  --color-border-strong: rgba(9, 9, 11, 0.22);
+
+  --color-accent: #7c3aed;
+  --color-accent-hover: #6d28d9;
+  --color-accent-tint: rgba(124, 58, 237, 0.13);
+  --color-accent-tint-2: rgba(139, 92, 246, 0.14);
+  --color-accent-border: rgba(139, 92, 246, 0.4);
+
+  --color-up: #16a34a;
+  --color-up-text: #15803d;
+  --color-down: #dc2626;
+  --color-down-text: #b91c1c;
+
+  --color-stale: #d97706;
+  --color-stale-text: #b45309;
+  --color-stale-bg: rgba(217, 119, 6, 0.07);
+
+  --color-info: #2563eb;
+  --color-info-text: #1d4ed8;
+
+  --font-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), "JetBrains Mono", ui-monospace, monospace;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Every price / metric in this product uses tabular figures — never proportional. */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+@keyframes shimmer {
+  0% { opacity: 0.35; }
+  50% { opacity: 0.7; }
+  100% { opacity: 0.35; }
+}
+@keyframes flash-up {
+  0% { background: rgba(22, 163, 74, 0.22); }
+  40% { background: rgba(22, 163, 74, 0.1); }
+  100% { background: transparent; }
+}
+@keyframes flash-down {
+  0% { background: rgba(220, 38, 38, 0.22); }
+  40% { background: rgba(220, 38, 38, 0.1); }
+  100% { background: transparent; }
+}
