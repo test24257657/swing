@@ -59,10 +59,12 @@ product — it is the frame the later phases hang off.
 
 | Item | Phase |
 |---|---|
-| `daily_indicators` table + nightly compute (RSI/ATR/ADX/DMA/RS/…) | 1 |
-| Screener scoring, `screener_scores`, saved screens, TanStack Virtual list | 1 |
-| Real NSE holiday calendar (replaces the weekend-only rule) | 1 |
+| ~~`daily_indicators` table + nightly compute~~ | **done in Phase 1** |
+| ~~Screener scoring, `screener_scores`, saved screens~~ | **done in Phase 1** |
+| Real NSE holiday calendar (replaces the weekend-only rule) | 2 |
 | `pattern_signals` + the 4 detectors (VCP, IPO base, 52WH breakout, near-pivot) | 2 |
+| TanStack Virtual list (currently server-paginated) | later |
+| Flat Base + Cup & Handle detectors (deferred from Phase 2) | later |
 | Lightweight Charts wrapper + SVG annotation layer | 3 |
 | Corp-action adjustment (`corp_actions`, `adj_factor` maintenance) | 3 |
 | Stock-detail panels, option chain, filing verification | 4/8 |
