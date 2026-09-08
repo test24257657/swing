@@ -8,8 +8,11 @@ import { PhaseStub } from "@/components/screen/phase-stub";
 import { ScreenHeader } from "@/components/screen/screen-header";
 import { Segmented } from "@/components/ui";
 import { useScreener } from "@/lib/api/hooks";
+import type { ScreenerFacets } from "@/lib/api/types";
 import { RESET_PARAMS, toApiParams, useScreenerParams } from "@/lib/url/screener-params";
 import { useView } from "@/stores/view";
+
+const EMPTY_FACETS: ScreenerFacets = { sectors: {}, verdicts: {}, patterns: {}, stages: {} };
 
 export function ScreenerClient() {
   const [params, setParams] = useScreenerParams();
@@ -30,7 +33,7 @@ export function ScreenerClient() {
         params={params}
         setParams={setParams}
         reset={() => setParams(RESET_PARAMS)}
-        facets={result?.facets.sectors ?? {}}
+        facets={result?.facets ?? EMPTY_FACETS}
       />
 
       <div className="min-w-0 flex-1 px-6 pb-14 pt-6">

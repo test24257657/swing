@@ -2,35 +2,36 @@
 
 import { useState } from "react";
 
-import { Accordion, Segmented } from "@/components/ui";
+import { Accordion } from "@/components/ui";
 import { useSaveScreen, useSectors } from "@/lib/api/hooks";
+import type { ScreenerFacets } from "@/lib/api/types";
 import { cn } from "@/lib/cn";
 import {
   activeFilterCount,
   PATTERNS,
-  STAGES,
   type PatternCode,
   type ScreenerState,
+  STAGES,
+  type Stage,
 } from "@/lib/url/screener-params";
 import { useFilters } from "@/stores/filters";
 
+import { PATTERN_META } from "./pattern-chip";
 import { RangeField } from "./range-field";
 import { SavedScreens } from "./saved-screens";
 
-const PATTERN_META: Record<PatternCode, { label: string; tip: string }> = {
-  vcp: { label: "VCP", tip: "Volatility Contraction Pattern — successive shallower pullbacks, volume drying up into the pivot." },
-  ipo_base: { label: "IPO Base", tip: "First base after listing — a 4+ week range with the listing-day high as resistance." },
-  high_52w_breakout: { label: "52-Week High Breakout", tip: "Close above the trailing 52-week high, confirmed by above-average volume." },
-  near_pivot: { label: "Near Pivot Point", tip: "Within ~3% of the pattern pivot — the buy trigger, not yet crossed." },
+const STAGE_NOTE: Record<Stage, string> = {
+  all: "Every stage — expect a mix of setups you cannot trade yet.",
+  forming: "Pattern still building. Watch, don't buy — the pivot isn't defined.",
+  confirmed: "Pivot crossed on volume within 3 sessions. The tradeable window.",
+  extended: "More than 5% past pivot — entry risk is elevated, wait for a pullback.",
 };
-
-const STAGE_OPTS = STAGES.map((s) => ({ value: s, label: s[0].toUpperCase() + s.slice(1) }));
 
 interface Props {
   params: ScreenerState;
   setParams: (patch: Partial<ScreenerState>) => void;
   reset: () => void;
-  facets: Record<string, number>;
+  facets: ScreenerFacets;
 }
 
 export function FilterRail({ params, setParams, reset, facets }: Props) {
@@ -88,6 +89,7 @@ export function FilterRail({ params, setParams, reset, facets }: Props) {
         <div className="flex flex-col gap-0.5">
           {PATTERNS.map((code) => {
             const on = params.patterns.includes(code);
+            const count = facets.patterns[code];
             return (
               <button
                 key={code}
@@ -109,21 +111,49 @@ export function FilterRail({ params, setParams, reset, facets }: Props) {
                 <span className={cn("text-[13px] font-medium", on ? "text-text" : "text-text-secondary")}>
                   {PATTERN_META[code].label}
                 </span>
+                {count != null && (
+                  <span
+                    className={cn(
+                      "tnum ml-auto font-mono text-[11px]",
+                      on ? "text-accent" : "text-text-muted",
+                    )}
+                  >
+                    {count}
+                  </span>
+                )}
               </button>
             );
           })}
         </div>
-        <p className="mt-2 font-mono text-[11px] text-text-faint">counts arrive with Phase 2</p>
 
         <div className="mt-4 rounded-lg border border-[rgba(139,92,246,0.28)] bg-surface p-3">
           <div className="mb-2 text-[11px] font-semibold tracking-wide">BREAKOUT STAGE</div>
-          <Segmented
-            options={STAGE_OPTS}
-            value={params.stage}
-            onChange={(stage) => setParams({ stage, page: 1 })}
-            size="sm"
-            className="w-full [&>button]:flex-1"
-          />
+          <div className="grid grid-cols-2 gap-1">
+            {STAGES.map((s) => {
+              const on = params.stage === s;
+              const count = s === "all" ? undefined : facets.stages[s];
+              return (
+                <button
+                  key={s}
+                  onClick={() => setParams({ stage: s, page: 1 })}
+                  className={cn(
+                    "flex h-8 items-center justify-center gap-1.5 rounded-md border text-[13px] font-medium",
+                    on
+                      ? "border-accent bg-accent text-white"
+                      : "border-border bg-surface-2 text-text-secondary",
+                  )}
+                >
+                  {s[0].toUpperCase() + s.slice(1)}
+                  {count != null && (
+                    <span className={cn("tnum font-mono text-[11px]", on ? "opacity-80" : "opacity-60")}>
+                      {count}
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+          <p className="mt-2 text-[11px] leading-relaxed text-text-secondary">{STAGE_NOTE[params.stage]}</p>
         </div>
       </div>
 
@@ -157,7 +187,7 @@ export function FilterRail({ params, setParams, reset, facets }: Props) {
               <SectorChip
                 key={s.slug}
                 active={params.sector === s.slug}
-                count={facets[s.name]}
+                count={facets.sectors[s.name]}
                 onClick={() => setParams({ sector: s.slug, page: 1 })}
               >
                 {s.name}

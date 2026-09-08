@@ -64,6 +64,8 @@ export interface ScreenerRow {
 export interface ScreenerFacets {
   sectors: Record<string, number>;
   verdicts: Record<string, number>;
+  patterns: Record<string, number>;
+  stages: Record<string, number>;
 }
 
 export interface ScreenerResult {

@@ -10,6 +10,7 @@ import { cn } from "@/lib/cn";
 import { type ScreenerState, type Sort } from "@/lib/url/screener-params";
 import { useWatchlist } from "@/stores/watchlist";
 
+import { PatternChip } from "./pattern-chip";
 import { ScoreCell } from "./score-cell";
 
 const TEMPLATE =
@@ -165,14 +166,7 @@ export function ScreenerList({ query, params, setParams, onClearFilters }: Props
                 {r.patterns.length === 0 ? (
                   <span className="text-[11px] text-text-faint">—</span>
                 ) : (
-                  r.patterns.map((p) => (
-                    <span
-                      key={p}
-                      className="rounded border border-[var(--color-accent-border)] bg-[var(--color-accent-tint-2)] px-1.5 py-px text-[11px] font-medium text-accent"
-                    >
-                      {p}
-                    </span>
-                  ))
+                  r.patterns.map((p) => <PatternChip key={p} code={p} />)
                 )}
               </div>
               <div className={cn("text-right text-[13px]", toneColor(direction(r.rs_vs_sector_1m)))}>
