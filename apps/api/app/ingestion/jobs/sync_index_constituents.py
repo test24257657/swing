@@ -8,7 +8,8 @@ from sqlalchemy.dialects.postgresql import insert as pg_insert
 
 from app.db.session import SessionLocal
 from app.ingestion.run_context import ingestion_run
-from app.models import IndexConstituent, MarketIndex, Sector, Symbol
+from app.ingestion.sources.niftyindices import CSV_FILE, constituents
+from app.models import IndexConstituent, MarketIndex, Symbol
 
 log = logging.getLogger("swing.ingest.index_constituents")
 
@@ -16,49 +17,40 @@ JOB = "sync_index_constituents"
 
 
 def run(business_date: date | None = None) -> None:
-    """Populate index_constituents for **sectoral** indices from the symbol->sector map
-    (weight NULL — no factsheet source yet). Broad/thematic index membership needs a
-    dedicated NSE source and is left empty for now."""
+    """Populate index_constituents from the niftyindices.com constituent lists (cached).
+    Covers every index in CSV_FILE — broad and sectoral. Weights stay NULL (the plain
+    lists carry no weights); the UI falls back to equal-weight for point contribution."""
     business_date = business_date or date.today()
     db = SessionLocal()
     try:
         with ingestion_run(db, JOB, business_date) as run_row:
-            sector_to_index = dict(
-                db.execute(
-                    select(Sector.id, MarketIndex.id).join(
-                        MarketIndex, MarketIndex.symbol == Sector.nse_index_symbol
-                    )
-                ).all()
-            )
-            members = db.execute(
-                select(Symbol.id, Symbol.sector_id).where(
-                    Symbol.is_active.is_(True), Symbol.sector_id.isnot(None)
-                )
-            ).all()
+            symbols_by_name = {s.nse_symbol: s.id for s in db.execute(select(Symbol)).scalars()}
+            indices = {m.symbol: m for m in db.execute(select(MarketIndex)).scalars()}
 
-            payload = []
-            for symbol_id, sector_id in members:
-                index_id = sector_to_index.get(sector_id)
-                if index_id:
-                    payload.append(
-                        {"index_id": index_id, "symbol_id": symbol_id, "weight": None, "as_of": business_date}
-                    )
+            payload, done = [], []
+            for symbol, mi in indices.items():
+                if symbol not in CSV_FILE:
+                    continue
+                members = constituents(symbol)
+                if not members:
+                    continue
+                done.append(symbol)
+                db.execute(delete(IndexConstituent).where(IndexConstituent.index_id == mi.id))
+                for name in members:
+                    sid = symbols_by_name.get(name)
+                    if sid:
+                        payload.append(
+                            {"index_id": mi.id, "symbol_id": sid, "weight": None, "as_of": business_date}
+                        )
 
-            db.execute(
-                delete(IndexConstituent).where(IndexConstituent.index_id.in_(list(sector_to_index.values())))
-            )
             if payload:
                 db.execute(pg_insert(IndexConstituent).values(payload).on_conflict_do_nothing())
             db.commit()
 
             run_row.rows_written = len(payload)
-            run_row.source_stats = {
-                "sectoral_indices": len(sector_to_index),
-                "memberships": len(payload),
-                "note": "sectoral only; weights NULL",
-            }
+            run_row.source_stats = {"indices": done, "memberships": len(payload), "weights": "equal (NULL)"}
             run_row.status = "success" if payload else "partial"
-        log.info("index constituents: %s memberships", run_row.rows_written)
+        log.info("index constituents: %s memberships across %s indices", run_row.rows_written, len(done))
     finally:
         db.close()
 

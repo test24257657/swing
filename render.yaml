@@ -40,8 +40,8 @@ services:
     startCommand: >-
       python -m app.ingestion.jobs.ingest_holidays &&
       python -m app.ingestion.jobs.sync_symbols &&
-      python -m app.ingestion.jobs.sync_index_constituents &&
       python -m app.ingestion.jobs.ingest_indices &&
+      python -m app.ingestion.jobs.sync_index_constituents &&
       python -m app.ingestion.jobs.ingest_bhavcopy &&
       python -m app.ingestion.jobs.ingest_fii_dii &&
       python -m app.ingestion.jobs.compute_indicators &&

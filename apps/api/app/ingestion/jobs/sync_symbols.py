@@ -59,28 +59,20 @@ def _fetch_fno_symbols() -> set[str]:
 
 
 def _map_sector_constituents(db: Session, sectors: dict[str, Sector]) -> int:
-    """Best-effort: assign symbols to sectors from each sectoral index's constituents."""
-    from nselib import capital_market
+    """Assign symbols to sectors from each sectoral index's constituent list
+    (niftyindices.com CSV, cached)."""
+    from app.ingestion.sources.niftyindices import constituents
 
     mapped = 0
     symbols_by_name = {s.nse_symbol: s for s in db.execute(select(Symbol)).scalars()}
     for sector in sectors.values():
         if not sector.nse_index_symbol:
             continue
-        try:
-            raw = capital_market.index_data(sector.nse_index_symbol)
-            df = pd.DataFrame(raw)
-            df.columns = [c.strip().lower() for c in df.columns]
-            col = next((c for c in df.columns if c in {"symbol", "indexsymbol"}), None)
-            if not col:
-                continue
-            for sym in df[col]:
-                s = symbols_by_name.get(str(sym).strip().upper())
-                if s is not None and s.sector_id is None:
-                    s.sector_id = sector.id
-                    mapped += 1
-        except Exception as exc:  # noqa: BLE001 - never let one index break the job
-            log.warning("constituents for %s failed: %s", sector.nse_index_symbol, exc)
+        for sym in constituents(sector.nse_index_symbol):
+            s = symbols_by_name.get(sym)
+            if s is not None:
+                s.sector_id = sector.id
+                mapped += 1
     db.commit()
     return mapped
 

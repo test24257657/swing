@@ -32,8 +32,8 @@ def _nightly() -> None:
     ingest_holidays.run()
     refresh_holidays()
     sync_symbols.run()
-    sync_index_constituents.run()
     ingest_indices.run()
+    sync_index_constituents.run()  # needs both symbols and indices
     ingest_bhavcopy.run()
     ingest_fii_dii.run()
     compute_indicators.run()

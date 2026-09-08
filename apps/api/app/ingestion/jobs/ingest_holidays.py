@@ -20,13 +20,21 @@ def _fetch() -> pd.DataFrame:
     cache = raw_cache_path("holidays", f"nse-{date.today().year}")
     if cache.exists() and cache.stat().st_size > 0:
         return pd.read_csv(cache)
-    from nselib import capital_market
+    import nselib
 
-    raw = capital_market.holiday_master(holiday_type="trading")
-    df = pd.DataFrame(raw)
-    df.columns = [c.strip().lower() for c in df.columns]
+    df = pd.DataFrame(nselib.trading_holiday_calendar())
+    df.columns = [c.strip() for c in df.columns]
     df.to_csv(cache, index=False)
     return df
+
+
+def _parse_date(raw: str) -> date | None:
+    for fmt in ("%d-%b-%Y", "%d-%b-%y", "%Y-%m-%d", "%d-%m-%Y"):
+        try:
+            return datetime.strptime(str(raw).strip(), fmt).date()
+        except ValueError:
+            continue
+    return None
 
 
 def run(business_date: date | None = None) -> None:
@@ -35,35 +43,34 @@ def run(business_date: date | None = None) -> None:
     try:
         with ingestion_run(db, JOB, business_date) as run_row:
             df = _fetch()
-            date_col = next((c for c in df.columns if "date" in c or "trade" in c), None)
-            desc_col = next((c for c in df.columns if "descr" in c or "purpose" in c or "holiday" in c), None)
+            lower = {c.lower(): c for c in df.columns}
+            date_col = lower.get("tradingdate") or next((c for c in df.columns if "date" in c.lower()), None)
+            prod_col = lower.get("product")
+            desc_col = lower.get("description")
+            eve_col = lower.get("evening_session")
             if not date_col:
                 run_row.status = "partial"
                 run_row.source_stats = {"note": "no date column", "columns": list(df.columns)}
                 return
 
-            payload = []
+            if prod_col is not None:
+                df = df[df[prod_col].astype(str).str.contains("Equit", case=False, na=False)]
+
+            seen: dict[date, dict] = {}
             for r in df.to_dict("records"):
-                raw_d = str(r[date_col]).strip()
-                d = None
-                for fmt in ("%d-%b-%Y", "%d-%b-%y", "%Y-%m-%d", "%d-%m-%Y"):
-                    try:
-                        d = datetime.strptime(raw_d, fmt).date()
-                        break
-                    except ValueError:
-                        continue
+                d = _parse_date(r[date_col])
                 if d is None:
                     continue
                 desc = str(r.get(desc_col, "")).strip() if desc_col else ""
-                payload.append(
-                    {
-                        "date": d,
-                        "description": desc[:120],
-                        "segment": "equities",
-                        "is_muhurat": "muhurat" in desc.lower(),
-                    }
-                )
+                eve = str(r.get(eve_col, "")).strip() if eve_col else ""
+                seen[d] = {
+                    "date": d,
+                    "description": desc[:120],
+                    "segment": "equities",
+                    "is_muhurat": ("muhurat" in desc.lower()) or (eve not in ("", "nan", "None")),
+                }
 
+            payload = list(seen.values())
             if payload:
                 stmt = pg_insert(HolidayCalendar).values(payload)
                 stmt = stmt.on_conflict_do_update(
@@ -74,9 +81,9 @@ def run(business_date: date | None = None) -> None:
                 db.commit()
 
             run_row.rows_written = len(payload)
-            run_row.source_stats = {"holidays": len(payload), "source": "nselib.holiday_master"}
+            run_row.source_stats = {"holidays": len(payload), "source": "nselib.trading_holiday_calendar"}
             run_row.status = "success" if payload else "partial"
-        log.info("holidays: %s dates", run_row.rows_written)
+        log.info("holidays: %s equity trading holidays", run_row.rows_written)
     finally:
         db.close()
 
