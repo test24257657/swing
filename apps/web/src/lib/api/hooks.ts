@@ -44,6 +44,7 @@ export interface SymbolQuery {
   fno_only?: boolean;
   limit?: number;
   offset?: number;
+  [key: string]: string | number | boolean | undefined;
 }
 
 export function useSymbols(params: SymbolQuery = {}) {

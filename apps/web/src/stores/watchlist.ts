@@ -41,14 +41,7 @@ export const useWatchlist = create<WatchlistState>()(
         set((s) => ({
           items: {
             ...s.items,
-            [item.nseSymbol]: {
-              target: null,
-              stop: null,
-              entry: null,
-              thesis: "",
-              ...item,
-              addedAt: item.addedAt ?? new Date().toISOString(),
-            },
+            [item.nseSymbol]: { ...item, addedAt: item.addedAt ?? new Date().toISOString() },
           },
         })),
       remove: (nseSymbol) =>
