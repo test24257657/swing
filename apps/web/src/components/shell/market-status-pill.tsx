@@ -1,92 +1,64 @@
 "use client";
 
-/**
- * Market-status pill. Four states driven by the NSE holiday calendar:
- * trading / pre-open / closed / holiday (incl. Muhurat). Phase 0 derives the state
- * client-side from IST wall-clock + weekends; a real holiday calendar endpoint replaces
- * `deriveStatus` in a later phase.
- *
- * The design's separate `session` switcher is a preview affordance and is NOT rendered
- * in production.
- */
+import { useEffect, useState } from "react";
 
-type Status = "trading" | "preopen" | "closed" | "holiday";
+import { useMarketStatus } from "@/lib/api/market-hooks";
+import type { MarketStatus } from "@/lib/api/market-types";
 
-interface StatusView {
-  label: string;
-  fg: string;
-  bg: string;
-  bd: string;
-  dot: string;
-}
-
-const VIEWS: Record<Status, StatusView> = {
-  trading: {
-    label: "Market open",
-    fg: "var(--color-up-text)",
-    bg: "rgba(22,163,74,0.10)",
-    bd: "rgba(22,163,74,0.28)",
-    dot: "var(--color-up)",
-  },
-  preopen: {
-    label: "Pre-open",
-    fg: "var(--color-stale-text)",
-    bg: "rgba(217,119,6,0.12)",
-    bd: "rgba(217,119,6,0.32)",
-    dot: "var(--color-stale)",
-  },
-  closed: {
-    label: "Market closed",
-    fg: "var(--color-down-text)",
-    bg: "rgba(220,38,38,0.10)",
-    bd: "rgba(220,38,38,0.28)",
-    dot: "var(--color-down)",
-  },
-  holiday: {
-    label: "Market closed — holiday",
-    fg: "var(--color-stale-text)",
-    bg: "rgba(217,119,6,0.12)",
-    bd: "rgba(217,119,6,0.32)",
-    dot: "var(--color-stale)",
-  },
+const VIEW: Record<MarketStatus["status"], { fg: string; bg: string; bd: string; dot: string }> = {
+  trading: { fg: "var(--color-up-text)", bg: "rgba(22,163,74,0.10)", bd: "rgba(22,163,74,0.28)", dot: "var(--color-up)" },
+  preopen: { fg: "var(--color-stale-text)", bg: "rgba(217,119,6,0.12)", bd: "rgba(217,119,6,0.32)", dot: "var(--color-stale)" },
+  closed: { fg: "var(--color-down-text)", bg: "rgba(220,38,38,0.10)", bd: "rgba(220,38,38,0.28)", dot: "var(--color-down)" },
+  holiday: { fg: "var(--color-stale-text)", bg: "rgba(217,119,6,0.12)", bd: "rgba(217,119,6,0.32)", dot: "var(--color-stale)" },
 };
 
-function nowIST(): { day: number; minutes: number } {
-  const parts = new Intl.DateTimeFormat("en-GB", {
-    timeZone: "Asia/Kolkata",
-    weekday: "short",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: false,
-  }).formatToParts(new Date());
-  const get = (t: string) => parts.find((p) => p.type === t)?.value ?? "";
-  const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-  return {
-    day: days.indexOf(get("weekday")),
-    minutes: Number(get("hour")) * 60 + Number(get("minute")),
-  };
-}
-
-function deriveStatus(): Status {
-  const { day, minutes } = nowIST();
-  if (day === 0 || day === 6) return "closed";
-  if (minutes >= 540 && minutes < 555) return "preopen"; // 09:00–09:15
-  if (minutes >= 555 && minutes <= 930) return "trading"; // 09:15–15:30
-  return "closed";
+function hms(secs: number): string {
+  const h = Math.floor(secs / 3600);
+  const m = Math.floor((secs % 3600) / 60);
+  const s = Math.floor(secs % 60);
+  return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
 }
 
 export function MarketStatusPill() {
-  const status = deriveStatus();
-  const v = VIEWS[status];
+  const { data } = useMarketStatus();
+  const [remaining, setRemaining] = useState<number | null>(null);
+
+  useEffect(() => {
+    if (data?.seconds_to_next == null) {
+      setRemaining(null);
+      return;
+    }
+    setRemaining(data.seconds_to_next);
+    const id = setInterval(() => setRemaining((r) => (r == null ? null : Math.max(0, r - 1))), 1000);
+    return () => clearInterval(id);
+  }, [data?.seconds_to_next, data?.as_of]);
+
+  if (!data) {
+    return (
+      <div className="flex h-[26px] items-center gap-2 rounded-full border border-border bg-surface-2 px-2.5">
+        <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-text-faint)]" />
+        <span className="text-[11px] text-text-muted">status…</span>
+      </div>
+    );
+  }
+
+  const v = VIEW[data.status];
+  const verb = data.note.replace(/[\d:]+$/, "").trim();
+
   return (
-    <div
-      className="flex h-[26px] items-center gap-2 rounded-full border px-2.5"
-      style={{ background: v.bg, borderColor: v.bd }}
-    >
+    <div className="flex h-[26px] items-center gap-2 rounded-full border px-2.5" style={{ background: v.bg, borderColor: v.bd }}>
       <span className="h-1.5 w-1.5 rounded-full" style={{ background: v.dot }} />
       <span className="text-[11px] font-medium whitespace-nowrap" style={{ color: v.fg }}>
-        {v.label}
+        {data.label}
       </span>
+      {remaining != null && (
+        <>
+          <span className="h-3 w-px bg-border-strong" />
+          <span className="tnum font-mono text-[11px] text-text-secondary whitespace-nowrap">
+            {verb} {hms(remaining)}
+          </span>
+        </>
+      )}
     </div>
   );
 }
