@@ -3,10 +3,11 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from datetime import date
 
-from sqlalchemy import Select, and_, func, select
+from sqlalchemy import Select, and_, distinct, exists, func, select
 from sqlalchemy.orm import Session
 
-from app.models import DailyBar, DailyIndicator, ScreenerScore, Sector, Symbol
+from app.models import DailyBar, DailyIndicator, PatternSignal, ScreenerScore, Sector, Symbol
+from app.models.pattern_signal import PATTERN_CODES
 from app.schemas.screener import ScreenerFacets, ScreenerResult, ScreenerRow
 
 SORT_COLUMNS = {
@@ -37,9 +38,8 @@ class ScreenerQuery:
     above_sma_50: bool | None = None
     above_sma_200: bool | None = None
 
-    # Phase 2 — accepted, not yet applied.
     patterns: list[str] = field(default_factory=list)
-    stage: str | None = None
+    stage: str | None = None  # all | forming | confirmed | extended
 
     sort: str = "composite"
     order: str = "desc"
@@ -55,9 +55,7 @@ def _target_date(db: Session) -> date | None:
 
 
 def _base(as_of: date) -> Select:
-    ind = DailyIndicator
-    sc = ScreenerScore
-    bar = DailyBar
+    ind, sc, bar = DailyIndicator, ScreenerScore, DailyBar
     return (
         select(Symbol, Sector.name.label("sector_name"), ind, sc, bar)
         .join(Sector, Sector.id == Symbol.sector_id, isouter=True)
@@ -68,7 +66,17 @@ def _base(as_of: date) -> Select:
     )
 
 
-def _apply_filters(stmt: Select, q: ScreenerQuery) -> Select:
+def _pattern_predicate(as_of: date, q: ScreenerQuery):
+    """EXISTS a pattern_signal today matching the pattern and/or stage filter."""
+    conds = [PatternSignal.symbol_id == Symbol.id, PatternSignal.date == as_of]
+    if q.patterns:
+        conds.append(PatternSignal.pattern_code.in_(q.patterns))
+    if q.stage and q.stage != "all":
+        conds.append(PatternSignal.stage == q.stage)
+    return exists(select(PatternSignal.symbol_id).where(and_(*conds)))
+
+
+def _apply_filters(stmt: Select, q: ScreenerQuery, as_of: date, *, include_patterns: bool = True) -> Select:
     ind, sc = DailyIndicator, ScreenerScore
     if q.sector:
         stmt = stmt.where(Sector.slug == q.sector)
@@ -97,11 +105,65 @@ def _apply_filters(stmt: Select, q: ScreenerQuery) -> Select:
     ):
         if val is not None:
             stmt = stmt.where(col.is_(val))
+    if include_patterns and (q.patterns or (q.stage and q.stage != "all")):
+        stmt = stmt.where(_pattern_predicate(as_of, q))
     return stmt
+
+
+def _patterns_by_symbol(db: Session, as_of: date, symbol_ids: list[int]) -> dict[int, list[str]]:
+    if not symbol_ids:
+        return {}
+    rows = db.execute(
+        select(PatternSignal.symbol_id, PatternSignal.pattern_code)
+        .where(PatternSignal.date == as_of, PatternSignal.symbol_id.in_(symbol_ids))
+        .order_by(PatternSignal.confidence.desc())
+    ).all()
+    out: dict[int, list[str]] = {}
+    for sid, code in rows:
+        out.setdefault(sid, []).append(code)
+    return out
+
+
+def _pattern_facets(db: Session, q: ScreenerQuery, as_of: date) -> tuple[dict[str, int], dict[str, int]]:
+    """Count matching symbols per pattern and per stage over the filtered set, but
+    *ignoring* the pattern/stage filter itself so toggling one doesn't zero the others."""
+    base = _apply_filters(_base(as_of), q, as_of, include_patterns=False)
+    sub = base.with_only_columns(Symbol.id).order_by(None).subquery()
+    stage_chosen = bool(q.stage and q.stage != "all")
+
+    by_pattern = dict(
+        db.execute(
+            select(PatternSignal.pattern_code, func.count(distinct(PatternSignal.symbol_id)))
+            .where(
+                PatternSignal.date == as_of,
+                PatternSignal.symbol_id.in_(select(sub.c.id)),
+                *([PatternSignal.stage == q.stage] if q.stage and q.stage != "all" else []),
+            )
+            .group_by(PatternSignal.pattern_code)
+        ).all()
+    )
+    by_stage: dict[str, int] = {}
+    if not stage_chosen:
+        by_stage = dict(
+            db.execute(
+                select(PatternSignal.stage, func.count(distinct(PatternSignal.symbol_id)))
+                .where(
+                    PatternSignal.date == as_of,
+                    PatternSignal.symbol_id.in_(select(sub.c.id)),
+                    *([PatternSignal.pattern_code.in_(q.patterns)] if q.patterns else []),
+                )
+                .group_by(PatternSignal.stage)
+            ).all()
+        )
+    # ensure every known code appears (0 when absent)
+    for code in PATTERN_CODES:
+        by_pattern.setdefault(code, 0)
+    return by_pattern, by_stage
 
 
 def run_screener(db: Session, q: ScreenerQuery) -> ScreenerResult:
     as_of = _target_date(db)
+    empty_facets = ScreenerFacets(sectors={}, verdicts={}, patterns={}, stages={})
     if as_of is None:
         return ScreenerResult(
             rows=[],
@@ -110,11 +172,10 @@ def run_screener(db: Session, q: ScreenerQuery) -> ScreenerResult:
             per_page=q.per_page,
             as_of=None,
             score_validated=False,
-            facets=ScreenerFacets(sectors={}, verdicts={}),
+            facets=empty_facets,
         )
 
-    filtered = _apply_filters(_base(as_of), q)
-
+    filtered = _apply_filters(_base(as_of), q, as_of)
     total = db.execute(select(func.count()).select_from(filtered.order_by(None).subquery())).scalar_one()
 
     sort_col = SORT_COLUMNS.get(q.sort, ScreenerScore.composite_score)
@@ -124,7 +185,6 @@ def run_screener(db: Session, q: ScreenerQuery) -> ScreenerResult:
         filtered.order_by(sort_col.nulls_last()).limit(q.per_page).offset((page - 1) * q.per_page)
     ).all()
 
-    # Facets over the filtered set (small: one grouped query each).
     sub = filtered.order_by(None).subquery()
     sector_counts = dict(
         db.execute(
@@ -138,6 +198,10 @@ def run_screener(db: Session, q: ScreenerQuery) -> ScreenerResult:
             select(sub.c.verdict, func.count()).where(sub.c.verdict.isnot(None)).group_by(sub.c.verdict)
         ).all()
     )
+    pattern_counts, stage_counts = _pattern_facets(db, q, as_of)
+
+    page_symbol_ids = [sym.id for sym, *_ in rows]
+    patterns_map = _patterns_by_symbol(db, as_of, page_symbol_ids)
 
     out: list[ScreenerRow] = []
     for sym, sector_name, ind, sc, bar in rows:
@@ -168,6 +232,7 @@ def run_screener(db: Session, q: ScreenerQuery) -> ScreenerResult:
                 above_sma_20=ind.above_sma_20 if ind else None,
                 above_sma_50=ind.above_sma_50 if ind else None,
                 above_sma_200=ind.above_sma_200 if ind else None,
+                patterns=patterns_map.get(sym.id, []),
             )
         )
 
@@ -177,8 +242,13 @@ def run_screener(db: Session, q: ScreenerQuery) -> ScreenerResult:
         page=page,
         per_page=q.per_page,
         as_of=as_of,
-        score_validated=False,  # flips to True once the backtest passes
-        facets=ScreenerFacets(sectors=sector_counts, verdicts=verdict_counts),
+        score_validated=False,
+        facets=ScreenerFacets(
+            sectors=sector_counts,
+            verdicts=verdict_counts,
+            patterns=pattern_counts,
+            stages=stage_counts,
+        ),
     )
 
 

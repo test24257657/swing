@@ -41,6 +41,8 @@ class ScreenerRow(BaseModel):
 class ScreenerFacets(BaseModel):
     sectors: dict[str, int]
     verdicts: dict[str, int]
+    patterns: dict[str, int] = Field(default_factory=dict)
+    stages: dict[str, int] = Field(default_factory=dict)
 
 
 class ScreenerResult(BaseModel):

@@ -42,6 +42,7 @@ services:
       python -m app.ingestion.jobs.ingest_indices &&
       python -m app.ingestion.jobs.ingest_bhavcopy &&
       python -m app.ingestion.jobs.compute_indicators &&
+      python -m app.ingestion.jobs.detect_patterns &&
       python -m app.ingestion.jobs.sync_fundamentals &&
       python -m app.ingestion.jobs.compute_scores &&
       python -m app.ingestion.jobs.run_backtest

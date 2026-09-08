@@ -10,15 +10,28 @@ from app.ingestion.sources.nse_bhavcopy import normalize
 SAMPLE = pd.DataFrame(
     [
         {
-            "SYMBOL": "TATAMOTORS", "SERIES": "EQ", "PREV_CLOSE": "995.85",
-            "OPEN_PRICE": "997.00", "HIGH_PRICE": "1031.00", "LOW_PRICE": "996.00",
-            "CLOSE_PRICE": "1024.35", "AVG_PRICE": "1016.80", "TTL_TRD_QNTY": "24,10,000",
-            "TURNOVER_LACS": "24505.10", "NO_OF_TRADES": "180245",
-            "DELIV_QTY": "17,11,000", "DELIV_PER": "71.00",
+            "SYMBOL": "TATAMOTORS",
+            "SERIES": "EQ",
+            "PREV_CLOSE": "995.85",
+            "OPEN_PRICE": "997.00",
+            "HIGH_PRICE": "1031.00",
+            "LOW_PRICE": "996.00",
+            "CLOSE_PRICE": "1024.35",
+            "AVG_PRICE": "1016.80",
+            "TTL_TRD_QNTY": "24,10,000",
+            "TURNOVER_LACS": "24505.10",
+            "NO_OF_TRADES": "180245",
+            "DELIV_QTY": "17,11,000",
+            "DELIV_PER": "71.00",
         },
         {  # index/derivative row that must be dropped
-            "SYMBOL": "NIFTY", "SERIES": "--", "OPEN_PRICE": "0", "HIGH_PRICE": "0",
-            "LOW_PRICE": "0", "CLOSE_PRICE": "0", "TTL_TRD_QNTY": "0",
+            "SYMBOL": "NIFTY",
+            "SERIES": "--",
+            "OPEN_PRICE": "0",
+            "HIGH_PRICE": "0",
+            "LOW_PRICE": "0",
+            "CLOSE_PRICE": "0",
+            "TTL_TRD_QNTY": "0",
         },
     ]
 )

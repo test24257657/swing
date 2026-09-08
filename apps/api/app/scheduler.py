@@ -8,6 +8,7 @@ from apscheduler.triggers.cron import CronTrigger
 from app.ingestion.jobs import (
     compute_indicators,
     compute_scores,
+    detect_patterns,
     ingest_bhavcopy,
     ingest_indices,
     run_backtest,
@@ -27,6 +28,7 @@ def _nightly() -> None:
     ingest_indices.run()
     ingest_bhavcopy.run()
     compute_indicators.run()
+    detect_patterns.run()
     sync_fundamentals.run()  # slow; internally cached
     compute_scores.run()
     run_backtest.run()
