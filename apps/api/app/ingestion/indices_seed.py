@@ -12,6 +12,7 @@ INDICES: list[dict] = [
     {"symbol": "NIFTY 500", "name": "Nifty 500", "category": "broad"},
     {"symbol": "NIFTY MIDCAP 150", "name": "Nifty Midcap 150", "category": "broad"},
     {"symbol": "NIFTY SMALLCAP 250", "name": "Nifty Smallcap 250", "category": "broad"},
+    {"symbol": "INDIA VIX", "name": "India VIX", "category": "strategy"},
     # Sectoral — keep in sync with sectors_seed.py
     {"symbol": "NIFTY AUTO", "name": "Nifty Auto", "category": "sectoral"},
     {"symbol": "NIFTY BANK", "name": "Nifty Bank", "category": "sectoral"},

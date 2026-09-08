@@ -1,14 +1,40 @@
 from __future__ import annotations
 
 from datetime import date, timedelta
+from functools import lru_cache
 
-# Phase 0 uses a weekend-only rule. A real NSE holiday calendar (nselib holiday_calendar)
-# lands in a later phase and replaces ``_is_holiday``.
-_HOLIDAYS: set[date] = set()
+from sqlalchemy import select
+
+from app.db.session import SessionLocal
+from app.models import HolidayCalendar
+
+
+@lru_cache(maxsize=1)
+def _holiday_set() -> frozenset[date]:
+    """NSE trading holidays from the holiday_calendar table (populated by
+    ``ingest_holidays``). Falls back to an empty set if the table is empty — then only
+    weekends are excluded. Cached for the process; the nightly job restarts fresh."""
+    try:
+        db = SessionLocal()
+        try:
+            rows = db.execute(select(HolidayCalendar.date)).scalars().all()
+            return frozenset(rows)
+        finally:
+            db.close()
+    except Exception:  # noqa: BLE001 - calendar must never raise
+        return frozenset()
+
+
+def refresh_holidays() -> None:
+    _holiday_set.cache_clear()
+
+
+def is_trading_day(d: date) -> bool:
+    return d.weekday() < 5 and d not in _holiday_set()
 
 
 def _is_holiday(d: date) -> bool:
-    return d.weekday() >= 5 or d in _HOLIDAYS
+    return not is_trading_day(d)
 
 
 def last_trading_day(ref: date | None = None) -> date:
@@ -16,6 +42,13 @@ def last_trading_day(ref: date | None = None) -> date:
     d = ref or date.today()
     while _is_holiday(d):
         d -= timedelta(days=1)
+    return d
+
+
+def next_trading_day(ref: date | None = None) -> date:
+    d = (ref or date.today()) + timedelta(days=1)
+    while _is_holiday(d):
+        d += timedelta(days=1)
     return d
 
 

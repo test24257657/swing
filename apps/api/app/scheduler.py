@@ -5,14 +5,19 @@ import logging
 from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.triggers.cron import CronTrigger
 
+from app.ingestion.calendar import refresh_holidays
 from app.ingestion.jobs import (
+    compute_breadth,
     compute_indicators,
     compute_scores,
     detect_patterns,
     ingest_bhavcopy,
+    ingest_fii_dii,
+    ingest_holidays,
     ingest_indices,
     run_backtest,
     sync_fundamentals,
+    sync_index_constituents,
     sync_symbols,
 )
 
@@ -24,10 +29,15 @@ IST = "Asia/Kolkata"
 
 def _nightly() -> None:
     """The post-close pipeline, in dependency order."""
+    ingest_holidays.run()
+    refresh_holidays()
     sync_symbols.run()
+    sync_index_constituents.run()
     ingest_indices.run()
     ingest_bhavcopy.run()
+    ingest_fii_dii.run()
     compute_indicators.run()
+    compute_breadth.run()
     detect_patterns.run()
     sync_fundamentals.run()  # slow; internally cached
     compute_scores.run()

@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
-from app.routers import health, meta, screener, symbols
+from app.routers import health, indices, market, meta, screener, symbols
 
 logging.basicConfig(level=settings.log_level)
 log = logging.getLogger("swing.api")
@@ -39,6 +39,8 @@ app.include_router(health.router)
 app.include_router(meta.router)
 app.include_router(symbols.router)
 app.include_router(screener.router)
+app.include_router(market.router)
+app.include_router(indices.router)
 
 
 @app.get("/", tags=["system"])

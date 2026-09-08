@@ -9,6 +9,7 @@ from app.models.daily_indicator import DailyIndicator
 from app.models.fundamental import Fundamental
 from app.models.index import IndexBar, MarketIndex
 from app.models.ingestion_run import IngestionRun
+from app.models.market import FiiDiiFlow, HolidayCalendar, IndexConstituent, MarketBreadth
 from app.models.pattern_signal import PatternSignal
 from app.models.saved_screen import SavedScreen
 from app.models.screener_score import ScreenerScore
@@ -27,5 +28,9 @@ __all__ = [
     "PatternSignal",
     "SavedScreen",
     "BacktestRun",
+    "MarketBreadth",
+    "FiiDiiFlow",
+    "IndexConstituent",
+    "HolidayCalendar",
     "IngestionRun",
 ]
