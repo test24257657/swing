@@ -23,7 +23,7 @@ class MarketIndex(Base, TimestampMixin):
     # broad | sectoral | thematic | strategy
     category: Mapped[str] = mapped_column(String(16), default="sectoral", nullable=False)
 
-    bars: Mapped[list["IndexBar"]] = relationship(back_populates="index")
+    bars: Mapped[list[IndexBar]] = relationship(back_populates="index")
 
 
 class IndexBar(Base):
@@ -43,4 +43,4 @@ class IndexBar(Base):
 
     source: Mapped[str] = mapped_column(String(40), default="nse_index", nullable=False)
 
-    index: Mapped["MarketIndex"] = relationship(back_populates="bars")
+    index: Mapped[MarketIndex] = relationship(back_populates="bars")
