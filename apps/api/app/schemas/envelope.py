@@ -16,7 +16,9 @@ class Meta(BaseModel):
     as_of: datetime | None = Field(
         default=None, description="When the underlying data was last valid (IST)"
     )
-    stale: bool = Field(default=False, description="True when the latest ingestion is behind schedule")
+    stale: bool = Field(
+        default=False, description="True when the latest ingestion is behind schedule"
+    )
     job: str | None = Field(default=None, description="Ingestion job that produced this data")
 
 

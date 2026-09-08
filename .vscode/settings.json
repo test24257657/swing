@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/apps/api/.venv/bin/python",
+  "python.analysis.extraPaths": ["${workspaceFolder}/apps/api"],
+  "ruff.configuration": "${workspaceFolder}/apps/api/pyproject.toml",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "typescript.tsdk": "apps/web/node_modules/typescript/lib"
+}

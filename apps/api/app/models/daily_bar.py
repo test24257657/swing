@@ -55,4 +55,4 @@ class DailyBar(Base):
 
     source: Mapped[str] = mapped_column(String(40), default="nse_bhavcopy", nullable=False)
 
-    symbol: Mapped["Symbol"] = relationship(back_populates="bars")  # noqa: F821
+    symbol: Mapped[Symbol] = relationship(back_populates="bars")  # noqa: F821

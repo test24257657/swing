@@ -39,5 +39,5 @@ class Symbol(Base, TimestampMixin):
     # nifty50 | next50 | midcap150 | smallcap250 | micro | none
     mcap_category: Mapped[str | None] = mapped_column(String(16))
 
-    sector: Mapped["Sector | None"] = relationship(back_populates="symbols")  # noqa: F821
-    bars: Mapped[list["DailyBar"]] = relationship(back_populates="symbol")  # noqa: F821
+    sector: Mapped[Sector | None] = relationship(back_populates="symbols")  # noqa: F821
+    bars: Mapped[list[DailyBar]] = relationship(back_populates="symbol")  # noqa: F821

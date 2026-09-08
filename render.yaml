@@ -1,0 +1,59 @@
+# Render blueprint — deploys the FastAPI backend + a Redis instance.
+# Create a Neon database separately and paste its URL into DATABASE_URL (as the
+# psycopg form: postgresql+psycopg://...). The web frontend goes to Vercel — see DEPLOY.md.
+
+services:
+  - type: web
+    name: swing-api
+    runtime: python
+    rootDir: apps/api
+    plan: free
+    buildCommand: "pip install --upgrade pip && pip install . && alembic upgrade head"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false # set in the Render dashboard — Neon connection string (postgresql+psycopg://...)
+      - key: REDIS_URL
+        fromService:
+          type: keyvalue
+          name: swing-redis
+          property: connectionString
+      - key: CORS_ORIGINS
+        sync: false # e.g. https://swing-terminal.vercel.app  (only needed if the web app calls the API cross-origin instead of via its /api proxy)
+
+  # Nightly ingestion. Render cron is UTC: 13:45 UTC = 19:15 IST, after the NSE
+  # bhavcopy with delivery data is published. Runs symbol sync then the bhavcopy.
+  - type: cron
+    name: swing-ingest
+    runtime: python
+    rootDir: apps/api
+    plan: free
+    schedule: "45 13 * * 1-5"
+    buildCommand: "pip install --upgrade pip && pip install ."
+    startCommand: "python -m app.ingestion.jobs.sync_symbols && python -m app.ingestion.jobs.ingest_bhavcopy"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: REDIS_URL
+        fromService:
+          type: keyvalue
+          name: swing-redis
+          property: connectionString
+
+  - type: keyvalue
+    name: swing-redis
+    plan: free
+    ipAllowList: [] # only reachable from Render services
+    maxmemoryPolicy: allkeys-lru

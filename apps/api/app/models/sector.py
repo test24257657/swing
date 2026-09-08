@@ -17,4 +17,4 @@ class Sector(Base, TimestampMixin):
     slug: Mapped[str] = mapped_column(String(80), unique=True, nullable=False)
     nse_index_symbol: Mapped[str | None] = mapped_column(String(40))
 
-    symbols: Mapped[list["Symbol"]] = relationship(back_populates="sector")  # noqa: F821
+    symbols: Mapped[list[Symbol]] = relationship(back_populates="sector")  # noqa: F821

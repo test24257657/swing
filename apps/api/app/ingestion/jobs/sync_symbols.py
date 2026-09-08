@@ -64,7 +64,7 @@ def _map_sector_constituents(db: Session, sectors: dict[str, Sector]) -> int:
 
     mapped = 0
     symbols_by_name = {s.nse_symbol: s for s in db.execute(select(Symbol)).scalars()}
-    for slug, sector in sectors.items():
+    for sector in sectors.values():
         if not sector.nse_index_symbol:
             continue
         try:
