@@ -12,6 +12,7 @@ import type {
   MarketPulse,
   MarketStatus,
   SectorRotation,
+  SymbolChart,
 } from "./market-types";
 
 export function useMarketStatus() {
@@ -57,6 +58,16 @@ export function useIndexConstituents(symbol: string | null) {
     queryFn: () =>
       apiGet<Envelope<IndexConstituents>>(`/indices/${encodeURIComponent(symbol!)}/constituents`),
     enabled: Boolean(symbol),
+  });
+}
+
+export function useSymbolChart(symbol: string | null, tf: string, enabled = true) {
+  return useQuery({
+    queryKey: ["stock", "chart", symbol, tf],
+    queryFn: () =>
+      apiGet<Envelope<SymbolChart>>(`/stocks/${encodeURIComponent(symbol!)}/chart`, { tf }),
+    enabled: Boolean(symbol) && enabled,
+    staleTime: 5 * 60_000,
   });
 }
 

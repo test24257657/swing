@@ -2,9 +2,9 @@
 
 import { useMemo } from "react";
 
+import { ChartGrid } from "@/components/screener/chart-grid";
 import { FilterRail } from "@/components/screener/filter-rail";
 import { ScreenerList } from "@/components/screener/screener-list";
-import { PhaseStub } from "@/components/screen/phase-stub";
 import { ScreenHeader } from "@/components/screen/screen-header";
 import { Segmented } from "@/components/ui";
 import { useScreener } from "@/lib/api/hooks";
@@ -13,16 +13,23 @@ import { RESET_PARAMS, toApiParams, useScreenerParams } from "@/lib/url/screener
 import { useView } from "@/stores/view";
 
 const EMPTY_FACETS: ScreenerFacets = { sectors: {}, verdicts: {}, patterns: {}, stages: {} };
+const CHART_PER_PAGE = 10;
 
 export function ScreenerClient() {
   const [params, setParams] = useScreenerParams();
   const view = useView((s) => s.screenerView);
   const setView = useView((s) => s.setScreenerView);
 
-  const apiParams = useMemo(() => toApiParams(params), [params]);
+  const apiParams = useMemo(() => {
+    const p = toApiParams(params);
+    if (view === "chart") p.per_page = CHART_PER_PAGE;
+    return p;
+  }, [params, view]);
   const query = useScreener(apiParams);
 
   const result = query.data?.data;
+  const perPage = view === "chart" ? CHART_PER_PAGE : params.per_page;
+  const totalPages = result ? Math.max(1, Math.ceil(result.total / perPage)) : 1;
   const subtitle = result
     ? `${result.total.toLocaleString("en-IN")} matches · sorted by ${params.sort}`
     : "Rank strong sectors, screen for setups, confirm and size.";
@@ -53,13 +60,11 @@ export function ScreenerClient() {
         />
 
         {view === "chart" ? (
-          <PhaseStub
-            phase="Phase 3 · charts"
-            contents={[
-              "2-col grid of annotated mini-charts (TradingView Lightweight Charts + an SVG overlay layer)",
-              "Pattern-specific overlays — VCP contraction zones, IPO base, 52WH breakout box, pivot line",
-              "20/50 DMA, support/resistance, and a 4-stat chip row per card",
-            ]}
+          <ChartGrid
+            query={query}
+            page={params.page}
+            totalPages={totalPages}
+            onPage={(p) => setParams({ page: p })}
           />
         ) : (
           <ScreenerList

@@ -1,18 +1,17 @@
-import { type HTMLAttributes } from "react";
+import { type HTMLAttributes, forwardRef } from "react";
 
 import { cn } from "@/lib/cn";
 
-export function Card({ className, ...props }: HTMLAttributes<HTMLDivElement>) {
-  return (
+export const Card = forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
+  ({ className, ...props }, ref) => (
     <div
-      className={cn(
-        "rounded-lg border border-[var(--color-border)] bg-surface",
-        className,
-      )}
+      ref={ref}
+      className={cn("rounded-lg border border-[var(--color-border)] bg-surface", className)}
       {...props}
     />
-  );
-}
+  ),
+);
+Card.displayName = "Card";
 
 export function CardHeader({ className, ...props }: HTMLAttributes<HTMLDivElement>) {
   return <div className={cn("flex items-center justify-between p-4", className)} {...props} />;

@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  transpilePackages: ["lightweight-charts"],
   async rewrites() {
     // Proxy API calls in dev so the browser stays same-origin.
     const api = process.env.API_PROXY_TARGET ?? "http://localhost:8000";

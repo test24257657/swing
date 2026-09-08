@@ -159,3 +159,43 @@ export interface IndexCompare {
   dates: string[];
   series: CompareSeries[];
 }
+
+export interface ChartBar {
+  time: string;
+  open: number;
+  high: number;
+  low: number;
+  close: number;
+  volume: number;
+}
+export interface MaPoint {
+  time: string;
+  value: number;
+}
+export interface SrLevel {
+  price: number;
+  kind: "support" | "resistance";
+  touches: number;
+  strength: number;
+}
+export interface ChartPattern {
+  code: string;
+  stage: string;
+  confidence: number;
+  pivot: number | null;
+  stop: number | null;
+  target: number | null;
+  breakout_date: string | null;
+  base_start_date: string | null;
+  meta: Record<string, unknown>;
+}
+export interface SymbolChart {
+  symbol: string;
+  name: string;
+  tf: string;
+  bars: ChartBar[];
+  mas: { sma_20: MaPoint[]; sma_50: MaPoint[]; sma_200: MaPoint[] };
+  sr: SrLevel[];
+  patterns: ChartPattern[];
+  as_of?: string;
+}
