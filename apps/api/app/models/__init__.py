@@ -3,6 +3,7 @@
 Import every model here so Alembic autogenerate and ``Base.metadata`` see them.
 """
 
+from app.models.backtest_run import BacktestRun
 from app.models.daily_bar import DailyBar
 from app.models.daily_indicator import DailyIndicator
 from app.models.fundamental import Fundamental
@@ -23,5 +24,6 @@ __all__ = [
     "IndexBar",
     "ScreenerScore",
     "SavedScreen",
+    "BacktestRun",
     "IngestionRun",
 ]

@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
-from app.routers import health, meta, symbols
+from app.routers import health, meta, screener, symbols
 
 logging.basicConfig(level=settings.log_level)
 log = logging.getLogger("swing.api")
@@ -38,6 +38,7 @@ app.add_middleware(
 app.include_router(health.router)
 app.include_router(meta.router)
 app.include_router(symbols.router)
+app.include_router(screener.router)
 
 
 @app.get("/", tags=["system"])

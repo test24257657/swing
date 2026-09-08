@@ -51,9 +51,7 @@ def list_symbols(
 @router.get("/symbols/{nse_symbol}", response_model=Envelope[SymbolOut])
 def get_symbol(nse_symbol: str, db: Session = Depends(get_db)) -> Envelope[SymbolOut]:
     row = db.execute(
-        select(Symbol)
-        .options(selectinload(Symbol.sector))
-        .where(Symbol.nse_symbol == nse_symbol.upper())
+        select(Symbol).options(selectinload(Symbol.sector)).where(Symbol.nse_symbol == nse_symbol.upper())
     ).scalar_one_or_none()
     if row is None:
         raise HTTPException(status_code=404, detail=f"Unknown symbol {nse_symbol!r}")

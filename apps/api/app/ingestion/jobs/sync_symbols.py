@@ -116,7 +116,7 @@ def run(business_date: date | None = None) -> None:
                     db.add(s)
                     existing[sym] = s
                 s.name = str(r.get("NAME OF COMPANY", s.name)).strip()
-                s.isin = (str(r.get("ISIN NUMBER", "")).strip() or None)
+                s.isin = str(r.get("ISIN NUMBER", "")).strip() or None
                 s.series = str(r.get(" SERIES", r.get("SERIES", "EQ"))).strip() or "EQ"
                 s.listing_date = listing
                 s.is_fno = sym in fno

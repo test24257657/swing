@@ -59,8 +59,19 @@ def ingest_one_day(db: Session, d: date) -> tuple[int, int]:
         update_cols = {
             c: stmt.excluded[c]
             for c in (
-                "open", "high", "low", "close", "prev_close", "vwap", "volume",
-                "trades", "turnover", "delivery_qty", "delivery_pct", "series", "source",
+                "open",
+                "high",
+                "low",
+                "close",
+                "prev_close",
+                "vwap",
+                "volume",
+                "trades",
+                "turnover",
+                "delivery_qty",
+                "delivery_pct",
+                "series",
+                "source",
             )
         }
         stmt = stmt.on_conflict_do_update(index_elements=["symbol_id", "date"], set_=update_cols)

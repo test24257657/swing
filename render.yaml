@@ -36,7 +36,15 @@ services:
     plan: free
     schedule: "45 13 * * 1-5"
     buildCommand: "pip install --upgrade pip && pip install ."
-    startCommand: "python -m app.ingestion.jobs.sync_symbols && python -m app.ingestion.jobs.ingest_bhavcopy"
+    # Full post-close pipeline in dependency order.
+    startCommand: >-
+      python -m app.ingestion.jobs.sync_symbols &&
+      python -m app.ingestion.jobs.ingest_indices &&
+      python -m app.ingestion.jobs.ingest_bhavcopy &&
+      python -m app.ingestion.jobs.compute_indicators &&
+      python -m app.ingestion.jobs.sync_fundamentals &&
+      python -m app.ingestion.jobs.compute_scores &&
+      python -m app.ingestion.jobs.run_backtest
     envVars:
       - key: PYTHON_VERSION
         value: "3.12.7"

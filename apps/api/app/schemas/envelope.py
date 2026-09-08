@@ -13,12 +13,8 @@ class Meta(BaseModel):
     a ``source:`` line, an IST timestamp, and an amber treatment when ``stale`` is true."""
 
     source: str = Field(description="Human-readable origin, e.g. 'NSE bhavcopy'")
-    as_of: datetime | None = Field(
-        default=None, description="When the underlying data was last valid (IST)"
-    )
-    stale: bool = Field(
-        default=False, description="True when the latest ingestion is behind schedule"
-    )
+    as_of: datetime | None = Field(default=None, description="When the underlying data was last valid (IST)")
+    stale: bool = Field(default=False, description="True when the latest ingestion is behind schedule")
     job: str | None = Field(default=None, description="Ingestion job that produced this data")
 
 
