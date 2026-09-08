@@ -43,7 +43,6 @@ export function MarketStatusPill() {
   }
 
   const v = VIEW[data.status];
-  const verb = data.note.replace(/[\d:]+$/, "").trim();
 
   return (
     <div className="flex h-[26px] items-center gap-2 rounded-full border px-2.5" style={{ background: v.bg, borderColor: v.bd }}>
@@ -51,11 +50,11 @@ export function MarketStatusPill() {
       <span className="text-[11px] font-medium whitespace-nowrap" style={{ color: v.fg }}>
         {data.label}
       </span>
-      {remaining != null && (
+      {remaining != null && remaining > 0 && (
         <>
           <span className="h-3 w-px bg-border-strong" />
           <span className="tnum font-mono text-[11px] text-text-secondary whitespace-nowrap">
-            {verb} {hms(remaining)}
+            {hms(remaining)}
           </span>
         </>
       )}
