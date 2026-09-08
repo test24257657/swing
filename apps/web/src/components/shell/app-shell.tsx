@@ -1,20 +1,34 @@
+"use client";
+
+import { usePathname } from "next/navigation";
 import { type ReactNode } from "react";
 
+import { AuthGuard } from "./auth-guard";
 import { IconRail } from "./icon-rail";
 import { TopBar } from "./top-bar";
 
+const BARE_ROUTES = new Set(["/login"]);
+
 /**
  * Global shell. Sticky non-animating left rail + a content column with a sticky top bar.
- * Fixed 1440px canvas per the design.
+ * Fixed 1440px canvas per the design. `/login` renders bare (no rail, no top bar).
  */
 export function AppShell({ children }: { children: ReactNode }) {
+  const pathname = usePathname();
+
+  if (BARE_ROUTES.has(pathname)) {
+    return <AuthGuard>{children}</AuthGuard>;
+  }
+
   return (
-    <div className="flex min-h-screen bg-bg" style={{ minWidth: "var(--canvas-w)" }}>
-      <IconRail />
-      <div className="flex min-h-screen min-w-0 flex-1 flex-col">
-        <TopBar />
-        <main className="flex-1">{children}</main>
+    <AuthGuard>
+      <div className="flex min-h-screen bg-bg" style={{ minWidth: "var(--canvas-w)" }}>
+        <IconRail />
+        <div className="flex min-h-screen min-w-0 flex-1 flex-col">
+          <TopBar />
+          <main className="flex-1">{children}</main>
+        </div>
       </div>
-    </div>
+    </AuthGuard>
   );
 }

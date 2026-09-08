@@ -19,6 +19,12 @@ services:
         value: production
       - key: DATABASE_URL
         sync: false # set in the Render dashboard — Neon connection string (postgresql+psycopg://...)
+      - key: SECRET_KEY
+        generateValue: true # JWT signing key
+      - key: ADMIN_EMAIL
+        sync: false # seed the login with `python -m app.auth.seed`
+      - key: ADMIN_PASSWORD
+        sync: false
       - key: REDIS_URL
         fromService:
           type: keyvalue

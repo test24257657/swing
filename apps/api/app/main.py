@@ -3,11 +3,12 @@ from __future__ import annotations
 import logging
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI
+from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.auth.deps import current_user
 from app.config import settings
-from app.routers import health, indices, market, meta, screener, stocks, symbols
+from app.routers import auth, health, indices, market, meta, screener, stocks, symbols
 
 logging.basicConfig(level=settings.log_level)
 log = logging.getLogger("swing.api")
@@ -35,13 +36,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Open: health check + auth. Everything else needs a bearer token.
 app.include_router(health.router)
-app.include_router(meta.router)
-app.include_router(symbols.router)
-app.include_router(screener.router)
-app.include_router(market.router)
-app.include_router(indices.router)
-app.include_router(stocks.router)
+app.include_router(auth.router)
+
+protected = [Depends(current_user)]
+app.include_router(meta.router, dependencies=protected)
+app.include_router(symbols.router, dependencies=protected)
+app.include_router(screener.router, dependencies=protected)
+app.include_router(market.router, dependencies=protected)
+app.include_router(indices.router, dependencies=protected)
+app.include_router(stocks.router, dependencies=protected)
 
 
 @app.get("/", tags=["system"])

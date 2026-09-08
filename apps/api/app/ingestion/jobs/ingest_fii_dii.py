@@ -26,12 +26,30 @@ def _to_num(v) -> float | None:
 
 
 def _fetch() -> pd.DataFrame:
+    """Latest-session FII/DII cash figures direct from the NSE JSON API (nselib dropped
+    the helper). Needs the browser cookie dance. Returns an empty frame on failure —
+    Market Pulse just shows fewer sessions until the nightly runs accumulate."""
     cache = raw_cache_path("fii_dii", f"activity-{last_trading_day().isoformat()}")
     if cache.exists() and cache.stat().st_size > 0:
         return pd.read_csv(cache)
-    from nselib import capital_market
 
-    df = pd.DataFrame(capital_market.fii_dii_trading_activity())
+    import httpx
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://www.nseindia.com/reports/fii-dii",
+    }
+    try:
+        with httpx.Client(headers=headers, timeout=20, follow_redirects=True) as cl:
+            cl.get("https://www.nseindia.com")  # sets cookies
+            r = cl.get("https://www.nseindia.com/api/fiidiiTradeReact")
+            r.raise_for_status()
+            df = pd.DataFrame(r.json())
+    except Exception as exc:  # noqa: BLE001
+        log.warning("FII/DII fetch failed: %s", exc)
+        return pd.DataFrame()
+
     df.columns = [c.strip().lower() for c in df.columns]
     df.to_csv(cache, index=False)
     return df
@@ -43,12 +61,16 @@ def run(business_date: date | None = None) -> None:
     try:
         with ingestion_run(db, JOB, end) as run_row:
             df = _fetch()
+            if df.empty:
+                run_row.status = "partial"
+                run_row.source_stats = {"note": "FII/DII source unavailable"}
+                return
             date_col = next((c for c in df.columns if "date" in c), None)
             cat_col = next((c for c in df.columns if "categor" in c), None)
             buy_col = next((c for c in df.columns if "buy" in c), None)
             sell_col = next((c for c in df.columns if "sell" in c), None)
             net_col = next((c for c in df.columns if "net" in c), None)
-            if not (date_col and cat_col):
+            if not cat_col:
                 run_row.status = "partial"
                 run_row.source_stats = {"note": "unrecognised columns", "columns": list(df.columns)}
                 return
@@ -56,10 +78,11 @@ def run(business_date: date | None = None) -> None:
             # collapse to one row per date: {date: {fii_*, dii_*}}
             by_date: dict[date, dict] = {}
             for r in df.to_dict("records"):
-                d = pd.to_datetime(r[date_col], dayfirst=True, errors="coerce")
-                if pd.isna(d):
-                    continue
-                d = d.date()
+                d = end
+                if date_col:
+                    parsed = pd.to_datetime(r[date_col], dayfirst=True, errors="coerce")
+                    if pd.notna(parsed):
+                        d = parsed.date()
                 cat = str(r[cat_col]).upper()
                 who = "fii" if ("FII" in cat or "FPI" in cat) else "dii" if "DII" in cat else None
                 if who is None:

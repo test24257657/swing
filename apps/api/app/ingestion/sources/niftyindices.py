@@ -47,16 +47,26 @@ def constituents(index_symbol: str, *, use_cache: bool = True) -> list[str]:
     if not fname:
         return []
     cache = raw_cache_path("index_constituents", index_symbol)
+    text = None
     if use_cache and cache.exists() and cache.stat().st_size > 0:
-        df = pd.read_csv(cache)
+        text = cache.read_text()
     else:
         try:
             r = httpx.get(f"{BASE}/{fname}", headers=_HEADERS, timeout=20, follow_redirects=True)
             r.raise_for_status()
-            df = pd.read_csv(StringIO(r.text))
-            cache.write_text(r.text)
+            text = r.text
+            cache.write_text(text)
         except Exception as exc:  # noqa: BLE001
-            log.warning("constituents for %s failed: %s", index_symbol, exc)
+            log.warning("constituents fetch for %s failed: %s", index_symbol, exc)
+            return []
+
+    try:
+        df = pd.read_csv(StringIO(text), engine="python", on_bad_lines="skip")
+    except Exception:  # noqa: BLE001 - some files carry a metadata preamble; retry skipping it
+        try:
+            df = pd.read_csv(StringIO(text), engine="python", on_bad_lines="skip", skiprows=1)
+        except Exception as exc:  # noqa: BLE001
+            log.warning("constituents parse for %s failed: %s", index_symbol, exc)
             return []
 
     col = next((c for c in df.columns if c.strip().lower() == "symbol"), None)

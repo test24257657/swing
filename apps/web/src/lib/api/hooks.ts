@@ -2,7 +2,7 @@
 
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
-import { apiGet } from "./client";
+import { apiGet, authHeaders } from "./client";
 import { qk } from "./query-keys";
 import type {
   Envelope,
@@ -102,7 +102,7 @@ export function useSaveScreen() {
     mutationFn: (body: { name: string; filters: Record<string, unknown> }) =>
       fetch(`${process.env.NEXT_PUBLIC_API_BASE ?? "/api"}/screener/saved`, {
         method: "POST",
-        headers: { "content-type": "application/json" },
+        headers: authHeaders(),
         body: JSON.stringify(body),
       }).then((r) => {
         if (!r.ok) throw new Error("Could not save screen");
@@ -118,6 +118,7 @@ export function useDeleteScreen() {
     mutationFn: (id: number) =>
       fetch(`${process.env.NEXT_PUBLIC_API_BASE ?? "/api"}/screener/saved/${id}`, {
         method: "DELETE",
+        headers: authHeaders(),
       }).then((r) => {
         if (!r.ok && r.status !== 204) throw new Error("Could not delete screen");
       }),

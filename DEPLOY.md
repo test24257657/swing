@@ -32,6 +32,9 @@ repo. It creates:
 Set these in the Render dashboard (marked `sync: false` in the blueprint):
 
 - `DATABASE_URL` — the Neon string from step 1 (on **both** `swing-api` and `swing-ingest`)
+- `ADMIN_EMAIL` / `ADMIN_PASSWORD` — the single login. After the first deploy run
+  `python -m app.auth.seed` once (Render shell) to create it. `SECRET_KEY` is generated
+  by the blueprint.
 - `CORS_ORIGINS` — your Vercel URL, e.g. `https://swing-terminal.vercel.app`
   (only needed if the browser ever calls the API cross-origin; the default `/api` proxy
   below keeps it same-origin, so this can stay unset)

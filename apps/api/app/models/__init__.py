@@ -15,6 +15,7 @@ from app.models.saved_screen import SavedScreen
 from app.models.screener_score import ScreenerScore
 from app.models.sector import Sector
 from app.models.symbol import Symbol
+from app.models.user import User
 
 __all__ = [
     "Symbol",
@@ -33,4 +34,5 @@ __all__ = [
     "IndexConstituent",
     "HolidayCalendar",
     "IngestionRun",
+    "User",
 ]

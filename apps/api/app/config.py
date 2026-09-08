@@ -28,6 +28,12 @@ class Settings(BaseSettings):
     # Live quote cache TTL — the one allowed live-NSE path
     quote_ttl_seconds: int = 60
 
+    # Auth
+    secret_key: str = "dev-secret-change-me"
+    access_token_expire_minutes: int = 60 * 24 * 7  # 7 days
+    admin_email: str = ""
+    admin_password: str = ""
+
     @property
     def cors_origin_list(self) -> list[str]:
         return [o.strip() for o in self.cors_origins.split(",") if o.strip()]

@@ -97,7 +97,16 @@ def _fetch_jugaad(d: date) -> pd.DataFrame | None:
     try:
         from jugaad_data.nse import full_bhavcopy_raw
 
-        return full_bhavcopy_raw(d)
+        raw = full_bhavcopy_raw(d)
+        # newer jugaad returns the CSV text (or a file path); older returned a DataFrame
+        if isinstance(raw, pd.DataFrame):
+            return raw
+        if isinstance(raw, str):
+            import os
+            from io import StringIO
+
+            return pd.read_csv(raw) if os.path.exists(raw) else pd.read_csv(StringIO(raw))
+        return pd.DataFrame(raw)
     except Exception as exc:  # noqa: BLE001
         log.warning("jugaad bhavcopy failed for %s: %s", d, exc)
         return None
