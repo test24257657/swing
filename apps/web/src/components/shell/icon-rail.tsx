@@ -7,18 +7,19 @@ import { cn } from "@/lib/cn";
 
 import { NAV } from "./nav";
 
-/** 64px icon rail that expands to 220px on hover, revealing labels — matches the design. */
+/**
+ * 64px icon rail, fixed to the viewport so it never scrolls. On hover it expands to
+ * 220px and reveals labels, overlaying the content (matches the design). AppShell
+ * reserves 64px of left padding so the collapsed rail never covers anything.
+ */
 export function IconRail() {
   const pathname = usePathname();
 
   return (
     <nav
-      className="group sticky top-0 z-40 flex h-screen min-h-[900px] flex-col gap-1 overflow-hidden border-r border-[var(--color-border)] bg-bg py-4 transition-[width] duration-200"
+      className="group fixed left-0 top-0 z-40 flex h-screen flex-col gap-1 overflow-x-hidden overflow-y-auto border-r border-[var(--color-border)] bg-bg py-4 transition-[width] duration-200 hover:w-[var(--shell-rail-w-expanded)] hover:shadow-[8px_0_24px_rgba(9,9,11,0.06)]"
       style={{ width: "var(--shell-rail-w)" }}
-      data-expandable
     >
-      <style>{`nav[data-expandable]:hover{width:var(--shell-rail-w-expanded)!important}`}</style>
-
       <div className="flex items-center gap-4 whitespace-nowrap px-5 pb-5">
         <div className="h-6 w-6 flex-none rounded-md bg-accent" />
         <div className="text-[13px] font-semibold tracking-wide">
