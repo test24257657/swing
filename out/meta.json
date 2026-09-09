@@ -1,0 +1,39 @@
+{
+ "generated_at": "2026-09-09T21:25:48+05:30",
+ "sources": {
+  "holidays": {
+   "ok": true,
+   "count": 20
+  },
+  "bhavcopy": {
+   "ok": true,
+   "sessions_added": 7,
+   "failed": [
+    "2025-10-02"
+   ],
+   "symbols": 3057,
+   "sessions": 252,
+   "rows": 657511
+  },
+  "indices": {
+   "ok": 4,
+   "failed": []
+  },
+  "vix": {
+   "ok": true
+  },
+  "breadth": {
+   "ok": true
+  },
+  "fii_dii": {
+   "ok": true,
+   "sessions": 1,
+   "added_today": 1
+  },
+  "movers": {
+   "ok": true,
+   "most_active": 10,
+   "breakouts": 10
+  }
+ }
+}

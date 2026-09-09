@@ -1,0 +1,5 @@
+# The job runs on GitHub Actions and shares nothing with the API but a file format.
+pandas>=2.2
+pyarrow>=17
+httpx>=0.28
+nselib>=2.5

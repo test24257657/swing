@@ -3,7 +3,7 @@
 import { LogOut, Search } from "lucide-react";
 import { useEffect, useState } from "react";
 
-import { useIngestionStatus } from "@/lib/api/hooks";
+import { useMarketPulse } from "@/lib/api/market-hooks";
 import { getEmail, logout } from "@/lib/auth";
 import { istStamp } from "@/lib/format";
 
@@ -11,9 +11,10 @@ import { MarketStatusPill } from "./market-status-pill";
 
 /** 56px sticky top bar: ⌘K search, market-status pill, data-freshness stamp, account. */
 export function TopBar() {
-  const { data } = useIngestionStatus();
-  const bhav = data?.jobs.find((j) => j.job === "ingest_bhavcopy");
-  const asOf = bhav?.finished_at ?? null;
+  // freshness comes from the artifact meta — the same envelope every panel shows
+  const { data } = useMarketPulse();
+  const asOf = data?.meta.as_of ?? null;
+  const stale = data?.meta.stale ?? false;
 
   // localStorage is client-only — read after mount to keep SSR and hydration identical
   const [email, setEmail] = useState<string | null>(null);
@@ -37,8 +38,10 @@ export function TopBar() {
 
       <MarketStatusPill />
 
-      <span className="font-mono text-[11px] text-[var(--color-text-muted)] whitespace-nowrap">
-        {asOf ? `data as of ${istStamp(asOf)}` : "no ingestion yet"}
+      <span
+        className={`font-mono text-[11px] whitespace-nowrap ${stale ? "text-stale-text" : "text-[var(--color-text-muted)]"}`}
+      >
+        {asOf ? `data as of ${istStamp(asOf)}` : "no artifacts yet"}
       </span>
 
       <div className="ml-auto flex items-center gap-2">

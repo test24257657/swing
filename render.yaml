@@ -33,43 +33,6 @@ services:
       - key: CORS_ORIGINS
         sync: false # e.g. https://swing-terminal.vercel.app  (only needed if the web app calls the API cross-origin instead of via its /api proxy)
 
-  # Nightly ingestion. Render cron is UTC: 13:45 UTC = 19:15 IST, after the NSE
-  # bhavcopy with delivery data is published. Runs symbol sync then the bhavcopy.
-  - type: cron
-    name: swing-ingest
-    runtime: python
-    rootDir: apps/api
-    plan: free
-    schedule: "45 13 * * 1-5"
-    buildCommand: "pip install --upgrade pip && pip install ."
-    # Full post-close pipeline in dependency order.
-    startCommand: >-
-      python -m app.ingestion.jobs.ingest_holidays &&
-      python -m app.ingestion.jobs.sync_symbols &&
-      python -m app.ingestion.jobs.ingest_indices &&
-      python -m app.ingestion.jobs.sync_index_constituents &&
-      python -m app.ingestion.jobs.ingest_bhavcopy &&
-      python -m app.ingestion.jobs.ingest_fii_dii &&
-      python -m app.ingestion.jobs.compute_indicators &&
-      python -m app.ingestion.jobs.compute_breadth &&
-      python -m app.ingestion.jobs.detect_patterns &&
-      python -m app.ingestion.jobs.sync_fundamentals &&
-      python -m app.ingestion.jobs.compute_scores &&
-      python -m app.ingestion.jobs.run_backtest
-    envVars:
-      - key: PYTHON_VERSION
-        value: "3.12.7"
-      - key: ENV
-        value: production
-      - key: DATABASE_URL
-        sync: false
-      - key: GEMINI_API_KEY
-        sync: false
-      - key: REDIS_URL
-        fromService:
-          type: keyvalue
-          name: swing-redis
-          property: connectionString
 
   - type: keyvalue
     name: swing-redis

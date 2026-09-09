@@ -1,0 +1,337 @@
+{
+ "as_of": "2026-09-09",
+ "tiles": [
+  {
+   "symbol": "NIFTY 50",
+   "value": 23779.15,
+   "change": -118.55,
+   "change_pct": -0.5,
+   "spark": [
+    23985.35,
+    24250.2,
+    24317.15,
+    24383.6,
+    24774.3,
+    24614.9,
+    24624.65,
+    24636.0,
+    24570.65,
+    24583.8,
+    24471.7,
+    24435.95,
+    24395.85,
+    24366.0,
+    24287.65,
+    24154.9,
+    24078.3,
+    24231.85,
+    24252.0,
+    24219.05,
+    24334.55,
+    24207.75,
+    24090.85,
+    24175.65,
+    24080.4,
+    24055.8,
+    23914.45,
+    23873.45,
+    23897.7,
+    23779.15
+   ],
+   "as_of": "2026-09-07"
+  },
+  {
+   "symbol": "NIFTY BANK",
+   "value": 57088.3,
+   "change": -281.35,
+   "change_pct": -0.49,
+   "spark": [
+    56755.6,
+    57205.9,
+    57147.5,
+    57264.85,
+    58247.95,
+    57907.2,
+    57739.95,
+    58063.65,
+    57746.45,
+    57686.95,
+    57446.25,
+    57885.85,
+    57635.25,
+    57491.1,
+    57497.8,
+    57262.4,
+    57239.75,
+    57495.9,
+    57761.95,
+    57525.95,
+    57514.2,
+    57783.75,
+    57509.95,
+    57496.3,
+    58024.95,
+    57409.6,
+    57172.0,
+    57380.6,
+    57369.65,
+    57088.3
+   ],
+   "as_of": "2026-09-07"
+  },
+  {
+   "symbol": "NIFTY 500",
+   "value": 23156.2,
+   "change": -97.95,
+   "change_pct": -0.42,
+   "spark": [
+    23114.9,
+    23352.6,
+    23353.55,
+    23460.7,
+    23802.85,
+    23690.15,
+    23735.55,
+    23729.45,
+    23712.1,
+    23743.2,
+    23681.15,
+    23672.45,
+    23658.1,
+    23594.9,
+    23564.45,
+    23472.4,
+    23386.2,
+    23512.95,
+    23530.3,
+    23511.75,
+    23611.6,
+    23559.2,
+    23482.0,
+    23528.55,
+    23450.35,
+    23339.9,
+    23222.8,
+    23254.05,
+    23254.15,
+    23156.2
+   ],
+   "as_of": "2026-09-07"
+  },
+  {
+   "symbol": "INDIA VIX",
+   "value": 11.16,
+   "change": 0.48,
+   "change_pct": 4.49,
+   "spark": [
+    12.56,
+    12.01,
+    12.16,
+    11.76,
+    11.93,
+    12.19,
+    12.06,
+    12.16,
+    12.16,
+    12.25,
+    11.86,
+    11.69,
+    11.42,
+    11.31,
+    11.33,
+    11.39,
+    11.32,
+    10.76,
+    11.2,
+    11.53,
+    11.08,
+    10.57,
+    11.07,
+    10.68,
+    11.19,
+    11.49,
+    11.59,
+    11.34,
+    10.68,
+    11.16
+   ],
+   "as_of": "2026-09-07"
+  }
+ ],
+ "breadth": {
+  "date": "2026-09-09",
+  "advances": 1055,
+  "declines": 1814,
+  "unchanged": 45,
+  "traded": 2914,
+  "ad_ratio": 0.58,
+  "pct_above_50dma": 43.12,
+  "pct_above_200dma": 51.11,
+  "new_52w_highs": 13,
+  "new_52w_lows": 5
+ },
+ "flows": {
+  "series": [
+   {
+    "date": "2026-09-09",
+    "fii_net": -582.99,
+    "dii_net": 1509.04
+   }
+  ],
+  "fii_10_session_net": -583.0,
+  "dii_10_session_net": 1509.0
+ },
+ "vix": {
+  "value": 11.16,
+  "change": 0.48,
+  "change_pct": 4.49,
+  "percentile_250d": 24.0,
+  "band": "low",
+  "verdict": "Low volatility \u2014 trend-friendly",
+  "advice": "Favour breakout continuation; wider stops unnecessary."
+ },
+ "most_active": [
+  {
+   "symbol": "GRAPHITE",
+   "name": "Graphite India Limited",
+   "ltp": 844.65,
+   "change_pct": 15.04,
+   "turnover_cr": 3061.0
+  },
+  {
+   "symbol": "HDFCBANK",
+   "name": "HDFC Bank Limited",
+   "ltp": 687.1,
+   "change_pct": -2.26,
+   "turnover_cr": 2716.6
+  },
+  {
+   "symbol": "COFORGE",
+   "name": "Coforge Limited",
+   "ltp": 1845.0,
+   "change_pct": -5.38,
+   "turnover_cr": 1996.1
+  },
+  {
+   "symbol": "ICICIBANK",
+   "name": "ICICI Bank Limited",
+   "ltp": 1389.1,
+   "change_pct": -0.74,
+   "turnover_cr": 1981.8
+  },
+  {
+   "symbol": "ADANIENT",
+   "name": "Adani Enterprises Limited",
+   "ltp": 3104.7,
+   "change_pct": 5.13,
+   "turnover_cr": 1640.7
+  },
+  {
+   "symbol": "WHEELS",
+   "name": "Wheels India Limited",
+   "ltp": 2400.6,
+   "change_pct": 13.97,
+   "turnover_cr": 1563.0
+  },
+  {
+   "symbol": "RELIANCE",
+   "name": "Reliance Industries Limited",
+   "ltp": 1279.0,
+   "change_pct": -1.23,
+   "turnover_cr": 1562.8
+  },
+  {
+   "symbol": "ANTELOPUS",
+   "name": "Antelopus Selan Energy Limited",
+   "ltp": 1169.4,
+   "change_pct": 6.39,
+   "turnover_cr": 1546.5
+  },
+  {
+   "symbol": "MVELECTRO",
+   "name": "MV Electrosystems Limited",
+   "ltp": 917.5,
+   "change_pct": 3.88,
+   "turnover_cr": 1520.9
+  },
+  {
+   "symbol": "BSE",
+   "name": "BSE Limited",
+   "ltp": 3289.8,
+   "change_pct": -3.07,
+   "turnover_cr": 1437.0
+  }
+ ],
+ "breakouts_52w": [
+  {
+   "symbol": "INDNIPPON",
+   "name": "India Nippon Electricals Limited",
+   "ltp": 1313.3,
+   "change_pct": 17.02,
+   "vol_ratio": 16.0
+  },
+  {
+   "symbol": "GRAPHITE",
+   "name": "Graphite India Limited",
+   "ltp": 844.65,
+   "change_pct": 15.04,
+   "vol_ratio": 12.9
+  },
+  {
+   "symbol": "BALPHARMA",
+   "name": "Bal Pharma Limited",
+   "ltp": 114.45,
+   "change_pct": 19.99,
+   "vol_ratio": 12.1
+  },
+  {
+   "symbol": "CHEMBOND",
+   "name": "Chembond Material Technologies Limited",
+   "ltp": 220.36,
+   "change_pct": 11.45,
+   "vol_ratio": 11.8
+  },
+  {
+   "symbol": "SREEL",
+   "name": "Sreeleathers Limited",
+   "ltp": 345.01,
+   "change_pct": 20.0,
+   "vol_ratio": 10.9
+  },
+  {
+   "symbol": "WHEELS",
+   "name": "Wheels India Limited",
+   "ltp": 2400.6,
+   "change_pct": 13.97,
+   "vol_ratio": 10.0
+  },
+  {
+   "symbol": "MONQ50",
+   "name": "MONQ50",
+   "ltp": 213.01,
+   "change_pct": 8.81,
+   "vol_ratio": 9.4
+  },
+  {
+   "symbol": "CORONA",
+   "name": "CORONA Remedies Limited",
+   "ltp": 2197.2,
+   "change_pct": 4.97,
+   "vol_ratio": 8.7
+  },
+  {
+   "symbol": "MASPTOP50",
+   "name": "MASPTOP50",
+   "ltp": 100.76,
+   "change_pct": 3.87,
+   "vol_ratio": 7.2
+  },
+  {
+   "symbol": "PKTEA",
+   "name": "The Peria Karamalai Tea & Produce Company Limited",
+   "ltp": 1136.3,
+   "change_pct": 16.81,
+   "vol_ratio": 7.1
+  }
+ ]
+}

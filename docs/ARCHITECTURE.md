@@ -65,13 +65,16 @@ Rule 2 is what keeps the free tier free: Neon's 0.5 GB fills up fast if you put
 ┌──────────────────────────────────────────────────────────────┐
 │  GITHUB ACTIONS  —  cron 18:30 IST, Mon–Fri                  │
 │                                                               │
-│   1. fetch.py       bhavcopy + indices + FII/DII + holidays   │
-│   2. panel.py       append to the rolling OHLC panel          │
-│   3. breadth.py     adv / dec / unch, % above 50 & 200 DMA    │
-│   4. movers.py      most active by value, 52WH breakouts      │
-│   5. vix.py         VIX level + 250-day percentile + regime   │
-│   6. writer.py      → out/pulse.json, out/meta.json           │
-│   7. commit artifacts back to the repo                        │
+│   python -m jobs.run_nightly                                  │
+│                                                               │
+│   sources.py   bhavcopy · indices · FII/DII · holidays        │
+│   panel.py     append to the rolling OHLC panel               │
+│   breadth.py   adv / dec / unch, % above 50 & 200 DMA         │
+│   movers.py    most active by value, 52WH breakouts           │
+│   tiles.py     4 index tiles + VIX percentile & regime        │
+│   flows.py     append today's FII/DII to the rolling history  │
+│   writer.py    → out/pulse.json · calendar.json · meta.json   │
+│   commit out/ back to the repo                                │
 └──────────────────────────────────────────────────────────────┘
                           │  files (git)
                           ▼
@@ -153,37 +156,45 @@ the screen. `meta.json` records per-source status and the UI shows it.
 ## 6. Repo structure
 
 ```
-/jobs                    # runs on GitHub Actions
-  fetch.py               # download raw data (bhavcopy, indices, flows, holidays)
-  panel.py               # maintain the rolling OHLC panel
-  breadth.py             # adv/dec/unch, % above DMAs
-  movers.py              # most active, 52-week-high breakouts
-  vix.py                 # VIX level, percentile, regime label
-  writer.py              # artifact output
+/jobs                    # runs on GitHub Actions — writes files, never touches a DB
   config.py              # ← EVERY threshold lives here
-  cache.py               # TTL decorator for external calls
+  cache.py               # raw-response cache + @safe degradation decorator
+  sources.py             # bhavcopy · index history · FII/DII · holidays · constituents
+  indicators.py          # pure maths (SMA/EMA/Wilder RSI/ATR), no I/O
+  panel.py               # the rolling OHLC panel
+  breadth.py             # adv/dec/unch, % above DMAs, new 52w highs/lows
+  movers.py              # most active by value, 52-week-high breakouts
+  tiles.py               # the four index tiles + the volatility card
+  flows.py               # FII/DII rolling history
+  writer.py              # artifact output
+  run_nightly.py         # the one entry point
+  tests/                 # golden tests for the indicator maths
+  requirements.txt
 
-/api                     # runs on Render
-  main.py                # FastAPI app + startup loader
-  store.py               # in-memory artifact store
-  routes/
-    pulse.py  status.py  health.py  auth.py
-  models/                # Pydantic schemas
-  db.py                  # Neon — users only
+/apps/api                # runs on Render
+  app/
+    main.py              # FastAPI app + startup loader
+    store.py             # in-memory artifact store
+    routers/             # pulse.py · auth.py · health.py
+    services/            # market_status.py (reads the artifact calendar)
+    auth/  models/  db/   # Neon — users only
+    schemas/             # the { data, meta } envelope
 
-/web                     # runs on Vercel
-  app/pulse/             # the one screen
-  app/login/
-  components/
-  lib/                   # API client, React Query hooks
-  stores/                # Zustand
+/apps/web                # runs on Vercel
+  src/app/pulse/         # the one screen
+  src/app/login/
+  src/components/        # ui/ · shell/ · charts/ · screen/
+  src/lib/               # API client, React Query hooks, format.ts
+  
+/data                    # job working files — gitignored, GitHub Actions cache
+  panel.parquet          # rolling OHLC panel, whole market × 1yr
+  fii_dii.json           # rolling flow history
+  raw_cache/             # every raw NSE response, so a re-run never re-fetches
 
-/data                    # job working files (not served)
-  panel.parquet          # rolling OHLC panel, Nifty 500 × 1yr, ~4 MB
-
-/out                     # generated artifacts (served)
-  pulse.json             # the whole screen payload
-  meta.json              # generated_at, per-source status
+/out                     # generated artifacts — committed, served by the API
+  pulse.json             # the whole screen payload (~5 KB)
+  calendar.json          # NSE trading holidays
+  meta.json              # generated_at + per-source status
 
 /.github/workflows
   nightly.yml

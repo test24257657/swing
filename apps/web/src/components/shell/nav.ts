@@ -1,14 +1,4 @@
-import {
-  Activity,
-  Bell,
-  Building2,
-  CandlestickChart,
-  Grid2x2,
-  LayoutGrid,
-  Newspaper,
-  Radar,
-  type LucideIcon,
-} from "lucide-react";
+import { Activity, type LucideIcon } from "lucide-react";
 
 export interface NavItem {
   href: string;
@@ -16,14 +6,10 @@ export interface NavItem {
   icon: LucideIcon;
 }
 
-/** Order and labels match the design's left rail. */
-export const NAV: NavItem[] = [
-  { href: "/pulse", label: "Market Pulse", icon: Activity },
-  { href: "/sectors", label: "Sector Rotation", icon: Radar },
-  { href: "/indices", label: "Indices", icon: Grid2x2 },
-  { href: "/screener", label: "Screener", icon: LayoutGrid },
-  { href: "/stock", label: "Stock Detail", icon: CandlestickChart },
-  { href: "/watchlist", label: "Watchlist", icon: Bell },
-  { href: "/news", label: "News", icon: Newspaper },
-  { href: "/institutional", label: "Institutional", icon: Building2 },
-];
+/**
+ * Current scope is the Market Pulse screen only (docs/ARCHITECTURE.md §1).
+ * Sector Rotation, Indices, Screener, Stock Detail, Watchlist, News and
+ * Institutional return with their phases — the earlier implementations are in git
+ * history at commit e499c2d if you need them back.
+ */
+export const NAV: NavItem[] = [{ href: "/pulse", label: "Market Pulse", icon: Activity }];

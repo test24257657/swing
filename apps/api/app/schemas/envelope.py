@@ -16,6 +16,10 @@ class Meta(BaseModel):
     as_of: datetime | None = Field(default=None, description="When the underlying data was last valid (IST)")
     stale: bool = Field(default=False, description="True when the latest ingestion is behind schedule")
     job: str | None = Field(default=None, description="Ingestion job that produced this data")
+    degraded_sources: list[str] = Field(
+        default_factory=list,
+        description="Sources that failed in the last run — the UI can name what is missing",
+    )
 
 
 class Envelope(BaseModel, Generic[T]):

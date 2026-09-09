@@ -3,15 +3,27 @@
 import { BreadthDonut } from "@/components/charts/breadth-donut";
 import { FlowBars } from "@/components/charts/flow-bars";
 import { Sparkline } from "@/components/charts/sparkline";
-import { PhaseStub } from "@/components/screen/phase-stub";
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
-import { Card, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
+import { Button, Card, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
 import { useMarketPulse } from "@/lib/api/market-hooks";
-import { change, count, direction, inrCompact, pct, pctPlain, price } from "@/lib/format";
+import type { ActiveRow, BreakoutRow } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
+import { change, count, direction, pct, pctPlain, price, ratio } from "@/lib/format";
 
 const UP = "var(--color-up)";
 const DOWN = "var(--color-down)";
+
+const VIX_TONE: Record<string, { bg: string; bd: string; fg: string }> = {
+  low: { bg: "rgba(22,163,74,0.07)", bd: "rgba(22,163,74,0.22)", fg: "text-up-text" },
+  moderate: { bg: "rgba(37,99,235,0.07)", bd: "rgba(37,99,235,0.22)", fg: "text-[var(--color-info-text)]" },
+  elevated: { bg: "rgba(217,119,6,0.08)", bd: "rgba(217,119,6,0.28)", fg: "text-stale-text" },
+  high: { bg: "rgba(220,38,38,0.07)", bd: "rgba(220,38,38,0.25)", fg: "text-down-text" },
+};
+
+function toneClass(v: number | null | undefined) {
+  const d = direction(v);
+  return d === "up" ? "text-up-text" : d === "down" ? "text-down-text" : "text-text-secondary";
+}
 
 export function PulseClient() {
   const q = useMarketPulse();
@@ -25,167 +37,240 @@ export function PulseClient() {
             <Skeleton key={i} className="h-28" />
           ))}
         </div>
+        <div className="mt-6 grid grid-cols-[1fr_1.35fr_1fr] gap-2">
+          {Array.from({ length: 3 }).map((_, i) => (
+            <Skeleton key={i} className="h-64" />
+          ))}
+        </div>
       </Screen>
     );
   }
+
   if (q.isError) {
     return (
       <Screen>
-        <EmptyState title="Could not load Market Pulse" description={String((q.error as Error).message)} />
+        <ScreenHeader title="Market Pulse" />
+        <EmptyState
+          title="Could not load Market Pulse"
+          description={String((q.error as Error).message)}
+          actions={<Button onClick={() => q.refetch()}>Retry</Button>}
+        />
       </Screen>
     );
   }
 
   const d = q.data!.data;
-  const hasData = d.tiles.length > 0 || d.breadth || d.vix;
+  const meta = q.data!.meta;
+  const degraded = meta.degraded_sources ?? [];
 
   return (
     <Screen>
-      <ScreenHeader title="Market Pulse" subtitle="Post-close read on breadth, flows and volatility." />
+      <ScreenHeader
+        title="Market Pulse"
+        subtitle={`Close of ${d.as_of} · breadth, flows and volatility at a glance.`}
+      />
 
-      {!hasData ? (
-        <PhaseStub
-          phase="Phase 6 — waiting on data"
-          contents={[
-            "Run the pipeline: ingest_indices → ingest_bhavcopy → ingest_fii_dii → compute_indicators → compute_breadth",
-            "Then this screen shows index tiles, the breadth donut, FII/DII flows and the VIX regime gauge with live data.",
-          ]}
-        />
-      ) : (
-        <div className="flex flex-col gap-6">
-          {/* Index tiles */}
-          <div className="grid grid-cols-4 gap-2">
-            {d.tiles.map((t) => {
-              const dir = direction(t.change_pct);
-              return (
-                <Card key={t.symbol} className="p-4">
-                  <div className="text-[11px] font-semibold tracking-wide text-text-secondary">{t.symbol}</div>
-                  <div className="mt-2 flex items-end justify-between gap-3">
-                    <div>
-                      <div className="tnum text-[20px] font-semibold tracking-tight">{price(t.value)}</div>
-                      <div
-                        className={cn(
-                          "tnum mt-1 flex gap-2 text-[13px]",
-                          dir === "up" ? "text-up-text" : dir === "down" ? "text-down-text" : "text-text-secondary",
-                        )}
-                      >
-                        <span>{t.change == null ? "—" : change(t.change)}</span>
-                        <span className="opacity-75">{t.change_pct == null ? "" : pct(t.change_pct)}</span>
-                      </div>
-                    </div>
-                    <Sparkline data={t.spark} stroke={dir === "down" ? DOWN : UP} />
-                  </div>
-                </Card>
-              );
-            })}
-          </div>
-
-          {/* Breadth · Flows · Volatility */}
-          <div className="grid grid-cols-[1fr_1.35fr_1fr] gap-2">
-            <Card className="flex flex-col p-4">
-              <div className="flex items-center justify-between">
-                <div className="text-[13px] font-semibold">Market breadth</div>
-                {d.breadth?.ad_ratio != null && (
-                  <Tooltip content="Advances ÷ declines across all NSE equities that traded today.">
-                    <span className="text-[11px] text-text-muted">A/D {d.breadth.ad_ratio}</span>
-                  </Tooltip>
-                )}
-              </div>
-              {d.breadth ? (
-                <div className="mt-4 flex items-center gap-5">
-                  <BreadthDonut
-                    advances={d.breadth.advances}
-                    declines={d.breadth.declines}
-                    unchanged={d.breadth.unchanged}
-                  />
-                  <div className="flex flex-1 flex-col gap-2.5">
-                    {[
-                      { label: "Advances", v: d.breadth.advances, c: UP },
-                      { label: "Declines", v: d.breadth.declines, c: DOWN },
-                      { label: "Unchanged", v: d.breadth.unchanged, c: "var(--color-text-faint)" },
-                    ].map((r) => (
-                      <div key={r.label} className="flex items-center gap-2">
-                        <span className="h-2 w-2 rounded-sm" style={{ background: r.c }} />
-                        <span className="text-[13px] text-text-secondary">{r.label}</span>
-                        <span className="tnum ml-auto text-[13px] font-medium">{count(r.v)}</span>
-                      </div>
-                    ))}
-                    <div className="mt-1 border-t border-border pt-2 text-[11px] text-text-muted">
-                      {count(d.breadth.traded)} traded · {pctPlain(d.breadth.pct_above_50dma, 0)} &gt; 50 DMA
-                    </div>
-                  </div>
-                </div>
-              ) : (
-                <p className="mt-4 text-[13px] text-text-muted">Breadth not computed yet.</p>
-              )}
-              <div className="mt-auto pt-3">
-                <DataSourceFooter meta={q.data!.meta} />
-              </div>
-            </Card>
-
-            <Card className="flex flex-col p-4">
-              <div className="flex items-center justify-between">
-                <div className="text-[13px] font-semibold">FII / DII flow · last {d.flows.series.length} sessions</div>
-                <div className="flex gap-3 text-[11px] text-text-secondary">
-                  <span className="flex items-center gap-1.5">
-                    <span className="h-2 w-2 rounded-sm bg-[var(--color-info)]" />FII net
-                  </span>
-                  <span className="flex items-center gap-1.5">
-                    <span className="h-2 w-2 rounded-sm bg-accent" />DII net
-                  </span>
-                  <span className="text-text-muted">₹ cr</span>
-                </div>
-              </div>
-              {d.flows.series.length ? (
-                <>
-                  <div className="mt-3">
-                    <FlowBars series={d.flows.series} />
-                  </div>
-                  <div className="mt-2 flex gap-2">
-                    <FlowTile label="FII 10-session net" v={d.flows.fii_10_session_net} />
-                    <FlowTile label="DII 10-session net" v={d.flows.dii_10_session_net} />
-                  </div>
-                </>
-              ) : (
-                <p className="mt-4 text-[13px] text-text-muted">FII/DII flows not ingested yet.</p>
-              )}
-            </Card>
-
-            <Card className="flex flex-col p-4">
-              <div className="text-[13px] font-semibold">Volatility</div>
-              {d.vix ? (
-                <>
-                  <div className="mt-3 flex items-end gap-2">
-                    <span className="tnum text-[32px] font-semibold leading-none tracking-tight">
-                      {d.vix.value.toFixed(2)}
-                    </span>
-                    <span
-                      className={cn(
-                        "tnum pb-1 text-[13px]",
-                        direction(d.vix.change_pct) === "up" ? "text-down-text" : "text-up-text",
-                      )}
-                    >
-                      {d.vix.change_pct == null ? "" : pct(d.vix.change_pct)}
-                    </span>
-                  </div>
-                  {d.vix.percentile_250d != null && (
-                    <div className="mt-1 text-[11px] text-text-muted">
-                      {d.vix.percentile_250d.toFixed(0)}th percentile over 250 sessions
-                    </div>
-                  )}
-                  <div className="mt-4 rounded-md border border-[rgba(22,163,74,0.22)] bg-[rgba(22,163,74,0.07)] px-3 py-2.5">
-                    <div className="text-[13px] font-medium text-up-text">{d.vix.verdict}</div>
-                    <div className="mt-1 text-[11px] leading-relaxed text-text-secondary">{d.vix.advice}</div>
-                  </div>
-                </>
-              ) : (
-                <p className="mt-4 text-[13px] text-text-muted">INDIA VIX not ingested yet.</p>
-              )}
-            </Card>
-          </div>
+      {degraded.length > 0 && (
+        <div className="mb-3 rounded-md border border-[rgba(217,119,6,0.35)] bg-stale-bg px-3 py-2 text-[11px] text-stale-text">
+          Some sources failed in the last run: {degraded.join(", ")}. Those cards may be
+          missing or behind.
         </div>
       )}
+
+      {/* Index tiles */}
+      <div className="grid grid-cols-4 gap-2">
+        {d.tiles.map((t) => (
+          <Card key={t.symbol} className="p-4">
+            <div className="text-[11px] font-semibold tracking-wide text-text-secondary">{t.symbol}</div>
+            <div className="mt-2 flex items-end justify-between gap-3">
+              <div>
+                <div className="tnum text-[20px] font-semibold tracking-tight">{price(t.value)}</div>
+                <div className={cn("tnum mt-1 flex gap-2 text-[13px]", toneClass(t.change_pct))}>
+                  <span>{t.change == null ? "—" : change(t.change)}</span>
+                  <span className="opacity-75">{t.change_pct == null ? "" : pct(t.change_pct)}</span>
+                </div>
+              </div>
+              <Sparkline data={t.spark} stroke={direction(t.change_pct) === "down" ? DOWN : UP} />
+            </div>
+            <div className="mt-2.5 border-t border-border pt-2 font-mono text-[11px] text-text-faint">
+              {t.spark.length}d · NSE index feed
+            </div>
+          </Card>
+        ))}
+      </div>
+
+      {/* Breadth · Flows · Volatility */}
+      <div className="mt-2 grid grid-cols-[1fr_1.35fr_1fr] gap-2">
+        <Card className="flex flex-col p-4">
+          <div className="flex items-center justify-between">
+            <div className="text-[13px] font-semibold">Market breadth</div>
+            {d.breadth?.ad_ratio != null && (
+              <Tooltip content="Advances ÷ declines across every NSE equity that traded today.">
+                <span className="tnum text-[11px] text-text-muted">A/D {d.breadth.ad_ratio}</span>
+              </Tooltip>
+            )}
+          </div>
+          {d.breadth ? (
+            <>
+              <div className="mt-4 flex items-center gap-5">
+                <BreadthDonut
+                  advances={d.breadth.advances}
+                  declines={d.breadth.declines}
+                  unchanged={d.breadth.unchanged}
+                />
+                <div className="flex flex-1 flex-col gap-2.5">
+                  {[
+                    { label: "Advances", v: d.breadth.advances, c: UP },
+                    { label: "Declines", v: d.breadth.declines, c: DOWN },
+                    { label: "Unchanged", v: d.breadth.unchanged, c: "var(--color-text-faint)" },
+                  ].map((r) => (
+                    <div key={r.label} className="flex items-center gap-2">
+                      <span className="h-2 w-2 rounded-sm" style={{ background: r.c }} />
+                      <span className="text-[13px] text-text-secondary">{r.label}</span>
+                      <span className="tnum ml-auto text-[13px] font-medium">{count(r.v)}</span>
+                    </div>
+                  ))}
+                  <div className="mt-1 border-t border-border pt-2 text-[11px] text-text-muted">
+                    {count(d.breadth.traded)} traded
+                  </div>
+                </div>
+              </div>
+              <div className="mt-3 grid grid-cols-2 gap-2">
+                <Stat label="Above 50 DMA" value={pctPlain(d.breadth.pct_above_50dma, 1)} />
+                <Stat label="Above 200 DMA" value={pctPlain(d.breadth.pct_above_200dma, 1)} />
+                <Stat label="New 52w highs" value={count(d.breadth.new_52w_highs)} tone="up" />
+                <Stat label="New 52w lows" value={count(d.breadth.new_52w_lows)} tone="down" />
+              </div>
+            </>
+          ) : (
+            <p className="mt-4 text-[13px] text-text-muted">Breadth not computed in the last run.</p>
+          )}
+          <div className="mt-auto pt-3">
+            <DataSourceFooter meta={meta} />
+          </div>
+        </Card>
+
+        <Card className="flex flex-col p-4">
+          <div className="flex items-center justify-between">
+            <div className="text-[13px] font-semibold">
+              FII / DII flow · last {d.flows.series.length} session
+              {d.flows.series.length === 1 ? "" : "s"}
+            </div>
+            <div className="flex gap-3 text-[11px] text-text-secondary">
+              <span className="flex items-center gap-1.5">
+                <span className="h-2 w-2 rounded-sm bg-[var(--color-info)]" />
+                FII net
+              </span>
+              <span className="flex items-center gap-1.5">
+                <span className="h-2 w-2 rounded-sm bg-accent" />
+                DII net
+              </span>
+              <span className="text-text-muted">₹ cr</span>
+            </div>
+          </div>
+          {d.flows.series.length ? (
+            <>
+              <div className="mt-3">
+                <FlowBars series={d.flows.series} />
+              </div>
+              <div className="mt-2 flex gap-2">
+                <FlowTile label="FII net" v={d.flows.fii_10_session_net} />
+                <FlowTile label="DII net" v={d.flows.dii_10_session_net} />
+              </div>
+              <div className="mt-2 font-mono text-[11px] text-text-faint">
+                history builds up one session per nightly run
+              </div>
+            </>
+          ) : (
+            <p className="mt-4 text-[13px] text-text-muted">FII/DII flows unavailable.</p>
+          )}
+        </Card>
+
+        <Card className="flex flex-col p-4">
+          <div className="flex items-center justify-between">
+            <div className="text-[13px] font-semibold">Volatility</div>
+            {d.vix?.percentile_250d != null && (
+              <Tooltip content="Where today's INDIA VIX sits against its own last 250 sessions.">
+                <span className="tnum text-[11px] text-text-muted">
+                  {d.vix.percentile_250d.toFixed(0)}th pctile
+                </span>
+              </Tooltip>
+            )}
+          </div>
+          {d.vix ? (
+            <>
+              <div className="mt-3 flex items-end gap-2">
+                <span className="tnum text-[32px] font-semibold leading-none tracking-tight">
+                  {d.vix.value.toFixed(2)}
+                </span>
+                {/* rising volatility is the bad direction, so the colour is inverted here */}
+                <span
+                  className={cn(
+                    "tnum pb-1 text-[13px]",
+                    direction(d.vix.change_pct) === "up" ? "text-down-text" : "text-up-text",
+                  )}
+                >
+                  {d.vix.change_pct == null ? "" : pct(d.vix.change_pct)}
+                </span>
+              </div>
+              <div
+                className="mt-4 rounded-md border px-3 py-2.5"
+                style={{
+                  background: VIX_TONE[d.vix.band]?.bg,
+                  borderColor: VIX_TONE[d.vix.band]?.bd,
+                }}
+              >
+                <div className={cn("text-[13px] font-medium", VIX_TONE[d.vix.band]?.fg)}>
+                  {d.vix.verdict}
+                </div>
+                <div className="mt-1 text-[11px] leading-relaxed text-text-secondary">{d.vix.advice}</div>
+              </div>
+            </>
+          ) : (
+            <p className="mt-4 text-[13px] text-text-muted">INDIA VIX unavailable.</p>
+          )}
+          <div className="mt-auto pt-3 font-mono text-[11px] text-text-faint">
+            source: NSE INDIA VIX
+          </div>
+        </Card>
+      </div>
+
+      {/* Movers */}
+      <div className="mt-2 grid grid-cols-2 gap-2">
+        <MoversTable
+          title="Most active by value"
+          subtitle="Turnover, cash segment"
+          metricLabel="Value ₹cr"
+          rows={d.most_active}
+          metric={(r) => (r as ActiveRow).turnover_cr.toLocaleString("en-IN")}
+          empty="No turnover data for this session."
+        />
+        <MoversTable
+          title="52-week high breakouts"
+          subtitle="Closed at a 52-week high on above-average volume"
+          metricLabel="Vol ratio"
+          rows={d.breakouts_52w}
+          metric={(r) => ratio((r as BreakoutRow).vol_ratio)}
+          empty="No breakouts cleared the volume filter today."
+        />
+      </div>
     </Screen>
+  );
+}
+
+function Stat({ label, value, tone }: { label: string; value: string; tone?: "up" | "down" }) {
+  return (
+    <div className="rounded-md bg-surface-2 px-2.5 py-2">
+      <div className="text-[11px] text-text-muted">{label}</div>
+      <div
+        className={cn(
+          "tnum mt-0.5 text-[13px] font-medium",
+          tone === "up" ? "text-up-text" : tone === "down" ? "text-down-text" : "",
+        )}
+      >
+        {value}
+      </div>
+    </div>
   );
 }
 
@@ -193,14 +278,65 @@ function FlowTile({ label, v }: { label: string; v: number | null }) {
   return (
     <div className="flex-1 rounded-md bg-surface-2 px-2.5 py-2">
       <div className="text-[11px] text-text-muted">{label}</div>
-      <div
-        className={cn(
-          "tnum mt-0.5 text-[15px] font-semibold",
-          direction(v) === "up" ? "text-up-text" : direction(v) === "down" ? "text-down-text" : "",
-        )}
-      >
-        {v == null ? "—" : inrCompact(v * 1e7)}
+      <div className={cn("tnum mt-0.5 text-[15px] font-semibold", toneClass(v))}>
+        {v == null ? "—" : `${v >= 0 ? "+" : "−"}${Math.abs(v).toLocaleString("en-IN")}`}
       </div>
     </div>
+  );
+}
+
+function MoversTable<T extends ActiveRow | BreakoutRow>({
+  title,
+  subtitle,
+  metricLabel,
+  rows,
+  metric,
+  empty,
+}: {
+  title: string;
+  subtitle: string;
+  metricLabel: string;
+  rows: T[];
+  metric: (r: T) => string;
+  empty: string;
+}) {
+  const template = "1.6fr 0.8fr 0.7fr 1fr";
+  return (
+    <Card className="overflow-hidden">
+      <div className="p-4 pb-3">
+        <div className="text-[13px] font-semibold">{title}</div>
+        <div className="mt-0.5 text-[11px] text-text-muted">{subtitle}</div>
+      </div>
+      <div
+        className="grid gap-2 border-b border-border px-4 pb-1.5 text-[11px] text-text-muted"
+        style={{ gridTemplateColumns: template }}
+      >
+        <span>Symbol</span>
+        <span className="text-right">LTP</span>
+        <span className="text-right">%Chg</span>
+        <span className="text-right">{metricLabel}</span>
+      </div>
+      {rows.length === 0 ? (
+        <p className="px-4 py-8 text-center text-[13px] text-text-muted">{empty}</p>
+      ) : (
+        rows.map((r) => (
+          <div
+            key={r.symbol}
+            className="tnum grid items-center gap-2 border-b border-border px-4 py-2 last:border-0 hover:bg-surface-2"
+            style={{ gridTemplateColumns: template }}
+          >
+            <div className="min-w-0">
+              <div className="text-[13px] font-medium">{r.symbol}</div>
+              <div className="truncate text-[11px] text-text-muted">{r.name}</div>
+            </div>
+            <span className="text-right text-[13px]">{price(r.ltp)}</span>
+            <span className={cn("text-right text-[13px]", toneClass(r.change_pct))}>
+              {r.change_pct == null ? "—" : pct(r.change_pct)}
+            </span>
+            <span className="text-right text-[13px] text-text-secondary">{metric(r)}</span>
+          </div>
+        ))
+      )}
+    </Card>
   );
 }

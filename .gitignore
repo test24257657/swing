@@ -1,7 +1,7 @@
 # Node / Next
 node_modules/
 .next/
-out/
+apps/web/out/
 dist/
 *.tsbuildinfo
 .turbo/
@@ -24,7 +24,7 @@ venv/
 !*.env.example
 
 # Data / caches
-data/
+apps/api/data/
 .cache/
 raw_cache/
 
@@ -38,3 +38,7 @@ raw_cache/
 
 # Claude
 .claude/worktrees/
+
+# Job working files — the rolling OHLC panel and raw NSE downloads.
+# Only out/*.json is committed; data/ lives in the GitHub Actions cache.
+/data/
