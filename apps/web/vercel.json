@@ -2,6 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
   "buildCommand": "next build",
-  "installCommand": "npm install",
+  "installCommand": "bun install --frozen-lockfile",
   "git": { "deploymentEnabled": { "main": true } }
 }
