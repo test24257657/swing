@@ -1,81 +1,164 @@
 # Deploy
 
-Three managed pieces: **Neon** (Postgres), **Render** (FastAPI + Redis + nightly cron),
-**Vercel** (Next.js).
+Four moving parts, all on free tiers:
 
-```
-Vercel (apps/web)  ──/api/* proxy──▶  Render web (apps/api)  ──▶  Neon Postgres
-                                             │
-                                       Render Redis (Key Value)
-                                             ▲
-                                  Render cron (nightly ingest)
-```
+| Piece | Host | Holds |
+|---|---|---|
+| Nightly job | **GitHub Actions** | fetches NSE, writes `out/*.json`, commits them |
+| API | **Render** | serves `out/*.json` from memory; `/auth` against Neon |
+| Web | **Vercel** | the Market Pulse UI |
+| Auth DB | **Neon** | one table: `users` |
 
-## 1. Neon (Postgres)
+Data flow: `GitHub Actions → commits out/ → Render auto-redeploys → Vercel calls Render`.
 
-1. Create a project + database named `swing` at neon.tech.
-2. Copy the pooled connection string and convert the scheme for SQLAlchemy/psycopg:
-   `postgresql://…`  →  `postgresql+psycopg://…?sslmode=require`
-   Keep this as `DATABASE_URL`.
+**No secret is committed.** `DATABASE_URL`, `SECRET_KEY`, `ADMIN_PASSWORD` are set
+only in the Render dashboard. Local copies live in gitignored `.env` files.
 
-## 2. Render (API)
+---
 
-The repo has a blueprint at `render.yaml`. In Render: **New → Blueprint**, point it at this
-repo. It creates:
-
-| Service | What |
-|---|---|
-| `swing-api` (web) | `pip install . && alembic upgrade head`, then `uvicorn app.main:app`. Health check `/health`. |
-| `swing-redis` (key value) | the 60s live-quote cache |
-| `swing-ingest` (cron) | `45 13 * * 1-5` UTC (19:15 IST) → `sync_symbols` then `ingest_bhavcopy` |
-
-Set these in the Render dashboard (marked `sync: false` in the blueprint):
-
-- `DATABASE_URL` — the Neon string from step 1 (on **both** `swing-api` and `swing-ingest`)
-- `ADMIN_EMAIL` / `ADMIN_PASSWORD` — the single login. After the first deploy run
-  `python -m app.auth.seed` once (Render shell) to create it. `SECRET_KEY` is generated
-  by the blueprint.
-- `CORS_ORIGINS` — your Vercel URL, e.g. `https://swing-terminal.vercel.app`
-  (only needed if the browser ever calls the API cross-origin; the default `/api` proxy
-  below keeps it same-origin, so this can stay unset)
-
-`REDIS_URL` and `PYTHON_VERSION` are wired by the blueprint. Migrations run on every deploy
-via the build command.
-
-> Free Render web services sleep after 15 min idle; the first request after that is slow.
-> The cron job is unaffected.
-
-## 3. Vercel (web)
-
-1. **New Project** → import this repo → set **Root Directory** to `apps/web`.
-   Framework preset: Next.js (auto-detected). `apps/web/vercel.json` pins the rest.
-2. Environment variables:
-
-   | Key | Value | Why |
-   |---|---|---|
-   | `API_PROXY_TARGET` | `https://swing-api.onrender.com` | Next rewrites `/api/*` here server-side — the browser stays same-origin, no CORS |
-   | `NEXT_PUBLIC_API_BASE` | `/api` | default; leave as-is to use the proxy |
-   | `NEXT_PUBLIC_SITE_URL` | `https://swing-terminal.vercel.app` | public origin — drives SEO `metadataBase`, canonical URLs, sitemap, robots |
-
-   To skip the proxy and call Render directly instead, set `NEXT_PUBLIC_API_BASE` to the
-   Render URL and add the Vercel domain to `CORS_ORIGINS` on Render.
-
-3. Deploy. Every push to `main` redeploys both Vercel and Render.
-
-## Order
-
-Neon → Render (needs `DATABASE_URL`) → Vercel (needs the Render URL). After the first
-deploy, trigger the `swing-ingest` cron once manually in Render so the app has data.
-
-## Local
+## 0. Push the repo to GitHub
 
 ```bash
-cp .env.example .env                       # then paste your Neon URL into apps/api/.env
-docker compose up -d redis                 # Postgres is Neon; only Redis is local
-cd apps/api && python -m venv .venv && source .venv/bin/activate && pip install -e '.[dev]'
-alembic upgrade head
-python -m app.ingestion.jobs.sync_symbols && python -m app.ingestion.jobs.ingest_bhavcopy
-uvicorn app.main:app --reload              # :8000
+git remote add origin https://github.com/<you>/swing-terminal.git
+git push -u origin main
+```
 
-cd ../../apps/web && npm install && cp .env.local.example .env.local && npm run dev  # :3000
+Render, Vercel and Actions all read from this repo.
+
+---
+
+## 1. Neon — the auth database (2 min)
+
+1. <https://neon.tech> → **New Project**. Any name, region close to `ap-south`.
+2. On the project dashboard, copy the **connection string** (the pooled one).
+   It looks like:
+   ```
+   postgresql://neondb_owner:xxxx@ep-xxxx-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
+   ```
+3. **Convert it for SQLAlchemy** — change the scheme and keep `sslmode`:
+   ```
+   postgresql+psycopg://neondb_owner:xxxx@ep-xxxx-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
+   ```
+   Keep this string handy — it goes into **Render only** (step 3), never into git.
+
+---
+
+## 2. GitHub Actions — the nightly job (2 min)
+
+The workflow (`.github/workflows/nightly.yml`) needs permission to commit `out/` back.
+
+1. Repo → **Settings → Actions → General**
+2. Scroll to **Workflow permissions** → select **Read and write permissions** → **Save**
+3. Repo → **Actions** tab → **nightly** (left sidebar) → **Run workflow**
+   - `backfill_days`: **`260`** for the first run (builds one year of history).
+     Leave it default (`5`) on every later run — it only fetches missing sessions.
+4. Wait ~3–5 min. When it's green, check the repo — there should be a new commit
+   *"chore: nightly artifacts …"* adding `out/pulse.json`, `out/charts/*.json`,
+   `out/calendar.json`, `out/meta.json`.
+
+From now on it runs itself at **13:00 UTC (18:30 IST), Mon–Fri**.
+
+> If the run fails on `git push`, permissions weren't saved — redo step 2.2.
+
+---
+
+## 3. Render — the API (5 min)
+
+1. <https://render.com> → **New → Blueprint** → connect the repo → **Apply**.
+   Render reads `render.yaml` and creates **swing-api** + **swing-redis**.
+2. Open **swing-api → Environment** and add the secrets (marked `sync: false`):
+
+   | Key | Value |
+   |---|---|
+   | `DATABASE_URL` | the `postgresql+psycopg://…` string from step 1.3 |
+   | `ADMIN_EMAIL` | `admin123@gmail.com` |
+   | `ADMIN_PASSWORD` | `admin@1234567890` |
+   | `CORS_ORIGINS` | *(leave blank for now — fill in step 5)* |
+
+   `SECRET_KEY` is auto-generated by Render. `REDIS_URL` is auto-wired.
+3. **Manual Deploy → Deploy latest commit.**
+   Build runs `alembic upgrade head` (creates the `users` table), start runs
+   `python -m app.auth.seed` (creates the admin login) then `uvicorn`.
+4. When it's live, open **`https://swing-api.onrender.com/health`** → should return
+   `{"status": "ok", ...}` or `"degraded"` (degraded = Redis off, which is fine).
+5. Copy the service URL: **`https://swing-api.onrender.com`**.
+
+---
+
+## 4. Vercel — the web app (3 min)
+
+1. <https://vercel.com> → **Add New → Project** → import the repo.
+2. **Root Directory** → set to **`apps/web`** (click *Edit*).
+   Framework preset: **Next.js** (auto-detected).
+3. **Environment Variables:**
+
+   | Key | Value |
+   |---|---|
+   | `NEXT_PUBLIC_API_BASE` | `https://swing-api.onrender.com` |
+   | `NEXT_PUBLIC_SITE_URL` | `https://<your-project>.vercel.app` |
+
+4. **Deploy.** Copy the resulting URL, e.g. `https://swing-terminal.vercel.app`.
+
+---
+
+## 5. Connect the two (1 min)
+
+1. Back in **Render → swing-api → Environment**, set:
+   ```
+   CORS_ORIGINS = https://swing-terminal.vercel.app
+   ```
+2. **Save** → Render redeploys automatically.
+
+---
+
+## 6. Keep the API awake (1 min)
+
+Render free instances sleep after 15 min idle (~50 s cold start).
+
+1. <https://cron-job.org> → **Create cronjob**
+2. URL: `https://swing-api.onrender.com/health`
+3. Schedule: **every 10 minutes**
+
+---
+
+## Done — verify
+
+1. Open the Vercel URL → you're redirected to `/login`
+2. Sign in with `admin123@gmail.com` / `admin@1234567890`
+3. Market Pulse loads with real data
+4. Click the **NIFTY 50** tile → its candlestick chart opens
+
+### From here on
+
+- **Weekdays 18:30 IST:** Actions fetches NSE → commits `out/` → Render redeploys
+  with fresh data automatically. Nothing for you to do.
+- **If a nightly run fails:** yesterday's `out/` is still in the repo; the API keeps
+  serving it and the UI shows the amber "stale" state. Re-run the workflow manually
+  from the Actions tab.
+- **Change the admin password:** update `ADMIN_PASSWORD` in Render → redeploy (the
+  seed script updates the existing row).
+
+---
+
+## Local development
+
+```bash
+# API
+cd apps/api
+cp .env.example .env          # fill DATABASE_URL with your Neon string
+python -m venv .venv && source .venv/bin/activate
+pip install -e '.[dev]'
+alembic upgrade head
+python -m app.auth.seed
+OUT_DIR=../../out uvicorn app.main:app --reload --port 8000
+
+# nightly job (writes out/ and data/)
+cd ../..
+pip install -r jobs/requirements.txt
+BACKFILL_DAYS=260 python -m jobs.run_nightly    # first run; then BACKFILL_DAYS=5
+
+# Web
+cd apps/web
+cp .env.local.example .env.local
+npm install && npm run dev     # http://localhost:3000
 ```

@@ -1,6 +1,11 @@
-# Render blueprint — deploys the FastAPI backend + a Redis instance.
-# Create a Neon database separately and paste its URL into DATABASE_URL (as the
-# psycopg form: postgresql+psycopg://...). The web frontend goes to Vercel — see DEPLOY.md.
+# Render blueprint for the FastAPI backend.
+#
+#   New > Blueprint > pick this repo.  Render reads this file and creates:
+#     - swing-api    (web service — serves out/*.json from memory)
+#     - swing-redis  (key-value — reserved for live quotes, unused for now)
+#
+# Secrets marked `sync: false` are NOT in this file. Set them in the Render
+# dashboard after the first deploy (see DEPLOY.md step 3).
 
 services:
   - type: web
@@ -8,31 +13,34 @@ services:
     runtime: python
     rootDir: apps/api
     plan: free
+    # alembic only manages the `users` table now; market data is files, not rows.
     buildCommand: "pip install --upgrade pip && pip install . && alembic upgrade head"
-    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    # seed/refresh the admin login on every deploy, then serve.
+    startCommand: "python -m app.auth.seed && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
     healthCheckPath: /health
-    autoDeploy: true
+    autoDeploy: true # redeploys when GitHub Actions commits fresh out/*.json
     envVars:
       - key: PYTHON_VERSION
         value: "3.12.7"
       - key: ENV
         value: production
+      # OUT_DIR is not set — store.py defaults to <repo-root>/out, which is where
+      # GitHub Actions commits the artifacts.
       - key: DATABASE_URL
-        sync: false # set in the Render dashboard — Neon connection string (postgresql+psycopg://...)
+        sync: false # Neon connection string, psycopg form: postgresql+psycopg://...?sslmode=require
       - key: SECRET_KEY
-        generateValue: true # JWT signing key
+        generateValue: true # JWT signing key — Render generates and stores it
       - key: ADMIN_EMAIL
-        sync: false # seed the login with `python -m app.auth.seed`
+        sync: false
       - key: ADMIN_PASSWORD
         sync: false
+      - key: CORS_ORIGINS
+        sync: false # your Vercel URL, e.g. https://swing-terminal.vercel.app
       - key: REDIS_URL
         fromService:
           type: keyvalue
           name: swing-redis
           property: connectionString
-      - key: CORS_ORIGINS
-        sync: false # e.g. https://swing-terminal.vercel.app  (only needed if the web app calls the API cross-origin instead of via its /api proxy)
-
 
   - type: keyvalue
     name: swing-redis
