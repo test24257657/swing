@@ -1,8 +1,10 @@
 [project]
 name = "swing-api"
 version = "0.0.0"
-description = "Swing Terminal backend — FastAPI reads Postgres, a nightly job ingests NSE."
+description = "Swing Terminal API — serves the nightly artifacts from memory; Postgres holds users only."
 requires-python = ">=3.11"
+# The API is deliberately light: it reads JSON files and does auth. All the heavy
+# NSE / pandas / scraping work lives in /jobs with its own requirements.txt.
 dependencies = [
     "fastapi>=0.115",
     "uvicorn[standard]>=0.32",
@@ -12,16 +14,7 @@ dependencies = [
     "pydantic-settings>=2.6",
     "sqlalchemy>=2.0.36",
     "psycopg[binary]>=3.2",
-    "alembic>=1.14",
     "redis>=5.2",
-    "apscheduler>=3.11",
-    "httpx>=0.28",
-    "pandas>=2.2",
-    "python-dateutil>=2.9",
-    # NSE data sources — unofficial scrapers, pinned deliberately
-    "nselib>=2.2",
-    "jugaad-data>=0.26",
-    "yfinance>=0.2.50",
 ]
 
 [project.optional-dependencies]
@@ -29,7 +22,9 @@ dev = [
     "ruff>=0.8",
     "pytest>=8.3",
     "pytest-asyncio>=0.24",
-    "mypy>=1.13",
+    "httpx>=0.28",       # starlette TestClient
+    "alembic>=1.14",     # kept for local schema work; not on the deploy path
+    "pandas>=2.2",       # the parked services/patterns modules still import it
 ]
 
 [build-system]

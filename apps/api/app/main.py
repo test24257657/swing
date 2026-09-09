@@ -8,6 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app import store
 from app.auth.deps import current_user
+from app.bootstrap import bootstrap_db
 from app.config import settings
 from app.routers import auth, health, pulse
 
@@ -17,6 +18,7 @@ log = logging.getLogger("swing.api")
 
 @asynccontextmanager
 async def lifespan(_: FastAPI):
+    bootstrap_db()  # ensure the users table exists + seed the admin from env
     store.load()  # read out/*.json into memory once
     log.info("swing-api starting in %s mode", settings.env)
     yield

@@ -13,10 +13,10 @@ services:
     runtime: python
     rootDir: apps/api
     plan: free
-    # alembic only manages the `users` table now; market data is files, not rows.
-    buildCommand: "pip install --upgrade pip && pip install . && alembic upgrade head"
-    # seed/refresh the admin login on every deploy, then serve.
-    startCommand: "python -m app.auth.seed && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    buildCommand: "pip install --upgrade pip && pip install ."
+    # The app creates the `users` table and seeds the admin on startup
+    # (app/bootstrap.py) — no migration step, no DB access at build time.
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
     healthCheckPath: /health
     autoDeploy: true # redeploys when GitHub Actions commits fresh out/*.json
     envVars:
