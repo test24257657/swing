@@ -1,0 +1,400 @@
+# Swing Trading Terminal — Architecture
+
+Indian equities (NSE) market dashboard.
+Free-tier hosting. ~10 concurrent users.
+
+**Current scope: the Market Pulse screen only.** Everything else is deliberately
+out of scope until Pulse is live, correct and deployed.
+
+---
+
+## 1. What we are building right now
+
+One screen — **Market Pulse** — the post-close read on the market.
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  status pill:  Market closed / Pre-open / Open / Holiday      │
+├──────────────────────────────────────────────────────────────┤
+│  NIFTY 50   │  NIFTY BANK  │  NIFTY 500  │  INDIA VIX        │
+│  value      │  value       │  value      │  value            │
+│  chg + %    │  chg + %     │  chg + %    │  chg + %          │
+│  30d spark  │  30d spark   │  30d spark  │  30d spark        │
+├──────────────┬───────────────────────────┬───────────────────┤
+│  BREADTH     │  FII / DII FLOW           │  VOLATILITY       │
+│  donut       │  last 10 sessions, bars   │  VIX + percentile │
+│  adv/dec/unch│  10-session net (₹ cr)    │  regime verdict   │
+│  A/D ratio   │                           │                   │
+│  % > 50 DMA  │                           │                   │
+├──────────────┴─────────────┬─────────────┴───────────────────┤
+│  MOST ACTIVE BY VALUE      │  52-WEEK HIGH BREAKOUTS         │
+│  top 10, turnover ₹cr      │  top 10, vol > 1.5× 20d avg     │
+└────────────────────────────┴─────────────────────────────────┘
+```
+
+**Not building yet:** screener, chart view, stock detail, watchlist, alerts,
+sector rotation, indices screen, news, institutional. Those come later, one at a
+time, each following this same architecture.
+
+---
+
+## 2. Architectural pattern
+
+**Batch prediction serving.** Everything the screen needs is computed once a
+night, written to a small JSON file, and served from memory.
+
+Nothing is computed on request. The API is a lookup layer, not a compute layer.
+
+**Two non-negotiable rules:**
+
+> 1. The API never calls NSE. Not once. Not as a fallback.
+> 2. Market data never enters Postgres. Postgres is for user data only.
+
+NSE rate-limits per IP, and `nselib` / `jugaad-data` / `nsepython` are all
+unofficial scrapers of the same endpoints — switching libraries changes nothing.
+A live call from a request handler gets the server IP blocked within a day.
+
+Rule 2 is what keeps the free tier free: Neon's 0.5 GB fills up fast if you put
+600k price rows in it. Files cost nothing.
+
+---
+
+## 3. System diagram
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  GITHUB ACTIONS  —  cron 18:30 IST, Mon–Fri                  │
+│                                                               │
+│   1. fetch.py       bhavcopy + indices + FII/DII + holidays   │
+│   2. panel.py       append to the rolling OHLC panel          │
+│   3. breadth.py     adv / dec / unch, % above 50 & 200 DMA    │
+│   4. movers.py      most active by value, 52WH breakouts      │
+│   5. vix.py         VIX level + 250-day percentile + regime   │
+│   6. writer.py      → out/pulse.json, out/meta.json           │
+│   7. commit artifacts back to the repo                        │
+└──────────────────────────────────────────────────────────────┘
+                          │  files (git)
+                          ▼
+┌──────────────────────────────────────────────────────────────┐
+│  RENDER (free)  —  FastAPI                                    │
+│                                                               │
+│   startup: read out/*.json into a module-level dict           │
+│                                                               │
+│   GET /pulse          the whole screen payload, one dict      │
+│   GET /market/status  computed from the holiday calendar      │
+│   GET /health         keep-alive target                       │
+│   POST /auth/login    Neon                                    │
+│                                                               │
+│   ✗ never calls NSE      ✗ never queries market data from DB  │
+└──────────────────────────────────────────────────────────────┘
+                          │  JSON
+                          ▼
+┌──────────────────────────────────────────────────────────────┐
+│  VERCEL (free)  —  Next.js + React Query + Zustand            │
+└──────────────────────────────────────────────────────────────┘
+                          │  user writes only
+                          ▼
+┌──────────────────────────────────────────────────────────────┐
+│  NEON (free)  —  Postgres                                     │
+│   users        (auth only, for now)                           │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 4. Why this holds
+
+Market data is **identical for every user**. Ten people hitting `/pulse` read the
+same in-memory dict. No per-user compute, no DB query, no fan-out.
+
+| Resource | Load | Free-tier limit | Headroom |
+|---|---|---|---|
+| `pulse.json` in RAM | < 200 KB | 512 MB | enormous |
+| Serving a request | dict lookup | — | enormous |
+| Requests/day | ~600 (10 × 60) | — | large |
+| Neon storage | < 1 MB (users only) | 0.5 GB | enormous |
+| GitHub Actions | ~4 min/night | 2000 min/month | large |
+
+**The only real bottleneck is the Render cold start.** Free instances sleep after
+15 minutes idle and take ~50 s to wake.
+**Fix:** cron-job.org pings `GET /health` every 10 minutes. Free.
+
+### When this breaks
+
+| Trigger | Move to |
+|---|---|
+| > 100 concurrent users | VPS, multiple workers |
+| artifacts > 100 MB | Cloudflare R2 instead of git |
+| intraday / real-time needed | paid broker API + WebSocket |
+| per-user computed values | a real compute layer |
+
+Until one of those is true, do not migrate.
+
+---
+
+## 5. Data sources — Pulse only
+
+| Data | Source | Feeds | Frequency |
+|---|---|---|---|
+| Bhavcopy (whole market OHLC + delivery %) | `nselib` | breadth, movers, 52WH | nightly |
+| Index values + history | `nselib` | the four tiles, sparklines | nightly |
+| INDIA VIX | `nselib` | volatility card | nightly |
+| FII/DII cash flows | NSE JSON API | flow card | nightly |
+| Holiday calendar | `nselib` | status pill | weekly |
+
+**Prefer bulk endpoints always.** One bhavcopy request returns the whole market
+for the same cost as one symbol.
+
+**Every source can fail.** One broken source degrades one card — it never blanks
+the screen. `meta.json` records per-source status and the UI shows it.
+
+---
+
+## 6. Repo structure
+
+```
+/jobs                    # runs on GitHub Actions
+  fetch.py               # download raw data (bhavcopy, indices, flows, holidays)
+  panel.py               # maintain the rolling OHLC panel
+  breadth.py             # adv/dec/unch, % above DMAs
+  movers.py              # most active, 52-week-high breakouts
+  vix.py                 # VIX level, percentile, regime label
+  writer.py              # artifact output
+  config.py              # ← EVERY threshold lives here
+  cache.py               # TTL decorator for external calls
+
+/api                     # runs on Render
+  main.py                # FastAPI app + startup loader
+  store.py               # in-memory artifact store
+  routes/
+    pulse.py  status.py  health.py  auth.py
+  models/                # Pydantic schemas
+  db.py                  # Neon — users only
+
+/web                     # runs on Vercel
+  app/pulse/             # the one screen
+  app/login/
+  components/
+  lib/                   # API client, React Query hooks
+  stores/                # Zustand
+
+/data                    # job working files (not served)
+  panel.parquet          # rolling OHLC panel, Nifty 500 × 1yr, ~4 MB
+
+/out                     # generated artifacts (served)
+  pulse.json             # the whole screen payload
+  meta.json              # generated_at, per-source status
+
+/.github/workflows
+  nightly.yml
+```
+
+### Three rules that matter most
+
+1. **`/api` imports nothing from `/jobs`.** Separate programs sharing only a file
+   format. Keeps pandas out of the serving process.
+2. **Every threshold lives in `jobs/config.py`.** DMA periods, volume multiples,
+   VIX regime bands, "most active" row count. Never inline a number in logic.
+3. **The API never opens `panel.parquet`.** It only reads `out/*.json`.
+
+---
+
+## 7. Pulse pipeline
+
+```
+fetch.py
+   bhavcopy (whole market)  ·  4 index histories  ·  VIX  ·  FII/DII  ·  holidays
+        ↓
+panel.py
+   append today's bars → data/panel.parquet   (Nifty 500 × 1 year, rolling)
+   drop anything older than 1 year
+        ↓
+breadth.py                          movers.py                  vix.py
+   advances  = close > prev_close      most active by turnover     level
+   declines  = close < prev_close      52WH breakouts:             250d percentile
+   unchanged = close == prev_close       close ≥ 52w high AND      regime band
+   A/D ratio                             volume ≥ 1.5 × 20d avg
+   % above 50 DMA / 200 DMA
+        ↓
+writer.py
+   out/pulse.json  ·  out/meta.json
+```
+
+### Thresholds (all in `jobs/config.py`)
+
+```python
+UNIVERSE            = "NIFTY 500"
+PANEL_DAYS          = 252          # 1 year
+SPARKLINE_DAYS      = 30
+MOVERS_ROWS         = 10
+BREAKOUT_VOL_MULT   = 1.5          # vs 20-day average
+VIX_PERCENTILE_DAYS = 250
+VIX_BANDS           = {"low": 13, "moderate": 18, "elevated": 24}
+FLOW_SESSIONS       = 10
+```
+
+---
+
+## 8. Artifact format
+
+### `out/pulse.json` (< 200 KB)
+
+```jsonc
+{
+  "as_of": "2026-09-08",
+  "tiles": [
+    { "symbol": "NIFTY 50", "value": 24836.30, "change": 112.45,
+      "change_pct": 0.46, "spark": [/* 30 closes */] }
+    // NIFTY BANK, NIFTY 500, INDIA VIX
+  ],
+  "breadth": {
+    "advances": 1382, "declines": 974, "unchanged": 122, "traded": 2478,
+    "ad_ratio": 1.42, "pct_above_50dma": 61.3, "pct_above_200dma": 54.8
+  },
+  "flows": {
+    "series": [{ "date": "2026-08-26", "fii_net": -1240.5, "dii_net": 2103.8 }],
+    "fii_10_session_net": -12486.0,
+    "dii_10_session_net": 18902.0
+  },
+  "vix": {
+    "value": 11.82, "change_pct": -3.75, "percentile_250d": 18,
+    "verdict": "Low volatility — trend-friendly",
+    "advice": "Favour breakout continuation; wider stops unnecessary."
+  },
+  "most_active": [
+    { "symbol": "RELIANCE", "name": "Reliance Industries",
+      "ltp": 1412.60, "change_pct": 1.24, "turnover_cr": 4286 }
+  ],
+  "breakouts_52w": [
+    { "symbol": "TATAMOTORS", "name": "Tata Motors",
+      "ltp": 1024.35, "change_pct": 2.86, "vol_ratio": 2.4 }
+  ]
+}
+```
+
+### `out/meta.json`
+
+```jsonc
+{
+  "generated_at": "2026-09-08T19:02:11+05:30",
+  "sources": {
+    "bhavcopy": { "ok": true,  "rows": 2478 },
+    "indices":  { "ok": true,  "count": 4 },
+    "fii_dii":  { "ok": false, "error": "timeout" },
+    "holidays": { "ok": true,  "count": 20 }
+  }
+}
+```
+
+`meta.json` drives the stale badge. If tonight's job fails, yesterday's
+`pulse.json` is still on disk — the API serves it with the old timestamp and the
+UI shows the stale state. **Never a blank screen.**
+
+---
+
+## 9. Postgres schema
+
+Market data never enters Postgres. For the Pulse scope, only auth:
+
+```sql
+users  (id, email, password_hash, is_active, created_at)
+```
+
+`watchlist`, `trade_journal`, `alerts`, `pattern_stats` arrive with their own
+phases later. Do not create them yet.
+
+---
+
+## 10. Caching
+
+| Layer | Mechanism | TTL |
+|---|---|---|
+| Nightly artifacts | files in the repo | 24 h (rebuilt nightly) |
+| API store | loaded at startup into a dict | until restart |
+| Frontend | React Query | 5 min stale time |
+
+One `@cached(ttl=...)` decorator in `jobs/cache.py`, applied to every external
+call. One function, used everywhere.
+
+---
+
+## 11. Scope limits for free tier
+
+- **Nifty 500 only** — not the full ~2500 listed symbols
+- **1 year of history** — extend only when a backtest needs it
+- **Daily data only** — no intraday
+- **Artifacts under 50 MB total**
+- **Postgres under 1 MB** — users only
+
+These are deliberate. Free tiers break above them.
+
+---
+
+## 12. Migration from what exists today
+
+The current code is Postgres-backed: ~600 k `daily_bars` rows plus indicators,
+patterns and scores in Neon, with the API querying it per request. That works but
+will exceed Neon's 0.5 GB. Moving to Plan A:
+
+| Step | Action |
+|---|---|
+| 1 | Add `/jobs` — port `ingest_*` / `compute_*` logic to write JSON, not rows |
+| 2 | Add `/out` + `.github/workflows/nightly.yml` |
+| 3 | Add `api/store.py`; rewrite `/pulse` + `/market/status` to read the dict |
+| 4 | Point the web `/pulse` screen at the new payload shape |
+| 5 | Drop the market tables from Neon; keep `users`. Keep the Alembic history |
+| 6 | Park the screener / patterns / charts code — it returns with its phase |
+
+Nothing is deleted, only parked. The indicator and pattern maths already written
+is pure and moves across unchanged.
+
+---
+
+## 13. Build order
+
+| Phase | Scope | Status |
+|---|---|---|
+| **P0** | Jobs skeleton, artifact format, GitHub Action, API store, `/pulse` + `/health` | **next** |
+| **P1** | Pulse screen wired end to end on Vercel + Render, keep-alive ping | |
+| P2 | Screener — indicators, filters, score, list view | later |
+| P3 | Charts — Lightweight Charts, S/R, pattern overlays | later |
+| P4 | Stock detail | later |
+| P5 | Watchlist + alerts | later |
+| P6 | Sector rotation + indices | later |
+| P7 | News (RSS + classification) | later |
+| P8 | Institutional / F&O | later |
+| P9 | Hardening + backtest harness | later |
+
+**Do not skip the backtest** when the score eventually ships. If the composite
+score does not beat buying the index over 2–3 years, it is decoration — and you
+need to know that before you trade on it.
+
+---
+
+## 14. Design system
+
+- **Fonts:** Inter (UI) + JetBrains Mono (all numbers, timestamps, source lines)
+- Light theme, single violet accent `#7C3AED` for interactive/selected states
+- Tabular numerals mandatory on every price, percentage, volume and score
+- Every percentage carries an explicit sign, using the Unicode minus: `+2.4%`, `−1.1%`
+- Indian digit grouping (`1,24,102`), ₹ crore units
+- Every card ends with a data-source + IST timestamp footer; amber when stale
+- Skeleton loaders, never spinners. Explicit empty states that route onward.
+
+Full wireframe: `design/swing-terminal.dc.html` — the source of truth for layout,
+hierarchy and interaction.
+
+---
+
+## 15. Correctness notes
+
+- A wrong number here gets traded on. Reconcile every indicator against a
+  reference value before shipping it.
+- Free data sources can be stale or simply wrong. Never place an order from this
+  platform without checking the price on a broker terminal.
+- Log every signal's outcome from day one — it is the only way to learn whether
+  any of this works.
+
+---
+
+*Educational tool. Not investment advice. Not SEBI-registered.*
