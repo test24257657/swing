@@ -3,7 +3,7 @@
 import { useQuery } from "@tanstack/react-query";
 
 import { apiGet } from "./client";
-import type { MarketPulse, MarketStatus } from "./market-types";
+import type { ChartArtifact, MarketPulse, MarketStatus } from "./market-types";
 import type { Envelope } from "./types";
 
 /** The whole Market Pulse screen, served from the nightly artifact. */
@@ -20,5 +20,15 @@ export function useMarketStatus() {
     queryKey: ["market", "status"],
     queryFn: () => apiGet<MarketStatus>("/market/status"),
     refetchInterval: 60_000,
+  });
+}
+
+/** OHLCV + moving averages for one instrument shown on Pulse. */
+export function useChart(slug: string) {
+  return useQuery({
+    queryKey: ["chart", slug],
+    queryFn: () => apiGet<Envelope<ChartArtifact>>(`/chart/${slug}`),
+    staleTime: 5 * 60_000,
+    enabled: Boolean(slug),
   });
 }

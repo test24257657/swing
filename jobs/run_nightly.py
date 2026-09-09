@@ -12,8 +12,8 @@ import logging
 import sys
 from datetime import date, timedelta
 
-from jobs import breadth, flows, movers, panel, tiles, writer
-from jobs.config import BACKFILL_DAYS, PANEL_DAYS
+from jobs import breadth, charts, flows, movers, panel, tiles, writer
+from jobs.config import BACKFILL_DAYS, PANEL_DAYS, TILE_INDICES
 from jobs.sources import holidays
 
 logging.basicConfig(level="INFO", format="%(levelname)-5s %(name)s  %(message)s")
@@ -27,7 +27,7 @@ def _last_weekday(d: date) -> date:
 
 
 def main() -> int:
-    business_date = _last_weekday(date.today())
+    business_date = _last_weekday(date.today())  # noqa: DTZ011
     log.info("nightly run for %s", business_date)
     sources: dict[str, dict] = {}
 
@@ -62,6 +62,13 @@ def main() -> int:
     active = movers.most_active(df)
     breakouts = movers.breakouts_52w(df)
     sources["movers"] = {"ok": bool(active), "most_active": len(active), "breakouts": len(breakouts)}
+
+    # 7. per-instrument chart artifacts — only for what Pulse shows
+    mover_symbols = [r["symbol"] for r in active] + [r["symbol"] for r in breakouts]
+    writer.clear_dir("charts")
+    charted, chart_stats = charts.build(df, TILE_INDICES, mover_symbols, PANEL_DAYS)
+    sources["charts"] = chart_stats
+    log.info("chart artifacts: %s", len(charted))
 
     writer.write_pulse(
         {

@@ -6,7 +6,7 @@ the run.
 from __future__ import annotations
 
 import logging
-from datetime import date, datetime, timedelta
+from datetime import UTC, date, datetime, timedelta
 from io import StringIO
 
 import httpx
@@ -152,7 +152,7 @@ def index_history(symbol: str, days: int) -> pd.DataFrame | None:
     ``capital_market.index_data`` silently truncates a long range, so the request is
     chunked and the pieces concatenated.
     """
-    end = date.today()
+    end = date.today()  # noqa: DTZ011
     span = int(days * 1.5) + 20  # calendar days needed to cover `days` sessions
     frames: list[pd.DataFrame] = []
 
@@ -268,7 +268,7 @@ def holidays() -> list[dict]:
         parsed = None
         for fmt in ("%d-%b-%Y", "%d-%b-%y", "%Y-%m-%d", "%d-%m-%Y"):
             try:
-                parsed = datetime.strptime(str(r[d_col]).strip(), fmt).date()
+                parsed = datetime.strptime(str(r[d_col]).strip(), fmt).replace(tzinfo=UTC).date()
                 break
             except ValueError:
                 continue

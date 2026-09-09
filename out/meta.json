@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T21:25:48+05:30",
+ "generated_at": "2026-09-09T21:47:21+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -7,10 +7,8 @@
   },
   "bhavcopy": {
    "ok": true,
-   "sessions_added": 7,
-   "failed": [
-    "2025-10-02"
-   ],
+   "sessions_added": 0,
+   "failed": [],
    "symbols": 3057,
    "sessions": 252,
    "rows": 657511
@@ -34,6 +32,10 @@
    "ok": true,
    "most_active": 10,
    "breakouts": 10
+  },
+  "charts": {
+   "ok": true,
+   "count": 22
   }
  }
 }

@@ -84,7 +84,7 @@ def build(end: date, backfill_days: int) -> tuple[pd.DataFrame, dict]:
         "failed": failed,
         "symbols": int(panel["symbol"].nunique()),
         "sessions": int(panel["date"].nunique()),
-        "rows": int(len(panel)),
+        "rows": len(panel),
     }
     return panel, stats
 

@@ -32,7 +32,11 @@ One screen — **Market Pulse** — the post-close read on the market.
 └────────────────────────────┴─────────────────────────────────┘
 ```
 
-**Not building yet:** screener, chart view, stock detail, watchlist, alerts,
+Clicking any tile or mover row opens `/chart/<slug>` — a candlestick chart with
+volume and 20/50/200-day moving averages, built from `out/charts/`. Charts exist
+**only** for the ~25 instruments Pulse currently shows.
+
+**Not building yet:** the screener, watchlist, alerts,
 sector rotation, indices screen, news, institutional. Those come later, one at a
 time, each following this same architecture.
 
@@ -73,6 +77,7 @@ Rule 2 is what keeps the free tier free: Neon's 0.5 GB fills up fast if you put
 │   movers.py    most active by value, 52WH breakouts           │
 │   tiles.py     4 index tiles + VIX percentile & regime        │
 │   flows.py     append today's FII/DII to the rolling history  │
+│   charts.py    → out/charts/<SLUG>.json  (only Pulse's ~25)   │
 │   writer.py    → out/pulse.json · calendar.json · meta.json   │
 │   commit out/ back to the repo                                │
 └──────────────────────────────────────────────────────────────┘
@@ -84,6 +89,7 @@ Rule 2 is what keeps the free tier free: Neon's 0.5 GB fills up fast if you put
 │   startup: read out/*.json into a module-level dict           │
 │                                                               │
 │   GET /pulse          the whole screen payload, one dict      │
+│   GET /chart/<slug>   OHLCV + MAs for one Pulse instrument    │
 │   GET /market/status  computed from the holiday calendar      │
 │   GET /health         keep-alive target                       │
 │   POST /auth/login    Neon                                    │
@@ -166,6 +172,7 @@ the screen. `meta.json` records per-source status and the UI shows it.
   movers.py              # most active by value, 52-week-high breakouts
   tiles.py               # the four index tiles + the volatility card
   flows.py               # FII/DII rolling history
+  charts.py              # per-instrument OHLCV artifacts (Pulse's tiles + movers)
   writer.py              # artifact output
   run_nightly.py         # the one entry point
   tests/                 # golden tests for the indicator maths
@@ -193,6 +200,7 @@ the screen. `meta.json` records per-source status and the UI shows it.
 
 /out                     # generated artifacts — committed, served by the API
   pulse.json             # the whole screen payload (~5 KB)
+  charts/<SLUG>.json     # 252d OHLCV + 20/50/200 DMA, one per visible instrument
   calendar.json          # NSE trading holidays
   meta.json              # generated_at + per-source status
 

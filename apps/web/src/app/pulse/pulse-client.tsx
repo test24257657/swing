@@ -1,5 +1,8 @@
 "use client";
 
+import { ArrowUpRight } from "lucide-react";
+import Link from "next/link";
+
 import { BreadthDonut } from "@/components/charts/breadth-donut";
 import { FlowBars } from "@/components/charts/flow-bars";
 import { Sparkline } from "@/components/charts/sparkline";
@@ -9,6 +12,7 @@ import { useMarketPulse } from "@/lib/api/market-hooks";
 import type { ActiveRow, BreakoutRow } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { change, count, direction, pct, pctPlain, price, ratio } from "@/lib/format";
+import { toSlug } from "@/lib/slug";
 
 const UP = "var(--color-up)";
 const DOWN = "var(--color-down)";
@@ -77,11 +81,23 @@ export function PulseClient() {
         </div>
       )}
 
-      {/* Index tiles */}
+      {/* Index tiles — click any to open its chart */}
       <div className="grid grid-cols-4 gap-2">
         {d.tiles.map((t) => (
-          <Card key={t.symbol} className="p-4">
-            <div className="text-[11px] font-semibold tracking-wide text-text-secondary">{t.symbol}</div>
+          <Link
+            key={t.symbol}
+            href={`/chart/${toSlug(t.symbol)}`}
+            className="group rounded-lg border border-border bg-surface p-4 transition-colors hover:border-accent"
+          >
+            <div className="flex items-center gap-1.5">
+              <span className="text-[11px] font-semibold tracking-wide text-text-secondary">
+                {t.symbol}
+              </span>
+              <ArrowUpRight
+                size={12}
+                className="text-text-faint opacity-0 transition-opacity group-hover:opacity-100"
+              />
+            </div>
             <div className="mt-2 flex items-end justify-between gap-3">
               <div>
                 <div className="tnum text-[20px] font-semibold tracking-tight">{price(t.value)}</div>
@@ -95,7 +111,7 @@ export function PulseClient() {
             <div className="mt-2.5 border-t border-border pt-2 font-mono text-[11px] text-text-faint">
               {t.spark.length}d · NSE index feed
             </div>
-          </Card>
+          </Link>
         ))}
       </div>
 
@@ -320,8 +336,9 @@ function MoversTable<T extends ActiveRow | BreakoutRow>({
         <p className="px-4 py-8 text-center text-[13px] text-text-muted">{empty}</p>
       ) : (
         rows.map((r) => (
-          <div
+          <Link
             key={r.symbol}
+            href={`/chart/${toSlug(r.symbol)}`}
             className="tnum grid items-center gap-2 border-b border-border px-4 py-2 last:border-0 hover:bg-surface-2"
             style={{ gridTemplateColumns: template }}
           >
@@ -334,7 +351,7 @@ function MoversTable<T extends ActiveRow | BreakoutRow>({
               {r.change_pct == null ? "—" : pct(r.change_pct)}
             </span>
             <span className="text-right text-[13px] text-text-secondary">{metric(r)}</span>
-          </div>
+          </Link>
         ))
       )}
     </Card>

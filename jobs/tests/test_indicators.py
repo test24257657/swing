@@ -129,7 +129,7 @@ def test_trend_label():
 
 
 # tiny local approx helper so the file has no hard pytest.approx import ordering issue
-def pytest_approx(expected, abs=1e-6):  # noqa: A002
+def pytest_approx(expected, abs=1e-6):
     import pytest
 
     return pytest.approx(expected, abs=abs)

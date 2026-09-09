@@ -76,3 +76,26 @@ export interface MarketPulse {
   most_active: ActiveRow[];
   breakouts_52w: BreakoutRow[];
 }
+
+export interface ChartBar {
+  time: string;
+  open: number | null;
+  high: number | null;
+  low: number | null;
+  close: number | null;
+  volume: number;
+}
+
+export interface MaPoint {
+  time: string;
+  value: number;
+}
+
+export interface ChartArtifact {
+  symbol: string;
+  name: string;
+  kind: "stock" | "index";
+  as_of: string | null;
+  bars: ChartBar[];
+  ma: Partial<Record<"sma_20" | "sma_50" | "sma_200", MaPoint[]>>;
+}

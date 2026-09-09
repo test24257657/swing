@@ -14,10 +14,19 @@ IST = ZoneInfo("Asia/Kolkata")
 
 
 def write(name: str, payload: dict | list) -> None:
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
     path = OUT_DIR / name
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=1, default=str))
-    log.info("wrote %s (%.1f KB)", path.name, path.stat().st_size / 1024)
+    log.debug("wrote %s (%.1f KB)", name, path.stat().st_size / 1024)
+
+
+def clear_dir(name: str) -> None:
+    """Drop a whole artifact subdirectory before a rebuild, so instruments that fall off
+    the Pulse screen don't leave stale chart files behind."""
+    d = OUT_DIR / name
+    if d.is_dir():
+        for f in d.glob("*.json"):
+            f.unlink()
 
 
 def write_pulse(payload: dict) -> None:

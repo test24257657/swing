@@ -22,7 +22,7 @@ OUT_DIR = Path(os.environ.get("OUT_DIR", Path(__file__).resolve().parents[3] / "
 # A run is considered stale once its artifacts are older than this.
 STALE_AFTER = timedelta(hours=30)
 
-_state: dict[str, dict] = {"pulse": {}, "meta": {}, "calendar": {}}
+_state: dict[str, dict] = {"pulse": {}, "meta": {}, "calendar": {}, "charts": {}}
 
 
 def _read(name: str) -> dict:
@@ -42,16 +42,36 @@ def load() -> None:
     _state["pulse"] = _read("pulse.json")
     _state["meta"] = _read("meta.json")
     _state["calendar"] = _read("calendar.json")
+
+    charts: dict[str, dict] = {}
+    charts_dir = OUT_DIR / "charts"
+    if charts_dir.is_dir():
+        for f in charts_dir.glob("*.json"):
+            try:
+                charts[f.stem.upper()] = json.loads(f.read_text())
+            except json.JSONDecodeError:
+                log.warning("bad chart artifact: %s", f.name)
+    _state["charts"] = charts
+
     log.info(
-        "artifacts loaded from %s — pulse=%s keys, generated_at=%s",
+        "artifacts loaded from %s — pulse=%s keys, charts=%s, generated_at=%s",
         OUT_DIR,
         len(_state["pulse"]),
+        len(charts),
         _state["meta"].get("generated_at"),
     )
 
 
 def pulse() -> dict:
     return _state["pulse"]
+
+
+def chart(slug: str) -> dict | None:
+    return _state["charts"].get(slug.upper())
+
+
+def chart_slugs() -> list[str]:
+    return sorted(_state["charts"])
 
 
 def holidays() -> list[dict]:

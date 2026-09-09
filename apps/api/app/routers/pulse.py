@@ -25,3 +25,16 @@ def pulse() -> Envelope[dict]:
 def status() -> dict:
     """Trading / pre-open / closed / holiday, from the artifact holiday calendar + IST clock."""
     return market_status()
+
+
+@router.get("/chart/{slug}", response_model=Envelope[dict])
+def chart(slug: str) -> Envelope[dict]:
+    """OHLCV + moving averages for one instrument shown on Pulse. Slug is the symbol with
+    non-alphanumerics replaced by ``_`` — e.g. ``NIFTY_50``, ``TATAMOTORS``."""
+    data = store.chart(slug)
+    if not data:
+        raise HTTPException(
+            status_code=404,
+            detail=f"No chart for {slug!r}. Charts exist only for instruments on Market Pulse.",
+        )
+    return envelope(data, Meta(**store.meta()))
