@@ -7,11 +7,12 @@ import { useMemo, useState } from "react";
 
 import { PriceChart } from "@/components/charts/price-chart";
 import { Screen } from "@/components/screen/screen-header";
-import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton } from "@/components/ui";
-import { useChart } from "@/lib/api/market-hooks";
-import type { ChartArtifact, ChartBar } from "@/lib/api/market-types";
+import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
+import { useChart, useScreener } from "@/lib/api/market-hooks";
+import type { ChartArtifact, ChartBar, PatternMatch } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { change, direction, pct, price } from "@/lib/format";
+import { PATTERNS } from "@/lib/patterns";
 
 const TIMEFRAMES = [
   { label: "D" },
@@ -65,6 +66,7 @@ function aggregate(data: ChartArtifact, tf: Timeframe): ChartArtifact {
 
 export function ChartClient({ slug }: { slug: string }) {
   const q = useChart(slug);
+  const screener = useScreener();
   const [timeframe, setTimeframe] = useState<Timeframe>("D");
   const searchParams = useSearchParams();
 
@@ -76,6 +78,12 @@ export function ChartClient({ slug }: { slug: string }) {
     if (!q.data) return null;
     return aggregate(q.data.data, timeframe);
   }, [q.data, timeframe]);
+
+  // Pattern overlays are daily-session data — only meaningful on the D timeframe.
+  const pattern: PatternMatch | null =
+    timeframe === "D"
+      ? (screener.data?.data.rows.find((r) => r.symbol === q.data?.data.symbol)?.patterns[0] ?? null)
+      : null;
 
   return (
     <Screen>
@@ -102,6 +110,7 @@ export function ChartClient({ slug }: { slug: string }) {
           onTimeframe={setTimeframe}
           meta={q.data!.meta}
           hasVolume={view.kind === "stock"}
+          pattern={pattern}
         />
       ) : null}
     </Screen>
@@ -114,12 +123,14 @@ function Loaded({
   onTimeframe,
   meta,
   hasVolume,
+  pattern,
 }: {
   data: ChartArtifact;
   timeframe: Timeframe;
   onTimeframe: (tf: Timeframe) => void;
   meta: React.ComponentProps<typeof DataSourceFooter>["meta"];
   hasVolume: boolean;
+  pattern: PatternMatch | null;
 }) {
   const bars = data.bars;
   const last = bars.at(-1);
@@ -147,6 +158,29 @@ function Loaded({
           </div>
         </div>
       </div>
+
+      {pattern && (
+        <div
+          className="mb-3 flex flex-wrap items-center gap-2 rounded-md border px-3 py-2"
+          style={{ borderColor: "var(--color-accent-border)", background: "var(--color-accent-tint)" }}
+        >
+          <Tooltip content={PATTERNS[pattern.code].tip}>
+            <Chip tone={PATTERNS[pattern.code].tone}>{PATTERNS[pattern.code].label}</Chip>
+          </Tooltip>
+          <span className="text-[12px] capitalize text-text-secondary">{pattern.stage}</span>
+          <span className="tnum ml-auto flex gap-3 text-[12px] text-text-secondary">
+            <span>
+              Pivot <span className="font-medium text-text">{price(pattern.pivot_price)}</span>
+            </span>
+            <span>
+              Stop <span className="font-medium text-down-text">{price(pattern.stop_suggestion)}</span>
+            </span>
+            <span>
+              Target <span className="font-medium text-up-text">{price(pattern.target_suggestion)}</span>
+            </span>
+          </span>
+        </div>
+      )}
 
       <Card className="p-4">
         <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
@@ -178,7 +212,7 @@ function Loaded({
           </div>
         </div>
 
-        <PriceChart data={data} height={460} showVolume={hasVolume} />
+        <PriceChart data={data} height={460} showVolume={hasVolume} pattern={pattern} />
 
         <div className="mt-3 flex items-center justify-between border-t border-border pt-2.5">
           <DataSourceFooter meta={meta} />

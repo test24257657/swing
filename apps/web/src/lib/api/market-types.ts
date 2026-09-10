@@ -110,6 +110,8 @@ export interface PatternMatch {
   pivot_price: number | null;
   stop_suggestion: number | null;
   target_suggestion: number | null;
+  base_start_date: string | null;
+  breakout_date: string | null;
 }
 
 export interface ScreenerRow {

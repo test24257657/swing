@@ -1,53 +1,20 @@
 "use client";
 
-import { ArrowDown, ArrowUp, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowDown, ArrowUp, ChevronLeft, ChevronRight, LayoutGrid, List } from "lucide-react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useQueryState } from "nuqs";
 import { useEffect, useMemo, useState } from "react";
 
+import { ChartGrid } from "@/components/screener/chart-grid";
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
 import { useScreener } from "@/lib/api/market-hooks";
 import type { BreakoutStage, PatternCode, ScreenerRow } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { direction, pct, price } from "@/lib/format";
+import { PATTERNS, STAGE_NOTE, STAGES } from "@/lib/patterns";
 import { toSlug } from "@/lib/slug";
-
-const PATTERNS: Record<PatternCode, { label: string; tone: "accent" | "info" | "up" | "stale"; tip: string }> = {
-  vcp: {
-    label: "VCP",
-    tone: "accent",
-    tip: "Volatility Contraction Pattern — successive pullbacks each shallower than the last, volume drying up into the pivot.",
-  },
-  ipo_base: {
-    label: "IPO Base",
-    tone: "info",
-    tip: "First base built after listing — sideways range of 4+ weeks with the listing-day high as resistance.",
-  },
-  high_52w_breakout: {
-    label: "52WH",
-    tone: "up",
-    tip: "Close above the highest close of the trailing 52 weeks, confirmed by above-average volume.",
-  },
-  near_pivot: {
-    label: "Pivot",
-    tone: "stale",
-    tip: "Within 3% of the pattern pivot — the buy trigger level, not yet crossed.",
-  },
-};
-
-const STAGES: { code: BreakoutStage; label: string }[] = [
-  { code: "forming", label: "Forming" },
-  { code: "confirmed", label: "Confirmed" },
-  { code: "extended", label: "Extended" },
-];
-
-const STAGE_NOTE: Record<BreakoutStage, string> = {
-  forming: "Pivot not yet crossed, or crossed without a volume thrust — a watchlist candidate.",
-  confirmed: "Pivot crossed within 3 sessions on ≥1.4× the 20-day average volume.",
-  extended: "More than 5% past the pivot — risk/reward has decayed.",
-};
 
 function toneClass(v: number | null | undefined) {
   const d = direction(v);
@@ -74,13 +41,16 @@ const COLUMNS: { key: SortColumn; label: string; align: "left" | "right" }[] = [
   { key: "change_pct", label: "%Chg", align: "right" },
   { key: "pivot_dist", label: "Near pivot", align: "right" },
 ];
-const PAGE_SIZE = 25;
+const PAGE_SIZE_LIST = 25;
+const PAGE_SIZE_GRID = 10; // 2 columns x 5 rows
 
 export function ScreenerClient() {
   const q = useScreener();
   const searchParams = useSearchParams();
   const [patternsParam, setPatternsParam] = useQueryState("patterns");
   const [stageParam, setStageParam] = useQueryState("stage");
+  const [viewParam, setViewParam] = useQueryState("view");
+  const view = viewParam === "grid" ? "grid" : "list";
 
   const patternFilter = useMemo(
     () => new Set((patternsParam?.split(",").filter(Boolean) ?? []) as PatternCode[]),
@@ -119,13 +89,14 @@ export function ScreenerClient() {
     });
   }, [filtered, sortState]);
 
-  const pageCount = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
+  const pageSize = view === "grid" ? PAGE_SIZE_GRID : PAGE_SIZE_LIST;
+  const pageCount = Math.max(1, Math.ceil(sorted.length / pageSize));
   const pageSafe = Math.min(page, pageCount);
-  const paged = sorted.slice((pageSafe - 1) * PAGE_SIZE, pageSafe * PAGE_SIZE);
+  const paged = sorted.slice((pageSafe - 1) * pageSize, pageSafe * pageSize);
 
   useEffect(() => {
     setPage(1);
-  }, [patternFilter, stageFilter, sortState]);
+  }, [patternFilter, stageFilter, sortState, view]);
 
   function toggleSort(col: SortColumn) {
     setSortState((prev) => (prev?.col === col ? { col, dir: prev.dir === "asc" ? "desc" : "asc" } : { col, dir: DEFAULT_DIR[col] }));
@@ -253,34 +224,58 @@ export function ScreenerClient() {
               <span className="tnum font-medium text-text">{filtered.length}</span> matches
               {filtered.length !== rows.length ? ` of ${rows.length}` : ""}
             </span>
-            {(patternFilter.size > 0 || stageFilter) && (
-              <button onClick={clearFilters} className="text-[11px] text-text-muted hover:text-text">
-                Clear filters
-              </button>
-            )}
+            <div className="flex items-center gap-3">
+              {(patternFilter.size > 0 || stageFilter) && (
+                <button onClick={clearFilters} className="text-[11px] text-text-muted hover:text-text">
+                  Clear filters
+                </button>
+              )}
+              <div className="flex gap-0.5 rounded-md border border-border bg-surface p-0.5">
+                <button
+                  onClick={() => setViewParam(null)}
+                  className={cn(
+                    "flex items-center gap-1 rounded px-2 py-1 text-[11px] font-medium",
+                    view === "list" ? "bg-[var(--color-accent-tint)] text-accent-hover" : "text-text-secondary hover:text-text",
+                  )}
+                >
+                  <List size={12} /> List
+                </button>
+                <button
+                  onClick={() => setViewParam("grid")}
+                  className={cn(
+                    "flex items-center gap-1 rounded px-2 py-1 text-[11px] font-medium",
+                    view === "grid" ? "bg-[var(--color-accent-tint)] text-accent-hover" : "text-text-secondary hover:text-text",
+                  )}
+                >
+                  <LayoutGrid size={12} /> Chart
+                </button>
+              </div>
+            </div>
           </div>
 
-          <div
-            className="grid gap-2 border-b border-border px-4 py-1.5 text-[11px] text-text-muted"
-            style={{ gridTemplateColumns: "1.8fr 0.8fr 0.7fr 0.9fr 1.4fr" }}
-          >
-            {COLUMNS.map((c) => (
-              <button
-                key={c.key}
-                onClick={() => toggleSort(c.key)}
-                className={cn(
-                  "flex items-center gap-1 hover:text-text",
-                  c.align === "right" ? "justify-end" : "justify-start",
-                  sortState?.col === c.key && "font-semibold text-text",
-                )}
-              >
-                {c.label}
-                {sortState?.col === c.key &&
-                  (sortState.dir === "asc" ? <ArrowUp size={11} /> : <ArrowDown size={11} />)}
-              </button>
-            ))}
-            <span>Pattern</span>
-          </div>
+          {view === "list" && (
+            <div
+              className="grid gap-2 border-b border-border px-4 py-1.5 text-[11px] text-text-muted"
+              style={{ gridTemplateColumns: "1.8fr 0.8fr 0.7fr 0.9fr 1.4fr" }}
+            >
+              {COLUMNS.map((c) => (
+                <button
+                  key={c.key}
+                  onClick={() => toggleSort(c.key)}
+                  className={cn(
+                    "flex items-center gap-1 hover:text-text",
+                    c.align === "right" ? "justify-end" : "justify-start",
+                    sortState?.col === c.key && "font-semibold text-text",
+                  )}
+                >
+                  {c.label}
+                  {sortState?.col === c.key &&
+                    (sortState.dir === "asc" ? <ArrowUp size={11} /> : <ArrowDown size={11} />)}
+                </button>
+              ))}
+              <span>Pattern</span>
+            </div>
+          )}
 
           {paged.length === 0 ? (
             <EmptyState
@@ -288,6 +283,8 @@ export function ScreenerClient() {
               description="Try clearing a filter — Forming often has candidates even when Confirmed is empty."
               actions={(patternFilter.size > 0 || stageFilter) && <Button onClick={clearFilters}>Clear filters</Button>}
             />
+          ) : view === "grid" ? (
+            <ChartGrid rows={paged} backHref={backHref} />
           ) : (
             paged.map((r) => <Row key={r.symbol} row={r} backHref={backHref} />)
           )}
@@ -295,7 +292,7 @@ export function ScreenerClient() {
           {pageCount > 1 && (
             <div className="flex items-center justify-between border-t border-border px-4 py-2">
               <span className="text-[11px] text-text-muted">
-                {(pageSafe - 1) * PAGE_SIZE + 1}–{Math.min(pageSafe * PAGE_SIZE, sorted.length)} of {sorted.length}
+                {(pageSafe - 1) * pageSize + 1}–{Math.min(pageSafe * pageSize, sorted.length)} of {sorted.length}
               </span>
               <div className="flex items-center gap-1">
                 <button

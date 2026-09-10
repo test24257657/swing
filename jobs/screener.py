@@ -81,6 +81,8 @@ def build(panel: pd.DataFrame) -> tuple[dict, dict]:
                         "pivot_price": m.pivot_price,
                         "stop_suggestion": m.stop_suggestion,
                         "target_suggestion": m.target_suggestion,
+                        "base_start_date": m.base_start_date.isoformat() if m.base_start_date else None,
+                        "breakout_date": m.breakout_date.isoformat() if m.breakout_date else None,
                     }
                     for m in matches
                 ],

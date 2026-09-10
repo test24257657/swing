@@ -8,12 +8,13 @@ import {
   type IChartApi,
   type LineData,
   LineStyle,
+  type SeriesMarker,
   type Time,
   createChart,
 } from "lightweight-charts";
 import { useEffect, useRef } from "react";
 
-import type { ChartArtifact } from "@/lib/api/market-types";
+import type { ChartArtifact, PatternMatch } from "@/lib/api/market-types";
 import { supportResistance } from "@/lib/support-resistance";
 
 const UP = "#16a34a";
@@ -29,6 +30,7 @@ const MA_COLOR: Record<string, string> = {
 // into the wicks — dark amber for resistance (a ceiling), dark blue for support (a floor).
 const RESISTANCE = "#9a3412";
 const SUPPORT = "#1e3a8a";
+const PIVOT = "#7c3aed";
 
 /**
  * TradingView Lightweight Charts — candles + a volume pane + 20/50/200-day moving
@@ -40,11 +42,15 @@ export function PriceChart({
   height = 460,
   showVolume = true,
   showSr = true,
+  pattern = null,
 }: {
   data: ChartArtifact;
   height?: number;
   showVolume?: boolean;
   showSr?: boolean;
+  /** The instrument's top-confidence setup-pattern match, if any (daily timeframe only —
+   * base_start_date/breakout_date are daily sessions and won't land on W/M bars). */
+  pattern?: PatternMatch | null;
 }) {
   const wrapRef = useRef<HTMLDivElement>(null);
 
@@ -118,6 +124,47 @@ export function PriceChart({
       }
     }
 
+    if (pattern) {
+      const barTimes = new Set(data.bars.map((b) => b.time));
+      const lines: [number | null, string, string][] = [
+        [pattern.pivot_price, PIVOT, "Pivot"],
+        [pattern.stop_suggestion, DOWN, "Stop"],
+        [pattern.target_suggestion, UP, "Target"],
+      ];
+      for (const [priceVal, color, title] of lines) {
+        if (priceVal == null) continue;
+        candles.createPriceLine({
+          price: priceVal,
+          color,
+          lineWidth: 2,
+          lineStyle: LineStyle.Dashed,
+          axisLabelVisible: true,
+          title,
+        });
+      }
+
+      const markers: SeriesMarker<Time>[] = [];
+      if (pattern.base_start_date && barTimes.has(pattern.base_start_date)) {
+        markers.push({
+          time: pattern.base_start_date as Time,
+          position: "belowBar",
+          color: PIVOT,
+          shape: "circle",
+          text: "Base",
+        });
+      }
+      if (pattern.breakout_date && barTimes.has(pattern.breakout_date)) {
+        markers.push({
+          time: pattern.breakout_date as Time,
+          position: "aboveBar",
+          color: UP,
+          shape: "arrowUp",
+          text: "Breakout",
+        });
+      }
+      if (markers.length) candles.setMarkers(markers.sort((a, b) => (a.time as string).localeCompare(b.time as string)));
+    }
+
     for (const key of ["sma_200", "sma_50", "sma_20"] as const) {
       const pts = data.ma[key];
       if (!pts?.length) continue;
@@ -139,7 +186,7 @@ export function PriceChart({
       ro.disconnect();
       chart.remove();
     };
-  }, [data, height, showVolume, showSr]);
+  }, [data, height, showVolume, showSr, pattern]);
 
   return <div ref={wrapRef} style={{ height }} className="w-full" />;
 }
