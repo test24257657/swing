@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { useQueryState } from "nuqs";
+import { useMemo } from "react";
 
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
@@ -53,8 +55,18 @@ function toneClass(v: number | null | undefined) {
 
 export function ScreenerClient() {
   const q = useScreener();
-  const [patternFilter, setPatternFilter] = useState<Set<PatternCode>>(new Set());
-  const [stageFilter, setStageFilter] = useState<BreakoutStage | null>(null);
+  const searchParams = useSearchParams();
+  const [patternsParam, setPatternsParam] = useQueryState("patterns");
+  const [stageParam, setStageParam] = useQueryState("stage");
+
+  const patternFilter = useMemo(
+    () => new Set((patternsParam?.split(",").filter(Boolean) ?? []) as PatternCode[]),
+    [patternsParam],
+  );
+  const stageFilter = (stageParam as BreakoutStage | null) || null;
+
+  // Carried through to every chart link so "back" returns here with these filters applied.
+  const backHref = `/screener${searchParams.toString() ? `?${searchParams.toString()}` : ""}`;
 
   const rows = useMemo(() => q.data?.data.rows ?? [], [q.data]);
   const filtered = useMemo(() => {
@@ -95,16 +107,19 @@ export function ScreenerClient() {
   const degraded = meta.degraded_sources ?? [];
 
   function togglePattern(code: PatternCode) {
-    setPatternFilter((prev) => {
-      const next = new Set(prev);
-      if (next.has(code)) next.delete(code);
-      else next.add(code);
-      return next;
-    });
+    const next = new Set(patternFilter);
+    if (next.has(code)) next.delete(code);
+    else next.add(code);
+    setPatternsParam(next.size ? [...next].join(",") : null);
   }
 
   function toggleStage(code: BreakoutStage) {
-    setStageFilter((prev) => (prev === code ? null : code));
+    setStageParam(stageFilter === code ? null : code);
+  }
+
+  function clearFilters() {
+    setPatternsParam(null);
+    setStageParam(null);
   }
 
   return (
@@ -185,13 +200,7 @@ export function ScreenerClient() {
               {filtered.length !== rows.length ? ` of ${rows.length}` : ""}
             </span>
             {(patternFilter.size > 0 || stageFilter) && (
-              <button
-                onClick={() => {
-                  setPatternFilter(new Set());
-                  setStageFilter(null);
-                }}
-                className="text-[11px] text-text-muted hover:text-text"
-              >
+              <button onClick={clearFilters} className="text-[11px] text-text-muted hover:text-text">
                 Clear filters
               </button>
             )}
@@ -211,21 +220,10 @@ export function ScreenerClient() {
             <EmptyState
               title="No stock matches these filters"
               description="Try clearing a filter — Forming often has candidates even when Confirmed is empty."
-              actions={
-                (patternFilter.size > 0 || stageFilter) && (
-                  <Button
-                    onClick={() => {
-                      setPatternFilter(new Set());
-                      setStageFilter(null);
-                    }}
-                  >
-                    Clear filters
-                  </Button>
-                )
-              }
+              actions={(patternFilter.size > 0 || stageFilter) && <Button onClick={clearFilters}>Clear filters</Button>}
             />
           ) : (
-            filtered.map((r) => <Row key={r.symbol} row={r} />)
+            filtered.map((r) => <Row key={r.symbol} row={r} backHref={backHref} />)
           )}
 
           <div className="border-t border-border px-4 py-2.5">
@@ -237,10 +235,10 @@ export function ScreenerClient() {
   );
 }
 
-function Row({ row }: { row: ScreenerRow }) {
+function Row({ row, backHref }: { row: ScreenerRow; backHref: string }) {
   return (
     <Link
-      href={`/chart/${toSlug(row.symbol)}`}
+      href={`/chart/${toSlug(row.symbol)}?back=${encodeURIComponent(backHref)}`}
       className="tnum grid items-center gap-2 border-b border-border px-4 py-2.5 last:border-0 hover:bg-surface-2"
       style={{ gridTemplateColumns: "1.8fr 0.8fr 0.7fr 1.6fr" }}
     >

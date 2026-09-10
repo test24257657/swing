@@ -2,6 +2,7 @@
 
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
 
 import { PriceChart } from "@/components/charts/price-chart";
@@ -65,6 +66,11 @@ function aggregate(data: ChartArtifact, tf: Timeframe): ChartArtifact {
 export function ChartClient({ slug }: { slug: string }) {
   const q = useChart(slug);
   const [timeframe, setTimeframe] = useState<Timeframe>("D");
+  const searchParams = useSearchParams();
+
+  const back = searchParams.get("back");
+  const backHref = back && back.startsWith("/") ? back : "/pulse";
+  const backLabel = backHref.startsWith("/screener") ? "Screener" : "Market Pulse";
 
   const view = useMemo(() => {
     if (!q.data) return null;
@@ -73,11 +79,8 @@ export function ChartClient({ slug }: { slug: string }) {
 
   return (
     <Screen>
-      <Link
-        href="/pulse"
-        className="mb-4 inline-flex items-center gap-1.5 text-[12px] text-text-muted hover:text-text"
-      >
-        <ArrowLeft size={13} /> Market Pulse
+      <Link href={backHref} className="mb-4 inline-flex items-center gap-1.5 text-[12px] text-text-muted hover:text-text">
+        <ArrowLeft size={13} /> {backLabel}
       </Link>
 
       {q.isPending ? (
@@ -87,8 +90,8 @@ export function ChartClient({ slug }: { slug: string }) {
           title="Chart unavailable"
           description={String((q.error as Error).message)}
           actions={
-            <Link href="/pulse">
-              <Button>Back to Pulse</Button>
+            <Link href={backHref}>
+              <Button>Back to {backLabel}</Button>
             </Link>
           }
         />
