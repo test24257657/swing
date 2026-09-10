@@ -3,7 +3,7 @@
 import { useQuery } from "@tanstack/react-query";
 
 import { apiGet } from "./client";
-import type { ChartArtifact, MarketPulse, MarketStatus } from "./market-types";
+import type { ChartArtifact, MarketPulse, MarketStatus, ScreenerData } from "./market-types";
 import type { Envelope } from "./types";
 
 /** The whole Market Pulse screen, served from the nightly artifact. */
@@ -20,6 +20,15 @@ export function useMarketStatus() {
     queryKey: ["market", "status"],
     queryFn: () => apiGet<MarketStatus>("/market/status"),
     refetchInterval: 60_000,
+  });
+}
+
+/** Setup-pattern matches across the whole panel, from the nightly artifact. */
+export function useScreener() {
+  return useQuery({
+    queryKey: ["screener"],
+    queryFn: () => apiGet<Envelope<ScreenerData>>("/screener"),
+    staleTime: 5 * 60_000,
   });
 }
 

@@ -99,3 +99,33 @@ export interface ChartArtifact {
   bars: ChartBar[];
   ma: Partial<Record<"sma_20" | "sma_50" | "sma_200", MaPoint[]>>;
 }
+
+export type PatternCode = "vcp" | "ipo_base" | "high_52w_breakout" | "near_pivot";
+export type BreakoutStage = "forming" | "confirmed" | "extended";
+
+export interface PatternMatch {
+  code: PatternCode;
+  stage: BreakoutStage;
+  confidence: number;
+  pivot_price: number | null;
+  stop_suggestion: number | null;
+  target_suggestion: number | null;
+}
+
+export interface ScreenerRow {
+  symbol: string;
+  name: string;
+  ltp: number;
+  change_pct: number | null;
+  volume: number;
+  patterns: PatternMatch[];
+}
+
+export interface ScreenerData {
+  as_of: string;
+  facets: {
+    patterns: Partial<Record<PatternCode, number>>;
+    stages: Partial<Record<BreakoutStage, number>>;
+  };
+  rows: ScreenerRow[];
+}
