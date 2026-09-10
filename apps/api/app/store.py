@@ -29,6 +29,7 @@ _state: dict[str, dict] = {
     "charts": {},
     "screener": {},
     "fundamentals": {},
+    "quotes": {},
 }
 
 
@@ -66,6 +67,7 @@ def load() -> None:
     _state["screener"] = _read("screener.json")
     _state["charts"] = _read_dir("charts")
     _state["fundamentals"] = _read_dir("fundamentals")
+    _state["quotes"] = _read("quotes.json")
 
     log.info(
         "artifacts loaded from %s — pulse=%s keys, charts=%s, fundamentals=%s, generated_at=%s",
@@ -95,6 +97,12 @@ def chart_slugs() -> list[str]:
 
 def fundamentals(slug: str) -> dict | None:
     return _state["fundamentals"].get(slug.upper())
+
+
+def quote(symbol: str) -> dict | None:
+    """LTP/name/change% for any actively-traded symbol — the whole panel, not just the
+    subset with a chart artifact. Used to enrich watchlist rows."""
+    return _state["quotes"].get(symbol.upper())
 
 
 def holidays() -> list[dict]:

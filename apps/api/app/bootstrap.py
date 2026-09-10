@@ -1,9 +1,9 @@
-"""One-table bootstrap.
+"""Bootstrap: no migration chain to run on deploy.
 
-Plan A keeps only the ``users`` table in Postgres, so there is no migration chain to
-run on deploy — the table is created if missing and the admin is seeded from
-``ADMIN_EMAIL`` / ``ADMIN_PASSWORD`` at startup. Alembic stays in the repo for local
-use and for when a second table arrives.
+Plan A's tables (``users``, ``watchlist_items``, ``alerts``) are created if missing at
+startup, and the admin is seeded from ``ADMIN_EMAIL`` / ``ADMIN_PASSWORD``. Alembic
+stays in the repo for local use — ``alembic upgrade head`` and this bootstrap create the
+same tables, so either path works locally, but only this one runs on Render.
 """
 
 from __future__ import annotations
@@ -14,15 +14,17 @@ from app.auth.security import hash_password
 from app.config import settings
 from app.db.session import engine
 from app.models.user import User
+from app.models.watchlist import Alert, WatchlistItem
 
 log = logging.getLogger("swing.bootstrap")
 
 
 def bootstrap_db() -> None:
     try:
-        User.__table__.create(bind=engine, checkfirst=True)
+        for model in (User, WatchlistItem, Alert):
+            model.__table__.create(bind=engine, checkfirst=True)
     except Exception:  # noqa: BLE001 - surface it but do not crash the whole app
-        log.exception("could not ensure the users table exists")
+        log.exception("could not ensure tables exist")
         return
 
     email = settings.admin_email.strip().lower()

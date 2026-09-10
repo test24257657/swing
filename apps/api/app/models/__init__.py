@@ -14,6 +14,7 @@ from app.models.saved_screen import SavedScreen
 from app.models.sector import Sector
 from app.models.symbol import Symbol
 from app.models.user import User
+from app.models.watchlist import Alert, WatchlistItem
 
 # PatternSignal / ScreenerScore were dropped with the Plan A migration — pattern
 # detection and the screener now run in jobs/ and write out/screener.json, not
@@ -35,4 +36,6 @@ __all__ = [
     "HolidayCalendar",
     "IngestionRun",
     "User",
+    "WatchlistItem",
+    "Alert",
 ]

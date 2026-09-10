@@ -13,18 +13,20 @@ import sys
 from datetime import date, timedelta
 
 from jobs import (
+    alerts,
     breadth,
     charts,
     flows,
     fundamentals,
     movers,
     panel,
+    quotes,
     screener,
     tiles,
     writer,
 )
 from jobs.config import BACKFILL_DAYS, PANEL_DAYS, TILE_INDICES
-from jobs.sources import holidays
+from jobs.sources import holidays, symbol_names
 
 logging.basicConfig(level="INFO", format="%(levelname)-5s %(name)s  %(message)s")
 log = logging.getLogger("jobs.nightly")
@@ -78,11 +80,14 @@ def main() -> int:
     sources["screener"] = screener_stats
     writer.write("screener.json", screener_payload)
 
-    # 8. per-instrument chart artifacts — Pulse movers + every screener match
+    # 8. per-instrument chart artifacts — Pulse movers, every screener match, and
+    #    anything on a user's watchlist (so its row can always open a chart)
+    watchlisted = alerts.watchlist_symbols()
     mover_symbols = (
         [r["symbol"] for r in active]
         + [r["symbol"] for r in breakouts]
         + [r["symbol"] for r in screener_payload.get("rows", [])]
+        + watchlisted
     )
     writer.clear_dir("charts")
     charted, chart_stats = charts.build(df, TILE_INDICES, mover_symbols, PANEL_DAYS)
@@ -96,6 +101,15 @@ def main() -> int:
     for symbol, payload in fund_payloads.items():
         writer.write(f"fundamentals/{charts.slug(symbol)}.json", payload)
     log.info("fundamentals artifacts: %s", len(fund_payloads))
+
+    # 10. whole-panel quote lookup — any watchlisted symbol, not just the ones above
+    quotes_payload = quotes.build(df, symbol_names())
+    writer.write("quotes.json", quotes_payload)
+    sources["quotes"] = {"ok": bool(quotes_payload), "count": len(quotes_payload)}
+
+    # 11. alert evaluation — nightly, against today's high/low (no live intraday feed)
+    alert_stats = alerts.evaluate(df, business_date)
+    sources["alerts"] = alert_stats
 
     writer.write_pulse(
         {

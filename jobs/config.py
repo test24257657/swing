@@ -8,7 +8,12 @@ from pathlib import Path
 # --- paths -------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = Path(os.environ.get("DATA_DIR", ROOT / "data"))
-OUT_DIR = Path(os.environ.get("OUT_DIR", ROOT / "out"))
+# out/*.json is production data — the nightly GitHub Action commits it and Render
+# serves it straight from the repo. GitHub Actions sets GITHUB_ACTIONS=true itself, so
+# only a real CI run defaults there; a bare local `python -m jobs.run_nightly` writes
+# to gitignored data/out instead and can never dirty git by accident.
+_DEFAULT_OUT = ROOT / "out" if os.environ.get("GITHUB_ACTIONS") else ROOT / "data" / "out"
+OUT_DIR = Path(os.environ.get("OUT_DIR", _DEFAULT_OUT))
 RAW_CACHE_DIR = Path(os.environ.get("RAW_CACHE_DIR", DATA_DIR / "raw_cache"))
 PANEL_PATH = DATA_DIR / "panel.parquet"
 

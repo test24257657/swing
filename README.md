@@ -36,17 +36,19 @@ docs/       phase notes
 
 ## Quick start
 
-**Local runs write artifacts to `data/out/`, never to `out/`.** `out/` is production data
-owned by the nightly GitHub Action — if a local run overwrites it, you end up committing
-hundreds of JSON files the Action would have written itself. `data/` is gitignored, so
-`OUT_DIR=data/out` keeps local experiments out of git entirely.
+**`out/` is production data**, owned by the nightly GitHub Action — Render serves it
+straight from the repo. `jobs/config.py` only defaults there when `GITHUB_ACTIONS=true`
+(set automatically by the Action); a bare local `python -m jobs.run_nightly` writes to
+gitignored `data/out/` instead, so a local run can never dirty git by accident. The API
+still defaults to `out/` (it has to, in production), so point it at the same place
+locally with `OUT_DIR=data/out`.
 
 ```bash
 cp .env.example .env                 # fill DATABASE_URL with your Neon string
 
-# nightly job — builds the panel and the artifacts
+# nightly job — builds the panel and the artifacts (writes to data/out/ by default)
 pip install -r jobs/requirements.txt
-OUT_DIR=data/out BACKFILL_DAYS=260 python -m jobs.run_nightly   # first run; then 5
+BACKFILL_DAYS=260 python -m jobs.run_nightly   # first run; then 5
 
 # API (run from the repo root — .env is resolved relative to the working directory)
 cd apps/api && python -m venv .venv && source .venv/bin/activate && pip install -e '.[dev]'
