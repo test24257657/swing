@@ -31,6 +31,7 @@ const MA_COLOR: Record<string, string> = {
 const RESISTANCE = "#9a3412";
 const SUPPORT = "#1e3a8a";
 const PIVOT = "#7c3aed";
+const DELIVERY = "#52525b";
 
 /**
  * TradingView Lightweight Charts — candles + a volume pane + 20/50/200-day moving
@@ -42,12 +43,15 @@ export function PriceChart({
   height = 460,
   showVolume = true,
   showSr = true,
+  showDelivery = false,
   pattern = null,
 }: {
   data: ChartArtifact;
   height?: number;
   showVolume?: boolean;
   showSr?: boolean;
+  /** Dashed delivery-% line on its own scale. Stocks only — no delivery data for indices. */
+  showDelivery?: boolean;
   /** The instrument's top-confidence setup-pattern match, if any (daily timeframe only —
    * base_start_date/breakout_date are daily sessions and won't land on W/M bars). */
   pattern?: PatternMatch | null;
@@ -165,6 +169,24 @@ export function PriceChart({
       if (markers.length) candles.setMarkers(markers.sort((a, b) => (a.time as string).localeCompare(b.time as string)));
     }
 
+    if (showDelivery) {
+      const pts = data.bars.filter((b) => b.delivery_pct != null);
+      if (pts.length) {
+        const deliv = chart.addLineSeries({
+          color: DELIVERY,
+          lineWidth: 1,
+          lineStyle: LineStyle.Dashed,
+          priceScaleId: "delivery",
+          priceLineVisible: false,
+          lastValueVisible: true,
+          crosshairMarkerVisible: false,
+          title: "Deliv %",
+        });
+        chart.priceScale("delivery").applyOptions({ scaleMargins: { top: 0.05, bottom: 0.35 }, visible: false });
+        deliv.setData(pts.map((b): LineData => ({ time: b.time as Time, value: b.delivery_pct as number })));
+      }
+    }
+
     for (const key of ["sma_200", "sma_50", "sma_20"] as const) {
       const pts = data.ma[key];
       if (!pts?.length) continue;
@@ -186,7 +208,7 @@ export function PriceChart({
       ro.disconnect();
       chart.remove();
     };
-  }, [data, height, showVolume, showSr, pattern]);
+  }, [data, height, showVolume, showSr, showDelivery, pattern]);
 
   return <div ref={wrapRef} style={{ height }} className="w-full" />;
 }

@@ -22,7 +22,14 @@ OUT_DIR = Path(os.environ.get("OUT_DIR", Path(__file__).resolve().parents[3] / "
 # A run is considered stale once its artifacts are older than this.
 STALE_AFTER = timedelta(hours=30)
 
-_state: dict[str, dict] = {"pulse": {}, "meta": {}, "calendar": {}, "charts": {}, "screener": {}}
+_state: dict[str, dict] = {
+    "pulse": {},
+    "meta": {},
+    "calendar": {},
+    "charts": {},
+    "screener": {},
+    "fundamentals": {},
+}
 
 
 def _read(name: str) -> dict:
@@ -37,28 +44,35 @@ def _read(name: str) -> dict:
         return {}
 
 
+def _read_dir(name: str) -> dict[str, dict]:
+    """One JSON file per symbol, keyed by its uppercased slug (the filename stem)."""
+    out: dict[str, dict] = {}
+    d = OUT_DIR / name
+    if not d.is_dir():
+        return out
+    for f in d.glob("*.json"):
+        try:
+            out[f.stem.upper()] = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            log.warning("bad %s artifact: %s", name, f.name)
+    return out
+
+
 def load() -> None:
     """Read every artifact into memory. Called at startup and by ``/admin/reload``."""
     _state["pulse"] = _read("pulse.json")
     _state["meta"] = _read("meta.json")
     _state["calendar"] = _read("calendar.json")
     _state["screener"] = _read("screener.json")
-
-    charts: dict[str, dict] = {}
-    charts_dir = OUT_DIR / "charts"
-    if charts_dir.is_dir():
-        for f in charts_dir.glob("*.json"):
-            try:
-                charts[f.stem.upper()] = json.loads(f.read_text())
-            except json.JSONDecodeError:
-                log.warning("bad chart artifact: %s", f.name)
-    _state["charts"] = charts
+    _state["charts"] = _read_dir("charts")
+    _state["fundamentals"] = _read_dir("fundamentals")
 
     log.info(
-        "artifacts loaded from %s — pulse=%s keys, charts=%s, generated_at=%s",
+        "artifacts loaded from %s — pulse=%s keys, charts=%s, fundamentals=%s, generated_at=%s",
         OUT_DIR,
         len(_state["pulse"]),
-        len(charts),
+        len(_state["charts"]),
+        len(_state["fundamentals"]),
         _state["meta"].get("generated_at"),
     )
 
@@ -77,6 +91,10 @@ def chart(slug: str) -> dict | None:
 
 def chart_slugs() -> list[str]:
     return sorted(_state["charts"])
+
+
+def fundamentals(slug: str) -> dict | None:
+    return _state["fundamentals"].get(slug.upper())
 
 
 def holidays() -> list[dict]:

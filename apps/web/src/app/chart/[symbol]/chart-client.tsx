@@ -8,11 +8,13 @@ import { useMemo, useState } from "react";
 import { PriceChart } from "@/components/charts/price-chart";
 import { Screen } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
-import { useChart, useScreener } from "@/lib/api/market-hooks";
-import type { ChartArtifact, ChartBar, PatternMatch } from "@/lib/api/market-types";
+import { useChart, useFundamentals, useScreener } from "@/lib/api/market-hooks";
+import type { ChartArtifact, ChartBar, FundamentalsData, PatternMatch } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { change, direction, pct, price } from "@/lib/format";
 import { PATTERNS } from "@/lib/patterns";
+
+import { DeliveryTrend, FundamentalsCard, PositionSizing, TechnicalSnapshot } from "./detail-cards";
 
 const TIMEFRAMES = [
   { label: "D" },
@@ -58,6 +60,7 @@ function aggregate(data: ChartArtifact, tf: Timeframe): ChartArtifact {
       low: lows.length ? Math.min(...lows) : null,
       close: group[group.length - 1].close,
       volume: group.reduce((sum, b) => sum + (b.volume ?? 0), 0),
+      delivery_pct: group[group.length - 1].delivery_pct,
     };
   });
   // Candle DMAs are daily-period; they don't map to weekly/monthly bars.
@@ -67,6 +70,7 @@ function aggregate(data: ChartArtifact, tf: Timeframe): ChartArtifact {
 export function ChartClient({ slug }: { slug: string }) {
   const q = useChart(slug);
   const screener = useScreener();
+  const fundamentals = useFundamentals(slug);
   const [timeframe, setTimeframe] = useState<Timeframe>("D");
   const searchParams = useSearchParams();
 
@@ -111,6 +115,7 @@ export function ChartClient({ slug }: { slug: string }) {
           meta={q.data!.meta}
           hasVolume={view.kind === "stock"}
           pattern={pattern}
+          fundamentals={fundamentals.data?.data ?? null}
         />
       ) : null}
     </Screen>
@@ -124,6 +129,7 @@ function Loaded({
   meta,
   hasVolume,
   pattern,
+  fundamentals,
 }: {
   data: ChartArtifact;
   timeframe: Timeframe;
@@ -131,6 +137,7 @@ function Loaded({
   meta: React.ComponentProps<typeof DataSourceFooter>["meta"];
   hasVolume: boolean;
   pattern: PatternMatch | null;
+  fundamentals: FundamentalsData | null;
 }) {
   const bars = data.bars;
   const last = bars.at(-1);
@@ -212,7 +219,7 @@ function Loaded({
           </div>
         </div>
 
-        <PriceChart data={data} height={460} showVolume={hasVolume} pattern={pattern} />
+        <PriceChart data={data} height={460} showVolume={hasVolume} showDelivery={hasVolume} pattern={pattern} />
 
         <div className="mt-3 flex items-center justify-between border-t border-border pt-2.5">
           <DataSourceFooter meta={meta} />
@@ -221,6 +228,19 @@ function Loaded({
           </span>
         </div>
       </Card>
+
+      {data.kind === "stock" && data.technicals && (
+        <div className="mt-2 grid grid-cols-3 gap-2">
+          <TechnicalSnapshot technicals={data.technicals} asOf={data.as_of} />
+          <DeliveryTrend bars={bars} />
+          <PositionSizing lastClose={lastClose} atrPct={data.technicals.atr_pct} pattern={pattern} />
+          {fundamentals && (
+            <div className="col-span-3">
+              <FundamentalsCard data={fundamentals} />
+            </div>
+          )}
+        </div>
+      )}
     </>
   );
 }

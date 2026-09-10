@@ -38,3 +38,13 @@ def chart(slug: str) -> Envelope[dict]:
             detail=f"No chart for {slug!r}. Charts exist only for instruments on Market Pulse.",
         )
     return envelope(data, Meta(**store.meta()))
+
+
+@router.get("/fundamentals/{slug}", response_model=Envelope[dict])
+def fundamentals(slug: str) -> Envelope[dict]:
+    """Quarterly revenue/net-income, last 4 quarters, from yfinance. Not every symbol has
+    this — a missing artifact just means yfinance had nothing for it that night."""
+    data = store.fundamentals(slug)
+    if not data:
+        raise HTTPException(status_code=404, detail=f"No fundamentals for {slug!r}.")
+    return envelope(data, Meta(**store.meta()))

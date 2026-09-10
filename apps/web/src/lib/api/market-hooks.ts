@@ -3,7 +3,7 @@
 import { useQuery } from "@tanstack/react-query";
 
 import { apiGet } from "./client";
-import type { ChartArtifact, MarketPulse, MarketStatus, ScreenerData } from "./market-types";
+import type { ChartArtifact, FundamentalsData, MarketPulse, MarketStatus, ScreenerData } from "./market-types";
 import type { Envelope } from "./types";
 
 /** The whole Market Pulse screen, served from the nightly artifact. */
@@ -39,5 +39,17 @@ export function useChart(slug: string) {
     queryFn: () => apiGet<Envelope<ChartArtifact>>(`/chart/${slug}`),
     staleTime: 5 * 60_000,
     enabled: Boolean(slug),
+  });
+}
+
+/** Quarterly revenue/net-income, last 4 quarters. Not every symbol has this — a 404 just
+ * means yfinance had nothing for it, not an error worth surfacing. */
+export function useFundamentals(slug: string) {
+  return useQuery({
+    queryKey: ["fundamentals", slug],
+    queryFn: () => apiGet<Envelope<FundamentalsData>>(`/fundamentals/${slug}`),
+    staleTime: 5 * 60_000,
+    enabled: Boolean(slug),
+    retry: false,
   });
 }

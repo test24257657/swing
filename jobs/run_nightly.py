@@ -12,7 +12,17 @@ import logging
 import sys
 from datetime import date, timedelta
 
-from jobs import breadth, charts, flows, movers, panel, screener, tiles, writer
+from jobs import (
+    breadth,
+    charts,
+    flows,
+    fundamentals,
+    movers,
+    panel,
+    screener,
+    tiles,
+    writer,
+)
 from jobs.config import BACKFILL_DAYS, PANEL_DAYS, TILE_INDICES
 from jobs.sources import holidays
 
@@ -78,6 +88,14 @@ def main() -> int:
     charted, chart_stats = charts.build(df, TILE_INDICES, mover_symbols, PANEL_DAYS)
     sources["charts"] = chart_stats
     log.info("chart artifacts: %s", len(charted))
+
+    # 9. quarterly fundamentals (yfinance) — same symbol set as the stock charts
+    writer.clear_dir("fundamentals")
+    fund_payloads, fund_stats = fundamentals.build([s for s in charted if s not in TILE_INDICES])
+    sources["fundamentals"] = fund_stats
+    for symbol, payload in fund_payloads.items():
+        writer.write(f"fundamentals/{charts.slug(symbol)}.json", payload)
+    log.info("fundamentals artifacts: %s", len(fund_payloads))
 
     writer.write_pulse(
         {

@@ -3,7 +3,7 @@
 Indian equities (NSE) market dashboard.
 Free-tier hosting. ~10 concurrent users.
 
-**Current scope: Market Pulse + the Screener.** Everything else is deliberately
+**Current scope: Market Pulse + the Screener + Stock Detail.** Everything else is deliberately
 out of scope until each phase is live, correct and deployed.
 
 ---
@@ -377,7 +377,7 @@ is pure and moves across unchanged.
 | **P1** | Pulse screen wired end to end on Vercel + Render, keep-alive ping | done |
 | **P2** | Screener — setup-pattern engine (VCP, IPO base, 52w breakout, near pivot), breakout-stage classifier, filter rail with live counts, pattern chips | done |
 | **P3** | Charts — S/R zones, pattern overlays (pivot/stop/target lines, base/breakout markers), screener chart-grid view | done |
-| P4 | Stock detail | later |
+| **P4** | Stock detail — technical snapshot, delivery trend, fundamentals (yfinance), position-sizing calculator | done |
 | P5 | Watchlist + alerts | later |
 | P6 | Sector rotation + indices | later |
 | P7 | News (RSS + classification) | later |

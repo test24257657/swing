@@ -84,11 +84,21 @@ export interface ChartBar {
   low: number | null;
   close: number | null;
   volume: number;
+  delivery_pct: number | null;
 }
 
 export interface MaPoint {
   time: string;
   value: number;
+}
+
+export interface Technicals {
+  rsi_14: number | null;
+  atr_pct: number | null;
+  rel_volume_20d: number | null;
+  dist_20dma_pct: number | null;
+  dist_50dma_pct: number | null;
+  dist_200dma_pct: number | null;
 }
 
 export interface ChartArtifact {
@@ -98,6 +108,20 @@ export interface ChartArtifact {
   as_of: string | null;
   bars: ChartBar[];
   ma: Partial<Record<"sma_20" | "sma_50" | "sma_200", MaPoint[]>>;
+  technicals: Technicals | null;
+}
+
+export interface FundamentalsQuarter {
+  label: string;
+  revenue_cr: number | null;
+  revenue_qoq_pct: number | null;
+  net_income_cr: number | null;
+  net_income_qoq_pct: number | null;
+}
+
+export interface FundamentalsData {
+  symbol: string;
+  quarters: FundamentalsQuarter[];
 }
 
 export type PatternCode = "vcp" | "ipo_base" | "high_52w_breakout" | "near_pivot";
