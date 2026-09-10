@@ -8,16 +8,16 @@ import { PriceChart } from "@/components/charts/price-chart";
 import { Screen } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton } from "@/components/ui";
 import { useChart } from "@/lib/api/market-hooks";
-import type { ChartArtifact } from "@/lib/api/market-types";
+import type { ChartArtifact, ChartBar } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { change, direction, pct, price } from "@/lib/format";
 
-const RANGES = [
-  { label: "1M", days: 21 },
-  { label: "3M", days: 63 },
-  { label: "6M", days: 126 },
-  { label: "1Y", days: 252 },
+const TIMEFRAMES = [
+  { label: "D" },
+  { label: "W" },
+  { label: "M" },
 ] as const;
+type Timeframe = (typeof TIMEFRAMES)[number]["label"];
 
 const MA_LEGEND = [
   { key: "sma_20", label: "20 DMA", color: "#2563eb" },
@@ -25,29 +25,51 @@ const MA_LEGEND = [
   { key: "sma_200", label: "200 DMA", color: "#7c3aed" },
 ] as const;
 
-function sliced(data: ChartArtifact, days: number): ChartArtifact {
-  if (data.bars.length <= days) return data;
-  const cutoff = data.bars[data.bars.length - days].time;
-  return {
-    ...data,
-    bars: data.bars.slice(-days),
-    ma: {
-      sma_20: data.ma.sma_20?.filter((p) => p.time >= cutoff),
-      sma_50: data.ma.sma_50?.filter((p) => p.time >= cutoff),
-      sma_200: data.ma.sma_200?.filter((p) => p.time >= cutoff),
-    },
-  };
+function weekKey(iso: string): string {
+  const d = new Date(`${iso}T00:00:00Z`);
+  const isoDay = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() - isoDay + 1);
+  return d.toISOString().slice(0, 10);
+}
+
+function monthKey(iso: string): string {
+  return iso.slice(0, 7);
+}
+
+function aggregate(data: ChartArtifact, tf: Timeframe): ChartArtifact {
+  if (tf === "D") return data;
+  const keyFn = tf === "W" ? weekKey : monthKey;
+  const groups = new Map<string, ChartBar[]>();
+  for (const bar of data.bars) {
+    const key = keyFn(bar.time);
+    const group = groups.get(key);
+    if (group) group.push(bar);
+    else groups.set(key, [bar]);
+  }
+  const bars: ChartBar[] = [...groups.values()].map((group) => {
+    const highs = group.map((b) => b.high).filter((v): v is number => v != null);
+    const lows = group.map((b) => b.low).filter((v): v is number => v != null);
+    return {
+      time: group[group.length - 1].time,
+      open: group[0].open,
+      high: highs.length ? Math.max(...highs) : null,
+      low: lows.length ? Math.min(...lows) : null,
+      close: group[group.length - 1].close,
+      volume: group.reduce((sum, b) => sum + (b.volume ?? 0), 0),
+    };
+  });
+  // Candle DMAs are daily-period; they don't map to weekly/monthly bars.
+  return { ...data, bars, ma: {} };
 }
 
 export function ChartClient({ slug }: { slug: string }) {
   const q = useChart(slug);
-  const [range, setRange] = useState<(typeof RANGES)[number]["label"]>("6M");
+  const [timeframe, setTimeframe] = useState<Timeframe>("D");
 
   const view = useMemo(() => {
     if (!q.data) return null;
-    const days = RANGES.find((r) => r.label === range)!.days;
-    return sliced(q.data.data, days);
-  }, [q.data, range]);
+    return aggregate(q.data.data, timeframe);
+  }, [q.data, timeframe]);
 
   return (
     <Screen>
@@ -73,8 +95,8 @@ export function ChartClient({ slug }: { slug: string }) {
       ) : view ? (
         <Loaded
           data={view}
-          range={range}
-          onRange={setRange}
+          timeframe={timeframe}
+          onTimeframe={setTimeframe}
           meta={q.data!.meta}
           hasVolume={view.kind === "stock"}
         />
@@ -85,14 +107,14 @@ export function ChartClient({ slug }: { slug: string }) {
 
 function Loaded({
   data,
-  range,
-  onRange,
+  timeframe,
+  onTimeframe,
   meta,
   hasVolume,
 }: {
   data: ChartArtifact;
-  range: string;
-  onRange: (r: (typeof RANGES)[number]["label"]) => void;
+  timeframe: Timeframe;
+  onTimeframe: (tf: Timeframe) => void;
   meta: React.ComponentProps<typeof DataSourceFooter>["meta"];
   hasVolume: boolean;
 }) {
@@ -136,18 +158,18 @@ function Loaded({
             )}
           </div>
           <div className="flex gap-0.5 rounded-md border border-border bg-surface p-0.5">
-            {RANGES.map((r) => (
+            {TIMEFRAMES.map((tf) => (
               <button
-                key={r.label}
-                onClick={() => onRange(r.label)}
+                key={tf.label}
+                onClick={() => onTimeframe(tf.label)}
                 className={cn(
                   "rounded px-2.5 py-1 text-[11px] font-medium",
-                  range === r.label
+                  timeframe === tf.label
                     ? "bg-[var(--color-accent-tint)] text-accent-hover"
                     : "text-text-secondary hover:text-text",
                 )}
               >
-                {r.label}
+                {tf.label}
               </button>
             ))}
           </div>
