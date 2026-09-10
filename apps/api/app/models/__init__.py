@@ -10,12 +10,14 @@ from app.models.fundamental import Fundamental
 from app.models.index import IndexBar, MarketIndex
 from app.models.ingestion_run import IngestionRun
 from app.models.market import FiiDiiFlow, HolidayCalendar, IndexConstituent, MarketBreadth
-from app.models.pattern_signal import PatternSignal
 from app.models.saved_screen import SavedScreen
-from app.models.screener_score import ScreenerScore
 from app.models.sector import Sector
 from app.models.symbol import Symbol
 from app.models.user import User
+
+# PatternSignal / ScreenerScore were dropped with the Plan A migration — pattern
+# detection and the screener now run in jobs/ and write out/screener.json, not
+# Postgres. See docs/ARCHITECTURE.md and docs/phase-2.md.
 
 __all__ = [
     "Symbol",
@@ -25,8 +27,6 @@ __all__ = [
     "Fundamental",
     "MarketIndex",
     "IndexBar",
-    "ScreenerScore",
-    "PatternSignal",
     "SavedScreen",
     "BacktestRun",
     "MarketBreadth",

@@ -12,7 +12,7 @@ import logging
 import sys
 from datetime import date, timedelta
 
-from jobs import breadth, charts, flows, movers, panel, tiles, writer
+from jobs import breadth, charts, flows, movers, panel, screener, tiles, writer
 from jobs.config import BACKFILL_DAYS, PANEL_DAYS, TILE_INDICES
 from jobs.sources import holidays
 
@@ -63,8 +63,17 @@ def main() -> int:
     breakouts = movers.breakouts_52w(df)
     sources["movers"] = {"ok": bool(active), "most_active": len(active), "breakouts": len(breakouts)}
 
-    # 7. per-instrument chart artifacts — only for what Pulse shows
-    mover_symbols = [r["symbol"] for r in active] + [r["symbol"] for r in breakouts]
+    # 7. setup-pattern screener (VCP, IPO base, 52w breakout, near pivot)
+    screener_payload, screener_stats = screener.build(df)
+    sources["screener"] = screener_stats
+    writer.write("screener.json", screener_payload)
+
+    # 8. per-instrument chart artifacts — Pulse movers + every screener match
+    mover_symbols = (
+        [r["symbol"] for r in active]
+        + [r["symbol"] for r in breakouts]
+        + [r["symbol"] for r in screener_payload.get("rows", [])]
+    )
     writer.clear_dir("charts")
     charted, chart_stats = charts.build(df, TILE_INDICES, mover_symbols, PANEL_DAYS)
     sources["charts"] = chart_stats

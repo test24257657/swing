@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import pandas as pd
 
-from app.patterns import high_52w_breakout, ipo_base, near_pivot, vcp
-from app.patterns.base import DetectContext, PatternMatch
+from jobs.patterns import high_52w_breakout, ipo_base, near_pivot, vcp
+from jobs.patterns.base import DetectContext, PatternMatch
 
 # order matters only for display; a symbol can match several
 DETECTORS = (

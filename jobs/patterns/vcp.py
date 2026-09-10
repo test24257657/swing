@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import pandas as pd
 
-from app.patterns.base import DetectContext, PatternMatch, clamp01, contraction_legs
-from app.patterns.stage import classify_stage
+from jobs.patterns.base import DetectContext, PatternMatch, clamp01, contraction_legs
+from jobs.patterns.stage import classify_stage
 
 LOOKBACK = 80
 MIN_CONTRACTIONS = 2

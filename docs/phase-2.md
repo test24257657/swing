@@ -4,6 +4,27 @@ Status: **built, unit-verified, not validated on real charts.** The detectors pa
 synthetic golden tests. Real-chart precision/recall (hand-labelling ~100 charts) is a
 separate gate that needs ingested data and has not been done.
 
+**Ported to Plan A.** This phase was originally built against Postgres
+(`pattern_signals` table, `jobs/detect_patterns.py` ingestion job, `services/screener.py`).
+When the project moved to the file-artifact architecture, the detector logic in
+`app/patterns/` (pure OHLCV → `PatternMatch` functions, no I/O) carried over unchanged
+into `jobs/patterns/`. What changed is everything *around* the detectors:
+
+- Context (`vol_sma_20`, `atr_14`, `listing_date`) now comes from the rolling panel
+  (`jobs/panel.py`) and `jobs/sources.py::listing_dates()` instead of Postgres.
+- `jobs/screener.py` runs `detect_all()` across every symbol in the panel and writes
+  one artifact, `out/screener.json` (`{as_of, facets: {patterns, stages}, rows}`),
+  instead of upserting `pattern_signals`.
+- The API's `/screener` route (`app/routers/screener.py`) is a store lookup like
+  `/pulse` — no compute on request, no database.
+- Detection runs on **unadjusted** closes (Plan A's whole-market bhavcopy has no
+  corporate-action adjustment factor) and against the 252-session rolling panel rather
+  than the ~320 bars the old job pulled — a known gap, not yet closed.
+- The old Postgres-era `app/patterns/`, `app/services/screener.py`,
+  `app/models/pattern_signal.py`, `app/models/screener_score.py`,
+  `app/schemas/screener.py` and `app/ingestion/jobs/detect_patterns.py` were removed;
+  git history has them if the Postgres path is ever revived.
+
 ## Scope
 
 Four detectors this phase — **VCP, IPO Base, 52-Week High Breakout, Near Pivot**.
@@ -62,6 +83,7 @@ are validated.
 |---|---|
 | Hand-label ~100 real charts, measure precision/recall per detector, tune thresholds | before Phase 2 "ships" — needs data |
 | Flat Base + Cup & Handle detectors | later |
-| Real NSE holiday calendar (still weekend-only) | carried forward |
 | Confidence-gating low-confidence matches in the UI | polish |
 | Pattern overlays on the chart (contraction zones, pivot lines) | Phase 3 |
+| Corporate-action-adjusted OHLC for detection (Plan A panel is unadjusted) | later |
+| Composite score, RS-vs-sector, delivery %, RSI, sector column, saved screens, CSV export, card/grid view | Phase 9 (score) and later (the rest — no sector data yet) |

@@ -22,7 +22,7 @@ OUT_DIR = Path(os.environ.get("OUT_DIR", Path(__file__).resolve().parents[3] / "
 # A run is considered stale once its artifacts are older than this.
 STALE_AFTER = timedelta(hours=30)
 
-_state: dict[str, dict] = {"pulse": {}, "meta": {}, "calendar": {}, "charts": {}}
+_state: dict[str, dict] = {"pulse": {}, "meta": {}, "calendar": {}, "charts": {}, "screener": {}}
 
 
 def _read(name: str) -> dict:
@@ -42,6 +42,7 @@ def load() -> None:
     _state["pulse"] = _read("pulse.json")
     _state["meta"] = _read("meta.json")
     _state["calendar"] = _read("calendar.json")
+    _state["screener"] = _read("screener.json")
 
     charts: dict[str, dict] = {}
     charts_dir = OUT_DIR / "charts"
@@ -64,6 +65,10 @@ def load() -> None:
 
 def pulse() -> dict:
     return _state["pulse"]
+
+
+def screener() -> dict:
+    return _state["screener"]
 
 
 def chart(slug: str) -> dict | None:

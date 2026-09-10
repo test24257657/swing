@@ -102,6 +102,30 @@ def symbol_names() -> dict[str, str]:
     }
 
 
+@cached(ttl=3600)
+@safe(default=dict, label="listing dates")
+def listing_dates() -> dict[str, date]:
+    """NSE symbol -> listing date, for the IPO-base detector."""
+    cache = raw_path("equity_list", "nse-equity-list")
+    if cache.exists() and cache.stat().st_size > 0:
+        df = pd.read_csv(cache)
+    else:
+        from nselib import capital_market
+
+        df = pd.DataFrame(capital_market.equity_list())
+        df.to_csv(cache, index=False)
+    cols = {c.strip().upper(): c for c in df.columns}
+    sym, listed = cols.get("SYMBOL"), cols.get("DATE OF LISTING")
+    if not (sym and listed):
+        return {}
+    out: dict[str, date] = {}
+    for s, d in zip(df[sym], df[listed], strict=False):
+        parsed = pd.to_datetime(d, format="%d-%b-%Y", errors="coerce")
+        if pd.notna(parsed):
+            out[str(s).strip().upper()] = parsed.date()
+    return out
+
+
 # --- bhavcopy ----------------------------------------------------------------
 
 

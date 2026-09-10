@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import pandas as pd
 
-from app.patterns.base import DetectContext, PatternMatch, clamp01, swing_points
+from jobs.patterns.base import DetectContext, PatternMatch, clamp01, swing_points
 
 BASE_LOOKBACK = 45
 NEAR_PCT = 3.0  # within this % below the pivot, not yet crossed
