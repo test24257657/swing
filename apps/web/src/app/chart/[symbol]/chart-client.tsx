@@ -183,7 +183,7 @@ function Loaded({
         <div className="mt-3 flex items-center justify-between border-t border-border pt-2.5">
           <DataSourceFooter meta={meta} />
           <span className="font-mono text-[11px] text-text-faint">
-            wheel to zoom · drag to pan · {bars.length} sessions
+            wheel to zoom · drag to pan · solid lines = support/resistance · {bars.length} sessions
           </span>
         </div>
       </Card>

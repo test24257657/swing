@@ -7,12 +7,14 @@ import {
   type HistogramData,
   type IChartApi,
   type LineData,
+  LineStyle,
   type Time,
   createChart,
 } from "lightweight-charts";
 import { useEffect, useRef } from "react";
 
 import type { ChartArtifact } from "@/lib/api/market-types";
+import { supportResistance } from "@/lib/support-resistance";
 
 const UP = "#16a34a";
 const DOWN = "#dc2626";
@@ -23,6 +25,10 @@ const MA_COLOR: Record<string, string> = {
   sma_50: "#d97706",
   sma_200: "#7c3aed",
 };
+// Deliberately distinct from the candle up/down colors so S/R levels don't blend
+// into the wicks — dark amber for resistance (a ceiling), dark blue for support (a floor).
+const RESISTANCE = "#9a3412";
+const SUPPORT = "#1e3a8a";
 
 /**
  * TradingView Lightweight Charts — candles + a volume pane + 20/50/200-day moving
@@ -33,10 +39,12 @@ export function PriceChart({
   data,
   height = 460,
   showVolume = true,
+  showSr = true,
 }: {
   data: ChartArtifact;
   height?: number;
   showVolume?: boolean;
+  showSr?: boolean;
 }) {
   const wrapRef = useRef<HTMLDivElement>(null);
 
@@ -97,6 +105,19 @@ export function PriceChart({
       );
     }
 
+    if (showSr) {
+      for (const level of supportResistance(data.bars)) {
+        candles.createPriceLine({
+          price: level.price,
+          color: level.type === "resistance" ? RESISTANCE : SUPPORT,
+          lineWidth: 2,
+          lineStyle: LineStyle.Solid,
+          axisLabelVisible: true,
+          title: `${level.type === "resistance" ? "R" : "S"} · ${level.touches}×`,
+        });
+      }
+    }
+
     for (const key of ["sma_200", "sma_50", "sma_20"] as const) {
       const pts = data.ma[key];
       if (!pts?.length) continue;
@@ -118,7 +139,7 @@ export function PriceChart({
       ro.disconnect();
       chart.remove();
     };
-  }, [data, height, showVolume]);
+  }, [data, height, showVolume, showSr]);
 
   return <div ref={wrapRef} style={{ height }} className="w-full" />;
 }

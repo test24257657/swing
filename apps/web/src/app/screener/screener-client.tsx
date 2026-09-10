@@ -1,9 +1,10 @@
 "use client";
 
+import { ArrowDown, ArrowUp, ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useQueryState } from "nuqs";
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
@@ -53,6 +54,28 @@ function toneClass(v: number | null | undefined) {
   return d === "up" ? "text-up-text" : d === "down" ? "text-down-text" : "text-text-secondary";
 }
 
+/** Distance from LTP to the top-confidence pattern's pivot — negative means still below it. */
+function pivotDist(row: ScreenerRow): number | null {
+  const pivot = row.patterns[0]?.pivot_price;
+  return pivot ? ((row.ltp / pivot - 1) * 100) : null;
+}
+
+type SortColumn = "symbol" | "ltp" | "change_pct" | "pivot_dist";
+type SortDir = "asc" | "desc";
+const DEFAULT_DIR: Record<SortColumn, SortDir> = {
+  symbol: "asc",
+  ltp: "desc",
+  change_pct: "desc",
+  pivot_dist: "asc", // closest to pivot first
+};
+const COLUMNS: { key: SortColumn; label: string; align: "left" | "right" }[] = [
+  { key: "symbol", label: "Symbol", align: "left" },
+  { key: "ltp", label: "LTP", align: "right" },
+  { key: "change_pct", label: "%Chg", align: "right" },
+  { key: "pivot_dist", label: "Near pivot", align: "right" },
+];
+const PAGE_SIZE = 25;
+
 export function ScreenerClient() {
   const q = useScreener();
   const searchParams = useSearchParams();
@@ -68,6 +91,9 @@ export function ScreenerClient() {
   // Carried through to every chart link so "back" returns here with these filters applied.
   const backHref = `/screener${searchParams.toString() ? `?${searchParams.toString()}` : ""}`;
 
+  const [sortState, setSortState] = useState<{ col: SortColumn; dir: SortDir } | null>(null);
+  const [page, setPage] = useState(1);
+
   const rows = useMemo(() => q.data?.data.rows ?? [], [q.data]);
   const filtered = useMemo(() => {
     return rows.filter((r) => {
@@ -76,6 +102,34 @@ export function ScreenerClient() {
       return matchesPattern && matchesStage;
     });
   }, [rows, patternFilter, stageFilter]);
+
+  const sorted = useMemo(() => {
+    if (!sortState) return filtered;
+    const { col, dir } = sortState;
+    const mul = dir === "asc" ? 1 : -1;
+    return [...filtered].sort((a, b) => {
+      const av = col === "symbol" ? a.symbol : col === "pivot_dist" ? pivotDist(a) : a[col];
+      const bv = col === "symbol" ? b.symbol : col === "pivot_dist" ? pivotDist(b) : b[col];
+      if (av == null) return bv == null ? 0 : 1;
+      if (bv == null) return -1;
+      if (typeof av === "string") return mul * av.localeCompare(bv as string);
+      const an = col === "pivot_dist" ? Math.abs(av) : av;
+      const bn = col === "pivot_dist" ? Math.abs(bv as number) : (bv as number);
+      return mul * (an - bn);
+    });
+  }, [filtered, sortState]);
+
+  const pageCount = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
+  const pageSafe = Math.min(page, pageCount);
+  const paged = sorted.slice((pageSafe - 1) * PAGE_SIZE, pageSafe * PAGE_SIZE);
+
+  useEffect(() => {
+    setPage(1);
+  }, [patternFilter, stageFilter, sortState]);
+
+  function toggleSort(col: SortColumn) {
+    setSortState((prev) => (prev?.col === col ? { col, dir: prev.dir === "asc" ? "desc" : "asc" } : { col, dir: DEFAULT_DIR[col] }));
+  }
 
   if (q.isPending) {
     return (
@@ -208,22 +262,61 @@ export function ScreenerClient() {
 
           <div
             className="grid gap-2 border-b border-border px-4 py-1.5 text-[11px] text-text-muted"
-            style={{ gridTemplateColumns: "1.8fr 0.8fr 0.7fr 1.6fr" }}
+            style={{ gridTemplateColumns: "1.8fr 0.8fr 0.7fr 0.9fr 1.4fr" }}
           >
-            <span>Symbol</span>
-            <span className="text-right">LTP</span>
-            <span className="text-right">%Chg</span>
+            {COLUMNS.map((c) => (
+              <button
+                key={c.key}
+                onClick={() => toggleSort(c.key)}
+                className={cn(
+                  "flex items-center gap-1 hover:text-text",
+                  c.align === "right" ? "justify-end" : "justify-start",
+                  sortState?.col === c.key && "font-semibold text-text",
+                )}
+              >
+                {c.label}
+                {sortState?.col === c.key &&
+                  (sortState.dir === "asc" ? <ArrowUp size={11} /> : <ArrowDown size={11} />)}
+              </button>
+            ))}
             <span>Pattern</span>
           </div>
 
-          {filtered.length === 0 ? (
+          {paged.length === 0 ? (
             <EmptyState
               title="No stock matches these filters"
               description="Try clearing a filter — Forming often has candidates even when Confirmed is empty."
               actions={(patternFilter.size > 0 || stageFilter) && <Button onClick={clearFilters}>Clear filters</Button>}
             />
           ) : (
-            filtered.map((r) => <Row key={r.symbol} row={r} backHref={backHref} />)
+            paged.map((r) => <Row key={r.symbol} row={r} backHref={backHref} />)
+          )}
+
+          {pageCount > 1 && (
+            <div className="flex items-center justify-between border-t border-border px-4 py-2">
+              <span className="text-[11px] text-text-muted">
+                {(pageSafe - 1) * PAGE_SIZE + 1}–{Math.min(pageSafe * PAGE_SIZE, sorted.length)} of {sorted.length}
+              </span>
+              <div className="flex items-center gap-1">
+                <button
+                  onClick={() => setPage((p) => Math.max(1, p - 1))}
+                  disabled={pageSafe <= 1}
+                  className="flex h-6 w-6 items-center justify-center rounded border border-border text-text-secondary hover:bg-surface-2 disabled:cursor-default disabled:opacity-40"
+                >
+                  <ChevronLeft size={13} />
+                </button>
+                <span className="tnum px-1 text-[11px] text-text-secondary">
+                  {pageSafe} / {pageCount}
+                </span>
+                <button
+                  onClick={() => setPage((p) => Math.min(pageCount, p + 1))}
+                  disabled={pageSafe >= pageCount}
+                  className="flex h-6 w-6 items-center justify-center rounded border border-border text-text-secondary hover:bg-surface-2 disabled:cursor-default disabled:opacity-40"
+                >
+                  <ChevronRight size={13} />
+                </button>
+              </div>
+            </div>
           )}
 
           <div className="border-t border-border px-4 py-2.5">
@@ -236,11 +329,12 @@ export function ScreenerClient() {
 }
 
 function Row({ row, backHref }: { row: ScreenerRow; backHref: string }) {
+  const dist = pivotDist(row);
   return (
     <Link
       href={`/chart/${toSlug(row.symbol)}?back=${encodeURIComponent(backHref)}`}
       className="tnum grid items-center gap-2 border-b border-border px-4 py-2.5 last:border-0 hover:bg-surface-2"
-      style={{ gridTemplateColumns: "1.8fr 0.8fr 0.7fr 1.6fr" }}
+      style={{ gridTemplateColumns: "1.8fr 0.8fr 0.7fr 0.9fr 1.4fr" }}
     >
       <div className="min-w-0">
         <div className="text-[13px] font-medium">{row.symbol}</div>
@@ -250,6 +344,7 @@ function Row({ row, backHref }: { row: ScreenerRow; backHref: string }) {
       <span className={cn("text-right text-[13px]", toneClass(row.change_pct))}>
         {row.change_pct == null ? "—" : pct(row.change_pct)}
       </span>
+      <span className="text-right text-[13px] text-text-secondary">{dist == null ? "—" : pct(dist)}</span>
       <div className="flex flex-wrap items-center gap-1">
         {row.patterns.map((p) => (
           <Tooltip
