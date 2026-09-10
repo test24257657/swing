@@ -147,6 +147,28 @@ export interface ScreenerRow {
   patterns: PatternMatch[];
 }
 
+export type AlertKind = "price_above" | "price_below";
+
+export interface WatchlistAlert {
+  id: number;
+  kind: AlertKind;
+  threshold: number;
+  enabled: boolean;
+  triggered_at: string | null;
+  triggered_price: number | null;
+}
+
+export interface WatchlistItem {
+  id: number;
+  symbol: string;
+  name: string;
+  entry_price: number | null;
+  added_at: string;
+  alerts: WatchlistAlert[];
+  ltp: number | null;
+  change_pct: number | null;
+}
+
 export interface ScreenerData {
   as_of: string;
   facets: {

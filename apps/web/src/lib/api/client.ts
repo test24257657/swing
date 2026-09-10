@@ -39,6 +39,10 @@ export async function apiGet<T>(
     },
   });
 
+  return handleResponse<T>(res);
+}
+
+async function handleResponse<T>(res: Response): Promise<T> {
   if (res.status === 401) {
     clearSession();
     if (typeof window !== "undefined" && window.location.pathname !== "/login") {
@@ -57,10 +61,11 @@ export async function apiGet<T>(
     }
     throw new ApiError(res.status, detail);
   }
+  if (res.status === 204) return undefined as T;
   return res.json() as Promise<T>;
 }
 
-/** Authenticated fetch for non-GET calls (saved screens, etc.). */
+/** Authenticated fetch for non-GET calls (saved screens, watchlist, etc.). */
 export function authHeaders(): Record<string, string> {
   const token = getToken();
   return {
@@ -68,3 +73,15 @@ export function authHeaders(): Record<string, string> {
     ...(token ? { authorization: `Bearer ${token}` } : {}),
   };
 }
+
+function mutate<T>(method: "POST" | "PATCH" | "DELETE", path: string, body?: unknown): Promise<T> {
+  return fetch(`${BASE}${path}`, {
+    method,
+    headers: authHeaders(),
+    body: body !== undefined ? JSON.stringify(body) : undefined,
+  }).then((res) => handleResponse<T>(res));
+}
+
+export const apiPost = <T>(path: string, body?: unknown) => mutate<T>("POST", path, body);
+export const apiPatch = <T>(path: string, body?: unknown) => mutate<T>("PATCH", path, body);
+export const apiDelete = <T>(path: string) => mutate<T>("DELETE", path);
