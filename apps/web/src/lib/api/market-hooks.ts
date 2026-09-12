@@ -9,6 +9,7 @@ import type {
   IndicesData,
   MarketPulse,
   MarketStatus,
+  NewsData,
   ScreenerData,
   SectorsData,
 } from "./market-types";
@@ -76,6 +77,15 @@ export function useIndices() {
   return useQuery({
     queryKey: ["indices"],
     queryFn: () => apiGet<Envelope<IndicesData>>("/indices"),
+    staleTime: 5 * 60_000,
+  });
+}
+
+/** Corporate announcements for the interesting symbol universe, AI-classified by impact. */
+export function useNews() {
+  return useQuery({
+    queryKey: ["news"],
+    queryFn: () => apiGet<Envelope<NewsData>>("/news"),
     staleTime: 5 * 60_000,
   });
 }

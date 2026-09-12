@@ -2,11 +2,14 @@
 
 import { useMemo, useState } from "react";
 
+import { ExternalLink } from "lucide-react";
+
 import { Card } from "@/components/ui";
-import type { ChartBar, FundamentalsData, PatternMatch, Technicals } from "@/lib/api/market-types";
+import type { ChartBar, FundamentalsData, NewsItem, PatternMatch, Technicals } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { direction, pct, price } from "@/lib/format";
 import { safeGridCols } from "@/lib/grid";
+import { IMPACT_META } from "@/lib/news-impact";
 import type { Tone } from "@/lib/tone";
 
 function toneClass(v: number | null | undefined) {
@@ -288,6 +291,52 @@ export function PositionSizing({ lastClose, atrPct, pattern }: { lastClose: numb
       <div className="mt-2.5 text-[11px] leading-relaxed text-text-muted">
         Risk per share {result ? price(result.riskPerShare) : "—"} · risking {price(result ? result.riskAmount : null)} of capital on this
         trade.
+      </div>
+    </Card>
+  );
+}
+
+/** Recent announcements for this symbol, filtered client-side from the shared news
+ * artifact (it's already scoped to the interesting universe, so no extra fetch). */
+export function StockAnnouncements({ items }: { items: NewsItem[] }) {
+  if (items.length === 0) return null;
+  return (
+    <Card className="p-4">
+      <div className="text-[13px] font-semibold">Recent announcements</div>
+      <div className="mt-2.5 flex flex-col gap-2">
+        {items.slice(0, 5).map((n, i) => {
+          const meta = IMPACT_META[n.impact];
+          return (
+            <div key={`${n.date}-${n.time}-${i}`} className="flex overflow-hidden rounded-md border border-border">
+              <div className="w-1 flex-none" style={{ background: meta.bar }} />
+              <div className="min-w-0 flex-1 p-2.5">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span
+                    className="flex items-center gap-1 rounded-full border px-2 py-0.5 text-[11px] font-medium whitespace-nowrap"
+                    style={{ color: meta.fg, background: meta.bg, borderColor: meta.bd }}
+                  >
+                    {meta.icon} {meta.label}
+                  </span>
+                  <span className="font-mono text-[11px] text-text-faint">
+                    {n.date} · {n.time}
+                  </span>
+                  {n.filing_url && (
+                    <a
+                      href={n.filing_url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="ml-auto flex items-center gap-1 text-[11px] font-medium text-accent hover:text-accent-hover"
+                    >
+                      Filing <ExternalLink size={11} />
+                    </a>
+                  )}
+                </div>
+                <div className="mt-1.5 text-[13px] font-medium leading-snug">{n.headline}</div>
+                {n.summary && <div className="mt-1 text-[12px] leading-relaxed text-text-secondary">{n.summary}</div>}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </Card>
   );

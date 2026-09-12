@@ -8,14 +8,14 @@ import { useMemo, useState } from "react";
 import { PriceChart } from "@/components/charts/price-chart";
 import { Screen } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
-import { useChart, useFundamentals, useScreener } from "@/lib/api/market-hooks";
-import type { ChartArtifact, ChartBar, FundamentalsData, PatternMatch } from "@/lib/api/market-types";
+import { useChart, useFundamentals, useNews, useScreener } from "@/lib/api/market-hooks";
+import type { ChartArtifact, ChartBar, FundamentalsData, NewsItem, PatternMatch } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { change, direction, pct, price } from "@/lib/format";
 import { PATTERNS } from "@/lib/patterns";
 import { TONE_BOX } from "@/lib/tone";
 
-import { DeliveryTrend, FundamentalsCard, PositionSizing, TechnicalSnapshot, technicalVerdict } from "./detail-cards";
+import { DeliveryTrend, FundamentalsCard, PositionSizing, StockAnnouncements, TechnicalSnapshot, technicalVerdict } from "./detail-cards";
 
 const TIMEFRAMES = [
   { label: "D" },
@@ -72,6 +72,7 @@ export function ChartClient({ slug }: { slug: string }) {
   const q = useChart(slug);
   const screener = useScreener();
   const fundamentals = useFundamentals(slug);
+  const news = useNews();
   const [timeframe, setTimeframe] = useState<Timeframe>("D");
   const searchParams = useSearchParams();
 
@@ -117,6 +118,7 @@ export function ChartClient({ slug }: { slug: string }) {
           hasVolume={view.kind === "stock"}
           pattern={pattern}
           fundamentals={fundamentals.data?.data ?? null}
+          news={news.data?.data.items.filter((n) => n.symbol === view.symbol) ?? []}
         />
       ) : null}
     </Screen>
@@ -131,6 +133,7 @@ function Loaded({
   hasVolume,
   pattern,
   fundamentals,
+  news,
 }: {
   data: ChartArtifact;
   timeframe: Timeframe;
@@ -139,6 +142,7 @@ function Loaded({
   hasVolume: boolean;
   pattern: PatternMatch | null;
   fundamentals: FundamentalsData | null;
+  news: NewsItem[];
 }) {
   const bars = data.bars;
   const last = bars.at(-1);
@@ -248,6 +252,11 @@ function Loaded({
           <TechnicalSnapshot technicals={data.technicals} asOf={data.as_of} />
           <DeliveryTrend bars={bars} />
           <PositionSizing lastClose={lastClose} atrPct={data.technicals.atr_pct} pattern={pattern} />
+          {news.length > 0 && (
+            <div className="sm:col-span-2 lg:col-span-3">
+              <StockAnnouncements items={news} />
+            </div>
+          )}
           {fundamentals && (
             <div className="sm:col-span-2 lg:col-span-3">
               <FundamentalsCard data={fundamentals} />

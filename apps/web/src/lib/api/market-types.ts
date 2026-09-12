@@ -222,3 +222,23 @@ export interface IndicesData {
   as_of: string | null;
   indices: IndexRow[];
 }
+
+export type NewsImpact = "very_positive" | "positive" | "neutral" | "negative" | "very_negative";
+
+export interface NewsItem {
+  symbol: string;
+  name: string;
+  date: string;
+  time: string;
+  category: string;
+  headline: string;
+  filing_url: string | null;
+  impact: NewsImpact;
+  summary: string;
+}
+
+export interface NewsData {
+  as_of: string;
+  items: NewsItem[];
+  counts: Record<NewsImpact, number>;
+}
