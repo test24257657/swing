@@ -4,8 +4,17 @@ import { useMemo, useState } from "react";
 
 import { ExternalLink } from "lucide-react";
 
-import { Card } from "@/components/ui";
-import type { ChartBar, FundamentalsData, NewsItem, PatternMatch, Technicals } from "@/lib/api/market-types";
+import { Card, Chip } from "@/components/ui";
+import type {
+  ChartBar,
+  DepthData,
+  FnoBuildup,
+  FnoData,
+  FundamentalsData,
+  NewsItem,
+  PatternMatch,
+  Technicals,
+} from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { direction, pct, price } from "@/lib/format";
 import { safeGridCols } from "@/lib/grid";
@@ -363,5 +372,215 @@ function Stat({ label, value }: { label: string; value: string }) {
       <div className="text-[11px] text-text-muted">{label}</div>
       <div className="tnum mt-0.5 text-[13px] font-medium">{value}</div>
     </div>
+  );
+}
+
+const BUILDUP_META: Record<FnoBuildup["label"], { text: string; tone: "up" | "down" | "neutral" }> = {
+  long_buildup: { text: "Long buildup", tone: "up" },
+  short_buildup: { text: "Short buildup", tone: "down" },
+  short_covering: { text: "Short covering", tone: "up" },
+  long_unwinding: { text: "Long unwinding", tone: "down" },
+  neutral: { text: "No clear buildup", tone: "neutral" },
+};
+
+/** F&O positioning — near-month stock futures only, and only for F&O-eligible
+ * symbols (jobs/fno.py already filters this, so a missing artifact just means the
+ * stock has no listed futures/options). */
+export function FnoPositioningCard({ data }: { data: FnoData }) {
+  const b = data.buildup;
+  if (!b) return null;
+  const meta = BUILDUP_META[b.label];
+  const box = { up: "text-up-text", down: "text-down-text", neutral: "text-text-secondary" }[meta.tone];
+  return (
+    <Card className="p-4">
+      <div className="flex items-center justify-between">
+        <div className="text-[13px] font-semibold">F&amp;O positioning</div>
+        <Chip tone={meta.tone}>{meta.text}</Chip>
+      </div>
+      <div className="mt-3 grid grid-cols-3 gap-2">
+        <Stat label="Price change" value={`${b.price_chg_pct >= 0 ? "+" : ""}${b.price_chg_pct}%`} />
+        <Stat label="OI change" value={`${b.oi_chg_pct >= 0 ? "+" : ""}${b.oi_chg_pct}%`} />
+        <Stat label="Open interest" value={b.open_interest.toLocaleString("en-IN")} />
+      </div>
+      <div className={cn("mt-2.5 text-[11px] leading-relaxed", box)}>{b.note}</div>
+      <div className="mt-2.5 font-mono text-[11px] text-text-faint">source: NSE F&amp;O bhavcopy · {b.expiry} expiry</div>
+    </Card>
+  );
+}
+
+/** Option chain with max-OI strikes labelled as the mechanical support/resistance
+ * read — strikes are trimmed to a window around the at-the-money strike server-side. */
+export function OptionChainCard({ data }: { data: FnoData }) {
+  const oc = data.option_chain;
+  if (!oc) return null;
+  const maxCallOi = Math.max(...oc.rows.map((r) => r.call_oi), 1);
+  const maxPutOi = Math.max(...oc.rows.map((r) => r.put_oi), 1);
+  return (
+    <Card className="p-4 sm:col-span-2 lg:col-span-3">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <div>
+          <div className="text-[13px] font-semibold">Option chain · {oc.expiry} expiry</div>
+          <div className="mt-0.5 text-[11px] text-text-muted">
+            OI resistance {oc.max_call_oi_strike} · OI support {oc.max_put_oi_strike}
+          </div>
+        </div>
+        <div className="flex gap-4 text-[11px]">
+          <Stat label="PCR" value={oc.pcr != null ? oc.pcr.toFixed(2) : "—"} />
+          <Stat label="Total call OI" value={oc.total_call_oi.toLocaleString("en-IN")} />
+          <Stat label="Total put OI" value={oc.total_put_oi.toLocaleString("en-IN")} />
+        </div>
+      </div>
+      <div className="mt-3 overflow-x-auto">
+        <div className="min-w-[480px]">
+          <div className="grid grid-cols-[1fr_1fr_70px_1fr] gap-2 border-b border-border pb-1.5 text-[11px] text-text-muted">
+            <span className="text-right">Call OI</span>
+            <span className="text-right">Call chg</span>
+            <span className="text-center">Strike</span>
+            <span>Put OI</span>
+          </div>
+          {oc.rows.map((r) => (
+            <div key={r.strike} className="grid grid-cols-[1fr_1fr_70px_1fr] items-center gap-2 border-b border-border py-1.5 last:border-0">
+              <div className="relative h-4">
+                <div
+                  className="absolute right-0 top-0 h-full rounded-sm bg-[rgba(37,99,235,0.14)]"
+                  style={{ width: `${(r.call_oi / maxCallOi) * 100}%` }}
+                />
+                <span className="tnum relative text-[12px]">{r.call_oi.toLocaleString("en-IN")}</span>
+              </div>
+              <span className={cn("tnum text-right text-[11px]", toneClass(r.call_oi_chg))}>
+                {r.call_oi_chg >= 0 ? "+" : ""}
+                {r.call_oi_chg.toLocaleString("en-IN")}
+              </span>
+              <span
+                className={cn(
+                  "tnum text-center text-[12px] font-medium",
+                  (r.strike === oc.max_call_oi_strike || r.strike === oc.max_put_oi_strike) && "text-accent",
+                )}
+              >
+                {r.strike}
+              </span>
+              <div className="relative h-4">
+                <div
+                  className="absolute left-0 top-0 h-full rounded-sm bg-[rgba(220,38,38,0.12)]"
+                  style={{ width: `${(r.put_oi / maxPutOi) * 100}%` }}
+                />
+                <span className="tnum relative text-[12px]">{r.put_oi.toLocaleString("en-IN")}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="mt-2.5 font-mono text-[11px] text-text-faint">source: NSE F&amp;O bhavcopy · OI as of last session close</div>
+    </Card>
+  );
+}
+
+/** Best-effort L2 snapshot — see jobs/depth.py for why this artifact can be missing
+ * more often than others (one NSE endpoint has come back hard-blocked in testing). */
+export function MarketDepthCard({ data }: { data: DepthData }) {
+  const totalBuy = data.total_buy_qty ?? data.bid.reduce((s, b) => s + b.quantity, 0);
+  const totalSell = data.total_sell_qty ?? data.ask.reduce((s, a) => s + a.quantity, 0);
+  const total = totalBuy + totalSell;
+  const buyPct = total > 0 ? Math.round((totalBuy / total) * 100) : 50;
+
+  return (
+    <Card className="p-4">
+      <div className="text-[13px] font-semibold">Market depth</div>
+      <div className="mt-2.5 grid grid-cols-2 gap-3">
+        <div>
+          <div className="flex justify-between border-b border-border pb-1 text-[11px] text-text-muted">
+            <span>Bid</span>
+            <span>Qty</span>
+          </div>
+          {data.bid.slice(0, 5).map((b, i) => (
+            <div key={i} className="flex justify-between py-0.5 text-[12px]">
+              <span className="tnum text-up-text">{price(b.price)}</span>
+              <span className="tnum text-text-secondary">{b.quantity.toLocaleString("en-IN")}</span>
+            </div>
+          ))}
+        </div>
+        <div>
+          <div className="flex justify-between border-b border-border pb-1 text-[11px] text-text-muted">
+            <span>Qty</span>
+            <span>Ask</span>
+          </div>
+          {data.ask.slice(0, 5).map((a, i) => (
+            <div key={i} className="flex justify-between py-0.5 text-[12px]">
+              <span className="tnum text-text-secondary">{a.quantity.toLocaleString("en-IN")}</span>
+              <span className="tnum text-down-text">{price(a.price)}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="mt-2.5 flex items-center gap-2">
+        <div className="flex h-3.5 flex-1 overflow-hidden rounded-full">
+          <div className="bg-up-text" style={{ width: `${buyPct}%` }} />
+          <div className="bg-down-text" style={{ width: `${100 - buyPct}%` }} />
+        </div>
+        <span className="tnum whitespace-nowrap text-[11px] font-medium text-text-secondary">{buyPct}% buy</span>
+      </div>
+      {data.vwap != null && (
+        <div className="mt-2.5 flex items-center gap-2 rounded-md bg-surface-2 px-2.5 py-1.5 text-[11px] text-text-secondary">
+          <span>VWAP</span>
+          <span className="tnum font-medium text-text">{price(data.vwap)}</span>
+        </div>
+      )}
+      <div className="mt-2.5 font-mono text-[11px] text-text-faint">source: NSE quote snapshot</div>
+    </Card>
+  );
+}
+
+/** yfinance vs the official NSE XBRL filing, on the figures with a stable taxonomy
+ * tag. A wrong divergence flag is worse than a missing one — jobs/filing_verify.py
+ * already ships "not available" for anything that doesn't parse cleanly, so this
+ * component only ever renders when there's something real to compare. */
+export function FilingVerificationCard({ data }: { data: FundamentalsData }) {
+  const v = data.verification;
+  if (!v) return null;
+  return (
+    <Card className="p-4">
+      <div className="flex items-center justify-between">
+        <div className="text-[13px] font-semibold">Filing verification</div>
+        {v.divergence_count > 0 && (
+          <Chip tone="stale">⚑ {v.divergence_count} divergence{v.divergence_count > 1 ? "s" : ""}</Chip>
+        )}
+      </div>
+      <div className="mt-0.5 text-[11px] text-text-muted">{v.quarter_label} · yfinance vs the official NSE filing</div>
+      <div className="mt-2.5 grid grid-cols-[1.1fr_1fr_1fr_28px] gap-2 border-b border-border pb-1.5 text-[11px] text-text-muted">
+        <span></span>
+        <span className="text-right">yfinance</span>
+        <span className="text-right">NSE filing</span>
+        <span></span>
+      </div>
+      {v.checks.map((c) => (
+        <div key={c.label} className="grid grid-cols-[1.1fr_1fr_1fr_28px] items-center gap-2 border-b border-border py-2 last:border-0">
+          <span className="text-[13px] text-text-secondary">{c.label}</span>
+          <span className="tnum text-right text-[13px]">{c.yfinance ?? "—"}</span>
+          <div className="text-right">
+            <div className="tnum text-[13px]">{c.nse_filing ?? "—"}</div>
+            {c.diff_pct != null && (
+              <div className={cn("text-[11px]", c.divergent ? "text-down-text" : "text-text-muted")}>
+                {c.diff_pct >= 0 ? "+" : ""}
+                {c.diff_pct}%
+              </div>
+            )}
+          </div>
+          <div
+            className={cn(
+              "flex h-[22px] w-[22px] items-center justify-center rounded-md border text-[11px]",
+              c.divergent ? "border-[rgba(217,119,6,0.32)] bg-[rgba(217,119,6,0.12)] text-stale-text" : "border-border bg-surface-2 text-text-muted",
+            )}
+          >
+            {c.divergent ? "⚑" : "✓"}
+          </div>
+        </div>
+      ))}
+      <div className="mt-2.5 flex items-center gap-2 font-mono text-[11px] text-text-faint">
+        <span>filed {v.filed_at}</span>
+        <a href={v.filing_url} target="_blank" rel="noreferrer" className="ml-auto text-accent hover:text-accent-hover">
+          Open XBRL filing ↗
+        </a>
+      </div>
+    </Card>
   );
 }

@@ -1,4 +1,4 @@
-import { Activity, ListFilter, Newspaper, PieChart, Star, TrendingUp, type LucideIcon } from "lucide-react";
+import { Activity, Landmark, ListFilter, Newspaper, PieChart, Star, TrendingUp, type LucideIcon } from "lucide-react";
 
 export interface NavItem {
   href: string;
@@ -8,9 +8,8 @@ export interface NavItem {
 
 /**
  * Scope is Market Pulse + Screener + Stock Detail + Watchlist + Sector Rotation +
- * Indices + News (docs/ARCHITECTURE.md §1, phases 1-7). Institutional returns with
- * its phase — the earlier implementation is in git history at commit e499c2d if
- * you need it back.
+ * Indices + News + Institutional (docs/ARCHITECTURE.md §1, phases 1-8) — every
+ * screen in the build.
  */
 export const NAV: NavItem[] = [
   { href: "/pulse", label: "Market Pulse", icon: Activity },
@@ -19,4 +18,5 @@ export const NAV: NavItem[] = [
   { href: "/sectors", label: "Sector Rotation", icon: PieChart },
   { href: "/indices", label: "Indices", icon: TrendingUp },
   { href: "/news", label: "News", icon: Newspaper },
+  { href: "/institutional", label: "Institutional", icon: Landmark },
 ];
