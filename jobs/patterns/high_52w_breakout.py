@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import pandas as pd
 
-from app.patterns.base import DetectContext, PatternMatch, clamp01
-from app.patterns.stage import classify_stage
+from jobs.patterns.base import DetectContext, PatternMatch, clamp01
+from jobs.patterns.stage import classify_stage
 
 # tunables
 NEAR_PCT = 2.0  # within this % below the 52w high counts as "forming"

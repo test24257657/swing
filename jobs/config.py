@@ -8,7 +8,12 @@ from pathlib import Path
 # --- paths -------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = Path(os.environ.get("DATA_DIR", ROOT / "data"))
-OUT_DIR = Path(os.environ.get("OUT_DIR", ROOT / "out"))
+# out/*.json is production data — the nightly GitHub Action commits it and Render
+# serves it straight from the repo. GitHub Actions sets GITHUB_ACTIONS=true itself, so
+# only a real CI run defaults there; a bare local `python -m jobs.run_nightly` writes
+# to gitignored data/out instead and can never dirty git by accident.
+_DEFAULT_OUT = ROOT / "out" if os.environ.get("GITHUB_ACTIONS") else ROOT / "data" / "out"
+OUT_DIR = Path(os.environ.get("OUT_DIR", _DEFAULT_OUT))
 RAW_CACHE_DIR = Path(os.environ.get("RAW_CACHE_DIR", DATA_DIR / "raw_cache"))
 PANEL_PATH = DATA_DIR / "panel.parquet"
 
@@ -39,20 +44,20 @@ VIX_PERCENTILE_DAYS = 250
 VIX_BANDS = {"low": 13.0, "moderate": 18.0, "elevated": 24.0}
 VIX_VERDICTS = {
     "low": (
-        "Low volatility — trend-friendly",
-        "Favour breakout continuation; wider stops unnecessary.",
+        "Calm market",
+        "Prices are moving steadily, without big swings. A normal, comfortable time to hold positions.",
     ),
     "moderate": (
-        "Moderate volatility",
-        "Normal conditions; standard position sizing.",
+        "Normal market",
+        "Typical day-to-day ups and downs. Nothing unusual — trade as you normally would.",
     ),
     "elevated": (
-        "Elevated volatility",
-        "Trim size; expect wider swings and more failed breakouts.",
+        "Choppy market",
+        "Prices swinging more than usual. Consider smaller trade sizes — moves can reverse quickly.",
     ),
     "high": (
-        "High volatility — defensive",
-        "Momentum setups fail more often here; wait for it to cool.",
+        "Risky market",
+        "Big, unpredictable price swings. Be extra careful — many traders wait for calmer days before entering new trades.",
     ),
 }
 

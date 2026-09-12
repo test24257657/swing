@@ -13,45 +13,55 @@ None of the data sources (`nselib`, `jugaad-data`, `yfinance`) are official APIs
 scrape NSE. If the frontend triggered a live NSE call per request the server IP would be
 blocked within a day.
 
-So: **FastAPI reads from Postgres, never from NSE directly.** A nightly job ingests the
-full-market bhavcopy, computes every indicator and pattern, and writes results to Postgres.
-Live quotes are the only exception and go through Redis with a 60-second TTL.
+So: **FastAPI never calls NSE.** A nightly GitHub Action ingests the full-market bhavcopy,
+computes every indicator and pattern, and writes small JSON artifacts to `out/`, which it
+commits back to the repo. The API loads those files into memory at startup and serves them
+— a lookup layer, not a compute layer. Postgres (Neon) holds the `users` table only.
 
-Indicators and patterns are **precomputed**, not calculated on request. The schema is
-designed around that.
+Indicators and patterns are **precomputed**, never calculated on request. See
+[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Layout
 
 ```
 apps/
   web/      Next.js (app router) frontend — React Query, Zustand, Tailwind
-  api/      FastAPI backend — Postgres, Redis, SQLAlchemy, Alembic, APScheduler
+  api/      FastAPI backend — serves out/*.json from memory; Neon for auth
+jobs/       the nightly pipeline — sources, panel, detectors, artifact writers
+out/        the committed artifacts the API serves (written by GitHub Actions)
+data/       gitignored job working files — the rolling OHLC panel + raw NSE downloads
 design/     Claude Design wireframe (swing-terminal.dc.html) — the layout source of truth
-infra/      docker-compose for Postgres + Redis
 docs/       phase notes
 ```
 
 ## Quick start
 
-```bash
-cp .env.example .env
-docker compose up -d                 # postgres + redis
+**`out/` is production data**, owned by the nightly GitHub Action — Render serves it
+straight from the repo. `jobs/config.py` only defaults there when `GITHUB_ACTIONS=true`
+(set automatically by the Action); a bare local `python -m jobs.run_nightly` writes to
+gitignored `data/out/` instead, so a local run can never dirty git by accident. The API
+still defaults to `out/` (it has to, in production), so point it at the same place
+locally with `OUT_DIR=data/out`.
 
-# API
-cd apps/api
-python -m venv .venv && source .venv/bin/activate
-pip install -e '.[dev]'
-alembic upgrade head
-python -m app.ingestion.jobs.sync_symbols        # symbol master + sectors
-python -m app.ingestion.jobs.ingest_bhavcopy     # one day of bhavcopy
-uvicorn app.main:app --reload
+```bash
+cp .env.example .env                 # fill DATABASE_URL with your Neon string
+
+# nightly job — builds the panel and the artifacts (writes to data/out/ by default)
+pip install -r jobs/requirements.txt
+BACKFILL_DAYS=260 python -m jobs.run_nightly   # first run; then 5
+
+# API (run from the repo root — .env is resolved relative to the working directory)
+cd apps/api && python -m venv .venv && source .venv/bin/activate && pip install -e '.[dev]'
+cd ../.. && OUT_DIR=data/out uvicorn app.main:app --reload
 
 # Web
 cd apps/web
-npm install
+bun install
 cp .env.local.example .env.local
-npm run dev
+bun run dev
 ```
+
+The API reads the artifacts once at startup, so restart uvicorn after re-running the job.
 
 ## Build order
 

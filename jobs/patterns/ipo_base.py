@@ -4,8 +4,8 @@ from datetime import timedelta
 
 import pandas as pd
 
-from app.patterns.base import DetectContext, PatternMatch, clamp01
-from app.patterns.stage import classify_stage
+from jobs.patterns.base import DetectContext, PatternMatch, clamp01
+from jobs.patterns.stage import classify_stage
 
 MAX_AGE_DAYS = 730  # "recently listed" — within ~2 years
 MIN_BASE_SESSIONS = 20  # 4+ weeks

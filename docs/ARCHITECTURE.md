@@ -3,8 +3,8 @@
 Indian equities (NSE) market dashboard.
 Free-tier hosting. ~10 concurrent users.
 
-**Current scope: the Market Pulse screen only.** Everything else is deliberately
-out of scope until Pulse is live, correct and deployed.
+**Current scope: Market Pulse + the Screener + Stock Detail + Watchlist.** Everything else is deliberately
+out of scope until each phase is live, correct and deployed.
 
 ---
 
@@ -313,14 +313,22 @@ UI shows the stale state. **Never a blank screen.**
 
 ## 9. Postgres schema
 
-Market data never enters Postgres. For the Pulse scope, only auth:
+Market data never enters Postgres — that is what the whole artifact architecture exists
+to avoid. Postgres holds only per-user config, currently:
 
 ```sql
-users  (id, email, password_hash, is_active, created_at)
+users            (id, email, password_hash, is_active, created_at)
+watchlist_items  (id, user_id -> users, symbol, name, entry_price, created_at)
+alerts           (id, watchlist_item_id -> watchlist_items, kind, threshold, enabled,
+                   triggered_at, triggered_price, created_at)
 ```
 
-`watchlist`, `trade_journal`, `alerts`, `pattern_stats` arrive with their own
-phases later. Do not create them yet.
+The nightly job (not the API) reads `watchlist_items` to fold user-added symbols into
+the chart-artifact set, and writes `alerts.triggered_at`/`triggered_price` after
+evaluating each enabled alert against that session's high/low — see §7.
+
+`trade_journal`, `pattern_stats` arrive with their own phases later. Do not create them
+yet.
 
 ---
 
@@ -373,12 +381,12 @@ is pure and moves across unchanged.
 
 | Phase | Scope | Status |
 |---|---|---|
-| **P0** | Jobs skeleton, artifact format, GitHub Action, API store, `/pulse` + `/health` | **next** |
-| **P1** | Pulse screen wired end to end on Vercel + Render, keep-alive ping | |
-| P2 | Screener — indicators, filters, score, list view | later |
-| P3 | Charts — Lightweight Charts, S/R, pattern overlays | later |
-| P4 | Stock detail | later |
-| P5 | Watchlist + alerts | later |
+| **P0** | Jobs skeleton, artifact format, GitHub Action, API store, `/pulse` + `/health` | done |
+| **P1** | Pulse screen wired end to end on Vercel + Render, keep-alive ping | done |
+| **P2** | Screener — setup-pattern engine (VCP, IPO base, 52w breakout, near pivot), breakout-stage classifier, filter rail with live counts, pattern chips | done |
+| **P3** | Charts — S/R zones, pattern overlays (pivot/stop/target lines, base/breakout markers), screener chart-grid view | done |
+| **P4** | Stock detail — technical snapshot, delivery trend, fundamentals (yfinance), position-sizing calculator | done |
+| **P5** | Watchlist + alerts — table/card views, EOD-evaluated price alerts | done |
 | P6 | Sector rotation + indices | later |
 | P7 | News (RSS + classification) | later |
 | P8 | Institutional / F&O | later |

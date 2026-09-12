@@ -10,8 +10,10 @@ import { TopBar } from "./top-bar";
 const BARE_ROUTES = new Set(["/login"]);
 
 /**
- * Global shell. Sticky non-animating left rail + a content column with a sticky top bar.
- * Fixed 1440px canvas per the design. `/login` renders bare (no rail, no top bar).
+ * Global shell. Sticky non-animating left rail (a hamburger drawer below the `md`
+ * breakpoint, via the vendored Aceternity sidebar) + a content column with a sticky top
+ * bar. Fluid — no forced desktop-width canvas, so it works down to phone widths.
+ * `/login` renders bare (no rail, no top bar).
  */
 export function AppShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
@@ -22,7 +24,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 
   return (
     <AuthGuard>
-      <div className="flex min-h-screen bg-bg" style={{ minWidth: "var(--canvas-w)" }}>
+      <div className="flex min-h-screen flex-col bg-bg md:flex-row">
         <IconRail />
         <div className="flex min-h-screen min-w-0 flex-1 flex-col">
           <TopBar />

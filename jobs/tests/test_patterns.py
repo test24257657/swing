@@ -12,13 +12,13 @@ from datetime import date
 import numpy as np
 import pandas as pd
 
-from app.patterns.base import DetectContext
-from app.patterns.detect import detect_all
-from app.patterns.high_52w_breakout import detect as detect_52w
-from app.patterns.ipo_base import detect as detect_ipo
-from app.patterns.near_pivot import detect as detect_near
-from app.patterns.stage import classify_stage
-from app.patterns.vcp import detect as detect_vcp
+from jobs.patterns.base import DetectContext
+from jobs.patterns.detect import detect_all
+from jobs.patterns.high_52w_breakout import detect as detect_52w
+from jobs.patterns.ipo_base import detect as detect_ipo
+from jobs.patterns.near_pivot import detect as detect_near
+from jobs.patterns.stage import classify_stage
+from jobs.patterns.vcp import detect as detect_vcp
 
 
 def _frame(close: list[float], vol: list[float] | None = None, start="2025-01-01") -> pd.DataFrame:

@@ -1,4 +1,4 @@
-import { Activity, type LucideIcon } from "lucide-react";
+import { Activity, ListFilter, Star, type LucideIcon } from "lucide-react";
 
 export interface NavItem {
   href: string;
@@ -7,9 +7,13 @@ export interface NavItem {
 }
 
 /**
- * Current scope is the Market Pulse screen only (docs/ARCHITECTURE.md §1).
- * Sector Rotation, Indices, Screener, Stock Detail, Watchlist, News and
- * Institutional return with their phases — the earlier implementations are in git
- * history at commit e499c2d if you need them back.
+ * Scope is Market Pulse + Screener + Stock Detail + Watchlist (docs/ARCHITECTURE.md §1,
+ * phases 1-5). Sector Rotation, Indices, News and Institutional return with their
+ * phases — the earlier implementations are in git history at commit e499c2d if you
+ * need them back.
  */
-export const NAV: NavItem[] = [{ href: "/pulse", label: "Market Pulse", icon: Activity }];
+export const NAV: NavItem[] = [
+  { href: "/pulse", label: "Market Pulse", icon: Activity },
+  { href: "/screener", label: "Screener", icon: ListFilter },
+  { href: "/watchlist", label: "Watchlist", icon: Star },
+];
