@@ -3,7 +3,15 @@
 import { useQuery } from "@tanstack/react-query";
 
 import { apiGet } from "./client";
-import type { ChartArtifact, FundamentalsData, MarketPulse, MarketStatus, ScreenerData } from "./market-types";
+import type {
+  ChartArtifact,
+  FundamentalsData,
+  IndicesData,
+  MarketPulse,
+  MarketStatus,
+  ScreenerData,
+  SectorsData,
+} from "./market-types";
 import type { Envelope } from "./types";
 
 /** The whole Market Pulse screen, served from the nightly artifact. */
@@ -51,5 +59,23 @@ export function useFundamentals(slug: string) {
     staleTime: 5 * 60_000,
     enabled: Boolean(slug),
     retry: false,
+  });
+}
+
+/** Sector rotation — 1M/3M ranking, rank deltas, RRG tail, constituents. */
+export function useSectors() {
+  return useQuery({
+    queryKey: ["sectors"],
+    queryFn: () => apiGet<Envelope<SectorsData>>("/sectors"),
+    staleTime: 5 * 60_000,
+  });
+}
+
+/** Every broad-market + sector index — value, change, category. */
+export function useIndices() {
+  return useQuery({
+    queryKey: ["indices"],
+    queryFn: () => apiGet<Envelope<IndicesData>>("/indices"),
+    staleTime: 5 * 60_000,
   });
 }

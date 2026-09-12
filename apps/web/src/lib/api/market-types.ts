@@ -177,3 +177,48 @@ export interface ScreenerData {
   };
   rows: ScreenerRow[];
 }
+
+export interface SectorConstituent {
+  symbol: string;
+  name: string;
+  ltp: number;
+  change_pct: number | null;
+}
+
+export interface RrgPoint {
+  x: number;
+  y: number;
+}
+
+export interface SectorRow {
+  name: string;
+  slug: string;
+  rank: number | null;
+  rank_delta: number | null;
+  return_1m: number | null;
+  return_3m: number | null;
+  rs_tail: RrgPoint[];
+  stock_count: number;
+  advancers: number;
+  constituents: SectorConstituent[];
+}
+
+export interface SectorsData {
+  as_of: string;
+  benchmark: string;
+  sectors: SectorRow[];
+}
+
+export interface IndexRow {
+  symbol: string;
+  slug: string;
+  category: "broad" | "sectoral";
+  value: number;
+  change: number | null;
+  change_pct: number | null;
+}
+
+export interface IndicesData {
+  as_of: string | null;
+  indices: IndexRow[];
+}
