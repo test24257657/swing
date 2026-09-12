@@ -45,7 +45,11 @@ def build(days: int = SECTOR_HISTORY_DAYS) -> tuple[dict, dict]:
             }
         )
 
-    rows.sort(key=lambda r: (r["category"], r["symbol"]))
+    # Group by category only — Python's sort is stable, so within each group this keeps
+    # ALL_INDICES's own order (NIFTY 50, Next 50, 100, 200, 500, ...), not an alphabetical
+    # string sort, which would put "NIFTY 100" before "NIFTY 50" (wrong on any real
+    # reading of the name).
+    rows.sort(key=lambda r: r["category"])
     stats = {"ok": bool(rows), "count": len(rows), "total": len(ALL_INDICES)}
     log.info("indices: %s of %s built", len(rows), len(ALL_INDICES))
     return {"as_of": as_of, "indices": rows}, stats

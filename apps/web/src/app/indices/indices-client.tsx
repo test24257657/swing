@@ -161,7 +161,7 @@ export function IndicesClient() {
       )}
 
       {view === "chart" ? (
-        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
           {filtered.map((r) => (
             <IndexChartCard key={r.symbol} row={r} />
           ))}
@@ -250,13 +250,13 @@ function IndexChartCard({ row }: { row: IndexRow }) {
           {row.change_pct == null ? "—" : pct(row.change_pct)}
         </span>
       </div>
-      <div className="mt-2 h-[140px]">
+      <div className="mt-2 h-[320px]">
         {chart.isPending ? (
           <div className="h-full animate-pulse rounded-md bg-surface-2" />
         ) : chart.isError || !chart.data ? (
           <div className="flex h-full items-center justify-center text-[11px] text-text-muted">chart unavailable</div>
         ) : (
-          <PriceChart data={chart.data.data} height={140} showVolume={false} showSr={false} />
+          <PriceChart data={chart.data.data} height={320} showVolume={false} showSr={false} />
         )}
       </div>
     </Card>
