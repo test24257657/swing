@@ -221,7 +221,7 @@ function Loaded({
 
         <PriceChart data={data} height={460} showVolume={hasVolume} showDelivery={hasVolume} pattern={pattern} />
 
-        <div className="mt-3 flex items-center justify-between border-t border-border pt-2.5">
+        <div className="mt-3 flex flex-wrap items-center justify-between gap-1 border-t border-border pt-2.5">
           <DataSourceFooter meta={meta} />
           <span className="font-mono text-[11px] text-text-faint">
             wheel to zoom · drag to pan · solid lines = support/resistance · {bars.length} sessions
@@ -230,12 +230,12 @@ function Loaded({
       </Card>
 
       {data.kind === "stock" && data.technicals && (
-        <div className="mt-2 grid grid-cols-3 gap-2">
+        <div className="mt-2 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
           <TechnicalSnapshot technicals={data.technicals} asOf={data.as_of} />
           <DeliveryTrend bars={bars} />
           <PositionSizing lastClose={lastClose} atrPct={data.technicals.atr_pct} pattern={pattern} />
           {fundamentals && (
-            <div className="col-span-3">
+            <div className="sm:col-span-2 lg:col-span-3">
               <FundamentalsCard data={fundamentals} />
             </div>
           )}

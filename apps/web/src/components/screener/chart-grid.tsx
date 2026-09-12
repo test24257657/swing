@@ -21,7 +21,7 @@ function toneClass(v: number | null | undefined) {
  * mounts once the card scrolls within 200px of the viewport. */
 export function ChartGrid({ rows, backHref }: { rows: ScreenerRow[]; backHref: string }) {
   return (
-    <div className="grid grid-cols-2 gap-2 p-2">
+    <div className="grid grid-cols-1 gap-2 p-2 sm:grid-cols-2">
       {rows.map((r) => (
         <GridCard key={r.symbol} row={r} backHref={backHref} />
       ))}

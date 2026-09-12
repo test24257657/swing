@@ -141,21 +141,26 @@ export function FundamentalsCard({ data }: { data: FundamentalsData }) {
         <div className="text-[13px] font-semibold">Fundamentals · last {data.quarters.length} quarters</div>
         <div className="text-[11px] text-text-muted">₹cr · QoQ</div>
       </div>
-      <div className="mt-2.5 grid gap-1.5" style={{ gridTemplateColumns: `1fr repeat(${data.quarters.length}, 1fr)` }}>
-        <div />
-        {data.quarters.map((q) => (
-          <div key={q.label} className="text-right text-[11px] text-text-muted">
-            {q.label}
-          </div>
-        ))}
-        <div className="self-center text-[12px] text-text-secondary">Revenue</div>
-        {data.quarters.map((q) => (
-          <QuarterCell key={q.label} value={q.revenue_cr} qoq={q.revenue_qoq_pct} />
-        ))}
-        <div className="self-center text-[12px] text-text-secondary">Net income</div>
-        {data.quarters.map((q) => (
-          <QuarterCell key={q.label} value={q.net_income_cr} qoq={q.net_income_qoq_pct} />
-        ))}
+      <div className="mt-2.5 overflow-x-auto">
+        <div
+          className="grid min-w-[420px] gap-1.5"
+          style={{ gridTemplateColumns: `1fr repeat(${data.quarters.length}, 1fr)` }}
+        >
+          <div />
+          {data.quarters.map((q) => (
+            <div key={q.label} className="text-right text-[11px] text-text-muted">
+              {q.label}
+            </div>
+          ))}
+          <div className="self-center text-[12px] text-text-secondary">Revenue</div>
+          {data.quarters.map((q) => (
+            <QuarterCell key={q.label} value={q.revenue_cr} qoq={q.revenue_qoq_pct} />
+          ))}
+          <div className="self-center text-[12px] text-text-secondary">Net income</div>
+          {data.quarters.map((q) => (
+            <QuarterCell key={q.label} value={q.net_income_cr} qoq={q.net_income_qoq_pct} />
+          ))}
+        </div>
       </div>
       <div className="mt-2.5 font-mono text-[11px] text-text-faint">source: yfinance · quarterly income statement</div>
     </Card>

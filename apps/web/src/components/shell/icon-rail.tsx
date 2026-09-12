@@ -17,7 +17,7 @@ export function IconRail() {
 
   return (
     <Sidebar animate={false}>
-      <div className="sticky top-0 h-screen shrink-0">
+      <div className="top-0 z-40 shrink-0 md:sticky md:h-screen">
         <SidebarBody className="h-full gap-1 border-r border-border bg-bg! px-0! py-3!">
           <div className="mb-2 flex items-center gap-3 px-5">
             <div className="h-6 w-6 flex-none rounded-md bg-accent" />

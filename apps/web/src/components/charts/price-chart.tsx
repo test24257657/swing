@@ -12,9 +12,9 @@ import {
   type Time,
   createChart,
 } from "lightweight-charts";
-import { useEffect, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
-import type { ChartArtifact, PatternMatch } from "@/lib/api/market-types";
+import type { ChartArtifact, ChartBar, PatternMatch } from "@/lib/api/market-types";
 import { supportResistance } from "@/lib/support-resistance";
 
 const UP = "#16a34a";
@@ -33,10 +33,27 @@ const SUPPORT = "#1e3a8a";
 const PIVOT = "#7c3aed";
 const DELIVERY = "#52525b";
 
+interface HoverBar {
+  bar: ChartBar;
+  ma: Partial<Record<"sma_20" | "sma_50" | "sma_200", number>>;
+}
+
+function fmt(n: number | null | undefined, dp = 2) {
+  return n == null ? "—" : n.toLocaleString("en-IN", { minimumFractionDigits: dp, maximumFractionDigits: dp });
+}
+
+function fmtVol(n: number) {
+  if (n >= 1e7) return `${(n / 1e7).toFixed(2)}cr`;
+  if (n >= 1e5) return `${(n / 1e5).toFixed(2)}L`;
+  if (n >= 1e3) return `${(n / 1e3).toFixed(1)}K`;
+  return String(n);
+}
+
 /**
  * TradingView Lightweight Charts — candles + a volume pane + 20/50/200-day moving
  * averages. Native magnet crosshair, mouse-wheel zoom, drag to pan. Resizes with its
- * container. `showVolume` off for indices (no traded volume).
+ * container. `showVolume` off for indices (no traded volume). A legend line above the
+ * chart tracks the crosshair (OHLC/volume/MA/delivery), defaulting to the latest bar.
  */
 export function PriceChart({
   data,
@@ -57,10 +74,22 @@ export function PriceChart({
   pattern?: PatternMatch | null;
 }) {
   const wrapRef = useRef<HTMLDivElement>(null);
+  const [hover, setHover] = useState<HoverBar | null>(null);
+
+  const lastMa = useMemo(
+    (): HoverBar["ma"] => ({
+      sma_20: data.ma.sma_20?.at(-1)?.value,
+      sma_50: data.ma.sma_50?.at(-1)?.value,
+      sma_200: data.ma.sma_200?.at(-1)?.value,
+    }),
+    [data.ma],
+  );
+  const shown: HoverBar | null = hover ?? (data.bars.length ? { bar: data.bars.at(-1)!, ma: lastMa } : null);
 
   useEffect(() => {
     const el = wrapRef.current;
     if (!el) return;
+    setHover(null);
 
     const chart: IChartApi = createChart(el, {
       width: el.clientWidth,
@@ -202,6 +231,30 @@ export function PriceChart({
 
     chart.timeScale().fitContent();
 
+    // Legend line above the chart tracks whatever bar the crosshair is over.
+    const barsByTime = new Map(data.bars.map((b) => [b.time, b]));
+    const maByTime = {
+      sma_20: new Map((data.ma.sma_20 ?? []).map((p) => [p.time, p.value])),
+      sma_50: new Map((data.ma.sma_50 ?? []).map((p) => [p.time, p.value])),
+      sma_200: new Map((data.ma.sma_200 ?? []).map((p) => [p.time, p.value])),
+    };
+    chart.subscribeCrosshairMove((param) => {
+      const t = param.time as string | undefined;
+      const bar = t ? barsByTime.get(t) : undefined;
+      if (!bar) {
+        setHover(null);
+        return;
+      }
+      setHover({
+        bar,
+        ma: {
+          sma_20: maByTime.sma_20.get(t as string),
+          sma_50: maByTime.sma_50.get(t as string),
+          sma_200: maByTime.sma_200.get(t as string),
+        },
+      });
+    });
+
     const ro = new ResizeObserver(() => chart.applyOptions({ width: el.clientWidth }));
     ro.observe(el);
     return () => {
@@ -210,5 +263,48 @@ export function PriceChart({
     };
   }, [data, height, showVolume, showSr, showDelivery, pattern]);
 
-  return <div ref={wrapRef} style={{ height }} className="w-full" />;
+  return (
+    <div className="w-full">
+      <ChartLegend shown={shown} showVolume={showVolume} showDelivery={showDelivery} />
+      <div ref={wrapRef} style={{ height }} className="w-full" />
+    </div>
+  );
+}
+
+function ChartLegend({
+  shown,
+  showVolume,
+  showDelivery,
+}: {
+  shown: HoverBar | null;
+  showVolume: boolean;
+  showDelivery: boolean;
+}) {
+  if (!shown) return <div className="mb-1 h-4" />;
+  const { bar, ma } = shown;
+  const up = bar.close != null && bar.open != null ? bar.close >= bar.open : true;
+  const priceColor = up ? "text-up-text" : "text-down-text";
+
+  return (
+    <div className="tnum mb-1 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[11px] text-text-secondary">
+      <span className="text-text-faint">{bar.time}</span>
+      <span>
+        O <span className={priceColor}>{fmt(bar.open)}</span>
+      </span>
+      <span>
+        H <span className={priceColor}>{fmt(bar.high)}</span>
+      </span>
+      <span>
+        L <span className={priceColor}>{fmt(bar.low)}</span>
+      </span>
+      <span>
+        C <span className={priceColor}>{fmt(bar.close)}</span>
+      </span>
+      {showVolume && <span>Vol {fmtVol(bar.volume)}</span>}
+      {showDelivery && bar.delivery_pct != null && <span>Deliv {bar.delivery_pct.toFixed(1)}%</span>}
+      {ma.sma_20 != null && <span style={{ color: MA_COLOR.sma_20 }}>20D {fmt(ma.sma_20)}</span>}
+      {ma.sma_50 != null && <span style={{ color: MA_COLOR.sma_50 }}>50D {fmt(ma.sma_50)}</span>}
+      {ma.sma_200 != null && <span style={{ color: MA_COLOR.sma_200 }}>200D {fmt(ma.sma_200)}</span>}
+    </div>
+  );
 }

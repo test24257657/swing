@@ -106,7 +106,7 @@ export function ScreenerClient() {
     return (
       <Screen>
         <ScreenHeader title="Screener" subtitle="Setup-pattern matches from tonight's run." />
-        <div className="grid grid-cols-[280px_1fr] gap-2">
+        <div className="grid grid-cols-1 gap-2 lg:grid-cols-[280px_1fr]">
           <Skeleton className="h-96" />
           <Skeleton className="h-96" />
         </div>
@@ -160,7 +160,7 @@ export function ScreenerClient() {
         </div>
       )}
 
-      <div className="grid grid-cols-[240px_1fr] items-start gap-3">
+      <div className="grid grid-cols-1 items-start gap-3 lg:grid-cols-[240px_1fr]">
         {/* Filter rail */}
         <Card className="p-3">
           <div className="text-[13px] font-semibold">Setup patterns</div>
@@ -219,7 +219,7 @@ export function ScreenerClient() {
 
         {/* Results */}
         <Card className="overflow-hidden">
-          <div className="flex items-center justify-between border-b border-border px-4 py-3">
+          <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border px-4 py-3">
             <span className="text-[13px] text-text-secondary">
               <span className="tnum font-medium text-text">{filtered.length}</span> matches
               {filtered.length !== rows.length ? ` of ${rows.length}` : ""}
@@ -253,30 +253,6 @@ export function ScreenerClient() {
             </div>
           </div>
 
-          {view === "list" && (
-            <div
-              className="grid gap-2 border-b border-border px-4 py-1.5 text-[11px] text-text-muted"
-              style={{ gridTemplateColumns: "1.8fr 0.8fr 0.7fr 0.9fr 1.4fr" }}
-            >
-              {COLUMNS.map((c) => (
-                <button
-                  key={c.key}
-                  onClick={() => toggleSort(c.key)}
-                  className={cn(
-                    "flex items-center gap-1 hover:text-text",
-                    c.align === "right" ? "justify-end" : "justify-start",
-                    sortState?.col === c.key && "font-semibold text-text",
-                  )}
-                >
-                  {c.label}
-                  {sortState?.col === c.key &&
-                    (sortState.dir === "asc" ? <ArrowUp size={11} /> : <ArrowDown size={11} />)}
-                </button>
-              ))}
-              <span>Pattern</span>
-            </div>
-          )}
-
           {paged.length === 0 ? (
             <EmptyState
               title="No stock matches these filters"
@@ -286,7 +262,34 @@ export function ScreenerClient() {
           ) : view === "grid" ? (
             <ChartGrid rows={paged} backHref={backHref} />
           ) : (
-            paged.map((r) => <Row key={r.symbol} row={r} backHref={backHref} />)
+            <div className="overflow-x-auto">
+              <div className="min-w-[560px]">
+                <div
+                  className="grid gap-2 border-b border-border px-4 py-1.5 text-[11px] text-text-muted"
+                  style={{ gridTemplateColumns: "1.8fr 0.8fr 0.7fr 0.9fr 1.4fr" }}
+                >
+                  {COLUMNS.map((c) => (
+                    <button
+                      key={c.key}
+                      onClick={() => toggleSort(c.key)}
+                      className={cn(
+                        "flex items-center gap-1 hover:text-text",
+                        c.align === "right" ? "justify-end" : "justify-start",
+                        sortState?.col === c.key && "font-semibold text-text",
+                      )}
+                    >
+                      {c.label}
+                      {sortState?.col === c.key &&
+                        (sortState.dir === "asc" ? <ArrowUp size={11} /> : <ArrowDown size={11} />)}
+                    </button>
+                  ))}
+                  <span>Pattern</span>
+                </div>
+                {paged.map((r) => (
+                  <Row key={r.symbol} row={r} backHref={backHref} />
+                ))}
+              </div>
+            </div>
           )}
 
           {pageCount > 1 && (

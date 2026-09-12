@@ -40,7 +40,7 @@ export function WatchlistClient() {
     return (
       <Screen>
         <ScreenHeader title="Watchlist" subtitle="Symbols you're tracking, with entry price and EOD alerts." />
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {Array.from({ length: 3 }).map((_, i) => (
             <Skeleton key={i} className="h-40" />
           ))}
@@ -121,7 +121,7 @@ export function WatchlistClient() {
           }
         />
       ) : view === "grid" ? (
-        <div className="mt-2 grid grid-cols-3 gap-2">
+        <div className="mt-2 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((item) => (
             <GridCard
               key={item.id}
@@ -133,25 +133,29 @@ export function WatchlistClient() {
         </div>
       ) : (
         <Card className="mt-2 overflow-hidden">
-          <div
-            className="grid gap-2 border-b border-border px-4 py-1.5 text-[11px] text-text-muted"
-            style={{ gridTemplateColumns: "1.6fr 0.8fr 0.8fr 0.9fr 1.6fr 90px" }}
-          >
-            <span>Symbol</span>
-            <span className="text-right">Entry</span>
-            <span className="text-right">LTP</span>
-            <span className="text-right">Unrealised</span>
-            <span>Alerts</span>
-            <span />
+          <div className="overflow-x-auto">
+            <div className="min-w-[640px]">
+              <div
+                className="grid gap-2 border-b border-border px-4 py-1.5 text-[11px] text-text-muted"
+                style={{ gridTemplateColumns: "1.6fr 0.8fr 0.8fr 0.9fr 1.6fr 90px" }}
+              >
+                <span>Symbol</span>
+                <span className="text-right">Entry</span>
+                <span className="text-right">LTP</span>
+                <span className="text-right">Unrealised</span>
+                <span>Alerts</span>
+                <span />
+              </div>
+              {items.map((item) => (
+                <Row
+                  key={item.id}
+                  item={item}
+                  expanded={expanded === item.id}
+                  onToggleExpand={() => setExpanded((e) => (e === item.id ? null : item.id))}
+                />
+              ))}
+            </div>
           </div>
-          {items.map((item) => (
-            <Row
-              key={item.id}
-              item={item}
-              expanded={expanded === item.id}
-              onToggleExpand={() => setExpanded((e) => (e === item.id ? null : item.id))}
-            />
-          ))}
           <div className="border-t border-border px-4 py-2.5">
             <DataSourceFooter meta={meta} />
           </div>

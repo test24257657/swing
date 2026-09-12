@@ -22,11 +22,11 @@ export function TopBar() {
   const initials = email ? email.slice(0, 2).toUpperCase() : "··";
 
   return (
-    <header className="sticky top-0 z-30 flex h-[var(--shell-topbar-h)] items-center gap-4 border-b border-[var(--color-border)] bg-[rgba(255,255,255,0.94)] px-6 backdrop-blur-sm">
-      <button className="flex h-[34px] w-[340px] items-center gap-2.5 rounded-md border border-[var(--color-border)] bg-surface px-3 text-[13px] text-[var(--color-text-muted)] hover:border-[var(--color-accent)]">
+    <header className="sticky top-0 z-30 flex h-[var(--shell-topbar-h)] items-center gap-2 border-b border-[var(--color-border)] bg-[rgba(255,255,255,0.94)] px-3 backdrop-blur-sm sm:gap-4 sm:px-6">
+      <button className="hidden h-[34px] items-center gap-2.5 rounded-md border border-[var(--color-border)] bg-surface px-3 text-[13px] text-[var(--color-text-muted)] hover:border-[var(--color-accent)] md:flex md:w-[220px] lg:w-[340px]">
         <Search size={13} />
-        <span>Search symbol, sector or screen…</span>
-        <span className="ml-auto flex gap-1">
+        <span className="truncate">Search symbol, sector or screen…</span>
+        <span className="ml-auto hidden gap-1 lg:flex">
           <kbd className="rounded-sm border border-[var(--color-border)] bg-surface-2 px-1.5 font-mono text-[11px] text-[var(--color-text-secondary)]">
             ⌘
           </kbd>
@@ -35,18 +35,24 @@ export function TopBar() {
           </kbd>
         </span>
       </button>
+      <button
+        aria-label="Search"
+        className="flex h-8 w-8 flex-none items-center justify-center rounded-md border border-[var(--color-border)] bg-surface text-[var(--color-text-muted)] md:hidden"
+      >
+        <Search size={14} />
+      </button>
 
       <MarketStatusPill />
 
       <span
-        className={`font-mono text-[11px] whitespace-nowrap ${stale ? "text-stale-text" : "text-[var(--color-text-muted)]"}`}
+        className={`hidden truncate font-mono text-[11px] sm:block ${stale ? "text-stale-text" : "text-[var(--color-text-muted)]"}`}
       >
         {asOf ? `data as of ${istStamp(asOf)}` : "no artifacts yet"}
       </span>
 
       <div className="ml-auto flex items-center gap-2">
         {email && (
-          <span className="max-w-[180px] truncate text-[11px] text-text-muted" title={email}>
+          <span className="hidden max-w-[180px] truncate text-[11px] text-text-muted sm:inline" title={email}>
             {email}
           </span>
         )}
