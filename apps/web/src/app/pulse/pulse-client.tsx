@@ -182,11 +182,9 @@ export function PulseClient() {
         <Card className="flex flex-col p-4">
           <div className="flex items-center justify-between">
             <div className="text-[13px] font-semibold">Market breadth</div>
-            {d.breadth?.ad_ratio != null && (
-              <Tooltip content="Rising stocks ÷ falling stocks across every NSE equity that traded today.">
-                <span className="tnum text-[11px] text-text-muted">A/D {d.breadth.ad_ratio}</span>
-              </Tooltip>
-            )}
+            <Tooltip content="How many stocks rose vs. fell today across the whole exchange — a read on whether the rally (or fall) is broad or narrow.">
+              <span className="text-[11px] text-text-muted">what&apos;s this?</span>
+            </Tooltip>
           </div>
           {d.breadth ? (
             <>
@@ -288,13 +286,9 @@ export function PulseClient() {
         <Card className="flex flex-col p-4">
           <div className="flex items-center justify-between">
             <div className="text-[13px] font-semibold">Volatility</div>
-            {d.vix?.percentile_250d != null && (
-              <Tooltip content="Where today's INDIA VIX sits against its own last 250 sessions.">
-                <span className="tnum text-[11px] text-text-muted">
-                  {d.vix.percentile_250d.toFixed(0)}th pctile
-                </span>
-              </Tooltip>
-            )}
+            <Tooltip content="INDIA VIX — how much traders expect the market to swing over the next month. Higher = bigger expected moves.">
+              <span className="text-[11px] text-text-muted">what&apos;s this?</span>
+            </Tooltip>
           </div>
           {d.vix ? (
             <>
@@ -385,8 +379,11 @@ function VixGauge({ value, percentile }: { value: number; percentile: number | n
       </div>
       {percentile != null && (
         <div className="mt-1 text-[11px] text-text-muted">
-          Higher than <span className="tnum font-medium text-text-secondary">{percentile.toFixed(0)}%</span> of the
-          last 250 sessions
+          {percentile >= 50 ? "Choppier" : "Calmer"} than{" "}
+          <span className="tnum font-medium text-text-secondary">
+            {(percentile >= 50 ? percentile : 100 - percentile).toFixed(0)}%
+          </span>{" "}
+          of the last year
         </div>
       )}
     </div>

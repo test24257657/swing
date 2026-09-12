@@ -44,20 +44,20 @@ VIX_PERCENTILE_DAYS = 250
 VIX_BANDS = {"low": 13.0, "moderate": 18.0, "elevated": 24.0}
 VIX_VERDICTS = {
     "low": (
-        "Low volatility — trend-friendly",
-        "Favour breakout continuation; wider stops unnecessary.",
+        "Calm market",
+        "Prices are moving steadily, without big swings. A normal, comfortable time to hold positions.",
     ),
     "moderate": (
-        "Moderate volatility",
-        "Normal conditions; standard position sizing.",
+        "Normal market",
+        "Typical day-to-day ups and downs. Nothing unusual — trade as you normally would.",
     ),
     "elevated": (
-        "Elevated volatility",
-        "Trim size; expect wider swings and more failed breakouts.",
+        "Choppy market",
+        "Prices swinging more than usual. Consider smaller trade sizes — moves can reverse quickly.",
     ),
     "high": (
-        "High volatility — defensive",
-        "Momentum setups fail more often here; wait for it to cool.",
+        "Risky market",
+        "Big, unpredictable price swings. Be extra careful — many traders wait for calmer days before entering new trades.",
     ),
 }
 
