@@ -40,6 +40,22 @@ NIFTY_CSV = {
     "NIFTY 50": "ind_nifty50list.csv",
     "NIFTY 500": "ind_nifty500list.csv",
     "NIFTY BANK": "ind_niftybanklist.csv",
+    # Sector indices — every filename here was verified against a real CSV response
+    # (not the site's HTML 404 fallback) before being added; a guessed-wrong filename
+    # degrades that one sector to empty via @safe rather than raising.
+    "NIFTY AUTO": "ind_niftyautolist.csv",
+    "NIFTY IT": "ind_niftyitlist.csv",
+    "NIFTY PHARMA": "ind_niftypharmalist.csv",
+    "NIFTY FMCG": "ind_niftyfmcglist.csv",
+    "NIFTY METAL": "ind_niftymetallist.csv",
+    "NIFTY REALTY": "ind_niftyrealtylist.csv",
+    "NIFTY ENERGY": "ind_niftyenergylist.csv",
+    "NIFTY PSU BANK": "ind_niftypsubanklist.csv",
+    "NIFTY PRIVATE BANK": "ind_nifty_privatebanklist.csv",
+    "NIFTY MEDIA": "ind_niftymedialist.csv",
+    "NIFTY CONSUMER DURABLES": "ind_niftyconsumerdurableslist.csv",
+    "NIFTY OIL & GAS": "ind_niftyoilgaslist.csv",
+    "NIFTY HEALTHCARE INDEX": "ind_niftyhealthcarelist.csv",
 }
 
 

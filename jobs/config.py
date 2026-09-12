@@ -64,6 +64,39 @@ VIX_VERDICTS = {
 # --- flows -------------------------------------------------------------------
 FLOW_SESSIONS = 10
 
+# --- sector rotation -----------------------------------------------------------
+# NSE's official sector indices — see jobs/sources.py::NIFTY_CSV for the verified
+# constituent-list filename behind each one.
+SECTOR_INDICES = [
+    "NIFTY AUTO", "NIFTY IT", "NIFTY PHARMA", "NIFTY FMCG", "NIFTY METAL",
+    "NIFTY REALTY", "NIFTY ENERGY", "NIFTY PSU BANK", "NIFTY PRIVATE BANK",
+    "NIFTY MEDIA", "NIFTY CONSUMER DURABLES", "NIFTY HEALTHCARE INDEX",
+]
+# "NIFTY OIL & GAS" was tried and dropped — nselib's index_data doesn't resolve that
+# exact name (returns nothing at any range), not a transient failure.
+SECTOR_BENCHMARK = "NIFTY 500"
+SECTOR_HISTORY_DAYS = 300  # enough for 3m return + the RRG's 10-week lookback
+SECTOR_RETURN_1M_SESSIONS = 21
+SECTOR_RETURN_3M_SESSIONS = 63
+SECTOR_RANK_DELTA_SESSIONS = 15  # ~3 weeks, "rank vs 3 weeks ago"
+# Relative Rotation Graph — simplified vs the classic JdK RS-Ratio/Momentum (no
+# double-smoothing): X = 30-session relative-performance ratio vs the benchmark,
+# rebased to 100; Y = that ratio's 10-week rate of change. Tail = last 6 weekly points.
+RRG_RS_WINDOW_SESSIONS = 30
+RRG_MOMENTUM_SESSIONS = 50  # ~10 weeks
+RRG_TAIL_POINTS = 6
+RRG_TAIL_STEP_SESSIONS = 5  # one point per week
+
+# --- indices screen ------------------------------------------------------------
+# Broad-market indices shown alongside the sector indices above (sectors are their
+# own category there). Constituents drawer only works for indices with a
+# jobs.sources.NIFTY_CSV entry — the rest (Next 50, mid/smallcap) show list + chart only.
+BROAD_INDICES = [
+    "NIFTY 50", "NIFTY NEXT 50", "NIFTY 100", "NIFTY 200", "NIFTY 500",
+    "NIFTY MIDCAP 100", "NIFTY MIDCAP 150", "NIFTY SMALLCAP 100", "NIFTY SMALLCAP 250",
+    "NIFTY BANK", "INDIA VIX",
+]
+
 # --- market session (IST) ----------------------------------------------------
 PRE_OPEN = "09:00"
 MARKET_OPEN = "09:15"

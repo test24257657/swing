@@ -18,10 +18,12 @@ from jobs import (
     charts,
     flows,
     fundamentals,
+    indices,
     movers,
     panel,
     quotes,
     screener,
+    sectors,
     tiles,
     writer,
 )
@@ -59,7 +61,7 @@ def main() -> int:
 
     # 3. index tiles + volatility card
     tile_rows, vix, tile_stats = tiles.build(PANEL_DAYS)
-    sources["indices"] = tile_stats
+    sources["tiles"] = tile_stats
     sources["vix"] = {"ok": vix is not None}
 
     # 4. breadth
@@ -80,8 +82,18 @@ def main() -> int:
     sources["screener"] = screener_stats
     writer.write("screener.json", screener_payload)
 
-    # 8. per-instrument chart artifacts — Pulse movers, every screener match, and
-    #    anything on a user's watchlist (so its row can always open a chart)
+    # 8. sector rotation — 1M/3M ranking, rank deltas, simplified RRG tail
+    sector_payload, sector_stats = sectors.build(df)
+    sources["sectors"] = sector_stats
+    writer.write("sectors.json", sector_payload)
+
+    # 9. indices screen — every broad-market + sector index, list metadata
+    indices_payload, indices_stats = indices.build()
+    sources["indices"] = indices_stats
+    writer.write("indices.json", indices_payload)
+
+    # 10. per-instrument chart artifacts — Pulse movers, every screener match, anything
+    #     on a user's watchlist, and every index on the Indices/Sectors screens
     watchlisted = alerts.watchlist_symbols()
     mover_symbols = (
         [r["symbol"] for r in active]
@@ -89,14 +101,15 @@ def main() -> int:
         + [r["symbol"] for r in screener_payload.get("rows", [])]
         + watchlisted
     )
+    all_tile_indices = list(dict.fromkeys(TILE_INDICES + indices.ALL_INDICES))
     writer.clear_dir("charts")
-    charted, chart_stats = charts.build(df, TILE_INDICES, mover_symbols, PANEL_DAYS)
+    charted, chart_stats = charts.build(df, all_tile_indices, mover_symbols, PANEL_DAYS)
     sources["charts"] = chart_stats
     log.info("chart artifacts: %s", len(charted))
 
     # 9. quarterly fundamentals (yfinance) — same symbol set as the stock charts
     writer.clear_dir("fundamentals")
-    fund_payloads, fund_stats = fundamentals.build([s for s in charted if s not in TILE_INDICES])
+    fund_payloads, fund_stats = fundamentals.build([s for s in charted if s not in all_tile_indices])
     sources["fundamentals"] = fund_stats
     for symbol, payload in fund_payloads.items():
         writer.write(f"fundamentals/{charts.slug(symbol)}.json", payload)
