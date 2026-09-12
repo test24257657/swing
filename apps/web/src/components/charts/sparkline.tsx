@@ -1,7 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
+/**
+ * `width` is a maximum, not a fixed size — the sparkline measures its actual container
+ * and shrinks to fit (a fixed pixel width here was overflowing 2-column mobile tiles;
+ * see docs/phase-6.md-adjacent UX pass). Point math is redone against the real
+ * measured width so the line and the hover hit-test both stay accurate at any size.
+ */
 export function Sparkline({
   data,
   width = 96,
@@ -13,20 +19,39 @@ export function Sparkline({
   height?: number;
   stroke: string;
 }) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [measured, setMeasured] = useState<number | null>(null);
   const [hover, setHover] = useState<number | null>(null);
-  if (data.length < 2) return <svg width={width} height={height} />;
+
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver((entries) => {
+      const w = entries[0]?.contentRect.width;
+      if (w) setMeasured(w);
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  const w = measured ?? width;
+
+  if (data.length < 2) {
+    return <div ref={containerRef} className="min-w-0 flex-1" style={{ maxWidth: width, height }} />;
+  }
+
   const min = Math.min(...data);
   const max = Math.max(...data);
   const span = max - min || 1;
   const points = data.map((v, i) => ({
-    x: (i / (data.length - 1)) * width,
+    x: (i / (data.length - 1)) * w,
     y: height - 2 - ((v - min) / span) * (height - 4),
     v,
   }));
   const pts = points.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ");
 
   function pick(clientX: number, rect: DOMRect) {
-    const relX = ((clientX - rect.left) / rect.width) * width;
+    const relX = ((clientX - rect.left) / rect.width) * w;
     let nearest = 0;
     let best = Infinity;
     for (let i = 0; i < points.length; i++) {
@@ -43,9 +68,9 @@ export function Sparkline({
   const sessionsAgo = hover != null ? points.length - 1 - hover : 0;
 
   return (
-    <div className="relative shrink-0" style={{ width, height }}>
+    <div ref={containerRef} className="relative min-w-0 flex-1" style={{ maxWidth: width, height }}>
       <svg
-        width={width}
+        width={w}
         height={height}
         className="overflow-visible"
         onMouseMove={(e) => pick(e.clientX, e.currentTarget.getBoundingClientRect())}

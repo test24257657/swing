@@ -13,11 +13,13 @@ import logging
 import pandas as pd
 
 from jobs.cache import safe
+from jobs.filing_verify import verify
 
 log = logging.getLogger("jobs.fundamentals")
 
 REVENUE_ROWS = ["Total Revenue"]
 NET_INCOME_ROWS = ["Net Income", "Net Income Common Stockholders"]
+EPS_ROWS = ["Basic EPS"]
 _FY_QUARTER = {4: 1, 5: 1, 6: 1, 7: 2, 8: 2, 9: 2, 10: 3, 11: 3, 12: 3, 1: 4, 2: 4, 3: 4}
 
 
@@ -48,6 +50,7 @@ def _fetch_one(symbol: str) -> dict | None:
         return None
     rev_row = _find_row(df, REVENUE_ROWS)
     ni_row = _find_row(df, NET_INCOME_ROWS)
+    eps_row = _find_row(df, EPS_ROWS)
     if rev_row is None and ni_row is None:
         return None
 
@@ -56,13 +59,16 @@ def _fetch_one(symbol: str) -> dict | None:
     for col in sorted(df.columns)[-4:]:
         rev = _cr(df.loc[rev_row, col]) if rev_row else None
         ni = _cr(df.loc[ni_row, col]) if ni_row else None
+        eps = round(float(df.loc[eps_row, col]), 2) if eps_row and pd.notna(df.loc[eps_row, col]) else None
         quarters.append(
             {
                 "label": _quarter_label(col),
+                "period_end": col.date().isoformat(),
                 "revenue_cr": rev,
                 "revenue_qoq_pct": _qoq(rev, prev_rev),
                 "net_income_cr": ni,
                 "net_income_qoq_pct": _qoq(ni, prev_ni),
+                "eps": eps,
             }
         )
         prev_rev = rev if rev is not None else prev_rev
@@ -70,7 +76,8 @@ def _fetch_one(symbol: str) -> dict | None:
 
     if not any(q["revenue_cr"] is not None or q["net_income_cr"] is not None for q in quarters):
         return None
-    return {"symbol": symbol, "quarters": quarters}
+    verification = verify(symbol, quarters[-1]) if quarters else None
+    return {"symbol": symbol, "quarters": quarters, "verification": verification}
 
 
 def build(symbols: list[str]) -> tuple[dict[str, dict], dict]:

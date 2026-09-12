@@ -113,15 +113,34 @@ export interface ChartArtifact {
 
 export interface FundamentalsQuarter {
   label: string;
+  period_end: string;
   revenue_cr: number | null;
   revenue_qoq_pct: number | null;
   net_income_cr: number | null;
   net_income_qoq_pct: number | null;
+  eps: number | null;
+}
+
+export interface FilingVerifyCheck {
+  label: string;
+  yfinance: number | null;
+  nse_filing: number | null;
+  diff_pct: number | null;
+  divergent: boolean;
+}
+
+export interface FilingVerification {
+  quarter_label: string;
+  filed_at: string;
+  filing_url: string;
+  checks: FilingVerifyCheck[];
+  divergence_count: number;
 }
 
 export interface FundamentalsData {
   symbol: string;
   quarters: FundamentalsQuarter[];
+  verification: FilingVerification | null;
 }
 
 export type PatternCode = "vcp" | "ipo_base" | "high_52w_breakout" | "near_pivot";
@@ -176,4 +195,163 @@ export interface ScreenerData {
     stages: Partial<Record<BreakoutStage, number>>;
   };
   rows: ScreenerRow[];
+}
+
+export interface SectorConstituent {
+  symbol: string;
+  name: string;
+  ltp: number;
+  change_pct: number | null;
+}
+
+export interface RrgPoint {
+  x: number;
+  y: number;
+}
+
+export interface SectorRow {
+  name: string;
+  slug: string;
+  rank: number | null;
+  rank_delta: number | null;
+  return_1m: number | null;
+  return_3m: number | null;
+  rs_tail: RrgPoint[];
+  stock_count: number;
+  advancers: number;
+  constituents: SectorConstituent[];
+}
+
+export interface SectorsData {
+  as_of: string;
+  benchmark: string;
+  sectors: SectorRow[];
+}
+
+export interface IndexRow {
+  symbol: string;
+  slug: string;
+  category: "broad" | "sectoral";
+  value: number;
+  change: number | null;
+  change_pct: number | null;
+}
+
+export interface IndicesData {
+  as_of: string | null;
+  indices: IndexRow[];
+}
+
+export type NewsImpact = "very_positive" | "positive" | "neutral" | "negative" | "very_negative";
+
+export interface NewsItem {
+  symbol: string;
+  name: string;
+  date: string;
+  time: string;
+  category: string;
+  headline: string;
+  filing_url: string | null;
+  impact: NewsImpact;
+  summary: string;
+}
+
+export interface NewsData {
+  as_of: string;
+  items: NewsItem[];
+  counts: Record<NewsImpact, number>;
+}
+
+export interface DealRow {
+  date: string;
+  symbol: string;
+  client: string;
+  side: "BUY" | "SELL";
+  kind: "Bulk" | "Block";
+  qty: number;
+  price: number;
+  value: number;
+  repeat: boolean;
+  repeat_count: number;
+}
+
+export interface DealSummary {
+  deals_today: number;
+  bulk_count: number;
+  block_count: number;
+  total_value: number;
+  repeat_count: number;
+}
+
+export interface ParticipantOiPart {
+  who: "FII" | "DII" | "Pro" | "Client";
+  pct: number;
+  side: "net long" | "net short";
+}
+
+export interface ParticipantOiSection {
+  name: string;
+  parts: ParticipantOiPart[];
+  note: string;
+}
+
+export interface ParticipantOi {
+  as_of: string;
+  sections: ParticipantOiSection[];
+  fii_index_futures_ratio: { date: string; ratio: number }[];
+}
+
+export interface InstitutionalData {
+  as_of: string;
+  deal_summary: DealSummary;
+  deals: DealRow[];
+  participant_oi: ParticipantOi | null;
+}
+
+export interface FnoBuildup {
+  label: "long_buildup" | "short_buildup" | "short_covering" | "long_unwinding" | "neutral";
+  note: string;
+  expiry: string;
+  price_chg_pct: number;
+  oi_chg_pct: number;
+  open_interest: number;
+  close: number;
+}
+
+export interface OptionChainRow {
+  strike: number;
+  call_oi: number;
+  call_oi_chg: number;
+  put_oi: number;
+  put_oi_chg: number;
+}
+
+export interface OptionChain {
+  expiry: string;
+  underlying_value: number | null;
+  rows: OptionChainRow[];
+  pcr: number | null;
+  total_call_oi: number;
+  total_put_oi: number;
+  max_call_oi_strike: number;
+  max_put_oi_strike: number;
+}
+
+export interface FnoData {
+  symbol: string;
+  buildup: FnoBuildup | null;
+  option_chain: OptionChain | null;
+}
+
+export interface DepthLevel {
+  price: number;
+  quantity: number;
+}
+
+export interface DepthData {
+  bid: DepthLevel[];
+  ask: DepthLevel[];
+  total_buy_qty: number | null;
+  total_sell_qty: number | null;
+  vwap: number | null;
 }

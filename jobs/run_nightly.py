@@ -16,12 +16,18 @@ from jobs import (
     alerts,
     breadth,
     charts,
+    depth,
     flows,
+    fno,
     fundamentals,
+    indices,
+    institutional,
     movers,
+    news,
     panel,
     quotes,
     screener,
+    sectors,
     tiles,
     writer,
 )
@@ -59,7 +65,7 @@ def main() -> int:
 
     # 3. index tiles + volatility card
     tile_rows, vix, tile_stats = tiles.build(PANEL_DAYS)
-    sources["indices"] = tile_stats
+    sources["tiles"] = tile_stats
     sources["vix"] = {"ok": vix is not None}
 
     # 4. breadth
@@ -80,8 +86,18 @@ def main() -> int:
     sources["screener"] = screener_stats
     writer.write("screener.json", screener_payload)
 
-    # 8. per-instrument chart artifacts — Pulse movers, every screener match, and
-    #    anything on a user's watchlist (so its row can always open a chart)
+    # 8. sector rotation — 1M/3M ranking, rank deltas, simplified RRG tail
+    sector_payload, sector_stats = sectors.build(df)
+    sources["sectors"] = sector_stats
+    writer.write("sectors.json", sector_payload)
+
+    # 9. indices screen — every broad-market + sector index, list metadata
+    indices_payload, indices_stats = indices.build()
+    sources["indices"] = indices_stats
+    writer.write("indices.json", indices_payload)
+
+    # 10. per-instrument chart artifacts — Pulse movers, every screener match, anything
+    #     on a user's watchlist, and every index on the Indices/Sectors screens
     watchlisted = alerts.watchlist_symbols()
     mover_symbols = (
         [r["symbol"] for r in active]
@@ -89,14 +105,15 @@ def main() -> int:
         + [r["symbol"] for r in screener_payload.get("rows", [])]
         + watchlisted
     )
+    all_tile_indices = list(dict.fromkeys(TILE_INDICES + indices.ALL_INDICES))
     writer.clear_dir("charts")
-    charted, chart_stats = charts.build(df, TILE_INDICES, mover_symbols, PANEL_DAYS)
+    charted, chart_stats = charts.build(df, all_tile_indices, mover_symbols, PANEL_DAYS)
     sources["charts"] = chart_stats
     log.info("chart artifacts: %s", len(charted))
 
     # 9. quarterly fundamentals (yfinance) — same symbol set as the stock charts
     writer.clear_dir("fundamentals")
-    fund_payloads, fund_stats = fundamentals.build([s for s in charted if s not in TILE_INDICES])
+    fund_payloads, fund_stats = fundamentals.build([s for s in charted if s not in all_tile_indices])
     sources["fundamentals"] = fund_stats
     for symbol, payload in fund_payloads.items():
         writer.write(f"fundamentals/{charts.slug(symbol)}.json", payload)
@@ -110,6 +127,36 @@ def main() -> int:
     # 11. alert evaluation — nightly, against today's high/low (no live intraday feed)
     alert_stats = alerts.evaluate(df, business_date)
     sources["alerts"] = alert_stats
+
+    # 12. news — corporate announcements for the same "interesting" symbol universe as
+    #     the chart artifacts, filtered + AI-classified
+    news_payload, news_stats = news.build(list(dict.fromkeys(mover_symbols)))
+    sources["news"] = news_stats
+    writer.write("news.json", news_payload)
+
+    # 13. institutional activity — bulk/block deals (repeat-accumulation flag) +
+    #     participant-wise OI / FII derivatives ratio. Whole-market, not scoped to
+    #     the chart universe: the deals feed is inherently every listed symbol.
+    institutional_payload, institutional_stats = institutional.build(business_date)
+    sources["institutional"] = institutional_stats
+    writer.write("institutional.json", institutional_payload)
+
+    # 14. F&O — buildup + option chain, F&O-eligible symbols in the chart universe only
+    writer.clear_dir("fno")
+    fno_payloads, fno_stats = fno.build(business_date, [s for s in charted if s not in all_tile_indices])
+    sources["fno"] = fno_stats
+    for symbol, payload in fno_payloads.items():
+        writer.write(f"fno/{charts.slug(symbol)}.json", payload)
+    log.info("fno artifacts: %s", len(fno_payloads))
+
+    # 15. market depth — best-effort (see jobs/depth.py); same stock universe as
+    #     fundamentals.
+    writer.clear_dir("depth")
+    depth_payloads, depth_stats = depth.build([s for s in charted if s not in all_tile_indices])
+    sources["depth"] = depth_stats
+    for symbol, payload in depth_payloads.items():
+        writer.write(f"depth/{charts.slug(symbol)}.json", payload)
+    log.info("depth artifacts: %s", len(depth_payloads))
 
     writer.write_pulse(
         {

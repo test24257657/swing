@@ -19,6 +19,7 @@ import {
 } from "@/lib/api/watchlist-hooks";
 import { cn } from "@/lib/cn";
 import { direction, pct, price } from "@/lib/format";
+import { safeGridCols } from "@/lib/grid";
 import { toSlug } from "@/lib/slug";
 
 function toneClass(v: number | null | undefined) {
@@ -137,7 +138,7 @@ export function WatchlistClient() {
             <div className="min-w-[640px]">
               <div
                 className="grid gap-2 border-b border-border px-4 py-1.5 text-[11px] text-text-muted"
-                style={{ gridTemplateColumns: "1.6fr 0.8fr 0.8fr 0.9fr 1.6fr 90px" }}
+                style={{ gridTemplateColumns: safeGridCols("1.6fr 0.8fr 0.8fr 0.9fr 1.6fr 90px") }}
               >
                 <span>Symbol</span>
                 <span className="text-right">Entry</span>
@@ -321,7 +322,7 @@ function Row({ item, expanded, onToggleExpand }: { item: WatchlistItem; expanded
     <div className="border-b border-border last:border-0">
       <div
         className="tnum grid items-center gap-2 px-4 py-2.5"
-        style={{ gridTemplateColumns: "1.6fr 0.8fr 0.8fr 0.9fr 1.6fr 90px" }}
+        style={{ gridTemplateColumns: safeGridCols("1.6fr 0.8fr 0.8fr 0.9fr 1.6fr 90px") }}
       >
         <Link href={`/chart/${toSlug(item.symbol)}?back=${encodeURIComponent("/watchlist")}`} className="min-w-0 hover:text-accent">
           <div className="text-[13px] font-medium">{item.symbol}</div>

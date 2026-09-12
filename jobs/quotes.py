@@ -25,7 +25,7 @@ def build(panel: pd.DataFrame, names: dict[str, str]) -> dict[str, dict]:
             continue
         change_pct = (
             round((float(close) / float(prev_close) - 1.0) * 100.0, 2)
-            if prev_close is not None and pd.notna(prev_close) and prev_close
+            if prev_close is not None and pd.notna(prev_close) and prev_close != 0
             else None
         )
         quotes[symbol] = {

@@ -5,14 +5,14 @@ from fastapi import APIRouter, HTTPException
 from app import store
 from app.schemas.envelope import Envelope, Meta, envelope
 
-router = APIRouter(tags=["indices"])
+router = APIRouter(tags=["news"])
 
 
-@router.get("/indices", response_model=Envelope[dict])
-def indices() -> Envelope[dict]:
-    """Every broad-market + sector index — value, change, category. Chart artifacts for
-    each are served the usual way through GET /chart/{slug}."""
-    data = store.indices()
+@router.get("/news", response_model=Envelope[dict])
+def news() -> Envelope[dict]:
+    """Corporate announcements for the interesting symbol universe (movers/screener/
+    watchlist), filtered to relevant categories and AI-classified by likely impact."""
+    data = store.news()
     if not data:
         raise HTTPException(
             status_code=503,

@@ -10,7 +10,7 @@ from app import store
 from app.auth.deps import current_user
 from app.bootstrap import bootstrap_db
 from app.config import settings
-from app.routers import auth, health, pulse, screener, watchlist
+from app.routers import auth, fno, health, indices, institutional, news, pulse, screener, sectors, watchlist
 
 logging.basicConfig(level=settings.log_level)
 log = logging.getLogger("swing.api")
@@ -52,13 +52,18 @@ protected = [Depends(current_user)]
 app.include_router(pulse.router, dependencies=protected)
 app.include_router(screener.router, dependencies=protected)
 app.include_router(watchlist.router, dependencies=protected)
+app.include_router(sectors.router, dependencies=protected)
+app.include_router(indices.router, dependencies=protected)
+app.include_router(news.router, dependencies=protected)
+app.include_router(institutional.router, dependencies=protected)
+app.include_router(fno.router, dependencies=protected)
 
 # ---------------------------------------------------------------------------
 # Parked until their phase (see docs/ARCHITECTURE.md §13). These routers still
 # query Postgres for market data, which this architecture no longer does — each
 # one gets ported to an artifact as its phase lands.
 #
-#   meta, symbols, market, indices, stocks
+#   meta, symbols, market, stocks
 # ---------------------------------------------------------------------------
 
 

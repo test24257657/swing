@@ -1,58 +1,70 @@
 # Phase 6 — Market context
 
-Status: **built, not yet run against real data.** Endpoints return 200 on the empty DB
-and the UI renders its empty/phase-stub states. Nothing here has been exercised on an
-actual ingestion.
+Status: **built, verified end-to-end with real data** (`jobs.sectors`/`jobs.indices`
+run against the live panel and NSE index feeds — 12/12 sectors, 23/23 indices — and the
+API routes checked with `TestClient` against the real artifacts).
 
-Built ahead of Phases 3–5 (charts, stock detail, watchlist/alerts) at the user's request.
+Items 31 (Market Pulse) and 35 (holiday calendar → market status pill) were already done
+in earlier phases; this phase covers 32-34.
 
 ## Done
 
-### Schema (migration 0005)
-`market_breadth`, `fii_dii_flows`, `index_constituents`, `holiday_calendar`.
-
-### Jobs
-- `ingest_holidays` — nselib `holiday_master`; `calendar.py` now reads the table
-  (weekend-only fallback) and gained `next_trading_day`.
-- `ingest_fii_dii` — cash-segment FII/DII buy/sell/net, recent sessions.
-- `compute_breadth` — advances/declines/unchanged + % above 50/200 DMA + new 52-week
-  highs/lows, from `daily_bars` + `daily_indicators`.
-- `sync_index_constituents` — sectoral indices only (from `symbols.sector_id`),
-  `weight` NULL until a factsheet source. Broad/thematic membership is left empty.
-- All added to the nightly pipeline (`scheduler.py`) and the Render cron.
-- `INDIA VIX` added to the index seed.
-
-### Item 35 — Holiday calendar → market status pill
-- `services/market_status.py` — trading / pre-open / closed / holiday from the holiday
-  calendar + IST clock; Muhurat-aware; returns `seconds_to_next`.
-- `GET /market/status` (uncached). `MarketStatusPill` polls it every 30s and ticks a
-  1-second countdown client-side.
-
-### Item 31 — Market Pulse
-- `GET /market/pulse` → index tiles (NIFTY 50 / BANK / 500 + INDIA VIX with 30d
-  sparklines), breadth (A/D ratio, %>50/200 DMA, new H/L), FII/DII last 10 + 10-session
-  net, VIX value + 250-day percentile + regime verdict/advice.
-- `/pulse` screen: tiles, breadth donut (SVG), FII/DII grouped bars (SVG), VIX gauge.
-
 ### Item 32 — Sector Rotation
-- `GET /sectors/rotation?tf=` → heatmap cells, momentum ranking with rank-change vs
-  ~3 weeks ago, RRG (simplified JdK RS-ratio / RS-momentum vs NIFTY 500, weekly tails).
-- `/sectors` screen: return heatmap (cell span by constituent count — **proxy for
-  free-float mcap, which we don't have**), ranked rail, RRG scatter. Click a sector →
-  `/screener?sector=…`.
+`jobs/sectors.py` — for each of 12 NSE sector indices (auto, IT, pharma, FMCG, metal,
+realty, energy, PSU bank, private bank, media, consumer durables, healthcare):
+- **1M/3M return** and a **rank** by 1-month return.
+- **Rank delta**: the same ranking recomputed as of 15 sessions ago (~3 weeks), so a
+  sector's rise or fall in the pecking order is visible, not just its return.
+- **Constituents + advancers**: each sector's member list (from niftyindices.com,
+  verified filenames — see below) enriched with today's LTP/change from the panel, and
+  a count of how many are up.
+- **RRG tail**: a simplified relative-rotation graph — X = a 30-session
+  relative-strength ratio vs NIFTY 500 (rebased to 100), Y = that ratio's 10-week rate
+  of change, sampled weekly for the last 6 points. Deliberately simpler than the classic
+  JdK RS-Ratio/RS-Momentum (no double-smoothing) — matches the plain-English formula
+  the UI's own tooltip states, not a ground-up reimplementation of the JdK method.
 
-### Items 33 & 34 — Indices + comparison
-- `GET /indices`, `/indices/{sym}`, `/indices/{sym}/constituents`, `/indices/compare`.
-- `/indices` screen: category tabs, TF, **list / chart / compare** views; constituents
-  drawer with point contribution (weight × return; equal-weight when weights are NULL);
-  compare mode overlays 2–5 indices normalized to 100.
+Frontend (`/sectors`): a heatmap (equal-size cells — no market-cap data in this build,
+so cells aren't sized by float market cap like the original design; colour = 1-month
+return on a fixed ±8% scale), a ranked rail with rank-delta arrows, click-through to a
+constituents panel, and the RRG scatter (`components/charts/rrg-scatter.tsx`) with the
+four quadrants (Improving/Leading/Lagging/Weakening) and per-sector tails.
 
-## Deferred / caveats
+**Verified filenames.** `jobs/sources.py::NIFTY_CSV` was extended with 12 sector-index
+constituent-list filenames — each was fetched and its response body checked to confirm
+it was a real CSV, not niftyindices.com's HTML 404 fallback (same 200 status either
+way). "NIFTY OIL & GAS" was tried and dropped: `nselib`'s `index_data` doesn't resolve
+that exact index name at any range, not a transient failure — 12 sectors shipped
+instead of a guessed 13th.
+
+### Item 33 — Indices screen
+`jobs/indices.py` — list metadata (value, change, category) for every broad-market
+index (NIFTY 50/Next 50/100/200/500, midcap 100/150, smallcap 100/250, NIFTY BANK,
+INDIA VIX) plus the 12 sector indices above — 23 total. Chart artifacts for all of them
+are produced by the existing `jobs/charts.py` (its `tile_symbols` parameter was already
+generic; the nightly run now just passes it a longer list).
+
+Frontend (`/indices`): category tabs (All/Broad market/Sectoral), a List/Chart view
+toggle (same URL-state pattern as the Screener's), and a constituents drawer — but only
+for sectoral rows, since only those have a fetched constituent list in this build (a
+drawer for NIFTY 500's 500 members would need pagination this phase doesn't add).
+
+### Item 34 — Index comparison mode
+A "Compare" panel on `/indices`: pick up to 6 indices and see them overlaid on one
+chart (`components/charts/index-compare-chart.tsx`), each rebased to 100 at the first
+session common to all of them — a visual "which one's up more," not a percentage a
+reader has to compute themselves. Uses the same per-index chart artifacts everything
+else on the page already fetches; no new backend data.
+
+### Item 35 — already done
+Holiday calendar → market status pill shipped in Phase 0/1 (`jobs/sources.py::holidays()`,
+`app/services/market_status.py`). Nothing changed here.
+
+## Not done / deferred
 
 | Item | Note |
 |---|---|
-| Free-float market-cap sizing for the heatmap | using constituent count as a proxy — needs a mcap source |
-| Broad/thematic index constituents + real NSE factsheet weights | only sectoral membership is mapped |
-| SENSEX tile | BSE index — nselib doesn't serve it; using NIFTY 500 instead |
-| Run the ingestion and validate the numbers | the standing gate for every phase |
-| Phases 3 (charts), 4 (stock detail), 5 (watchlist/alerts) | skipped for now, still to build |
+| Market-cap-weighted heatmap cells | no market-cap data source in this build — cells are equal-size, colour still carries the return signal |
+| Constituents drawer for broad-market indices (NIFTY 500 etc.) | would need pagination for the larger ones — sectoral indices (10-40 members) don't |
+| Classic JdK RS-Ratio/RS-Momentum (double-smoothed) | shipped the simpler formula the UI's own tooltip states instead |
+| Clicking a sector cell to a pre-filtered Screener view | the Screener has no sector tag on its rows yet — sector cells open a constituents panel instead |

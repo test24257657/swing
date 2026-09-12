@@ -23,7 +23,7 @@ class Settings(BaseSettings):
 
     # Gemini — news impact classification + AI summaries (Phase 7). Empty = feature off.
     gemini_api_key: str = ""
-    gemini_model: str = "gemini-2.0-flash"
+    gemini_model: str = "gemini-3.6-flash"
 
     # Live quote cache TTL — the one allowed live-NSE path
     quote_ttl_seconds: int = 60

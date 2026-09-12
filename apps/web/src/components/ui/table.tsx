@@ -3,6 +3,7 @@
 import { type ReactNode } from "react";
 
 import { cn } from "@/lib/cn";
+import { safeGridCols } from "@/lib/grid";
 
 /**
  * Grid-based data table. The design's tables are CSS grids (not <table>) so column
@@ -26,7 +27,7 @@ export function Table({ template, header, children, footer, className }: TablePr
     <div className={cn("overflow-hidden rounded-lg border border-[var(--color-border)] bg-surface", className)}>
       <div
         className="sticky top-[var(--shell-topbar-h)] z-20 grid gap-2 border-b border-[var(--color-border)] bg-surface-2 px-3 py-2.5 text-[11px] text-[var(--color-text-secondary)]"
-        style={{ gridTemplateColumns: template }}
+        style={{ gridTemplateColumns: safeGridCols(template) }}
       >
         {header}
       </div>
@@ -56,7 +57,7 @@ export function Row({ template, children, onClick, className }: RowProps) {
         onClick && "cursor-pointer",
         className,
       )}
-      style={{ gridTemplateColumns: template }}
+      style={{ gridTemplateColumns: safeGridCols(template) }}
     >
       {children}
     </div>
