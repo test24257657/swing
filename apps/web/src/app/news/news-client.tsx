@@ -124,7 +124,9 @@ export function NewsClient() {
               className="rounded-lg border-l-[3px] border p-2.5 text-left transition-colors"
               style={{
                 background: on ? meta.bg : "var(--color-surface)",
-                borderColor: on ? meta.bd : "var(--color-border)",
+                borderTopColor: on ? meta.bd : "var(--color-border)",
+                borderRightColor: on ? meta.bd : "var(--color-border)",
+                borderBottomColor: on ? meta.bd : "var(--color-border)",
                 borderLeftColor: meta.bar,
               }}
             >
