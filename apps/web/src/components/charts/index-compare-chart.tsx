@@ -75,11 +75,7 @@ export function IndexCompareChart({ slugs, height = 380 }: { slugs: string[]; he
   }, [loaded, slugs.join(","), height]);
 
   if (!loaded) {
-    return (
-      <div style={{ height }} className="flex items-center justify-center text-[13px] text-text-muted">
-        Loading…
-      </div>
-    );
+    return <div style={{ height }} className="animate-pulse rounded-md bg-surface-2" />;
   }
   if (artifacts.length === 0) {
     return (

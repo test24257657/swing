@@ -49,11 +49,26 @@ export function SectorsClient() {
   if (q.isPending) {
     return (
       <Screen>
-        <ScreenHeader title="Sector Rotation" subtitle="Loading..." />
+        <ScreenHeader title="Sector Rotation" />
         <div className="grid grid-cols-1 gap-2 lg:grid-cols-[minmax(0,1fr)_320px]">
-          <Skeleton className="h-96" />
-          <Skeleton className="h-96" />
+          <Card className="p-4">
+            <Skeleton className="h-4 w-56" />
+            <div className="mt-4 grid grid-cols-2 gap-1.5 sm:grid-cols-3 lg:grid-cols-4">
+              {Array.from({ length: 8 }).map((_, i) => (
+                <Skeleton key={i} className="h-28" />
+              ))}
+            </div>
+          </Card>
+          <Card className="p-4">
+            <Skeleton className="h-4 w-40" />
+            <div className="mt-4 flex flex-col gap-2">
+              {Array.from({ length: 8 }).map((_, i) => (
+                <Skeleton key={i} className="h-6" />
+              ))}
+            </div>
+          </Card>
         </div>
+        <Skeleton className="mt-2 h-[430px]" />
       </Screen>
     );
   }

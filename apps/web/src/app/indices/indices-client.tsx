@@ -39,8 +39,15 @@ export function IndicesClient() {
   if (q.isPending) {
     return (
       <Screen>
-        <ScreenHeader title="Indices" subtitle="Loading..." />
-        <Skeleton className="h-96" />
+        <ScreenHeader title="Indices" />
+        <Skeleton className="mb-2 h-8 w-64" />
+        <Card className="overflow-hidden">
+          <div className="flex flex-col gap-2 p-4">
+            {Array.from({ length: 10 }).map((_, i) => (
+              <Skeleton key={i} className="h-8" />
+            ))}
+          </div>
+        </Card>
       </Screen>
     );
   }
