@@ -12,6 +12,7 @@ import { useMarketPulse } from "@/lib/api/market-hooks";
 import type { ActiveRow, Breadth, BreakoutRow, Flows } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { change, count, direction, pct, pctPlain, price, ratio } from "@/lib/format";
+import { safeGridCols } from "@/lib/grid";
 import { toSlug } from "@/lib/slug";
 import { type Tone, TONE_BOX } from "@/lib/tone";
 
@@ -103,7 +104,7 @@ export function PulseClient() {
             <Skeleton key={i} className="h-28" />
           ))}
         </div>
-        <div className="mt-6 grid grid-cols-1 gap-2 lg:grid-cols-[1fr_1.35fr_1fr]">
+        <div className="mt-6 grid grid-cols-1 gap-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)_minmax(0,1fr)]">
           {Array.from({ length: 3 }).map((_, i) => (
             <Skeleton key={i} className="h-64" />
           ))}
@@ -178,7 +179,7 @@ export function PulseClient() {
       </div>
 
       {/* Breadth · Flows · Volatility */}
-      <div className="mt-2 grid grid-cols-1 gap-2 lg:grid-cols-[1fr_1.35fr_1fr]">
+      <div className="mt-2 grid grid-cols-1 gap-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)_minmax(0,1fr)]">
         <Card className="flex flex-col p-4">
           <div className="flex items-center justify-between">
             <div className="text-[13px] font-semibold">Market breadth</div>
@@ -443,7 +444,7 @@ function MoversTable<T extends ActiveRow | BreakoutRow>({
         <div className="min-w-[420px]">
           <div
             className="grid gap-2 border-b border-border px-4 pb-1.5 text-[11px] text-text-muted"
-            style={{ gridTemplateColumns: template }}
+            style={{ gridTemplateColumns: safeGridCols(template) }}
           >
             <span>Symbol</span>
             <span className="text-right">LTP</span>
@@ -458,7 +459,7 @@ function MoversTable<T extends ActiveRow | BreakoutRow>({
                 key={r.symbol}
                 href={`/chart/${toSlug(r.symbol)}`}
                 className="tnum grid items-center gap-2 border-b border-border px-4 py-2 last:border-0 hover:bg-surface-2"
-                style={{ gridTemplateColumns: template }}
+                style={{ gridTemplateColumns: safeGridCols(template) }}
               >
                 <div className="min-w-0">
                   <div className="text-[13px] font-medium">{r.symbol}</div>

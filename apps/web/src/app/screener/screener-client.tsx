@@ -13,6 +13,7 @@ import { useScreener } from "@/lib/api/market-hooks";
 import type { BreakoutStage, PatternCode, ScreenerRow } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { direction, pct, price } from "@/lib/format";
+import { safeGridCols } from "@/lib/grid";
 import { PATTERNS, STAGE_NOTE, STAGES } from "@/lib/patterns";
 import { toSlug } from "@/lib/slug";
 
@@ -106,7 +107,7 @@ export function ScreenerClient() {
     return (
       <Screen>
         <ScreenHeader title="Screener" subtitle="Setup-pattern matches from tonight's run." />
-        <div className="grid grid-cols-1 gap-2 lg:grid-cols-[280px_1fr]">
+        <div className="grid grid-cols-1 gap-2 lg:grid-cols-[280px_minmax(0,1fr)]">
           <Skeleton className="h-96" />
           <Skeleton className="h-96" />
         </div>
@@ -160,7 +161,7 @@ export function ScreenerClient() {
         </div>
       )}
 
-      <div className="grid grid-cols-1 items-start gap-3 lg:grid-cols-[240px_1fr]">
+      <div className="grid grid-cols-1 items-start gap-3 lg:grid-cols-[240px_minmax(0,1fr)]">
         {/* Filter rail */}
         <Card className="p-3">
           <div className="text-[13px] font-semibold">Setup patterns</div>
@@ -266,7 +267,7 @@ export function ScreenerClient() {
               <div className="min-w-[560px]">
                 <div
                   className="grid gap-2 border-b border-border px-4 py-1.5 text-[11px] text-text-muted"
-                  style={{ gridTemplateColumns: "1.8fr 0.8fr 0.7fr 0.9fr 1.4fr" }}
+                  style={{ gridTemplateColumns: safeGridCols("1.8fr 0.8fr 0.7fr 0.9fr 1.4fr") }}
                 >
                   {COLUMNS.map((c) => (
                     <button
@@ -334,7 +335,7 @@ function Row({ row, backHref }: { row: ScreenerRow; backHref: string }) {
     <Link
       href={`/chart/${toSlug(row.symbol)}?back=${encodeURIComponent(backHref)}`}
       className="tnum grid items-center gap-2 border-b border-border px-4 py-2.5 last:border-0 hover:bg-surface-2"
-      style={{ gridTemplateColumns: "1.8fr 0.8fr 0.7fr 0.9fr 1.4fr" }}
+      style={{ gridTemplateColumns: safeGridCols("1.8fr 0.8fr 0.7fr 0.9fr 1.4fr") }}
     >
       <div className="min-w-0">
         <div className="text-[13px] font-medium">{row.symbol}</div>

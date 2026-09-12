@@ -163,7 +163,7 @@ export function IndicesClient() {
         <Card className="overflow-hidden">
           <div className="overflow-x-auto">
             <div className="min-w-[480px]">
-              <div className="grid grid-cols-[1.6fr_0.9fr_0.9fr_0.9fr] gap-2 border-b border-border px-4 py-1.5 text-[11px] text-text-muted">
+              <div className="grid grid-cols-[minmax(0,1.6fr)_minmax(0,0.9fr)_minmax(0,0.9fr)_minmax(0,0.9fr)] gap-2 border-b border-border px-4 py-1.5 text-[11px] text-text-muted">
                 <span>Index</span>
                 <span className="text-right">Value</span>
                 <span className="text-right">Change</span>
@@ -175,7 +175,7 @@ export function IndicesClient() {
                 return (
                   <div key={r.symbol} className="border-b border-border last:border-0">
                     <div
-                      className="grid grid-cols-[1.6fr_0.9fr_0.9fr_0.9fr] items-center gap-2 px-4 py-2.5"
+                      className="grid grid-cols-[minmax(0,1.6fr)_minmax(0,0.9fr)_minmax(0,0.9fr)_minmax(0,0.9fr)] items-center gap-2 px-4 py-2.5"
                       onClick={() => canExpand && setExpanded((e) => (e === r.symbol ? null : r.symbol))}
                       role={canExpand ? "button" : undefined}
                     >

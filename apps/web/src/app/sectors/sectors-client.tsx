@@ -50,7 +50,7 @@ export function SectorsClient() {
     return (
       <Screen>
         <ScreenHeader title="Sector Rotation" subtitle="Loading..." />
-        <div className="grid grid-cols-1 gap-2 lg:grid-cols-[1fr_320px]">
+        <div className="grid grid-cols-1 gap-2 lg:grid-cols-[minmax(0,1fr)_320px]">
           <Skeleton className="h-96" />
           <Skeleton className="h-96" />
         </div>
@@ -83,7 +83,7 @@ export function SectorsClient() {
         subtitle={`${summaryLine(sectors)} · vs ${d.benchmark}, close of ${d.as_of}.`}
       />
 
-      <div className="grid grid-cols-1 gap-2 lg:grid-cols-[1fr_320px]">
+      <div className="grid grid-cols-1 gap-2 lg:grid-cols-[minmax(0,1fr)_320px]">
         <Card className="p-4">
           <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
             <div className="text-[13px] font-semibold">Heatmap · colour = 1-month return</div>
@@ -127,7 +127,7 @@ export function SectorsClient() {
             <div className="text-[13px] font-semibold">Ranked by momentum</div>
             <div className="mt-0.5 text-[11px] text-text-muted">Arrow = rank change vs 3 weeks ago</div>
           </div>
-          <div className="mt-2 grid grid-cols-[20px_1fr_56px_56px_30px] gap-2 border-b border-border px-4 pb-1.5 text-[11px] text-text-muted">
+          <div className="mt-2 grid grid-cols-[20px_minmax(0,1fr)_56px_56px_30px] gap-2 border-b border-border px-4 pb-1.5 text-[11px] text-text-muted">
             <span>#</span>
             <span>Sector</span>
             <span className="text-right">1M</span>
@@ -139,7 +139,7 @@ export function SectorsClient() {
               key={s.name}
               onClick={() => setSelected((cur) => (cur === s.name ? null : s.name))}
               className={cn(
-                "tnum grid grid-cols-[20px_1fr_56px_56px_30px] gap-2 border-b border-border px-4 py-2 text-left last:border-0 hover:bg-surface-2",
+                "tnum grid grid-cols-[20px_minmax(0,1fr)_56px_56px_30px] gap-2 border-b border-border px-4 py-2 text-left last:border-0 hover:bg-surface-2",
                 selected === s.name && "bg-[var(--color-accent-tint)]",
               )}
             >

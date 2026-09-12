@@ -6,6 +6,7 @@ import { Card } from "@/components/ui";
 import type { ChartBar, FundamentalsData, PatternMatch, Technicals } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { direction, pct, price } from "@/lib/format";
+import { safeGridCols } from "@/lib/grid";
 import type { Tone } from "@/lib/tone";
 
 function toneClass(v: number | null | undefined) {
@@ -155,7 +156,7 @@ export function TechnicalSnapshot({ technicals, asOf }: { technicals: Technicals
         if (v == null) return null;
         const tone = row.tone(v);
         return (
-          <div key={row.key} className="grid grid-cols-[1fr_64px_1fr] items-center gap-2.5 border-b border-border py-1.5 last:border-0">
+          <div key={row.key} className="grid grid-cols-[minmax(0,1fr)_64px_minmax(0,1fr)] items-center gap-2.5 border-b border-border py-1.5 last:border-0">
             <span className="truncate text-[12px] text-text-secondary" title={row.tip}>
               {row.label}
             </span>
@@ -217,8 +218,8 @@ export function FundamentalsCard({ data }: { data: FundamentalsData }) {
       </div>
       <div className="mt-2.5 overflow-x-auto">
         <div
-          className="grid min-w-[420px] gap-1.5"
-          style={{ gridTemplateColumns: `1fr repeat(${data.quarters.length}, 1fr)` }}
+          className="grid min-w-[300px] gap-1.5"
+          style={{ gridTemplateColumns: safeGridCols(`1fr repeat(${data.quarters.length}, 1fr)`) }}
         >
           <div />
           {data.quarters.map((q) => (
