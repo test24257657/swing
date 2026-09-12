@@ -6,10 +6,84 @@ import { Card } from "@/components/ui";
 import type { ChartBar, FundamentalsData, PatternMatch, Technicals } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { direction, pct, price } from "@/lib/format";
+import type { Tone } from "@/lib/tone";
 
 function toneClass(v: number | null | undefined) {
   const d = direction(v);
   return d === "up" ? "text-up-text" : d === "down" ? "text-down-text" : "text-text-secondary";
+}
+
+/** One plain-English read combining every indicator on the page — trend (price vs the
+ * three DMAs), momentum (RSI), volume, and the active setup pattern's stage, if any —
+ * so the six numbers in the snapshot below resolve into a single "what does this mean"
+ * instead of leaving that synthesis to the reader. */
+export function technicalVerdict(t: Technicals, pattern: PatternMatch | null): { label: string; note: string; tone: Tone } {
+  if (pattern?.stage === "confirmed") {
+    return {
+      label: "Bullish — breakout confirmed",
+      tone: "up",
+      note: "A setup just confirmed on above-average volume — trend and pattern agree.",
+    };
+  }
+
+  const above20 = t.dist_20dma_pct != null && t.dist_20dma_pct > 0;
+  const above50 = t.dist_50dma_pct != null && t.dist_50dma_pct > 0;
+  const above200 = t.dist_200dma_pct != null && t.dist_200dma_pct > 0;
+  const knownShort = t.dist_20dma_pct != null && t.dist_50dma_pct != null;
+  const aboveAll = knownShort && above20 && above50 && (t.dist_200dma_pct == null || above200);
+  const belowAll = knownShort && !above20 && !above50 && (t.dist_200dma_pct == null || !above200);
+  const overbought = t.rsi_14 != null && t.rsi_14 >= 70;
+  const oversold = t.rsi_14 != null && t.rsi_14 <= 30;
+  const highVolume = t.rel_volume_20d != null && t.rel_volume_20d >= 1.5;
+  const volNote = highVolume ? " Volume is running above average, backing the move." : "";
+
+  if (aboveAll && overbought) {
+    return {
+      label: "Bullish, but extended",
+      tone: "neutral",
+      note: "Price is above all its moving averages, but RSI is overbought — a pause or pullback wouldn't be unusual before the next leg.",
+    };
+  }
+  if (aboveAll) {
+    return {
+      label: "Bullish trend",
+      tone: "up",
+      note: `Price is above the 20/50${t.dist_200dma_pct != null ? "/200" : ""}-day averages — the trend is up.${volNote}`,
+    };
+  }
+  if (belowAll && oversold) {
+    return {
+      label: "Bearish, but oversold",
+      tone: "neutral",
+      note: "Price is below all its moving averages, but RSI is oversold — a bounce wouldn't be unusual before the next leg down.",
+    };
+  }
+  if (belowAll) {
+    return {
+      label: "Bearish trend",
+      tone: "down",
+      note: `Price is below the 20/50${t.dist_200dma_pct != null ? "/200" : ""}-day averages — the trend is down.${volNote}`,
+    };
+  }
+  if (above200 && !aboveAll) {
+    return {
+      label: "Uptrend, short-term pullback",
+      tone: "up",
+      note: "Above the 200-day average (long-term uptrend intact) but below one or both shorter averages — a dip within the trend, not a reversal yet.",
+    };
+  }
+  if (!above200 && t.dist_200dma_pct != null && !belowAll) {
+    return {
+      label: "Downtrend, short-term bounce",
+      tone: "down",
+      note: "Below the 200-day average (long-term downtrend intact) but above one or both shorter averages — a bounce within the trend, not a reversal yet.",
+    };
+  }
+  return {
+    label: "No clear trend",
+    tone: "neutral",
+    note: "Price is chopping around its moving averages with no consistent direction — wait for a clearer signal.",
+  };
 }
 
 const TECH_ROWS: {

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const LABELS = ["Advances", "Declines", "Unchanged"] as const;
+const LABELS = ["Rising", "Falling", "Flat"] as const;
 
 export function BreadthDonut({
   advances,
@@ -29,7 +29,7 @@ export function BreadthDonut({
   ];
   let offset = 0;
 
-  const centerLabel = hover != null ? LABELS[hover] : "advancing";
+  const centerLabel = hover != null ? LABELS[hover] : "rising";
   const centerValue = hover != null ? values[hover] : advances;
   const centerPct = hover != null ? Math.round((values[hover] / total) * 100) : null;
 

@@ -13,16 +13,10 @@ import type { ActiveRow, Breadth, BreakoutRow, Flows } from "@/lib/api/market-ty
 import { cn } from "@/lib/cn";
 import { change, count, direction, pct, pctPlain, price, ratio } from "@/lib/format";
 import { toSlug } from "@/lib/slug";
+import { type Tone, TONE_BOX } from "@/lib/tone";
 
 const UP = "var(--color-up)";
 const DOWN = "var(--color-down)";
-
-type Tone = "up" | "down" | "neutral";
-const TONE_BOX: Record<Tone, { bg: string; bd: string; fg: string }> = {
-  up: { bg: "rgba(22,163,74,0.07)", bd: "rgba(22,163,74,0.22)", fg: "text-up-text" },
-  down: { bg: "rgba(220,38,38,0.07)", bd: "rgba(220,38,38,0.25)", fg: "text-down-text" },
-  neutral: { bg: "rgba(37,99,235,0.07)", bd: "rgba(37,99,235,0.22)", fg: "text-[var(--color-info-text)]" },
-};
 
 const VIX_TONE: Record<string, { bg: string; bd: string; fg: string }> = {
   low: TONE_BOX.up,
@@ -54,19 +48,19 @@ function breadthVerdict(b: Breadth): { label: string; note: string; tone: Tone }
     return {
       label: "Broad strength",
       tone: "up",
-      note: `${count(b.advances)} advancing vs ${count(b.declines)} declining — buyers in control across the board.`,
+      note: `${count(b.advances)} stocks rising vs ${count(b.declines)} falling — buyers in control across the board.`,
     };
   if (r >= 1.1)
-    return { label: "Mildly positive", tone: "up", note: "More stocks up than down, but not a broad rally." };
+    return { label: "Mildly positive", tone: "up", note: "More stocks rising than falling, but not a broad rally." };
   if (r <= 0.67)
     return {
       label: "Broad weakness",
       tone: "down",
-      note: `${count(b.declines)} declining vs ${count(b.advances)} advancing — sellers in control across the board.`,
+      note: `${count(b.declines)} stocks falling vs ${count(b.advances)} rising — sellers in control across the board.`,
     };
   if (r <= 0.9)
-    return { label: "Mildly negative", tone: "down", note: "More stocks down than up — caution on new longs." };
-  return { label: "Mixed / range-bound", tone: "neutral", note: "Advancers and decliners roughly balanced — no clear direction today." };
+    return { label: "Mildly negative", tone: "down", note: "More stocks falling than rising — caution on new longs." };
+  return { label: "Mixed / range-bound", tone: "neutral", note: "Rising and falling stocks roughly balanced — no clear direction today." };
 }
 
 /** Same idea for FII/DII — the number alone doesn't say whether the two are pulling
@@ -189,7 +183,7 @@ export function PulseClient() {
           <div className="flex items-center justify-between">
             <div className="text-[13px] font-semibold">Market breadth</div>
             {d.breadth?.ad_ratio != null && (
-              <Tooltip content="Advances ÷ declines across every NSE equity that traded today.">
+              <Tooltip content="Rising stocks ÷ falling stocks across every NSE equity that traded today.">
                 <span className="tnum text-[11px] text-text-muted">A/D {d.breadth.ad_ratio}</span>
               </Tooltip>
             )}
@@ -214,9 +208,9 @@ export function PulseClient() {
                 />
                 <div className="flex flex-1 flex-col gap-2.5">
                   {[
-                    { label: "Advances", v: d.breadth.advances, c: UP },
-                    { label: "Declines", v: d.breadth.declines, c: DOWN },
-                    { label: "Unchanged", v: d.breadth.unchanged, c: "var(--color-text-faint)" },
+                    { label: "Rising", v: d.breadth.advances, c: UP },
+                    { label: "Falling", v: d.breadth.declines, c: DOWN },
+                    { label: "Flat", v: d.breadth.unchanged, c: "var(--color-text-faint)" },
                   ].map((r) => (
                     <div key={r.label} className="flex items-center gap-2">
                       <span className="h-2 w-2 rounded-sm" style={{ background: r.c }} />

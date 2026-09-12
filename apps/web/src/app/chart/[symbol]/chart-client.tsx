@@ -13,8 +13,9 @@ import type { ChartArtifact, ChartBar, FundamentalsData, PatternMatch } from "@/
 import { cn } from "@/lib/cn";
 import { change, direction, pct, price } from "@/lib/format";
 import { PATTERNS } from "@/lib/patterns";
+import { TONE_BOX } from "@/lib/tone";
 
-import { DeliveryTrend, FundamentalsCard, PositionSizing, TechnicalSnapshot } from "./detail-cards";
+import { DeliveryTrend, FundamentalsCard, PositionSizing, TechnicalSnapshot, technicalVerdict } from "./detail-cards";
 
 const TIMEFRAMES = [
   { label: "D" },
@@ -165,6 +166,19 @@ function Loaded({
           </div>
         </div>
       </div>
+
+      {data.kind === "stock" &&
+        data.technicals &&
+        (() => {
+          const v = technicalVerdict(data.technicals, pattern);
+          const t = TONE_BOX[v.tone];
+          return (
+            <div className="mb-3 rounded-md border px-3 py-2.5" style={{ background: t.bg, borderColor: t.bd }}>
+              <div className={cn("text-[13px] font-medium", t.fg)}>{v.label}</div>
+              <div className="mt-1 text-[11px] leading-relaxed text-text-secondary">{v.note}</div>
+            </div>
+          );
+        })()}
 
       {pattern && (
         <div
