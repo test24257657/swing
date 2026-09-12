@@ -21,7 +21,9 @@ concurrency:
 jobs:
   build-artifacts:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # Phase 8 added per-symbol option-chain + financial-results fetches (each its own
+    # cookie-dance round trip) — bumped from 45 after those pushed real runs close to it.
+    timeout-minutes: 75
 
     steps:
       - uses: actions/checkout@v4

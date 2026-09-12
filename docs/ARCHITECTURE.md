@@ -3,7 +3,7 @@
 Indian equities (NSE) market dashboard.
 Free-tier hosting. ~10 concurrent users.
 
-**Current scope: Market Pulse + the Screener + Stock Detail + Watchlist + Sector Rotation + Indices + News.** Everything else is deliberately
+**Current scope: Market Pulse + the Screener + Stock Detail + Watchlist + Sector Rotation + Indices + News + Institutional & F&O.** Everything else is deliberately
 out of scope until each phase is live, correct and deployed.
 
 ---
@@ -389,7 +389,7 @@ is pure and moves across unchanged.
 | **P5** | Watchlist + alerts — table/card views, EOD-evaluated price alerts | done |
 | **P6** | Sector rotation (heatmap, ranked rail, simplified RRG) + Indices screen (list/chart, constituents drawer, comparison mode) | done |
 | **P7** | News — NSE announcements ingestion, Gemini impact classification, `/news` screen, stock-scoped announcements card | done |
-| P8 | Institutional / F&O | later |
+| **P8** | Institutional & F&O — bulk/block deals, participant OI + FII ratio, F&O buildup, option chain, market depth (best-effort), filing verification | done |
 | P9 | Hardening + backtest harness | later |
 
 **Do not skip the backtest** when the score eventually ships. If the composite

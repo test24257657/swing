@@ -33,6 +33,9 @@ _state: dict[str, dict] = {
     "sectors": {},
     "indices": {},
     "news": {},
+    "institutional": {},
+    "fno": {},
+    "depth": {},
 }
 
 
@@ -74,6 +77,9 @@ def load() -> None:
     _state["sectors"] = _read("sectors.json")
     _state["indices"] = _read("indices.json")
     _state["news"] = _read("news.json")
+    _state["institutional"] = _read("institutional.json")
+    _state["fno"] = _read_dir("fno")
+    _state["depth"] = _read_dir("depth")
 
     log.info(
         "artifacts loaded from %s — pulse=%s keys, charts=%s, fundamentals=%s, generated_at=%s",
@@ -121,6 +127,18 @@ def indices() -> dict:
 
 def news() -> dict:
     return _state["news"]
+
+
+def institutional() -> dict:
+    return _state["institutional"]
+
+
+def fno(slug: str) -> dict | None:
+    return _state["fno"].get(slug.upper())
+
+
+def depth(slug: str) -> dict | None:
+    return _state["depth"].get(slug.upper())
 
 
 def holidays() -> list[dict]:

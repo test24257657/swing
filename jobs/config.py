@@ -119,6 +119,22 @@ BROAD_INDICES = [
     "NIFTY BANK", "INDIA VIX",
 ]
 
+# --- institutional activity (bulk/block deals, participant OI) -----------------
+DEALS_MIN_VALUE_CR = 0  # NSE's own reporting threshold already filters this; no extra cut
+DEALS_REPEAT_WINDOW_SESSIONS = 30
+PARTICIPANT_OI_HISTORY_DAYS = 30  # FII long/short ratio trend line
+
+# --- F&O (buildup, option chain, depth) -----------------------------------------
+# Price/OI change thresholds below this are "flat", not a buildup signal either way.
+FNO_BUILDUP_FLAT_PCT = 0.5
+OPTION_CHAIN_STRIKES_EACH_SIDE = 10  # rows shown either side of the ATM strike
+
+# --- filing verification ---------------------------------------------------------
+# yfinance vs the official NSE XBRL filing, on these three figures only — the ones
+# with a taxonomy tag confirmed stable across filings. A wrong divergence flag is
+# worse than no flag, so anything that doesn't parse cleanly ships as "not available".
+FILING_VERIFY_TOLERANCE_PCT = 2.0
+
 # --- market session (IST) ----------------------------------------------------
 PRE_OPEN = "09:00"
 MARKET_OPEN = "09:15"

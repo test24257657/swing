@@ -16,9 +16,12 @@ from jobs import (
     alerts,
     breadth,
     charts,
+    depth,
     flows,
+    fno,
     fundamentals,
     indices,
+    institutional,
     movers,
     news,
     panel,
@@ -130,6 +133,30 @@ def main() -> int:
     news_payload, news_stats = news.build(list(dict.fromkeys(mover_symbols)))
     sources["news"] = news_stats
     writer.write("news.json", news_payload)
+
+    # 13. institutional activity — bulk/block deals (repeat-accumulation flag) +
+    #     participant-wise OI / FII derivatives ratio. Whole-market, not scoped to
+    #     the chart universe: the deals feed is inherently every listed symbol.
+    institutional_payload, institutional_stats = institutional.build(business_date)
+    sources["institutional"] = institutional_stats
+    writer.write("institutional.json", institutional_payload)
+
+    # 14. F&O — buildup + option chain, F&O-eligible symbols in the chart universe only
+    writer.clear_dir("fno")
+    fno_payloads, fno_stats = fno.build(business_date, [s for s in charted if s not in all_tile_indices])
+    sources["fno"] = fno_stats
+    for symbol, payload in fno_payloads.items():
+        writer.write(f"fno/{charts.slug(symbol)}.json", payload)
+    log.info("fno artifacts: %s", len(fno_payloads))
+
+    # 15. market depth — best-effort (see jobs/depth.py); same stock universe as
+    #     fundamentals.
+    writer.clear_dir("depth")
+    depth_payloads, depth_stats = depth.build([s for s in charted if s not in all_tile_indices])
+    sources["depth"] = depth_stats
+    for symbol, payload in depth_payloads.items():
+        writer.write(f"depth/{charts.slug(symbol)}.json", payload)
+    log.info("depth artifacts: %s", len(depth_payloads))
 
     writer.write_pulse(
         {
