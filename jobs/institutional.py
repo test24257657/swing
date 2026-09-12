@@ -158,21 +158,21 @@ def _build_participant_oi(business_date: date) -> dict | None:
     latest = history[-1]
     sections = []
     for name, long_key, short_key in _POI_SECTIONS:
-        parts = []
-        total_long = sum(latest[ct][long_key] for ct in _CLIENT_TYPES if latest.get(ct))
-        for ct in _CLIENT_TYPES:
-            if ct not in latest or total_long <= 0:
-                continue
-            long_v = latest[ct][long_key]
-            short_v = latest[ct][short_key]
-            pct = round(long_v / total_long * 100, 1)
-            parts.append(
-                {
-                    "who": ct,
-                    "pct": pct,
-                    "side": "net long" if long_v >= short_v else "net short",
-                }
-            )
+        # total_long == 0 is a real (if practically unheard-of) possibility on a session
+        # with no reported long OI in this instrument type — skip the section rather
+        # than divide by zero, but don't conflate it with a missing client-type row.
+        total_long = sum(latest[ct][long_key] for ct in _CLIENT_TYPES if ct in latest)
+        if total_long <= 0:
+            continue
+        parts = [
+            {
+                "who": ct,
+                "pct": round(latest[ct][long_key] / total_long * 100, 1),
+                "side": "net long" if latest[ct][long_key] >= latest[ct][short_key] else "net short",
+            }
+            for ct in _CLIENT_TYPES
+            if ct in latest
+        ]
         if parts:
             net_note = max(parts, key=lambda p: p["pct"])
             sections.append({"name": name, "parts": parts, "note": f"{net_note['who']} led · {net_note['pct']}% of long OI"})
@@ -180,10 +180,14 @@ def _build_participant_oi(business_date: date) -> dict | None:
     fii_ratio_series = []
     for row in history:
         fii = row.get("FII")
-        if not fii or not fii.get("Future Index Short"):
+        if fii is None or fii.get("Future Index Short") is None:
             continue
-        ratio = round(fii["Future Index Long"] / fii["Future Index Short"], 2)
-        fii_ratio_series.append({"date": row["date"], "ratio": ratio})
+        short = fii["Future Index Short"]
+        if short == 0:
+            # Fully covered — a real, notable reading, but a ratio isn't representable;
+            # drop this single point from the trend rather than divide by zero.
+            continue
+        fii_ratio_series.append({"date": row["date"], "ratio": round(fii["Future Index Long"] / short, 2)})
 
     return {
         "as_of": latest["date"],

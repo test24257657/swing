@@ -12,7 +12,7 @@ import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton } from "@/co
 import { useChart, useIndices, useSectors } from "@/lib/api/market-hooks";
 import type { IndexRow } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
-import { direction, pct, price } from "@/lib/format";
+import { change, direction, pct, price } from "@/lib/format";
 import { toSlug } from "@/lib/slug";
 
 function toneClass(v: number | null | undefined) {
@@ -198,9 +198,7 @@ export function IndicesClient() {
                         {canExpand && <span className="text-[11px] text-text-muted">{expanded === r.symbol ? "▾" : "▸"}</span>}
                       </div>
                       <span className="tnum text-right text-[13px]">{price(r.value)}</span>
-                      <span className={cn("tnum text-right text-[13px]", toneClass(r.change_pct))}>
-                        {r.change == null ? "—" : (r.change >= 0 ? "+" : "") + r.change.toLocaleString("en-IN")}
-                      </span>
+                      <span className={cn("tnum text-right text-[13px]", toneClass(r.change_pct))}>{change(r.change)}</span>
                       <span className={cn("tnum text-right text-[13px]", toneClass(r.change_pct))}>
                         {r.change_pct == null ? "—" : pct(r.change_pct)}
                       </span>

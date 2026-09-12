@@ -37,7 +37,7 @@ export function TopBar() {
       </button>
       <button
         aria-label="Search"
-        className="flex h-8 w-8 flex-none items-center justify-center rounded-md border border-[var(--color-border)] bg-surface text-[var(--color-text-muted)] md:hidden"
+        className="flex h-10 w-10 flex-none items-center justify-center rounded-md border border-[var(--color-border)] bg-surface text-[var(--color-text-muted)] md:hidden"
       >
         <Search size={14} />
       </button>
@@ -66,7 +66,7 @@ export function TopBar() {
           onClick={logout}
           title="Sign out"
           aria-label="Sign out"
-          className="flex h-7 w-7 items-center justify-center rounded-md text-text-muted hover:bg-surface-2 hover:text-down-text"
+          className="flex h-10 w-10 items-center justify-center rounded-md text-text-muted hover:bg-surface-2 hover:text-down-text"
         >
           <LogOut size={14} />
         </button>

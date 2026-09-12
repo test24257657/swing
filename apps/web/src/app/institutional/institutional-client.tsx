@@ -8,7 +8,7 @@ import { Button, Card, Chip, DataSourceFooter, EmptyState, Segmented, Skeleton }
 import { useInstitutional } from "@/lib/api/market-hooks";
 import type { DealRow } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
-import { price } from "@/lib/format";
+import { count, inrCompact, price } from "@/lib/format";
 import { toSlug } from "@/lib/slug";
 
 const DEAL_KINDS = [
@@ -23,10 +23,6 @@ const PARTICIPANT_COLOR: Record<string, string> = {
   Pro: "#D97706",
   Client: "#8B8B93",
 };
-
-function crValue(v: number): string {
-  return `₹${(v / 1e7).toLocaleString("en-IN", { maximumFractionDigits: 1 })} cr`;
-}
 
 export function InstitutionalClient() {
   const q = useInstitutional();
@@ -73,7 +69,7 @@ export function InstitutionalClient() {
 
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
         <SummaryCard label="Deals today" value={String(d.deal_summary.deals_today)} sub={`${d.deal_summary.bulk_count} bulk · ${d.deal_summary.block_count} block`} />
-        <SummaryCard label="Total value" value={crValue(d.deal_summary.total_value)} sub="disclosed today" />
+        <SummaryCard label="Total value" value={inrCompact(d.deal_summary.total_value)} sub="disclosed today" />
         <SummaryCard label="Repeat accumulation" value={String(d.deal_summary.repeat_count)} sub="same client, last 30 sessions" />
       </div>
 
@@ -202,9 +198,9 @@ function DealRowView({ deal }: { deal: DealRow }) {
         {deal.side}
       </span>
       <span className="text-[11px] text-text-secondary">{deal.kind}</span>
-      <span className="tnum text-right text-[13px]">{deal.qty.toLocaleString("en-IN")}</span>
+      <span className="tnum text-right text-[13px]">{count(deal.qty)}</span>
       <span className="tnum text-right text-[13px] text-text-secondary">{price(deal.price)}</span>
-      <span className="tnum text-right text-[13px] font-medium">{crValue(deal.value)}</span>
+      <span className="tnum text-right text-[13px] font-medium">{inrCompact(deal.value)}</span>
     </div>
   );
 }

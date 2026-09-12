@@ -16,7 +16,7 @@ import type {
   Technicals,
 } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
-import { direction, pct, price } from "@/lib/format";
+import { change, count, direction, pct, price } from "@/lib/format";
 import { safeGridCols } from "@/lib/grid";
 import { IMPACT_META } from "@/lib/news-impact";
 import type { Tone } from "@/lib/tone";
@@ -258,7 +258,7 @@ function QuarterCell({ value, qoq }: { value: number | null; qoq: number | null 
   if (value == null) return <div className="text-right text-[12px] text-text-faint">—</div>;
   return (
     <div className="text-right">
-      <div className="tnum text-[12px]">{value.toLocaleString("en-IN")}</div>
+      <div className="tnum text-[12px]">{count(value)}</div>
       {qoq != null && <div className={cn("tnum text-[10px]", toneClass(qoq))}>{pct(qoq)}</div>}
     </div>
   );
@@ -398,9 +398,9 @@ export function FnoPositioningCard({ data }: { data: FnoData }) {
         <Chip tone={meta.tone}>{meta.text}</Chip>
       </div>
       <div className="mt-3 grid grid-cols-3 gap-2">
-        <Stat label="Price change" value={`${b.price_chg_pct >= 0 ? "+" : ""}${b.price_chg_pct}%`} />
-        <Stat label="OI change" value={`${b.oi_chg_pct >= 0 ? "+" : ""}${b.oi_chg_pct}%`} />
-        <Stat label="Open interest" value={b.open_interest.toLocaleString("en-IN")} />
+        <Stat label="Price change" value={pct(b.price_chg_pct)} />
+        <Stat label="OI change" value={pct(b.oi_chg_pct)} />
+        <Stat label="Open interest" value={count(b.open_interest)} />
       </div>
       <div className={cn("mt-2.5 text-[11px] leading-relaxed", box)}>{b.note}</div>
       <div className="mt-2.5 font-mono text-[11px] text-text-faint">source: NSE F&amp;O bhavcopy · {b.expiry} expiry</div>
@@ -426,8 +426,8 @@ export function OptionChainCard({ data }: { data: FnoData }) {
         </div>
         <div className="flex gap-4 text-[11px]">
           <Stat label="PCR" value={oc.pcr != null ? oc.pcr.toFixed(2) : "—"} />
-          <Stat label="Total call OI" value={oc.total_call_oi.toLocaleString("en-IN")} />
-          <Stat label="Total put OI" value={oc.total_put_oi.toLocaleString("en-IN")} />
+          <Stat label="Total call OI" value={count(oc.total_call_oi)} />
+          <Stat label="Total put OI" value={count(oc.total_put_oi)} />
         </div>
       </div>
       <div className="mt-3 overflow-x-auto">
@@ -445,12 +445,9 @@ export function OptionChainCard({ data }: { data: FnoData }) {
                   className="absolute right-0 top-0 h-full rounded-sm bg-[rgba(37,99,235,0.14)]"
                   style={{ width: `${(r.call_oi / maxCallOi) * 100}%` }}
                 />
-                <span className="tnum relative text-[12px]">{r.call_oi.toLocaleString("en-IN")}</span>
+                <span className="tnum relative text-[12px]">{count(r.call_oi)}</span>
               </div>
-              <span className={cn("tnum text-right text-[11px]", toneClass(r.call_oi_chg))}>
-                {r.call_oi_chg >= 0 ? "+" : ""}
-                {r.call_oi_chg.toLocaleString("en-IN")}
-              </span>
+              <span className={cn("tnum text-right text-[11px]", toneClass(r.call_oi_chg))}>{change(r.call_oi_chg, 0)}</span>
               <span
                 className={cn(
                   "tnum text-center text-[12px] font-medium",
@@ -464,7 +461,7 @@ export function OptionChainCard({ data }: { data: FnoData }) {
                   className="absolute left-0 top-0 h-full rounded-sm bg-[rgba(220,38,38,0.12)]"
                   style={{ width: `${(r.put_oi / maxPutOi) * 100}%` }}
                 />
-                <span className="tnum relative text-[12px]">{r.put_oi.toLocaleString("en-IN")}</span>
+                <span className="tnum relative text-[12px]">{count(r.put_oi)}</span>
               </div>
             </div>
           ))}
@@ -555,14 +552,11 @@ export function FilingVerificationCard({ data }: { data: FundamentalsData }) {
       {v.checks.map((c) => (
         <div key={c.label} className="grid grid-cols-[1.1fr_1fr_1fr_28px] items-center gap-2 border-b border-border py-2 last:border-0">
           <span className="text-[13px] text-text-secondary">{c.label}</span>
-          <span className="tnum text-right text-[13px]">{c.yfinance ?? "—"}</span>
+          <span className="tnum text-right text-[13px]">{count(c.yfinance)}</span>
           <div className="text-right">
-            <div className="tnum text-[13px]">{c.nse_filing ?? "—"}</div>
+            <div className="tnum text-[13px]">{count(c.nse_filing)}</div>
             {c.diff_pct != null && (
-              <div className={cn("text-[11px]", c.divergent ? "text-down-text" : "text-text-muted")}>
-                {c.diff_pct >= 0 ? "+" : ""}
-                {c.diff_pct}%
-              </div>
+              <div className={cn("tnum text-[11px]", c.divergent ? "text-down-text" : "text-text-muted")}>{pct(c.diff_pct)}</div>
             )}
           </div>
           <div

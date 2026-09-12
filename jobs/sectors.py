@@ -72,7 +72,7 @@ def _constituent_rows(members: list[str], panel: pd.DataFrame, names: dict[str, 
         close, prev = bar.get("close"), bar.get("prev_close")
         if pd.isna(close):
             continue
-        chg = round((float(close) / float(prev) - 1.0) * 100.0, 2) if prev is not None and pd.notna(prev) and prev else None
+        chg = round((float(close) / float(prev) - 1.0) * 100.0, 2) if prev is not None and pd.notna(prev) and prev != 0 else None
         if chg is not None and chg > 0:
             advancers += 1
         rows.append({"symbol": sym, "name": names.get(sym, sym), "ltp": round(float(close), 2), "change_pct": chg})

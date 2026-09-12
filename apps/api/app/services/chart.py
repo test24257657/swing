@@ -4,7 +4,7 @@ import pandas as pd
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.models import DailyBar, DailyIndicator, PatternSignal, Symbol
+from app.models import DailyBar, DailyIndicator, Symbol
 from app.patterns.support_resistance import detect_sr
 
 TF_DAYS = {"1M": 21, "3M": 63, "6M": 126, "1Y": 252, "3Y": 756}
@@ -63,32 +63,12 @@ def symbol_chart(db: Session, nse_symbol: str, tf: str = "6M") -> dict | None:
             if v is not None:
                 mas[key].append({"time": t, "value": round(float(v), 2)})
 
-    pat_rows = (
-        db.execute(
-            select(PatternSignal)
-            .where(PatternSignal.symbol_id == sym.id)
-            .order_by(PatternSignal.date.desc())
-            .limit(6)
-        )
-        .scalars()
-        .all()
-    )
-    latest_date = pat_rows[0].date if pat_rows else None
-    patterns = [
-        {
-            "code": p.pattern_code,
-            "stage": p.stage,
-            "confidence": float(p.confidence),
-            "pivot": _f(p.pivot_price),
-            "stop": _f(p.stop_suggestion),
-            "target": _f(p.target_suggestion),
-            "breakout_date": p.breakout_date.isoformat() if p.breakout_date else None,
-            "base_start_date": p.base_start_date.isoformat() if p.base_start_date else None,
-            "meta": p.meta or {},
-        }
-        for p in pat_rows
-        if p.date == latest_date
-    ]
+    # PatternSignal was dropped from app.models with the Plan A migration (patterns are
+    # now computed by jobs/screener.py and served from the out/screener.json artifact,
+    # not this Postgres-backed path) — this endpoint is parked (see main.py) and never
+    # wired up, so patterns just ships empty rather than querying a table that no
+    # longer exists.
+    patterns: list[dict] = []
 
     return {
         "symbol": sym.nse_symbol,
@@ -110,7 +90,3 @@ def symbol_chart(db: Session, nse_symbol: str, tf: str = "6M") -> dict | None:
         "patterns": patterns,
         "as_of": view.index[-1].date().isoformat(),
     }
-
-
-def _f(v) -> float | None:
-    return float(v) if v is not None else None

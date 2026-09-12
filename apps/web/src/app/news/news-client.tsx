@@ -12,10 +12,10 @@ import { cn } from "@/lib/cn";
 import { IMPACT_META, IMPACT_ORDER } from "@/lib/news-impact";
 
 const RANGES = [
-  { key: "1", label: "Today" },
-  { key: "3", label: "3D" },
-  { key: "7", label: "1W" },
-  { key: "9999", label: "All" },
+  { key: "1", label: "Today", phrase: "today" },
+  { key: "3", label: "3D", phrase: "the last 3 days" },
+  { key: "7", label: "1W", phrase: "the last week" },
+  { key: "9999", label: "All", phrase: "the full window" },
 ] as const;
 
 function daysAgo(dateStr: string): number {
@@ -110,7 +110,7 @@ export function NewsClient() {
     <Screen>
       <ScreenHeader
         title="News"
-        subtitle={`Exchange filings classified by likely swing impact · ${d.items.length} in the last 3 days`}
+        subtitle={`Exchange filings classified by likely swing impact · ${filtered.length} in ${RANGES.find((r) => r.key === range)!.phrase}`}
       />
 
       <div className="grid grid-cols-2 gap-2 sm:grid-cols-5">
