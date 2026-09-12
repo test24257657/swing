@@ -87,6 +87,28 @@ RRG_MOMENTUM_SESSIONS = 50  # ~10 weeks
 RRG_TAIL_POINTS = 6
 RRG_TAIL_STEP_SESSIONS = 5  # one point per week
 
+# --- news --------------------------------------------------------------------
+NEWS_LOOKBACK_DAYS = 3
+# Scheduling/procedural filings that are never a swing-trading signal — everything
+# else from the NSE feed gets kept. An allowlist would be shorter but brittler: NSE's
+# own category list changes, and a new category defaulting to "kept" degrades to noise
+# in the feed rather than silently dropping something that might matter.
+NEWS_EXCLUDE_CATEGORIES = {
+    "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "General Updates",
+    "Shareholders meeting",
+    "Copy of Newspaper Publication",
+    "Updates",
+    "Investor Presentation",
+    "Trading Window",
+    "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "Corrigendum",
+    "Press Release",
+}
+NEWS_HEADLINE_MAX_CHARS = 280
+GEMINI_MODEL = "gemini-3.6-flash"
+GEMINI_BATCH_SIZE = 20  # announcements per classification request
+
 # --- indices screen ------------------------------------------------------------
 # Broad-market indices shown alongside the sector indices above (sectors are their
 # own category there). Constituents drawer only works for indices with a

@@ -51,6 +51,9 @@ jobs:
           # market data, which stays entirely in out/*.json. Missing = watchlist charts
           # and alert evaluation are skipped, everything else still runs.
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          # News classification. Missing = news.json still writes, every item just
+          # ships as "neutral" with no AI summary (jobs/news.py degrades, never fails).
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python -m jobs.run_nightly
 
       - name: Show what was produced

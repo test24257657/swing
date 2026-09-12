@@ -32,6 +32,7 @@ _state: dict[str, dict] = {
     "quotes": {},
     "sectors": {},
     "indices": {},
+    "news": {},
 }
 
 
@@ -72,6 +73,7 @@ def load() -> None:
     _state["quotes"] = _read("quotes.json")
     _state["sectors"] = _read("sectors.json")
     _state["indices"] = _read("indices.json")
+    _state["news"] = _read("news.json")
 
     log.info(
         "artifacts loaded from %s — pulse=%s keys, charts=%s, fundamentals=%s, generated_at=%s",
@@ -115,6 +117,10 @@ def sectors() -> dict:
 
 def indices() -> dict:
     return _state["indices"]
+
+
+def news() -> dict:
+    return _state["news"]
 
 
 def holidays() -> list[dict]:

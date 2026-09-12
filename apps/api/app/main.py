@@ -10,7 +10,7 @@ from app import store
 from app.auth.deps import current_user
 from app.bootstrap import bootstrap_db
 from app.config import settings
-from app.routers import auth, health, indices, pulse, screener, sectors, watchlist
+from app.routers import auth, health, indices, news, pulse, screener, sectors, watchlist
 
 logging.basicConfig(level=settings.log_level)
 log = logging.getLogger("swing.api")
@@ -54,6 +54,7 @@ app.include_router(screener.router, dependencies=protected)
 app.include_router(watchlist.router, dependencies=protected)
 app.include_router(sectors.router, dependencies=protected)
 app.include_router(indices.router, dependencies=protected)
+app.include_router(news.router, dependencies=protected)
 
 # ---------------------------------------------------------------------------
 # Parked until their phase (see docs/ARCHITECTURE.md §13). These routers still

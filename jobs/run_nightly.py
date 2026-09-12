@@ -20,6 +20,7 @@ from jobs import (
     fundamentals,
     indices,
     movers,
+    news,
     panel,
     quotes,
     screener,
@@ -123,6 +124,12 @@ def main() -> int:
     # 11. alert evaluation — nightly, against today's high/low (no live intraday feed)
     alert_stats = alerts.evaluate(df, business_date)
     sources["alerts"] = alert_stats
+
+    # 12. news — corporate announcements for the same "interesting" symbol universe as
+    #     the chart artifacts, filtered + AI-classified
+    news_payload, news_stats = news.build(list(dict.fromkeys(mover_symbols)))
+    sources["news"] = news_stats
+    writer.write("news.json", news_payload)
 
     writer.write_pulse(
         {
