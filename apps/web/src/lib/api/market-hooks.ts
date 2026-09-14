@@ -14,6 +14,7 @@ import type {
   MarketPulse,
   MarketStatus,
   NewsData,
+  ResultsCalendarData,
   ScreenerData,
   SearchableSymbol,
   SectorsData,
@@ -159,5 +160,15 @@ export function useSymbols() {
     queryKey: ["symbols"],
     queryFn: () => apiGet<Envelope<SearchableSymbol[]>>("/symbols"),
     staleTime: 10 * 60_000,
+  });
+}
+
+/** Quarterly result dates, whole market, ±30 days — upcoming board meetings plus
+ * AI-judged good results only. */
+export function useResultsCalendar() {
+  return useQuery({
+    queryKey: ["results-calendar"],
+    queryFn: () => apiGet<Envelope<ResultsCalendarData>>("/results-calendar"),
+    staleTime: 5 * 60_000,
   });
 }

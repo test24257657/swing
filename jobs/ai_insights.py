@@ -37,7 +37,14 @@ VERDICTS = ("bullish", "neutral", "bearish")
 
 def _fundamentals_digest(symbol: str, client) -> str | None:
     rows = financial_results(symbol, client=client)
-    candidates = [r for r in rows if r.get("consolidated") == "Consolidated" and r.get("period") == "Quarterly" and r.get("xbrl")]
+    candidates = [
+        r
+        for r in rows
+        if r.get("consolidated") == "Consolidated"
+        and r.get("period") == "Quarterly"
+        and r.get("xbrl")
+        and r["xbrl"] != "-"  # NSE's own placeholder for "no XBRL attached", not a missing field
+    ]
     if not candidates:
         return None
     latest = candidates[0]  # financial_results() returns newest first

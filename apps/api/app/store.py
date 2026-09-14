@@ -38,6 +38,7 @@ _state: dict[str, dict] = {
     "depth": {},
     "ai_summary": {},
     "weekly_outlook": {},
+    "results_calendar": {},
 }
 
 
@@ -84,6 +85,7 @@ def load() -> None:
     _state["depth"] = _read_dir("depth")
     _state["ai_summary"] = _read_dir("ai_summary")
     _state["weekly_outlook"] = _read("weekly_outlook.json")
+    _state["results_calendar"] = _read("results_calendar.json")
 
     log.info(
         "artifacts loaded from %s — pulse=%s keys, charts=%s, fundamentals=%s, generated_at=%s",
@@ -156,6 +158,10 @@ def ai_summary(slug: str) -> dict | None:
 
 def weekly_outlook() -> dict:
     return _state["weekly_outlook"]
+
+
+def results_calendar() -> dict:
+    return _state["results_calendar"]
 
 
 def holidays() -> list[dict]:

@@ -127,6 +127,11 @@ AI_INSIGHT_MIN_ROWS = 20  # same floor as jobs/charts.py::technicals() — too l
 MEM0_OUTLOOK_USER_ID = "swing-terminal-weekly-outlook"
 WEEKLY_OUTLOOK_WEEKDAY = 4  # Friday (0=Mon) — one call a week, after the week's close
 
+# --- results calendar (nightly) --------------------------------------------------
+RESULTS_CALENDAR_PAST_DAYS = 30
+RESULTS_CALENDAR_FUTURE_DAYS = 30
+RESULTS_CALENDAR_BATCH_SIZE = 20  # already-filed results judged per Gemini request
+
 # --- indices screen ------------------------------------------------------------
 # Broad-market indices shown alongside the sector indices above (sectors are their
 # own category there). Constituents drawer only works for indices with a

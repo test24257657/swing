@@ -27,7 +27,12 @@ def _pick_filing(rows: list[dict], period_end: str) -> dict | None:
     as the yfinance quarter we're comparing against — not just 'the latest filing',
     which could be a different quarter than the one on screen."""
     candidates = [
-        r for r in rows if r.get("consolidated") == "Consolidated" and r.get("period") == "Quarterly" and r.get("xbrl")
+        r
+        for r in rows
+        if r.get("consolidated") == "Consolidated"
+        and r.get("period") == "Quarterly"
+        and r.get("xbrl")
+        and r["xbrl"] != "-"  # NSE's own placeholder for "no XBRL attached", not a missing field
     ]
     for r in candidates:
         to_date = r.get("toDate")  # 'DD-Mon-YYYY'

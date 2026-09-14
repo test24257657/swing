@@ -492,6 +492,32 @@ def market_depth(symbol: str) -> dict | None:
     }
 
 
+# --- board meetings (for the results calendar) ---------------------------------
+
+
+@safe(default=list, label="board meetings")
+def board_meetings(start: date, end: date) -> list[dict]:
+    """Every scheduled board meeting in the given window, whole market — the
+    'Financial Results' purpose ones are the results calendar's upcoming side.
+    Same cookie-dance pattern as announcements()/fii_dii()."""
+    headers = {
+        "User-Agent": _UA,
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://www.nseindia.com/companies-listing/corporate-filings-board-meetings",
+    }
+    params = {
+        "index": "equities",
+        "from_date": start.strftime("%d-%m-%Y"),
+        "to_date": end.strftime("%d-%m-%Y"),
+    }
+    with httpx.Client(headers=headers, timeout=HTTP_TIMEOUT, follow_redirects=True) as cl:
+        cl.get("https://www.nseindia.com")
+        r = cl.get("https://www.nseindia.com/api/corporate-board-meetings", params=params)
+        r.raise_for_status()
+        rows = r.json()
+    return rows if isinstance(rows, list) else []
+
+
 # --- corporate financial results (for filing verification) ---------------------
 
 
