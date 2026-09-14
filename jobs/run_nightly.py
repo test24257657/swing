@@ -161,14 +161,17 @@ def main() -> int:
         writer.write(f"depth/{charts.slug(symbol)}.json", payload)
     log.info("depth artifacts: %s", len(depth_payloads))
 
-    # 16. AI stock narrative — nightly, whole traded market (not just the
-    #     fundamentals/F&O "interesting universe"). Technicals come straight off the
-    #     in-memory panel and fundamentals from NSE's own XBRL filings (never
-    #     yfinance, never guessed) — see jobs/ai_insights.py. A second opinion
-    #     alongside the rule-based technical verdict, not a replacement.
-    traded_symbols = df[df["date"] == df["date"].max()]["symbol"].unique().tolist()
+    # 16. AI stock narrative — nightly, same "interesting universe" as fundamentals/
+    #     F&O (movers/screener/watchlist), not the whole ~2,900-stock traded market.
+    #     Whole-market was tried and reverted: it pushed the nightly run to ~60-90
+    #     min (dominated by ~2,900 sequential NSE filing lookups), and fixing that
+    #     properly needs real concurrency — a bigger, riskier change than this scope
+    #     is worth. Technicals come straight off the in-memory panel and fundamentals
+    #     from NSE's own XBRL filings (never yfinance, never guessed) — see
+    #     jobs/ai_insights.py. A second opinion alongside the rule-based technical
+    #     verdict, not a replacement.
     writer.clear_dir("ai_summary")
-    ai_payloads, ai_stats = ai_insights.build(df, traded_symbols, screener_payload, news_payload)
+    ai_payloads, ai_stats = ai_insights.build(df, [s for s in charted if s not in all_tile_indices], screener_payload, news_payload)
     sources["ai_insights"] = ai_stats
     for symbol, payload in ai_payloads.items():
         writer.write(f"ai_summary/{charts.slug(symbol)}.json", payload)
