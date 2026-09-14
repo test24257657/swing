@@ -397,3 +397,17 @@ export interface SearchableSymbol {
   ltp: number | null;
   change_pct: number | null;
 }
+
+export interface ResultsCalendarEntry {
+  symbol: string;
+  name: string;
+  date: string;
+  status: "upcoming" | "good";
+  rationale?: string;
+}
+
+export interface ResultsCalendarData {
+  as_of: string;
+  window: { from: string; to: string };
+  entries: ResultsCalendarEntry[];
+}

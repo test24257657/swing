@@ -27,6 +27,7 @@ from jobs import (
     news,
     panel,
     quotes,
+    results_calendar,
     screener,
     sectors,
     tiles,
@@ -182,6 +183,12 @@ def main() -> int:
         sources["weekly_outlook"] = outlook_stats
         if outlook_payload is not None:
             writer.write("weekly_outlook.json", outlook_payload)
+
+    # 18. results calendar — whole market, ±30 days. Upcoming board meetings shown
+    #     unconditionally; already-filed results only shown if AI judges them good.
+    calendar_payload, calendar_stats = results_calendar.build(business_date)
+    sources["results_calendar"] = calendar_stats
+    writer.write("results_calendar.json", calendar_payload)
 
     writer.write_pulse(
         {

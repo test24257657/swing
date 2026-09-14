@@ -33,3 +33,18 @@ def weekly_outlook() -> Envelope[dict]:
             detail="No weekly outlook yet — generated on the first Friday nightly run after this shipped.",
         )
     return envelope(data, Meta(**store.meta()))
+
+
+@router.get("/results-calendar", response_model=Envelope[dict])
+def results_calendar() -> Envelope[dict]:
+    """Quarterly result dates, whole market, ±30 days. Upcoming board meetings are
+    shown unconditionally; already-filed results only appear if AI judged them good
+    from the real filed figures — a bad or not-yet-filed result is simply absent,
+    never guessed at or flagged as bad."""
+    data = store.results_calendar()
+    if not data:
+        raise HTTPException(
+            status_code=503,
+            detail="Artifacts not loaded yet. Run `python -m jobs.run_nightly`.",
+        )
+    return envelope(data, Meta(**store.meta()))
