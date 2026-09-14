@@ -8,14 +8,15 @@ import { useMemo, useState } from "react";
 import { PriceChart } from "@/components/charts/price-chart";
 import { Screen } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
-import { useChart, useDepth, useFno, useFundamentals, useNews, useScreener } from "@/lib/api/market-hooks";
-import type { ChartArtifact, ChartBar, DepthData, FnoData, FundamentalsData, NewsItem, PatternMatch } from "@/lib/api/market-types";
+import { useAiSummary, useChart, useDepth, useFno, useFundamentals, useNews, useScreener } from "@/lib/api/market-hooks";
+import type { AiSummaryData, ChartArtifact, ChartBar, DepthData, FnoData, FundamentalsData, NewsItem, PatternMatch } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { change, direction, pct, price } from "@/lib/format";
 import { PATTERNS } from "@/lib/patterns";
 import { TONE_BOX } from "@/lib/tone";
 
 import {
+  AiSummaryCard,
   DeliveryTrend,
   FilingVerificationCard,
   FnoPositioningCard,
@@ -86,6 +87,7 @@ export function ChartClient({ slug }: { slug: string }) {
   const news = useNews();
   const fno = useFno(slug);
   const depth = useDepth(slug);
+  const aiSummary = useAiSummary(slug);
   const [timeframe, setTimeframe] = useState<Timeframe>("D");
   const searchParams = useSearchParams();
 
@@ -134,6 +136,7 @@ export function ChartClient({ slug }: { slug: string }) {
           news={news.data?.data.items.filter((n) => n.symbol === view.symbol) ?? []}
           fno={fno.data?.data ?? null}
           depth={depth.data?.data ?? null}
+          aiSummary={aiSummary.data?.data ?? null}
         />
       ) : null}
     </Screen>
@@ -151,6 +154,7 @@ function Loaded({
   news,
   fno,
   depth,
+  aiSummary,
 }: {
   data: ChartArtifact;
   timeframe: Timeframe;
@@ -162,6 +166,7 @@ function Loaded({
   news: NewsItem[];
   fno: FnoData | null;
   depth: DepthData | null;
+  aiSummary: AiSummaryData | null;
 }) {
   const bars = data.bars;
   const last = bars.at(-1);
@@ -268,6 +273,11 @@ function Loaded({
 
       {data.kind === "stock" && data.technicals && (
         <div className="mt-2 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          {aiSummary && (
+            <div className="sm:col-span-2 lg:col-span-3">
+              <AiSummaryCard data={aiSummary} />
+            </div>
+          )}
           <TechnicalSnapshot technicals={data.technicals} asOf={data.as_of} />
           <DeliveryTrend bars={bars} />
           <PositionSizing lastClose={lastClose} atrPct={data.technicals.atr_pct} pattern={pattern} />

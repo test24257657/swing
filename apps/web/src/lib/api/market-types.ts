@@ -301,11 +301,18 @@ export interface ParticipantOi {
   fii_index_futures_ratio: { date: string; ratio: number }[];
 }
 
+export interface MoneyFlowPick {
+  symbol: string;
+  rationale: string;
+  conviction: "high" | "medium";
+}
+
 export interface InstitutionalData {
   as_of: string;
   deal_summary: DealSummary;
   deals: DealRow[];
   participant_oi: ParticipantOi | null;
+  ai_money_flow: MoneyFlowPick[] | null;
 }
 
 export interface FnoBuildup {
@@ -354,4 +361,39 @@ export interface DepthData {
   total_buy_qty: number | null;
   total_sell_qty: number | null;
   vwap: number | null;
+}
+
+export type AiVerdict = "bullish" | "neutral" | "bearish";
+
+export interface AiSummaryData {
+  symbol: string;
+  verdict: AiVerdict;
+  summary: string;
+}
+
+export interface WeeklyMarketView {
+  direction: AiVerdict;
+  rationale: string;
+}
+
+export interface WeeklySectorPick {
+  name: string;
+  rationale: string;
+}
+
+export interface WeeklyOutlookData {
+  week_of: string;
+  generated_at: string;
+  market_view: WeeklyMarketView | null;
+  sector_pick: WeeklySectorPick | null;
+  confidence: "high" | "medium" | "low" | null;
+  last_week_review: string | null;
+  memory_used: boolean;
+}
+
+export interface SearchableSymbol {
+  symbol: string;
+  name: string;
+  ltp: number | null;
+  change_pct: number | null;
 }

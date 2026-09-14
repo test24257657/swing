@@ -5,6 +5,7 @@ the run.
 
 from __future__ import annotations
 
+import json
 import logging
 from datetime import UTC, date, datetime, timedelta
 from io import StringIO
@@ -494,38 +495,71 @@ def market_depth(symbol: str) -> dict | None:
 # --- corporate financial results (for filing verification) ---------------------
 
 
-@safe(default=list, label="corporate financial results")
-def financial_results(symbol: str) -> list[dict]:
-    """Every quarterly/annual result filing disclosed for one symbol, newest first —
-    each row carries a direct link to the XBRL attachment (jobs/filing_verify.py
-    parses it for the handful of tags we verify)."""
+def financial_results_client() -> httpx.Client:
+    """One shared, cookie-warmed session for a whole batch of financial_results() /
+    xbrl_financials() calls — reused across ~thousands of symbols in the full-market
+    AI-insight run instead of a fresh cookie-dance per symbol."""
     headers = {
         "User-Agent": _UA,
         "Accept": "application/json, text/plain, */*",
         "Referer": "https://www.nseindia.com/companies-listing/corporate-filings-financial-results",
     }
-    with httpx.Client(headers=headers, timeout=HTTP_TIMEOUT, follow_redirects=True) as cl:
-        cl.get("https://www.nseindia.com")
+    cl = httpx.Client(headers=headers, timeout=HTTP_TIMEOUT, follow_redirects=True)
+    cl.get("https://www.nseindia.com")
+    return cl
+
+
+@safe(default=list, label="corporate financial results")
+def financial_results(symbol: str, client: httpx.Client | None = None) -> list[dict]:
+    """Every quarterly/annual result filing disclosed for one symbol, newest first —
+    each row carries a direct link to the XBRL attachment. Cached per symbol per day:
+    a company's filing list changes at most a few times a quarter, so a same-day
+    rerun never re-hits NSE. Pass a shared `client` (financial_results_client()) when
+    calling this for many symbols in one run."""
+    cache = raw_path("financial_results", f"{symbol}-{date.today().isoformat()}", suffix=".json")  # noqa: DTZ011
+    if cache.exists() and cache.stat().st_size > 0:
+        return json.loads(cache.read_text())
+
+    owns_client = client is None
+    cl = client or financial_results_client()
+    try:
         r = cl.get(
             "https://www.nseindia.com/api/corporates-financial-results",
             params={"index": "equities", "symbol": symbol, "period": "Quarterly"},
         )
         r.raise_for_status()
         rows = r.json()
-    return rows if isinstance(rows, list) else []
+    finally:
+        if owns_client:
+            cl.close()
+
+    rows = rows if isinstance(rows, list) else []
+    cache.write_text(json.dumps(rows))
+    return rows
 
 
 @safe(default=None, label="XBRL financial result")
-def xbrl_financials(url: str) -> dict | None:
+def xbrl_financials(url: str, client: httpx.Client | None = None) -> dict | None:
     """Revenue / net profit / basic EPS for the quarter, parsed out of one XBRL filing.
     NSE's own in-bse-fin taxonomy tags — 'OneD' is the standalone-quarter context on
-    every filing seen so far, not a company-specific quirk."""
+    every filing seen so far, not a company-specific quirk. Cached by URL forever —
+    a filed XBRL document never changes."""
     import re
 
-    with httpx.Client(headers={"User-Agent": _UA}, timeout=HTTP_TIMEOUT, follow_redirects=True) as cl:
-        r = cl.get(url)
-        r.raise_for_status()
-        text = r.text
+    cache = raw_path("xbrl", url, suffix=".xml")
+    if cache.exists() and cache.stat().st_size > 0:
+        text = cache.read_text()
+    else:
+        owns_client = client is None
+        cl = client or httpx.Client(headers={"User-Agent": _UA}, timeout=HTTP_TIMEOUT, follow_redirects=True)
+        try:
+            r = cl.get(url)
+            r.raise_for_status()
+            text = r.text
+        finally:
+            if owns_client:
+                cl.close()
+        cache.write_text(text)
 
     def tag(name: str) -> float | None:
         m = re.search(rf'<in-bse-fin:{name}[^>]*contextRef="OneD"[^>]*>([^<]*)</', text)

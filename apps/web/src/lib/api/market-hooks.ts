@@ -4,6 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 
 import { apiGet } from "./client";
 import type {
+  AiSummaryData,
   ChartArtifact,
   DepthData,
   FnoData,
@@ -14,7 +15,9 @@ import type {
   MarketStatus,
   NewsData,
   ScreenerData,
+  SearchableSymbol,
   SectorsData,
+  WeeklyOutlookData,
 } from "./market-types";
 import type { Envelope } from "./types";
 
@@ -123,5 +126,38 @@ export function useDepth(slug: string) {
     staleTime: 5 * 60_000,
     enabled: Boolean(slug),
     retry: false,
+  });
+}
+
+/** AI-written read for one stock — technicals + pattern + fundamentals + news
+ * synthesized into a paragraph. A 404 just means the symbol wasn't in scope, or
+ * Gemini was unavailable that night. */
+export function useAiSummary(slug: string) {
+  return useQuery({
+    queryKey: ["ai-summary", slug],
+    queryFn: () => apiGet<Envelope<AiSummaryData>>(`/ai-summary/${slug}`),
+    staleTime: 5 * 60_000,
+    enabled: Boolean(slug),
+    retry: false,
+  });
+}
+
+/** The AI's weekly market-wide call — refreshed Fridays only. */
+export function useWeeklyOutlook() {
+  return useQuery({
+    queryKey: ["weekly-outlook"],
+    queryFn: () => apiGet<Envelope<WeeklyOutlookData>>("/weekly-outlook"),
+    staleTime: 5 * 60_000,
+    retry: false,
+  });
+}
+
+/** Every actively-traded symbol, fetched once and searched client-side — backs the
+ * global search box (⌘K). */
+export function useSymbols() {
+  return useQuery({
+    queryKey: ["symbols"],
+    queryFn: () => apiGet<Envelope<SearchableSymbol[]>>("/symbols"),
+    staleTime: 10 * 60_000,
   });
 }

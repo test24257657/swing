@@ -48,3 +48,13 @@ def fundamentals(slug: str) -> Envelope[dict]:
     if not data:
         raise HTTPException(status_code=404, detail=f"No fundamentals for {slug!r}.")
     return envelope(data, Meta(**store.meta()))
+
+
+@router.get("/symbols", response_model=Envelope[list[dict]])
+def symbols() -> Envelope[list[dict]]:
+    """Every actively-traded symbol — name, LTP, %chg — for the global search box.
+    Fetched once client-side and searched in the browser (a few thousand rows,
+    a couple hundred KB), not a server-side search endpoint."""
+    quotes = store.quotes()
+    rows = [{"symbol": sym, **q} for sym, q in quotes.items()]
+    return envelope(rows, Meta(**store.meta()))

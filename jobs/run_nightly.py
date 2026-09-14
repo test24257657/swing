@@ -13,6 +13,7 @@ import sys
 from datetime import date, timedelta
 
 from jobs import (
+    ai_insights,
     alerts,
     breadth,
     charts,
@@ -29,9 +30,10 @@ from jobs import (
     screener,
     sectors,
     tiles,
+    weekly_outlook,
     writer,
 )
-from jobs.config import BACKFILL_DAYS, PANEL_DAYS, TILE_INDICES
+from jobs.config import BACKFILL_DAYS, PANEL_DAYS, TILE_INDICES, WEEKLY_OUTLOOK_WEEKDAY
 from jobs.sources import holidays, symbol_names
 
 logging.basicConfig(level="INFO", format="%(levelname)-5s %(name)s  %(message)s")
@@ -157,6 +159,29 @@ def main() -> int:
     for symbol, payload in depth_payloads.items():
         writer.write(f"depth/{charts.slug(symbol)}.json", payload)
     log.info("depth artifacts: %s", len(depth_payloads))
+
+    # 16. AI stock narrative — nightly, whole traded market (not just the
+    #     fundamentals/F&O "interesting universe"). Technicals come straight off the
+    #     in-memory panel and fundamentals from NSE's own XBRL filings (never
+    #     yfinance, never guessed) — see jobs/ai_insights.py. A second opinion
+    #     alongside the rule-based technical verdict, not a replacement.
+    traded_symbols = df[df["date"] == df["date"].max()]["symbol"].unique().tolist()
+    writer.clear_dir("ai_summary")
+    ai_payloads, ai_stats = ai_insights.build(df, traded_symbols, screener_payload, news_payload)
+    sources["ai_insights"] = ai_stats
+    for symbol, payload in ai_payloads.items():
+        writer.write(f"ai_summary/{charts.slug(symbol)}.json", payload)
+    log.info("ai_summary artifacts: %s", len(ai_payloads))
+
+    # 17. weekly AI market outlook — Fridays only (see jobs/weekly_outlook.py for why
+    #     it's scoped to breadth/volatility/flows/sectors/indices, not news/deals).
+    if business_date.weekday() == WEEKLY_OUTLOOK_WEEKDAY:
+        outlook_payload, outlook_stats = weekly_outlook.build(
+            business_date, breadth_card, vix, flow_card, sector_payload, indices_payload
+        )
+        sources["weekly_outlook"] = outlook_stats
+        if outlook_payload is not None:
+            writer.write("weekly_outlook.json", outlook_payload)
 
     writer.write_pulse(
         {

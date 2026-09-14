@@ -45,7 +45,7 @@ def _ma_series(closes: pd.Series, dates: pd.Series) -> dict:
     return out
 
 
-def _technicals(df: pd.DataFrame) -> dict | None:
+def technicals(df: pd.DataFrame) -> dict | None:
     """RSI/ATR/DMA-distance/relative-volume snapshot — stocks only, not indices."""
     if len(df) < 20:
         return None
@@ -90,7 +90,7 @@ def _payload(symbol: str, name: str, kind: str, df: pd.DataFrame) -> dict:
         "as_of": bars[-1]["time"] if bars else None,
         "bars": bars,
         "ma": _ma_series(df["close"], df["date"]),
-        "technicals": _technicals(df) if kind == "stock" else None,
+        "technicals": technicals(df) if kind == "stock" else None,
     }
 
 

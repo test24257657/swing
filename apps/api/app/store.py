@@ -36,6 +36,8 @@ _state: dict[str, dict] = {
     "institutional": {},
     "fno": {},
     "depth": {},
+    "ai_summary": {},
+    "weekly_outlook": {},
 }
 
 
@@ -80,6 +82,8 @@ def load() -> None:
     _state["institutional"] = _read("institutional.json")
     _state["fno"] = _read_dir("fno")
     _state["depth"] = _read_dir("depth")
+    _state["ai_summary"] = _read_dir("ai_summary")
+    _state["weekly_outlook"] = _read("weekly_outlook.json")
 
     log.info(
         "artifacts loaded from %s — pulse=%s keys, charts=%s, fundamentals=%s, generated_at=%s",
@@ -117,6 +121,11 @@ def quote(symbol: str) -> dict | None:
     return _state["quotes"].get(symbol.upper())
 
 
+def quotes() -> dict[str, dict]:
+    """The whole panel's LTP/name/change% by symbol — backs the global search box."""
+    return _state["quotes"]
+
+
 def sectors() -> dict:
     return _state["sectors"]
 
@@ -139,6 +148,14 @@ def fno(slug: str) -> dict | None:
 
 def depth(slug: str) -> dict | None:
     return _state["depth"].get(slug.upper())
+
+
+def ai_summary(slug: str) -> dict | None:
+    return _state["ai_summary"].get(slug.upper())
+
+
+def weekly_outlook() -> dict:
+    return _state["weekly_outlook"]
 
 
 def holidays() -> list[dict]:

@@ -1,14 +1,16 @@
 "use client";
 
+import { ArrowDown, ArrowUp, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Segmented, Skeleton } from "@/components/ui";
 import { useInstitutional } from "@/lib/api/market-hooks";
-import type { DealRow } from "@/lib/api/market-types";
+import type { DealRow, MoneyFlowPick } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { count, inrCompact, price } from "@/lib/format";
+import { safeGridCols } from "@/lib/grid";
 import { toSlug } from "@/lib/slug";
 
 const DEAL_KINDS = [
@@ -16,6 +18,22 @@ const DEAL_KINDS = [
   { value: "Bulk", label: "Bulk" },
   { value: "Block", label: "Block" },
 ] as const;
+
+const DEALS_PAGE_SIZE = 15;
+type DealSortColumn = "symbol" | "qty" | "price" | "value";
+type SortDir = "asc" | "desc";
+const DEAL_COLUMNS: { key: DealSortColumn; label: string; align: "left" | "right" }[] = [
+  { key: "symbol", label: "Symbol", align: "left" },
+  { key: "qty", label: "Quantity", align: "right" },
+  { key: "price", label: "Price", align: "right" },
+  { key: "value", label: "Deal value", align: "right" },
+];
+const DEALS_GRID = "72px 1fr 1.6fr 60px 60px 0.9fr 0.8fr 0.9fr";
+
+function dealDate(iso: string): string {
+  const d = new Date(`${iso}T00:00:00`);
+  return Number.isNaN(d.getTime()) ? iso : d.toLocaleDateString("en-IN", { day: "2-digit", month: "short" });
+}
 
 const PARTICIPANT_COLOR: Record<string, string> = {
   FII: "#2563EB",
@@ -27,6 +45,13 @@ const PARTICIPANT_COLOR: Record<string, string> = {
 export function InstitutionalClient() {
   const q = useInstitutional();
   const [kind, setKind] = useState<(typeof DEAL_KINDS)[number]["value"]>("all");
+  const [dealQuery, setDealQuery] = useState("");
+  const [dealSort, setDealSort] = useState<{ col: DealSortColumn; dir: SortDir } | null>(null);
+  const [dealPage, setDealPage] = useState(1);
+
+  useEffect(() => {
+    setDealPage(1);
+  }, [kind, dealQuery, dealSort]);
 
   if (q.isPending) {
     return (
@@ -57,8 +82,28 @@ export function InstitutionalClient() {
 
   const d = q.data!.data;
   const meta = q.data!.meta;
-  const deals = d.deals.filter((deal) => kind === "all" || deal.kind === kind);
   const poi = d.participant_oi;
+
+  const kindFiltered = d.deals.filter((deal) => kind === "all" || deal.kind === kind);
+  const q2 = dealQuery.trim().toLowerCase();
+  const searched = q2
+    ? kindFiltered.filter((deal) => deal.symbol.toLowerCase().includes(q2) || deal.client.toLowerCase().includes(q2))
+    : kindFiltered;
+  const sortedDeals = dealSort
+    ? [...searched].sort((a, b) => {
+        const mul = dealSort.dir === "asc" ? 1 : -1;
+        const av = a[dealSort.col];
+        const bv = b[dealSort.col];
+        return typeof av === "string" ? mul * av.localeCompare(bv as string) : mul * ((av as number) - (bv as number));
+      })
+    : searched;
+  const dealPageCount = Math.max(1, Math.ceil(sortedDeals.length / DEALS_PAGE_SIZE));
+  const dealPageSafe = Math.min(dealPage, dealPageCount);
+  const pagedDeals = sortedDeals.slice((dealPageSafe - 1) * DEALS_PAGE_SIZE, dealPageSafe * DEALS_PAGE_SIZE);
+
+  function toggleDealSort(col: DealSortColumn) {
+    setDealSort((prev) => (prev?.col === col ? { col, dir: prev.dir === "asc" ? "desc" : "asc" } : { col, dir: col === "symbol" ? "asc" : "desc" }));
+  }
 
   return (
     <Screen>
@@ -66,6 +111,8 @@ export function InstitutionalClient() {
         title="Institutional Activity"
         subtitle="Who is accumulating, and whether the derivatives book agrees with them."
       />
+
+      <MoneyFlowCard picks={d.ai_money_flow} />
 
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
         <SummaryCard label="Deals today" value={String(d.deal_summary.deals_today)} sub={`${d.deal_summary.bulk_count} bulk · ${d.deal_summary.block_count} block`} />
@@ -80,25 +127,78 @@ export function InstitutionalClient() {
             <div className="mt-0.5 text-[11px] text-text-muted">Client-level disclosures above the exchange reporting threshold</div>
           </div>
           <Segmented options={DEAL_KINDS as unknown as { value: string; label: string }[]} value={kind} onChange={(v) => setKind(v as typeof kind)} size="sm" />
+          <div className="relative ml-auto w-full sm:w-56">
+            <Search size={13} className="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 text-text-muted" />
+            <input
+              value={dealQuery}
+              onChange={(e) => setDealQuery(e.target.value)}
+              placeholder="Search symbol or client…"
+              className="w-full rounded-md border border-border bg-surface py-1.5 pl-8 pr-3 text-[12px] outline-none focus:border-accent"
+            />
+          </div>
         </div>
         <div className="overflow-x-auto">
           <div className="min-w-[720px]">
-            <div className="grid grid-cols-[1fr_1.6fr_60px_60px_0.9fr_0.8fr_0.9fr] gap-2 border-b border-border bg-surface-2 px-4 py-1.5 text-[11px] text-text-muted">
-              <span>Symbol</span>
+            <div
+              className="grid gap-2 border-b border-border bg-surface-2 px-4 py-1.5 text-[11px] text-text-muted"
+              style={{ gridTemplateColumns: safeGridCols(DEALS_GRID) }}
+            >
+              <span>Date</span>
+              {DEAL_COLUMNS.slice(0, 1).map((c) => (
+                <button key={c.key} onClick={() => toggleDealSort(c.key)} className={cn("flex items-center gap-1 hover:text-text", dealSort?.col === c.key && "font-semibold text-text")}>
+                  {c.label}
+                  {dealSort?.col === c.key && (dealSort.dir === "asc" ? <ArrowUp size={11} /> : <ArrowDown size={11} />)}
+                </button>
+              ))}
               <span>Client</span>
               <span>Side</span>
               <span>Type</span>
-              <span className="text-right">Quantity</span>
-              <span className="text-right">Price</span>
-              <span className="text-right">Deal value</span>
+              {DEAL_COLUMNS.slice(1).map((c) => (
+                <button
+                  key={c.key}
+                  onClick={() => toggleDealSort(c.key)}
+                  className={cn("flex items-center justify-end gap-1 text-right hover:text-text", dealSort?.col === c.key && "font-semibold text-text")}
+                >
+                  {dealSort?.col === c.key && (dealSort.dir === "asc" ? <ArrowUp size={11} /> : <ArrowDown size={11} />)}
+                  {c.label}
+                </button>
+              ))}
             </div>
-            {deals.length === 0 ? (
-              <p className="px-4 py-8 text-center text-[13px] text-text-muted">No deals disclosed for this filter today.</p>
+            {pagedDeals.length === 0 ? (
+              <p className="px-4 py-8 text-center text-[13px] text-text-muted">
+                {dealQuery ? `No deals match "${dealQuery}".` : "No deals disclosed for this filter today."}
+              </p>
             ) : (
-              deals.map((deal, i) => <DealRowView key={`${deal.symbol}-${deal.client}-${i}`} deal={deal} />)
+              pagedDeals.map((deal, i) => <DealRowView key={`${deal.symbol}-${deal.client}-${i}`} deal={deal} />)
             )}
           </div>
         </div>
+        {dealPageCount > 1 && (
+          <div className="flex items-center justify-between border-t border-border px-4 py-2">
+            <span className="text-[11px] text-text-muted">
+              {(dealPageSafe - 1) * DEALS_PAGE_SIZE + 1}–{Math.min(dealPageSafe * DEALS_PAGE_SIZE, sortedDeals.length)} of {sortedDeals.length}
+            </span>
+            <div className="flex items-center gap-1">
+              <button
+                onClick={() => setDealPage((p) => Math.max(1, p - 1))}
+                disabled={dealPageSafe <= 1}
+                className="flex h-6 w-6 items-center justify-center rounded border border-border text-text-secondary hover:bg-surface-2 disabled:cursor-default disabled:opacity-40"
+              >
+                <ChevronLeft size={13} />
+              </button>
+              <span className="tnum px-1 text-[11px] text-text-secondary">
+                {dealPageSafe} / {dealPageCount}
+              </span>
+              <button
+                onClick={() => setDealPage((p) => Math.min(dealPageCount, p + 1))}
+                disabled={dealPageSafe >= dealPageCount}
+                className="flex h-6 w-6 items-center justify-center rounded border border-border text-text-secondary hover:bg-surface-2 disabled:cursor-default disabled:opacity-40"
+              >
+                <ChevronRight size={13} />
+              </button>
+            </div>
+          </div>
+        )}
         <div className="border-t border-border px-4 py-2.5 font-mono text-[11px] text-text-faint">
           source: NSE / BSE bulk &amp; block deal disclosures · repeat flag computed over 30 sessions
         </div>
@@ -177,9 +277,10 @@ function DealRowView({ deal }: { deal: DealRow }) {
   const up = deal.side === "BUY";
   return (
     <div
-      className="grid grid-cols-[1fr_1.6fr_60px_60px_0.9fr_0.8fr_0.9fr] items-center gap-2 border-b border-border px-4 py-2 last:border-0 hover:bg-surface-2"
+      className="grid grid-cols-[72px_1fr_1.6fr_60px_60px_0.9fr_0.8fr_0.9fr] items-center gap-2 border-b border-border px-4 py-2 last:border-0 hover:bg-surface-2"
       style={{ borderLeft: `2px solid ${deal.repeat ? "var(--color-accent)" : "transparent"}` }}
     >
+      <span className="font-mono text-[11px] text-text-faint">{dealDate(deal.date)}</span>
       <Link href={`/chart/${toSlug(deal.symbol)}?back=${encodeURIComponent("/institutional")}`} className="truncate text-[13px] font-medium hover:text-accent">
         {deal.symbol}
       </Link>
@@ -259,6 +360,49 @@ function FiiRatioCard({ series }: { series: { date: string; ratio: number }[] })
         </div>
       </div>
       <div className="mt-3 border-t border-border pt-2 font-mono text-[11px] text-text-faint">source: NSE participant-wise OI</div>
+    </Card>
+  );
+}
+
+const CONVICTION_TONE: Record<MoneyFlowPick["conviction"], "up" | "accent"> = {
+  high: "up",
+  medium: "accent",
+};
+
+/** Today's largest bulk/block deals, synthesized by AI into "where is real
+ * institutional money going" — weighted toward repeat accumulation, not just deal
+ * size (jobs/institutional.py::_ai_money_flow). Renders nothing when there were no
+ * deals to analyze, or Gemini was unavailable that night — never a broken-looking
+ * empty card. */
+function MoneyFlowCard({ picks }: { picks: MoneyFlowPick[] | null }) {
+  if (!picks || picks.length === 0) return null;
+  return (
+    <Card className="mb-2 p-4">
+      <div className="flex items-center gap-2">
+        <span className="text-[13px] font-semibold">Where money is flowing today</span>
+        <span className="rounded-full border border-[var(--color-accent-border)] bg-[var(--color-accent-tint)] px-2 py-0.5 text-[11px] font-medium text-accent">
+          ✦ AI
+        </span>
+      </div>
+      <div className="mt-2.5 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+        {picks.map((p) => (
+          <Link
+            key={p.symbol}
+            href={`/chart/${toSlug(p.symbol)}?back=${encodeURIComponent("/institutional")}`}
+            className="rounded-md border border-border p-3 transition-colors hover:border-accent"
+          >
+            <div className="flex items-center justify-between">
+              <span className="text-[13px] font-semibold">{p.symbol}</span>
+              <Chip tone={CONVICTION_TONE[p.conviction]}>{p.conviction} conviction</Chip>
+            </div>
+            <div className="mt-1.5 text-[11px] leading-relaxed text-text-secondary">{p.rationale}</div>
+          </Link>
+        ))}
+      </div>
+      <div className="mt-2.5 text-[11px] leading-relaxed text-text-faint">
+        AI-generated from today&apos;s bulk/block deals, weighted toward the same client buying repeatedly across
+        sessions. Not a recommendation — verify against the deals table below.
+      </div>
     </Card>
   );
 }
