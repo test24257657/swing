@@ -11,16 +11,20 @@ jobs/panel.py uses for the OHLC panel.
 
 from __future__ import annotations
 
+import json
 import logging
 from datetime import date, timedelta
 
 import pandas as pd
 
+from jobs.cache import safe
 from jobs.config import (
     DATA_DIR,
     DEALS_REPEAT_WINDOW_SESSIONS,
+    MONEY_FLOW_MAX_DEALS,
     PARTICIPANT_OI_HISTORY_DAYS,
 )
+from jobs.gemini import generate_json
 from jobs.sources import block_deals, bulk_deals, participant_oi
 
 _DEALS_RETENTION_CALENDAR_DAYS = int(DEALS_REPEAT_WINDOW_SESSIONS / 5 * 7) + 10  # sessions -> calendar days, +buffer
@@ -196,20 +200,66 @@ def _build_participant_oi(business_date: date) -> dict | None:
     }
 
 
+@safe(default=None, label="AI money flow")
+def _ai_money_flow(deals: list[dict]) -> list[dict] | None:
+    """Today's bulk/block deals, synthesized into a short "where is real institutional
+    money going" pick list — weighted toward repeat-accumulation (the same client
+    buying the same stock across sessions), not just today's single largest ticket,
+    which can just as easily be one-off profit-booking. One Gemini call a night."""
+    if not deals:
+        return None
+    top = deals[:MONEY_FLOW_MAX_DEALS]
+    numbered = "\n".join(
+        f"- {d['symbol']}: {d['side']} {d['kind']} worth {d['value']:.0f} by {d['client']}"
+        + (f" (repeat buyer, {d['repeat_count']}x in last 30 sessions)" if d["repeat"] else "")
+        for d in top
+    )
+    prompt = (
+        "Below are today's largest NSE bulk/block deal disclosures. Identify the 3-5 stocks with the "
+        "strongest real institutional accumulation signal — weigh repeat buying by the same client across "
+        "sessions much more heavily than a single large one-off deal, which is just as often profit-booking "
+        "as conviction buying. Ignore stocks with only SELL-side large deals.\n\n"
+        f"Deals:\n{numbered}\n\n"
+        'Return ONLY a JSON array, most convincing first: [{"symbol": "<NSE symbol>", '
+        '"rationale": "<one sentence, plain English>", "conviction": "high"|"medium"}].'
+    )
+    text = generate_json(prompt, cache_namespace="money_flow")
+    if text is None:
+        return None
+    try:
+        parsed = json.loads(text)
+    except json.JSONDecodeError:
+        return None
+    if not isinstance(parsed, list):
+        return None
+    return [
+        {
+            "symbol": item.get("symbol"),
+            "rationale": str(item.get("rationale", "")).strip()[:300],
+            "conviction": item.get("conviction") if item.get("conviction") in ("high", "medium") else "medium",
+        }
+        for item in parsed
+        if isinstance(item, dict) and item.get("symbol")
+    ]
+
+
 def build(business_date: date) -> tuple[dict, dict]:
     deals, deal_summary = _build_deals(business_date)
     participant = _build_participant_oi(business_date)
+    money_flow = _ai_money_flow(deals)
 
     payload = {
         "as_of": business_date.isoformat(),
         "deal_summary": deal_summary,
         "deals": deals,
         "participant_oi": participant,
+        "ai_money_flow": money_flow,
     }
     stats = {
         "ok": bool(deals) or participant is not None,
         "deals": len(deals),
         "participant_oi_sessions": len(participant["fii_index_futures_ratio"]) if participant else 0,
+        "ai_money_flow": bool(money_flow),
     }
-    log.info("institutional: %s deals, participant OI %s", len(deals), "ok" if participant else "missing")
+    log.info("institutional: %s deals, participant OI %s, AI money flow %s", len(deals), "ok" if participant else "missing", "ok" if money_flow else "missing")
     return payload, stats

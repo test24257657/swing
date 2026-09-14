@@ -1,9 +1,9 @@
 name: nightly
 
-# 13:00 UTC = 18:30 IST, Mon–Fri — after the bhavcopy with delivery data is published.
+# 13:30 UTC = 19:00 IST (7:00 PM), Mon–Fri — after the bhavcopy with delivery data is published.
 on:
   schedule:
-    - cron: "0 13 * * 1-5"
+    - cron: "30 13 * * 1-5"
   workflow_dispatch:
     inputs:
       backfill_days:
@@ -23,7 +23,9 @@ jobs:
     runs-on: ubuntu-latest
     # Phase 8 added per-symbol option-chain + financial-results fetches (each its own
     # cookie-dance round trip) — bumped from 45 after those pushed real runs close to it.
-    timeout-minutes: 75
+    # Whole-market AI insights (docs/ai-insights.md) added ~2,900 NSE filing lookups +
+    # ~195 paced Gemini calls (~9 RPM) on top of that — bumped again to 120.
+    timeout-minutes: 120
 
     steps:
       - uses: actions/checkout@v4
@@ -53,9 +55,18 @@ jobs:
           # market data, which stays entirely in out/*.json. Missing = watchlist charts
           # and alert evaluation are skipped, everything else still runs.
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          # News classification. Missing = news.json still writes, every item just
-          # ships as "neutral" with no AI summary (jobs/news.py degrades, never fails).
+          # News classification, AI stock narrative, weekly market outlook. Missing =
+          # those artifacts degrade (neutral/unclassified/skipped) — everything else
+          # still runs (jobs/news.py, jobs/ai_insights.py, jobs/gemini.py all degrade,
+          # never fail).
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Optional second key — a 429 on the first rotates to this one (its own
+          # separate quota) before backing off. Missing = single-key behavior.
+          GEMINI_API_KEY_FALLBACK: ${{ secrets.GEMINI_API_KEY_FALLBACK }}
+          # Weekly outlook's cross-week memory (jobs/memory.py). Missing = the outlook
+          # still generates, it just starts from a blank slate every week instead of
+          # grading its own prior call.
+          MEM0_API_KEY: ${{ secrets.MEM0_API_KEY }}
         run: python -m jobs.run_nightly
 
       - name: Show what was produced

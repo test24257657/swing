@@ -7,12 +7,11 @@ import { BreadthDonut } from "@/components/charts/breadth-donut";
 import { FlowBars } from "@/components/charts/flow-bars";
 import { Sparkline } from "@/components/charts/sparkline";
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
-import { Button, Card, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
-import { useMarketPulse } from "@/lib/api/market-hooks";
-import type { ActiveRow, Breadth, BreakoutRow, Flows } from "@/lib/api/market-types";
+import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
+import { useMarketPulse, useWeeklyOutlook } from "@/lib/api/market-hooks";
+import type { AiVerdict, Breadth, Flows } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
-import { change, count, direction, pct, pctPlain, price, ratio } from "@/lib/format";
-import { safeGridCols } from "@/lib/grid";
+import { change, count, direction, pct, pctPlain, price } from "@/lib/format";
 import { toSlug } from "@/lib/slug";
 import { type Tone, TONE_BOX } from "@/lib/tone";
 
@@ -143,6 +142,8 @@ export function PulseClient() {
           missing or behind.
         </div>
       )}
+
+      <WeeklyOutlookCard />
 
       {/* Index tiles — click any to open its chart */}
       <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
@@ -331,26 +332,6 @@ export function PulseClient() {
           </div>
         </Card>
       </div>
-
-      {/* Movers */}
-      <div className="mt-2 grid grid-cols-1 gap-2 lg:grid-cols-2">
-        <MoversTable
-          title="Most active by value"
-          subtitle="Turnover, cash segment"
-          metricLabel="Value ₹cr"
-          rows={d.most_active}
-          metric={(r) => (r as ActiveRow).turnover_cr.toLocaleString("en-IN")}
-          empty="No turnover data for this session."
-        />
-        <MoversTable
-          title="52-week high breakouts"
-          subtitle="Closed at a 52-week high on above-average volume"
-          metricLabel="Vol ratio"
-          rows={d.breakouts_52w}
-          metric={(r) => ratio((r as BreakoutRow).vol_ratio)}
-          empty="No breakouts cleared the volume filter today."
-        />
-      </div>
     </Screen>
   );
 }
@@ -418,63 +399,63 @@ function FlowTile({ label, v }: { label: string; v: number | null }) {
   );
 }
 
-function MoversTable<T extends ActiveRow | BreakoutRow>({
-  title,
-  subtitle,
-  metricLabel,
-  rows,
-  metric,
-  empty,
-}: {
-  title: string;
-  subtitle: string;
-  metricLabel: string;
-  rows: T[];
-  metric: (r: T) => string;
-  empty: string;
-}) {
-  const template = "1.6fr 0.8fr 0.7fr 1fr";
+const VERDICT_CHIP: Record<AiVerdict, "up" | "down" | "neutral"> = {
+  bullish: "up",
+  bearish: "down",
+  neutral: "neutral",
+};
+
+/** AI's weekly market-wide call — breadth/volatility/flows/sectors/indices synthesized
+ * into one direction + sector lean, refreshed Fridays only (jobs/weekly_outlook.py).
+ * Silently renders nothing before the first Friday run has ever produced one, and
+ * degrades to nothing (not an error) if that Friday's Gemini call failed — this is a
+ * bonus read, not something the rest of the dashboard depends on. */
+function WeeklyOutlookCard() {
+  const q = useWeeklyOutlook();
+  if (q.isPending || q.isError || !q.data) return null;
+  const d = q.data.data;
+  if (!d.market_view) return null;
+  const tone = TONE_BOX[VERDICT_CHIP[d.market_view.direction] as Tone];
+
   return (
-    <Card className="overflow-hidden">
-      <div className="p-4 pb-3">
-        <div className="text-[13px] font-semibold">{title}</div>
-        <div className="mt-0.5 text-[11px] text-text-muted">{subtitle}</div>
-      </div>
-      <div className="overflow-x-auto">
-        <div className="min-w-[420px]">
-          <div
-            className="grid gap-2 border-b border-border px-4 pb-1.5 text-[11px] text-text-muted"
-            style={{ gridTemplateColumns: safeGridCols(template) }}
-          >
-            <span>Symbol</span>
-            <span className="text-right">LTP</span>
-            <span className="text-right">%Chg</span>
-            <span className="text-right">{metricLabel}</span>
-          </div>
-          {rows.length === 0 ? (
-            <p className="px-4 py-8 text-center text-[13px] text-text-muted">{empty}</p>
-          ) : (
-            rows.map((r) => (
-              <Link
-                key={r.symbol}
-                href={`/chart/${toSlug(r.symbol)}`}
-                className="tnum grid items-center gap-2 border-b border-border px-4 py-2 last:border-0 hover:bg-surface-2"
-                style={{ gridTemplateColumns: safeGridCols(template) }}
-              >
-                <div className="min-w-0">
-                  <div className="text-[13px] font-medium">{r.symbol}</div>
-                  <div className="truncate text-[11px] text-text-muted">{r.name}</div>
-                </div>
-                <span className="text-right text-[13px]">{price(r.ltp)}</span>
-                <span className={cn("text-right text-[13px]", toneClass(r.change_pct))}>
-                  {r.change_pct == null ? "—" : pct(r.change_pct)}
-                </span>
-                <span className="text-right text-[13px] text-text-secondary">{metric(r)}</span>
-              </Link>
-            ))
-          )}
+    <Card className="mb-2 p-4">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center gap-2">
+          <span className="text-[13px] font-semibold">Weekly AI outlook</span>
+          <span className="rounded-full border border-[var(--color-accent-border)] bg-[var(--color-accent-tint)] px-2 py-0.5 text-[11px] font-medium text-accent">
+            ✦ AI
+          </span>
         </div>
+        <span className="font-mono text-[11px] text-text-faint">week of {d.week_of}</span>
+      </div>
+
+      {d.last_week_review && (
+        <div className="mt-2 rounded-md bg-surface-2 px-3 py-2 text-[11px] text-text-secondary">
+          <span className="font-medium text-text">Last week&apos;s call:</span> {d.last_week_review}
+        </div>
+      )}
+
+      <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
+        <div className="rounded-md border px-3 py-2.5" style={{ background: tone.bg, borderColor: tone.bd }}>
+          <div className="flex items-center justify-between">
+            <span className={cn("text-[13px] font-medium capitalize", tone.fg)}>{d.market_view.direction}</span>
+            {d.confidence && <Chip tone="neutral">{d.confidence} confidence</Chip>}
+          </div>
+          <div className="mt-1 text-[11px] leading-relaxed text-text-secondary">{d.market_view.rationale}</div>
+        </div>
+        {d.sector_pick && (
+          <div className="rounded-md border border-border px-3 py-2.5">
+            <div className="text-[13px] font-medium">{d.sector_pick.name} · sector to watch</div>
+            <div className="mt-1 text-[11px] leading-relaxed text-text-secondary">{d.sector_pick.rationale}</div>
+          </div>
+        )}
+      </div>
+
+      <div className="mt-2.5 text-[11px] leading-relaxed text-text-faint">
+        AI-generated from breadth, volatility, FII/DII flows, sector rotation and the broad indices — refreshed
+        Fridays. Not a substitute for your own read.
       </div>
     </Card>
   );
 }
+

@@ -6,6 +6,8 @@ import { ExternalLink } from "lucide-react";
 
 import { Card, Chip } from "@/components/ui";
 import type {
+  AiSummaryData,
+  AiVerdict,
   ChartBar,
   DepthData,
   FnoBuildup,
@@ -19,7 +21,7 @@ import { cn } from "@/lib/cn";
 import { change, count, direction, pct, price } from "@/lib/format";
 import { safeGridCols } from "@/lib/grid";
 import { IMPACT_META } from "@/lib/news-impact";
-import type { Tone } from "@/lib/tone";
+import { TONE_BOX, type Tone } from "@/lib/tone";
 
 function toneClass(v: number | null | undefined) {
   const d = direction(v);
@@ -372,6 +374,40 @@ function Stat({ label, value }: { label: string; value: string }) {
       <div className="text-[11px] text-text-muted">{label}</div>
       <div className="tnum mt-0.5 text-[13px] font-medium">{value}</div>
     </div>
+  );
+}
+
+const AI_VERDICT_META: Record<AiVerdict, { label: string; tone: "up" | "down" | "neutral" }> = {
+  bullish: { label: "Bullish", tone: "up" },
+  bearish: { label: "Bearish", tone: "down" },
+  neutral: { label: "Neutral", tone: "neutral" },
+};
+
+/** AI-written read synthesizing technicals, the setup pattern, fundamentals trend and
+ * recent news into one paragraph — a second opinion alongside the rule-based
+ * technicalVerdict() banner above it, not a replacement (jobs/ai_insights.py). */
+export function AiSummaryCard({ data }: { data: AiSummaryData }) {
+  const meta = AI_VERDICT_META[data.verdict];
+  const box = TONE_BOX[meta.tone];
+  return (
+    <Card className="p-4 sm:col-span-2 lg:col-span-3">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <span className="text-[13px] font-semibold">AI read</span>
+          <span className="rounded-full border border-[var(--color-accent-border)] bg-[var(--color-accent-tint)] px-2 py-0.5 text-[11px] font-medium text-accent">
+            ✦ AI
+          </span>
+        </div>
+        <Chip tone={meta.tone}>{meta.label}</Chip>
+      </div>
+      <div className="mt-2.5 rounded-md border px-3 py-2.5" style={{ background: box.bg, borderColor: box.bd }}>
+        <p className={cn("text-[12px] leading-relaxed", box.fg)}>{data.summary}</p>
+      </div>
+      <div className="mt-2.5 text-[11px] leading-relaxed text-text-faint">
+        AI-generated from technicals, the setup pattern, the fundamentals trend and recent news — a second opinion,
+        not a replacement for your own read.
+      </div>
+    </Card>
   );
 }
 

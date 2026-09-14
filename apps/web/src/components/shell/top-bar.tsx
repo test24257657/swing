@@ -1,6 +1,6 @@
 "use client";
 
-import { LogOut, Search } from "lucide-react";
+import { LogOut } from "lucide-react";
 import { useEffect, useState } from "react";
 
 import { useMarketPulse } from "@/lib/api/market-hooks";
@@ -8,6 +8,7 @@ import { getEmail, logout } from "@/lib/auth";
 import { istStamp } from "@/lib/format";
 
 import { MarketStatusPill } from "./market-status-pill";
+import { SearchOverlay } from "./search-overlay";
 
 /** 56px sticky top bar: ⌘K search, market-status pill, data-freshness stamp, account. */
 export function TopBar() {
@@ -23,24 +24,7 @@ export function TopBar() {
 
   return (
     <header className="sticky top-0 z-30 flex h-[var(--shell-topbar-h)] items-center gap-2 border-b border-[var(--color-border)] bg-[rgba(255,255,255,0.94)] px-3 backdrop-blur-sm sm:gap-4 sm:px-6">
-      <button className="hidden h-[34px] items-center gap-2.5 rounded-md border border-[var(--color-border)] bg-surface px-3 text-[13px] text-[var(--color-text-muted)] hover:border-[var(--color-accent)] md:flex md:w-[220px] lg:w-[340px]">
-        <Search size={13} />
-        <span className="truncate">Search symbol, sector or screen…</span>
-        <span className="ml-auto hidden gap-1 lg:flex">
-          <kbd className="rounded-sm border border-[var(--color-border)] bg-surface-2 px-1.5 font-mono text-[11px] text-[var(--color-text-secondary)]">
-            ⌘
-          </kbd>
-          <kbd className="rounded-sm border border-[var(--color-border)] bg-surface-2 px-1.5 font-mono text-[11px] text-[var(--color-text-secondary)]">
-            K
-          </kbd>
-        </span>
-      </button>
-      <button
-        aria-label="Search"
-        className="flex h-10 w-10 flex-none items-center justify-center rounded-md border border-[var(--color-border)] bg-surface text-[var(--color-text-muted)] md:hidden"
-      >
-        <Search size={14} />
-      </button>
+      <SearchOverlay />
 
       <MarketStatusPill />
 

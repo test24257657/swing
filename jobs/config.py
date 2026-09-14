@@ -108,6 +108,24 @@ NEWS_EXCLUDE_CATEGORIES = {
 NEWS_HEADLINE_MAX_CHARS = 280
 GEMINI_MODEL = "gemini-3.6-flash"
 GEMINI_BATCH_SIZE = 20  # announcements per classification request
+# Assumed free-tier Flash caps (https://ai.google.dev/gemini-api/docs/rate-limits) —
+# re-check if real throttling behavior suggests these are off. A cache hit never
+# counts against this pace, only a real network call does.
+GEMINI_MIN_INTERVAL_SECONDS = 6.5  # ~9 RPM — real testing hit 429s at ~13 RPM, so paced
+# more conservatively than the assumed 15 RPM cap.
+GEMINI_MAX_RETRIES = 6  # on HTTP 429, honouring Retry-After when the server sends one
+
+# --- AI stock narrative (per-symbol, nightly, whole traded market) --------------
+AI_INSIGHT_BATCH_SIZE = 15  # symbols per Gemini request — richer per-item context
+# than news, so a smaller batch than GEMINI_BATCH_SIZE keeps prompts a sane size.
+AI_INSIGHT_MIN_ROWS = 20  # same floor as jobs/charts.py::technicals() — too little
+# history for RSI/ATR to mean anything.
+
+# --- weekly AI outlook (mem0-backed cross-week memory) --------------------------
+# Fixed identity for the AI's own memory scope — not a real user, just the bucket
+# its weekly market calls (and their outcomes) accumulate under in mem0.
+MEM0_OUTLOOK_USER_ID = "swing-terminal-weekly-outlook"
+WEEKLY_OUTLOOK_WEEKDAY = 4  # Friday (0=Mon) — one call a week, after the week's close
 
 # --- indices screen ------------------------------------------------------------
 # Broad-market indices shown alongside the sector indices above (sectors are their
@@ -123,6 +141,7 @@ BROAD_INDICES = [
 DEALS_MIN_VALUE_CR = 0  # NSE's own reporting threshold already filters this; no extra cut
 DEALS_REPEAT_WINDOW_SESSIONS = 30
 PARTICIPANT_OI_HISTORY_DAYS = 30  # FII long/short ratio trend line
+MONEY_FLOW_MAX_DEALS = 30  # today's largest deals fed to the AI money-flow pick, one Gemini call/night
 
 # --- F&O (buildup, option chain, depth) -----------------------------------------
 # Price/OI change thresholds below this are "flat", not a buildup signal either way.
