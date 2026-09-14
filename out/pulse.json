@@ -1,14 +1,12 @@
 {
- "as_of": "2026-09-11",
+ "as_of": "2026-09-14",
  "tiles": [
   {
    "symbol": "NIFTY 50",
-   "value": 23431.5,
-   "change": -203.6,
-   "change_pct": -0.86,
+   "value": 23398.1,
+   "change": -79.7,
+   "change_pct": -0.34,
    "spark": [
-    24317.15,
-    24383.6,
     24774.3,
     24614.9,
     24624.65,
@@ -36,18 +34,18 @@
     23897.7,
     23779.15,
     23635.1,
-    23431.5
+    23431.5,
+    23477.8,
+    23398.1
    ],
-   "as_of": "2026-09-09"
+   "as_of": "2026-09-11"
   },
   {
    "symbol": "NIFTY BANK",
-   "value": 56295.55,
-   "change": -482.0,
-   "change_pct": -0.85,
+   "value": 56606.55,
+   "change": 134.6,
+   "change_pct": 0.24,
    "spark": [
-    57147.5,
-    57264.85,
     58247.95,
     57907.2,
     57739.95,
@@ -75,18 +73,18 @@
     57369.65,
     57088.3,
     56777.55,
-    56295.55
+    56295.55,
+    56471.95,
+    56606.55
    ],
-   "as_of": "2026-09-09"
+   "as_of": "2026-09-11"
   },
   {
    "symbol": "NIFTY 500",
-   "value": 22958.75,
-   "change": -147.35,
-   "change_pct": -0.64,
+   "value": 22866.5,
+   "change": -85.85,
+   "change_pct": -0.37,
    "spark": [
-    23353.55,
-    23460.7,
     23802.85,
     23690.15,
     23735.55,
@@ -114,18 +112,18 @@
     23254.15,
     23156.2,
     23106.1,
-    22958.75
+    22958.75,
+    22952.35,
+    22866.5
    ],
-   "as_of": "2026-09-09"
+   "as_of": "2026-09-11"
   },
   {
    "symbol": "INDIA VIX",
-   "value": 11.92,
-   "change": 0.69,
-   "change_pct": 6.14,
+   "value": 12.29,
+   "change": 0.49,
+   "change_pct": 4.15,
    "spark": [
-    12.16,
-    11.76,
     11.93,
     12.19,
     12.06,
@@ -153,20 +151,22 @@
     10.68,
     11.16,
     11.23,
-    11.92
+    11.92,
+    11.8,
+    12.29
    ],
-   "as_of": "2026-09-09"
+   "as_of": "2026-09-11"
   }
  ],
  "breadth": {
-  "date": "2026-09-11",
+  "date": "2026-09-14",
   "advances": 1053,
   "declines": 1808,
   "unchanged": 51,
   "traded": 2912,
   "ad_ratio": 0.58,
-  "pct_above_50dma": 39.79,
-  "pct_above_200dma": 50.02,
+  "pct_above_50dma": 39.9,
+  "pct_above_200dma": 50.08,
   "new_52w_highs": 11,
   "new_52w_lows": 7
  },
@@ -192,13 +192,13 @@
   "dii_10_session_net": 4503.1
  },
  "vix": {
-  "value": 11.92,
-  "change": 0.69,
-  "change_pct": 6.14,
-  "percentile_250d": 39.6,
+  "value": 12.29,
+  "change": 0.49,
+  "change_pct": 4.15,
+  "percentile_250d": 50.0,
   "band": "low",
-  "verdict": "Low volatility \u2014 trend-friendly",
-  "advice": "Favour breakout continuation; wider stops unnecessary."
+  "verdict": "Calm market",
+  "advice": "Prices are moving steadily, without big swings. A normal, comfortable time to hold positions."
  },
  "most_active": [
   {
@@ -278,63 +278,42 @@
    "name": "Digjam Limited",
    "ltp": 68.42,
    "change_pct": 10.64,
-   "vol_ratio": 11.9
+   "vol_ratio": 7.5
   },
   {
    "symbol": "SMSPHARMA",
    "name": "SMS Pharmaceuticals Limited",
    "ltp": 463.45,
    "change_pct": 11.02,
-   "vol_ratio": 11.2
+   "vol_ratio": 7.2
   },
   {
    "symbol": "RACLGEAR",
    "name": "RACL Geartech Limited",
    "ltp": 1756.7,
    "change_pct": 10.61,
-   "vol_ratio": 10.6
+   "vol_ratio": 7.0
   },
   {
    "symbol": "FILATEX",
    "name": "Filatex India Limited",
    "ltp": 87.41,
    "change_pct": 14.64,
-   "vol_ratio": 9.3
+   "vol_ratio": 6.4
   },
   {
    "symbol": "AMDIND",
    "name": "AMD Industries Limited",
    "ltp": 64.03,
    "change_pct": 14.26,
-   "vol_ratio": 7.3
+   "vol_ratio": 5.6
   },
   {
    "symbol": "GRANULES",
    "name": "Granules India Limited",
    "ltp": 909.3,
    "change_pct": 1.12,
-   "vol_ratio": 6.3
-  },
-  {
-   "symbol": "ANMOL",
-   "name": "Anmol India Limited",
-   "ltp": 16.87,
-   "change_pct": 9.97,
-   "vol_ratio": 4.8
-  },
-  {
-   "symbol": "RAYMOND",
-   "name": "Raymond Limited",
-   "ltp": 1002.8,
-   "change_pct": 17.44,
-   "vol_ratio": 4.8
-  },
-  {
-   "symbol": "SPECTRUM",
-   "name": "Spectrum Electrical Industries Limited",
-   "ltp": 3022.5,
-   "change_pct": 5.0,
-   "vol_ratio": 4.6
+   "vol_ratio": 4.9
   },
   {
    "symbol": "SUPREMEENG",
@@ -342,6 +321,27 @@
    "ltp": 3.33,
    "change_pct": 1.83,
    "vol_ratio": 4.5
+  },
+  {
+   "symbol": "ANMOL",
+   "name": "Anmol India Limited",
+   "ltp": 16.87,
+   "change_pct": 9.97,
+   "vol_ratio": 3.9
+  },
+  {
+   "symbol": "RAYMOND",
+   "name": "Raymond Limited",
+   "ltp": 1002.8,
+   "change_pct": 17.44,
+   "vol_ratio": 3.9
+  },
+  {
+   "symbol": "SPECTRUM",
+   "name": "Spectrum Electrical Industries Limited",
+   "ltp": 3022.5,
+   "change_pct": 5.0,
+   "vol_ratio": 3.9
   }
  ]
 }
