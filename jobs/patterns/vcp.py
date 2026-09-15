@@ -2,7 +2,13 @@ from __future__ import annotations
 
 import pandas as pd
 
-from jobs.patterns.base import DetectContext, PatternMatch, clamp01, contraction_legs
+from jobs.patterns.base import (
+    DetectContext,
+    PatternMatch,
+    clamp01,
+    contraction_legs,
+    trend_template,
+)
 from jobs.patterns.stage import classify_stage
 
 LOOKBACK = 80
@@ -15,9 +21,20 @@ DEPTH_TOLERANCE = 1.5  # a later leg may be up to this many points deeper and st
 
 def detect(df: pd.DataFrame, ctx: DetectContext) -> PatternMatch | None:
     """Volatility Contraction Pattern — 2+ pullbacks, each ~shallower than the last,
-    volume drying up, price coiled near the base high (the pivot)."""
+    volume drying up, price coiled near the base high (the pivot), *inside a confirmed
+    stage-2 uptrend*.
+
+    The trend gate is not optional: contracting pullbacks in a downtrend are not a VCP,
+    they are a falling stock resting. Minervini's template is what separates the two,
+    and skipping it was the single biggest source of false positives here."""
     if len(df) < LOOKBACK:
         return None
+
+    last_close = float(df["close"].iloc[-1])
+    in_uptrend, trend_checks = trend_template(last_close, ctx)
+    if not in_uptrend:
+        return None
+
     legs = contraction_legs(df["high"], df["low"], LOOKBACK)
     if len(legs) < MIN_CONTRACTIONS:
         return None
@@ -70,6 +87,7 @@ def detect(df: pd.DataFrame, ctx: DetectContext) -> PatternMatch | None:
             ],
             "leg_volume_ratio": vol_ratio,
             "gap_to_pivot_pct": round(gap_pct, 2),
+            "trend_template": trend_checks,
         },
     )
 

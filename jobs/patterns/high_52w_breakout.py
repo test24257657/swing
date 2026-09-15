@@ -3,7 +3,7 @@ from __future__ import annotations
 import pandas as pd
 
 from jobs.patterns.base import DetectContext, PatternMatch, clamp01
-from jobs.patterns.stage import classify_stage
+from jobs.patterns.stage import CONFIRM_WINDOW, classify_stage
 
 # tunables
 NEAR_PCT = 2.0  # within this % below the 52w high counts as "forming"
@@ -18,7 +18,10 @@ def detect(df: pd.DataFrame, ctx: DetectContext) -> PatternMatch | None:
     close = df["close"]
     last = float(close.iloc[-1])
 
-    prior = close.iloc[:-1].tail(LOOKBACK_52W)
+    # The pivot has to come from *before* the window classify_stage searches for the
+    # breakout, otherwise the breakout bar raises the very level it broke: a breakout
+    # two sessions ago that held would be re-read as "forming" against its own high.
+    prior = close.iloc[:-CONFIRM_WINDOW].tail(LOOKBACK_52W)
     if prior.empty:
         return None
     prior_high = float(prior.max())

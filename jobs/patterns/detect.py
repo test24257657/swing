@@ -2,13 +2,20 @@ from __future__ import annotations
 
 import pandas as pd
 
-from jobs.patterns import high_52w_breakout, ipo_base, near_pivot, vcp
+from jobs.patterns import (
+    high_52w_breakout,
+    ipo_base,
+    near_pivot,
+    trendline_breakout,
+    vcp,
+)
 from jobs.patterns.base import DetectContext, PatternMatch
 
 # order matters only for display; a symbol can match several
 DETECTORS = (
     ("vcp", vcp.detect),
     ("high_52w_breakout", high_52w_breakout.detect),
+    ("trendline_breakout", trendline_breakout.detect),
     ("ipo_base", ipo_base.detect),
     ("near_pivot", near_pivot.detect),
 )

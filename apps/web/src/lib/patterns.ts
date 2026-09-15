@@ -16,6 +16,11 @@ export const PATTERNS: Record<PatternCode, { label: string; tone: "accent" | "in
     tone: "up",
     tip: "Close above the highest close of the trailing 52 weeks, confirmed by above-average volume.",
   },
+  trendline_breakout: {
+    label: "Trendline",
+    tone: "up",
+    tip: "Each rally topped out lower than the last, drawing a falling ceiling — price has now closed above that line on heavy volume.",
+  },
   near_pivot: {
     label: "Pivot",
     tone: "stale",

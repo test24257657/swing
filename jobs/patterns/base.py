@@ -38,6 +38,41 @@ class DetectContext:
     vol_sma_20: float | None
     high_52w: float | None
     atr_14: float | None
+    # Minervini trend-template inputs. All optional: when they're missing the template
+    # check is skipped rather than failing a symbol for want of history (a 6-month-old
+    # listing has no 200-day SMA, but can still form a legitimate IPO base).
+    sma_50: float | None = None
+    sma_150: float | None = None
+    sma_200: float | None = None
+    sma_200_month_ago: float | None = None  # same SMA ~22 sessions back, for its slope
+    low_52w: float | None = None
+
+
+def trend_template(last_close: float, ctx: DetectContext) -> tuple[bool, dict]:
+    """Mark Minervini's Trend Template — the stage-2 uptrend filter that has to be true
+    *before* a contraction pattern means anything. A tightening base inside a downtrend
+    is not a VCP, it is a stock on its way down pausing to breathe.
+
+    Returns (passes, detail) where `detail` names each leg so a near-miss is debuggable
+    from the artifact rather than only from a rerun.
+
+    Any leg whose inputs are missing is treated as passing — see DetectContext.
+    """
+    checks = {
+        # price above the three long averages
+        "above_sma_50": ctx.sma_50 is None or last_close > ctx.sma_50,
+        "above_sma_150": ctx.sma_150 is None or last_close > ctx.sma_150,
+        "above_sma_200": ctx.sma_200 is None or last_close > ctx.sma_200,
+        # and the averages themselves stacked in order
+        "sma_50_above_150": ctx.sma_50 is None or ctx.sma_150 is None or ctx.sma_50 > ctx.sma_150,
+        "sma_150_above_200": ctx.sma_150 is None or ctx.sma_200 is None or ctx.sma_150 > ctx.sma_200,
+        # 200-day sloping up over roughly the last month
+        "sma_200_rising": ctx.sma_200 is None or ctx.sma_200_month_ago is None or ctx.sma_200 > ctx.sma_200_month_ago,
+        # well off the 52-week low, and not far from the 52-week high
+        "above_52w_low": ctx.low_52w is None or ctx.low_52w <= 0 or last_close >= ctx.low_52w * 1.25,
+        "near_52w_high": ctx.high_52w is None or ctx.high_52w <= 0 or last_close >= ctx.high_52w * 0.75,
+    }
+    return all(checks.values()), checks
 
 
 def swing_points(series: pd.Series, window: int = 3) -> tuple[pd.Series, pd.Series]:
