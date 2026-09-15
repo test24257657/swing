@@ -219,6 +219,7 @@ export interface SectorRow {
   slug: string;
   rank: number | null;
   rank_delta: number | null;
+  return_1w: number | null;
   return_1m: number | null;
   return_3m: number | null;
   rs_tail: RrgPoint[];

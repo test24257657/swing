@@ -12,7 +12,9 @@ in earlier phases; this phase covers 32-34.
 ### Item 32 — Sector Rotation
 `jobs/sectors.py` — for each of 12 NSE sector indices (auto, IT, pharma, FMCG, metal,
 realty, energy, PSU bank, private bank, media, consumer durables, healthcare):
-- **1M/3M return** and a **rank** by 1-month return.
+- **1W/1M/3M return** (5 / 21 / 63 sessions) and a **rank** by 1-month return. The
+  ranking stays on 1M deliberately — a 5-session return is too noisy to rank rotation by,
+  but it is the column that shows what moved *this week*.
 - **Rank delta**: the same ranking recomputed as of 15 sessions ago (~3 weeks), so a
   sector's rise or fall in the pecking order is visible, not just its return.
 - **Constituents + advancers**: each sector's member list (from niftyindices.com,

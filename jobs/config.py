@@ -76,6 +76,7 @@ SECTOR_INDICES = [
 # exact name (returns nothing at any range), not a transient failure.
 SECTOR_BENCHMARK = "NIFTY 500"
 SECTOR_HISTORY_DAYS = 300  # enough for 3m return + the RRG's 10-week lookback
+SECTOR_RETURN_1W_SESSIONS = 5
 SECTOR_RETURN_1M_SESSIONS = 21
 SECTOR_RETURN_3M_SESSIONS = 63
 SECTOR_RANK_DELTA_SESSIONS = 15  # ~3 weeks, "rank vs 3 weeks ago"
