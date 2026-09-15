@@ -1,0 +1,100 @@
+{
+ "symbol": "YESBANK",
+ "buildup": {
+  "label": "long_unwinding",
+  "note": "Longs are exiting \u2014 open interest is falling as price falls.",
+  "expiry": "2026-09-29",
+  "price_chg_pct": -1.99,
+  "oi_chg_pct": -0.53,
+  "open_interest": 1007982100,
+  "close": 23.2
+ },
+ "option_chain": {
+  "expiry": "29-Sep-2026",
+  "underlying_value": 23.07,
+  "rows": [
+   {
+    "strike": 18,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 51,
+    "put_oi_chg": -1
+   },
+   {
+    "strike": 19,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 111,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 20,
+    "call_oi": 41,
+    "call_oi_chg": 0,
+    "put_oi": 573,
+    "put_oi_chg": 15
+   },
+   {
+    "strike": 21,
+    "call_oi": 84,
+    "call_oi_chg": 0,
+    "put_oi": 1121,
+    "put_oi_chg": 175
+   },
+   {
+    "strike": 22,
+    "call_oi": 1351,
+    "call_oi_chg": -10,
+    "put_oi": 1933,
+    "put_oi_chg": -216
+   },
+   {
+    "strike": 23,
+    "call_oi": 3311,
+    "call_oi_chg": 84,
+    "put_oi": 2403,
+    "put_oi_chg": -373
+   },
+   {
+    "strike": 24,
+    "call_oi": 3329,
+    "call_oi_chg": 549,
+    "put_oi": 986,
+    "put_oi_chg": 131
+   },
+   {
+    "strike": 25,
+    "call_oi": 2328,
+    "call_oi_chg": -441,
+    "put_oi": 299,
+    "put_oi_chg": -11
+   },
+   {
+    "strike": 26,
+    "call_oi": 1642,
+    "call_oi_chg": 339,
+    "put_oi": 51,
+    "put_oi_chg": -5
+   },
+   {
+    "strike": 28,
+    "call_oi": 1598,
+    "call_oi_chg": 11,
+    "put_oi": 51,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 30,
+    "call_oi": 231,
+    "call_oi_chg": 29,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   }
+  ],
+  "pcr": 0.54,
+  "total_call_oi": 13915,
+  "total_put_oi": 7579,
+  "max_call_oi_strike": 24,
+  "max_put_oi_strike": 23
+ }
+}
