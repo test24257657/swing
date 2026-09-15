@@ -44,7 +44,16 @@ def recall(query: str, limit: int = 5) -> list[str]:
 @safe(default=None, label="mem0 remember")
 def remember(text: str) -> None:
     """Store one week's outlook (and, once there's a prior one, its self-graded
-    outcome) so next week's recall() can find it."""
+    outcome) so next week's recall() can find it.
+
+    Writes are refused outside CI. Production and local development share one mem0
+    bucket, so a memory written by a local test run becomes a fabricated "last week's
+    prediction" that the real Friday outlook will later recall and reason from. Reads
+    stay open — recalling prod's genuine memories locally is harmless and useful.
+    """
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        log.info("mem0 remember: skipped (local run — prod shares this memory bucket)")
+        return
     client = _client()
     if client is None:
         return
