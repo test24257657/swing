@@ -2,7 +2,7 @@
  "symbol": "NEAGI",
  "name": "Neelamalai Agro Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-15",
  "bars": [
   {
    "time": "2026-04-22",
@@ -705,6 +705,15 @@
    "close": 3435.0,
    "volume": 11,
    "delivery_pct": 100.0
+  },
+  {
+   "time": "2026-09-15",
+   "open": 3450.0,
+   "high": 3450.0,
+   "low": 3308.0,
+   "close": 3308.0,
+   "volume": 10,
+   "delivery_pct": 90.0
   }
  ],
  "ma": {
@@ -944,6 +953,10 @@
    {
     "time": "2026-09-14",
     "value": 3387.34
+   },
+   {
+    "time": "2026-09-15",
+    "value": 3395.79
    }
   ],
   "sma_50": [
@@ -1062,15 +1075,19 @@
    {
     "time": "2026-09-14",
     "value": 3231.15
+   },
+   {
+    "time": "2026-09-15",
+    "value": 3233.33
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.34,
-  "atr_pct": 2.34,
-  "rel_volume_20d": 0.15,
-  "dist_20dma_pct": 1.41,
-  "dist_50dma_pct": 6.31,
+  "rsi_14": 47.56,
+  "atr_pct": 2.57,
+  "rel_volume_20d": 0.14,
+  "dist_20dma_pct": -2.59,
+  "dist_50dma_pct": 2.31,
   "dist_200dma_pct": null
  }
 }

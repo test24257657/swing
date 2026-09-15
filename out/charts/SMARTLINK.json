@@ -2,17 +2,8 @@
  "symbol": "SMARTLINK",
  "name": "Smartlink Holdings Limited",
  "kind": "stock",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-15",
  "bars": [
-  {
-   "time": "2025-09-25",
-   "open": 155.0,
-   "high": 158.99,
-   "low": 152.36,
-   "close": 154.96,
-   "volume": 4070,
-   "delivery_pct": 47.64
-  },
   {
    "time": "2025-09-26",
    "open": 157.79,
@@ -2271,14 +2262,19 @@
    "close": 230.3,
    "volume": 20834,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-15",
+   "open": 233.3,
+   "high": 241.81,
+   "low": 230.3,
+   "close": 233.41,
+   "volume": 25790,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-23",
-    "value": 141.74
-   },
    {
     "time": "2025-10-24",
     "value": 140.65
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-09-14",
     "value": 219.77
+   },
+   {
+    "time": "2026-09-15",
+    "value": 220.31
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-04",
-    "value": 137.5
-   },
    {
     "time": "2025-12-05",
     "value": 137.12
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-09-14",
     "value": 212.13
+   },
+   {
+    "time": "2026-09-15",
+    "value": 213.3
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-02",
-    "value": 136.82
-   },
    {
     "time": "2026-07-03",
     "value": 136.91
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-09-14",
     "value": 155.89
+   },
+   {
+    "time": "2026-09-15",
+    "value": 156.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.82,
-  "atr_pct": 5.0,
-  "rel_volume_20d": 3.66,
-  "dist_20dma_pct": 4.79,
-  "dist_50dma_pct": 8.57,
-  "dist_200dma_pct": 47.74
+  "rsi_14": 63.79,
+  "atr_pct": 4.93,
+  "rel_volume_20d": 3.93,
+  "dist_20dma_pct": 5.94,
+  "dist_50dma_pct": 9.43,
+  "dist_200dma_pct": 49.25
  }
 }

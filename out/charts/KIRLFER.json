@@ -2,7 +2,7 @@
  "symbol": "KIRLFER",
  "name": "Kirloskar Ferrous Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-15",
  "bars": [
   {
    "time": "2026-04-20",
@@ -957,6 +957,15 @@
    "close": 465.1,
    "volume": 91717,
    "delivery_pct": 63.97
+  },
+  {
+   "time": "2026-09-15",
+   "open": 469.4,
+   "high": 469.4,
+   "low": 461.0,
+   "close": 464.85,
+   "volume": 211119,
+   "delivery_pct": 54.69
   }
  ],
  "ma": {
@@ -1308,6 +1317,10 @@
    {
     "time": "2026-09-14",
     "value": 452.16
+   },
+   {
+    "time": "2026-09-15",
+    "value": 453.61
    }
   ],
   "sma_50": [
@@ -1538,15 +1551,19 @@
    {
     "time": "2026-09-14",
     "value": 457.05
+   },
+   {
+    "time": "2026-09-15",
+    "value": 457.16
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.87,
-  "atr_pct": 2.69,
-  "rel_volume_20d": 0.58,
-  "dist_20dma_pct": 2.86,
-  "dist_50dma_pct": 1.76,
+  "rsi_14": 59.56,
+  "atr_pct": 2.63,
+  "rel_volume_20d": 1.62,
+  "dist_20dma_pct": 2.48,
+  "dist_50dma_pct": 1.68,
   "dist_200dma_pct": null
  }
 }

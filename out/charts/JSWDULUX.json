@@ -2,7 +2,7 @@
  "symbol": "JSWDULUX",
  "name": "JSW Dulux Limited",
  "kind": "stock",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-15",
  "bars": [
   {
    "time": "2026-04-15",
@@ -984,6 +984,15 @@
    "close": 3155.1,
    "volume": 31176,
    "delivery_pct": 69.13
+  },
+  {
+   "time": "2026-09-15",
+   "open": 3175.1,
+   "high": 3199.0,
+   "low": 3083.1,
+   "close": 3133.8,
+   "volume": 50943,
+   "delivery_pct": 59.97
   }
  ],
  "ma": {
@@ -1347,6 +1356,10 @@
    {
     "time": "2026-09-14",
     "value": 3140.88
+   },
+   {
+    "time": "2026-09-15",
+    "value": 3142.05
    }
   ],
   "sma_50": [
@@ -1589,15 +1602,19 @@
    {
     "time": "2026-09-14",
     "value": 3064.21
+   },
+   {
+    "time": "2026-09-15",
+    "value": 3064.74
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.74,
-  "atr_pct": 2.01,
-  "rel_volume_20d": 1.63,
-  "dist_20dma_pct": 0.45,
-  "dist_50dma_pct": 2.97,
+  "rsi_14": 50.58,
+  "atr_pct": 2.14,
+  "rel_volume_20d": 2.58,
+  "dist_20dma_pct": -0.26,
+  "dist_50dma_pct": 2.25,
   "dist_200dma_pct": null
  }
 }

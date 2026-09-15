@@ -2,17 +2,8 @@
  "symbol": "SANGINITA",
  "name": "Sanginita Chemicals Limited",
  "kind": "stock",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-15",
  "bars": [
-  {
-   "time": "2025-09-25",
-   "open": 10.0,
-   "high": 10.36,
-   "low": 9.8,
-   "close": 9.9,
-   "volume": 241162,
-   "delivery_pct": 95.44
-  },
   {
    "time": "2025-09-26",
    "open": 9.99,
@@ -2271,14 +2262,19 @@
    "close": 65.67,
    "volume": 29308,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-15",
+   "open": 66.98,
+   "high": 66.98,
+   "low": 66.98,
+   "close": 66.98,
+   "volume": 23718,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-23",
-    "value": 10.33
-   },
    {
     "time": "2025-10-24",
     "value": 10.36
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-09-14",
     "value": 58.3
+   },
+   {
+    "time": "2026-09-15",
+    "value": 58.67
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-04",
-    "value": 10.38
-   },
    {
     "time": "2025-12-05",
     "value": 10.37
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-09-14",
     "value": 57.9
+   },
+   {
+    "time": "2026-09-15",
+    "value": 58.29
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-02",
-    "value": 17.17
-   },
    {
     "time": "2026-07-03",
     "value": 17.35
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-09-14",
     "value": 29.42
+   },
+   {
+    "time": "2026-09-15",
+    "value": 29.7
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.61,
-  "atr_pct": 3.04,
+  "rsi_14": 68.62,
+  "atr_pct": 2.91,
   "rel_volume_20d": 0.05,
-  "dist_20dma_pct": 12.64,
-  "dist_50dma_pct": 13.41,
-  "dist_200dma_pct": 123.24
+  "dist_20dma_pct": 14.16,
+  "dist_50dma_pct": 14.91,
+  "dist_200dma_pct": 125.5
  }
 }

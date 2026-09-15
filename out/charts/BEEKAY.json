@@ -2,7 +2,7 @@
  "symbol": "BEEKAY",
  "name": "Beekay Steel Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-15",
  "bars": [
   {
    "time": "2026-04-20",
@@ -957,6 +957,15 @@
    "close": 425.6,
    "volume": 25298,
    "delivery_pct": 94.43
+  },
+  {
+   "time": "2026-09-15",
+   "open": 428.05,
+   "high": 442.2,
+   "low": 427.05,
+   "close": 435.15,
+   "volume": 2968,
+   "delivery_pct": 76.25
   }
  ],
  "ma": {
@@ -1308,6 +1317,10 @@
    {
     "time": "2026-09-14",
     "value": 423.63
+   },
+   {
+    "time": "2026-09-15",
+    "value": 424.19
    }
   ],
   "sma_50": [
@@ -1538,15 +1551,19 @@
    {
     "time": "2026-09-14",
     "value": 412.87
+   },
+   {
+    "time": "2026-09-15",
+    "value": 413.3
    }
   ]
  },
  "technicals": {
-  "rsi_14": 53.2,
-  "atr_pct": 4.86,
-  "rel_volume_20d": 6.18,
-  "dist_20dma_pct": 0.47,
-  "dist_50dma_pct": 3.08,
+  "rsi_14": 57.93,
+  "atr_pct": 4.69,
+  "rel_volume_20d": 0.57,
+  "dist_20dma_pct": 2.58,
+  "dist_50dma_pct": 5.29,
   "dist_200dma_pct": null
  }
 }

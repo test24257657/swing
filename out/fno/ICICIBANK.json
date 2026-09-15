@@ -1,0 +1,170 @@
+{
+ "symbol": "ICICIBANK",
+ "buildup": {
+  "label": "long_unwinding",
+  "note": "Longs are exiting \u2014 open interest is falling as price falls.",
+  "expiry": "2026-09-29",
+  "price_chg_pct": -2.08,
+  "oi_chg_pct": -1.73,
+  "open_interest": 94146500,
+  "close": 1359.7
+ },
+ "option_chain": {
+  "expiry": "29-Sep-2026",
+  "underlying_value": 1350.4,
+  "rows": [
+   {
+    "strike": 1240,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 129,
+    "put_oi_chg": 12
+   },
+   {
+    "strike": 1260,
+    "call_oi": 36,
+    "call_oi_chg": 0,
+    "put_oi": 105,
+    "put_oi_chg": -3
+   },
+   {
+    "strike": 1270,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 73,
+    "put_oi_chg": 25
+   },
+   {
+    "strike": 1280,
+    "call_oi": 65,
+    "call_oi_chg": 52,
+    "put_oi": 201,
+    "put_oi_chg": 141
+   },
+   {
+    "strike": 1290,
+    "call_oi": 63,
+    "call_oi_chg": 54,
+    "put_oi": 170,
+    "put_oi_chg": 107
+   },
+   {
+    "strike": 1300,
+    "call_oi": 261,
+    "call_oi_chg": 187,
+    "put_oi": 865,
+    "put_oi_chg": 87
+   },
+   {
+    "strike": 1310,
+    "call_oi": 139,
+    "call_oi_chg": 41,
+    "put_oi": 490,
+    "put_oi_chg": 250
+   },
+   {
+    "strike": 1320,
+    "call_oi": 312,
+    "call_oi_chg": 174,
+    "put_oi": 597,
+    "put_oi_chg": 236
+   },
+   {
+    "strike": 1330,
+    "call_oi": 280,
+    "call_oi_chg": 232,
+    "put_oi": 716,
+    "put_oi_chg": 75
+   },
+   {
+    "strike": 1340,
+    "call_oi": 531,
+    "call_oi_chg": 145,
+    "put_oi": 1826,
+    "put_oi_chg": 40
+   },
+   {
+    "strike": 1350,
+    "call_oi": 1099,
+    "call_oi_chg": 771,
+    "put_oi": 1777,
+    "put_oi_chg": 401
+   },
+   {
+    "strike": 1360,
+    "call_oi": 2194,
+    "call_oi_chg": 1771,
+    "put_oi": 2247,
+    "put_oi_chg": 332
+   },
+   {
+    "strike": 1370,
+    "call_oi": 2013,
+    "call_oi_chg": 1571,
+    "put_oi": 2711,
+    "put_oi_chg": -201
+   },
+   {
+    "strike": 1380,
+    "call_oi": 2921,
+    "call_oi_chg": 1556,
+    "put_oi": 1556,
+    "put_oi_chg": -210
+   },
+   {
+    "strike": 1390,
+    "call_oi": 2533,
+    "call_oi_chg": 532,
+    "put_oi": 1616,
+    "put_oi_chg": -283
+   },
+   {
+    "strike": 1400,
+    "call_oi": 5986,
+    "call_oi_chg": 555,
+    "put_oi": 3508,
+    "put_oi_chg": -236
+   },
+   {
+    "strike": 1410,
+    "call_oi": 4388,
+    "call_oi_chg": 353,
+    "put_oi": 2049,
+    "put_oi_chg": -139
+   },
+   {
+    "strike": 1420,
+    "call_oi": 5171,
+    "call_oi_chg": 440,
+    "put_oi": 1953,
+    "put_oi_chg": -105
+   },
+   {
+    "strike": 1430,
+    "call_oi": 2925,
+    "call_oi_chg": 390,
+    "put_oi": 1662,
+    "put_oi_chg": -63
+   },
+   {
+    "strike": 1440,
+    "call_oi": 4981,
+    "call_oi_chg": -216,
+    "put_oi": 1884,
+    "put_oi_chg": -57
+   },
+   {
+    "strike": 1450,
+    "call_oi": 4867,
+    "call_oi_chg": 310,
+    "put_oi": 1256,
+    "put_oi_chg": -6
+   }
+  ],
+  "pcr": 0.55,
+  "total_call_oi": 55043,
+  "total_put_oi": 30519,
+  "max_call_oi_strike": 1400,
+  "max_put_oi_strike": 1400
+ }
+}

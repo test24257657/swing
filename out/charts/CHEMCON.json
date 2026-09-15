@@ -2,17 +2,8 @@
  "symbol": "CHEMCON",
  "name": "Chemcon Speciality Chemicals Limited",
  "kind": "stock",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-15",
  "bars": [
-  {
-   "time": "2025-09-25",
-   "open": 246.0,
-   "high": 295.0,
-   "low": 244.51,
-   "close": 283.29,
-   "volume": 18816878,
-   "delivery_pct": 7.04
-  },
   {
    "time": "2025-09-26",
    "open": 276.0,
@@ -2271,14 +2262,19 @@
    "close": 217.23,
    "volume": 61940,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-15",
+   "open": 219.01,
+   "high": 224.5,
+   "low": 211.3,
+   "close": 213.88,
+   "volume": 72440,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-23",
-    "value": 267.03
-   },
    {
     "time": "2025-10-24",
     "value": 265.27
@@ -3037,7 +3033,7 @@
    },
    {
     "time": "2026-07-16",
-    "value": 188.15
+    "value": 188.14
    },
    {
     "time": "2026-07-17",
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-09-14",
     "value": 201.0
+   },
+   {
+    "time": "2026-09-15",
+    "value": 202.23
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-04",
-    "value": 246.04
-   },
    {
     "time": "2025-12-05",
     "value": 244.4
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-09-14",
     "value": 190.86
+   },
+   {
+    "time": "2026-09-15",
+    "value": 191.48
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-02",
-    "value": 193.33
-   },
    {
     "time": "2026-07-03",
     "value": 192.85
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-09-14",
     "value": 179.39
+   },
+   {
+    "time": "2026-09-15",
+    "value": 179.44
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.74,
-  "atr_pct": 4.1,
-  "rel_volume_20d": 1.68,
-  "dist_20dma_pct": 8.07,
-  "dist_50dma_pct": 13.81,
-  "dist_200dma_pct": 21.1
+  "rsi_14": 64.59,
+  "atr_pct": 4.31,
+  "rel_volume_20d": 1.84,
+  "dist_20dma_pct": 5.76,
+  "dist_50dma_pct": 11.7,
+  "dist_200dma_pct": 19.19
  }
 }

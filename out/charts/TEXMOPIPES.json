@@ -2,17 +2,8 @@
  "symbol": "TEXMOPIPES",
  "name": "Texmo Pipes and Products Limited",
  "kind": "stock",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-15",
  "bars": [
-  {
-   "time": "2025-09-25",
-   "open": 57.57,
-   "high": 58.23,
-   "low": 57.3,
-   "close": 58.0,
-   "volume": 21503,
-   "delivery_pct": 85.31
-  },
   {
    "time": "2025-09-26",
    "open": 56.5,
@@ -2271,14 +2262,19 @@
    "close": 60.08,
    "volume": 1133568,
    "delivery_pct": 48.49
+  },
+  {
+   "time": "2026-09-15",
+   "open": 61.2,
+   "high": 64.5,
+   "low": 60.0,
+   "close": 60.56,
+   "volume": 669660,
+   "delivery_pct": 48.57
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-23",
-    "value": 54.95
-   },
    {
     "time": "2025-10-24",
     "value": 54.79
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-09-14",
     "value": 49.1
+   },
+   {
+    "time": "2026-09-15",
+    "value": 49.87
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-04",
-    "value": 53.42
-   },
    {
     "time": "2025-12-05",
     "value": 53.25
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-09-14",
     "value": 45.77
+   },
+   {
+    "time": "2026-09-15",
+    "value": 46.1
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-02",
-    "value": 47.39
-   },
    {
     "time": "2026-07-03",
     "value": 47.32
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-09-14",
     "value": 45.43
+   },
+   {
+    "time": "2026-09-15",
+    "value": 45.49
    }
   ]
  },
  "technicals": {
-  "rsi_14": 77.74,
-  "atr_pct": 5.86,
-  "rel_volume_20d": 3.73,
-  "dist_20dma_pct": 22.36,
-  "dist_50dma_pct": 31.27,
-  "dist_200dma_pct": 32.25
+  "rsi_14": 78.28,
+  "atr_pct": 5.93,
+  "rel_volume_20d": 1.86,
+  "dist_20dma_pct": 21.43,
+  "dist_50dma_pct": 31.35,
+  "dist_200dma_pct": 33.12
  }
 }

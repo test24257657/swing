@@ -2,7 +2,7 @@
  "symbol": "TATACAP",
  "name": "Tata Capital Limited",
  "kind": "stock",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-15",
  "bars": [
   {
    "time": "2025-10-13",
@@ -2172,6 +2172,15 @@
    "close": 362.9,
    "volume": 495348,
    "delivery_pct": 58.96
+  },
+  {
+   "time": "2026-09-15",
+   "open": 365.0,
+   "high": 365.0,
+   "low": 350.95,
+   "close": 353.35,
+   "volume": 1237142,
+   "delivery_pct": 55.23
   }
  ],
  "ma": {
@@ -3063,6 +3072,10 @@
    {
     "time": "2026-09-14",
     "value": 367.39
+   },
+   {
+    "time": "2026-09-15",
+    "value": 366.9
    }
   ],
   "sma_50": [
@@ -3833,6 +3846,10 @@
    {
     "time": "2026-09-14",
     "value": 362.17
+   },
+   {
+    "time": "2026-09-15",
+    "value": 362.19
    }
   ],
   "sma_200": [
@@ -4003,15 +4020,19 @@
    {
     "time": "2026-09-14",
     "value": 339.89
+   },
+   {
+    "time": "2026-09-15",
+    "value": 340.02
    }
   ]
  },
  "technicals": {
-  "rsi_14": 46.74,
-  "atr_pct": 2.09,
-  "rel_volume_20d": 0.54,
-  "dist_20dma_pct": -1.22,
-  "dist_50dma_pct": 0.2,
-  "dist_200dma_pct": 6.77
+  "rsi_14": 37.62,
+  "atr_pct": 2.28,
+  "rel_volume_20d": 1.37,
+  "dist_20dma_pct": -3.69,
+  "dist_50dma_pct": -2.44,
+  "dist_200dma_pct": 3.92
  }
 }

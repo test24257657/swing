@@ -2,7 +2,7 @@
  "symbol": "KSR",
  "name": "KSR Footwear Limited",
  "kind": "stock",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-15",
  "bars": [
   {
    "time": "2025-11-27",
@@ -1875,6 +1875,15 @@
    "close": 42.4,
    "volume": 124716,
    "delivery_pct": 63.97
+  },
+  {
+   "time": "2026-09-15",
+   "open": 42.61,
+   "high": 44.52,
+   "low": 42.61,
+   "close": 44.4,
+   "volume": 100470,
+   "delivery_pct": 64.34
   }
  ],
  "ma": {
@@ -2634,6 +2643,10 @@
    {
     "time": "2026-09-14",
     "value": 32.44
+   },
+   {
+    "time": "2026-09-15",
+    "value": 33.23
    }
   ],
   "sma_50": [
@@ -3272,6 +3285,10 @@
    {
     "time": "2026-09-14",
     "value": 30.54
+   },
+   {
+    "time": "2026-09-15",
+    "value": 30.77
    }
   ],
   "sma_200": [
@@ -3310,15 +3327,19 @@
    {
     "time": "2026-09-14",
     "value": 30.43
+   },
+   {
+    "time": "2026-09-15",
+    "value": 30.55
    }
   ]
  },
  "technicals": {
-  "rsi_14": 78.42,
-  "atr_pct": 5.8,
-  "rel_volume_20d": 1.05,
-  "dist_20dma_pct": 30.71,
-  "dist_50dma_pct": 38.83,
-  "dist_200dma_pct": 39.33
+  "rsi_14": 80.82,
+  "atr_pct": 5.48,
+  "rel_volume_20d": 0.8,
+  "dist_20dma_pct": 33.59,
+  "dist_50dma_pct": 44.28,
+  "dist_200dma_pct": 45.35
  }
 }

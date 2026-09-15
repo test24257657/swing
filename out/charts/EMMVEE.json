@@ -2,7 +2,7 @@
  "symbol": "EMMVEE",
  "name": "Emmvee Photovoltaic Power Limited",
  "kind": "stock",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-15",
  "bars": [
   {
    "time": "2025-11-18",
@@ -1938,6 +1938,15 @@
    "close": 346.0,
    "volume": 3747104,
    "delivery_pct": 34.61
+  },
+  {
+   "time": "2026-09-15",
+   "open": 346.0,
+   "high": 349.7,
+   "low": 322.45,
+   "close": 328.55,
+   "volume": 2890305,
+   "delivery_pct": 45.91
   }
  ],
  "ma": {
@@ -2725,6 +2734,10 @@
    {
     "time": "2026-09-14",
     "value": 328.24
+   },
+   {
+    "time": "2026-09-15",
+    "value": 328.78
    }
   ],
   "sma_50": [
@@ -3391,6 +3404,10 @@
    {
     "time": "2026-09-14",
     "value": 327.83
+   },
+   {
+    "time": "2026-09-15",
+    "value": 327.85
    }
   ],
   "sma_200": [
@@ -3457,15 +3474,19 @@
    {
     "time": "2026-09-14",
     "value": 263.6
+   },
+   {
+    "time": "2026-09-15",
+    "value": 264.24
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.41,
-  "atr_pct": 3.24,
-  "rel_volume_20d": 1.93,
-  "dist_20dma_pct": 5.41,
-  "dist_50dma_pct": 5.54,
-  "dist_200dma_pct": 31.26
+  "rsi_14": 49.39,
+  "atr_pct": 3.76,
+  "rel_volume_20d": 1.41,
+  "dist_20dma_pct": -0.07,
+  "dist_50dma_pct": 0.22,
+  "dist_200dma_pct": 24.34
  }
 }
