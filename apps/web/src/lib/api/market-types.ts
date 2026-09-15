@@ -143,7 +143,12 @@ export interface FundamentalsData {
   verification: FilingVerification | null;
 }
 
-export type PatternCode = "vcp" | "ipo_base" | "high_52w_breakout" | "near_pivot";
+export type PatternCode =
+  | "vcp"
+  | "ipo_base"
+  | "high_52w_breakout"
+  | "trendline_breakout"
+  | "near_pivot";
 export type BreakoutStage = "forming" | "confirmed" | "extended";
 
 export interface PatternMatch {

@@ -26,6 +26,19 @@ def _frame(sub: pd.DataFrame) -> pd.DataFrame:
     return sub.sort_values("date").set_index("date")[["high", "low", "close", "volume"]]
 
 
+def _at(series: pd.Series, pos: int) -> float | None:
+    """One value out of an indicator series by position, or None if it isn't there yet
+    (a young listing simply has no 200-day average)."""
+    if len(series) < abs(pos):
+        return None
+    v = series.iloc[pos]
+    return float(v) if pd.notna(v) else None
+
+
+def _last(series: pd.Series) -> float | None:
+    return _at(series, -1)
+
+
 def build(panel: pd.DataFrame) -> tuple[dict, dict]:
     if panel.empty:
         return {}, {"ok": False, "symbols_scanned": 0, "symbols_matched": 0}
@@ -46,11 +59,20 @@ def build(panel: pd.DataFrame) -> tuple[dict, dict]:
         df = _frame(sub)
         vol20 = sma(df["volume"], 20)
         atr14 = wilder_atr(df["high"], df["low"], df["close"], 14)
+        close = df["close"]
+        year = close.tail(252)
         ctx = DetectContext(
             listing_date=listings.get(symbol),
             vol_sma_20=float(vol20.iloc[-1]) if pd.notna(vol20.iloc[-1]) else None,
-            high_52w=None,
+            high_52w=float(year.max()) if len(year) else None,
             atr_14=float(atr14.iloc[-1]) if pd.notna(atr14.iloc[-1]) else None,
+            sma_50=_last(sma(close, 50)),
+            sma_150=_last(sma(close, 150)),
+            sma_200=_last(sma(close, 200)),
+            # same 200-SMA ~22 sessions ago — its slope is the trend-template leg that
+            # a flat-but-stacked average would otherwise sneak past.
+            sma_200_month_ago=_at(sma(close, 200), -22),
+            low_52w=float(year.min()) if len(year) else None,
         )
         matches = detect_all(df, ctx)
         if not matches:

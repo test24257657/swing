@@ -38,13 +38,25 @@ are validated.
   → PatternMatch | None`. Shared helpers in `base.py`: `swing_points`,
   `contraction_legs`, `clamp01`.
   - `high_52w_breakout` — close at/above (or within 2% below) the trailing 52-week high;
-    pivot = prior 52w high; target = pivot ×1.20.
+    pivot = prior 52w high (measured *before* the confirm window, so a breakout bar can't
+    raise the very level it broke); target = pivot ×1.20.
   - `vcp` — ≥2 pullback legs with broadly decreasing depth, first ≥8% / last ≤12%,
-    price coiled within ~8% of the base high, volume drying into the pivot.
+    price coiled within ~8% of the base high, volume drying into the pivot. **Gated on
+    the Minervini Trend Template** (`base.trend_template`) — a contraction inside a
+    downtrend is not a VCP, and on the live panel that gate removes 57% of what the
+    detector used to emit (87 → 37 matches).
   - `near_pivot` — price within ~3% below a resistance tested ≥2 times, not yet crossed;
     always `forming`. Suppressed when VCP already fired.
-  - `ipo_base` — symbol listed within ~2 years, a ≥4-week range ≤35% wide, post-listing
-    high as the pivot.
+  - `ipo_base` — symbol listed within ~400 days **and** with ≤250 sessions of history, a
+    ≥4-week range ≤30% wide, post-listing high as the pivot, breakout volume ≥2.0×
+    (stricter than the shared 1.4× — a first-base breakout with no volume is the classic
+    failure). The pivot is taken from *before* the confirm window; it previously included
+    today's bar, so an IPO base could never mathematically reach `confirmed`.
+  - `trendline_breakout` — successively lower swing highs fitted to a falling line
+    (≥3 touches spanning ≥40 sessions), with price now closed above the line's value
+    *today* on a volume-confirmed thrust of ≥2%. Only `confirmed` matches are emitted.
+    Tuned against random walks until the false-positive rate fell from 11.7% to 0.3%;
+    on the real panel it fires on 14 of 2,680 symbols (0.5%).
 - `detect_all()` drops matches below 0.35 confidence — a missing pattern beats a wrong one.
 - `detector_version` on every row (`pattern_signals.detector_version`).
 
@@ -73,7 +85,7 @@ are validated.
   note.
 
 ### Tests
-- `tests/test_patterns.py` — 11 synthetic cases: each detector fires on a clear example
+- `tests/test_patterns.py` — 22 synthetic cases: each detector fires on a clear example
   and stays silent on a clear non-example; stage classifier extended/forming; orchestrator
   confidence floor + near_pivot/VCP dedupe.
 

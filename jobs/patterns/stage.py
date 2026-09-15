@@ -20,8 +20,13 @@ def classify_stage(
     volume: pd.Series,
     pivot: float,
     vol_sma_20: float | None,
+    vol_mult: float = CONFIRM_VOL_MULT,
 ) -> tuple[str, pd.Timestamp | None, float | None]:
-    """Returns (stage, breakout_date, breakout_volume_ratio)."""
+    """Returns (stage, breakout_date, breakout_volume_ratio).
+
+    ``vol_mult`` lets a detector demand a bigger thrust than the shared default — the
+    IPO base does, because a first-base breakout on thin volume fails far more often
+    than the same breakout out of an established base."""
     last = float(close.iloc[-1])
     if pivot <= 0:
         return "forming", None, None
@@ -43,7 +48,7 @@ def classify_stage(
         vr = None
         if vol_sma_20 and vol_sma_20 > 0:
             vr = round(float(volume.loc[crossed_on]) / vol_sma_20, 3)
-        if vr is None or vr >= CONFIRM_VOL_MULT:
+        if vr is None or vr >= vol_mult:
             return "confirmed", crossed_on, vr
         # crossed but without a volume thrust — treat as still forming
         return "forming", crossed_on, vr
