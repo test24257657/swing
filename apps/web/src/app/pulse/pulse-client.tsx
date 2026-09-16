@@ -145,7 +145,6 @@ export function PulseClient() {
       )}
 
       <WeeklyOutlookCard />
-      <TopPicksCard />
 
       {/* Index tiles — click any to open its chart */}
       <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
@@ -334,6 +333,8 @@ export function PulseClient() {
           </div>
         </Card>
       </div>
+
+      <TopPicksCard />
     </Screen>
   );
 }
@@ -473,7 +474,7 @@ function TopPicksCard() {
   const isAi = d.source === "ai";
 
   return (
-    <Card className="mb-2 p-4">
+    <Card className="mt-2 p-4">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <div className="flex items-center gap-2">
           <h2 className="text-[13px] font-semibold">Top 5 swing setups</h2>
