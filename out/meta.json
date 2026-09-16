@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T20:01:38+05:30",
+ "generated_at": "2026-09-16T23:16:01+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -7,10 +7,8 @@
   },
   "bhavcopy": {
    "ok": true,
-   "sessions_added": 7,
-   "failed": [
-    "2025-10-02"
-   ],
+   "sessions_added": 0,
+   "failed": [],
    "symbols": 3062,
    "sessions": 252,
    "rows": 659911
@@ -72,7 +70,7 @@
   "news": {
    "ok": true,
    "fetched": 35,
-   "classified": 20,
+   "classified": 35,
    "gemini_configured": true
   },
   "institutional": {
@@ -99,9 +97,9 @@
   },
   "results_calendar": {
    "ok": true,
-   "upcoming": 8,
-   "past_candidates": 45,
-   "judged": 12,
+   "upcoming": 0,
+   "past_candidates": 0,
+   "judged": 0,
    "good": 0
   }
  }
