@@ -61,3 +61,27 @@ No extra fetch — one `useNews()` call, shared by both the `/news` screen and t
 Actions) for news classification to run in the nightly CI job — the workflow reads it
 via `secrets.GEMINI_API_KEY` (`.github/workflows/nightly.yml`). Without it, `news.json`
 still gets produced, just with every item shipping as `"neutral"` and no AI summary.
+
+## Stock chat ("Ask AI" on the chart page)
+
+- `POST /chat/{slug}` — body `{messages: [{role: "user"|"model", text}]}`; the client owns
+  the conversation and sends it back each turn (last 12 turns kept). Auth required.
+- `app/services/stock_chat.py::build_context` gathers price, technicals, setup pattern,
+  bulk/block deals, money-flow pick, F&O, quarterly results, announcements, sector and the
+  weekly outlook for the symbol. **All arithmetic is done in Python** (move since deal
+  price, gap vs pivot, stop risk %, target %, reward-to-risk) — the prompt tells the model
+  to quote those figures, never compute its own. Same-day buy+sell by one client is
+  flagged as offsetting (intraday/arbitrage), excluded from the net-deal value.
+- `SYSTEM_PROMPT` — hard grounding rules (data block only, no invented numbers, no bare
+  buy/sell, EOD-data caveat), a fixed reasoning order (trend → setup → timing/chasing →
+  risk → confirmation → big players → fundamentals/news → both sides), and a fixed
+  answer shape (Verdict / Why / Plan / Risks + disclaimer).
+- `app/services/gemini.py` — stdlib urllib (no new deploy deps), primary → fallback key on
+  429/5xx, `maxOutputTokens` 8192 (1500 truncated answers: 3.x spends budget reasoning).
+- Quota: `CHAT_DAILY_LIMIT` (default 20) per user per IST day, in memory; a failed Gemini
+  call refunds the question. Needs `GEMINI_API_KEY` **on Render**, not just in GitHub
+  Actions secrets.
+- Tests: `apps/api/tests/test_stock_chat.py` pins every computed figure.
+
+Deferred: market-wide questions ("best stocks this week?"); persisting conversations;
+a quota counter that survives API restarts.

@@ -417,3 +417,16 @@ export interface ResultsCalendarData {
   window: { from: string; to: string };
   entries: ResultsCalendarEntry[];
 }
+
+export interface ChatTurn {
+  role: "user" | "model";
+  text: string;
+}
+
+export interface ChatReply {
+  answer: string;
+  data_used: string[];
+  data_as_of: string | null;
+  used_today: number;
+  daily_limit: number;
+}
