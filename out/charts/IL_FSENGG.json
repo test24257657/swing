@@ -2,17 +2,8 @@
  "symbol": "IL&FSENGG",
  "name": "IL&FS Engineering and Construction Company Limited",
  "kind": "stock",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-16",
  "bars": [
-  {
-   "time": "2025-09-26",
-   "open": 28.41,
-   "high": 30.8,
-   "low": 28.41,
-   "close": 30.34,
-   "volume": 1823,
-   "delivery_pct": null
-  },
   {
    "time": "2025-09-29",
    "open": 29.73,
@@ -2271,14 +2262,19 @@
    "close": 39.17,
    "volume": 25777,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-16",
+   "open": 39.2,
+   "high": 40.05,
+   "low": 38.5,
+   "close": 39.93,
+   "volume": 36753,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-24",
-    "value": 27.92
-   },
    {
     "time": "2025-10-27",
     "value": 27.82
@@ -2933,7 +2929,7 @@
    },
    {
     "time": "2026-06-11",
-    "value": 28.48
+    "value": 28.49
    },
    {
     "time": "2026-06-12",
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-09-15",
     "value": 36.55
+   },
+   {
+    "time": "2026-09-16",
+    "value": 36.67
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-05",
-    "value": 27.55
-   },
    {
     "time": "2025-12-08",
     "value": 27.5
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-09-15",
     "value": 34.0
+   },
+   {
+    "time": "2026-09-16",
+    "value": 34.23
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-03",
-    "value": 26.69
-   },
    {
     "time": "2026-07-06",
     "value": 26.69
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-09-15",
     "value": 28.32
+   },
+   {
+    "time": "2026-09-16",
+    "value": 28.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.86,
-  "atr_pct": 4.56,
-  "rel_volume_20d": 0.39,
-  "dist_20dma_pct": 7.18,
-  "dist_50dma_pct": 15.21,
-  "dist_200dma_pct": 38.29
+  "rsi_14": 67.34,
+  "atr_pct": 4.43,
+  "rel_volume_20d": 0.56,
+  "dist_20dma_pct": 8.9,
+  "dist_50dma_pct": 16.66,
+  "dist_200dma_pct": 40.63
  }
 }

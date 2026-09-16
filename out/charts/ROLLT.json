@@ -2,17 +2,8 @@
  "symbol": "ROLLT",
  "name": "Rollatainers Limited",
  "kind": "stock",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-16",
  "bars": [
-  {
-   "time": "2025-09-26",
-   "open": 1.28,
-   "high": 1.31,
-   "low": 1.22,
-   "close": 1.27,
-   "volume": 317754,
-   "delivery_pct": 69.23
-  },
   {
    "time": "2025-09-29",
    "open": 1.3,
@@ -2271,14 +2262,19 @@
    "close": 4.95,
    "volume": 972824,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-16",
+   "open": 4.98,
+   "high": 5.19,
+   "low": 4.98,
+   "close": 5.19,
+   "volume": 932152,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-24",
-    "value": 1.23
-   },
    {
     "time": "2025-10-27",
     "value": 1.23
@@ -3145,7 +3141,7 @@
    },
    {
     "time": "2026-08-25",
-    "value": 3.07
+    "value": 3.06
    },
    {
     "time": "2026-08-26",
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-09-15",
     "value": 4.21
+   },
+   {
+    "time": "2026-09-16",
+    "value": 4.31
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-05",
-    "value": 1.21
-   },
    {
     "time": "2025-12-08",
     "value": 1.21
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-09-15",
     "value": 3.22
+   },
+   {
+    "time": "2026-09-16",
+    "value": 3.27
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-03",
-    "value": 1.56
-   },
    {
     "time": "2026-07-06",
     "value": 1.56
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-09-15",
     "value": 2.07
+   },
+   {
+    "time": "2026-09-16",
+    "value": 2.09
    }
   ]
  },
  "technicals": {
-  "rsi_14": 79.26,
-  "atr_pct": 5.53,
-  "rel_volume_20d": 1.38,
-  "dist_20dma_pct": 17.45,
-  "dist_50dma_pct": 53.65,
-  "dist_200dma_pct": 138.92
+  "rsi_14": 81.98,
+  "atr_pct": 5.23,
+  "rel_volume_20d": 1.27,
+  "dist_20dma_pct": 20.46,
+  "dist_50dma_pct": 58.52,
+  "dist_200dma_pct": 148.11
  }
 }

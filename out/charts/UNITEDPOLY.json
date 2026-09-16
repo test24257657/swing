@@ -2,17 +2,8 @@
  "symbol": "UNITEDPOLY",
  "name": "United Polyfab Gujarat Limited",
  "kind": "stock",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-16",
  "bars": [
-  {
-   "time": "2025-09-26",
-   "open": 51.16,
-   "high": 51.16,
-   "low": 46.29,
-   "close": 49.63,
-   "volume": 1064460,
-   "delivery_pct": null
-  },
   {
    "time": "2025-09-29",
    "open": 47.14,
@@ -2271,14 +2262,19 @@
    "close": 42.75,
    "volume": 129163,
    "delivery_pct": 66.43
+  },
+  {
+   "time": "2026-09-16",
+   "open": 44.4,
+   "high": 44.4,
+   "low": 41.5,
+   "close": 43.19,
+   "volume": 143829,
+   "delivery_pct": 52.12
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-24",
-    "value": 44.46
-   },
    {
     "time": "2025-10-27",
     "value": 44.12
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-09-15",
     "value": 39.67
+   },
+   {
+    "time": "2026-09-16",
+    "value": 40.06
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-05",
-    "value": 42.29
-   },
    {
     "time": "2025-12-08",
     "value": 42.03
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-09-15",
     "value": 34.18
+   },
+   {
+    "time": "2026-09-16",
+    "value": 34.42
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-03",
-    "value": 32.41
-   },
    {
     "time": "2026-07-06",
     "value": 32.33
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-09-15",
     "value": 30.34
+   },
+   {
+    "time": "2026-09-16",
+    "value": 30.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 73.66,
-  "atr_pct": 5.25,
-  "rel_volume_20d": 0.93,
-  "dist_20dma_pct": 7.77,
-  "dist_50dma_pct": 25.09,
-  "dist_200dma_pct": 40.89
+  "rsi_14": 74.91,
+  "atr_pct": 5.3,
+  "rel_volume_20d": 1.04,
+  "dist_20dma_pct": 7.8,
+  "dist_50dma_pct": 25.46,
+  "dist_200dma_pct": 42.11
  }
 }

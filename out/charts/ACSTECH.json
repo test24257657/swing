@@ -2,7 +2,7 @@
  "symbol": "ACSTECH",
  "name": "ACS Technologies Limited",
  "kind": "stock",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-16",
  "bars": [
   {
    "time": "2026-04-20",
@@ -966,6 +966,15 @@
    "close": 59.45,
    "volume": 274304,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-16",
+   "open": 59.39,
+   "high": 61.0,
+   "low": 56.5,
+   "close": 60.0,
+   "volume": 189174,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1321,6 +1330,10 @@
    {
     "time": "2026-09-15",
     "value": 53.2
+   },
+   {
+    "time": "2026-09-16",
+    "value": 53.72
    }
   ],
   "sma_50": [
@@ -1555,15 +1568,19 @@
    {
     "time": "2026-09-15",
     "value": 47.59
+   },
+   {
+    "time": "2026-09-16",
+    "value": 47.96
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.59,
-  "atr_pct": 4.6,
-  "rel_volume_20d": 0.89,
-  "dist_20dma_pct": 11.74,
-  "dist_50dma_pct": 24.93,
+  "rsi_14": 73.53,
+  "atr_pct": 4.77,
+  "rel_volume_20d": 0.62,
+  "dist_20dma_pct": 11.69,
+  "dist_50dma_pct": 25.12,
   "dist_200dma_pct": null
  }
 }

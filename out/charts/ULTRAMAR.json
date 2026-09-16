@@ -2,7 +2,7 @@
  "symbol": "ULTRAMAR",
  "name": "Ultramarine & Pigments Limited",
  "kind": "stock",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-16",
  "bars": [
   {
    "time": "2026-04-20",
@@ -966,6 +966,15 @@
    "close": 416.2,
    "volume": 39348,
    "delivery_pct": 67.93
+  },
+  {
+   "time": "2026-09-16",
+   "open": 415.2,
+   "high": 429.0,
+   "low": 410.7,
+   "close": 418.65,
+   "volume": 45196,
+   "delivery_pct": 63.31
   }
  ],
  "ma": {
@@ -1321,6 +1330,10 @@
    {
     "time": "2026-09-15",
     "value": 424.89
+   },
+   {
+    "time": "2026-09-16",
+    "value": 425.87
    }
   ],
   "sma_50": [
@@ -1555,15 +1568,19 @@
    {
     "time": "2026-09-15",
     "value": 402.47
+   },
+   {
+    "time": "2026-09-16",
+    "value": 403.22
    }
   ]
  },
  "technicals": {
-  "rsi_14": 49.06,
-  "atr_pct": 3.93,
-  "rel_volume_20d": 0.42,
-  "dist_20dma_pct": -2.05,
-  "dist_50dma_pct": 3.41,
+  "rsi_14": 50.22,
+  "atr_pct": 3.94,
+  "rel_volume_20d": 0.48,
+  "dist_20dma_pct": -1.7,
+  "dist_50dma_pct": 3.83,
   "dist_200dma_pct": null
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "SWANDEF",
  "name": "Swan Defence and Heavy Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-16",
  "bars": [
   {
    "time": "2025-09-29",
@@ -1569,6 +1569,15 @@
    "close": 2650.5,
    "volume": 21102,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-16",
+   "open": 2601.3,
+   "high": 2720.0,
+   "low": 2520.2,
+   "close": 2687.2,
+   "volume": 17649,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -2192,6 +2201,10 @@
    {
     "time": "2026-09-15",
     "value": 2480.31
+   },
+   {
+    "time": "2026-09-16",
+    "value": 2497.27
    }
   ],
   "sma_50": [
@@ -2694,15 +2707,19 @@
    {
     "time": "2026-09-15",
     "value": 2431.51
+   },
+   {
+    "time": "2026-09-16",
+    "value": 2440.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.04,
-  "atr_pct": 4.47,
-  "rel_volume_20d": 0.82,
-  "dist_20dma_pct": 6.86,
-  "dist_50dma_pct": 9.01,
+  "rsi_14": 65.32,
+  "atr_pct": 4.62,
+  "rel_volume_20d": 0.68,
+  "dist_20dma_pct": 7.61,
+  "dist_50dma_pct": 10.1,
   "dist_200dma_pct": null
  }
 }

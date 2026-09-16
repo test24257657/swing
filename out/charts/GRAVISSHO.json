@@ -2,7 +2,7 @@
  "symbol": "GRAVISSHO",
  "name": "Graviss Hospitality Limited",
  "kind": "stock",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-16",
  "bars": [
   {
    "time": "2026-04-20",
@@ -957,6 +957,15 @@
    "close": 46.97,
    "volume": 129348,
    "delivery_pct": 57.06
+  },
+  {
+   "time": "2026-09-16",
+   "open": 49.0,
+   "high": 49.9,
+   "low": 42.28,
+   "close": 42.37,
+   "volume": 94415,
+   "delivery_pct": 60.08
   }
  ],
  "ma": {
@@ -1308,6 +1317,10 @@
    {
     "time": "2026-09-15",
     "value": 32.01
+   },
+   {
+    "time": "2026-09-16",
+    "value": 32.69
    }
   ],
   "sma_50": [
@@ -1538,15 +1551,19 @@
    {
     "time": "2026-09-15",
     "value": 30.81
+   },
+   {
+    "time": "2026-09-16",
+    "value": 31.06
    }
   ]
  },
  "technicals": {
-  "rsi_14": 82.17,
-  "atr_pct": 6.23,
-  "rel_volume_20d": 1.39,
-  "dist_20dma_pct": 46.73,
-  "dist_50dma_pct": 52.47,
+  "rsi_14": 67.93,
+  "atr_pct": 7.7,
+  "rel_volume_20d": 0.95,
+  "dist_20dma_pct": 29.6,
+  "dist_50dma_pct": 36.41,
   "dist_200dma_pct": null
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "RUBICON",
  "name": "Rubicon Research Limited",
  "kind": "stock",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-16",
  "bars": [
   {
    "time": "2025-10-16",
@@ -2154,6 +2154,15 @@
    "close": 1815.6,
    "volume": 200388,
    "delivery_pct": 47.1
+  },
+  {
+   "time": "2026-09-16",
+   "open": 1802.0,
+   "high": 1812.3,
+   "low": 1712.1,
+   "close": 1766.7,
+   "volume": 415964,
+   "delivery_pct": 49.59
   }
  ],
  "ma": {
@@ -3037,6 +3046,10 @@
    {
     "time": "2026-09-15",
     "value": 1797.18
+   },
+   {
+    "time": "2026-09-16",
+    "value": 1795.58
    }
   ],
   "sma_50": [
@@ -3799,6 +3812,10 @@
    {
     "time": "2026-09-15",
     "value": 1639.7
+   },
+   {
+    "time": "2026-09-16",
+    "value": 1647.31
    }
   ],
   "sma_200": [
@@ -3961,15 +3978,19 @@
    {
     "time": "2026-09-15",
     "value": 1074.39
+   },
+   {
+    "time": "2026-09-16",
+    "value": 1080.05
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.49,
-  "atr_pct": 4.19,
-  "rel_volume_20d": 0.65,
-  "dist_20dma_pct": 1.02,
-  "dist_50dma_pct": 10.73,
-  "dist_200dma_pct": 68.99
+  "rsi_14": 51.85,
+  "atr_pct": 4.41,
+  "rel_volume_20d": 1.47,
+  "dist_20dma_pct": -1.61,
+  "dist_50dma_pct": 7.25,
+  "dist_200dma_pct": 63.58
  }
 }

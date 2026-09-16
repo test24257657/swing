@@ -2,7 +2,7 @@
  "symbol": "NEPHROPLUS",
  "name": "Nephrocare Health Services Limited",
  "kind": "stock",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-16",
  "bars": [
   {
    "time": "2025-12-17",
@@ -1758,6 +1758,15 @@
    "close": 734.95,
    "volume": 306493,
    "delivery_pct": 55.54
+  },
+  {
+   "time": "2026-09-16",
+   "open": 734.85,
+   "high": 742.7,
+   "low": 710.05,
+   "close": 735.2,
+   "volume": 144067,
+   "delivery_pct": 50.7
   }
  ],
  "ma": {
@@ -2465,6 +2474,10 @@
    {
     "time": "2026-09-15",
     "value": 709.28
+   },
+   {
+    "time": "2026-09-16",
+    "value": 711.49
    }
   ],
   "sma_50": [
@@ -3051,15 +3064,19 @@
    {
     "time": "2026-09-15",
     "value": 687.54
+   },
+   {
+    "time": "2026-09-16",
+    "value": 689.46
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.06,
-  "atr_pct": 4.15,
-  "rel_volume_20d": 1.34,
-  "dist_20dma_pct": 3.62,
-  "dist_50dma_pct": 6.89,
+  "rsi_14": 57.13,
+  "atr_pct": 4.17,
+  "rel_volume_20d": 0.61,
+  "dist_20dma_pct": 3.33,
+  "dist_50dma_pct": 6.63,
   "dist_200dma_pct": null
  }
 }

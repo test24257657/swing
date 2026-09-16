@@ -2,17 +2,8 @@
  "symbol": "BHAGYANGR",
  "name": "Bhagyanagar India Limited",
  "kind": "stock",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-16",
  "bars": [
-  {
-   "time": "2025-09-26",
-   "open": 99.41,
-   "high": 99.41,
-   "low": 93.05,
-   "close": 95.98,
-   "volume": 79248,
-   "delivery_pct": null
-  },
   {
    "time": "2025-09-29",
    "open": 97.5,
@@ -2271,14 +2262,19 @@
    "close": 405.0,
    "volume": 183392,
    "delivery_pct": 46.84
+  },
+  {
+   "time": "2026-09-16",
+   "open": 405.0,
+   "high": 425.25,
+   "low": 387.0,
+   "close": 425.25,
+   "volume": 328669,
+   "delivery_pct": 52.88
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-24",
-    "value": 98.28
-   },
    {
     "time": "2025-10-27",
     "value": 99.5
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-09-15",
     "value": 392.01
+   },
+   {
+    "time": "2026-09-16",
+    "value": 394.16
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-05",
-    "value": 122.86
-   },
    {
     "time": "2025-12-08",
     "value": 123.46
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-09-15",
     "value": 387.94
+   },
+   {
+    "time": "2026-09-16",
+    "value": 388.96
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-03",
-    "value": 191.93
-   },
    {
     "time": "2026-07-06",
     "value": 193.4
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-09-15",
     "value": 260.86
+   },
+   {
+    "time": "2026-09-16",
+    "value": 262.38
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.63,
-  "atr_pct": 4.63,
-  "rel_volume_20d": 0.88,
-  "dist_20dma_pct": 3.31,
-  "dist_50dma_pct": 4.4,
-  "dist_200dma_pct": 55.26
+  "rsi_14": 60.96,
+  "atr_pct": 4.74,
+  "rel_volume_20d": 1.73,
+  "dist_20dma_pct": 7.89,
+  "dist_50dma_pct": 9.33,
+  "dist_200dma_pct": 62.08
  }
 }

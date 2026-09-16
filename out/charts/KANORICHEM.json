@@ -2,17 +2,8 @@
  "symbol": "KANORICHEM",
  "name": "Kanoria Chemicals & Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-16",
  "bars": [
-  {
-   "time": "2025-09-26",
-   "open": 82.64,
-   "high": 82.64,
-   "low": 80.1,
-   "close": 80.4,
-   "volume": 10345,
-   "delivery_pct": 57.69
-  },
   {
    "time": "2025-09-29",
    "open": 80.49,
@@ -2271,14 +2262,19 @@
    "close": 178.12,
    "volume": 67464,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-16",
+   "open": 187.02,
+   "high": 187.02,
+   "low": 169.5,
+   "close": 186.97,
+   "volume": 214032,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-24",
-    "value": 80.08
-   },
    {
     "time": "2025-10-27",
     "value": 79.98
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-09-15",
     "value": 160.11
+   },
+   {
+    "time": "2026-09-16",
+    "value": 161.88
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-05",
-    "value": 77.93
-   },
    {
     "time": "2025-12-08",
     "value": 77.77
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-09-15",
     "value": 152.22
+   },
+   {
+    "time": "2026-09-16",
+    "value": 153.42
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-03",
-    "value": 80.59
-   },
    {
     "time": "2026-07-06",
     "value": 80.87
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-09-15",
     "value": 99.77
+   },
+   {
+    "time": "2026-09-16",
+    "value": 100.35
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.56,
-  "atr_pct": 4.8,
-  "rel_volume_20d": 1.5,
-  "dist_20dma_pct": 11.25,
-  "dist_50dma_pct": 17.01,
-  "dist_200dma_pct": 78.53
+  "rsi_14": 77.32,
+  "atr_pct": 4.91,
+  "rel_volume_20d": 4.54,
+  "dist_20dma_pct": 15.5,
+  "dist_50dma_pct": 21.87,
+  "dist_200dma_pct": 86.32
  }
 }
