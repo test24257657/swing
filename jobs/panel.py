@@ -34,6 +34,28 @@ def save(df: pd.DataFrame) -> None:
     df.sort_values(["symbol", "date"]).reset_index(drop=True).to_parquet(PANEL_PATH, index=False)
 
 
+# A real session never repeats the previous one: across the live panel 0 of ~2,900
+# symbols share both close and volume day to day. A date where nearly all of them do
+# is a holiday stamped with the prior session's file.
+PHANTOM_SESSION_SHARE = 0.95
+
+
+def drop_phantom_sessions(panel: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
+    """Remove sessions that are byte-for-byte copies of the session before them.
+    Heals a panel that was built before bhavcopy() learned to check the file's own date."""
+    if panel.empty:
+        return panel, []
+    close = panel.pivot_table(index="date", columns="symbol", values="close")
+    volume = panel.pivot_table(index="date", columns="symbol", values="volume")
+    both = close.notna() & close.shift().notna()
+    same = (close == close.shift()) & (volume == volume.shift()) & both
+    share = same.sum(axis=1) / both.sum(axis=1).where(lambda n: n > 0)
+    phantoms = list(share[share >= PHANTOM_SESSION_SHARE].index)
+    if not phantoms:
+        return panel, []
+    return panel[~panel["date"].isin(phantoms)].reset_index(drop=True), [pd.Timestamp(d).date().isoformat() for d in phantoms]
+
+
 def _sessions(end: date, back: int) -> list[date]:
     """Weekday candidates, newest first. Holidays simply return no bhavcopy."""
     out, d = [], end
@@ -47,7 +69,9 @@ def _sessions(end: date, back: int) -> list[date]:
 def build(end: date, backfill_days: int) -> tuple[pd.DataFrame, dict]:
     """Append every missing session up to ``end``. Returns (panel, stats)."""
     universe = set(index_constituents(UNIVERSE_INDEX)) if UNIVERSE_INDEX else set()
-    panel = load()
+    panel, phantoms = drop_phantom_sessions(load())
+    if phantoms:
+        log.warning("panel: dropped phantom sessions (copies of the prior day): %s", phantoms)
     have = set(panel["date"].dt.date.unique()) if not panel.empty else set()
 
     wanted = [d for d in _sessions(end, backfill_days) if d not in have]
@@ -82,6 +106,7 @@ def build(end: date, backfill_days: int) -> tuple[pd.DataFrame, dict]:
         "ok": True,
         "sessions_added": len(fetched),
         "failed": failed,
+        "phantom_sessions_dropped": phantoms,
         "symbols": int(panel["symbol"].nunique()),
         "sessions": int(panel["date"].nunique()),
         "rows": len(panel),

@@ -99,3 +99,13 @@ are validated.
 | Pattern overlays on the chart (contraction zones, pivot lines) | Phase 3 |
 | Corporate-action-adjusted OHLC for detection (Plan A panel is unadjusted) | later |
 | Composite score, RS-vs-sector, delivery %, RSI, sector column, saved screens, CSV export, card/grid view | Phase 9 (score) and later (the rest — no sector data yet) |
+
+### Data fix — phantom holiday sessions
+On an NSE holiday the bhavcopy endpoint served the previous session's file, which we
+stamped with the requested date. The panel had **14 fake sessions** in its one-year
+window (every NSE holiday since Oct 2025), ~5.5% of bars — skewing SMAs, RSI, ATR,
+volume averages, returns and pattern lookbacks for every symbol.
+- `sources.bhavcopy` now checks the file's own `DATE1` and rejects a mismatch.
+- `panel.drop_phantom_sessions` removes any session where ≥95% of symbols repeat the prior
+  day's close *and* volume (real sessions: 0 of ~2,900), healing panels already cached in
+  GitHub Actions. Dropped dates are reported in `meta.json` → `phantom_sessions_dropped`.

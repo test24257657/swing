@@ -160,6 +160,17 @@ def bhavcopy(d: date) -> pd.DataFrame | None:
             return None
         raw.to_csv(cache, index=False)
 
+    # On a holiday NSE can serve the *previous* session's file for the requested date.
+    # Stamping that with `d` invents a fake session (identical OHLCV) that silently
+    # skews every return, moving average and pattern. The file states its own trade
+    # date — trust that, not the date we asked for.
+    if "DATE1" in raw.columns:
+        file_dates = pd.to_datetime(raw["DATE1"].astype(str).str.strip(), format="%d-%b-%Y", errors="coerce")
+        if not (file_dates.dropna().dt.date == d).any():
+            log.warning("bhavcopy %s: file is for %s — not a trading session, skipped",
+                        d, file_dates.dropna().dt.date.mode().tolist())
+            return None
+
     df = raw.rename(columns={k: v for k, v in _BHAV_COLS.items() if k in raw.columns})
     if "symbol" not in df.columns:
         return None
