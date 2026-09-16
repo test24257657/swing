@@ -7,6 +7,20 @@ from pathlib import Path
 
 # --- paths -------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parent.parent
+
+# Local runs read keys from the gitignored .env files, so `python -m jobs.run_nightly`
+# works without shell `source` (which breaks on the `&` in a Postgres URL). CI never
+# needs this — GitHub Actions injects secrets as real env vars, and those always win
+# (override=False). python-dotenv is optional: absent, nothing is loaded.
+if not os.environ.get("GITHUB_ACTIONS"):
+    try:
+        from dotenv import load_dotenv
+
+        for _env in (ROOT / ".env", ROOT / "apps" / "api" / ".env"):
+            if _env.exists():
+                load_dotenv(_env, override=False)
+    except ImportError:
+        pass
 DATA_DIR = Path(os.environ.get("DATA_DIR", ROOT / "data"))
 # out/*.json is production data — the nightly GitHub Action commits it and Render
 # serves it straight from the repo. GitHub Actions sets GITHUB_ACTIONS=true itself, so

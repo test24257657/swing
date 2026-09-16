@@ -85,3 +85,26 @@ still gets produced, just with every item shipping as `"neutral"` and no AI summ
 
 Deferred: market-wide questions ("best stocks this week?"); persisting conversations;
 a quota counter that survives API restarts.
+
+## AI top 5 swing setups (dashboard)
+
+`jobs/ai_top_picks.py`, nightly step 16b → `out/ai_top_picks.json` → `GET /ai-top-picks`
+→ `TopPicksCard` on Market Pulse.
+
+1. **Rules gate eligibility** (`evaluate`, pure + tested) across the AI-narrative
+   universe: above the 50- and 200-day averages; ≤10% above the 20-day; RSI 45–75; not
+   `extended` and ≤5% past the pivot; latest quarter profitable; revenue and profit not
+   both shrinking. QoQ growth only counts between adjacent quarters (≤100 days apart) —
+   the feed can skip a quarter. When the nightly AI read exists, only `bullish` stocks.
+2. Transparent score ranks the survivors → top 15 shortlist.
+3. **One Gemini call** picks the best 5 of the shortlist with a ≤35-word reason citing a
+   technical and a fundamental number. Symbols not on the shortlist are discarded; every
+   figure on the card comes from our data, not the reply.
+4. Gemini unavailable → top 5 by score, `source: "rules"`, labelled "Rule-ranked".
+
+First real run: 32 of 126 eligible → PAYTM, EIMCOELECO, ACMESOLAR, SUBEXLTD, NRL.
+
+## Local runs load .env themselves
+`jobs/config.py` loads `.env` and `apps/api/.env` via python-dotenv when not in GitHub
+Actions (real env vars win). `set -a; source apps/api/.env` failed on the `&` in the
+Postgres URL, so local runs silently had no Gemini keys.

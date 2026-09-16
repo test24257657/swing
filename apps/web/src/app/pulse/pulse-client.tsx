@@ -8,10 +8,11 @@ import { FlowBars } from "@/components/charts/flow-bars";
 import { Sparkline } from "@/components/charts/sparkline";
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
-import { useMarketPulse, useWeeklyOutlook } from "@/lib/api/market-hooks";
+import { useMarketPulse, useTopPicks, useWeeklyOutlook } from "@/lib/api/market-hooks";
 import type { AiVerdict, Breadth, Flows } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { change, count, direction, pct, pctPlain, price } from "@/lib/format";
+import { PATTERNS } from "@/lib/patterns";
 import { toSlug } from "@/lib/slug";
 import { type Tone, TONE_BOX } from "@/lib/tone";
 
@@ -144,6 +145,7 @@ export function PulseClient() {
       )}
 
       <WeeklyOutlookCard />
+      <TopPicksCard />
 
       {/* Index tiles — click any to open its chart */}
       <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
@@ -459,3 +461,80 @@ function WeeklyOutlookCard() {
   );
 }
 
+
+/** Tonight's top 5 — rules decide who is eligible (uptrend, not stretched or extended,
+ * profitable, growing), AI picks and explains the best of that shortlist. Hidden when
+ * the artifact doesn't exist yet, same as the weekly outlook. */
+function TopPicksCard() {
+  const q = useTopPicks();
+  if (q.isPending || q.isError || !q.data) return null;
+  const d = q.data.data;
+  if (!d.picks.length) return null;
+  const isAi = d.source === "ai";
+
+  return (
+    <Card className="mb-2 p-4">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center gap-2">
+          <h2 className="text-[13px] font-semibold">Top 5 swing setups</h2>
+          {isAi ? (
+            <span className="rounded-full border border-[var(--color-accent-border)] bg-[var(--color-accent-tint)] px-2 py-0.5 text-[11px] font-medium text-accent">
+              ✦ AI picked
+            </span>
+          ) : (
+            <Chip tone="neutral">Rule-ranked</Chip>
+          )}
+        </div>
+        <span className="font-mono text-[11px] text-text-faint">
+          {d.eligible} of {d.universe} passed the filters · {d.as_of}
+        </span>
+      </div>
+
+      <div className="mt-3 divide-y divide-border">
+        {d.picks.map((p) => {
+          const pat = p.pattern ? PATTERNS[p.pattern.code] : null;
+          return (
+            <div key={p.symbol} className="py-2.5 first:pt-0 last:pb-0">
+              <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                <span className="font-mono text-[11px] text-text-faint">#{p.rank}</span>
+                <Link
+                  href={`/chart/${toSlug(p.symbol)}?back=${encodeURIComponent("/pulse")}`}
+                  className="text-[13px] font-semibold hover:text-accent"
+                >
+                  {p.symbol}
+                </Link>
+                <span className="tnum text-[13px]">{price(p.ltp)}</span>
+                {pat && p.pattern && (
+                  <Chip tone={pat.tone}>
+                    {pat.label} · {p.pattern.stage}
+                  </Chip>
+                )}
+                <span className="min-w-0 truncate text-[11px] text-text-muted">{p.name}</span>
+              </div>
+              {p.reason && <p className="mt-1 text-[12px] leading-relaxed text-text-secondary">{p.reason}</p>}
+              <div className="tnum mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-text-muted">
+                {p.pattern?.pivot_price != null && <span>Pivot {price(p.pattern.pivot_price)}</span>}
+                {p.pattern?.stop_suggestion != null && <span>Stop {price(p.pattern.stop_suggestion)}</span>}
+                {p.pattern?.target_suggestion != null && <span>Target {price(p.pattern.target_suggestion)}</span>}
+                <span>
+                  Revenue <span className={toneClass(p.fundamentals.revenue_qoq_pct)}>{pct(p.fundamentals.revenue_qoq_pct, 1)}</span>
+                </span>
+                <span>
+                  Profit <span className={toneClass(p.fundamentals.net_income_qoq_pct)}>{pct(p.fundamentals.net_income_qoq_pct, 1)}</span>{" "}
+                  QoQ
+                </span>
+                <span>RSI {p.technicals.rsi_14 ?? "—"}</span>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="mt-2.5 text-[11px] leading-relaxed text-text-faint">
+        Only stocks in an uptrend, not stretched, near their breakout level, profitable and growing make the list
+        {isAi ? " — AI then picks the best 5 and explains why" : " — AI was unavailable tonight, so these are ranked by rules only"}.
+        End-of-day data, not investment advice.
+      </div>
+    </Card>
+  );
+}

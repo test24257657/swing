@@ -7,6 +7,7 @@ import type {
   AiSummaryData,
   ChatReply,
   ChatTurn,
+  TopPicksData,
   ChartArtifact,
   DepthData,
   FnoData,
@@ -149,6 +150,16 @@ export function useAiSummary(slug: string) {
 export function useStockChat(slug: string) {
   return useMutation({
     mutationFn: (messages: ChatTurn[]) => apiPost<Envelope<ChatReply>>(`/chat/${slug}`, { messages }),
+  });
+}
+
+/** Tonight's top 5 swing setups — rules gate eligibility, AI picks and explains. */
+export function useTopPicks() {
+  return useQuery({
+    queryKey: ["ai-top-picks"],
+    queryFn: () => apiGet<Envelope<TopPicksData>>("/ai-top-picks"),
+    staleTime: 5 * 60_000,
+    retry: false,
   });
 }
 

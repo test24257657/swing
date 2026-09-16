@@ -6,3 +6,4 @@ nselib>=2.5
 yfinance>=1.7
 psycopg[binary]>=3.2
 mem0ai>=2.0
+python-dotenv>=1.0  # local runs only — CI uses real env vars

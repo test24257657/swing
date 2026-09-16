@@ -430,3 +430,35 @@ export interface ChatReply {
   used_today: number;
   daily_limit: number;
 }
+
+export interface TopPick {
+  rank: number;
+  symbol: string;
+  name: string;
+  ltp: number;
+  reason: string | null;
+  technicals: Pick<Technicals, "rsi_14" | "rel_volume_20d" | "dist_20dma_pct" | "dist_50dma_pct" | "dist_200dma_pct">;
+  pattern: {
+    code: PatternCode;
+    stage: BreakoutStage;
+    pivot_price: number | null;
+    stop_suggestion: number | null;
+    target_suggestion: number | null;
+    gap_to_pivot_pct: number | null;
+  } | null;
+  fundamentals: {
+    quarter: string | null;
+    revenue_cr: number | null;
+    net_income_cr: number | null;
+    revenue_qoq_pct: number | null;
+    net_income_qoq_pct: number | null;
+  };
+}
+
+export interface TopPicksData {
+  as_of: string;
+  source: "ai" | "rules";
+  universe: number;
+  eligible: number;
+  picks: TopPick[];
+}
