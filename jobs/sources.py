@@ -225,7 +225,73 @@ def index_history(symbol: str, days: int) -> pd.DataFrame | None:
         .sort_values("date")
         .reset_index(drop=True)
     )
-    return out.tail(days).reset_index(drop=True)
+    return _append_recent_closes(symbol, out, end).tail(days).reset_index(drop=True)
+
+
+# NSE's historical index API (above) publishes a session's values hours after the
+# daily closing file does — at ~10:45 PM IST it still stopped at the previous day while
+# the stock bhavcopy already had today, so every index tile lagged stocks by a session.
+# The daily file has identical values (reconciled: NIFTY 50 15-Sep close 23118.60 in both).
+RECENT_CLOSE_LOOKBACK_DAYS = 7
+
+
+def _append_recent_closes(symbol: str, hist: pd.DataFrame, end: date) -> pd.DataFrame:
+    last = hist["date"].max().date() if not hist.empty else end - timedelta(days=RECENT_CLOSE_LOOKBACK_DAYS)
+    rows = []
+    d = max(last + timedelta(days=1), end - timedelta(days=RECENT_CLOSE_LOOKBACK_DAYS))
+    while d <= end:
+        if d.weekday() < 5:
+            row = index_close_on(symbol, d)
+            if row is not None:
+                rows.append(row)
+        d += timedelta(days=1)
+    if not rows:
+        return hist
+    log.info("index %s: filled %s recent session(s) from the daily closing file", symbol, len(rows))
+    return pd.concat([hist, pd.DataFrame(rows)], ignore_index=True).sort_values("date").reset_index(drop=True)
+
+
+def index_close_on(symbol: str, d: date) -> dict | None:
+    """One index's OHLC for session `d` from NSE's daily all-indices closing file."""
+    table = index_close_all(d)
+    if table is None:
+        return None
+    match = table[table["name"] == symbol.strip().upper()]
+    if match.empty:
+        return None
+    r = match.iloc[0]
+    return {"date": pd.Timestamp(d), "close": r["close"], "open": r["open"], "high": r["high"], "low": r["low"]}
+
+
+@safe(default=None, label="index closing file")
+def index_close_all(d: date) -> pd.DataFrame | None:
+    cache = raw_path("index_close_all", d.isoformat())
+    if cache.exists() and cache.stat().st_size > 0:
+        raw = pd.read_csv(cache)
+    else:
+        url = f"https://nsearchives.nseindia.com/content/indices/ind_close_all_{d.strftime('%d%m%Y')}.csv"
+        r = httpx.get(url, headers={"User-Agent": _UA}, timeout=HTTP_TIMEOUT, follow_redirects=True)
+        if r.status_code == 404:
+            return None  # holiday, or not published yet — not an error
+        r.raise_for_status()
+        raw = pd.read_csv(StringIO(r.text))
+        if raw.empty:
+            return None
+    # Same trap as the bhavcopy: trust the file's own date, never the one requested.
+    file_dates = pd.to_datetime(raw["Index Date"].astype(str).str.strip(), format="%d-%m-%Y", errors="coerce")
+    if not (file_dates.dt.date == d).any():
+        return None
+    if not cache.exists():
+        raw.to_csv(cache, index=False)  # only a verified, complete day is cached
+    return pd.DataFrame(
+        {
+            "name": raw["Index Name"].astype(str).str.strip().str.upper(),
+            "open": pd.to_numeric(raw["Open Index Value"].map(_num), errors="coerce"),
+            "high": pd.to_numeric(raw["High Index Value"].map(_num), errors="coerce"),
+            "low": pd.to_numeric(raw["Low Index Value"].map(_num), errors="coerce"),
+            "close": pd.to_numeric(raw["Closing Index Value"].map(_num), errors="coerce"),
+        }
+    ).dropna(subset=["close"])
 
 
 def _index_chunk(symbol: str, start: date, end: date) -> pd.DataFrame | None:
@@ -242,7 +308,10 @@ def _index_chunk(symbol: str, start: date, end: date) -> pd.DataFrame | None:
         )
         if raw.empty:
             return None
-        raw.to_csv(cache, index=False)
+        # A window ending today is incomplete until NSE publishes today's values —
+        # caching it froze the index a session behind for every rerun that day.
+        if end < date.today():  # noqa: DTZ011
+            raw.to_csv(cache, index=False)
 
     cols = {c.strip().upper(): c for c in raw.columns}
 

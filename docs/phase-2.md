@@ -109,3 +109,13 @@ volume averages, returns and pattern lookbacks for every symbol.
 - `panel.drop_phantom_sessions` removes any session where ≥95% of symbols repeat the prior
   day's close *and* volume (real sessions: 0 of ~2,900), healing panels already cached in
   GitHub Actions. Dropped dates are reported in `meta.json` → `phantom_sessions_dropped`.
+
+### Data fix — index tiles a session behind stocks
+NSE's historical index API publishes a session hours after the daily closing file: at
+~10:45 PM IST it still ended at the previous day while the stock bhavcopy had today, so
+every index tile/chart lagged stocks by one session (prod too — the 7 PM run).
+- `sources.index_history` now fills sessions after the history's last date from
+  `ind_close_all_DDMMYYYY.csv` (reconciled: NIFTY 50 15-Sep close 23118.60 in both), checking
+  the file's own `Index Date` so a holiday can't be stamped as a session.
+- A history chunk ending today is no longer cached — it froze the index behind for every
+  rerun that day.
