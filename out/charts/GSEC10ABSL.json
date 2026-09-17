@@ -2,17 +2,8 @@
  "symbol": "GSEC10ABSL",
  "name": "GSEC10ABSL",
  "kind": "stock",
- "as_of": "2026-09-16",
+ "as_of": "2026-09-17",
  "bars": [
-  {
-   "time": "2025-09-29",
-   "open": 109.22,
-   "high": 109.75,
-   "low": 109.22,
-   "close": 109.75,
-   "volume": 7,
-   "delivery_pct": 85.71
-  },
   {
    "time": "2025-09-30",
    "open": 109.47,
@@ -1632,14 +1623,19 @@
    "close": 111.92,
    "volume": 16,
    "delivery_pct": 62.5
+  },
+  {
+   "time": "2026-09-17",
+   "open": 111.92,
+   "high": 112.34,
+   "low": 111.92,
+   "close": 112.34,
+   "volume": 5,
+   "delivery_pct": 100.0
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-07",
-    "value": 109.86
-   },
    {
     "time": "2025-11-10",
     "value": 109.87
@@ -2283,13 +2279,13 @@
    {
     "time": "2026-09-16",
     "value": 112.62
+   },
+   {
+    "time": "2026-09-17",
+    "value": 112.58
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-06",
-    "value": 110.08
-   },
    {
     "time": "2026-01-07",
     "value": 110.1
@@ -2813,15 +2809,19 @@
    {
     "time": "2026-09-16",
     "value": 112.03
+   },
+   {
+    "time": "2026-09-17",
+    "value": 112.09
    }
   ]
  },
  "technicals": {
-  "rsi_14": 46.73,
-  "atr_pct": 0.84,
-  "rel_volume_20d": 0.01,
-  "dist_20dma_pct": -0.63,
-  "dist_50dma_pct": -0.1,
+  "rsi_14": 49.12,
+  "atr_pct": 0.8,
+  "rel_volume_20d": 0.0,
+  "dist_20dma_pct": -0.21,
+  "dist_50dma_pct": 0.22,
   "dist_200dma_pct": null
  }
 }

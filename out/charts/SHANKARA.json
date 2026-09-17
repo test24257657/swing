@@ -2,17 +2,8 @@
  "symbol": "SHANKARA",
  "name": "Shankara Building Products Limited",
  "kind": "stock",
- "as_of": "2026-09-16",
+ "as_of": "2026-09-17",
  "bars": [
-  {
-   "time": "2025-09-29",
-   "open": 207.75,
-   "high": 207.75,
-   "low": 207.75,
-   "close": 207.75,
-   "volume": 10149,
-   "delivery_pct": null
-  },
   {
    "time": "2025-09-30",
    "open": 197.4,
@@ -2271,14 +2262,19 @@
    "close": 149.24,
    "volume": 42998,
    "delivery_pct": 74.56
+  },
+  {
+   "time": "2026-09-17",
+   "open": 149.85,
+   "high": 149.85,
+   "low": 148.61,
+   "close": 149.29,
+   "volume": 129256,
+   "delivery_pct": 89.21
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-27",
-    "value": 150.89
-   },
    {
     "time": "2025-10-28",
     "value": 147.47
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-09-16",
     "value": 147.05
+   },
+   {
+    "time": "2026-09-17",
+    "value": 147.41
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-08",
-    "value": 137.42
-   },
    {
     "time": "2025-12-09",
     "value": 135.53
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-09-16",
     "value": 142.7
+   },
+   {
+    "time": "2026-09-17",
+    "value": 143.07
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-06",
-    "value": 119.39
-   },
    {
     "time": "2026-07-07",
     "value": 118.99
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-09-16",
     "value": 120.86
+   },
+   {
+    "time": "2026-09-17",
+    "value": 121.04
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.69,
-  "atr_pct": 1.67,
-  "rel_volume_20d": 0.43,
-  "dist_20dma_pct": 1.49,
-  "dist_50dma_pct": 4.59,
-  "dist_200dma_pct": 23.48
+  "rsi_14": 70.86,
+  "atr_pct": 1.61,
+  "rel_volume_20d": 1.28,
+  "dist_20dma_pct": 1.28,
+  "dist_50dma_pct": 4.35,
+  "dist_200dma_pct": 23.34
  }
 }

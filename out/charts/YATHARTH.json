@@ -2,17 +2,8 @@
  "symbol": "YATHARTH",
  "name": "Yatharth Hospital & Trauma Care Services Limited",
  "kind": "stock",
- "as_of": "2026-09-16",
+ "as_of": "2026-09-17",
  "bars": [
-  {
-   "time": "2025-09-29",
-   "open": 782.75,
-   "high": 784.15,
-   "low": 746.45,
-   "close": 750.0,
-   "volume": 624318,
-   "delivery_pct": 45.14
-  },
   {
    "time": "2025-09-30",
    "open": 750.2,
@@ -2271,14 +2262,19 @@
    "close": 982.3,
    "volume": 259279,
    "delivery_pct": 43.11
+  },
+  {
+   "time": "2026-09-17",
+   "open": 987.0,
+   "high": 1083.8,
+   "low": 985.1,
+   "close": 1072.4,
+   "volume": 3679332,
+   "delivery_pct": 23.52
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-27",
-    "value": 796.73
-   },
    {
     "time": "2025-10-28",
     "value": 799.19
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-09-16",
     "value": 958.21
+   },
+   {
+    "time": "2026-09-17",
+    "value": 969.44
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-08",
-    "value": 776.21
-   },
    {
     "time": "2025-12-09",
     "value": 775.27
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-09-16",
     "value": 891.59
+   },
+   {
+    "time": "2026-09-17",
+    "value": 896.62
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-06",
-    "value": 737.19
-   },
    {
     "time": "2026-07-07",
     "value": 737.57
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-09-16",
     "value": 767.26
+   },
+   {
+    "time": "2026-09-17",
+    "value": 769.15
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.84,
-  "atr_pct": 3.32,
-  "rel_volume_20d": 0.57,
-  "dist_20dma_pct": 2.51,
-  "dist_50dma_pct": 10.17,
-  "dist_200dma_pct": 28.03
+  "rsi_14": 74.85,
+  "atr_pct": 3.5,
+  "rel_volume_20d": 8.0,
+  "dist_20dma_pct": 10.62,
+  "dist_50dma_pct": 19.61,
+  "dist_200dma_pct": 39.43
  }
 }

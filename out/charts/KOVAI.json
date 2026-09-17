@@ -2,7 +2,7 @@
  "symbol": "KOVAI",
  "name": "Kovai Medical Center & Hospital Limited",
  "kind": "stock",
- "as_of": "2026-09-16",
+ "as_of": "2026-09-17",
  "bars": [
   {
    "time": "2026-04-20",
@@ -975,6 +975,15 @@
    "close": 6088.0,
    "volume": 4040,
    "delivery_pct": 58.99
+  },
+  {
+   "time": "2026-09-17",
+   "open": 6118.5,
+   "high": 6190.0,
+   "low": 6031.0,
+   "close": 6112.0,
+   "volume": 3567,
+   "delivery_pct": 52.12
   }
  ],
  "ma": {
@@ -1334,6 +1343,10 @@
    {
     "time": "2026-09-16",
     "value": 6079.7
+   },
+   {
+    "time": "2026-09-17",
+    "value": 6081.98
    }
   ],
   "sma_50": [
@@ -1572,15 +1585,19 @@
    {
     "time": "2026-09-16",
     "value": 5986.48
+   },
+   {
+    "time": "2026-09-17",
+    "value": 5989.31
    }
   ]
  },
  "technicals": {
-  "rsi_14": 51.46,
-  "atr_pct": 2.78,
-  "rel_volume_20d": 0.82,
-  "dist_20dma_pct": 0.14,
-  "dist_50dma_pct": 1.7,
+  "rsi_14": 52.68,
+  "atr_pct": 2.75,
+  "rel_volume_20d": 0.73,
+  "dist_20dma_pct": 0.49,
+  "dist_50dma_pct": 2.05,
   "dist_200dma_pct": null
  }
 }

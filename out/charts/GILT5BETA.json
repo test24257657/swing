@@ -2,7 +2,7 @@
  "symbol": "GILT5BETA",
  "name": "GILT5BETA",
  "kind": "stock",
- "as_of": "2026-09-16",
+ "as_of": "2026-09-17",
  "bars": [
   {
    "time": "2025-12-24",
@@ -1632,6 +1632,15 @@
    "close": 66.79,
    "volume": 838,
    "delivery_pct": 97.02
+  },
+  {
+   "time": "2026-09-17",
+   "open": 66.46,
+   "high": 66.59,
+   "low": 65.6,
+   "close": 66.59,
+   "volume": 269,
+   "delivery_pct": 96.28
   }
  ],
  "ma": {
@@ -2283,6 +2292,10 @@
    {
     "time": "2026-09-16",
     "value": 66.38
+   },
+   {
+    "time": "2026-09-17",
+    "value": 66.39
    }
   ],
   "sma_50": [
@@ -2813,15 +2826,19 @@
    {
     "time": "2026-09-16",
     "value": 66.39
+   },
+   {
+    "time": "2026-09-17",
+    "value": 66.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 52.94,
-  "atr_pct": 1.79,
-  "rel_volume_20d": 0.04,
-  "dist_20dma_pct": 0.62,
-  "dist_50dma_pct": 0.61,
+  "rsi_14": 51.29,
+  "atr_pct": 1.8,
+  "rel_volume_20d": 0.01,
+  "dist_20dma_pct": 0.3,
+  "dist_50dma_pct": 0.31,
   "dist_200dma_pct": null
  }
 }

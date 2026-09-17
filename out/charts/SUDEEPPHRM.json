@@ -2,7 +2,7 @@
  "symbol": "SUDEEPPHRM",
  "name": "Sudeep Pharma Limited",
  "kind": "stock",
- "as_of": "2026-09-16",
+ "as_of": "2026-09-17",
  "bars": [
   {
    "time": "2025-11-28",
@@ -1884,6 +1884,15 @@
    "close": 1107.2,
    "volume": 535162,
    "delivery_pct": 48.86
+  },
+  {
+   "time": "2026-09-17",
+   "open": 1107.2,
+   "high": 1155.9,
+   "low": 1086.2,
+   "close": 1105.4,
+   "volume": 263271,
+   "delivery_pct": 54.93
   }
  ],
  "ma": {
@@ -2647,6 +2656,10 @@
    {
     "time": "2026-09-16",
     "value": 1200.19
+   },
+   {
+    "time": "2026-09-17",
+    "value": 1200.07
    }
   ],
   "sma_50": [
@@ -3289,6 +3302,10 @@
    {
     "time": "2026-09-16",
     "value": 1038.72
+   },
+   {
+    "time": "2026-09-17",
+    "value": 1044.78
    }
   ],
   "sma_200": [
@@ -3331,15 +3348,19 @@
    {
     "time": "2026-09-16",
     "value": 757.2
+   },
+   {
+    "time": "2026-09-17",
+    "value": 759.33
    }
   ]
  },
  "technicals": {
-  "rsi_14": 43.5,
-  "atr_pct": 5.87,
-  "rel_volume_20d": 1.93,
-  "dist_20dma_pct": -7.75,
-  "dist_50dma_pct": 6.59,
-  "dist_200dma_pct": 46.22
+  "rsi_14": 43.29,
+  "atr_pct": 5.91,
+  "rel_volume_20d": 0.93,
+  "dist_20dma_pct": -7.89,
+  "dist_50dma_pct": 5.8,
+  "dist_200dma_pct": 45.58
  }
 }
