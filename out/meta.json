@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T20:31:54+05:30",
+ "generated_at": "2026-09-17T23:19:24+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -7,10 +7,8 @@
   },
   "bhavcopy": {
    "ok": true,
-   "sessions_added": 7,
-   "failed": [
-    "2025-10-02"
-   ],
+   "sessions_added": 0,
+   "failed": [],
    "symbols": 3067,
    "sessions": 252,
    "rows": 660364
@@ -71,7 +69,7 @@
   },
   "news": {
    "ok": true,
-   "fetched": 48,
+   "fetched": 50,
    "classified": 0,
    "gemini_configured": true
   },
@@ -95,7 +93,7 @@
   "ai_insights": {
    "ok": true,
    "eligible": 197,
-   "written": 167
+   "written": 182
   },
   "results_calendar": {
    "ok": true,
