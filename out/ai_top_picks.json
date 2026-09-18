@@ -1,0 +1,88 @@
+{
+ "as_of": "2026-09-18",
+ "source": "rules",
+ "universe": 300,
+ "eligible": 3,
+ "picks": [
+  {
+   "symbol": "EMIL",
+   "ltp": 196.28,
+   "technicals": {
+    "rsi_14": 65.23,
+    "rel_volume_20d": 7.9,
+    "dist_20dma_pct": 7.59,
+    "dist_50dma_pct": 20.12,
+    "dist_200dma_pct": 62.63
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 193.61,
+    "stop_suggestion": 167.54,
+    "target_suggestion": 232.33,
+    "gap_to_pivot_pct": 1.38
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 2419.0,
+    "net_income_cr": 120.6,
+    "revenue_qoq_pct": 26.4,
+    "net_income_qoq_pct": 203.8
+   },
+   "reason": null,
+   "rank": 1,
+   "name": "Electronics Mart India Limited"
+  },
+  {
+   "symbol": "LENSKART",
+   "ltp": 707.2,
+   "technicals": {
+    "rsi_14": 73.32,
+    "rel_volume_20d": 2.09,
+    "dist_20dma_pct": 5.12,
+    "dist_50dma_pct": 15.52,
+    "dist_200dma_pct": 36.78
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 695.75,
+    "stop_suggestion": 635.75,
+    "target_suggestion": 834.9,
+    "gap_to_pivot_pct": 1.65
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 2714.2,
+    "net_income_cr": 221.8,
+    "revenue_qoq_pct": 7.9,
+    "net_income_qoq_pct": 10.7
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "Lenskart Solutions Limited"
+  },
+  {
+   "symbol": "ATGL",
+   "ltp": 660.7,
+   "technicals": {
+    "rsi_14": 62.02,
+    "rel_volume_20d": 66.92,
+    "dist_20dma_pct": 6.87,
+    "dist_50dma_pct": 1.46,
+    "dist_200dma_pct": 7.78
+   },
+   "pattern": null,
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 1753.5,
+    "net_income_cr": 141.7,
+    "revenue_qoq_pct": 12.6,
+    "net_income_qoq_pct": -15.8
+   },
+   "reason": null,
+   "rank": 3,
+   "name": "Adani Total Gas Limited"
+  }
+ ]
+}
