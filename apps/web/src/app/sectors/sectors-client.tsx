@@ -142,9 +142,10 @@ export function SectorsClient() {
             <div className="text-[13px] font-semibold">Ranked by momentum</div>
             <div className="mt-0.5 text-[11px] text-text-muted">Arrow = rank change vs 3 weeks ago</div>
           </div>
-          <div className="mt-2 grid grid-cols-[20px_minmax(0,1fr)_56px_56px_30px] gap-2 border-b border-border px-4 pb-1.5 text-[11px] text-text-muted">
+          <div className="mt-2 grid grid-cols-[20px_minmax(0,1fr)_48px_48px_48px_28px] gap-2 border-b border-border px-4 pb-1.5 text-[11px] text-text-muted">
             <span>#</span>
             <span>Sector</span>
+            <span className="text-right">1W</span>
             <span className="text-right">1M</span>
             <span className="text-right">3M</span>
             <span className="text-right">Δ</span>
@@ -154,12 +155,15 @@ export function SectorsClient() {
               key={s.name}
               onClick={() => setSelected((cur) => (cur === s.name ? null : s.name))}
               className={cn(
-                "tnum grid grid-cols-[20px_minmax(0,1fr)_56px_56px_30px] gap-2 border-b border-border px-4 py-2 text-left last:border-0 hover:bg-surface-2",
+                "tnum grid grid-cols-[20px_minmax(0,1fr)_48px_48px_48px_28px] gap-2 border-b border-border px-4 py-2 text-left last:border-0 hover:bg-surface-2",
                 selected === s.name && "bg-[var(--color-accent-tint)]",
               )}
             >
               <span className="font-mono text-[11px] text-text-muted">{s.rank ?? "—"}</span>
               <span className="truncate text-[13px]">{shortName(s.name)}</span>
+              <span className={cn("text-right text-[13px]", toneClass(s.return_1w))}>
+                {s.return_1w == null ? "—" : pct(s.return_1w)}
+              </span>
               <span className={cn("text-right text-[13px]", toneClass(s.return_1m))}>
                 {s.return_1m == null ? "—" : pct(s.return_1m)}
               </span>

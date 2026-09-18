@@ -14,6 +14,7 @@ from datetime import date, timedelta
 
 from jobs import (
     ai_insights,
+    ai_top_picks,
     alerts,
     breadth,
     charts,
@@ -176,6 +177,20 @@ def main() -> int:
     for symbol, payload in ai_payloads.items():
         writer.write(f"ai_summary/{charts.slug(symbol)}.json", payload)
     log.info("ai_summary artifacts: %s", len(ai_payloads))
+
+    # 16b. AI top 5 for the dashboard — rules gate the same universe (uptrend, not
+    #      stretched, profitable, growing), then AI picks the best 5 of the shortlist.
+    top_picks_payload, top_picks_stats = ai_top_picks.build(
+        df,
+        [s for s in charted if s not in all_tile_indices],
+        screener_payload,
+        fund_payloads,
+        ai_payloads,
+        symbol_names(),
+        business_date,
+    )
+    sources["ai_top_picks"] = top_picks_stats
+    writer.write("ai_top_picks.json", top_picks_payload)
 
     # 17. weekly AI market outlook — Fridays only (see jobs/weekly_outlook.py for why
     #     it's scoped to breadth/volatility/flows/sectors/indices, not news/deals).

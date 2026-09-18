@@ -219,6 +219,7 @@ export interface SectorRow {
   slug: string;
   rank: number | null;
   rank_delta: number | null;
+  return_1w: number | null;
   return_1m: number | null;
   return_3m: number | null;
   rs_tail: RrgPoint[];
@@ -415,4 +416,49 @@ export interface ResultsCalendarData {
   as_of: string;
   window: { from: string; to: string };
   entries: ResultsCalendarEntry[];
+}
+
+export interface ChatTurn {
+  role: "user" | "model";
+  text: string;
+}
+
+export interface ChatReply {
+  answer: string;
+  data_used: string[];
+  data_as_of: string | null;
+  used_today: number;
+  daily_limit: number;
+}
+
+export interface TopPick {
+  rank: number;
+  symbol: string;
+  name: string;
+  ltp: number;
+  reason: string | null;
+  technicals: Pick<Technicals, "rsi_14" | "rel_volume_20d" | "dist_20dma_pct" | "dist_50dma_pct" | "dist_200dma_pct">;
+  pattern: {
+    code: PatternCode;
+    stage: BreakoutStage;
+    pivot_price: number | null;
+    stop_suggestion: number | null;
+    target_suggestion: number | null;
+    gap_to_pivot_pct: number | null;
+  } | null;
+  fundamentals: {
+    quarter: string | null;
+    revenue_cr: number | null;
+    net_income_cr: number | null;
+    revenue_qoq_pct: number | null;
+    net_income_qoq_pct: number | null;
+  };
+}
+
+export interface TopPicksData {
+  as_of: string;
+  source: "ai" | "rules";
+  universe: number;
+  eligible: number;
+  picks: TopPick[];
 }

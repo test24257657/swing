@@ -36,6 +36,16 @@ services:
         sync: false
       - key: CORS_ORIGINS
         sync: false # your Vercel URL, e.g. https://swing-terminal.vercel.app
+      # Stock chat (POST /chat/{slug}) calls Gemini from the API itself, so the API needs
+      # its own copy of the keys — separate from the GitHub Actions secrets the nightly uses.
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY_FALLBACK
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.6-flash
+      - key: CHAT_DAILY_LIMIT
+        value: "20"
       - key: REDIS_URL
         fromService:
           type: keyvalue

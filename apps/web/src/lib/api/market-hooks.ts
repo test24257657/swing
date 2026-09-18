@@ -1,10 +1,13 @@
 "use client";
 
-import { useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery } from "@tanstack/react-query";
 
-import { apiGet } from "./client";
+import { apiGet, apiPost } from "./client";
 import type {
   AiSummaryData,
+  ChatReply,
+  ChatTurn,
+  TopPicksData,
   ChartArtifact,
   DepthData,
   FnoData,
@@ -139,6 +142,23 @@ export function useAiSummary(slug: string) {
     queryFn: () => apiGet<Envelope<AiSummaryData>>(`/ai-summary/${slug}`),
     staleTime: 5 * 60_000,
     enabled: Boolean(slug),
+    retry: false,
+  });
+}
+
+/** Stock chat — the client owns the conversation and sends it back every turn. */
+export function useStockChat(slug: string) {
+  return useMutation({
+    mutationFn: (messages: ChatTurn[]) => apiPost<Envelope<ChatReply>>(`/chat/${slug}`, { messages }),
+  });
+}
+
+/** Tonight's top 5 swing setups — rules gate eligibility, AI picks and explains. */
+export function useTopPicks() {
+  return useQuery({
+    queryKey: ["ai-top-picks"],
+    queryFn: () => apiGet<Envelope<TopPicksData>>("/ai-top-picks"),
+    staleTime: 5 * 60_000,
     retry: false,
   });
 }

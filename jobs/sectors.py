@@ -1,4 +1,4 @@
-"""Sector rotation — 1M/3M return ranking with rank deltas, plus a simplified relative
+"""Sector rotation — 1W/1M/3M return ranking with rank deltas, plus a simplified relative
 rotation graph (RS-ratio vs the benchmark, and its rate of change) for each sector index.
 
 The RRG here is deliberately simpler than the classic JdK RS-Ratio/RS-Momentum (no
@@ -24,6 +24,7 @@ from jobs.config import (
     SECTOR_INDICES,
     SECTOR_RANK_DELTA_SESSIONS,
     SECTOR_RETURN_1M_SESSIONS,
+    SECTOR_RETURN_1W_SESSIONS,
     SECTOR_RETURN_3M_SESSIONS,
 )
 from jobs.sources import index_constituents, index_history, symbol_names
@@ -109,6 +110,7 @@ def build(panel: pd.DataFrame) -> tuple[dict, dict]:
         raw_rows.append(
             {
                 "name": sym,
+                "return_1w": _return_pct(close, SECTOR_RETURN_1W_SESSIONS),
                 "return_1m": _return_pct(close, SECTOR_RETURN_1M_SESSIONS),
                 "return_3m": _return_pct(close, SECTOR_RETURN_3M_SESSIONS),
                 "_return_1m_prior": _return_as_of(close, SECTOR_RETURN_1M_SESSIONS, SECTOR_RANK_DELTA_SESSIONS),
@@ -137,6 +139,7 @@ def build(panel: pd.DataFrame) -> tuple[dict, dict]:
                 "slug": slug(r["name"]),
                 "rank": rank,
                 "rank_delta": (prior - rank) if (rank is not None and prior is not None) else None,
+                "return_1w": r["return_1w"],
                 "return_1m": r["return_1m"],
                 "return_3m": r["return_3m"],
                 "rs_tail": r["rs_tail"],

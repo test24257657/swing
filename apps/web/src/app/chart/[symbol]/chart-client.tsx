@@ -28,6 +28,7 @@ import {
   TechnicalSnapshot,
   technicalVerdict,
 } from "./detail-cards";
+import { StockChat } from "./stock-chat";
 
 const TIMEFRAMES = [
   { label: "D" },
@@ -137,6 +138,7 @@ export function ChartClient({ slug }: { slug: string }) {
           fno={fno.data?.data ?? null}
           depth={depth.data?.data ?? null}
           aiSummary={aiSummary.data?.data ?? null}
+          slug={slug}
         />
       ) : null}
     </Screen>
@@ -155,6 +157,7 @@ function Loaded({
   fno,
   depth,
   aiSummary,
+  slug,
 }: {
   data: ChartArtifact;
   timeframe: Timeframe;
@@ -167,6 +170,7 @@ function Loaded({
   fno: FnoData | null;
   depth: DepthData | null;
   aiSummary: AiSummaryData | null;
+  slug: string;
 }) {
   const bars = data.bars;
   const last = bars.at(-1);
@@ -278,6 +282,9 @@ function Loaded({
               <AiSummaryCard data={aiSummary} />
             </div>
           )}
+          <div className="sm:col-span-2 lg:col-span-3">
+            <StockChat slug={slug} symbol={data.symbol} />
+          </div>
           <TechnicalSnapshot technicals={data.technicals} asOf={data.as_of} />
           <DeliveryTrend bars={bars} />
           <PositionSizing lastClose={lastClose} atrPct={data.technicals.atr_pct} pattern={pattern} />

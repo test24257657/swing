@@ -23,7 +23,11 @@ class Settings(BaseSettings):
 
     # Gemini — news impact classification + AI summaries (Phase 7). Empty = feature off.
     gemini_api_key: str = ""
+    gemini_api_key_fallback: str = ""  # tried when the primary key hits its quota
     gemini_model: str = "gemini-3.6-flash"
+    # Stock chat — questions per user per IST day. The Gemini free tier is shared with
+    # the nightly job's AI steps, so chat must not be able to eat the whole quota.
+    chat_daily_limit: int = 20
 
     # Live quote cache TTL — the one allowed live-NSE path
     quote_ttl_seconds: int = 60
