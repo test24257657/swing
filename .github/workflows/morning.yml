@@ -1,0 +1,69 @@
+name: morning
+
+# Pre-market brief (jobs/morning_brief.py). No `schedule:` on purpose — GitHub's cron
+# has started hours late, and a brief that lands after 9:15 AM is useless. It is
+# triggered at 8:15 AM IST Mon–Fri by an external cron (cron-job.org) calling
+#   POST /repos/<owner>/swing/actions/workflows/morning.yml/dispatches  {"ref":"main"}
+# with a fine-grained token scoped to this repo, Actions: read & write only.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: morning
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: jobs/requirements.txt
+
+      - run: pip install -r jobs/requirements.txt
+
+      # Community & news strip: the open-source last30days engine, run headless.
+      # Pinned to one reviewed commit so an upstream change can't alter what runs here;
+      # bump deliberately. Standard-library only — yt-dlp is what its YouTube search uses,
+      # left unpinned because YouTube breaks old versions. Any failure here just means no
+      # strip (jobs/morning_brief.py::community), never a failed brief.
+      - name: Fetch last30days engine (pinned)
+        continue-on-error: true
+        run: |
+          git clone --quiet --filter=blob:none https://github.com/mvanhorn/last30days-skill.git "$RUNNER_TEMP/last30days"
+          git -C "$RUNNER_TEMP/last30days" checkout --quiet 3cfac0e1514ddff548275c2d11b11b348221b3a8
+          pip install --quiet yt-dlp
+
+      - name: Build morning brief
+        env:
+          # One Gemini call writes the summary; missing keys = the card still shows
+          # every number, just without the AI paragraph.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_FALLBACK: ${{ secrets.GEMINI_API_KEY_FALLBACK }}
+          LAST30DAYS_DIR: ${{ runner.temp }}/last30days
+        run: python -m jobs.morning_brief
+
+      - name: Commit brief
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add out/morning_brief.json
+          if git diff --cached --quiet; then
+            echo "no change"
+            exit 0
+          fi
+          git commit -m "chore: morning brief $(TZ=Asia/Kolkata date +%Y-%m-%d)"
+          # A nightly run may have pushed since checkout — rebase onto it, don't fail.
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1

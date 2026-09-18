@@ -8,6 +8,7 @@ import type {
   ChatReply,
   ChatTurn,
   DailyScanData,
+  MorningBrief,
   TopPicksData,
   ChartArtifact,
   DepthData,
@@ -170,6 +171,16 @@ export function useDailyScan() {
     queryKey: ["daily-scan"],
     queryFn: () => apiGet<Envelope<DailyScanData>>("/daily-scan"),
     staleTime: 5 * 60_000,
+  });
+}
+
+/** Pre-market brief, built 8:15 AM IST on trading days. */
+export function useMorningBrief() {
+  return useQuery({
+    queryKey: ["morning-brief"],
+    queryFn: () => apiGet<Envelope<MorningBrief>>("/morning-brief"),
+    staleTime: 5 * 60_000,
+    retry: false,
   });
 }
 

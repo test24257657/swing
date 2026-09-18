@@ -56,13 +56,16 @@ def _pace() -> None:
     _last_call_at = time.monotonic()
 
 
-def generate_json(prompt: str, cache_namespace: str) -> str | None:
+def generate_json(prompt: str, cache_namespace: str, max_retries: int | None = None) -> str | None:
     """POST one prompt, forcing JSON output. Cached to disk keyed on the prompt text
     itself (stable across reruns, unlike Python's per-process `hash()`) — a rerun on
     the same data never re-bills Gemini. On a 429, rotates to the next configured key
     (if any) before backing off, and honours `Retry-After` when the server sends one.
     Returns the raw JSON text, or None on any failure (network, non-2xx after
     retries, no key configured) — callers degrade to a default, never raise."""
+    # Time-critical callers (the 8:15 AM brief) pass a small budget: backoff doubles
+    # per attempt, so the default 6 retries can wait ~5 minutes on a run of 503s.
+    retries = max_retries or GEMINI_MAX_RETRIES
     keys = api_keys()
     if not keys:
         log.warning("no GEMINI_API_KEY configured — %s skipped", cache_namespace)
@@ -77,7 +80,7 @@ def generate_json(prompt: str, cache_namespace: str) -> str | None:
         "generationConfig": {"responseMimeType": "application/json"},
     }
 
-    for attempt in range(GEMINI_MAX_RETRIES):
+    for attempt in range(retries):
         key = keys[attempt % len(keys)]
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={key}"
         _pace()
@@ -88,12 +91,12 @@ def generate_json(prompt: str, cache_namespace: str) -> str | None:
             # will never succeed on a retry, so fail fast instead.
             if r.status_code == 429 or r.status_code >= 500:
                 if r.status_code == 429 and len(keys) > 1:
-                    log.warning("gemini 429 (%s), attempt %s/%s — trying the next key", cache_namespace, attempt + 1, GEMINI_MAX_RETRIES)
+                    log.warning("gemini 429 (%s), attempt %s/%s — trying the next key", cache_namespace, attempt + 1, retries)
                 else:
                     retry_after = float(r.headers.get("retry-after", 2**attempt * 5))
                     log.warning(
                         "gemini %s (%s), attempt %s/%s — backing off %.0fs",
-                        r.status_code, cache_namespace, attempt + 1, GEMINI_MAX_RETRIES, retry_after,
+                        r.status_code, cache_namespace, attempt + 1, retries, retry_after,
                     )
                     time.sleep(retry_after)
                 continue
@@ -105,5 +108,5 @@ def generate_json(prompt: str, cache_namespace: str) -> str | None:
         cache.write_text(text)
         return text
 
-    log.warning("gemini call gave up after %s retries across %s key(s) (%s)", GEMINI_MAX_RETRIES, len(keys), cache_namespace)
+    log.warning("gemini call gave up after %s retries across %s key(s) (%s)", retries, len(keys), cache_namespace)
     return None

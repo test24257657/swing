@@ -108,3 +108,39 @@ First real run: 32 of 126 eligible → PAYTM, EIMCOELECO, ACMESOLAR, SUBEXLTD, N
 `jobs/config.py` loads `.env` and `apps/api/.env` via python-dotenv when not in GitHub
 Actions (real env vars win). `set -a; source apps/api/.env` failed on the `&` in the
 Postgres URL, so local runs silently had no Gemini keys.
+
+## Morning brief (☀️ top of Market Pulse)
+
+`jobs/morning_brief.py` → `out/morning_brief.json` → `GET /morning-brief` → `MorningBriefCard`.
+
+- **Trigger:** `.github/workflows/morning.yml` has no `schedule:` — GitHub's cron has
+  started hours late. cron-job.org calls
+  `POST /repos/test24257657/swing/actions/workflows/morning.yml/dispatches {"ref":"main"}`
+  at 08:15 Asia/Kolkata, Mon–Fri, with a fine-grained token (this repo, Actions R/W only).
+  The workflow file must be on `main` for the call to succeed (404 before that).
+- **Numbers from sources, AI writes the words:** global cues (S&P, Nasdaq, Dow, Nikkei,
+  Hang Seng, Kospi, Brent, gold, USD/INR, US 10Y, DXY) from Yahoo Finance with each bar's
+  date; rule-based global tone (avg of 5 index moves, ±0.5%) + crude alert (±2%); NIFTY
+  floor pivots (P, R1/R2, S1/S2) and 20/50/200-day from NSE index history; stocks in focus
+  from last night's Daily Scan + AI top 5; overnight NSE announcements (since the last
+  15:30 close) for those + NIFTY 50, deduplicated; results due today; Tuesday weekly
+  expiry; a rule-based checklist led by the market light. One Gemini call writes a
+  headline + 3–4 points citing those numbers; if it fails the card shows the numbers only.
+- **Shown** only while `for_session` is after the last close in `pulse.json` — once that
+  session's nightly run lands, the post-close view takes over.
+- **📰 In the news & community** — the open-source [last30days](https://github.com/mvanhorn/last30days-skill)
+  engine run headless in the workflow (pinned commit `3cfac0e`, stdlib-only, + `yt-dlp`),
+  Reddit + YouTube only, `--subreddits IndianStockMarket,IndianStreetBets,DalalStreetTalks,IndiaInvestments`,
+  `--days 3 --quick --no-browser-cookies`, ~30–60 s. `filter_community` then drops
+  "prediction"/"tomorrow" content, promo/referral links, self-promotion, off-topic
+  questions, titles under 4 words, non-https / non-YouTube/Reddit URLs, < 5k-view videos
+  and low-engagement threads; top 5 kept, each with link + engagement. On the first real
+  run it kept 4 of 11 (Fed-hike explainer, daily market update, a Saurabh Mukherjea
+  interview, a 675-upvote r/IndianStockMarket thread) and dropped both "Big Prediction"
+  videos. Titles go to Gemini marked untrusted, citable only as "reported by <source>".
+  Any engine failure = no strip.
+- Gemini gets `max_retries=3` here (~35 s of backoff): on 18-Sep a run of 503s took the
+  default 6 retries to 7.5 minutes; the brief must land before 9:15 and still has every
+  number without the AI paragraph.
+- GIFT Nifty not shown: no free source verified; `^NSEI` on Yahoo is the cash index.
+- Tests: `jobs/tests/test_morning_brief.py` (pivots, tone, session roll-over, checklist).
