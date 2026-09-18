@@ -18,6 +18,7 @@ from jobs import (
     alerts,
     breadth,
     charts,
+    daily_scan,
     depth,
     flows,
     fno,
@@ -36,7 +37,7 @@ from jobs import (
     writer,
 )
 from jobs.config import BACKFILL_DAYS, PANEL_DAYS, TILE_INDICES, WEEKLY_OUTLOOK_WEEKDAY
-from jobs.sources import holidays, symbol_names
+from jobs.sources import holidays, index_constituents, index_history, symbol_names
 
 logging.basicConfig(level="INFO", format="%(levelname)-5s %(name)s  %(message)s")
 log = logging.getLogger("jobs.nightly")
@@ -94,6 +95,20 @@ def main() -> int:
     sector_payload, sector_stats = sectors.build(df)
     sources["sectors"] = sector_stats
     writer.write("sectors.json", sector_payload)
+
+    # 8b. Daily Scan — market regime light, RS ratings, "ready today", delivery spikes,
+    #     pocket pivots, sector leaders. Rule-based, no Gemini calls.
+    scan_payload, scan_stats = daily_scan.build(
+        df,
+        symbol_names(),
+        screener_payload,
+        sector_payload,
+        breadth_card,
+        index_history("NIFTY 50", PANEL_DAYS),
+        index_constituents("NIFTY 50"),
+    )
+    sources["daily_scan"] = scan_stats
+    writer.write("daily_scan.json", scan_payload)
 
     # 9. indices screen — every broad-market + sector index, list metadata
     indices_payload, indices_stats = indices.build()

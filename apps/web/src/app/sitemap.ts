@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 import { SITE_URL } from "@/lib/seo";
 
-const ROUTES = ["/pulse", "/sectors", "/indices", "/screener", "/news", "/institutional", "/calendar"];
+const ROUTES = ["/pulse", "/scan", "/sectors", "/indices", "/screener", "/news", "/institutional", "/calendar"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

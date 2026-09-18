@@ -6,9 +6,10 @@ import Link from "next/link";
 import { BreadthDonut } from "@/components/charts/breadth-donut";
 import { FlowBars } from "@/components/charts/flow-bars";
 import { Sparkline } from "@/components/charts/sparkline";
+import { MarketLight, MiniList, RsBadge, StepHeading } from "@/components/scan/scan-parts";
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
-import { useMarketPulse, useTopPicks, useWeeklyOutlook } from "@/lib/api/market-hooks";
+import { useDailyScan, useMarketPulse, useTopPicks, useWeeklyOutlook } from "@/lib/api/market-hooks";
 import type { AiVerdict, Breadth, Flows } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
 import { change, count, direction, pct, pctPlain, price } from "@/lib/format";
@@ -94,6 +95,7 @@ function flowVerdict(flows: Flows): { label: string; note: string; tone: Tone } 
 
 export function PulseClient() {
   const q = useMarketPulse();
+  const scan = useDailyScan();
 
   if (q.isPending) {
     return (
@@ -129,12 +131,13 @@ export function PulseClient() {
   const d = q.data!.data;
   const meta = q.data!.meta;
   const degraded = meta.degraded_sources ?? [];
+  const sd = scan.data?.data;
 
   return (
     <Screen>
       <ScreenHeader
         title="Market Pulse"
-        subtitle={`Close of ${d.as_of} · breadth, flows and volatility at a glance.`}
+        subtitle={`Close of ${d.as_of} · your 2-minute routine: can I buy → what to buy → where the money is going.`}
       />
 
       {degraded.length > 0 && (
@@ -144,8 +147,13 @@ export function PulseClient() {
         </div>
       )}
 
-      <WeeklyOutlookCard />
-
+      <StepHeading n={1} title="Can I buy today?" hint="The market decides most of your result." />
+      {sd?.market ? (
+        <MarketLight m={sd.market} />
+      ) : scan.isPending ? (
+        <Skeleton className="h-28" />
+      ) : null}
+      <div className="mt-2">
       {/* Index tiles — click any to open its chart */}
       <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
         {d.tiles.map((t) => (
@@ -180,8 +188,114 @@ export function PulseClient() {
         ))}
       </div>
 
+      </div>
+
+      <StepHeading
+        n={2}
+        title="What to buy"
+        hint="Strong stocks sitting just under their breakout level."
+        action={
+          <Link href="/scan" className="text-[12px] text-accent hover:underline">
+            Open Daily Scan →
+          </Link>
+        }
+      />
+      <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
+        {sd ? (
+          <MiniList
+            title="Ready today"
+            hint="Uptrend + RS 80+ + setup 0–3% under its pivot. Set an alert at the pivot; buy only on a volume breakout."
+            rows={sd.ready.slice(0, 5)}
+            empty="Nothing is coiled under a pivot tonight."
+            back="/pulse"
+            seeAll="/scan"
+            right={(r) => (
+              <>
+                <div>Pivot {price(r.pivot)}</div>
+                <div className="text-[11px] text-text-muted">{pct(r.gap_to_pivot_pct, 1)} away</div>
+              </>
+            )}
+          />
+        ) : (
+          <Skeleton className="h-64" />
+        )}
+        <TopPicksCard />
+      </div>
+
+      <StepHeading n={3} title="Where the money is going" hint="Leading groups and fresh accumulation." />
+      {sd ? (
+        <div className="grid grid-cols-1 gap-2 lg:grid-cols-3">
+          <Card className="flex flex-col p-4">
+            <div className="flex items-center justify-between gap-2">
+              <h3 className="text-[13px] font-semibold">Sector leaders</h3>
+              <Link href="/sectors" className="text-[11px] text-accent hover:underline">
+                Sectors →
+              </Link>
+            </div>
+            <p className="mt-0.5 text-[11px] leading-relaxed text-text-muted">Strongest stocks in the top 3 sectors.</p>
+            <div className="mt-2 space-y-3">
+              {sd.sector_leaders.map((sec) => (
+                <div key={sec.sector}>
+                  <div className="flex items-center justify-between text-[12px]">
+                    <span className="font-medium">
+                      #{sec.rank} {sec.sector.replace(/^NIFTY /, "")}
+                    </span>
+                    <span className={cn("tnum text-[11px]", toneClass(sec.return_1m))}>1M {pct(sec.return_1m)}</span>
+                  </div>
+                  <div className="mt-1 flex flex-wrap gap-1.5">
+                    {sec.stocks.map((x) => (
+                      <Link
+                        key={x.symbol}
+                        href={`/chart/${toSlug(x.symbol)}?back=${encodeURIComponent("/pulse")}`}
+                        className="inline-flex items-center gap-1.5 rounded-md border border-border px-2 py-1 text-[12px] hover:border-[var(--color-accent-border)]"
+                      >
+                        <RsBadge rs={x.rs} />
+                        {x.symbol}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Card>
+          <MiniList
+            title="Pocket pivots"
+            hint="Up day on volume bigger than any recent down day — big buyers stepping in early."
+            rows={sd.pocket_pivots.slice(0, 5)}
+            empty="No pocket pivots today."
+            back="/pulse"
+            seeAll="/scan"
+            right={(r) => (
+              <>
+                <div>{price(r.ltp)}</div>
+                <div className={cn("text-[11px]", toneClass(r.change_pct))}>{pct(r.change_pct)}</div>
+              </>
+            )}
+          />
+          <MiniList
+            title="RS leaders"
+            hint="The strongest stocks of the past year, all in a clean uptrend."
+            rows={sd.rs_leaders.slice(0, 5)}
+            empty="No stock passes the uptrend filter tonight."
+            back="/pulse"
+            seeAll="/scan"
+            right={(r) => (
+              <>
+                <div>{price(r.ltp)}</div>
+                <div className={cn("text-[11px]", toneClass(r.change_pct))}>{pct(r.change_pct)}</div>
+              </>
+            )}
+          />
+        </div>
+      ) : scan.isPending ? (
+        <Skeleton className="h-64" />
+      ) : (
+        <p className="text-[12px] text-text-muted">Daily scan not available yet — it is built by the nightly run.</p>
+      )}
+
+      <StepHeading n={4} title="Market details" hint="The background behind the market light." />
       {/* Breadth · Flows · Volatility */}
-      <div className="mt-2 grid grid-cols-1 gap-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)_minmax(0,1fr)]">
+      <div className="grid grid-cols-1 gap-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)_minmax(0,1fr)]">
         <Card className="flex flex-col p-4">
           <div className="flex items-center justify-between">
             <div className="text-[13px] font-semibold">Market breadth</div>
@@ -334,7 +448,9 @@ export function PulseClient() {
         </Card>
       </div>
 
-      <TopPicksCard />
+      <div className="mt-2">
+        <WeeklyOutlookCard />
+      </div>
     </Screen>
   );
 }
@@ -421,7 +537,7 @@ function WeeklyOutlookCard() {
   const tone = TONE_BOX[VERDICT_CHIP[d.market_view.direction] as Tone];
 
   return (
-    <Card className="mb-2 p-4">
+    <Card className="p-4">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <div className="flex items-center gap-2">
           <span className="text-[13px] font-semibold">Weekly AI outlook</span>
@@ -474,7 +590,7 @@ function TopPicksCard() {
   const isAi = d.source === "ai";
 
   return (
-    <Card className="mt-2 p-4">
+    <Card className="p-4">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <div className="flex items-center gap-2">
           <h2 className="text-[13px] font-semibold">Top 5 swing setups</h2>

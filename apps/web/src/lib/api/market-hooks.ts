@@ -7,6 +7,7 @@ import type {
   AiSummaryData,
   ChatReply,
   ChatTurn,
+  DailyScanData,
   TopPicksData,
   ChartArtifact,
   DepthData,
@@ -160,6 +161,15 @@ export function useTopPicks() {
     queryFn: () => apiGet<Envelope<TopPicksData>>("/ai-top-picks"),
     staleTime: 5 * 60_000,
     retry: false,
+  });
+}
+
+/** Daily Scan — market regime light + rule-based shortlists. */
+export function useDailyScan() {
+  return useQuery({
+    queryKey: ["daily-scan"],
+    queryFn: () => apiGet<Envelope<DailyScanData>>("/daily-scan"),
+    staleTime: 5 * 60_000,
   });
 }
 
