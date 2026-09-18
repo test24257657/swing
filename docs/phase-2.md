@@ -119,3 +119,27 @@ every index tile/chart lagged stocks by one session (prod too — the 7 PM run).
   the file's own `Index Date` so a holiday can't be stamped as a session.
 - A history chunk ending today is no longer cached — it froze the index behind for every
   rerun that day.
+
+## Daily Scan tab (`/scan`, after Market Pulse)
+
+`jobs/daily_scan.py` → `out/daily_scan.json` → `GET /daily-scan`. Rule-based, zero Gemini
+calls. Thresholds in `jobs/config.py` (`RS_*`, `DELIVERY_SPIKE_*`, `POCKET_PIVOT_*`,
+`DISTRIBUTION_*`, `REGIME_*`). Stocks only — the ~350 ETFs/liquid/index funds in the EQ
+series are excluded via NSE's equity list (they topped the delivery-spike list).
+
+- **Market light** — red if NIFTY 50 < 200-day, breadth < 30% above 50-day, or below the
+  50-day with 5+ distribution days; green if above both averages, < 5 distribution days,
+  breadth ≥ 50%; else yellow. Distribution day = NIFTY down ≥ 0.2% on higher volume than
+  the prior session (volume = summed NIFTY 50 constituents' volume — the index files carry
+  none for history). First run: red (−5.0% vs 200-day, 9 distribution days, 31% breadth).
+- **RS rating 1–99** — 0.4×3M + 0.2×6M + 0.2×9M + 0.2×12M return, percentile across ~2,230
+  stocks with ≥ 126 sessions.
+- **Ready today** — trend template + RS ≥ 80 + liquid (₹1 cr median turnover) + a
+  `forming` setup 0–3% under its pivot; flags volume dry-up (5-day vol ≤ 60% of 50-day).
+- **Delivery spikes**, **pocket pivots** (up day, volume > every down day of the last 10,
+  above the 50-day, ≤ 5% over the 10-day), **RS leaders**, **sector leaders** (top 3
+  sectors × top 3 RS).
+- Tests: `jobs/tests/test_daily_scan.py`.
+
+Deferred: RS column + filter in the Screener; breadth/screener still count ETFs (same
+fix applies there — changes published breadth numbers, so done separately).

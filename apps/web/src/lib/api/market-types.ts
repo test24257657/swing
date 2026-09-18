@@ -462,3 +462,40 @@ export interface TopPicksData {
   eligible: number;
   picks: TopPick[];
 }
+
+export interface ScanRow {
+  symbol: string;
+  name: string;
+  ltp: number | null;
+  change_pct: number | null;
+  rs: number | null;
+  rel_volume: number | null;
+  pattern?: PatternCode;
+  pivot?: number | null;
+  gap_to_pivot_pct?: number | null;
+  stop?: number | null;
+  dry_up?: boolean;
+  delivery_pct?: number | null;
+  delivery_avg_pct?: number | null;
+}
+
+export interface MarketRegime {
+  light: "green" | "yellow" | "red";
+  label: string;
+  advice: string;
+  reasons: string[];
+  nifty_close: number | null;
+  distribution_days: number;
+  pct_above_50dma: number | null;
+}
+
+export interface DailyScanData {
+  as_of: string;
+  market: MarketRegime | null;
+  ready: ScanRow[];
+  rs_leaders: ScanRow[];
+  delivery_spikes: ScanRow[];
+  pocket_pivots: ScanRow[];
+  sector_leaders: { sector: string; rank: number | null; return_1m: number | null; stocks: ScanRow[] }[];
+  counts: { rated: number; trend_template: number; ready: number; delivery_spikes: number; pocket_pivots: number };
+}

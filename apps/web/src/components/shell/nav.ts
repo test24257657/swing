@@ -1,4 +1,4 @@
-import { Activity, CalendarDays, Landmark, ListFilter, Newspaper, PieChart, Star, TrendingUp, type LucideIcon } from "lucide-react";
+import { Activity, CalendarDays, Crosshair, Landmark, ListFilter, Newspaper, PieChart, Star, TrendingUp, type LucideIcon } from "lucide-react";
 
 export interface NavItem {
   href: string;
@@ -13,6 +13,7 @@ export interface NavItem {
  */
 export const NAV: NavItem[] = [
   { href: "/pulse", label: "Market Pulse", icon: Activity },
+  { href: "/scan", label: "Daily Scan", icon: Crosshair },
   { href: "/screener", label: "Screener", icon: ListFilter },
   { href: "/watchlist", label: "Watchlist", icon: Star },
   { href: "/sectors", label: "Sector Rotation", icon: PieChart },

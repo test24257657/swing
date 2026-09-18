@@ -183,3 +183,33 @@ MARKET_CLOSE = "15:30"
 HTTP_TIMEOUT = 25
 BACKFILL_DAYS = int(os.environ.get("BACKFILL_DAYS", "260"))
 SERIES_KEPT = {"EQ", "BE", "BZ"}
+
+# --- daily scan (jobs/daily_scan.py) --------------------------------------------
+# Relative Strength rating, IBD-style: weighted 3/6/9/12-month returns, the latest
+# quarter counted double, then percentile-ranked 1-99 across the whole market.
+RS_WEIGHTS = ((63, 0.4), (126, 0.2), (189, 0.2), (251, 0.2))  # (sessions back, weight)
+RS_MIN_SESSIONS = 126  # need at least ~6 months of history to be rated at all
+RS_LEADER_MIN = 80  # the zone most big winners sit in before their move
+SCAN_MIN_TURNOVER_CR = 1.0  # 20-day median daily traded value — below this is untradeable
+SCAN_ROWS = 15
+# "Ready today": trend template + RS leader + a forming setup coiled just under its pivot.
+READY_MAX_BELOW_PIVOT_PCT = 3.0
+# Delivery spike: real buyers taking delivery, not intraday churn.
+DELIVERY_SPIKE_MULT = 1.5  # today's delivery % vs its own 20-day average
+DELIVERY_SPIKE_MIN_PCT = 40.0
+DELIVERY_SPIKE_MIN_GAIN_PCT = 1.0
+DELIVERY_SPIKE_MIN_VOL_MULT = 1.5
+# Pocket pivot (Morales/Kacher): an up day whose volume beats every down day of the
+# last 10 sessions, in an uptrend, not already stretched off the 10-day average.
+POCKET_PIVOT_LOOKBACK = 10
+POCKET_PIVOT_MAX_ABOVE_SMA10_PCT = 5.0
+# Volume dry-up: sellers exhausted — 5-day average volume vs the 50-day.
+DRY_UP_MAX_RATIO = 0.6
+# Market regime (O'Neil distribution days, measured on NIFTY 50).
+DISTRIBUTION_DAY_MIN_DROP_PCT = 0.2
+DISTRIBUTION_WINDOW = 25
+DISTRIBUTION_CAUTION = 5  # 5+ in 25 sessions = institutions are selling into strength
+REGIME_BREADTH_OK = 50.0  # % of stocks above their 50-day average
+REGIME_BREADTH_WEAK = 30.0
+SECTOR_LEADER_SECTORS = 3
+SECTOR_LEADERS_PER_SECTOR = 3
