@@ -3,83 +3,18 @@
 import Link from "next/link";
 import { type ReactNode } from "react";
 
+import { MarketLight, RsBadge, StockLink as SharedStockLink, toneClass } from "@/components/scan/scan-parts";
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
 import { useDailyScan } from "@/lib/api/market-hooks";
-import type { MarketRegime, ScanRow } from "@/lib/api/market-types";
+import type { ScanRow } from "@/lib/api/market-types";
 import { cn } from "@/lib/cn";
-import { direction, pct, pctPlain, price, ratio } from "@/lib/format";
+import { pct, pctPlain, price, ratio } from "@/lib/format";
 import { PATTERNS } from "@/lib/patterns";
 import { toSlug } from "@/lib/slug";
-import { TONE_BOX } from "@/lib/tone";
-
-const LIGHT = {
-  green: { box: TONE_BOX.up, dot: "var(--color-up)" },
-  yellow: { box: { bg: "rgba(217,119,6,0.08)", bd: "rgba(217,119,6,0.28)", fg: "text-stale-text" }, dot: "var(--color-stale)" },
-  red: { box: TONE_BOX.down, dot: "var(--color-down)" },
-} as const;
-
-function toneClass(v: number | null | undefined) {
-  const d = direction(v);
-  return d === "up" ? "text-up-text" : d === "down" ? "text-down-text" : "text-text-secondary";
-}
-
-function RsBadge({ rs }: { rs: number | null }) {
-  if (rs == null) return <span className="text-text-faint">—</span>;
-  const strong = rs >= 80;
-  return (
-    <span
-      className={cn(
-        "tnum inline-flex min-w-[28px] justify-center rounded px-1.5 py-0.5 font-mono text-[11px] font-semibold",
-        strong ? "bg-[rgba(22,163,74,0.12)] text-up-text" : "bg-surface-2 text-text-secondary",
-      )}
-    >
-      {rs}
-    </span>
-  );
-}
 
 function StockLink({ symbol }: { symbol: string }) {
-  return (
-    <Link
-      href={`/chart/${toSlug(symbol)}?back=${encodeURIComponent("/scan")}`}
-      className="text-[13px] font-semibold hover:text-accent"
-    >
-      {symbol}
-    </Link>
-  );
-}
-
-function MarketLight({ m }: { m: MarketRegime }) {
-  const l = LIGHT[m.light];
-  return (
-    <Card className="p-4">
-      <div className="flex flex-wrap items-start gap-4">
-        <div className="flex items-center gap-3">
-          <span
-            aria-hidden
-            className="h-10 w-10 shrink-0 rounded-full"
-            style={{ background: l.dot, boxShadow: `0 0 0 6px ${l.box.bg}` }}
-          />
-          <div>
-            <div className="text-[11px] uppercase tracking-wide text-text-muted">Market light</div>
-            <div className={cn("text-[18px] font-semibold", l.box.fg)}>{m.label}</div>
-          </div>
-        </div>
-        <div className="min-w-0 flex-1 basis-64">
-          <p className="text-[13px] font-medium text-text">{m.advice}</p>
-          <ul className="mt-1.5 space-y-0.5 text-[12px] text-text-secondary">
-            {m.reasons.map((r) => (
-              <li key={r} className="flex gap-1.5">
-                <span className="text-text-faint">•</span>
-                <span>{r}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    </Card>
-  );
+  return <SharedStockLink symbol={symbol} back="/scan" />;
 }
 
 function Section({
