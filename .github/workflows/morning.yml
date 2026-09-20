@@ -49,6 +49,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_FALLBACK: ${{ secrets.GEMINI_API_KEY_FALLBACK }}
           LAST30DAYS_DIR: ${{ runner.temp }}/last30days
+          # Telegram push (jobs/telegram.py). Missing = no message, job unaffected.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Public site URL, used only to link the message back to the dashboard.
+          SITE_URL: ${{ vars.SITE_URL }}
         run: python -m jobs.morning_brief
 
       - name: Commit brief

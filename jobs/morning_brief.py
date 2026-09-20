@@ -457,6 +457,13 @@ def main() -> int:
     payload = build()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     (OUT_DIR / "morning_brief.json").write_text(json.dumps(payload, indent=1, ensure_ascii=False))
+
+    from jobs import notify, telegram
+
+    if telegram.configured():
+        msg = notify.morning_message(payload)
+        if msg:
+            telegram.send(msg)
     return 0 if payload["global_cues"] or payload["nifty"] else 1
 
 

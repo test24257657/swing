@@ -144,3 +144,21 @@ Postgres URL, so local runs silently had no Gemini keys.
   number without the AI paragraph.
 - GIFT Nifty not shown: no free source verified; `^NSEI` on Yahoo is the cash index.
 - Tests: `jobs/tests/test_morning_brief.py` (pivots, tone, session roll-over, checklist).
+
+## Telegram alerts (evening + morning)
+
+`jobs/telegram.py` sends; `jobs/notify.py` builds the text (pure, tested). Both pushes
+are opt-in: without `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID` nothing is sent and the
+jobs are unchanged. `SITE_URL` (repo variable) only adds a link back to the dashboard.
+
+- **Evening** — last step of the nightly run: today's *confirmed* breakouts (matched on
+  `breakout_date == business_date`, so yesterday's never resurface), sorted by volume
+  ratio, with pivot/stop/RS; the top 5 "ready tomorrow" names with their pivot and gap;
+  any watchlist alert that tripped (`alerts.evaluate` now returns `hits`); all under the
+  market light, with an explicit warning when the light is red. Returns `None` — and
+  sends nothing — when there is nothing to report.
+- **Morning** — end of `jobs/morning_brief.py`: AI headline + points, global cues row,
+  NIFTY R1/pivot/S1, stocks in focus, events, the first 3 checklist items.
+- HTML parse mode with `&`, `<`, `>` escaped (symbols like `M&M` would otherwise break
+  the message), split on blank lines at 4,000 chars so a stock is never cut in half.
+- Verified end to end against the real bot on 20 Sep: both messages delivered.
