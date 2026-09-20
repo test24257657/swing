@@ -46,6 +46,7 @@ def evaluate(panel: pd.DataFrame, business_date: date) -> dict:
 
     latest = panel[panel["date"] == panel["date"].max()].set_index("symbol")
     evaluated = triggered = 0
+    hits: list[dict] = []
     try:
         with conn, conn.cursor() as cur:
             cur.execute(
@@ -73,10 +74,13 @@ def evaluate(panel: pd.DataFrame, business_date: date) -> dict:
                         (business_date, hit_price, alert_id),
                     )
                     triggered += 1
+                    hits.append(
+                        {"symbol": symbol, "kind": kind, "threshold": float(threshold), "price": hit_price}
+                    )
     except Exception:
         log.exception("alert evaluation failed")
         conn.close()
-        return {"ok": False, "evaluated": evaluated, "triggered": triggered}
+        return {"ok": False, "evaluated": evaluated, "triggered": triggered, "hits": hits}
     conn.close()
     log.info("alerts: %s evaluated, %s triggered", evaluated, triggered)
-    return {"ok": True, "evaluated": evaluated, "triggered": triggered}
+    return {"ok": True, "evaluated": evaluated, "triggered": triggered, "hits": hits}

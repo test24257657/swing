@@ -6,6 +6,7 @@ import Link from "next/link";
 import { BreadthDonut } from "@/components/charts/breadth-donut";
 import { FlowBars } from "@/components/charts/flow-bars";
 import { Sparkline } from "@/components/charts/sparkline";
+import { MorningBriefCard } from "@/components/scan/morning-brief-card";
 import { MarketLight, MiniList, RsBadge, StepHeading } from "@/components/scan/scan-parts";
 import { Screen, ScreenHeader } from "@/components/screen/screen-header";
 import { Button, Card, Chip, DataSourceFooter, EmptyState, Skeleton, Tooltip } from "@/components/ui";
@@ -146,6 +147,8 @@ export function PulseClient() {
           missing or behind.
         </div>
       )}
+
+      <MorningBriefCard lastClose={d.as_of} />
 
       <StepHeading n={1} title="Can I buy today?" hint="The market decides most of your result." />
       {sd?.market ? (

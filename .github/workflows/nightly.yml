@@ -92,6 +92,11 @@ jobs:
           # still generates, it just starts from a blank slate every week instead of
           # grading its own prior call.
           MEM0_API_KEY: ${{ secrets.MEM0_API_KEY }}
+          # Telegram push (jobs/telegram.py). Missing = no message, job unaffected.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Public site URL, used only to link the message back to the dashboard.
+          SITE_URL: ${{ vars.SITE_URL }}
         run: python -m jobs.run_nightly
 
       - if: steps.guard.outputs.skip != 'true'

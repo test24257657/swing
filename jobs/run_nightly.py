@@ -27,11 +27,13 @@ from jobs import (
     institutional,
     movers,
     news,
+    notify,
     panel,
     quotes,
     results_calendar,
     screener,
     sectors,
+    telegram,
     tiles,
     weekly_outlook,
     writer,
@@ -234,6 +236,13 @@ def main() -> int:
             "breakouts_52w": breakouts,
         }
     )
+    # 20. Telegram push — what broke out today, what is ready tomorrow, watchlist
+    #     alerts. Unconfigured = skipped, same as every optional integration.
+    if telegram.configured():
+        msg = notify.evening_message(business_date, scan_payload, screener_payload, alert_stats.get("hits") or [])
+        if msg:
+            telegram.send(msg)
+
     writer.write_meta(sources)
 
     failed = [k for k, v in sources.items() if not v.get("ok", True)]

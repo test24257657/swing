@@ -499,3 +499,50 @@ export interface DailyScanData {
   sector_leaders: { sector: string; rank: number | null; return_1m: number | null; stocks: ScanRow[] }[];
   counts: { rated: number; trend_template: number; ready: number; delivery_spikes: number; pocket_pivots: number };
 }
+
+export interface GlobalCue {
+  label: string;
+  group: "US" | "Asia" | "Macro";
+  value: number;
+  change_pct: number;
+  as_of: string;
+}
+
+export interface MorningBrief {
+  generated_at: string;
+  for_session: string;
+  market_light: "green" | "yellow" | "red" | null;
+  global_cues: GlobalCue[];
+  global_tone: { tone: "positive" | "negative" | "mixed"; avg_change_pct: number; crude_alert: boolean };
+  nifty: {
+    session: string;
+    close: number;
+    high: number;
+    low: number;
+    pivot: number;
+    r1: number;
+    s1: number;
+    r2: number;
+    s2: number;
+    sma_20: number | null;
+    sma_50: number | null;
+    sma_200: number | null;
+  } | null;
+  focus: { symbol: string; name: string; why: string; rs: number | null }[];
+  overnight_news: { symbol: string; time: string; category: string; text: string; url: string | null }[];
+  events: string[];
+  checklist: string[];
+  community: {
+    items: {
+      title: string;
+      url: string;
+      where: string;
+      date: string;
+      views: number | null;
+      upvotes: number | null;
+      comments: number | null;
+    }[];
+    window_days: number;
+  } | null;
+  ai: { headline: string; points: string[] } | null;
+}
