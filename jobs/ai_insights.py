@@ -26,7 +26,11 @@ import pandas as pd
 
 from jobs.cache import safe
 from jobs.charts import technicals as compute_technicals
-from jobs.config import AI_INSIGHT_BATCH_SIZE, AI_INSIGHT_MIN_ROWS
+from jobs.config import (
+    AI_INSIGHT_BATCH_SIZE,
+    AI_INSIGHT_MAX_SYMBOLS,
+    AI_INSIGHT_MIN_ROWS,
+)
 from jobs.gemini import generate_json
 from jobs.sources import financial_results, financial_results_client, xbrl_financials
 
@@ -125,10 +129,19 @@ def build(panel: pd.DataFrame, symbols: list[str], screener_payload: dict, news_
 
     panel_by_symbol = {sym: g for sym, g in panel[panel["symbol"].isin(symbols)].groupby("symbol")}
 
+    # `symbols` arrives in priority order (movers, then screener matches, then
+    # watchlist), so truncating keeps the names most likely to be traded. Capped
+    # because each batch of AI_INSIGHT_BATCH_SIZE is one Gemini call against a
+    # ~20-request daily free-tier quota shared with every other AI feature.
+    scoped = list(dict.fromkeys(symbols))
+    if len(scoped) > AI_INSIGHT_MAX_SYMBOLS:
+        log.info("ai_insights: capping %s symbols to %s", len(scoped), AI_INSIGHT_MAX_SYMBOLS)
+        scoped = scoped[:AI_INSIGHT_MAX_SYMBOLS]
+
     digests: list[tuple[str, str]] = []
     client = financial_results_client()
     try:
-        for symbol in dict.fromkeys(symbols):
+        for symbol in scoped:
             sub_df = panel_by_symbol.get(symbol)
             if sub_df is None:
                 continue
@@ -147,6 +160,13 @@ def build(panel: pd.DataFrame, symbols: list[str], screener_payload: dict, news_
         for symbol, data in result.items():
             payloads[symbol] = {"symbol": symbol, **data}
 
-    stats = {"ok": bool(payloads), "eligible": len(digests), "written": len(payloads)}
-    log.info("ai_insights: %s of %s eligible symbols (whole market)", len(payloads), len(digests))
+    stats = {
+        "ok": bool(payloads),
+        "universe": len(symbols),
+        "scoped": len(scoped),
+        "eligible": len(digests),
+        "written": len(payloads),
+        "gemini_calls": -(-len(digests) // AI_INSIGHT_BATCH_SIZE),
+    }
+    log.info("ai_insights: %s of %s eligible symbols (%s scoped of %s offered)", len(payloads), len(digests), len(scoped), len(symbols))
     return payloads, stats

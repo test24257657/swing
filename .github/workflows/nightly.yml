@@ -1,15 +1,16 @@
 name: nightly
 
-# Three tries, Mon–Fri (UTC → IST): 13:37 = 7:07 PM, 15:07 = 8:37 PM, 17:23 = 10:53 PM.
-# GitHub starts scheduled runs late under load and can drop them outright — the single
-# 13:30 slot fired at 11:13 PM on 15-Sep and not at all on 16-Sep. Off-peak minutes are
-# less congested, and the "already built today" guard below makes the later slots exit
-# in seconds once any run (scheduled or manual) has produced today's artifacts.
+# One run a day: 12:30 UTC = 6:00 PM IST, Mon–Fri.
+# Caveat kept on purpose: GitHub starts scheduled runs late under load and sometimes
+# drops them (the old 7 PM slot fired at 11:13 PM on 15-Sep and never on 16-Sep), and
+# NSE's bhavcopy-with-delivery is usually published ~6-6:30 PM — so a 6 PM start can
+# miss today's session. Either is safe rather than wrong: the panel simply has no new
+# session, pulse.json keeps yesterday's date, and the "already built today" guard below
+# lets a later manual run (or a cron-job.org trigger on workflow_dispatch, like the
+# morning brief uses) fill it in.
 on:
   schedule:
-    - cron: "37 13 * * 1-5"
-    - cron: "7 15 * * 1-5"
-    - cron: "23 17 * * 1-5"
+    - cron: "30 12 * * 1-5"
   workflow_dispatch:
     inputs:
       backfill_days:
@@ -92,6 +93,9 @@ jobs:
           # still generates, it just starts from a blank slate every week instead of
           # grading its own prior call.
           MEM0_API_KEY: ${{ secrets.MEM0_API_KEY }}
+          # How many stocks get an AI read (1 Gemini call per 15). Repo variable, so the
+          # free-tier budget can be re-balanced without a code change. Default 150.
+          AI_INSIGHT_MAX_SYMBOLS: ${{ vars.AI_INSIGHT_MAX_SYMBOLS }}
           # Telegram push (jobs/telegram.py). Missing = no message, job unaffected.
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

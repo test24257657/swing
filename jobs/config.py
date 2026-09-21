@@ -133,6 +133,13 @@ GEMINI_MAX_RETRIES = 6  # on HTTP 429, honouring Retry-After when the server sen
 # --- AI stock narrative (per-symbol, nightly, whole traded market) --------------
 AI_INSIGHT_BATCH_SIZE = 15  # symbols per Gemini request — richer per-item context
 # than news, so a smaller batch than GEMINI_BATCH_SIZE keeps prompts a sane size.
+# Hard cap on how many symbols get an AI read a night — the only per-stock Gemini
+# cost in the pipeline (one call per AI_INSIGHT_BATCH_SIZE symbols). The free tier is
+# ~20 requests/day/key, so 150 symbols = 10 calls, leaving room for news, the results
+# calendar, money flow, top picks, the morning brief and the chat.
+# Tunable from the workflow (repo variable AI_INSIGHT_MAX_SYMBOLS) so the quota can be
+# re-balanced without a code change — real runs show the free tier exhausting mid-night.
+AI_INSIGHT_MAX_SYMBOLS = int(os.environ.get("AI_INSIGHT_MAX_SYMBOLS") or 150)
 AI_INSIGHT_MIN_ROWS = 20  # same floor as jobs/charts.py::technicals() — too little
 # history for RSI/ATR to mean anything.
 
