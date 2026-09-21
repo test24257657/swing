@@ -1,0 +1,260 @@
+{
+ "generated_at": "2026-09-21T13:46:25+05:30",
+ "for_session": "2026-09-21",
+ "market_light": "red",
+ "global_cues": [
+  {
+   "label": "S&P 500",
+   "group": "US",
+   "value": 7650.5,
+   "change_pct": 0.17,
+   "as_of": "2026-09-18"
+  },
+  {
+   "label": "Nasdaq",
+   "group": "US",
+   "value": 26522.54,
+   "change_pct": 0.39,
+   "as_of": "2026-09-18"
+  },
+  {
+   "label": "Dow",
+   "group": "US",
+   "value": 51682.64,
+   "change_pct": -0.18,
+   "as_of": "2026-09-18"
+  },
+  {
+   "label": "Nikkei",
+   "group": "Asia",
+   "value": 65018.95,
+   "change_pct": 1.38,
+   "as_of": "2026-09-18"
+  },
+  {
+   "label": "Hang Seng",
+   "group": "Asia",
+   "value": 25010.45,
+   "change_pct": 1.05,
+   "as_of": "2026-09-21"
+  },
+  {
+   "label": "Kospi",
+   "group": "Asia",
+   "value": 7007.72,
+   "change_pct": 1.65,
+   "as_of": "2026-09-21"
+  },
+  {
+   "label": "Brent crude",
+   "group": "Macro",
+   "value": 97.62,
+   "change_pct": -6.02,
+   "as_of": "2026-09-21"
+  },
+  {
+   "label": "Gold",
+   "group": "Macro",
+   "value": 4388.3,
+   "change_pct": -0.83,
+   "as_of": "2026-09-21"
+  },
+  {
+   "label": "USD/INR",
+   "group": "Macro",
+   "value": 95.82,
+   "change_pct": 0.02,
+   "as_of": "2026-09-21"
+  },
+  {
+   "label": "US 10Y yield",
+   "group": "Macro",
+   "value": 5.0,
+   "change_pct": 1.03,
+   "as_of": "2026-09-18"
+  },
+  {
+   "label": "Dollar index",
+   "group": "Macro",
+   "value": 100.33,
+   "change_pct": 0.11,
+   "as_of": "2026-09-21"
+  }
+ ],
+ "global_tone": {
+  "tone": "positive",
+  "avg_change_pct": 0.93,
+  "crude_alert": true
+ },
+ "nifty": {
+  "session": "2026-09-18",
+  "close": 23346.4,
+  "high": 23389.15,
+  "low": 23286.6,
+  "pivot": 23340.72,
+  "r1": 23394.83,
+  "s1": 23292.28,
+  "r2": 23443.27,
+  "s2": 23238.17,
+  "sma_20": 23788.82,
+  "sma_50": 24079.01,
+  "sma_200": 24487.31
+ },
+ "focus": [
+  {
+   "symbol": "MENONBE",
+   "name": "Menon Bearings Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 98
+  },
+  {
+   "symbol": "KAPSTON",
+   "name": "Kapston Services Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 97
+  },
+  {
+   "symbol": "AEGISLOG",
+   "name": "Aegis Logistics Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 96
+  },
+  {
+   "symbol": "SALSTEEL",
+   "name": "S.A.L. Steel Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 96
+  },
+  {
+   "symbol": "BHAGERIA",
+   "name": "Bhageria Industries Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 96
+  },
+  {
+   "symbol": "EMIL",
+   "name": "Electronics Mart India Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "LENSKART",
+   "name": "Lenskart Solutions Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "ATGL",
+   "name": "Adani Total Gas Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "WELCORP",
+   "name": "Welspun Corp Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 98
+  },
+  {
+   "symbol": "COMSYN",
+   "name": "Commercial Syn Bags Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 97
+  },
+  {
+   "symbol": "TFCILTD",
+   "name": "Tourism Finance Corporation of India Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 97
+  },
+  {
+   "symbol": "VALIANTLAB",
+   "name": "Valiant Laboratories Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 97
+  }
+ ],
+ "overnight_news": [
+  {
+   "symbol": "WELCORP",
+   "time": "20 Sep 21:41",
+   "category": "Bagging/Receiving of orders/contracts",
+   "text": "Welspun Corp Limited has informed the Exchange about Bagging/Receiving of orders/contracts: Large order win announced by the Company s associate Company viz. East Pipes Integrated Company for Industry, KSA",
+   "url": "https://nsearchives.nseindia.com/corporate/WELCORP_20092026214050_SEDisclosureEPICOrdersigned.pdf"
+  },
+  {
+   "symbol": "KOTAKBANK",
+   "time": "19 Sep 19:46",
+   "category": "ESOP/ESOS/ESPS",
+   "text": "Kotak Mahindra Bank Limited has informed the Exchange regarding Allotment of 225250 Equity Shares.",
+   "url": "https://nsearchives.nseindia.com/corporate/KOTAK_19092026194331_SEIntESOPAllotment.pdf"
+  },
+  {
+   "symbol": "M&M",
+   "time": "18 Sep 21:08",
+   "category": "Credit Rating",
+   "text": "Mahindra & Mahindra Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.com/corporate/ferozebaria_18092026210704_CRISILReaffirmed18092026.pdf"
+  },
+  {
+   "symbol": "TATASTEEL",
+   "time": "18 Sep 20:14",
+   "category": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
+   "text": "Tata Steel Limited has informed the Exchange about disclosure under Regulations 30 read with 51 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_18092026201353_BSENSE.pdf"
+  },
+  {
+   "symbol": "NTPC",
+   "time": "18 Sep 19:31",
+   "category": "Change in Auditors",
+   "text": "NTPC Limited has informed the Exchange regarding Change in Auditors of the company.",
+   "url": "https://nsearchives.nseindia.com/corporate/NTPC_18092026193026_18092026_Appointment_of_Statutory.pdf"
+  },
+  {
+   "symbol": "TITAN",
+   "time": "18 Sep 18:21",
+   "category": "Options to purchase securities",
+   "text": "Titan Company Limited has informed the Exchange about Grant of Performance Stock Units under Titan Company Limited Performance Based Stock Unit Scheme 2026",
+   "url": "https://nsearchives.nseindia.com/corporate/Titan002_18092026182055_SE_Intimation_-Grant_of_PSUs_final.pdf"
+  },
+  {
+   "symbol": "ULTRACEMCO",
+   "time": "18 Sep 17:33",
+   "category": "Rumour Verification - Regulation 30(11)",
+   "text": "UltraTech Cement Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
+   "url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_18092026173315_MPM18092026.pdf"
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "time": "18 Sep 17:23",
+   "category": "Action(s) taken or orders passed",
+   "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+   "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_18092026172256_Bharti_Airtel_-_Reg_30_discl.pdf"
+  },
+  {
+   "symbol": "NESTLEIND",
+   "time": "18 Sep 16:11",
+   "category": "News Verification",
+   "text": "The Exchange has sought clarification from Nestle India Limited with respect to recent news item captioned FSSAI initiates legal action against Nestle India on baby formula, shares fall 2%.  The response from the Company",
+   "url": "-"
+  }
+ ],
+ "events": [
+  "3 companies report results today."
+ ],
+ "checklist": [
+  "Market light is RED — no new buys; manage open trades only.",
+  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
+  "Buy only above the pivot on volume; set the stop before you enter."
+ ],
+ "community": null,
+ "ai": {
+  "headline": "Positive Global Cues Point To Upbeat Open Despite Weak Trend",
+  "points": [
+   "Asian cues are positive with Kospi up 1.65% and Nikkei gaining 1.38%, setting an upbeat open tone.",
+   "Brent crude fell 6.02% to 97.62, easing macro pressures even as the US 10Y yield rose 1.03% to 5.0.",
+   "NIFTY closed at 23346.4; traders should watch resistance R1 at 23394.83 and support S1 at 23292.28.",
+   "With the market light red, monitor 3 earning reports today and Kotak Bank after its 225250 share allotment."
+  ]
+ }
+}
