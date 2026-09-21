@@ -148,3 +148,24 @@ placed on their actual date, prev/next month bounded to the ±30-day data window
   A real run confirmed the whole-market AI narrative attempt (since reverted)
   cost ~50-60 of the ~60-90 total minutes; back on the ~350-symbol scope, this
   step should cost single-digit minutes.
+
+## Symbol cap (free-tier budget)
+
+`AI_INSIGHT_MAX_SYMBOLS` (config, overridable by the repo variable of the same name)
+caps how many symbols get an AI read — one Gemini call per `AI_INSIGHT_BATCH_SIZE` (15).
+Default **150 → 10 calls**. `symbols` arrives in priority order (movers, screener
+matches, watchlist), so the cap keeps the names most likely to be traded.
+
+Why it exists: Google's free tier is ~20 requests/day/**model/project** (the 429 body
+says `GenerateRequestsPerDayPerProjectPerModel-FreeTier: 20`). The 21-Sep production run
+asked for ~24 calls and shows what happens when the budget is gone:
+
+```
+news:        fetched 76, classified 0    (~4 calls, all 429)
+ai_insights: eligible 298, written 15    (1 batch of 20 succeeded)
+```
+
+Nightly budget at the default: news ~4 + AI reads 10 + results calendar ~1 + money flow 1
++ top picks 1 = ~17, plus the morning brief (1) and whatever the chat uses. If both keys
+belong to the same Google project they share one 20/day allowance, not 40 — lower the
+variable (60 = 4 calls) or enable billing on one key.

@@ -93,6 +93,9 @@ jobs:
           # still generates, it just starts from a blank slate every week instead of
           # grading its own prior call.
           MEM0_API_KEY: ${{ secrets.MEM0_API_KEY }}
+          # How many stocks get an AI read (1 Gemini call per 15). Repo variable, so the
+          # free-tier budget can be re-balanced without a code change. Default 150.
+          AI_INSIGHT_MAX_SYMBOLS: ${{ vars.AI_INSIGHT_MAX_SYMBOLS }}
           # Telegram push (jobs/telegram.py). Missing = no message, job unaffected.
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
