@@ -162,3 +162,9 @@ jobs are unchanged. `SITE_URL` (repo variable) only adds a link back to the dash
 - HTML parse mode with `&`, `<`, `>` escaped (symbols like `M&M` would otherwise break
   the message), split on blank lines at 4,000 chars so a stock is never cut in half.
 - Verified end to end against the real bot on 20 Sep: both messages delivered.
+
+## Nightly schedule
+One run: `cron: "30 12 * * 1-5"` = 6:00 PM IST, Mon–Fri (was three off-peak tries). The
+"already built today" guard stays, so a later manual run — or a cron-job.org trigger on
+`workflow_dispatch`, exactly as the morning brief works — fills in a day GitHub starts
+late or skips, without redoing NSE fetches or Gemini calls.
