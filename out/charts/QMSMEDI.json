@@ -2,7 +2,7 @@
  "symbol": "QMSMEDI",
  "name": "QMS Medical Allied Services Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2026-06-18",
@@ -588,6 +588,24 @@
    "close": 177.36,
    "volume": 86775,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-21",
+   "open": 185.0,
+   "high": 186.22,
+   "low": 180.91,
+   "close": 186.22,
+   "volume": 58939,
+   "delivery_pct": null
+  },
+  {
+   "time": "2026-09-22",
+   "open": 190.0,
+   "high": 195.52,
+   "low": 183.21,
+   "close": 192.8,
+   "volume": 72067,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -775,6 +793,14 @@
    {
     "time": "2026-09-18",
     "value": 157.43
+   },
+   {
+    "time": "2026-09-21",
+    "value": 159.32
+   },
+   {
+    "time": "2026-09-22",
+    "value": 161.65
    }
   ],
   "sma_50": [
@@ -841,15 +867,23 @@
    {
     "time": "2026-09-18",
     "value": 132.97
+   },
+   {
+    "time": "2026-09-21",
+    "value": 134.57
+   },
+   {
+    "time": "2026-09-22",
+    "value": 136.25
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.99,
-  "atr_pct": 4.18,
-  "rel_volume_20d": 2.58,
-  "dist_20dma_pct": 12.66,
-  "dist_50dma_pct": 33.38,
+  "rsi_14": 81.71,
+  "atr_pct": 4.08,
+  "rel_volume_20d": 2.1,
+  "dist_20dma_pct": 19.27,
+  "dist_50dma_pct": 41.5,
   "dist_200dma_pct": null
  }
 }

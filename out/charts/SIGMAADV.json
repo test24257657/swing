@@ -2,7 +2,7 @@
  "symbol": "SIGMAADV",
  "name": "SIGMA ADVANCED SYSTEMS LIMITED",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2026-02-09",
@@ -1362,6 +1362,24 @@
    "close": 866.1,
    "volume": 255004,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-21",
+   "open": 869.0,
+   "high": 909.4,
+   "low": 848.0,
+   "close": 908.95,
+   "volume": 443050,
+   "delivery_pct": null
+  },
+  {
+   "time": "2026-09-22",
+   "open": 914.95,
+   "high": 950.0,
+   "low": 905.0,
+   "close": 948.0,
+   "volume": 369254,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1893,6 +1911,14 @@
    {
     "time": "2026-09-18",
     "value": 769.71
+   },
+   {
+    "time": "2026-09-21",
+    "value": 780.75
+   },
+   {
+    "time": "2026-09-22",
+    "value": 795.16
    }
   ],
   "sma_50": [
@@ -2303,15 +2329,23 @@
    {
     "time": "2026-09-18",
     "value": 677.87
+   },
+   {
+    "time": "2026-09-21",
+    "value": 684.39
+   },
+   {
+    "time": "2026-09-22",
+    "value": 691.7
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.48,
-  "atr_pct": 5.21,
-  "rel_volume_20d": 0.76,
-  "dist_20dma_pct": 12.52,
-  "dist_50dma_pct": 27.77,
+  "rsi_14": 75.29,
+  "atr_pct": 4.87,
+  "rel_volume_20d": 1.23,
+  "dist_20dma_pct": 19.22,
+  "dist_50dma_pct": 37.05,
   "dist_200dma_pct": null
  }
 }

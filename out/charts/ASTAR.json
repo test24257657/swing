@@ -2,7 +2,7 @@
  "symbol": "ASTAR",
  "name": "Asian Star Company Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2026-04-20",
@@ -840,6 +840,24 @@
    "close": 807.35,
    "volume": 13851,
    "delivery_pct": 26.22
+  },
+  {
+   "time": "2026-09-21",
+   "open": 814.95,
+   "high": 848.0,
+   "low": 725.3,
+   "close": 726.15,
+   "volume": 16464,
+   "delivery_pct": 32.12
+  },
+  {
+   "time": "2026-09-22",
+   "open": 733.85,
+   "high": 734.0,
+   "low": 680.0,
+   "close": 702.45,
+   "volume": 3138,
+   "delivery_pct": 34.45
   }
  ],
  "ma": {
@@ -1139,6 +1157,14 @@
    {
     "time": "2026-09-18",
     "value": 602.66
+   },
+   {
+    "time": "2026-09-21",
+    "value": 609.44
+   },
+   {
+    "time": "2026-09-22",
+    "value": 615.41
    }
   ],
   "sma_50": [
@@ -1317,15 +1343,23 @@
    {
     "time": "2026-09-18",
     "value": 604.42
+   },
+   {
+    "time": "2026-09-21",
+    "value": 606.39
+   },
+   {
+    "time": "2026-09-22",
+    "value": 608.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 80.44,
-  "atr_pct": 5.27,
-  "rel_volume_20d": 85.37,
-  "dist_20dma_pct": 33.96,
-  "dist_50dma_pct": 33.57,
+  "rsi_14": 60.5,
+  "atr_pct": 6.93,
+  "rel_volume_20d": 1.89,
+  "dist_20dma_pct": 14.14,
+  "dist_50dma_pct": 15.53,
   "dist_200dma_pct": null
  }
 }

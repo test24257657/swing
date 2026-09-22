@@ -2,7 +2,7 @@
  "symbol": "ELANTAS",
  "name": "Elantas Beck India Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2026-04-20",
@@ -957,6 +957,24 @@
    "close": 14228.0,
    "volume": 3136,
    "delivery_pct": 40.08
+  },
+  {
+   "time": "2026-09-21",
+   "open": 14230.0,
+   "high": 14949.0,
+   "low": 14123.0,
+   "close": 14793.0,
+   "volume": 6739,
+   "delivery_pct": 40.93
+  },
+  {
+   "time": "2026-09-22",
+   "open": 14999.0,
+   "high": 15150.0,
+   "low": 14262.0,
+   "close": 14410.0,
+   "volume": 1964,
+   "delivery_pct": 40.27
   }
  ],
  "ma": {
@@ -1308,6 +1326,14 @@
    {
     "time": "2026-09-18",
     "value": 12598.08
+   },
+   {
+    "time": "2026-09-21",
+    "value": 12760.23
+   },
+   {
+    "time": "2026-09-22",
+    "value": 12896.35
    }
   ],
   "sma_50": [
@@ -1538,15 +1564,23 @@
    {
     "time": "2026-09-18",
     "value": 11269.22
+   },
+   {
+    "time": "2026-09-21",
+    "value": 11372.96
+   },
+   {
+    "time": "2026-09-22",
+    "value": 11471.94
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.81,
-  "atr_pct": 5.28,
-  "rel_volume_20d": 0.61,
-  "dist_20dma_pct": 12.94,
-  "dist_50dma_pct": 26.26,
+  "rsi_14": 66.12,
+  "atr_pct": 5.32,
+  "rel_volume_20d": 0.36,
+  "dist_20dma_pct": 11.74,
+  "dist_50dma_pct": 25.61,
   "dist_200dma_pct": null
  }
 }

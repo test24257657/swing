@@ -2,7 +2,7 @@
  "symbol": "TIMEX",
  "name": "Timex Group India Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2026-04-20",
@@ -957,6 +957,24 @@
    "close": 714.2,
    "volume": 6651306,
    "delivery_pct": 13.66
+  },
+  {
+   "time": "2026-09-21",
+   "open": 714.2,
+   "high": 726.5,
+   "low": 700.0,
+   "close": 709.65,
+   "volume": 923419,
+   "delivery_pct": 19.14
+  },
+  {
+   "time": "2026-09-22",
+   "open": 708.5,
+   "high": 718.45,
+   "low": 701.65,
+   "close": 703.8,
+   "volume": 236271,
+   "delivery_pct": 38.95
   }
  ],
  "ma": {
@@ -1308,6 +1326,14 @@
    {
     "time": "2026-09-18",
     "value": 633.15
+   },
+   {
+    "time": "2026-09-21",
+    "value": 638.64
+   },
+   {
+    "time": "2026-09-22",
+    "value": 644.06
    }
   ],
   "sma_50": [
@@ -1538,15 +1564,23 @@
    {
     "time": "2026-09-18",
     "value": 586.83
+   },
+   {
+    "time": "2026-09-21",
+    "value": 589.63
+   },
+   {
+    "time": "2026-09-22",
+    "value": 592.18
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.49,
-  "atr_pct": 4.88,
-  "rel_volume_20d": 16.98,
-  "dist_20dma_pct": 12.8,
-  "dist_50dma_pct": 21.7,
+  "rsi_14": 65.82,
+  "atr_pct": 4.69,
+  "rel_volume_20d": 0.33,
+  "dist_20dma_pct": 9.27,
+  "dist_50dma_pct": 18.85,
   "dist_200dma_pct": null
  }
 }

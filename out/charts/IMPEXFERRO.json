@@ -2,8 +2,44 @@
  "symbol": "IMPEXFERRO",
  "name": "Impex Ferro Tech Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
+  {
+   "time": "2025-09-24",
+   "open": 2.07,
+   "high": 2.07,
+   "low": 1.97,
+   "close": 2.03,
+   "volume": 3045,
+   "delivery_pct": null
+  },
+  {
+   "time": "2025-09-25",
+   "open": 2.03,
+   "high": 2.03,
+   "low": 1.94,
+   "close": 1.98,
+   "volume": 9693,
+   "delivery_pct": null
+  },
+  {
+   "time": "2025-09-26",
+   "open": 1.95,
+   "high": 1.95,
+   "low": 1.89,
+   "close": 1.95,
+   "volume": 8129,
+   "delivery_pct": null
+  },
+  {
+   "time": "2025-09-29",
+   "open": 2.02,
+   "high": 2.02,
+   "low": 1.94,
+   "close": 1.95,
+   "volume": 1613,
+   "delivery_pct": null
+  },
   {
    "time": "2025-09-30",
    "open": 1.95,
@@ -1893,10 +1929,44 @@
    "close": 5.58,
    "volume": 29142,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-21",
+   "open": 5.69,
+   "high": 5.69,
+   "low": 5.69,
+   "close": 5.69,
+   "volume": 57253,
+   "delivery_pct": null
+  },
+  {
+   "time": "2026-09-22",
+   "open": 5.75,
+   "high": 5.8,
+   "low": 5.75,
+   "close": 5.8,
+   "volume": 23462,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
+   {
+    "time": "2025-10-23",
+    "value": 1.92
+   },
+   {
+    "time": "2025-10-24",
+    "value": 1.91
+   },
+   {
+    "time": "2025-10-27",
+    "value": 1.91
+   },
+   {
+    "time": "2025-10-28",
+    "value": 1.91
+   },
    {
     "time": "2025-10-29",
     "value": 1.91
@@ -2660,9 +2730,33 @@
    {
     "time": "2026-09-18",
     "value": 4.7
+   },
+   {
+    "time": "2026-09-21",
+    "value": 4.79
+   },
+   {
+    "time": "2026-09-22",
+    "value": 4.88
    }
   ],
   "sma_50": [
+   {
+    "time": "2025-12-05",
+    "value": 1.9
+   },
+   {
+    "time": "2025-12-08",
+    "value": 1.9
+   },
+   {
+    "time": "2025-12-09",
+    "value": 1.89
+   },
+   {
+    "time": "2025-12-10",
+    "value": 1.89
+   },
    {
     "time": "2025-12-11",
     "value": 1.89
@@ -3306,9 +3400,33 @@
    {
     "time": "2026-09-18",
     "value": 3.55
+   },
+   {
+    "time": "2026-09-21",
+    "value": 3.62
+   },
+   {
+    "time": "2026-09-22",
+    "value": 3.7
    }
   ],
   "sma_200": [
+   {
+    "time": "2026-08-28",
+    "value": 1.99
+   },
+   {
+    "time": "2026-08-31",
+    "value": 2.0
+   },
+   {
+    "time": "2026-09-01",
+    "value": 2.01
+   },
+   {
+    "time": "2026-09-02",
+    "value": 2.03
+   },
    {
     "time": "2026-09-03",
     "value": 2.04
@@ -3352,15 +3470,23 @@
    {
     "time": "2026-09-18",
     "value": 2.2
+   },
+   {
+    "time": "2026-09-21",
+    "value": 2.22
+   },
+   {
+    "time": "2026-09-22",
+    "value": 2.24
    }
   ]
  },
  "technicals": {
-  "rsi_14": 97.34,
-  "atr_pct": 1.75,
-  "rel_volume_20d": 0.74,
-  "dist_20dma_pct": 18.67,
-  "dist_50dma_pct": 57.32,
-  "dist_200dma_pct": 153.53
+  "rsi_14": 97.78,
+  "atr_pct": 1.72,
+  "rel_volume_20d": 0.55,
+  "dist_20dma_pct": 18.83,
+  "dist_50dma_pct": 56.78,
+  "dist_200dma_pct": 159.05
  }
 }

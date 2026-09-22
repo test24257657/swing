@@ -2,7 +2,7 @@
  "symbol": "GKSL",
  "name": "Gujarat Kidney And Super Speciality Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2025-12-30",
@@ -1605,6 +1605,24 @@
    "close": 181.25,
    "volume": 273151,
    "delivery_pct": 35.04
+  },
+  {
+   "time": "2026-09-21",
+   "open": 184.24,
+   "high": 186.99,
+   "low": 182.0,
+   "close": 183.21,
+   "volume": 127464,
+   "delivery_pct": 46.8
+  },
+  {
+   "time": "2026-09-22",
+   "open": 184.99,
+   "high": 185.21,
+   "low": 173.01,
+   "close": 175.17,
+   "volume": 2252924,
+   "delivery_pct": 55.71
   }
  ],
  "ma": {
@@ -2244,6 +2262,14 @@
    {
     "time": "2026-09-18",
     "value": 166.77
+   },
+   {
+    "time": "2026-09-21",
+    "value": 168.28
+   },
+   {
+    "time": "2026-09-22",
+    "value": 169.41
    }
   ],
   "sma_50": [
@@ -2762,15 +2788,23 @@
    {
     "time": "2026-09-18",
     "value": 147.03
+   },
+   {
+    "time": "2026-09-21",
+    "value": 148.05
+   },
+   {
+    "time": "2026-09-22",
+    "value": 148.87
    }
   ]
  },
  "technicals": {
-  "rsi_14": 77.14,
-  "atr_pct": 4.07,
-  "rel_volume_20d": 0.42,
-  "dist_20dma_pct": 8.69,
-  "dist_50dma_pct": 23.27,
+  "rsi_14": 63.16,
+  "atr_pct": 4.34,
+  "rel_volume_20d": 3.84,
+  "dist_20dma_pct": 3.4,
+  "dist_50dma_pct": 17.67,
   "dist_200dma_pct": null
  }
 }

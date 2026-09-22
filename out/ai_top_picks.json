@@ -1,88 +1,153 @@
 {
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "source": "rules",
- "universe": 300,
- "eligible": 3,
+ "universe": 293,
+ "eligible": 73,
  "picks": [
   {
-   "symbol": "EMIL",
-   "ltp": 196.28,
+   "symbol": "DICIND",
+   "ltp": 654.25,
    "technicals": {
-    "rsi_14": 65.23,
-    "rel_volume_20d": 7.9,
-    "dist_20dma_pct": 7.59,
-    "dist_50dma_pct": 20.12,
-    "dist_200dma_pct": 62.63
+    "rsi_14": 68.24,
+    "rel_volume_20d": 2.7,
+    "dist_20dma_pct": 7.88,
+    "dist_50dma_pct": 16.48,
+    "dist_200dma_pct": 24.34
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 193.61,
-    "stop_suggestion": 167.54,
-    "target_suggestion": 232.33,
-    "gap_to_pivot_pct": 1.38
+    "pivot_price": 628.45,
+    "stop_suggestion": 547.3,
+    "target_suggestion": 754.14,
+    "gap_to_pivot_pct": 4.11
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 2419.0,
-    "net_income_cr": 120.6,
-    "revenue_qoq_pct": 26.4,
-    "net_income_qoq_pct": 203.8
+    "revenue_cr": 282.7,
+    "net_income_cr": 14.3,
+    "revenue_qoq_pct": 17.9,
+    "net_income_qoq_pct": 240.5
    },
    "reason": null,
    "rank": 1,
-   "name": "Electronics Mart India Limited"
+   "name": "DIC India Limited"
   },
   {
-   "symbol": "LENSKART",
-   "ltp": 707.2,
+   "symbol": "AVL",
+   "ltp": 627.1,
    "technicals": {
-    "rsi_14": 73.32,
-    "rel_volume_20d": 2.09,
-    "dist_20dma_pct": 5.12,
-    "dist_50dma_pct": 15.52,
-    "dist_200dma_pct": 36.78
+    "rsi_14": 56.26,
+    "rel_volume_20d": 0.27,
+    "dist_20dma_pct": 3.11,
+    "dist_50dma_pct": 1.66,
+    "dist_200dma_pct": 15.35
+   },
+   "pattern": {
+    "code": "vcp",
+    "stage": "forming",
+    "pivot_price": 654.0,
+    "stop_suggestion": 590.4,
+    "target_suggestion": 817.5,
+    "gap_to_pivot_pct": -4.11
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 1192.7,
+    "net_income_cr": 77.2,
+    "revenue_qoq_pct": 90.8,
+    "net_income_qoq_pct": 255.8
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "Aditya Vision Limited"
+  },
+  {
+   "symbol": "RGL",
+   "ltp": 156.78,
+   "technicals": {
+    "rsi_14": 60.88,
+    "rel_volume_20d": 0.13,
+    "dist_20dma_pct": 6.41,
+    "dist_50dma_pct": 19.41,
+    "dist_200dma_pct": 34.14
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 156.49,
+    "stop_suggestion": 134.1,
+    "target_suggestion": 187.79,
+    "gap_to_pivot_pct": 0.19
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 780.4,
+    "net_income_cr": 25.4,
+    "revenue_qoq_pct": 104.5,
+    "net_income_qoq_pct": 229.9
+   },
+   "reason": null,
+   "rank": 3,
+   "name": "Renaissance Global Limited"
+  },
+  {
+   "symbol": "INDSWFTLAB",
+   "ltp": 405.55,
+   "technicals": {
+    "rsi_14": 68.91,
+    "rel_volume_20d": 1.91,
+    "dist_20dma_pct": 9.18,
+    "dist_50dma_pct": 33.47,
+    "dist_200dma_pct": 127.41
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 695.75,
-    "stop_suggestion": 635.75,
-    "target_suggestion": 834.9,
-    "gap_to_pivot_pct": 1.65
+    "pivot_price": 388.55,
+    "stop_suggestion": 320.2,
+    "target_suggestion": 466.26,
+    "gap_to_pivot_pct": 4.38
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 2714.2,
-    "net_income_cr": 221.8,
-    "revenue_qoq_pct": 7.9,
-    "net_income_qoq_pct": 10.7
+    "revenue_cr": 191.5,
+    "net_income_cr": 24.7,
+    "revenue_qoq_pct": 12.8,
+    "net_income_qoq_pct": 63.6
    },
    "reason": null,
-   "rank": 2,
-   "name": "Lenskart Solutions Limited"
+   "rank": 4,
+   "name": "Ind-Swift Laboratories Limited"
   },
   {
-   "symbol": "ATGL",
-   "ltp": 660.7,
+   "symbol": "SURAKSHA",
+   "ltp": 353.4,
    "technicals": {
-    "rsi_14": 62.02,
-    "rel_volume_20d": 66.92,
-    "dist_20dma_pct": 6.87,
-    "dist_50dma_pct": 1.46,
-    "dist_200dma_pct": 7.78
+    "rsi_14": 70.67,
+    "rel_volume_20d": 1.55,
+    "dist_20dma_pct": 5.39,
+    "dist_50dma_pct": 19.12,
+    "dist_200dma_pct": 26.1
    },
-   "pattern": null,
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 340.8,
+    "stop_suggestion": 300.0,
+    "target_suggestion": 408.96,
+    "gap_to_pivot_pct": 3.7
+   },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 1753.5,
-    "net_income_cr": 141.7,
-    "revenue_qoq_pct": 12.6,
-    "net_income_qoq_pct": -15.8
+    "revenue_cr": 87.6,
+    "net_income_cr": 13.0,
+    "revenue_qoq_pct": 7.6,
+    "net_income_qoq_pct": 106.3
    },
    "reason": null,
-   "rank": 3,
-   "name": "Adani Total Gas Limited"
+   "rank": 5,
+   "name": "Suraksha Diagnostic Limited"
   }
  ]
 }

@@ -1,14 +1,12 @@
 {
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "tiles": [
   {
    "symbol": "NIFTY 50",
-   "value": 23346.4,
-   "change": 75.8,
-   "change_pct": 0.33,
+   "value": 23329.0,
+   "change": -85.3,
+   "change_pct": -0.36,
    "spark": [
-    24570.65,
-    24583.8,
     24471.7,
     24435.95,
     24395.85,
@@ -36,18 +34,18 @@
     23118.6,
     23217.6,
     23270.6,
-    23346.4
+    23346.4,
+    23414.3,
+    23329.0
    ],
-   "as_of": "2026-09-18"
+   "as_of": "2026-09-22"
   },
   {
    "symbol": "NIFTY BANK",
-   "value": 56358.7,
-   "change": 302.95,
-   "change_pct": 0.54,
+   "value": 56215.55,
+   "change": -255.1,
+   "change_pct": -0.45,
    "spark": [
-    57746.45,
-    57686.95,
     57446.25,
     57885.85,
     57635.25,
@@ -75,18 +73,18 @@
     55794.75,
     56292.45,
     56055.75,
-    56358.7
+    56358.7,
+    56470.65,
+    56215.55
    ],
-   "as_of": "2026-09-18"
+   "as_of": "2026-09-22"
   },
   {
    "symbol": "NIFTY 500",
-   "value": 22840.55,
-   "change": 185.9,
-   "change_pct": 0.82,
+   "value": 22794.2,
+   "change": -65.85,
+   "change_pct": -0.29,
    "spark": [
-    23712.1,
-    23743.2,
     23681.15,
     23672.45,
     23658.1,
@@ -114,18 +112,18 @@
     22477.45,
     22532.0,
     22654.65,
-    22840.55
+    22840.55,
+    22860.05,
+    22794.2
    ],
-   "as_of": "2026-09-18"
+   "as_of": "2026-09-22"
   },
   {
    "symbol": "INDIA VIX",
-   "value": 11.39,
-   "change": -0.9,
-   "change_pct": -7.32,
+   "value": 11.0,
+   "change": -0.25,
+   "change_pct": -2.22,
    "spark": [
-    12.16,
-    12.25,
     11.86,
     11.69,
     11.42,
@@ -153,22 +151,24 @@
     13.43,
     13.17,
     12.29,
-    11.39
+    11.39,
+    11.25,
+    11.0
    ],
-   "as_of": "2026-09-18"
+   "as_of": "2026-09-22"
   }
  ],
  "breadth": {
-  "date": "2026-09-18",
-  "advances": 1932,
-  "declines": 947,
-  "unchanged": 43,
-  "traded": 2922,
-  "ad_ratio": 2.04,
-  "pct_above_50dma": 37.0,
-  "pct_above_200dma": 47.24,
-  "new_52w_highs": 15,
-  "new_52w_lows": 10
+  "date": "2026-09-22",
+  "advances": 1250,
+  "declines": 1616,
+  "unchanged": 55,
+  "traded": 2921,
+  "ad_ratio": 0.77,
+  "pct_above_50dma": 37.47,
+  "pct_above_200dma": 46.93,
+  "new_52w_highs": 11,
+  "new_52w_lows": 8
  },
  "flows": {
   "series": [
@@ -206,16 +206,21 @@
     "date": "2026-09-18",
     "fii_net": 599.54,
     "dii_net": 1019.69
+   },
+   {
+    "date": "2026-09-22",
+    "fii_net": -3809.99,
+    "dii_net": 4120.07
    }
   ],
-  "fii_10_session_net": -9571.8,
-  "dii_10_session_net": 15734.8
+  "fii_10_session_net": -13381.8,
+  "dii_10_session_net": 19854.8
  },
  "vix": {
-  "value": 11.39,
-  "change": -0.9,
-  "change_pct": -7.32,
-  "percentile_250d": 27.6,
+  "value": 11.0,
+  "change": -0.25,
+  "change_pct": -2.22,
+  "percentile_250d": 17.6,
   "band": "low",
   "verdict": "Calm market",
   "advice": "Prices are moving steadily, without big swings. A normal, comfortable time to hold positions."
@@ -224,144 +229,144 @@
   {
    "symbol": "HDFCBANK",
    "name": "HDFC Bank Limited",
-   "ltp": 731.0,
-   "change_pct": 2.52,
-   "turnover_cr": 2868.4
-  },
-  {
-   "symbol": "BHARTIARTL",
-   "name": "Bharti Airtel Limited",
-   "ltp": 1893.3,
-   "change_pct": 3.12,
-   "turnover_cr": 2659.3
-  },
-  {
-   "symbol": "ATGL",
-   "name": "Adani Total Gas Limited",
-   "ltp": 660.7,
-   "change_pct": 12.56,
-   "turnover_cr": 2565.1
-  },
-  {
-   "symbol": "INFY",
-   "name": "Infosys Limited",
-   "ltp": 1051.4,
-   "change_pct": -0.68,
-   "turnover_cr": 2318.5
-  },
-  {
-   "symbol": "GLASSWALL",
-   "name": "GLASSWALL",
-   "ltp": 269.51,
-   "change_pct": 4.53,
-   "turnover_cr": 2074.5
-  },
-  {
-   "symbol": "RENTOMOJO",
-   "name": "RENTOMOJO",
-   "ltp": 512.75,
-   "change_pct": -4.02,
-   "turnover_cr": 1877.5
-  },
-  {
-   "symbol": "RELIANCE",
-   "name": "Reliance Industries Limited",
-   "ltp": 1226.4,
-   "change_pct": -1.41,
-   "turnover_cr": 1867.3
-  },
-  {
-   "symbol": "LENSKART",
-   "name": "Lenskart Solutions Limited",
-   "ltp": 707.2,
-   "change_pct": 4.01,
-   "turnover_cr": 1810.2
-  },
-  {
-   "symbol": "SYRMA",
-   "name": "Syrma SGS Technology Limited",
-   "ltp": 1728.9,
-   "change_pct": 6.87,
-   "turnover_cr": 1806.3
+   "ltp": 738.6,
+   "change_pct": -0.12,
+   "turnover_cr": 2641.9
   },
   {
    "symbol": "MEESHO",
    "name": "Meesho Limited",
-   "ltp": 214.44,
-   "change_pct": 3.44,
-   "turnover_cr": 1784.6
+   "ltp": 240.19,
+   "change_pct": 9.6,
+   "turnover_cr": 2564.8
+  },
+  {
+   "symbol": "GLASSWALL",
+   "name": "GLASSWALL",
+   "ltp": 309.29,
+   "change_pct": 4.77,
+   "turnover_cr": 2167.6
+  },
+  {
+   "symbol": "PINELABS",
+   "name": "Pine Labs Limited",
+   "ltp": 197.58,
+   "change_pct": 2.0,
+   "turnover_cr": 1628.4
+  },
+  {
+   "symbol": "RELIANCE",
+   "name": "Reliance Industries Limited",
+   "ltp": 1240.4,
+   "change_pct": -0.56,
+   "turnover_cr": 1330.4
+  },
+  {
+   "symbol": "GABRIEL",
+   "name": "Gabriel India Limited",
+   "ltp": 1471.4,
+   "change_pct": 14.04,
+   "turnover_cr": 1138.3
+  },
+  {
+   "symbol": "TRANSRAILL",
+   "name": "Transrail Lighting Limited",
+   "ltp": 477.15,
+   "change_pct": 15.2,
+   "turnover_cr": 1125.9
+  },
+  {
+   "symbol": "CUPID",
+   "name": "Cupid Limited",
+   "ltp": 258.2,
+   "change_pct": 2.75,
+   "turnover_cr": 1121.2
+  },
+  {
+   "symbol": "KAYNES",
+   "name": "Kaynes Technology India Limited",
+   "ltp": 3455.0,
+   "change_pct": -5.34,
+   "turnover_cr": 1059.5
+  },
+  {
+   "symbol": "BSE",
+   "name": "BSE Limited",
+   "ltp": 3235.0,
+   "change_pct": 2.34,
+   "turnover_cr": 1020.9
   }
  ],
  "breakouts_52w": [
   {
-   "symbol": "NRBBEARING",
-   "name": "NRB Bearing Limited",
-   "ltp": 525.5,
-   "change_pct": 11.29,
-   "vol_ratio": 11.3
+   "symbol": "GANDHITUBE",
+   "name": "Gandhi Special Tubes Limited",
+   "ltp": 1003.2,
+   "change_pct": 10.33,
+   "vol_ratio": 15.0
   },
   {
-   "symbol": "SAMBHV",
-   "name": "Sambhv Steel Tubes Limited",
-   "ltp": 147.57,
-   "change_pct": 14.32,
-   "vol_ratio": 9.9
+   "symbol": "OPTIEMUS",
+   "name": "Optiemus Infracom Limited",
+   "ltp": 708.9,
+   "change_pct": 20.0,
+   "vol_ratio": 11.8
   },
   {
-   "symbol": "YATHARTH",
-   "name": "Yatharth Hospital & Trauma Care Services Limited",
-   "ltp": 1139.5,
-   "change_pct": 6.26,
-   "vol_ratio": 6.8
+   "symbol": "AVTNPL",
+   "name": "AVT Natural Products Limited",
+   "ltp": 98.26,
+   "change_pct": 9.13,
+   "vol_ratio": 8.4
   },
   {
-   "symbol": "AVALON",
-   "name": "Avalon Technologies Limited",
-   "ltp": 2537.7,
-   "change_pct": 13.8,
-   "vol_ratio": 6.3
+   "symbol": "SHIVAUM",
+   "name": "Shiv Aum Steels Limited",
+   "ltp": 515.05,
+   "change_pct": 8.99,
+   "vol_ratio": 7.7
   },
   {
-   "symbol": "TALBROAUTO",
-   "name": "Talbros Automotive Components Limited",
-   "ltp": 476.7,
-   "change_pct": 9.54,
+   "symbol": "PASUPTAC",
+   "name": "Pasupati Acrylon Limited",
+   "ltp": 76.37,
+   "change_pct": 7.31,
+   "vol_ratio": 6.1
+  },
+  {
+   "symbol": "ADROITINFO",
+   "name": "Adroit Infotech Limited",
+   "ltp": 12.17,
+   "change_pct": 8.18,
    "vol_ratio": 5.9
   },
   {
-   "symbol": "EMIL",
-   "name": "Electronics Mart India Limited",
-   "ltp": 196.28,
-   "change_pct": 6.06,
-   "vol_ratio": 5.8
+   "symbol": "MEESHO",
+   "name": "Meesho Limited",
+   "ltp": 240.19,
+   "change_pct": 9.6,
+   "vol_ratio": 4.5
   },
   {
-   "symbol": "MASPTOP50",
-   "name": "MASPTOP50",
-   "ltp": 124.48,
-   "change_pct": 19.89,
-   "vol_ratio": 5.5
+   "symbol": "BLUESTONE",
+   "name": "BlueStone Jewellery and Lifestyle Limited",
+   "ltp": 930.4,
+   "change_pct": 10.05,
+   "vol_ratio": 4.2
   },
   {
-   "symbol": "SOFTTECH",
-   "name": "Softtech Engineers Limited",
-   "ltp": 525.7,
-   "change_pct": 4.99,
-   "vol_ratio": 4.9
+   "symbol": "ORCHPHARMA",
+   "name": "Orchid Pharma Limited",
+   "ltp": 1107.2,
+   "change_pct": 2.35,
+   "vol_ratio": 4.2
   },
   {
-   "symbol": "ACMESOLAR",
-   "name": "Acme Solar Holdings Limited",
-   "ltp": 435.25,
-   "change_pct": 5.82,
-   "vol_ratio": 4.7
-  },
-  {
-   "symbol": "SYRMA",
-   "name": "Syrma SGS Technology Limited",
-   "ltp": 1728.9,
-   "change_pct": 6.87,
-   "vol_ratio": 4.3
+   "symbol": "SANSERA",
+   "name": "Sansera Engineering Limited",
+   "ltp": 4586.5,
+   "change_pct": 6.74,
+   "vol_ratio": 4.0
   }
  ]
 }

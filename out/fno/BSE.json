@@ -1,0 +1,135 @@
+{
+ "symbol": "BSE",
+ "buildup": {
+  "label": "short_covering",
+  "note": "Shorts are closing out \u2014 open interest is falling as price rises.",
+  "expiry": "2026-09-29",
+  "price_chg_pct": 2.43,
+  "oi_chg_pct": -6.89,
+  "open_interest": 11149400,
+  "close": 3235.7
+ },
+ "option_chain": {
+  "expiry": "29-Sep-2026",
+  "underlying_value": 3235,
+  "rows": [
+   {
+    "strike": 2600,
+    "call_oi": 29,
+    "call_oi_chg": 0,
+    "put_oi": 1016,
+    "put_oi_chg": -63
+   },
+   {
+    "strike": 2700,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 382,
+    "put_oi_chg": 23
+   },
+   {
+    "strike": 2800,
+    "call_oi": 117,
+    "call_oi_chg": -4,
+    "put_oi": 2647,
+    "put_oi_chg": -568
+   },
+   {
+    "strike": 2900,
+    "call_oi": 181,
+    "call_oi_chg": -38,
+    "put_oi": 2262,
+    "put_oi_chg": -112
+   },
+   {
+    "strike": 3000,
+    "call_oi": 908,
+    "call_oi_chg": -57,
+    "put_oi": 6397,
+    "put_oi_chg": 578
+   },
+   {
+    "strike": 3100,
+    "call_oi": 2114,
+    "call_oi_chg": -528,
+    "put_oi": 4883,
+    "put_oi_chg": -662
+   },
+   {
+    "strike": 3200,
+    "call_oi": 5328,
+    "call_oi_chg": -2164,
+    "put_oi": 5887,
+    "put_oi_chg": 901
+   },
+   {
+    "strike": 3300,
+    "call_oi": 12228,
+    "call_oi_chg": -807,
+    "put_oi": 3950,
+    "put_oi_chg": -275
+   },
+   {
+    "strike": 3400,
+    "call_oi": 11668,
+    "call_oi_chg": -1958,
+    "put_oi": 2236,
+    "put_oi_chg": -291
+   },
+   {
+    "strike": 3500,
+    "call_oi": 10860,
+    "call_oi_chg": -1200,
+    "put_oi": 3712,
+    "put_oi_chg": -394
+   },
+   {
+    "strike": 3600,
+    "call_oi": 5167,
+    "call_oi_chg": -633,
+    "put_oi": 1082,
+    "put_oi_chg": -60
+   },
+   {
+    "strike": 3700,
+    "call_oi": 3861,
+    "call_oi_chg": -161,
+    "put_oi": 551,
+    "put_oi_chg": -52
+   },
+   {
+    "strike": 3800,
+    "call_oi": 4244,
+    "call_oi_chg": -52,
+    "put_oi": 414,
+    "put_oi_chg": -26
+   },
+   {
+    "strike": 3900,
+    "call_oi": 1644,
+    "call_oi_chg": -392,
+    "put_oi": 173,
+    "put_oi_chg": -18
+   },
+   {
+    "strike": 4000,
+    "call_oi": 2646,
+    "call_oi_chg": -426,
+    "put_oi": 578,
+    "put_oi_chg": -22
+   },
+   {
+    "strike": 4200,
+    "call_oi": 1378,
+    "call_oi_chg": -203,
+    "put_oi": 375,
+    "put_oi_chg": 0
+   }
+  ],
+  "pcr": 0.59,
+  "total_call_oi": 62373,
+  "total_put_oi": 36545,
+  "max_call_oi_strike": 3300,
+  "max_put_oi_strike": 3000
+ }
+}

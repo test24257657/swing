@@ -1,17 +1,17 @@
 {
  "symbol": "SONACOMS",
  "buildup": {
-  "label": "neutral",
-  "note": "No clear buildup \u2014 price and open interest are both roughly flat.",
+  "label": "short_covering",
+  "note": "Shorts are closing out \u2014 open interest is falling as price rises.",
   "expiry": "2026-09-29",
-  "price_chg_pct": 3.36,
-  "oi_chg_pct": -0.35,
-  "open_interest": 11120550,
-  "close": 809.85
+  "price_chg_pct": 0.93,
+  "oi_chg_pct": -2.14,
+  "open_interest": 11425575,
+  "close": 805.35
  },
  "option_chain": {
   "expiry": "29-Sep-2026",
-  "underlying_value": 808,
+  "underlying_value": 809,
   "rows": [
    {
     "strike": 710,
@@ -24,139 +24,139 @@
     "strike": 720,
     "call_oi": 1,
     "call_oi_chg": 0,
-    "put_oi": 105,
-    "put_oi_chg": -30
+    "put_oi": 77,
+    "put_oi_chg": -22
    },
    {
     "strike": 730,
     "call_oi": 7,
-    "call_oi_chg": -5,
-    "put_oi": 129,
-    "put_oi_chg": -16
+    "call_oi_chg": 0,
+    "put_oi": 140,
+    "put_oi_chg": 19
    },
    {
     "strike": 740,
     "call_oi": 6,
-    "call_oi_chg": -14,
-    "put_oi": 72,
-    "put_oi_chg": -2
+    "call_oi_chg": 0,
+    "put_oi": 69,
+    "put_oi_chg": -16
    },
    {
     "strike": 750,
-    "call_oi": 22,
-    "call_oi_chg": -1,
-    "put_oi": 744,
-    "put_oi_chg": -37
+    "call_oi": 21,
+    "call_oi_chg": 0,
+    "put_oi": 662,
+    "put_oi_chg": -94
    },
    {
     "strike": 760,
     "call_oi": 6,
     "call_oi_chg": 0,
-    "put_oi": 155,
-    "put_oi_chg": -11
+    "put_oi": 142,
+    "put_oi_chg": 10
    },
    {
     "strike": 770,
-    "call_oi": 67,
-    "call_oi_chg": -5,
-    "put_oi": 210,
-    "put_oi_chg": 9
+    "call_oi": 65,
+    "call_oi_chg": -1,
+    "put_oi": 168,
+    "put_oi_chg": -10
    },
    {
     "strike": 780,
-    "call_oi": 131,
-    "call_oi_chg": -80,
-    "put_oi": 798,
-    "put_oi_chg": 22
+    "call_oi": 128,
+    "call_oi_chg": 0,
+    "put_oi": 739,
+    "put_oi_chg": -31
    },
    {
     "strike": 790,
-    "call_oi": 132,
-    "call_oi_chg": -41,
-    "put_oi": 493,
-    "put_oi_chg": 115
+    "call_oi": 153,
+    "call_oi_chg": 2,
+    "put_oi": 431,
+    "put_oi_chg": 38
    },
    {
     "strike": 800,
-    "call_oi": 571,
-    "call_oi_chg": -98,
-    "put_oi": 442,
-    "put_oi_chg": 173
+    "call_oi": 645,
+    "call_oi_chg": 40,
+    "put_oi": 415,
+    "put_oi_chg": 58
    },
    {
     "strike": 810,
-    "call_oi": 534,
-    "call_oi_chg": 302,
-    "put_oi": 276,
-    "put_oi_chg": 41
+    "call_oi": 578,
+    "call_oi_chg": -42,
+    "put_oi": 284,
+    "put_oi_chg": 29
    },
    {
     "strike": 820,
-    "call_oi": 921,
-    "call_oi_chg": -18,
-    "put_oi": 176,
-    "put_oi_chg": -35
+    "call_oi": 893,
+    "call_oi_chg": -139,
+    "put_oi": 147,
+    "put_oi_chg": -5
    },
    {
     "strike": 830,
-    "call_oi": 297,
-    "call_oi_chg": -131,
-    "put_oi": 19,
-    "put_oi_chg": 2
-   },
-   {
-    "strike": 840,
-    "call_oi": 703,
-    "call_oi_chg": 163,
-    "put_oi": 217,
+    "call_oi": 362,
+    "call_oi_chg": -16,
+    "put_oi": 18,
     "put_oi_chg": 0
    },
    {
+    "strike": 840,
+    "call_oi": 685,
+    "call_oi_chg": -32,
+    "put_oi": 213,
+    "put_oi_chg": -2
+   },
+   {
     "strike": 850,
-    "call_oi": 661,
-    "call_oi_chg": 42,
-    "put_oi": 6,
+    "call_oi": 511,
+    "call_oi_chg": -26,
+    "put_oi": 5,
     "put_oi_chg": 0
    },
    {
     "strike": 860,
-    "call_oi": 272,
-    "call_oi_chg": 37,
+    "call_oi": 350,
+    "call_oi_chg": 89,
     "put_oi": 10,
     "put_oi_chg": 0
    },
    {
     "strike": 870,
-    "call_oi": 181,
-    "call_oi_chg": 22,
+    "call_oi": 196,
+    "call_oi_chg": -17,
     "put_oi": 0,
     "put_oi_chg": 0
    },
    {
     "strike": 880,
-    "call_oi": 405,
-    "call_oi_chg": 25,
+    "call_oi": 348,
+    "call_oi_chg": -28,
     "put_oi": 1,
     "put_oi_chg": 0
    },
    {
     "strike": 900,
-    "call_oi": 450,
-    "call_oi_chg": 11,
+    "call_oi": 363,
+    "call_oi_chg": -34,
     "put_oi": 17,
     "put_oi_chg": 0
    },
    {
     "strike": 920,
-    "call_oi": 1008,
-    "call_oi_chg": -25,
-    "put_oi": 6,
-    "put_oi_chg": 0
+    "call_oi": 906,
+    "call_oi_chg": -66,
+    "put_oi": 5,
+    "put_oi_chg": -1
    }
   ],
-  "pcr": 0.64,
-  "total_call_oi": 6421,
-  "total_put_oi": 4120,
+  "pcr": 0.6,
+  "total_call_oi": 6267,
+  "total_put_oi": 3747,
   "max_call_oi_strike": 920,
   "max_put_oi_strike": 780
  }

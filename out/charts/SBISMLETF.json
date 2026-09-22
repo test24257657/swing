@@ -2,7 +2,7 @@
  "symbol": "SBISMLETF",
  "name": "SBISMLETF",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2026-05-25",
@@ -741,6 +741,24 @@
    "close": 18.38,
    "volume": 15195,
    "delivery_pct": 76.3
+  },
+  {
+   "time": "2026-09-21",
+   "open": 18.54,
+   "high": 18.54,
+   "low": 18.25,
+   "close": 18.32,
+   "volume": 23593,
+   "delivery_pct": 79.13
+  },
+  {
+   "time": "2026-09-22",
+   "open": 18.32,
+   "high": 18.43,
+   "low": 18.24,
+   "close": 18.28,
+   "volume": 33143,
+   "delivery_pct": 79.73
   }
  ],
  "ma": {
@@ -996,6 +1014,14 @@
    {
     "time": "2026-09-18",
     "value": 18.37
+   },
+   {
+    "time": "2026-09-21",
+    "value": 18.37
+   },
+   {
+    "time": "2026-09-22",
+    "value": 18.36
    }
   ],
   "sma_50": [
@@ -1130,15 +1156,23 @@
    {
     "time": "2026-09-18",
     "value": 18.24
+   },
+   {
+    "time": "2026-09-21",
+    "value": 18.25
+   },
+   {
+    "time": "2026-09-22",
+    "value": 18.25
    }
   ]
  },
  "technicals": {
-  "rsi_14": 52.65,
-  "atr_pct": 2.27,
-  "rel_volume_20d": 0.28,
-  "dist_20dma_pct": 0.03,
-  "dist_50dma_pct": 0.76,
+  "rsi_14": 49.4,
+  "atr_pct": 2.15,
+  "rel_volume_20d": 0.61,
+  "dist_20dma_pct": -0.45,
+  "dist_50dma_pct": 0.18,
   "dist_200dma_pct": null
  }
 }

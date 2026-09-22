@@ -2,7 +2,7 @@
  "symbol": "BI",
  "name": "Bilcare Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2026-04-20",
@@ -957,6 +957,24 @@
    "close": 107.62,
    "volume": 75195,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-21",
+   "open": 112.0,
+   "high": 113.0,
+   "low": 108.0,
+   "close": 109.17,
+   "volume": 80719,
+   "delivery_pct": null
+  },
+  {
+   "time": "2026-09-22",
+   "open": 106.99,
+   "high": 107.0,
+   "low": 106.99,
+   "close": 107.0,
+   "volume": 55366,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1308,6 +1326,14 @@
    {
     "time": "2026-09-18",
     "value": 94.18
+   },
+   {
+    "time": "2026-09-21",
+    "value": 94.96
+   },
+   {
+    "time": "2026-09-22",
+    "value": 95.54
    }
   ],
   "sma_50": [
@@ -1538,15 +1564,23 @@
    {
     "time": "2026-09-18",
     "value": 77.6
+   },
+   {
+    "time": "2026-09-21",
+    "value": 78.52
+   },
+   {
+    "time": "2026-09-22",
+    "value": 79.38
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.31,
-  "atr_pct": 5.6,
-  "rel_volume_20d": 1.25,
-  "dist_20dma_pct": 14.27,
-  "dist_50dma_pct": 38.69,
+  "rsi_14": 67.0,
+  "atr_pct": 5.34,
+  "rel_volume_20d": 0.91,
+  "dist_20dma_pct": 12.0,
+  "dist_50dma_pct": 34.8,
   "dist_200dma_pct": null
  }
 }

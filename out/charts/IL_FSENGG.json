@@ -2,8 +2,44 @@
  "symbol": "IL&FSENGG",
  "name": "IL&FS Engineering and Construction Company Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
+  {
+   "time": "2025-09-24",
+   "open": 31.52,
+   "high": 32.0,
+   "low": 29.72,
+   "close": 31.15,
+   "volume": 30799,
+   "delivery_pct": null
+  },
+  {
+   "time": "2025-09-25",
+   "open": 31.15,
+   "high": 31.18,
+   "low": 29.75,
+   "close": 29.85,
+   "volume": 7628,
+   "delivery_pct": null
+  },
+  {
+   "time": "2025-09-26",
+   "open": 28.41,
+   "high": 30.8,
+   "low": 28.41,
+   "close": 30.34,
+   "volume": 1823,
+   "delivery_pct": null
+  },
+  {
+   "time": "2025-09-29",
+   "open": 29.73,
+   "high": 30.4,
+   "low": 29.73,
+   "close": 30.06,
+   "volume": 2488,
+   "delivery_pct": null
+  },
   {
    "time": "2025-09-30",
    "open": 30.3,
@@ -2154,10 +2190,44 @@
    "close": 40.56,
    "volume": 77426,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-21",
+   "open": 42.0,
+   "high": 42.58,
+   "low": 40.96,
+   "close": 42.08,
+   "volume": 58238,
+   "delivery_pct": null
+  },
+  {
+   "time": "2026-09-22",
+   "open": 43.8,
+   "high": 43.8,
+   "low": 41.01,
+   "close": 42.41,
+   "volume": 38786,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
+   {
+    "time": "2025-10-23",
+    "value": 28.25
+   },
+   {
+    "time": "2025-10-24",
+    "value": 28.05
+   },
+   {
+    "time": "2025-10-27",
+    "value": 27.97
+   },
+   {
+    "time": "2025-10-28",
+    "value": 27.91
+   },
    {
     "time": "2025-10-29",
     "value": 27.85
@@ -2504,7 +2574,7 @@
    },
    {
     "time": "2026-03-05",
-    "value": 25.2
+    "value": 25.21
    },
    {
     "time": "2026-03-06",
@@ -3037,9 +3107,33 @@
    {
     "time": "2026-09-18",
     "value": 36.89
+   },
+   {
+    "time": "2026-09-21",
+    "value": 37.17
+   },
+   {
+    "time": "2026-09-22",
+    "value": 37.49
    }
   ],
   "sma_50": [
+   {
+    "time": "2025-12-05",
+    "value": 27.68
+   },
+   {
+    "time": "2025-12-08",
+    "value": 27.61
+   },
+   {
+    "time": "2025-12-09",
+    "value": 27.56
+   },
+   {
+    "time": "2025-12-10",
+    "value": 27.47
+   },
    {
     "time": "2025-12-11",
     "value": 27.4
@@ -3799,9 +3893,33 @@
    {
     "time": "2026-09-18",
     "value": 34.47
+   },
+   {
+    "time": "2026-09-21",
+    "value": 34.74
+   },
+   {
+    "time": "2026-09-22",
+    "value": 35.02
    }
   ],
   "sma_200": [
+   {
+    "time": "2026-07-20",
+    "value": 26.84
+   },
+   {
+    "time": "2026-07-21",
+    "value": 26.82
+   },
+   {
+    "time": "2026-07-22",
+    "value": 26.81
+   },
+   {
+    "time": "2026-07-23",
+    "value": 26.81
+   },
    {
     "time": "2026-07-24",
     "value": 26.82
@@ -3961,15 +4079,23 @@
    {
     "time": "2026-09-18",
     "value": 28.56
+   },
+   {
+    "time": "2026-09-21",
+    "value": 28.62
+   },
+   {
+    "time": "2026-09-22",
+    "value": 28.69
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.51,
-  "atr_pct": 4.25,
-  "rel_volume_20d": 1.2,
-  "dist_20dma_pct": 9.96,
-  "dist_50dma_pct": 17.65,
-  "dist_200dma_pct": 42.04
+  "rsi_14": 71.23,
+  "atr_pct": 4.29,
+  "rel_volume_20d": 1.01,
+  "dist_20dma_pct": 13.12,
+  "dist_50dma_pct": 21.1,
+  "dist_200dma_pct": 47.83
  }
 }

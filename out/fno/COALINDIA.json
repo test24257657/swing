@@ -1,0 +1,170 @@
+{
+ "symbol": "COALINDIA",
+ "buildup": {
+  "label": "short_covering",
+  "note": "Shorts are closing out \u2014 open interest is falling as price rises.",
+  "expiry": "2026-09-29",
+  "price_chg_pct": 3.32,
+  "oi_chg_pct": -2.77,
+  "open_interest": 90517500,
+  "close": 427.75
+ },
+ "option_chain": {
+  "expiry": "29-Sep-2026",
+  "underlying_value": 428,
+  "rows": [
+   {
+    "strike": 380,
+    "call_oi": 91,
+    "call_oi_chg": 2,
+    "put_oi": 537,
+    "put_oi_chg": -95
+   },
+   {
+    "strike": 385,
+    "call_oi": 58,
+    "call_oi_chg": 0,
+    "put_oi": 371,
+    "put_oi_chg": -8
+   },
+   {
+    "strike": 390,
+    "call_oi": 390,
+    "call_oi_chg": -6,
+    "put_oi": 1160,
+    "put_oi_chg": -22
+   },
+   {
+    "strike": 395,
+    "call_oi": 333,
+    "call_oi_chg": 0,
+    "put_oi": 1008,
+    "put_oi_chg": -4
+   },
+   {
+    "strike": 400,
+    "call_oi": 2324,
+    "call_oi_chg": -109,
+    "put_oi": 2870,
+    "put_oi_chg": -415
+   },
+   {
+    "strike": 405,
+    "call_oi": 1373,
+    "call_oi_chg": -32,
+    "put_oi": 936,
+    "put_oi_chg": 27
+   },
+   {
+    "strike": 410,
+    "call_oi": 2754,
+    "call_oi_chg": -508,
+    "put_oi": 2615,
+    "put_oi_chg": 602
+   },
+   {
+    "strike": 415,
+    "call_oi": 1024,
+    "call_oi_chg": -660,
+    "put_oi": 1348,
+    "put_oi_chg": 85
+   },
+   {
+    "strike": 420,
+    "call_oi": 3145,
+    "call_oi_chg": -567,
+    "put_oi": 2912,
+    "put_oi_chg": 1428
+   },
+   {
+    "strike": 425,
+    "call_oi": 3086,
+    "call_oi_chg": 187,
+    "put_oi": 2494,
+    "put_oi_chg": 1679
+   },
+   {
+    "strike": 430,
+    "call_oi": 3739,
+    "call_oi_chg": 290,
+    "put_oi": 1802,
+    "put_oi_chg": 604
+   },
+   {
+    "strike": 435,
+    "call_oi": 2129,
+    "call_oi_chg": 126,
+    "put_oi": 595,
+    "put_oi_chg": 26
+   },
+   {
+    "strike": 440,
+    "call_oi": 3258,
+    "call_oi_chg": 189,
+    "put_oi": 718,
+    "put_oi_chg": -75
+   },
+   {
+    "strike": 445,
+    "call_oi": 1418,
+    "call_oi_chg": 161,
+    "put_oi": 175,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 450,
+    "call_oi": 1761,
+    "call_oi_chg": 54,
+    "put_oi": 372,
+    "put_oi_chg": -6
+   },
+   {
+    "strike": 455,
+    "call_oi": 368,
+    "call_oi_chg": 17,
+    "put_oi": 23,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 460,
+    "call_oi": 587,
+    "call_oi_chg": 49,
+    "put_oi": 99,
+    "put_oi_chg": -1
+   },
+   {
+    "strike": 465,
+    "call_oi": 126,
+    "call_oi_chg": -33,
+    "put_oi": 16,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 470,
+    "call_oi": 339,
+    "call_oi_chg": -102,
+    "put_oi": 223,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 475,
+    "call_oi": 21,
+    "call_oi_chg": -5,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 480,
+    "call_oi": 211,
+    "call_oi_chg": -31,
+    "put_oi": 45,
+    "put_oi_chg": 0
+   }
+  ],
+  "pcr": 0.75,
+  "total_call_oi": 29017,
+  "total_put_oi": 21659,
+  "max_call_oi_strike": 430,
+  "max_put_oi_strike": 420
+ }
+}

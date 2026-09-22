@@ -2,7 +2,7 @@
  "symbol": "CANHLIFE",
  "name": "Canara HSBC Life Insurance Company Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2025-10-17",
@@ -2046,6 +2046,24 @@
    "close": 153.59,
    "volume": 807851,
    "delivery_pct": 59.99
+  },
+  {
+   "time": "2026-09-21",
+   "open": 153.49,
+   "high": 153.59,
+   "low": 149.8,
+   "close": 152.97,
+   "volume": 830360,
+   "delivery_pct": 57.31
+  },
+  {
+   "time": "2026-09-22",
+   "open": 154.0,
+   "high": 154.45,
+   "low": 151.63,
+   "close": 153.4,
+   "volume": 425119,
+   "delivery_pct": 59.43
   }
  ],
  "ma": {
@@ -2881,6 +2899,14 @@
    {
     "time": "2026-09-18",
     "value": 153.92
+   },
+   {
+    "time": "2026-09-21",
+    "value": 153.8
+   },
+   {
+    "time": "2026-09-22",
+    "value": 153.74
    }
   ],
   "sma_50": [
@@ -3595,6 +3621,14 @@
    {
     "time": "2026-09-18",
     "value": 151.11
+   },
+   {
+    "time": "2026-09-21",
+    "value": 151.28
+   },
+   {
+    "time": "2026-09-22",
+    "value": 151.41
    }
   ],
   "sma_200": [
@@ -3709,15 +3743,23 @@
    {
     "time": "2026-09-18",
     "value": 143.69
+   },
+   {
+    "time": "2026-09-21",
+    "value": 143.83
+   },
+   {
+    "time": "2026-09-22",
+    "value": 143.99
    }
   ]
  },
  "technicals": {
-  "rsi_14": 52.21,
-  "atr_pct": 3.51,
-  "rel_volume_20d": 0.68,
-  "dist_20dma_pct": -0.21,
-  "dist_50dma_pct": 1.64,
-  "dist_200dma_pct": 6.89
+  "rsi_14": 51.81,
+  "atr_pct": 3.33,
+  "rel_volume_20d": 0.36,
+  "dist_20dma_pct": -0.22,
+  "dist_50dma_pct": 1.32,
+  "dist_200dma_pct": 6.54
  }
 }

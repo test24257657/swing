@@ -2,7 +2,7 @@
  "symbol": "ACSTECH",
  "name": "ACS Technologies Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2026-04-20",
@@ -957,6 +957,24 @@
    "close": 66.15,
    "volume": 430625,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-21",
+   "open": 67.8,
+   "high": 69.45,
+   "low": 67.79,
+   "close": 69.45,
+   "volume": 301821,
+   "delivery_pct": null
+  },
+  {
+   "time": "2026-09-22",
+   "open": 71.7,
+   "high": 72.92,
+   "low": 71.7,
+   "close": 72.92,
+   "volume": 112624,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1308,6 +1326,14 @@
    {
     "time": "2026-09-18",
     "value": 54.78
+   },
+   {
+    "time": "2026-09-21",
+    "value": 55.71
+   },
+   {
+    "time": "2026-09-22",
+    "value": 56.79
    }
   ],
   "sma_50": [
@@ -1538,15 +1564,23 @@
    {
     "time": "2026-09-18",
     "value": 48.56
+   },
+   {
+    "time": "2026-09-21",
+    "value": 49.1
+   },
+   {
+    "time": "2026-09-22",
+    "value": 49.67
    }
   ]
  },
  "technicals": {
-  "rsi_14": 80.98,
-  "atr_pct": 4.31,
-  "rel_volume_20d": 1.45,
-  "dist_20dma_pct": 20.76,
-  "dist_50dma_pct": 36.22,
+  "rsi_14": 86.08,
+  "atr_pct": 4.01,
+  "rel_volume_20d": 0.35,
+  "dist_20dma_pct": 28.41,
+  "dist_50dma_pct": 46.79,
   "dist_200dma_pct": null
  }
 }

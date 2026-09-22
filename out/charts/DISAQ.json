@@ -2,7 +2,7 @@
  "symbol": "DISAQ",
  "name": "Disa India Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2026-04-20",
@@ -957,6 +957,24 @@
    "close": 12062.0,
    "volume": 137,
    "delivery_pct": 62.04
+  },
+  {
+   "time": "2026-09-21",
+   "open": 12061.0,
+   "high": 12160.0,
+   "low": 12000.0,
+   "close": 12134.0,
+   "volume": 106,
+   "delivery_pct": 66.98
+  },
+  {
+   "time": "2026-09-22",
+   "open": 11905.0,
+   "high": 12188.0,
+   "low": 11905.0,
+   "close": 12185.0,
+   "volume": 67,
+   "delivery_pct": 64.18
   }
  ],
  "ma": {
@@ -1308,6 +1326,14 @@
    {
     "time": "2026-09-18",
     "value": 11876.7
+   },
+   {
+    "time": "2026-09-21",
+    "value": 11891.6
+   },
+   {
+    "time": "2026-09-22",
+    "value": 11906.85
    }
   ],
   "sma_50": [
@@ -1538,15 +1564,23 @@
    {
     "time": "2026-09-18",
     "value": 11944.48
+   },
+   {
+    "time": "2026-09-21",
+    "value": 11940.56
+   },
+   {
+    "time": "2026-09-22",
+    "value": 11938.98
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.4,
-  "atr_pct": 3.12,
-  "rel_volume_20d": 0.41,
-  "dist_20dma_pct": 1.56,
-  "dist_50dma_pct": 0.98,
+  "rsi_14": 56.98,
+  "atr_pct": 2.92,
+  "rel_volume_20d": 0.23,
+  "dist_20dma_pct": 2.34,
+  "dist_50dma_pct": 2.06,
   "dist_200dma_pct": null
  }
 }

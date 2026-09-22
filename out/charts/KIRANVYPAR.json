@@ -2,7 +2,7 @@
  "symbol": "KIRANVYPAR",
  "name": "Kiran Vyapar Limited",
  "kind": "stock",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-22",
  "bars": [
   {
    "time": "2026-04-20",
@@ -948,6 +948,24 @@
    "close": 207.34,
    "volume": 1367,
    "delivery_pct": 76.81
+  },
+  {
+   "time": "2026-09-21",
+   "open": 209.8,
+   "high": 211.5,
+   "low": 207.0,
+   "close": 207.89,
+   "volume": 12755,
+   "delivery_pct": 96.04
+  },
+  {
+   "time": "2026-09-22",
+   "open": 221.78,
+   "high": 221.78,
+   "low": 207.38,
+   "close": 218.79,
+   "volume": 7877,
+   "delivery_pct": 51.71
   }
  ],
  "ma": {
@@ -1295,6 +1313,14 @@
    {
     "time": "2026-09-18",
     "value": 202.92
+   },
+   {
+    "time": "2026-09-21",
+    "value": 203.42
+   },
+   {
+    "time": "2026-09-22",
+    "value": 204.31
    }
   ],
   "sma_50": [
@@ -1521,15 +1547,23 @@
    {
     "time": "2026-09-18",
     "value": 199.65
+   },
+   {
+    "time": "2026-09-21",
+    "value": 199.94
+   },
+   {
+    "time": "2026-09-22",
+    "value": 200.43
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.18,
-  "atr_pct": 4.77,
-  "rel_volume_20d": 0.25,
-  "dist_20dma_pct": 2.18,
-  "dist_50dma_pct": 3.85,
+  "rsi_14": 68.36,
+  "atr_pct": 4.5,
+  "rel_volume_20d": 1.29,
+  "dist_20dma_pct": 7.09,
+  "dist_50dma_pct": 9.16,
   "dist_200dma_pct": null
  }
 }
