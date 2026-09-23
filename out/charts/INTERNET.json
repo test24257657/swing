@@ -2,7 +2,7 @@
  "symbol": "INTERNET",
  "name": "INTERNET",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 14.97,
    "volume": 321002,
    "delivery_pct": 84.42
+  },
+  {
+   "time": "2026-09-23",
+   "open": 15.34,
+   "high": 15.34,
+   "low": 14.94,
+   "close": 15.03,
+   "volume": 155530,
+   "delivery_pct": 61.56
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 14.65
+   },
+   {
+    "time": "2026-09-23",
+    "value": 14.67
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 14.16
+   },
+   {
+    "time": "2026-09-23",
+    "value": 14.19
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 13.03
+   },
+   {
+    "time": "2026-09-23",
+    "value": 13.03
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.79,
+  "rsi_14": 66.06,
   "atr_pct": 2.52,
-  "rel_volume_20d": 1.28,
-  "dist_20dma_pct": 2.17,
-  "dist_50dma_pct": 5.7,
-  "dist_200dma_pct": 14.92
+  "rel_volume_20d": 0.63,
+  "dist_20dma_pct": 2.49,
+  "dist_50dma_pct": 5.89,
+  "dist_200dma_pct": 15.36
  }
 }

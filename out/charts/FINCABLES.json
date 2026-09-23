@@ -2,7 +2,7 @@
  "symbol": "FINCABLES",
  "name": "Finolex Cables Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 1468.1,
    "volume": 1670261,
    "delivery_pct": 38.17
+  },
+  {
+   "time": "2026-09-23",
+   "open": 1475.0,
+   "high": 1488.4,
+   "low": 1441.0,
+   "close": 1470.2,
+   "volume": 594101,
+   "delivery_pct": 30.13
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 1320.87
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1331.39
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 1187.74
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1196.49
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 973.05
+   },
+   {
+    "time": "2026-09-23",
+    "value": 976.65
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.16,
-  "atr_pct": 4.55,
-  "rel_volume_20d": 1.36,
-  "dist_20dma_pct": 11.15,
-  "dist_50dma_pct": 23.6,
-  "dist_200dma_pct": 50.88
+  "rsi_14": 67.3,
+  "atr_pct": 4.45,
+  "rel_volume_20d": 0.47,
+  "dist_20dma_pct": 10.43,
+  "dist_50dma_pct": 22.88,
+  "dist_200dma_pct": 50.54
  }
 }

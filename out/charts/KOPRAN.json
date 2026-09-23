@@ -2,7 +2,7 @@
  "symbol": "KOPRAN",
  "name": "Kopran Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 276.44,
    "volume": 603842,
    "delivery_pct": 32.8
+  },
+  {
+   "time": "2026-09-23",
+   "open": 275.4,
+   "high": 287.2,
+   "low": 275.0,
+   "close": 279.42,
+   "volume": 573639,
+   "delivery_pct": 39.91
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 235.39
+   },
+   {
+    "time": "2026-09-23",
+    "value": 239.73
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 210.88
+   },
+   {
+    "time": "2026-09-23",
+    "value": 212.32
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 166.32
+   },
+   {
+    "time": "2026-09-23",
+    "value": 167.01
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.92,
-  "atr_pct": 5.41,
-  "rel_volume_20d": 0.26,
-  "dist_20dma_pct": 17.44,
-  "dist_50dma_pct": 31.09,
-  "dist_200dma_pct": 66.21
+  "rsi_14": 76.77,
+  "atr_pct": 5.28,
+  "rel_volume_20d": 0.25,
+  "dist_20dma_pct": 16.55,
+  "dist_50dma_pct": 31.6,
+  "dist_200dma_pct": 67.31
  }
 }

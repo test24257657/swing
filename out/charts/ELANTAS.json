@@ -2,7 +2,7 @@
  "symbol": "ELANTAS",
  "name": "Elantas Beck India Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2026-04-20",
@@ -975,6 +975,15 @@
    "close": 14410.0,
    "volume": 1964,
    "delivery_pct": 40.27
+  },
+  {
+   "time": "2026-09-23",
+   "open": 14481.0,
+   "high": 14510.0,
+   "low": 14000.0,
+   "close": 14308.0,
+   "volume": 3349,
+   "delivery_pct": 30.25
   }
  ],
  "ma": {
@@ -1334,6 +1343,10 @@
    {
     "time": "2026-09-22",
     "value": 12896.35
+   },
+   {
+    "time": "2026-09-23",
+    "value": 13028.75
    }
   ],
   "sma_50": [
@@ -1572,15 +1585,19 @@
    {
     "time": "2026-09-22",
     "value": 11471.94
+   },
+   {
+    "time": "2026-09-23",
+    "value": 11567.66
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.12,
-  "atr_pct": 5.32,
-  "rel_volume_20d": 0.36,
-  "dist_20dma_pct": 11.74,
-  "dist_50dma_pct": 25.61,
+  "rsi_14": 64.8,
+  "atr_pct": 5.23,
+  "rel_volume_20d": 0.63,
+  "dist_20dma_pct": 9.82,
+  "dist_50dma_pct": 23.69,
   "dist_200dma_pct": null
  }
 }

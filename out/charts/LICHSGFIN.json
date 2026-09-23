@@ -2,7 +2,7 @@
  "symbol": "LICHSGFIN",
  "name": "LIC Housing Finance Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 565.0,
    "volume": 2772548,
    "delivery_pct": 50.65
+  },
+  {
+   "time": "2026-09-23",
+   "open": 565.1,
+   "high": 576.7,
+   "low": 564.05,
+   "close": 572.5,
+   "volume": 3008551,
+   "delivery_pct": 53.28
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 546.44
+   },
+   {
+    "time": "2026-09-23",
+    "value": 549.76
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 532.14
+   },
+   {
+    "time": "2026-09-23",
+    "value": 532.6
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 533.25
+   },
+   {
+    "time": "2026-09-23",
+    "value": 533.36
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.38,
-  "atr_pct": 2.89,
-  "rel_volume_20d": 0.64,
-  "dist_20dma_pct": 3.4,
-  "dist_50dma_pct": 6.17,
-  "dist_200dma_pct": 5.95
+  "rsi_14": 64.08,
+  "atr_pct": 2.8,
+  "rel_volume_20d": 0.71,
+  "dist_20dma_pct": 4.14,
+  "dist_50dma_pct": 7.49,
+  "dist_200dma_pct": 7.34
  }
 }

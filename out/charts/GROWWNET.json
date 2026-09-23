@@ -2,7 +2,7 @@
  "symbol": "GROWWNET",
  "name": "GROWWNET",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 11.11,
    "volume": 793359,
    "delivery_pct": 64.6
+  },
+  {
+   "time": "2026-09-23",
+   "open": 11.21,
+   "high": 11.57,
+   "low": 11.05,
+   "close": 11.15,
+   "volume": 402523,
+   "delivery_pct": 59.1
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 10.86
+   },
+   {
+    "time": "2026-09-23",
+    "value": 10.87
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 10.49
+   },
+   {
+    "time": "2026-09-23",
+    "value": 10.52
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 9.66
+   },
+   {
+    "time": "2026-09-23",
+    "value": 9.66
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.61,
-  "atr_pct": 3.78,
-  "rel_volume_20d": 0.95,
-  "dist_20dma_pct": 2.31,
-  "dist_50dma_pct": 5.9,
-  "dist_200dma_pct": 15.04
+  "rsi_14": 66.75,
+  "atr_pct": 3.83,
+  "rel_volume_20d": 0.47,
+  "dist_20dma_pct": 2.59,
+  "dist_50dma_pct": 6.04,
+  "dist_200dma_pct": 15.44
  }
 }

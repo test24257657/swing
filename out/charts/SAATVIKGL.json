@@ -2,7 +2,7 @@
  "symbol": "SAATVIKGL",
  "name": "Saatvik Green Energy Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-26",
@@ -2190,6 +2190,15 @@
    "close": 446.75,
    "volume": 345259,
    "delivery_pct": 42.3
+  },
+  {
+   "time": "2026-09-23",
+   "open": 451.7,
+   "high": 457.45,
+   "low": 445.0,
+   "close": 447.6,
+   "volume": 130510,
+   "delivery_pct": 46.82
   }
  ],
  "ma": {
@@ -3089,6 +3098,10 @@
    {
     "time": "2026-09-22",
     "value": 417.33
+   },
+   {
+    "time": "2026-09-23",
+    "value": 418.62
    }
   ],
   "sma_50": [
@@ -3867,6 +3880,10 @@
    {
     "time": "2026-09-22",
     "value": 427.36
+   },
+   {
+    "time": "2026-09-23",
+    "value": 426.99
    }
   ],
   "sma_200": [
@@ -4045,15 +4062,19 @@
    {
     "time": "2026-09-22",
     "value": 419.77
+   },
+   {
+    "time": "2026-09-23",
+    "value": 419.97
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.38,
-  "atr_pct": 3.78,
-  "rel_volume_20d": 2.56,
-  "dist_20dma_pct": 7.05,
-  "dist_50dma_pct": 4.54,
-  "dist_200dma_pct": 6.43
+  "rsi_14": 62.66,
+  "atr_pct": 3.7,
+  "rel_volume_20d": 0.88,
+  "dist_20dma_pct": 6.92,
+  "dist_50dma_pct": 4.83,
+  "dist_200dma_pct": 6.58
  }
 }

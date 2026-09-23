@@ -2,7 +2,7 @@
  "symbol": "JYOTICNC",
  "name": "Jyoti CNC Automation Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 1084.3,
    "volume": 1090012,
    "delivery_pct": 30.97
+  },
+  {
+   "time": "2026-09-23",
+   "open": 1098.9,
+   "high": 1117.6,
+   "low": 1077.0,
+   "close": 1100.8,
+   "volume": 1338131,
+   "delivery_pct": 34.57
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 1012.8
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1018.34
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 908.35
+   },
+   {
+    "time": "2026-09-23",
+    "value": 914.71
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 827.29
+   },
+   {
+    "time": "2026-09-23",
+    "value": 827.87
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.69,
-  "atr_pct": 4.25,
-  "rel_volume_20d": 0.8,
-  "dist_20dma_pct": 7.06,
-  "dist_50dma_pct": 19.37,
-  "dist_200dma_pct": 31.07
+  "rsi_14": 66.28,
+  "atr_pct": 4.15,
+  "rel_volume_20d": 0.97,
+  "dist_20dma_pct": 8.1,
+  "dist_50dma_pct": 20.34,
+  "dist_200dma_pct": 32.97
  }
 }

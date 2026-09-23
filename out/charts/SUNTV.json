@@ -2,7 +2,7 @@
  "symbol": "SUNTV",
  "name": "Sun TV Network Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 490.1,
    "volume": 3413835,
    "delivery_pct": 22.68
+  },
+  {
+   "time": "2026-09-23",
+   "open": 490.1,
+   "high": 503.3,
+   "low": 485.6,
+   "close": 490.2,
+   "volume": 1771617,
+   "delivery_pct": 56.63
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 463.99
+   },
+   {
+    "time": "2026-09-23",
+    "value": 465.06
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 479.98
+   },
+   {
+    "time": "2026-09-23",
+    "value": 479.91
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 540.53
+   },
+   {
+    "time": "2026-09-23",
+    "value": 540.22
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.87,
-  "atr_pct": 3.13,
-  "rel_volume_20d": 6.16,
-  "dist_20dma_pct": 5.63,
-  "dist_50dma_pct": 2.11,
-  "dist_200dma_pct": -9.33
+  "rsi_14": 58.91,
+  "atr_pct": 3.16,
+  "rel_volume_20d": 2.48,
+  "dist_20dma_pct": 5.41,
+  "dist_50dma_pct": 2.14,
+  "dist_200dma_pct": -9.26
  }
 }

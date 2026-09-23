@@ -2,7 +2,7 @@
  "symbol": "ORIENTCER",
  "name": "ORIENT CERATECH LIMITED",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 48.08,
    "volume": 207701,
    "delivery_pct": 54.43
+  },
+  {
+   "time": "2026-09-23",
+   "open": 48.6,
+   "high": 48.84,
+   "low": 47.69,
+   "close": 47.7,
+   "volume": 42804,
+   "delivery_pct": 75.46
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 45.39
+   },
+   {
+    "time": "2026-09-23",
+    "value": 45.6
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 43.38
+   },
+   {
+    "time": "2026-09-23",
+    "value": 43.5
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 41.79
+   },
+   {
+    "time": "2026-09-23",
+    "value": 41.81
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.1,
-  "atr_pct": 4.92,
-  "rel_volume_20d": 1.85,
-  "dist_20dma_pct": 5.92,
-  "dist_50dma_pct": 10.83,
-  "dist_200dma_pct": 15.05
+  "rsi_14": 61.92,
+  "atr_pct": 4.77,
+  "rel_volume_20d": 0.36,
+  "dist_20dma_pct": 4.6,
+  "dist_50dma_pct": 9.66,
+  "dist_200dma_pct": 14.08
  }
 }

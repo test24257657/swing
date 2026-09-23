@@ -2,7 +2,7 @@
  "symbol": "PLAZACABLE",
  "name": "Plaza Wires Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 62.27,
    "volume": 92063,
    "delivery_pct": 58.34
+  },
+  {
+   "time": "2026-09-23",
+   "open": 62.35,
+   "high": 63.99,
+   "low": 61.55,
+   "close": 62.84,
+   "volume": 103082,
+   "delivery_pct": 55.0
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 59.06
+   },
+   {
+    "time": "2026-09-23",
+    "value": 59.59
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 51.55
+   },
+   {
+    "time": "2026-09-23",
+    "value": 51.95
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 44.03
+   },
+   {
+    "time": "2026-09-23",
+    "value": 44.14
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.88,
-  "atr_pct": 5.35,
-  "rel_volume_20d": 0.62,
-  "dist_20dma_pct": 5.43,
-  "dist_50dma_pct": 20.79,
-  "dist_200dma_pct": 41.43
+  "rsi_14": 64.0,
+  "atr_pct": 5.2,
+  "rel_volume_20d": 0.68,
+  "dist_20dma_pct": 5.46,
+  "dist_50dma_pct": 20.97,
+  "dist_200dma_pct": 42.36
  }
 }

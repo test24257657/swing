@@ -2,7 +2,7 @@
  "symbol": "BLISSGVS",
  "name": "Bliss GVS Pharma Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 694.6,
    "volume": 353104,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-23",
+   "open": 684.0,
+   "high": 717.0,
+   "low": 681.05,
+   "close": 699.2,
+   "volume": 152263,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 655.42
+   },
+   {
+    "time": "2026-09-23",
+    "value": 662.3
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 560.59
+   },
+   {
+    "time": "2026-09-23",
+    "value": 564.15
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 341.23
+   },
+   {
+    "time": "2026-09-23",
+    "value": 343.94
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.36,
-  "atr_pct": 4.93,
-  "rel_volume_20d": 1.1,
-  "dist_20dma_pct": 5.98,
-  "dist_50dma_pct": 23.9,
-  "dist_200dma_pct": 103.56
+  "rsi_14": 64.09,
+  "atr_pct": 4.91,
+  "rel_volume_20d": 0.47,
+  "dist_20dma_pct": 5.57,
+  "dist_50dma_pct": 23.94,
+  "dist_200dma_pct": 103.29
  }
 }

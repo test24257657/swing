@@ -2,7 +2,7 @@
  "symbol": "INDORAMA",
  "name": "Indo Rama Synthetics (India) Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 103.57,
    "volume": 4610713,
    "delivery_pct": 26.54
+  },
+  {
+   "time": "2026-09-23",
+   "open": 104.29,
+   "high": 105.54,
+   "low": 97.62,
+   "close": 100.0,
+   "volume": 1969705,
+   "delivery_pct": 33.41
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 77.73
+   },
+   {
+    "time": "2026-09-23",
+    "value": 79.71
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 64.26
+   },
+   {
+    "time": "2026-09-23",
+    "value": 65.32
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 46.92
+   },
+   {
+    "time": "2026-09-23",
+    "value": 47.16
    }
   ]
  },
  "technicals": {
-  "rsi_14": 79.05,
-  "atr_pct": 7.16,
-  "rel_volume_20d": 1.87,
-  "dist_20dma_pct": 33.24,
-  "dist_50dma_pct": 61.16,
-  "dist_200dma_pct": 120.75
+  "rsi_14": 73.32,
+  "atr_pct": 7.45,
+  "rel_volume_20d": 0.73,
+  "dist_20dma_pct": 25.46,
+  "dist_50dma_pct": 53.09,
+  "dist_200dma_pct": 112.02
  }
 }

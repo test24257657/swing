@@ -2,7 +2,7 @@
  "symbol": "JSWINFRA",
  "name": "JSW Infrastructure Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 367.6,
    "volume": 17124150,
    "delivery_pct": 35.59
+  },
+  {
+   "time": "2026-09-23",
+   "open": 369.0,
+   "high": 370.2,
+   "low": 362.2,
+   "close": 363.6,
+   "volume": 3338113,
+   "delivery_pct": 44.97
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 338.86
+   },
+   {
+    "time": "2026-09-23",
+    "value": 339.84
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 335.36
+   },
+   {
+    "time": "2026-09-23",
+    "value": 335.69
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 289.43
+   },
+   {
+    "time": "2026-09-23",
+    "value": 289.9
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.03,
-  "atr_pct": 3.26,
-  "rel_volume_20d": 4.69,
-  "dist_20dma_pct": 8.48,
-  "dist_50dma_pct": 9.61,
-  "dist_200dma_pct": 27.01
+  "rsi_14": 65.64,
+  "atr_pct": 3.22,
+  "rel_volume_20d": 0.76,
+  "dist_20dma_pct": 6.99,
+  "dist_50dma_pct": 8.32,
+  "dist_200dma_pct": 25.42
  }
 }

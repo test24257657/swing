@@ -2,7 +2,7 @@
  "symbol": "ACMESOLAR",
  "name": "Acme Solar Holdings Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 458.65,
    "volume": 3701858,
    "delivery_pct": 39.51
+  },
+  {
+   "time": "2026-09-23",
+   "open": 461.6,
+   "high": 476.4,
+   "low": 445.6,
+   "close": 452.3,
+   "volume": 2719156,
+   "delivery_pct": 44.57
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 411.38
+   },
+   {
+    "time": "2026-09-23",
+    "value": 414.03
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 390.01
+   },
+   {
+    "time": "2026-09-23",
+    "value": 391.36
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 300.44
+   },
+   {
+    "time": "2026-09-23",
+    "value": 301.57
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.62,
-  "atr_pct": 4.2,
-  "rel_volume_20d": 1.37,
-  "dist_20dma_pct": 11.49,
-  "dist_50dma_pct": 17.6,
-  "dist_200dma_pct": 52.66
+  "rsi_14": 68.67,
+  "atr_pct": 4.44,
+  "rel_volume_20d": 0.98,
+  "dist_20dma_pct": 9.24,
+  "dist_50dma_pct": 15.57,
+  "dist_200dma_pct": 49.98
  }
 }

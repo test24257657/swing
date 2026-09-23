@@ -2,7 +2,7 @@
  "symbol": "GSEC10ABSL",
  "name": "GSEC10ABSL",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-26",
@@ -1551,6 +1551,15 @@
    "close": 112.1,
    "volume": 10,
    "delivery_pct": 100.0
+  },
+  {
+   "time": "2026-09-23",
+   "open": 112.0,
+   "high": 112.0,
+   "low": 112.0,
+   "close": 112.0,
+   "volume": 1,
+   "delivery_pct": 100.0
   }
  ],
  "ma": {
@@ -2166,6 +2175,10 @@
    {
     "time": "2026-09-22",
     "value": 112.53
+   },
+   {
+    "time": "2026-09-23",
+    "value": 112.49
    }
   ],
   "sma_50": [
@@ -2660,15 +2673,19 @@
    {
     "time": "2026-09-22",
     "value": 111.99
+   },
+   {
+    "time": "2026-09-23",
+    "value": 112.06
    }
   ]
  },
  "technicals": {
-  "rsi_14": 48.14,
-  "atr_pct": 0.81,
-  "rel_volume_20d": 0.01,
-  "dist_20dma_pct": -0.38,
-  "dist_50dma_pct": 0.1,
+  "rsi_14": 47.61,
+  "atr_pct": 0.76,
+  "rel_volume_20d": 0.03,
+  "dist_20dma_pct": -0.44,
+  "dist_50dma_pct": -0.05,
   "dist_200dma_pct": null
  }
 }

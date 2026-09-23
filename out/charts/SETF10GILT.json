@@ -2,7 +2,7 @@
  "symbol": "SETF10GILT",
  "name": "SETF10GILT",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 262.53,
    "volume": 1544,
    "delivery_pct": 86.66
+  },
+  {
+   "time": "2026-09-23",
+   "open": 263.1,
+   "high": 263.89,
+   "low": 263.01,
+   "close": 263.59,
+   "volume": 1501,
+   "delivery_pct": 44.7
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 263.63
+   },
+   {
+    "time": "2026-09-23",
+    "value": 263.59
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 264.71
+   },
+   {
+    "time": "2026-09-23",
+    "value": 264.69
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 260.74
+   },
+   {
+    "time": "2026-09-23",
+    "value": 260.76
    }
   ]
  },
  "technicals": {
-  "rsi_14": 42.34,
-  "atr_pct": 0.94,
-  "rel_volume_20d": 0.33,
-  "dist_20dma_pct": -0.42,
-  "dist_50dma_pct": -0.82,
-  "dist_200dma_pct": 0.69
+  "rsi_14": 49.08,
+  "atr_pct": 0.91,
+  "rel_volume_20d": 0.32,
+  "dist_20dma_pct": -0.0,
+  "dist_50dma_pct": -0.41,
+  "dist_200dma_pct": 1.09
  }
 }

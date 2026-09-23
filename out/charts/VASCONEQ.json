@@ -2,7 +2,7 @@
  "symbol": "VASCONEQ",
  "name": "Vascon Engineers Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 31.44,
    "volume": 391428,
    "delivery_pct": 64.8
+  },
+  {
+   "time": "2026-09-23",
+   "open": 31.44,
+   "high": 33.46,
+   "low": 31.4,
+   "close": 32.99,
+   "volume": 942948,
+   "delivery_pct": 60.51
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 30.42
+   },
+   {
+    "time": "2026-09-23",
+    "value": 30.52
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 31.59
+   },
+   {
+    "time": "2026-09-23",
+    "value": 31.61
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 36.79
+   },
+   {
+    "time": "2026-09-23",
+    "value": 36.7
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.12,
-  "atr_pct": 4.22,
-  "rel_volume_20d": 1.3,
-  "dist_20dma_pct": 3.35,
-  "dist_50dma_pct": -0.48,
-  "dist_200dma_pct": -14.54
+  "rsi_14": 62.19,
+  "atr_pct": 4.18,
+  "rel_volume_20d": 3.07,
+  "dist_20dma_pct": 8.09,
+  "dist_50dma_pct": 4.38,
+  "dist_200dma_pct": -10.12
  }
 }

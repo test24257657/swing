@@ -2,7 +2,7 @@
  "symbol": "BLACKROSE",
  "name": "Black Rose Inds. Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2026-04-20",
@@ -975,6 +975,15 @@
    "close": 113.25,
    "volume": 51989,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-23",
+   "open": 114.38,
+   "high": 115.99,
+   "low": 110.0,
+   "close": 114.91,
+   "volume": 34753,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1334,6 +1343,10 @@
    {
     "time": "2026-09-22",
     "value": 111.3
+   },
+   {
+    "time": "2026-09-23",
+    "value": 111.32
    }
   ],
   "sma_50": [
@@ -1572,15 +1585,19 @@
    {
     "time": "2026-09-22",
     "value": 108.38
+   },
+   {
+    "time": "2026-09-23",
+    "value": 108.58
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.47,
-  "atr_pct": 3.99,
-  "rel_volume_20d": 2.49,
-  "dist_20dma_pct": 1.75,
-  "dist_50dma_pct": 4.49,
+  "rsi_14": 59.1,
+  "atr_pct": 4.02,
+  "rel_volume_20d": 1.8,
+  "dist_20dma_pct": 3.23,
+  "dist_50dma_pct": 5.82,
   "dist_200dma_pct": null
  }
 }

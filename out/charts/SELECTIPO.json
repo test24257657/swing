@@ -2,7 +2,7 @@
  "symbol": "SELECTIPO",
  "name": "SELECTIPO",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 48.84,
    "volume": 70034,
    "delivery_pct": 92.26
+  },
+  {
+   "time": "2026-09-23",
+   "open": 48.85,
+   "high": 49.11,
+   "low": 48.72,
+   "close": 48.93,
+   "volume": 141493,
+   "delivery_pct": 66.27
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 48.56
+   },
+   {
+    "time": "2026-09-23",
+    "value": 48.55
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 47.89
+   },
+   {
+    "time": "2026-09-23",
+    "value": 47.94
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 44.65
+   },
+   {
+    "time": "2026-09-23",
+    "value": 44.65
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.01,
-  "atr_pct": 1.46,
-  "rel_volume_20d": 1.2,
-  "dist_20dma_pct": 0.58,
-  "dist_50dma_pct": 1.98,
-  "dist_200dma_pct": 9.39
+  "rsi_14": 59.01,
+  "atr_pct": 1.41,
+  "rel_volume_20d": 2.44,
+  "dist_20dma_pct": 0.79,
+  "dist_50dma_pct": 2.07,
+  "dist_200dma_pct": 9.58
  }
 }

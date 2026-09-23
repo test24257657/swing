@@ -2,7 +2,7 @@
  "symbol": "SANSERA",
  "name": "Sansera Engineering Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 4586.5,
    "volume": 914987,
    "delivery_pct": 31.04
+  },
+  {
+   "time": "2026-09-23",
+   "open": 4589.1,
+   "high": 4743.5,
+   "low": 4530.0,
+   "close": 4621.4,
+   "volume": 546223,
+   "delivery_pct": 47.11
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 3997.0
+   },
+   {
+    "time": "2026-09-23",
+    "value": 4038.55
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 3727.82
+   },
+   {
+    "time": "2026-09-23",
+    "value": 3755.48
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 2651.5
+   },
+   {
+    "time": "2026-09-23",
+    "value": 2665.85
    }
   ]
  },
  "technicals": {
-  "rsi_14": 73.29,
-  "atr_pct": 3.83,
-  "rel_volume_20d": 4.81,
-  "dist_20dma_pct": 14.75,
-  "dist_50dma_pct": 23.03,
-  "dist_200dma_pct": 72.98
+  "rsi_14": 73.98,
+  "atr_pct": 3.86,
+  "rel_volume_20d": 2.38,
+  "dist_20dma_pct": 14.43,
+  "dist_50dma_pct": 23.06,
+  "dist_200dma_pct": 73.36
  }
 }

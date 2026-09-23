@@ -2,7 +2,7 @@
  "symbol": "QMSMEDI",
  "name": "QMS Medical Allied Services Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2026-06-18",
@@ -606,6 +606,15 @@
    "close": 192.8,
    "volume": 72067,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-23",
+   "open": 192.8,
+   "high": 197.0,
+   "low": 184.0,
+   "close": 195.1,
+   "volume": 107134,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -801,6 +810,10 @@
    {
     "time": "2026-09-22",
     "value": 161.65
+   },
+   {
+    "time": "2026-09-23",
+    "value": 163.96
    }
   ],
   "sma_50": [
@@ -875,15 +888,19 @@
    {
     "time": "2026-09-22",
     "value": 136.25
+   },
+   {
+    "time": "2026-09-23",
+    "value": 138.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 81.71,
-  "atr_pct": 4.08,
-  "rel_volume_20d": 2.1,
-  "dist_20dma_pct": 19.27,
-  "dist_50dma_pct": 41.5,
+  "rsi_14": 82.42,
+  "atr_pct": 4.22,
+  "rel_volume_20d": 3.11,
+  "dist_20dma_pct": 18.99,
+  "dist_50dma_pct": 41.38,
   "dist_200dma_pct": null
  }
 }

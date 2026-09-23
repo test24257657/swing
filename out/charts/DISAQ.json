@@ -2,7 +2,7 @@
  "symbol": "DISAQ",
  "name": "Disa India Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2026-04-20",
@@ -975,6 +975,15 @@
    "close": 12185.0,
    "volume": 67,
    "delivery_pct": 64.18
+  },
+  {
+   "time": "2026-09-23",
+   "open": 12168.0,
+   "high": 12200.0,
+   "low": 11940.0,
+   "close": 12088.0,
+   "volume": 134,
+   "delivery_pct": 50.0
   }
  ],
  "ma": {
@@ -1334,6 +1343,10 @@
    {
     "time": "2026-09-22",
     "value": 11906.85
+   },
+   {
+    "time": "2026-09-23",
+    "value": 11915.95
    }
   ],
   "sma_50": [
@@ -1572,15 +1585,19 @@
    {
     "time": "2026-09-22",
     "value": 11938.98
+   },
+   {
+    "time": "2026-09-23",
+    "value": 11940.24
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.98,
-  "atr_pct": 2.92,
-  "rel_volume_20d": 0.23,
-  "dist_20dma_pct": 2.34,
-  "dist_50dma_pct": 2.06,
+  "rsi_14": 54.26,
+  "atr_pct": 2.89,
+  "rel_volume_20d": 0.46,
+  "dist_20dma_pct": 1.44,
+  "dist_50dma_pct": 1.24,
   "dist_200dma_pct": null
  }
 }

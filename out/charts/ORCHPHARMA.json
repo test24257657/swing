@@ -2,7 +2,7 @@
  "symbol": "ORCHPHARMA",
  "name": "Orchid Pharma Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 1107.2,
    "volume": 493833,
    "delivery_pct": 30.23
+  },
+  {
+   "time": "2026-09-23",
+   "open": 1105.0,
+   "high": 1129.2,
+   "low": 1090.0,
+   "close": 1102.05,
+   "volume": 134909,
+   "delivery_pct": 35.61
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 985.09
+   },
+   {
+    "time": "2026-09-23",
+    "value": 988.26
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 1004.29
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1005.27
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 794.22
+   },
+   {
+    "time": "2026-09-23",
+    "value": 795.47
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.0,
-  "atr_pct": 4.78,
-  "rel_volume_20d": 4.92,
-  "dist_20dma_pct": 12.4,
-  "dist_50dma_pct": 10.25,
-  "dist_200dma_pct": 39.41
+  "rsi_14": 65.02,
+  "atr_pct": 4.71,
+  "rel_volume_20d": 1.14,
+  "dist_20dma_pct": 11.51,
+  "dist_50dma_pct": 9.63,
+  "dist_200dma_pct": 38.54
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "CPCAP",
  "name": "CP Capital Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 151.7,
    "volume": 38437,
    "delivery_pct": 69.55
+  },
+  {
+   "time": "2026-09-23",
+   "open": 156.79,
+   "high": 156.79,
+   "low": 150.9,
+   "close": 152.95,
+   "volume": 24373,
+   "delivery_pct": 59.51
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 130.62
+   },
+   {
+    "time": "2026-09-23",
+    "value": 132.23
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 121.97
+   },
+   {
+    "time": "2026-09-23",
+    "value": 122.79
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 105.18
+   },
+   {
+    "time": "2026-09-23",
+    "value": 105.36
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.28,
-  "atr_pct": 5.16,
-  "rel_volume_20d": 0.72,
-  "dist_20dma_pct": 16.14,
-  "dist_50dma_pct": 24.38,
-  "dist_200dma_pct": 44.23
+  "rsi_14": 71.02,
+  "atr_pct": 5.03,
+  "rel_volume_20d": 0.44,
+  "dist_20dma_pct": 15.67,
+  "dist_50dma_pct": 24.57,
+  "dist_200dma_pct": 45.17
  }
 }

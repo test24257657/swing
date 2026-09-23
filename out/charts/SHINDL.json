@@ -2,7 +2,7 @@
  "symbol": "SHINDL",
  "name": "Sharat Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2026-04-20",
@@ -975,6 +975,15 @@
    "close": 162.53,
    "volume": 247030,
    "delivery_pct": 42.48
+  },
+  {
+   "time": "2026-09-23",
+   "open": 163.42,
+   "high": 166.0,
+   "low": 160.68,
+   "close": 164.13,
+   "volume": 129807,
+   "delivery_pct": 15.46
   }
  ],
  "ma": {
@@ -1334,6 +1343,10 @@
    {
     "time": "2026-09-22",
     "value": 162.21
+   },
+   {
+    "time": "2026-09-23",
+    "value": 162.23
    }
   ],
   "sma_50": [
@@ -1572,15 +1585,19 @@
    {
     "time": "2026-09-22",
     "value": 161.91
+   },
+   {
+    "time": "2026-09-23",
+    "value": 161.94
    }
   ]
  },
  "technicals": {
-  "rsi_14": 51.76,
-  "atr_pct": 3.48,
-  "rel_volume_20d": 0.99,
-  "dist_20dma_pct": 0.2,
-  "dist_50dma_pct": 0.38,
+  "rsi_14": 55.74,
+  "atr_pct": 3.43,
+  "rel_volume_20d": 0.51,
+  "dist_20dma_pct": 1.17,
+  "dist_50dma_pct": 1.36,
   "dist_200dma_pct": null
  }
 }

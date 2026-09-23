@@ -2,7 +2,7 @@
  "symbol": "LICNETFGSC",
  "name": "LICNETFGSC",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 29.21,
    "volume": 103950,
    "delivery_pct": 97.23
+  },
+  {
+   "time": "2026-09-23",
+   "open": 29.18,
+   "high": 29.4,
+   "low": 29.18,
+   "close": 29.27,
+   "volume": 3719,
+   "delivery_pct": 75.4
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 29.37
+   },
+   {
+    "time": "2026-09-23",
+    "value": 29.35
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 29.46
+   },
+   {
+    "time": "2026-09-23",
+    "value": 29.45
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 28.97
+   },
+   {
+    "time": "2026-09-23",
+    "value": 28.97
    }
   ]
  },
  "technicals": {
-  "rsi_14": 39.48,
-  "atr_pct": 1.31,
-  "rel_volume_20d": 5.37,
-  "dist_20dma_pct": -0.54,
-  "dist_50dma_pct": -0.85,
-  "dist_200dma_pct": 0.83
+  "rsi_14": 43.92,
+  "atr_pct": 1.26,
+  "rel_volume_20d": 0.15,
+  "dist_20dma_pct": -0.29,
+  "dist_50dma_pct": -0.62,
+  "dist_200dma_pct": 1.03
  }
 }

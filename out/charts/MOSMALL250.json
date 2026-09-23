@@ -2,7 +2,7 @@
  "symbol": "MOSMALL250",
  "name": "MOSMALL250",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 18.3,
    "volume": 395721,
    "delivery_pct": 69.05
+  },
+  {
+   "time": "2026-09-23",
+   "open": 18.35,
+   "high": 18.53,
+   "low": 18.31,
+   "close": 18.48,
+   "volume": 1739141,
+   "delivery_pct": 86.36
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 18.41
+   },
+   {
+    "time": "2026-09-23",
+    "value": 18.41
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 18.29
+   },
+   {
+    "time": "2026-09-23",
+    "value": 18.29
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 16.9
+   },
+   {
+    "time": "2026-09-23",
+    "value": 16.91
    }
   ]
  },
  "technicals": {
-  "rsi_14": 48.68,
-  "atr_pct": 2.68,
-  "rel_volume_20d": 0.26,
-  "dist_20dma_pct": -0.59,
-  "dist_50dma_pct": 0.08,
-  "dist_200dma_pct": 8.28
+  "rsi_14": 54.49,
+  "atr_pct": 2.56,
+  "rel_volume_20d": 1.15,
+  "dist_20dma_pct": 0.39,
+  "dist_50dma_pct": 1.01,
+  "dist_200dma_pct": 9.3
  }
 }

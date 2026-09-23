@@ -2,7 +2,7 @@
  "symbol": "ORIENTHOT",
  "name": "Oriental Hotels Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 142.88,
    "volume": 292194,
    "delivery_pct": 39.95
+  },
+  {
+   "time": "2026-09-23",
+   "open": 144.12,
+   "high": 144.38,
+   "low": 142.46,
+   "close": 143.58,
+   "volume": 295043,
+   "delivery_pct": 59.28
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 140.49
+   },
+   {
+    "time": "2026-09-23",
+    "value": 140.59
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 135.49
+   },
+   {
+    "time": "2026-09-23",
+    "value": 135.68
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 112.81
+   },
+   {
+    "time": "2026-09-23",
+    "value": 112.96
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.91,
-  "atr_pct": 3.24,
-  "rel_volume_20d": 0.21,
-  "dist_20dma_pct": 1.7,
-  "dist_50dma_pct": 5.45,
-  "dist_200dma_pct": 26.65
+  "rsi_14": 60.1,
+  "atr_pct": 3.09,
+  "rel_volume_20d": 0.28,
+  "dist_20dma_pct": 2.13,
+  "dist_50dma_pct": 5.82,
+  "dist_200dma_pct": 27.11
  }
 }

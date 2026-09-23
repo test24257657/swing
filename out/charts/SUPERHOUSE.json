@@ -2,7 +2,7 @@
  "symbol": "SUPERHOUSE",
  "name": "Superhouse Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 169.17,
    "volume": 4819,
    "delivery_pct": 79.46
+  },
+  {
+   "time": "2026-09-23",
+   "open": 172.0,
+   "high": 173.0,
+   "low": 167.5,
+   "close": 168.47,
+   "volume": 7485,
+   "delivery_pct": 67.48
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 170.96
+   },
+   {
+    "time": "2026-09-23",
+    "value": 170.57
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 165.64
+   },
+   {
+    "time": "2026-09-23",
+    "value": 165.97
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 154.97
+   },
+   {
+    "time": "2026-09-23",
+    "value": 155.02
    }
   ]
  },
  "technicals": {
-  "rsi_14": 50.97,
-  "atr_pct": 5.05,
-  "rel_volume_20d": 0.41,
-  "dist_20dma_pct": -1.05,
-  "dist_50dma_pct": 2.13,
-  "dist_200dma_pct": 9.17
+  "rsi_14": 49.98,
+  "atr_pct": 4.94,
+  "rel_volume_20d": 0.65,
+  "dist_20dma_pct": -1.23,
+  "dist_50dma_pct": 1.51,
+  "dist_200dma_pct": 8.68
  }
 }

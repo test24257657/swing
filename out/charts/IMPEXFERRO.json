@@ -2,7 +2,7 @@
  "symbol": "IMPEXFERRO",
  "name": "Impex Ferro Tech Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -1947,6 +1947,15 @@
    "close": 5.8,
    "volume": 23462,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-23",
+   "open": 5.9,
+   "high": 5.91,
+   "low": 5.9,
+   "close": 5.91,
+   "volume": 37514,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -2738,6 +2747,10 @@
    {
     "time": "2026-09-22",
     "value": 4.88
+   },
+   {
+    "time": "2026-09-23",
+    "value": 4.97
    }
   ],
   "sma_50": [
@@ -3408,6 +3421,10 @@
    {
     "time": "2026-09-22",
     "value": 3.7
+   },
+   {
+    "time": "2026-09-23",
+    "value": 3.78
    }
   ],
   "sma_200": [
@@ -3478,15 +3495,19 @@
    {
     "time": "2026-09-22",
     "value": 2.24
+   },
+   {
+    "time": "2026-09-23",
+    "value": 2.26
    }
   ]
  },
  "technicals": {
-  "rsi_14": 97.78,
-  "atr_pct": 1.72,
-  "rel_volume_20d": 0.55,
+  "rsi_14": 97.96,
+  "atr_pct": 1.7,
+  "rel_volume_20d": 0.87,
   "dist_20dma_pct": 18.83,
-  "dist_50dma_pct": 56.78,
-  "dist_200dma_pct": 159.05
+  "dist_50dma_pct": 56.45,
+  "dist_200dma_pct": 161.6
  }
 }

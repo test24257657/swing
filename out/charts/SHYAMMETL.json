@@ -2,7 +2,7 @@
  "symbol": "SHYAMMETL",
  "name": "Shyam Metalics and Energy Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 1094.1,
    "volume": 383963,
    "delivery_pct": 69.9
+  },
+  {
+   "time": "2026-09-23",
+   "open": 1099.5,
+   "high": 1124.8,
+   "low": 1095.6,
+   "close": 1105.8,
+   "volume": 418859,
+   "delivery_pct": 41.75
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 1072.03
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1077.01
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 1038.75
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1040.14
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 908.44
+   },
+   {
+    "time": "2026-09-23",
+    "value": 909.87
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.93,
-  "atr_pct": 2.86,
-  "rel_volume_20d": 0.58,
-  "dist_20dma_pct": 2.06,
-  "dist_50dma_pct": 5.33,
-  "dist_200dma_pct": 20.44
+  "rsi_14": 63.58,
+  "atr_pct": 2.83,
+  "rel_volume_20d": 0.62,
+  "dist_20dma_pct": 2.67,
+  "dist_50dma_pct": 6.31,
+  "dist_200dma_pct": 21.53
  }
 }

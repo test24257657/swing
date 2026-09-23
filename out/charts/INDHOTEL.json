@@ -2,7 +2,7 @@
  "symbol": "INDHOTEL",
  "name": "The Indian Hotels Company Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 736.25,
    "volume": 1255870,
    "delivery_pct": 48.54
+  },
+  {
+   "time": "2026-09-23",
+   "open": 738.25,
+   "high": 744.0,
+   "low": 736.15,
+   "close": 743.7,
+   "volume": 1295095,
+   "delivery_pct": 61.28
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 723.69
+   },
+   {
+    "time": "2026-09-23",
+    "value": 724.37
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 728.45
+   },
+   {
+    "time": "2026-09-23",
+    "value": 728.66
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 689.4
+   },
+   {
+    "time": "2026-09-23",
+    "value": 689.38
    }
   ]
  },
  "technicals": {
-  "rsi_14": 55.55,
-  "atr_pct": 2.14,
-  "rel_volume_20d": 0.7,
-  "dist_20dma_pct": 1.74,
-  "dist_50dma_pct": 1.07,
-  "dist_200dma_pct": 6.8
+  "rsi_14": 58.78,
+  "atr_pct": 2.04,
+  "rel_volume_20d": 0.72,
+  "dist_20dma_pct": 2.67,
+  "dist_50dma_pct": 2.06,
+  "dist_200dma_pct": 7.88
  }
 }

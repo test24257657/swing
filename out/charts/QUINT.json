@@ -2,7 +2,7 @@
  "symbol": "QUINT",
  "name": "Quint Digital Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2026-04-20",
@@ -975,6 +975,15 @@
    "close": 80.56,
    "volume": 193585,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-23",
+   "open": 82.0,
+   "high": 84.58,
+   "low": 78.0,
+   "close": 84.58,
+   "volume": 108560,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1334,6 +1343,10 @@
    {
     "time": "2026-09-22",
     "value": 48.14
+   },
+   {
+    "time": "2026-09-23",
+    "value": 50.19
    }
   ],
   "sma_50": [
@@ -1572,15 +1585,19 @@
    {
     "time": "2026-09-22",
     "value": 42.31
+   },
+   {
+    "time": "2026-09-23",
+    "value": 43.22
    }
   ]
  },
  "technicals": {
-  "rsi_14": 91.31,
-  "atr_pct": 5.71,
-  "rel_volume_20d": 2.2,
-  "dist_20dma_pct": 67.34,
-  "dist_50dma_pct": 90.38,
+  "rsi_14": 92.15,
+  "atr_pct": 5.6,
+  "rel_volume_20d": 1.13,
+  "dist_20dma_pct": 68.52,
+  "dist_50dma_pct": 95.71,
   "dist_200dma_pct": null
  }
 }

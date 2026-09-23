@@ -2,7 +2,7 @@
  "symbol": "ALKALI",
  "name": "Alkali Metals Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 103.2,
    "volume": 251907,
    "delivery_pct": 33.74
+  },
+  {
+   "time": "2026-09-23",
+   "open": 103.8,
+   "high": 103.9,
+   "low": 98.12,
+   "close": 101.63,
+   "volume": 169113,
+   "delivery_pct": 41.59
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 75.67
+   },
+   {
+    "time": "2026-09-23",
+    "value": 77.39
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 73.66
+   },
+   {
+    "time": "2026-09-23",
+    "value": 74.01
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 72.99
+   },
+   {
+    "time": "2026-09-23",
+    "value": 73.09
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.38,
-  "atr_pct": 6.76,
-  "rel_volume_20d": 3.22,
-  "dist_20dma_pct": 36.38,
-  "dist_50dma_pct": 40.11,
-  "dist_200dma_pct": 41.39
+  "rsi_14": 72.22,
+  "atr_pct": 6.78,
+  "rel_volume_20d": 1.86,
+  "dist_20dma_pct": 31.32,
+  "dist_50dma_pct": 37.33,
+  "dist_200dma_pct": 39.05
  }
 }

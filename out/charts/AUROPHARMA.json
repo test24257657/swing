@@ -2,7 +2,7 @@
  "symbol": "AUROPHARMA",
  "name": "Aurobindo Pharma Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 1700.0,
    "volume": 869831,
    "delivery_pct": 59.93
+  },
+  {
+   "time": "2026-09-23",
+   "open": 1700.0,
+   "high": 1724.7,
+   "low": 1692.6,
+   "close": 1721.5,
+   "volume": 951081,
+   "delivery_pct": 61.14
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 1670.08
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1675.26
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 1623.08
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1626.45
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 1397.46
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1399.99
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.69,
-  "atr_pct": 2.33,
-  "rel_volume_20d": 1.08,
-  "dist_20dma_pct": 1.79,
-  "dist_50dma_pct": 4.74,
-  "dist_200dma_pct": 21.65
+  "rsi_14": 59.66,
+  "atr_pct": 2.27,
+  "rel_volume_20d": 1.19,
+  "dist_20dma_pct": 2.76,
+  "dist_50dma_pct": 5.84,
+  "dist_200dma_pct": 22.97
  }
 }

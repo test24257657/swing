@@ -2,7 +2,7 @@
  "symbol": "ISFT",
  "name": "Intrasoft Technologies Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 104.02,
    "volume": 385240,
    "delivery_pct": 27.79
+  },
+  {
+   "time": "2026-09-23",
+   "open": 104.9,
+   "high": 114.95,
+   "low": 104.02,
+   "close": 107.63,
+   "volume": 410493,
+   "delivery_pct": 23.01
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 88.06
+   },
+   {
+    "time": "2026-09-23",
+    "value": 88.87
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 82.78
+   },
+   {
+    "time": "2026-09-23",
+    "value": 83.36
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 81.58
+   },
+   {
+    "time": "2026-09-23",
+    "value": 81.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.87,
-  "atr_pct": 6.27,
-  "rel_volume_20d": 2.61,
-  "dist_20dma_pct": 18.12,
-  "dist_50dma_pct": 25.65,
-  "dist_200dma_pct": 27.51
+  "rsi_14": 71.1,
+  "atr_pct": 6.35,
+  "rel_volume_20d": 2.55,
+  "dist_20dma_pct": 21.11,
+  "dist_50dma_pct": 29.11,
+  "dist_200dma_pct": 31.86
  }
 }

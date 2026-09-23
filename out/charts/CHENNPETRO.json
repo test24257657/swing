@@ -2,7 +2,7 @@
  "symbol": "CHENNPETRO",
  "name": "Chennai Petroleum Corporation Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 1392.0,
    "volume": 1113436,
    "delivery_pct": 28.3
+  },
+  {
+   "time": "2026-09-23",
+   "open": 1398.5,
+   "high": 1423.0,
+   "low": 1380.8,
+   "close": 1388.6,
+   "volume": 1081696,
+   "delivery_pct": 38.33
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 1437.4
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1436.77
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 1348.74
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1354.3
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 1074.79
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1077.18
    }
   ]
  },
  "technicals": {
-  "rsi_14": 47.6,
-  "atr_pct": 5.21,
-  "rel_volume_20d": 0.61,
-  "dist_20dma_pct": -3.16,
-  "dist_50dma_pct": 3.21,
-  "dist_200dma_pct": 29.51
+  "rsi_14": 47.25,
+  "atr_pct": 5.06,
+  "rel_volume_20d": 0.6,
+  "dist_20dma_pct": -3.35,
+  "dist_50dma_pct": 2.53,
+  "dist_200dma_pct": 28.91
  }
 }

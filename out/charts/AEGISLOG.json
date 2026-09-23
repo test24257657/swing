@@ -2,7 +2,7 @@
  "symbol": "AEGISLOG",
  "name": "Aegis Logistics Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 1424.5,
    "volume": 2196787,
    "delivery_pct": 32.76
+  },
+  {
+   "time": "2026-09-23",
+   "open": 1416.0,
+   "high": 1423.8,
+   "low": 1388.1,
+   "close": 1404.5,
+   "volume": 447832,
+   "delivery_pct": 38.1
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 1321.73
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1325.88
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 1324.04
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1327.68
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 903.62
+   },
+   {
+    "time": "2026-09-23",
+    "value": 906.8
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.27,
-  "atr_pct": 5.1,
-  "rel_volume_20d": 2.43,
-  "dist_20dma_pct": 7.78,
-  "dist_50dma_pct": 7.59,
-  "dist_200dma_pct": 57.64
+  "rsi_14": 56.18,
+  "atr_pct": 4.99,
+  "rel_volume_20d": 0.46,
+  "dist_20dma_pct": 5.93,
+  "dist_50dma_pct": 5.79,
+  "dist_200dma_pct": 54.88
  }
 }

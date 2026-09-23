@@ -2,7 +2,7 @@
  "symbol": "TBOTEK",
  "name": "TBO Tek Limited",
  "kind": "stock",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2208,6 +2208,15 @@
    "close": 1703.7,
    "volume": 596139,
    "delivery_pct": 52.39
+  },
+  {
+   "time": "2026-09-23",
+   "open": 1700.0,
+   "high": 1721.8,
+   "low": 1700.0,
+   "close": 1704.5,
+   "volume": 137694,
+   "delivery_pct": 58.2
   }
  ],
  "ma": {
@@ -3115,6 +3124,10 @@
    {
     "time": "2026-09-22",
     "value": 1696.38
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1695.35
    }
   ],
   "sma_50": [
@@ -3901,6 +3914,10 @@
    {
     "time": "2026-09-22",
     "value": 1618.69
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1623.91
    }
   ],
   "sma_200": [
@@ -4087,15 +4104,19 @@
    {
     "time": "2026-09-22",
     "value": 1435.3
+   },
+   {
+    "time": "2026-09-23",
+    "value": 1435.4
    }
   ]
  },
  "technicals": {
-  "rsi_14": 55.15,
-  "atr_pct": 3.33,
-  "rel_volume_20d": 4.12,
-  "dist_20dma_pct": 0.43,
-  "dist_50dma_pct": 5.25,
-  "dist_200dma_pct": 18.7
+  "rsi_14": 55.26,
+  "atr_pct": 3.18,
+  "rel_volume_20d": 0.82,
+  "dist_20dma_pct": 0.54,
+  "dist_50dma_pct": 4.96,
+  "dist_200dma_pct": 18.75
  }
 }
