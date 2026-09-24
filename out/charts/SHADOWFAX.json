@@ -2,7 +2,7 @@
  "symbol": "SHADOWFAX",
  "name": "Shadowfax Technologies Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2026-01-28",
@@ -1461,6 +1461,15 @@
    "close": 285.75,
    "volume": 5096655,
    "delivery_pct": 54.27
+  },
+  {
+   "time": "2026-09-24",
+   "open": 285.0,
+   "high": 292.2,
+   "low": 278.8,
+   "close": 285.8,
+   "volume": 5612297,
+   "delivery_pct": 52.57
   }
  ],
  "ma": {
@@ -2036,6 +2045,10 @@
    {
     "time": "2026-09-23",
     "value": 255.4
+   },
+   {
+    "time": "2026-09-24",
+    "value": 257.39
    }
   ],
   "sma_50": [
@@ -2490,15 +2503,19 @@
    {
     "time": "2026-09-23",
     "value": 243.94
+   },
+   {
+    "time": "2026-09-24",
+    "value": 245.55
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.67,
-  "atr_pct": 4.14,
-  "rel_volume_20d": 1.36,
-  "dist_20dma_pct": 11.88,
-  "dist_50dma_pct": 17.14,
+  "rsi_14": 69.69,
+  "atr_pct": 4.17,
+  "rel_volume_20d": 1.44,
+  "dist_20dma_pct": 11.04,
+  "dist_50dma_pct": 16.39,
   "dist_200dma_pct": null
  }
 }

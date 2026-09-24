@@ -2,7 +2,7 @@
  "symbol": "SPLPETRO",
  "name": "Supreme Petrochem Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 882.2,
    "volume": 387021,
    "delivery_pct": 30.32
+  },
+  {
+   "time": "2026-09-24",
+   "open": 880.0,
+   "high": 887.95,
+   "low": 870.1,
+   "close": 879.9,
+   "volume": 148875,
+   "delivery_pct": 47.98
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 786.28
+   },
+   {
+    "time": "2026-09-24",
+    "value": 794.86
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 742.99
+   },
+   {
+    "time": "2026-09-24",
+    "value": 746.23
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 691.84
+   },
+   {
+    "time": "2026-09-24",
+    "value": 693.04
    }
   ]
  },
  "technicals": {
-  "rsi_14": 73.79,
-  "atr_pct": 3.44,
-  "rel_volume_20d": 0.94,
-  "dist_20dma_pct": 12.2,
-  "dist_50dma_pct": 18.74,
-  "dist_200dma_pct": 27.52
+  "rsi_14": 72.95,
+  "atr_pct": 3.35,
+  "rel_volume_20d": 0.35,
+  "dist_20dma_pct": 10.7,
+  "dist_50dma_pct": 17.91,
+  "dist_200dma_pct": 26.96
  }
 }

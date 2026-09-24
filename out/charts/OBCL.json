@@ -2,7 +2,7 @@
  "symbol": "OBCL",
  "name": "OBCL Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 60.27,
    "volume": 45135,
    "delivery_pct": 73.01
+  },
+  {
+   "time": "2026-09-24",
+   "open": 60.27,
+   "high": 60.49,
+   "low": 58.1,
+   "close": 59.42,
+   "volume": 16912,
+   "delivery_pct": 62.82
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 56.3
+   },
+   {
+    "time": "2026-09-24",
+    "value": 56.39
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 54.59
+   },
+   {
+    "time": "2026-09-24",
+    "value": 54.72
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 55.21
+   },
+   {
+    "time": "2026-09-24",
+    "value": 55.22
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.52,
-  "atr_pct": 3.86,
-  "rel_volume_20d": 4.73,
-  "dist_20dma_pct": 7.06,
-  "dist_50dma_pct": 10.4,
-  "dist_200dma_pct": 9.17
+  "rsi_14": 65.72,
+  "atr_pct": 3.92,
+  "rel_volume_20d": 1.73,
+  "dist_20dma_pct": 5.38,
+  "dist_50dma_pct": 8.59,
+  "dist_200dma_pct": 7.6
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "TI",
  "name": "Tilaknagar Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 601.5,
    "volume": 1593921,
    "delivery_pct": 47.46
+  },
+  {
+   "time": "2026-09-24",
+   "open": 595.0,
+   "high": 603.25,
+   "low": 583.8,
+   "close": 587.55,
+   "volume": 506431,
+   "delivery_pct": 47.36
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 549.59
+   },
+   {
+    "time": "2026-09-24",
+    "value": 550.92
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 519.61
+   },
+   {
+    "time": "2026-09-24",
+    "value": 522.53
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 461.85
+   },
+   {
+    "time": "2026-09-24",
+    "value": 462.43
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.79,
-  "atr_pct": 3.71,
-  "rel_volume_20d": 2.07,
-  "dist_20dma_pct": 9.45,
-  "dist_50dma_pct": 15.76,
-  "dist_200dma_pct": 30.24
+  "rsi_14": 62.89,
+  "atr_pct": 3.76,
+  "rel_volume_20d": 0.64,
+  "dist_20dma_pct": 6.65,
+  "dist_50dma_pct": 12.44,
+  "dist_200dma_pct": 27.06
  }
 }

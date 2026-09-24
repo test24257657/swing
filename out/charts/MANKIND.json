@@ -2,7 +2,7 @@
  "symbol": "MANKIND",
  "name": "Mankind Pharma Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 2465.0,
    "volume": 352575,
    "delivery_pct": 55.39
+  },
+  {
+   "time": "2026-09-24",
+   "open": 2442.6,
+   "high": 2504.3,
+   "low": 2442.6,
+   "close": 2500.0,
+   "volume": 447288,
+   "delivery_pct": 52.6
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 2348.92
+   },
+   {
+    "time": "2026-09-24",
+    "value": 2354.23
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 2422.72
+   },
+   {
+    "time": "2026-09-24",
+    "value": 2421.86
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 2285.23
+   },
+   {
+    "time": "2026-09-24",
+    "value": 2286.65
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.85,
-  "atr_pct": 2.3,
-  "rel_volume_20d": 0.87,
-  "dist_20dma_pct": 4.94,
-  "dist_50dma_pct": 1.75,
-  "dist_200dma_pct": 7.87
+  "rsi_14": 63.76,
+  "atr_pct": 2.28,
+  "rel_volume_20d": 1.12,
+  "dist_20dma_pct": 6.19,
+  "dist_50dma_pct": 3.23,
+  "dist_200dma_pct": 9.33
  }
 }

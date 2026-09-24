@@ -2,7 +2,7 @@
  "symbol": "INDRAMEDCO",
  "name": "Indraprastha Medical Corporation Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 374.6,
    "volume": 272880,
    "delivery_pct": 65.71
+  },
+  {
+   "time": "2026-09-24",
+   "open": 374.9,
+   "high": 378.8,
+   "low": 368.05,
+   "close": 370.5,
+   "volume": 318831,
+   "delivery_pct": 58.55
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 360.34
+   },
+   {
+    "time": "2026-09-24",
+    "value": 360.4
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 367.11
+   },
+   {
+    "time": "2026-09-24",
+    "value": 366.98
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 396.64
+   },
+   {
+    "time": "2026-09-24",
+    "value": 395.99
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.49,
-  "atr_pct": 2.72,
-  "rel_volume_20d": 1.54,
-  "dist_20dma_pct": 3.96,
-  "dist_50dma_pct": 2.04,
-  "dist_200dma_pct": -5.56
+  "rsi_14": 55.5,
+  "atr_pct": 2.76,
+  "rel_volume_20d": 1.75,
+  "dist_20dma_pct": 2.8,
+  "dist_50dma_pct": 0.96,
+  "dist_200dma_pct": -6.44
  }
 }

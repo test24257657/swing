@@ -2,7 +2,7 @@
  "symbol": "VSSL",
  "name": "Vardhman Special Steels Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 413.6,
    "volume": 103560,
    "delivery_pct": 45.48
+  },
+  {
+   "time": "2026-09-24",
+   "open": 410.7,
+   "high": 418.35,
+   "low": 390.05,
+   "close": 405.0,
+   "volume": 115559,
+   "delivery_pct": 46.79
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 378.94
+   },
+   {
+    "time": "2026-09-24",
+    "value": 380.8
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 345.22
+   },
+   {
+    "time": "2026-09-24",
+    "value": 347.4
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 285.72
+   },
+   {
+    "time": "2026-09-24",
+    "value": 286.34
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.74,
-  "atr_pct": 4.31,
-  "rel_volume_20d": 0.18,
-  "dist_20dma_pct": 9.15,
-  "dist_50dma_pct": 19.81,
-  "dist_200dma_pct": 44.76
+  "rsi_14": 66.14,
+  "atr_pct": 4.59,
+  "rel_volume_20d": 0.2,
+  "dist_20dma_pct": 6.36,
+  "dist_50dma_pct": 16.58,
+  "dist_200dma_pct": 41.44
  }
 }

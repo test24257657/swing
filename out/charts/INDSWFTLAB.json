@@ -2,7 +2,7 @@
  "symbol": "INDSWFTLAB",
  "name": "Ind-Swift Laboratories Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 405.05,
    "volume": 807681,
    "delivery_pct": 39.6
+  },
+  {
+   "time": "2026-09-24",
+   "open": 403.0,
+   "high": 419.8,
+   "low": 393.6,
+   "close": 401.25,
+   "volume": 641089,
+   "delivery_pct": 36.36
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 375.48
+   },
+   {
+    "time": "2026-09-24",
+    "value": 377.16
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 307.35
+   },
+   {
+    "time": "2026-09-24",
+    "value": 310.83
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 179.87
+   },
+   {
+    "time": "2026-09-24",
+    "value": 181.4
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.66,
-  "atr_pct": 5.56,
-  "rel_volume_20d": 0.71,
-  "dist_20dma_pct": 7.88,
-  "dist_50dma_pct": 31.79,
-  "dist_200dma_pct": 125.19
+  "rsi_14": 66.73,
+  "atr_pct": 5.67,
+  "rel_volume_20d": 0.55,
+  "dist_20dma_pct": 6.39,
+  "dist_50dma_pct": 29.09,
+  "dist_200dma_pct": 121.19
  }
 }

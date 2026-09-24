@@ -2,7 +2,7 @@
  "symbol": "IKS",
  "name": "Inventurus Knowledge Solutions Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 1937.8,
    "volume": 1011998,
    "delivery_pct": 31.91
+  },
+  {
+   "time": "2026-09-24",
+   "open": 1920.0,
+   "high": 1940.0,
+   "low": 1849.0,
+   "close": 1868.3,
+   "volume": 366105,
+   "delivery_pct": 49.23
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 1774.17
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1780.52
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 1799.85
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1799.69
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 1651.78
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1652.71
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.11,
-  "atr_pct": 3.12,
-  "rel_volume_20d": 5.87,
-  "dist_20dma_pct": 9.22,
-  "dist_50dma_pct": 7.66,
-  "dist_200dma_pct": 17.32
+  "rsi_14": 58.12,
+  "atr_pct": 3.35,
+  "rel_volume_20d": 1.66,
+  "dist_20dma_pct": 4.93,
+  "dist_50dma_pct": 3.81,
+  "dist_200dma_pct": 13.04
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "LOTUSDEV",
  "name": "Sri Lotus Developers and Realty Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 224.46,
    "volume": 1269546,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-24",
+   "open": 220.9,
+   "high": 226.0,
+   "low": 215.85,
+   "close": 219.05,
+   "volume": 450172,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 199.93
+   },
+   {
+    "time": "2026-09-24",
+    "value": 201.63
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 184.14
+   },
+   {
+    "time": "2026-09-24",
+    "value": 185.69
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 153.11
+   },
+   {
+    "time": "2026-09-24",
+    "value": 153.38
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.86,
-  "atr_pct": 4.11,
-  "rel_volume_20d": 0.74,
-  "dist_20dma_pct": 12.27,
-  "dist_50dma_pct": 21.89,
-  "dist_200dma_pct": 46.6
+  "rsi_14": 68.66,
+  "atr_pct": 4.24,
+  "rel_volume_20d": 0.27,
+  "dist_20dma_pct": 8.64,
+  "dist_50dma_pct": 17.97,
+  "dist_200dma_pct": 42.82
  }
 }

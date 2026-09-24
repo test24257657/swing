@@ -2,7 +2,7 @@
  "symbol": "REDINGTON",
  "name": "Redington Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 400.75,
    "volume": 4661529,
    "delivery_pct": 40.76
+  },
+  {
+   "time": "2026-09-24",
+   "open": 396.9,
+   "high": 409.8,
+   "low": 395.6,
+   "close": 406.4,
+   "volume": 4726104,
+   "delivery_pct": 45.08
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 378.93
+   },
+   {
+    "time": "2026-09-24",
+    "value": 381.54
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 342.07
+   },
+   {
+    "time": "2026-09-24",
+    "value": 344.55
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 272.55
+   },
+   {
+    "time": "2026-09-24",
+    "value": 273.18
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.18,
-  "atr_pct": 4.09,
-  "rel_volume_20d": 0.69,
-  "dist_20dma_pct": 5.76,
-  "dist_50dma_pct": 17.16,
-  "dist_200dma_pct": 47.04
+  "rsi_14": 65.01,
+  "atr_pct": 4.0,
+  "rel_volume_20d": 0.7,
+  "dist_20dma_pct": 6.52,
+  "dist_50dma_pct": 17.95,
+  "dist_200dma_pct": 48.76
  }
 }

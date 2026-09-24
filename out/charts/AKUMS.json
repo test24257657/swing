@@ -2,7 +2,7 @@
  "symbol": "AKUMS",
  "name": "Akums Drugs and Pharmaceuticals Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 823.3,
    "volume": 434249,
    "delivery_pct": 51.8
+  },
+  {
+   "time": "2026-09-24",
+   "open": 824.0,
+   "high": 836.8,
+   "low": 813.3,
+   "close": 817.6,
+   "volume": 218858,
+   "delivery_pct": 58.05
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 773.56
+   },
+   {
+    "time": "2026-09-24",
+    "value": 776.14
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 732.75
+   },
+   {
+    "time": "2026-09-24",
+    "value": 735.26
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 562.16
+   },
+   {
+    "time": "2026-09-24",
+    "value": 564.12
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.61,
-  "atr_pct": 3.54,
-  "rel_volume_20d": 1.2,
-  "dist_20dma_pct": 6.43,
-  "dist_50dma_pct": 12.36,
-  "dist_200dma_pct": 46.45
+  "rsi_14": 64.54,
+  "atr_pct": 3.51,
+  "rel_volume_20d": 0.59,
+  "dist_20dma_pct": 5.34,
+  "dist_50dma_pct": 11.2,
+  "dist_200dma_pct": 44.93
  }
 }

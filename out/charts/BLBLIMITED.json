@@ -2,7 +2,7 @@
  "symbol": "BLBLIMITED",
  "name": "BLB Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 17.33,
    "volume": 310344,
    "delivery_pct": 62.43
+  },
+  {
+   "time": "2026-09-24",
+   "open": 17.26,
+   "high": 17.5,
+   "low": 16.84,
+   "close": 17.12,
+   "volume": 159672,
+   "delivery_pct": 77.52
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 16.35
+   },
+   {
+    "time": "2026-09-24",
+    "value": 16.41
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 16.08
+   },
+   {
+    "time": "2026-09-24",
+    "value": 16.11
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 15.86
+   },
+   {
+    "time": "2026-09-24",
+    "value": 15.87
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.5,
-  "atr_pct": 4.88,
-  "rel_volume_20d": 1.59,
-  "dist_20dma_pct": 5.99,
-  "dist_50dma_pct": 7.77,
-  "dist_200dma_pct": 9.28
+  "rsi_14": 63.11,
+  "atr_pct": 4.86,
+  "rel_volume_20d": 0.83,
+  "dist_20dma_pct": 4.31,
+  "dist_50dma_pct": 6.29,
+  "dist_200dma_pct": 7.9
  }
 }

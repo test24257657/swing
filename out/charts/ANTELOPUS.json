@@ -2,7 +2,7 @@
  "symbol": "ANTELOPUS",
  "name": "Antelopus Selan Energy Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 1161.2,
    "volume": 1138872,
    "delivery_pct": 21.5
+  },
+  {
+   "time": "2026-09-24",
+   "open": 1161.2,
+   "high": 1177.0,
+   "low": 1119.1,
+   "close": 1130.95,
+   "volume": 379382,
+   "delivery_pct": 26.04
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 1010.66
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1027.61
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 901.05
+   },
+   {
+    "time": "2026-09-24",
+    "value": 907.12
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 681.0
+   },
+   {
+    "time": "2026-09-24",
+    "value": 684.68
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.33,
-  "atr_pct": 6.8,
-  "rel_volume_20d": 0.29,
-  "dist_20dma_pct": 14.89,
-  "dist_50dma_pct": 28.87,
-  "dist_200dma_pct": 70.51
+  "rsi_14": 61.71,
+  "atr_pct": 6.85,
+  "rel_volume_20d": 0.1,
+  "dist_20dma_pct": 10.06,
+  "dist_50dma_pct": 24.67,
+  "dist_200dma_pct": 65.18
  }
 }

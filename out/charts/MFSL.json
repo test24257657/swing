@@ -2,7 +2,7 @@
  "symbol": "MFSL",
  "name": "Max Financial Services Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 1562.9,
    "volume": 324133,
    "delivery_pct": 69.42
+  },
+  {
+   "time": "2026-09-24",
+   "open": 1406.7,
+   "high": 1429.8,
+   "low": 1360.1,
+   "close": 1410.0,
+   "volume": 11421840,
+   "delivery_pct": 50.37
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 1529.37
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1519.87
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 1533.77
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1529.74
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 1628.85
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1627.44
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.93,
-  "atr_pct": 2.62,
-  "rel_volume_20d": 0.57,
-  "dist_20dma_pct": 2.19,
-  "dist_50dma_pct": 1.9,
-  "dist_200dma_pct": -4.05
+  "rsi_14": 36.29,
+  "atr_pct": 3.73,
+  "rel_volume_20d": 21.35,
+  "dist_20dma_pct": -7.23,
+  "dist_50dma_pct": -7.83,
+  "dist_200dma_pct": -13.36
  }
 }

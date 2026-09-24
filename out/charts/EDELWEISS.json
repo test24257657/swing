@@ -2,7 +2,7 @@
  "symbol": "EDELWEISS",
  "name": "Edelweiss Financial Services Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 142.03,
    "volume": 15211696,
    "delivery_pct": 41.91
+  },
+  {
+   "time": "2026-09-24",
+   "open": 140.6,
+   "high": 142.8,
+   "low": 138.0,
+   "close": 139.01,
+   "volume": 5585348,
+   "delivery_pct": 42.66
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 132.33
+   },
+   {
+    "time": "2026-09-24",
+    "value": 132.9
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 124.87
+   },
+   {
+    "time": "2026-09-24",
+    "value": 125.27
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 115.94
+   },
+   {
+    "time": "2026-09-24",
+    "value": 116.08
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.28,
-  "atr_pct": 4.3,
-  "rel_volume_20d": 1.51,
-  "dist_20dma_pct": 7.33,
-  "dist_50dma_pct": 13.75,
-  "dist_200dma_pct": 22.51
+  "rsi_14": 59.6,
+  "atr_pct": 4.33,
+  "rel_volume_20d": 0.54,
+  "dist_20dma_pct": 4.59,
+  "dist_50dma_pct": 10.97,
+  "dist_200dma_pct": 19.76
  }
 }

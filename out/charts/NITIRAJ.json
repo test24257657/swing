@@ -2,7 +2,7 @@
  "symbol": "NITIRAJ",
  "name": "Nitiraj Engineers Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 228.34,
    "volume": 827,
    "delivery_pct": 45.1
+  },
+  {
+   "time": "2026-09-24",
+   "open": 224.27,
+   "high": 228.38,
+   "low": 216.02,
+   "close": 226.25,
+   "volume": 1530,
+   "delivery_pct": 52.94
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 220.27
+   },
+   {
+    "time": "2026-09-24",
+    "value": 221.61
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 214.79
+   },
+   {
+    "time": "2026-09-24",
+    "value": 215.2
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 200.24
+   },
+   {
+    "time": "2026-09-24",
+    "value": 200.41
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.57,
-  "atr_pct": 5.17,
-  "rel_volume_20d": 0.14,
-  "dist_20dma_pct": 3.67,
-  "dist_50dma_pct": 6.31,
-  "dist_200dma_pct": 14.03
+  "rsi_14": 56.81,
+  "atr_pct": 5.24,
+  "rel_volume_20d": 0.26,
+  "dist_20dma_pct": 2.1,
+  "dist_50dma_pct": 5.14,
+  "dist_200dma_pct": 12.89
  }
 }

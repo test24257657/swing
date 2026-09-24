@@ -2,7 +2,7 @@
  "symbol": "MANINDS",
  "name": "Man Industries (India) Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 986.7,
    "volume": 10691371,
    "delivery_pct": 11.26
+  },
+  {
+   "time": "2026-09-24",
+   "open": 990.75,
+   "high": 990.9,
+   "low": 956.55,
+   "close": 962.85,
+   "volume": 1416561,
+   "delivery_pct": 26.17
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 811.34
+   },
+   {
+    "time": "2026-09-24",
+    "value": 824.33
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 669.78
+   },
+   {
+    "time": "2026-09-24",
+    "value": 677.99
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 509.45
+   },
+   {
+    "time": "2026-09-24",
+    "value": 512.02
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.67,
-  "atr_pct": 5.55,
-  "rel_volume_20d": 7.17,
-  "dist_20dma_pct": 21.61,
-  "dist_50dma_pct": 47.32,
-  "dist_200dma_pct": 93.68
+  "rsi_14": 71.42,
+  "atr_pct": 5.54,
+  "rel_volume_20d": 0.71,
+  "dist_20dma_pct": 16.8,
+  "dist_50dma_pct": 42.01,
+  "dist_200dma_pct": 88.05
  }
 }

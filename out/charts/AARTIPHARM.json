@@ -2,7 +2,7 @@
  "symbol": "AARTIPHARM",
  "name": "Aarti Pharmalabs Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 940.1,
    "volume": 2945650,
    "delivery_pct": 22.13
+  },
+  {
+   "time": "2026-09-24",
+   "open": 934.5,
+   "high": 957.0,
+   "low": 923.35,
+   "close": 934.25,
+   "volume": 800441,
+   "delivery_pct": 39.24
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 846.38
+   },
+   {
+    "time": "2026-09-24",
+    "value": 851.26
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 790.08
+   },
+   {
+    "time": "2026-09-24",
+    "value": 794.4
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 728.1
+   },
+   {
+    "time": "2026-09-24",
+    "value": 729.28
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.23,
-  "atr_pct": 4.43,
-  "rel_volume_20d": 4.62,
-  "dist_20dma_pct": 11.07,
-  "dist_50dma_pct": 18.99,
-  "dist_200dma_pct": 29.12
+  "rsi_14": 68.7,
+  "atr_pct": 4.4,
+  "rel_volume_20d": 1.05,
+  "dist_20dma_pct": 9.75,
+  "dist_50dma_pct": 17.6,
+  "dist_200dma_pct": 28.11
  }
 }

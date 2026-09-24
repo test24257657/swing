@@ -2,7 +2,7 @@
  "symbol": "LGBBROSLTD",
  "name": "LG Balakrishnan & Bros Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 1734.5,
    "volume": 14459,
    "delivery_pct": 53.27
+  },
+  {
+   "time": "2026-09-24",
+   "open": 1720.0,
+   "high": 1764.9,
+   "low": 1710.1,
+   "close": 1745.3,
+   "volume": 25762,
+   "delivery_pct": 70.51
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 1714.23
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1717.05
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 1625.56
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1629.39
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 1706.74
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1705.91
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.03,
-  "atr_pct": 2.21,
-  "rel_volume_20d": 0.46,
-  "dist_20dma_pct": 1.18,
-  "dist_50dma_pct": 6.7,
-  "dist_200dma_pct": 1.63
+  "rsi_14": 69.39,
+  "atr_pct": 2.27,
+  "rel_volume_20d": 0.82,
+  "dist_20dma_pct": 1.65,
+  "dist_50dma_pct": 7.11,
+  "dist_200dma_pct": 2.31
  }
 }

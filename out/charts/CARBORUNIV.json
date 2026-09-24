@@ -2,7 +2,7 @@
  "symbol": "CARBORUNIV",
  "name": "Carborundum Universal Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 1264.5,
    "volume": 597871,
    "delivery_pct": 42.3
+  },
+  {
+   "time": "2026-09-24",
+   "open": 1264.0,
+   "high": 1368.9,
+   "low": 1257.1,
+   "close": 1296.5,
+   "volume": 3529279,
+   "delivery_pct": 12.77
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 1110.92
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1120.46
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 1103.81
+   },
+   {
+    "time": "2026-09-24",
+    "value": 1108.11
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 964.13
+   },
+   {
+    "time": "2026-09-24",
+    "value": 966.18
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.43,
-  "atr_pct": 4.0,
-  "rel_volume_20d": 1.49,
-  "dist_20dma_pct": 13.82,
-  "dist_50dma_pct": 14.56,
-  "dist_200dma_pct": 31.15
+  "rsi_14": 72.89,
+  "atr_pct": 4.23,
+  "rel_volume_20d": 8.41,
+  "dist_20dma_pct": 15.71,
+  "dist_50dma_pct": 17.0,
+  "dist_200dma_pct": 34.19
  }
 }

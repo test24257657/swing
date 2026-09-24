@@ -2,7 +2,7 @@
  "symbol": "DLF",
  "name": "DLF Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 675.0,
    "volume": 2425745,
    "delivery_pct": 51.31
+  },
+  {
+   "time": "2026-09-24",
+   "open": 666.75,
+   "high": 681.0,
+   "low": 666.55,
+   "close": 670.4,
+   "volume": 5074007,
+   "delivery_pct": 55.63
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 663.39
+   },
+   {
+    "time": "2026-09-24",
+    "value": 663.28
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 661.99
+   },
+   {
+    "time": "2026-09-24",
+    "value": 662.25
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 629.86
+   },
+   {
+    "time": "2026-09-24",
+    "value": 629.65
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.35,
-  "atr_pct": 2.49,
-  "rel_volume_20d": 0.69,
-  "dist_20dma_pct": 1.75,
-  "dist_50dma_pct": 1.96,
-  "dist_200dma_pct": 7.17
+  "rsi_14": 54.22,
+  "atr_pct": 2.48,
+  "rel_volume_20d": 1.45,
+  "dist_20dma_pct": 1.07,
+  "dist_50dma_pct": 1.23,
+  "dist_200dma_pct": 6.47
  }
 }

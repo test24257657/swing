@@ -2,7 +2,7 @@
  "symbol": "GANDHITUBE",
  "name": "Gandhi Special Tubes Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 995.05,
    "volume": 27224,
    "delivery_pct": 56.78
+  },
+  {
+   "time": "2026-09-24",
+   "open": 994.75,
+   "high": 994.75,
+   "low": 967.4,
+   "close": 979.1,
+   "volume": 14867,
+   "delivery_pct": 48.89
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 907.49
+   },
+   {
+    "time": "2026-09-24",
+    "value": 911.37
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 894.13
+   },
+   {
+    "time": "2026-09-24",
+    "value": 896.29
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 837.55
+   },
+   {
+    "time": "2026-09-24",
+    "value": 838.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 73.52,
-  "atr_pct": 3.18,
-  "rel_volume_20d": 1.29,
-  "dist_20dma_pct": 9.65,
-  "dist_50dma_pct": 11.29,
-  "dist_200dma_pct": 18.81
+  "rsi_14": 67.64,
+  "atr_pct": 3.2,
+  "rel_volume_20d": 0.68,
+  "dist_20dma_pct": 7.43,
+  "dist_50dma_pct": 9.24,
+  "dist_200dma_pct": 16.75
  }
 }

@@ -1,13 +1,12 @@
 {
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "tiles": [
   {
    "symbol": "NIFTY 50",
-   "value": 23446.8,
-   "change": 117.8,
-   "change_pct": 0.5,
+   "value": 23063.1,
+   "change": -383.7,
+   "change_pct": -1.64,
    "spark": [
-    24435.95,
     24395.85,
     24366.0,
     24287.65,
@@ -36,17 +35,17 @@
     23346.4,
     23414.3,
     23329.0,
-    23446.8
+    23446.8,
+    23063.1
    ],
-   "as_of": "2026-09-23"
+   "as_of": "2026-09-24"
   },
   {
    "symbol": "NIFTY BANK",
-   "value": 56548.9,
-   "change": 333.35,
-   "change_pct": 0.59,
+   "value": 55438.5,
+   "change": -1110.4,
+   "change_pct": -1.96,
    "spark": [
-    57885.85,
     57635.25,
     57491.1,
     57497.8,
@@ -75,17 +74,17 @@
     56358.7,
     56470.65,
     56215.55,
-    56548.9
+    56548.9,
+    55438.5
    ],
-   "as_of": "2026-09-23"
+   "as_of": "2026-09-24"
   },
   {
    "symbol": "NIFTY 500",
-   "value": 22935.1,
-   "change": 140.9,
-   "change_pct": 0.62,
+   "value": 22552.6,
+   "change": -382.5,
+   "change_pct": -1.67,
    "spark": [
-    23672.45,
     23658.1,
     23594.9,
     23564.45,
@@ -114,17 +113,17 @@
     22840.55,
     22860.05,
     22794.2,
-    22935.1
+    22935.1,
+    22552.6
    ],
-   "as_of": "2026-09-23"
+   "as_of": "2026-09-24"
   },
   {
    "symbol": "INDIA VIX",
-   "value": 10.35,
-   "change": -0.65,
-   "change_pct": -5.91,
+   "value": 12.69,
+   "change": 2.34,
+   "change_pct": 22.61,
    "spark": [
-    11.69,
     11.42,
     11.31,
     11.33,
@@ -153,22 +152,23 @@
     11.39,
     11.25,
     11.0,
-    10.35
+    10.35,
+    12.69
    ],
-   "as_of": "2026-09-23"
+   "as_of": "2026-09-24"
   }
  ],
  "breadth": {
-  "date": "2026-09-23",
-  "advances": 1941,
-  "declines": 943,
-  "unchanged": 44,
-  "traded": 2928,
-  "ad_ratio": 2.06,
-  "pct_above_50dma": 41.73,
-  "pct_above_200dma": 48.85,
-  "new_52w_highs": 14,
-  "new_52w_lows": 4
+  "date": "2026-09-24",
+  "advances": 604,
+  "declines": 2289,
+  "unchanged": 34,
+  "traded": 2927,
+  "ad_ratio": 0.26,
+  "pct_above_50dma": 34.91,
+  "pct_above_200dma": 46.34,
+  "new_52w_highs": 11,
+  "new_52w_lows": 5
  },
  "flows": {
   "series": [
@@ -211,162 +211,167 @@
     "date": "2026-09-22",
     "fii_net": -3809.99,
     "dii_net": 4120.07
+   },
+   {
+    "date": "2026-09-23",
+    "fii_net": 1617.45,
+    "dii_net": 2341.46
    }
   ],
-  "fii_10_session_net": -13381.8,
-  "dii_10_session_net": 19854.8
+  "fii_10_session_net": -11764.4,
+  "dii_10_session_net": 22196.3
  },
  "vix": {
-  "value": 10.35,
-  "change": -0.65,
-  "change_pct": -5.91,
-  "percentile_250d": 10.8,
+  "value": 12.69,
+  "change": 2.34,
+  "change_pct": 22.61,
+  "percentile_250d": 54.0,
   "band": "low",
   "verdict": "Calm market",
   "advice": "Prices are moving steadily, without big swings. A normal, comfortable time to hold positions."
  },
  "most_active": [
   {
+   "symbol": "POLICYBZR",
+   "name": "PB Fintech Limited",
+   "ltp": 1207.2,
+   "change_pct": -36.0,
+   "turnover_cr": 3509.7
+  },
+  {
    "symbol": "SSRETAIL",
    "name": "SSRETAIL",
-   "ltp": 748.8,
-   "change_pct": 76.6,
-   "turnover_cr": 3074.6
+   "ltp": 811.8,
+   "change_pct": 8.41,
+   "turnover_cr": 2572.1
   },
   {
    "symbol": "HDFCBANK",
    "name": "HDFC Bank Limited",
-   "ltp": 737.25,
-   "change_pct": -0.18,
-   "turnover_cr": 1715.5
+   "ltp": 728.9,
+   "change_pct": -1.13,
+   "turnover_cr": 2158.9
   },
   {
-   "symbol": "OLAELEC",
-   "name": "Ola Electric Mobility Limited",
-   "ltp": 41.87,
-   "change_pct": 10.83,
-   "turnover_cr": 1618.0
-  },
-  {
-   "symbol": "ELECON",
-   "name": "Elecon Engineering Company Limited",
-   "ltp": 466.6,
-   "change_pct": 10.95,
-   "turnover_cr": 1433.6
-  },
-  {
-   "symbol": "CUPID",
-   "name": "Cupid Limited",
-   "ltp": 273.85,
-   "change_pct": 6.06,
-   "turnover_cr": 1413.3
-  },
-  {
-   "symbol": "HEROMOTORS",
-   "name": "HEROMOTORS",
-   "ltp": 98.4,
-   "change_pct": 17.14,
-   "turnover_cr": 1276.3
-  },
-  {
-   "symbol": "PCJEWELLER",
-   "name": "PC Jeweller Limited",
-   "ltp": 14.47,
-   "change_pct": 6.55,
-   "turnover_cr": 1248.3
-  },
-  {
-   "symbol": "GLASSWALL",
-   "name": "GLASSWALL",
-   "ltp": 286.41,
-   "change_pct": -7.4,
-   "turnover_cr": 1045.1
+   "symbol": "BSE",
+   "name": "BSE Limited",
+   "ltp": 3183.8,
+   "change_pct": -2.66,
+   "turnover_cr": 1835.0
   },
   {
    "symbol": "RELIANCE",
    "name": "Reliance Industries Limited",
-   "ltp": 1248.0,
-   "change_pct": 0.61,
-   "turnover_cr": 1041.8
+   "ltp": 1219.2,
+   "change_pct": -2.31,
+   "turnover_cr": 1711.8
   },
   {
-   "symbol": "MANINDS",
-   "name": "Man Industries (India) Limited",
-   "ltp": 986.7,
-   "change_pct": 16.1,
-   "turnover_cr": 1018.7
+   "symbol": "HEROMOTORS",
+   "name": "HEROMOTORS",
+   "ltp": 118.08,
+   "change_pct": 20.0,
+   "turnover_cr": 1682.8
+  },
+  {
+   "symbol": "OLAELEC",
+   "name": "Ola Electric Mobility Limited",
+   "ltp": 42.52,
+   "change_pct": 1.55,
+   "turnover_cr": 1605.4
+  },
+  {
+   "symbol": "MFSL",
+   "name": "Max Financial Services Limited",
+   "ltp": 1410.0,
+   "change_pct": -9.78,
+   "turnover_cr": 1592.5
+  },
+  {
+   "symbol": "KSCL",
+   "name": "Kaveri Seed Company Limited",
+   "ltp": 783.85,
+   "change_pct": 10.29,
+   "turnover_cr": 1539.9
+  },
+  {
+   "symbol": "MCX",
+   "name": "Multi Commodity Exchange of India Limited",
+   "ltp": 3427.7,
+   "change_pct": 1.59,
+   "turnover_cr": 1417.7
   }
  ],
  "breakouts_52w": [
   {
-   "symbol": "MUKANDLTD",
-   "name": "Mukand Limited",
-   "ltp": 157.11,
-   "change_pct": 11.1,
-   "vol_ratio": 11.8
+   "symbol": "JAGSNPHARM",
+   "name": "Jagsonpal Pharmaceuticals Limited",
+   "ltp": 243.97,
+   "change_pct": 8.13,
+   "vol_ratio": 17.1
   },
   {
-   "symbol": "MANUGRAPH",
-   "name": "Manugraph India Limited",
-   "ltp": 23.52,
-   "change_pct": 16.32,
-   "vol_ratio": 10.4
-  },
-  {
-   "symbol": "PREMIERPOL",
-   "name": "Premier Polyfilm Limited",
-   "ltp": 96.72,
-   "change_pct": 19.38,
-   "vol_ratio": 10.3
-  },
-  {
-   "symbol": "OPTIEMUS",
-   "name": "Optiemus Infracom Limited",
-   "ltp": 828.35,
-   "change_pct": 16.85,
-   "vol_ratio": 9.0
-  },
-  {
-   "symbol": "ONEPOINT",
-   "name": "One Point One Solutions Limited",
-   "ltp": 68.41,
-   "change_pct": 8.24,
-   "vol_ratio": 8.4
-  },
-  {
-   "symbol": "TEXINFRA",
-   "name": "Texmaco Infrastructure & Holdings Limited",
-   "ltp": 123.47,
-   "change_pct": 7.35,
-   "vol_ratio": 7.5
+   "symbol": "UNIDT",
+   "name": "United Drilling Tools Limited",
+   "ltp": 259.76,
+   "change_pct": 10.42,
+   "vol_ratio": 9.5
   },
   {
    "symbol": "GNA",
    "name": "GNA Axles Limited",
-   "ltp": 596.65,
-   "change_pct": 6.23,
-   "vol_ratio": 7.4
+   "ltp": 620.45,
+   "change_pct": 3.99,
+   "vol_ratio": 8.6
   },
   {
-   "symbol": "ADROITINFO",
-   "name": "Adroit Infotech Limited",
-   "ltp": 13.53,
-   "change_pct": 11.18,
-   "vol_ratio": 6.6
+   "symbol": "ABDL",
+   "name": "Allied Blenders and Distillers Limited",
+   "ltp": 712.15,
+   "change_pct": 8.49,
+   "vol_ratio": 8.2
   },
   {
-   "symbol": "RPGLIFE",
-   "name": "RPG Life Sciences Limited",
-   "ltp": 3025.4,
-   "change_pct": 10.14,
-   "vol_ratio": 5.8
+   "symbol": "PREMIERPOL",
+   "name": "Premier Polyfilm Limited",
+   "ltp": 100.51,
+   "change_pct": 3.92,
+   "vol_ratio": 7.0
   },
   {
-   "symbol": "SGIL",
-   "name": "Synergy Green Industries Limited",
-   "ltp": 668.5,
-   "change_pct": 4.98,
-   "vol_ratio": 5.8
+   "symbol": "CARBORUNIV",
+   "name": "Carborundum Universal Limited",
+   "ltp": 1296.5,
+   "change_pct": 2.53,
+   "vol_ratio": 6.0
+  },
+  {
+   "symbol": "MAXESTATES",
+   "name": "Max Estates Limited",
+   "ltp": 616.8,
+   "change_pct": 2.25,
+   "vol_ratio": 5.5
+  },
+  {
+   "symbol": "SEDEMAC",
+   "name": "SEDEMAC Mechatronics Limited",
+   "ltp": 3313.6,
+   "change_pct": 9.17,
+   "vol_ratio": 5.2
+  },
+  {
+   "symbol": "IMPEXFERRO",
+   "name": "Impex Ferro Tech Limited",
+   "ltp": 6.02,
+   "change_pct": 1.86,
+   "vol_ratio": 4.9
+  },
+  {
+   "symbol": "SOUTHBANK",
+   "name": "The South Indian Bank Limited",
+   "ltp": 49.9,
+   "change_pct": 5.99,
+   "vol_ratio": 4.8
   }
  ]
 }

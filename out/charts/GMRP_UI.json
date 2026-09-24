@@ -2,7 +2,7 @@
  "symbol": "GMRP&UI",
  "name": "GMR Power and Urban Infra Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 98.13,
    "volume": 3658751,
    "delivery_pct": 49.29
+  },
+  {
+   "time": "2026-09-24",
+   "open": 97.0,
+   "high": 103.0,
+   "low": 96.34,
+   "close": 101.41,
+   "volume": 3555672,
+   "delivery_pct": 51.34
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 93.48
+   },
+   {
+    "time": "2026-09-24",
+    "value": 93.8
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 95.92
+   },
+   {
+    "time": "2026-09-24",
+    "value": 95.96
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 104.08
+   },
+   {
+    "time": "2026-09-24",
+    "value": 104.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.24,
-  "atr_pct": 3.76,
-  "rel_volume_20d": 2.07,
-  "dist_20dma_pct": 4.97,
-  "dist_50dma_pct": 2.3,
-  "dist_200dma_pct": -5.71
+  "rsi_14": 63.85,
+  "atr_pct": 3.84,
+  "rel_volume_20d": 1.85,
+  "dist_20dma_pct": 8.11,
+  "dist_50dma_pct": 5.68,
+  "dist_200dma_pct": -2.49
  }
 }

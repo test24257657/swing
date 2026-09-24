@@ -2,7 +2,7 @@
  "symbol": "MARKSANS",
  "name": "Marksans Pharma Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 347.6,
    "volume": 3317178,
    "delivery_pct": 43.44
+  },
+  {
+   "time": "2026-09-24",
+   "open": 345.8,
+   "high": 350.95,
+   "low": 336.15,
+   "close": 337.4,
+   "volume": 2858544,
+   "delivery_pct": 36.49
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 328.55
+   },
+   {
+    "time": "2026-09-24",
+    "value": 328.87
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 301.2
+   },
+   {
+    "time": "2026-09-24",
+    "value": 302.44
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 223.71
+   },
+   {
+    "time": "2026-09-24",
+    "value": 224.44
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.28,
-  "atr_pct": 4.05,
-  "rel_volume_20d": 1.46,
-  "dist_20dma_pct": 5.8,
-  "dist_50dma_pct": 15.4,
-  "dist_200dma_pct": 55.38
+  "rsi_14": 58.38,
+  "atr_pct": 4.18,
+  "rel_volume_20d": 1.22,
+  "dist_20dma_pct": 2.59,
+  "dist_50dma_pct": 11.56,
+  "dist_200dma_pct": 50.33
  }
 }

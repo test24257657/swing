@@ -2,7 +2,7 @@
  "symbol": "RBLBANK",
  "name": "RBL Bank Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 428.0,
    "volume": 3651779,
    "delivery_pct": 34.04
+  },
+  {
+   "time": "2026-09-24",
+   "open": 416.5,
+   "high": 423.2,
+   "low": 409.1,
+   "close": 412.75,
+   "volume": 7315903,
+   "delivery_pct": 36.19
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 403.83
+   },
+   {
+    "time": "2026-09-24",
+    "value": 405.35
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 388.17
+   },
+   {
+    "time": "2026-09-24",
+    "value": 388.97
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 339.77
+   },
+   {
+    "time": "2026-09-24",
+    "value": 340.32
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.24,
-  "atr_pct": 2.44,
-  "rel_volume_20d": 0.95,
-  "dist_20dma_pct": 5.98,
-  "dist_50dma_pct": 10.26,
-  "dist_200dma_pct": 25.97
+  "rsi_14": 55.63,
+  "atr_pct": 2.68,
+  "rel_volume_20d": 1.85,
+  "dist_20dma_pct": 1.83,
+  "dist_50dma_pct": 6.11,
+  "dist_200dma_pct": 21.28
  }
 }

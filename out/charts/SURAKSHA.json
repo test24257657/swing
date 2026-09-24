@@ -2,7 +2,7 @@
  "symbol": "SURAKSHA",
  "name": "Suraksha Diagnostic Limited",
  "kind": "stock",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-24",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 355.35,
    "volume": 72845,
    "delivery_pct": 50.69
+  },
+  {
+   "time": "2026-09-24",
+   "open": 350.0,
+   "high": 357.95,
+   "low": 348.0,
+   "close": 356.0,
+   "volume": 61147,
+   "delivery_pct": 53.05
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-23",
     "value": 337.21
+   },
+   {
+    "time": "2026-09-24",
+    "value": 338.07
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-23",
     "value": 298.57
+   },
+   {
+    "time": "2026-09-24",
+    "value": 300.46
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-23",
     "value": 280.57
+   },
+   {
+    "time": "2026-09-24",
+    "value": 280.94
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.46,
-  "atr_pct": 4.06,
-  "rel_volume_20d": 0.62,
-  "dist_20dma_pct": 5.38,
-  "dist_50dma_pct": 19.02,
-  "dist_200dma_pct": 26.65
+  "rsi_14": 71.73,
+  "atr_pct": 3.97,
+  "rel_volume_20d": 0.52,
+  "dist_20dma_pct": 5.3,
+  "dist_50dma_pct": 18.48,
+  "dist_200dma_pct": 26.72
  }
 }
