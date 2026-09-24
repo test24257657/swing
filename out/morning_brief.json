@@ -1,165 +1,164 @@
 {
- "generated_at": "2026-09-23T08:16:03+05:30",
- "for_session": "2026-09-23",
+ "generated_at": "2026-09-24T08:15:57+05:30",
+ "for_session": "2026-09-24",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7764.64,
-   "change_pct": -0.0,
-   "as_of": "2026-09-22"
+   "value": 7706.03,
+   "change_pct": -0.76,
+   "as_of": "2026-09-23"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 27244.28,
-   "change_pct": 0.45,
-   "as_of": "2026-09-22"
+   "value": 26936.04,
+   "change_pct": -0.69,
+   "as_of": "2026-09-23"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51863.69,
-   "change_pct": -0.36,
-   "as_of": "2026-09-22"
+   "value": 51511.59,
+   "change_pct": -1.03,
+   "as_of": "2026-09-23"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 65018.95,
-   "change_pct": 1.38,
-   "as_of": "2026-09-18"
+   "value": 65883.41,
+   "change_pct": 1.33,
+   "as_of": "2026-09-24"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24903.02,
-   "change_pct": -0.56,
-   "as_of": "2026-09-23"
-  },
-  {
-   "label": "Kospi",
-   "group": "Asia",
-   "value": 7026.25,
-   "change_pct": 0.26,
-   "as_of": "2026-09-23"
+   "value": 24745.72,
+   "change_pct": -0.36,
+   "as_of": "2026-09-24"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 98.89,
-   "change_pct": -1.45,
-   "as_of": "2026-09-22"
+   "value": 97.49,
+   "change_pct": -1.77,
+   "as_of": "2026-09-23"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4375.4,
-   "change_pct": -0.19,
-   "as_of": "2026-09-22"
+   "value": 4326.3,
+   "change_pct": -1.14,
+   "as_of": "2026-09-23"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 95.58,
-   "change_pct": -0.14,
-   "as_of": "2026-09-23"
+   "value": 95.73,
+   "change_pct": 0.04,
+   "as_of": "2026-09-24"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 4.97,
-   "change_pct": 0.1,
-   "as_of": "2026-09-22"
+   "value": 5.11,
+   "change_pct": 3.04,
+   "as_of": "2026-09-23"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 100.65,
-   "change_pct": 0.22,
-   "as_of": "2026-09-22"
+   "value": 101.11,
+   "change_pct": 0.68,
+   "as_of": "2026-09-23"
   }
  ],
  "global_tone": {
   "tone": "mixed",
-  "avg_change_pct": 0.31,
+  "avg_change_pct": -0.12,
   "crude_alert": false
  },
  "nifty": {
-  "session": "2026-09-22",
-  "close": 23329.0,
-  "high": 23489.0,
-  "low": 23285.75,
-  "pivot": 23367.92,
-  "r1": 23450.08,
-  "s1": 23246.83,
-  "r2": 23571.17,
-  "s2": 23164.67,
-  "sma_20": 23702.44,
-  "sma_50": 24045.51,
-  "sma_200": 24459.13
+  "session": "2026-09-23",
+  "close": 23446.8,
+  "high": 23466.9,
+  "low": 23349.55,
+  "pivot": 23421.08,
+  "r1": 23492.62,
+  "s1": 23375.27,
+  "r2": 23538.43,
+  "s2": 23303.73,
+  "sma_20": 23658.05,
+  "sma_50": 24033.41,
+  "sma_200": 24446.21
  },
  "focus": [
   {
-   "symbol": "MOREPENLAB",
-   "name": "Morepen Laboratories Limited",
+   "symbol": "BHAGYANGR",
+   "name": "Bhagyanagar India Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
   {
-   "symbol": "WELCORP",
-   "name": "Welspun Corp Limited",
+   "symbol": "CYIENTDLM",
+   "name": "Cyient DLM Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
   {
-   "symbol": "COMSYN",
-   "name": "Commercial Syn Bags Limited",
+   "symbol": "CORDSCABLE",
+   "name": "Cords Cable Industries Limited",
    "why": "Ready setup near its pivot",
    "rs": 97
   },
   {
-   "symbol": "VALIANTLAB",
-   "name": "Valiant Laboratories Limited",
+   "symbol": "SAKAR",
+   "name": "Sakar Healthcare Limited",
    "why": "Ready setup near its pivot",
    "rs": 97
   },
   {
-   "symbol": "DEEDEV",
-   "name": "DEE Development Engineers Limited",
+   "symbol": "MARINE",
+   "name": "Marine Electricals (India) Limited",
    "why": "Ready setup near its pivot",
    "rs": 97
   },
   {
-   "symbol": "DICIND",
-   "name": "DIC India Limited",
+   "symbol": "TORNTPHARM",
+   "name": "Torrent Pharmaceuticals Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "AVL",
-   "name": "Aditya Vision Limited",
+   "symbol": "STEELCAS",
+   "name": "Steelcast Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "RGL",
-   "name": "Renaissance Global Limited",
+   "symbol": "KTKBANK",
+   "name": "The Karnataka Bank Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "INDSWFTLAB",
-   "name": "Ind-Swift Laboratories Limited",
+   "symbol": "SONACOMS",
+   "name": "Sona BLW Precision Forgings Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "SURAKSHA",
-   "name": "Suraksha Diagnostic Limited",
+   "symbol": "SHYAMMETL",
+   "name": "Shyam Metalics and Energy Limited",
    "why": "AI top 5",
    "rs": null
+  },
+  {
+   "symbol": "DIACABS",
+   "name": "Diamond Power Infrastructure Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 98
   },
   {
    "symbol": "TFCILTD",
@@ -168,72 +167,38 @@
    "rs": 97
   },
   {
-   "symbol": "VINDHYATEL",
-   "name": "Vindhya Telelinks Limited",
+   "symbol": "CONFIPET",
+   "name": "Confidence Petroleum India Limited",
    "why": "Pocket pivot yesterday",
    "rs": 96
   },
   {
-   "symbol": "BLSE",
-   "name": "BLS E-Services Limited",
+   "symbol": "RUBICON",
+   "name": "Rubicon Research Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 95
+   "rs": 96
   },
   {
-   "symbol": "SSWL",
-   "name": "Steel Strips Wheels Limited",
+   "symbol": "CUPID",
+   "name": "Cupid Limited",
    "why": "Pocket pivot yesterday",
    "rs": 95
-  },
-  {
-   "symbol": "SWANDEF",
-   "name": "Swan Defence and Heavy Industries Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 91
   }
  ],
  "overnight_news": [
   {
-   "symbol": "CIPLA",
-   "time": "22 Sep 22:57",
-   "category": "Change in Management",
-   "text": "Cipla Limited has informed the Exchange about change in Senior Management Personnel.",
-   "url": "https://nsearchives.nseindia.com/corporate/CIPLA_22092026225713_Cipla_SE_SMP_Change_20260921_signed.pdf"
+   "symbol": "POWERGRID",
+   "time": "23 Sep 19:14",
+   "category": "Acquisition",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange about Acquisition of Barmer HVDC Power Transmission Limited by POWERGRID under TBCB route.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_23092026191217_BSENSEReg30Acqdt23092026_v2signed.pdf"
   },
   {
-   "symbol": "AXISBANK",
-   "time": "22 Sep 22:27",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 79227  Shares.",
-   "url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_22092026222656_SE22092026.pdf"
-  },
-  {
-   "symbol": "SBILIFE",
-   "time": "22 Sep 20:43",
-   "category": "Outcome of Board Meeting",
-   "text": "SBI Life Insurance Company Limited has informed the Exchange regarding Outcome of Board Meeting held on September 22, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/SBILIFE_22092026204216_Outcome_BM_22092026_Signed.pdf"
-  },
-  {
-   "symbol": "ADANIENT",
-   "time": "22 Sep 19:43",
+   "symbol": "SHRIRAMFIN",
+   "time": "23 Sep 17:31",
    "category": "Action(s) taken or orders passed",
-   "text": "Adani Enterprises Limited has informed the Exchange about Action(s) taken or orders passed",
-   "url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_22092026194323_AELintimationSO.pdf"
-  },
-  {
-   "symbol": "TCS",
-   "time": "22 Sep 18:27",
-   "category": "Record Date",
-   "text": "Tata Consultancy Services Limited has informed the Exchange that Record date for the purpose of Dividend  is 14-Oct-2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_22092026182548_Pre_Board_meeting_intimation_signed.pdf"
-  },
-  {
-   "symbol": "ULTRACEMCO",
-   "time": "22 Sep 17:31",
-   "category": "Rumour Verification - Regulation 30(11)",
-   "text": "UltraTech Cement Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
-   "url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_22092026173104_MPM22092026.pdf"
+   "text": "Shriram Finance Limited has informed the Exchange about Action(s) taken or orders passed",
+   "url": "https://nsearchives.nseindia.com/corporate/Mathew_23092026173142_NSEBSEReg30PenaltySept2326.pdf"
   }
  ],
  "events": [
@@ -245,12 +210,12 @@
  ],
  "community": null,
  "ai": {
-  "headline": "Mixed global cues suggest cautious open with NIFTY market light red",
+  "headline": "Mixed global cues and red market light suggest a cautious opening today",
   "points": [
-   "Global signals are mixed as Nasdaq gained 0.45% to 27244.28, Dow fell 0.36% to 51863.69, and Nikkei rose 1.38% to 65018.95.",
-   "NIFTY closed at 23329.0 below its 20-day average of 23702.44; watch support S1 at 23246.83 and resistance R1 at 23450.08.",
-   "Brent crude dropped 1.45% to 98.89, while USD/INR moved down 0.14% to 95.58 and US 10Y yield rose to 4.97.",
-   "With 2 companies reporting results today, watch AXISBANK after allotting 79227 shares alongside news from CIPLA and TCS."
+   "Global cues are mixed averaging -0.12%, with Nikkei gaining +1.33% while US Dow fell -1.03%.",
+   "NIFTY 50 closed at 23446.8, remaining below its 20-day average of 23658.05 while market light remains red.",
+   "Watch key technical levels for NIFTY today, including pivot level 23421.08, support S1 23375.27, and resistance R1 23492.62.",
+   "Macro signals show Brent crude at 97.49 and USD/INR at 95.73, as 2 companies report earnings today."
   ]
  }
 }
