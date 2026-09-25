@@ -2,7 +2,7 @@
  "symbol": "MVGJL",
  "name": "Manoj Vaibhav Gems N Jewellers Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 214.8,
    "volume": 228762,
    "delivery_pct": 52.47
+  },
+  {
+   "time": "2026-09-25",
+   "open": 214.7,
+   "high": 228.85,
+   "low": 212.35,
+   "close": 224.38,
+   "volume": 903282,
+   "delivery_pct": 36.5
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 194.0
+   },
+   {
+    "time": "2026-09-25",
+    "value": 197.53
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 173.64
+   },
+   {
+    "time": "2026-09-25",
+    "value": 174.9
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 166.86
+   },
+   {
+    "time": "2026-09-25",
+    "value": 167.04
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.61,
-  "atr_pct": 6.06,
-  "rel_volume_20d": 0.29,
-  "dist_20dma_pct": 10.72,
-  "dist_50dma_pct": 23.71,
-  "dist_200dma_pct": 28.73
+  "rsi_14": 69.58,
+  "atr_pct": 5.91,
+  "rel_volume_20d": 1.15,
+  "dist_20dma_pct": 13.59,
+  "dist_50dma_pct": 28.29,
+  "dist_200dma_pct": 34.33
  }
 }

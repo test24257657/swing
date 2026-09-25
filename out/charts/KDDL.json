@@ -2,7 +2,7 @@
  "symbol": "KDDL",
  "name": "KDDL Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 4119.8,
    "volume": 67371,
    "delivery_pct": 44.97
+  },
+  {
+   "time": "2026-09-25",
+   "open": 4200.0,
+   "high": 4200.0,
+   "low": 4018.0,
+   "close": 4033.4,
+   "volume": 46381,
+   "delivery_pct": 48.11
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 3928.82
+   },
+   {
+    "time": "2026-09-25",
+    "value": 3933.13
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 3722.87
+   },
+   {
+    "time": "2026-09-25",
+    "value": 3738.4
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 2810.17
+   },
+   {
+    "time": "2026-09-25",
+    "value": 2818.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.89,
-  "atr_pct": 3.7,
-  "rel_volume_20d": 1.98,
-  "dist_20dma_pct": 4.86,
-  "dist_50dma_pct": 10.66,
-  "dist_200dma_pct": 46.6
+  "rsi_14": 56.75,
+  "atr_pct": 3.83,
+  "rel_volume_20d": 1.3,
+  "dist_20dma_pct": 2.55,
+  "dist_50dma_pct": 7.89,
+  "dist_200dma_pct": 43.11
  }
 }

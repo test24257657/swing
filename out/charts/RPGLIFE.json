@@ -2,7 +2,7 @@
  "symbol": "RPGLIFE",
  "name": "RPG Life Sciences Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 2899.9,
    "volume": 62443,
    "delivery_pct": 41.97
+  },
+  {
+   "time": "2026-09-25",
+   "open": 2878.0,
+   "high": 3127.8,
+   "low": 2863.5,
+   "close": 3050.6,
+   "volume": 111001,
+   "delivery_pct": 49.41
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 2727.51
+   },
+   {
+    "time": "2026-09-25",
+    "value": 2751.65
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 2753.31
+   },
+   {
+    "time": "2026-09-25",
+    "value": 2755.89
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 2310.01
+   },
+   {
+    "time": "2026-09-25",
+    "value": 2314.21
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.92,
-  "atr_pct": 4.77,
-  "rel_volume_20d": 2.52,
-  "dist_20dma_pct": 6.32,
-  "dist_50dma_pct": 5.32,
-  "dist_200dma_pct": 25.54
+  "rsi_14": 65.11,
+  "atr_pct": 4.83,
+  "rel_volume_20d": 4.01,
+  "dist_20dma_pct": 10.86,
+  "dist_50dma_pct": 10.69,
+  "dist_200dma_pct": 31.82
  }
 }

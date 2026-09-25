@@ -2,7 +2,7 @@
  "symbol": "PASUPTAC",
  "name": "Pasupati Acrylon Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 76.25,
    "volume": 435657,
    "delivery_pct": 44.84
+  },
+  {
+   "time": "2026-09-25",
+   "open": 76.25,
+   "high": 78.79,
+   "low": 74.1,
+   "close": 75.87,
+   "volume": 278575,
+   "delivery_pct": 53.28
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 68.37
+   },
+   {
+    "time": "2026-09-25",
+    "value": 69.05
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 63.5
+   },
+   {
+    "time": "2026-09-25",
+    "value": 63.83
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 55.9
+   },
+   {
+    "time": "2026-09-25",
+    "value": 56.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.25,
-  "atr_pct": 4.71,
-  "rel_volume_20d": 2.08,
-  "dist_20dma_pct": 11.53,
-  "dist_50dma_pct": 20.08,
-  "dist_200dma_pct": 36.4
+  "rsi_14": 67.1,
+  "atr_pct": 4.84,
+  "rel_volume_20d": 1.22,
+  "dist_20dma_pct": 9.87,
+  "dist_50dma_pct": 18.87,
+  "dist_200dma_pct": 35.49
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "CENTUM",
  "name": "Centum Electronics Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 4837.6,
    "volume": 91384,
    "delivery_pct": 27.88
+  },
+  {
+   "time": "2026-09-25",
+   "open": 4874.9,
+   "high": 4909.9,
+   "low": 4753.5,
+   "close": 4802.3,
+   "volume": 73380,
+   "delivery_pct": 49.65
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 4117.56
+   },
+   {
+    "time": "2026-09-25",
+    "value": 4187.58
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 3802.89
+   },
+   {
+    "time": "2026-09-25",
+    "value": 3824.46
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 3061.73
+   },
+   {
+    "time": "2026-09-25",
+    "value": 3074.16
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.99,
-  "atr_pct": 4.52,
-  "rel_volume_20d": 0.77,
-  "dist_20dma_pct": 17.49,
-  "dist_50dma_pct": 27.21,
-  "dist_200dma_pct": 58.0
+  "rsi_14": 73.17,
+  "atr_pct": 4.46,
+  "rel_volume_20d": 0.6,
+  "dist_20dma_pct": 14.68,
+  "dist_50dma_pct": 25.57,
+  "dist_200dma_pct": 56.22
  }
 }

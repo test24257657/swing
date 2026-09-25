@@ -2,7 +2,7 @@
  "symbol": "LTGILTBEES",
  "name": "LTGILTBEES",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 29.62,
    "volume": 1537754,
    "delivery_pct": 52.82
+  },
+  {
+   "time": "2026-09-25",
+   "open": 29.68,
+   "high": 29.68,
+   "low": 29.55,
+   "close": 29.65,
+   "volume": 1128149,
+   "delivery_pct": 85.06
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 29.8
+   },
+   {
+    "time": "2026-09-25",
+    "value": 29.79
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 29.91
+   },
+   {
+    "time": "2026-09-25",
+    "value": 29.91
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 29.44
+   },
+   {
+    "time": "2026-09-25",
+    "value": 29.44
    }
   ]
  },
  "technicals": {
-  "rsi_14": 35.11,
-  "atr_pct": 0.9,
-  "rel_volume_20d": 0.86,
-  "dist_20dma_pct": -0.62,
-  "dist_50dma_pct": -0.98,
-  "dist_200dma_pct": 0.61
+  "rsi_14": 37.87,
+  "atr_pct": 0.87,
+  "rel_volume_20d": 0.62,
+  "dist_20dma_pct": -0.47,
+  "dist_50dma_pct": -0.86,
+  "dist_200dma_pct": 0.7
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "HEALTHADD",
  "name": "HEALTHADD",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2217,6 +2217,15 @@
    "close": 16.96,
    "volume": 60251,
    "delivery_pct": 56.05
+  },
+  {
+   "time": "2026-09-25",
+   "open": 16.96,
+   "high": 18.2,
+   "low": 16.7,
+   "close": 16.99,
+   "volume": 18113,
+   "delivery_pct": 81.82
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-09-24",
     "value": 16.75
+   },
+   {
+    "time": "2026-09-25",
+    "value": 16.75
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-09-24",
     "value": 16.7
+   },
+   {
+    "time": "2026-09-25",
+    "value": 16.71
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-09-24",
     "value": 110.38
+   },
+   {
+    "time": "2026-09-25",
+    "value": 109.72
    }
   ]
  },
  "technicals": {
-  "rsi_14": 26.63,
-  "atr_pct": 2.87,
-  "rel_volume_20d": 1.3,
-  "dist_20dma_pct": 1.27,
-  "dist_50dma_pct": 1.53,
-  "dist_200dma_pct": -84.63
+  "rsi_14": 27.28,
+  "atr_pct": 3.3,
+  "rel_volume_20d": 0.37,
+  "dist_20dma_pct": 1.41,
+  "dist_50dma_pct": 1.66,
+  "dist_200dma_pct": -84.51
  }
 }

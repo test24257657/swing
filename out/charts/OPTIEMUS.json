@@ -2,7 +2,7 @@
  "symbol": "OPTIEMUS",
  "name": "Optiemus Infracom Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 781.5,
    "volume": 1597081,
    "delivery_pct": 25.93
+  },
+  {
+   "time": "2026-09-25",
+   "open": 775.5,
+   "high": 787.3,
+   "low": 746.1,
+   "close": 758.55,
+   "volume": 487355,
+   "delivery_pct": 27.24
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 605.41
+   },
+   {
+    "time": "2026-09-25",
+    "value": 614.51
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 594.73
+   },
+   {
+    "time": "2026-09-25",
+    "value": 598.24
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 474.52
+   },
+   {
+    "time": "2026-09-25",
+    "value": 475.58
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.41,
-  "atr_pct": 5.43,
-  "rel_volume_20d": 1.35,
-  "dist_20dma_pct": 29.09,
-  "dist_50dma_pct": 31.4,
-  "dist_200dma_pct": 64.69
+  "rsi_14": 68.18,
+  "atr_pct": 5.58,
+  "rel_volume_20d": 0.39,
+  "dist_20dma_pct": 23.44,
+  "dist_50dma_pct": 26.8,
+  "dist_200dma_pct": 59.5
  }
 }

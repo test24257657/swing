@@ -1,561 +1,561 @@
 {
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "market": {
   "light": "red",
   "label": "Stay defensive",
   "advice": "Avoid new buys. Protect open trades with tight stops.",
   "reasons": [
-   "NIFTY 50 is below its 50-day average (-4.0%)",
-   "below its 200-day average (-5.6%)",
+   "NIFTY 50 is below its 50-day average (-3.6%)",
+   "below its 200-day average (-5.2%)",
    "9 distribution days in the last 25 sessions \u2014 big players are selling",
-   "35% of stocks are above their 50-day average"
+   "37% of stocks are above their 50-day average"
   ],
-  "nifty_close": 23063.1,
+  "nifty_close": 23140.5,
   "distribution_days": 9,
-  "pct_above_50dma": 34.9
+  "pct_above_50dma": 37.5
  },
  "ready": [
   {
-   "symbol": "BODALCHEM",
-   "name": "Bodal Chemicals Limited",
-   "ltp": 195.08,
-   "change_pct": -2.23,
+   "symbol": "INDSWFTLAB",
+   "name": "Ind-Swift Laboratories Limited",
+   "ltp": 404.35,
+   "change_pct": 0.77,
    "rs": 99,
-   "rel_volume": 0.42,
+   "rel_volume": 0.53,
    "pattern": "high_52w_breakout",
-   "pivot": 197.71,
-   "gap_to_pivot_pct": -1.33,
-   "stop": 145.8,
+   "pivot": 405.55,
+   "gap_to_pivot_pct": -0.3,
+   "stop": 320.2,
    "dry_up": false
+  },
+  {
+   "symbol": "TBZ",
+   "name": "Tribhovandas Bhimji Zaveri Limited",
+   "ltp": 655.6,
+   "change_pct": -2.85,
+   "rs": 99,
+   "rel_volume": 0.08,
+   "pattern": "high_52w_breakout",
+   "pivot": 665.35,
+   "gap_to_pivot_pct": -1.47,
+   "stop": 456.0,
+   "dry_up": true
+  },
+  {
+   "symbol": "MOREPENLAB",
+   "name": "Morepen Laboratories Limited",
+   "ltp": 120.38,
+   "change_pct": 3.24,
+   "rs": 99,
+   "rel_volume": 0.41,
+   "pattern": "high_52w_breakout",
+   "pivot": 122.35,
+   "gap_to_pivot_pct": -1.61,
+   "stop": 97.04,
+   "dry_up": true
   },
   {
    "symbol": "SBCL",
    "name": "Shivalik Bimetal Controls Limited",
-   "ltp": 1143.2,
-   "change_pct": -1.11,
+   "ltp": 1154.5,
+   "change_pct": 0.99,
    "rs": 98,
-   "rel_volume": 0.52,
+   "rel_volume": 0.39,
    "pattern": "high_52w_breakout",
    "pivot": 1155.9,
-   "gap_to_pivot_pct": -1.1,
+   "gap_to_pivot_pct": -0.12,
    "stop": 957.1,
    "dry_up": true
   },
   {
-   "symbol": "SUBEXLTD",
-   "name": "Subex Limited",
-   "ltp": 20.71,
-   "change_pct": -6.2,
+   "symbol": "RATNAVEER",
+   "name": "Ratnaveer Precision Engineering Limited",
+   "ltp": 333.95,
+   "change_pct": 3.09,
    "rs": 97,
-   "rel_volume": 1.42,
+   "rel_volume": 0.86,
    "pattern": "high_52w_breakout",
-   "pivot": 20.8,
-   "gap_to_pivot_pct": -0.43,
-   "stop": 16.6,
+   "pivot": 334.55,
+   "gap_to_pivot_pct": -0.18,
+   "stop": 275.2,
    "dry_up": false
   },
   {
-   "symbol": "BHAGERIA",
-   "name": "Bhageria Industries Limited",
-   "ltp": 359.65,
-   "change_pct": 2.25,
-   "rs": 97,
-   "rel_volume": 1.15,
-   "pattern": "high_52w_breakout",
-   "pivot": 361.4,
-   "gap_to_pivot_pct": -0.48,
-   "stop": 277.0,
-   "dry_up": false
-  },
-  {
-   "symbol": "CORDSCABLE",
-   "name": "Cords Cable Industries Limited",
-   "ltp": 366.75,
-   "change_pct": -0.78,
-   "rs": 97,
-   "rel_volume": 0.2,
-   "pattern": "high_52w_breakout",
-   "pivot": 373.4,
-   "gap_to_pivot_pct": -1.78,
-   "stop": 287.2,
-   "dry_up": false
-  },
-  {
-   "symbol": "TFCILTD",
-   "name": "Tourism Finance Corporation of India Limited",
-   "ltp": 143.46,
-   "change_pct": 1.35,
-   "rs": 97,
-   "rel_volume": 1.98,
-   "pattern": "near_pivot",
-   "pivot": 147.65,
-   "gap_to_pivot_pct": -2.84,
-   "stop": 136.74,
-   "dry_up": false
-  },
-  {
-   "symbol": "KAPSTON",
-   "name": "Kapston Services Limited",
-   "ltp": 578.1,
-   "change_pct": -1.33,
+   "symbol": "IRISDOREME",
+   "name": "Iris Clothings Limited",
+   "ltp": 66.15,
+   "change_pct": 0.46,
    "rs": 96,
-   "rel_volume": 0.48,
+   "rel_volume": 0.62,
    "pattern": "high_52w_breakout",
-   "pivot": 588.4,
-   "gap_to_pivot_pct": -1.75,
-   "stop": 540.85,
-   "dry_up": false
-  },
-  {
-   "symbol": "UNIMECH",
-   "name": "Unimech Aerospace and Manufacturing Limited",
-   "ltp": 1692.3,
-   "change_pct": -1.39,
-   "rs": 95,
-   "rel_volume": 0.57,
-   "pattern": "high_52w_breakout",
-   "pivot": 1698.4,
-   "gap_to_pivot_pct": -0.36,
-   "stop": 1430.1,
-   "dry_up": false
-  },
-  {
-   "symbol": "BLSE",
-   "name": "BLS E-Services Limited",
-   "ltp": 326.7,
-   "change_pct": 1.32,
-   "rs": 95,
-   "rel_volume": 0.96,
-   "pattern": "high_52w_breakout",
-   "pivot": 327.9,
-   "gap_to_pivot_pct": -0.37,
-   "stop": 300.0,
-   "dry_up": false
-  },
-  {
-   "symbol": "ARROWGREEN",
-   "name": "Arrow Greentech Limited",
-   "ltp": 895.95,
-   "change_pct": -0.45,
-   "rs": 95,
-   "rel_volume": 0.52,
-   "pattern": "high_52w_breakout",
-   "pivot": 907.45,
-   "gap_to_pivot_pct": -1.27,
-   "stop": 771.0,
+   "pivot": 66.24,
+   "gap_to_pivot_pct": -0.14,
+   "stop": 55.62,
    "dry_up": false
   },
   {
    "symbol": "SYRMA",
    "name": "Syrma SGS Technology Limited",
-   "ltp": 1698.6,
-   "change_pct": -1.21,
-   "rs": 95,
-   "rel_volume": 0.31,
+   "ltp": 1732.6,
+   "change_pct": 2.0,
+   "rs": 96,
+   "rel_volume": 0.38,
    "pattern": "high_52w_breakout",
-   "pivot": 1728.9,
-   "gap_to_pivot_pct": -1.75,
-   "stop": 1405.5,
+   "pivot": 1741.8,
+   "gap_to_pivot_pct": -0.53,
+   "stop": 1418.0,
    "dry_up": false
   },
   {
-   "symbol": "MARKSANS",
-   "name": "Marksans Pharma Limited",
-   "ltp": 337.4,
-   "change_pct": -2.93,
-   "rs": 93,
-   "rel_volume": 1.22,
+   "symbol": "ARROWGREEN",
+   "name": "Arrow Greentech Limited",
+   "ltp": 905.8,
+   "change_pct": 1.1,
+   "rs": 96,
+   "rel_volume": 0.73,
    "pattern": "high_52w_breakout",
-   "pivot": 338.1,
-   "gap_to_pivot_pct": -0.21,
-   "stop": 301.1,
+   "pivot": 913.05,
+   "gap_to_pivot_pct": -0.79,
+   "stop": 775.85,
    "dry_up": false
   },
   {
-   "symbol": "AKUMS",
-   "name": "Akums Drugs and Pharmaceuticals Limited",
-   "ltp": 817.6,
-   "change_pct": -0.69,
-   "rs": 93,
-   "rel_volume": 0.59,
+   "symbol": "RPTECH",
+   "name": "Rashi Peripherals Limited",
+   "ltp": 893.0,
+   "change_pct": 1.08,
+   "rs": 96,
+   "rel_volume": 0.64,
    "pattern": "high_52w_breakout",
-   "pivot": 821.45,
-   "gap_to_pivot_pct": -0.47,
-   "stop": 733.15,
+   "pivot": 902.85,
+   "gap_to_pivot_pct": -1.09,
+   "stop": 765.0,
    "dry_up": false
   },
   {
-   "symbol": "ZIMLAB",
-   "name": "Zim Laboratories Limited",
-   "ltp": 137.82,
-   "change_pct": 3.19,
-   "rs": 92,
-   "rel_volume": 0.61,
+   "symbol": "MACPOWER",
+   "name": "Macpower CNC Machines Limited",
+   "ltp": 2062.5,
+   "change_pct": 0.07,
+   "rs": 96,
+   "rel_volume": 0.35,
    "pattern": "high_52w_breakout",
-   "pivot": 139.22,
-   "gap_to_pivot_pct": -1.01,
-   "stop": 125.25,
+   "pivot": 2104.5,
+   "gap_to_pivot_pct": -2.0,
+   "stop": 1732.2,
    "dry_up": false
   },
   {
-   "symbol": "VSSL",
-   "name": "Vardhman Special Steels Limited",
-   "ltp": 405.0,
-   "change_pct": -2.08,
-   "rs": 91,
-   "rel_volume": 0.2,
+   "symbol": "LAURUSLABS",
+   "name": "Laurus Labs Limited",
+   "ltp": 2007.0,
+   "change_pct": -0.95,
+   "rs": 94,
+   "rel_volume": 0.42,
    "pattern": "high_52w_breakout",
-   "pivot": 410.8,
-   "gap_to_pivot_pct": -1.41,
-   "stop": 351.3,
+   "pivot": 2017.5,
+   "gap_to_pivot_pct": -0.52,
+   "stop": 1832.7,
    "dry_up": true
+  },
+  {
+   "symbol": "GHCLTEXTIL",
+   "name": "GHCL Textiles Limited",
+   "ltp": 139.12,
+   "change_pct": 2.79,
+   "rs": 94,
+   "rel_volume": 0.74,
+   "pattern": "high_52w_breakout",
+   "pivot": 140.45,
+   "gap_to_pivot_pct": -0.95,
+   "stop": 117.03,
+   "dry_up": false
+  },
+  {
+   "symbol": "CENTUM",
+   "name": "Centum Electronics Limited",
+   "ltp": 4802.3,
+   "change_pct": -0.73,
+   "rs": 94,
+   "rel_volume": 0.6,
+   "pattern": "high_52w_breakout",
+   "pivot": 4858.7,
+   "gap_to_pivot_pct": -1.16,
+   "stop": 3723.0,
+   "dry_up": false
+  },
+  {
+   "symbol": "QPOWER",
+   "name": "Quality Power Electrical Equipments Limited",
+   "ltp": 1517.8,
+   "change_pct": 1.18,
+   "rs": 94,
+   "rel_volume": 0.43,
+   "pattern": "high_52w_breakout",
+   "pivot": 1536.1,
+   "gap_to_pivot_pct": -1.19,
+   "stop": 1291.7,
+   "dry_up": false
+  },
+  {
+   "symbol": "MAWANASUG",
+   "name": "Mawana Sugars Limited",
+   "ltp": 149.64,
+   "change_pct": 14.49,
+   "rs": 94,
+   "rel_volume": 9.05,
+   "pattern": "high_52w_breakout",
+   "pivot": 152.54,
+   "gap_to_pivot_pct": -1.9,
+   "stop": 122.81,
+   "dry_up": false
   }
  ],
  "rs_leaders": [
   {
-   "symbol": "STLTECH",
-   "name": "Sterlite Technologies Limited",
-   "ltp": 823.75,
-   "change_pct": -5.0,
+   "symbol": "BODALCHEM",
+   "name": "Bodal Chemicals Limited",
+   "ltp": 202.02,
+   "change_pct": 3.56,
    "rs": 99,
-   "rel_volume": 0.57
+   "rel_volume": 0.25
   },
   {
    "symbol": "TBZ",
    "name": "Tribhovandas Bhimji Zaveri Limited",
-   "ltp": 674.85,
-   "change_pct": -2.54,
+   "ltp": 655.6,
+   "change_pct": -2.85,
    "rs": 99,
-   "rel_volume": 0.16
+   "rel_volume": 0.08
   },
   {
-   "symbol": "BODALCHEM",
-   "name": "Bodal Chemicals Limited",
-   "ltp": 195.08,
-   "change_pct": -2.23,
+   "symbol": "MOREPENLAB",
+   "name": "Morepen Laboratories Limited",
+   "ltp": 120.38,
+   "change_pct": 3.24,
    "rs": 99,
-   "rel_volume": 0.42
+   "rel_volume": 0.41
   },
   {
-   "symbol": "INDSWFTLAB",
-   "name": "Ind-Swift Laboratories Limited",
-   "ltp": 401.25,
-   "change_pct": -0.94,
+   "symbol": "WELCORP",
+   "name": "Welspun Corp Limited",
+   "ltp": 2832.4,
+   "change_pct": 5.21,
    "rs": 99,
-   "rel_volume": 0.55
+   "rel_volume": 1.2
   },
   {
    "symbol": "KABRAEXTRU",
    "name": "Kabra Extrusion Technik Limited",
-   "ltp": 806.1,
-   "change_pct": 10.0,
+   "ltp": 846.4,
+   "change_pct": 5.0,
    "rs": 99,
-   "rel_volume": 1.63
+   "rel_volume": 1.35
   },
   {
-   "symbol": "BLISSGVS",
-   "name": "Bliss GVS Pharma Limited",
-   "ltp": 687.05,
-   "change_pct": -1.74,
+   "symbol": "STLTECH",
+   "name": "Sterlite Technologies Limited",
+   "ltp": 837.2,
+   "change_pct": 1.63,
    "rs": 99,
-   "rel_volume": 0.5
+   "rel_volume": 0.44
   },
   {
-   "symbol": "SHILPAMED",
-   "name": "Shilpa Medicare Limited",
-   "ltp": 1007.3,
-   "change_pct": -2.93,
-   "rs": 98,
-   "rel_volume": 0.51
-  },
-  {
-   "symbol": "RAYMOND",
-   "name": "Raymond Limited",
-   "ltp": 1203.85,
-   "change_pct": 8.0,
-   "rs": 98,
-   "rel_volume": 1.23
-  },
-  {
-   "symbol": "PVP",
-   "name": "PVP Ventures Limited",
-   "ltp": 65.2,
-   "change_pct": -4.97,
-   "rs": 98,
-   "rel_volume": 1.61
-  },
-  {
-   "symbol": "MODISONLTD",
-   "name": "MODISON LIMITED",
-   "ltp": 457.35,
-   "change_pct": -3.27,
-   "rs": 98,
-   "rel_volume": 0.31
-  },
-  {
-   "symbol": "MENONBE",
-   "name": "Menon Bearings Limited",
-   "ltp": 293.25,
-   "change_pct": -2.66,
-   "rs": 98,
-   "rel_volume": 0.49
-  },
-  {
-   "symbol": "DIACABS",
-   "name": "Diamond Power Infrastructure Limited",
-   "ltp": 360.45,
-   "change_pct": -4.61,
-   "rs": 98,
-   "rel_volume": 0.75
-  },
-  {
-   "symbol": "FILATEX",
-   "name": "Filatex India Limited",
-   "ltp": 105.32,
-   "change_pct": -3.13,
-   "rs": 98,
-   "rel_volume": 0.68
-  },
-  {
-   "symbol": "CYIENTDLM",
-   "name": "Cyient DLM Limited",
-   "ltp": 912.7,
-   "change_pct": -5.27,
-   "rs": 98,
-   "rel_volume": 0.39
+   "symbol": "INDSWFTLAB",
+   "name": "Ind-Swift Laboratories Limited",
+   "ltp": 404.35,
+   "change_pct": 0.77,
+   "rs": 99,
+   "rel_volume": 0.53
   },
   {
    "symbol": "BIRLACABLE",
    "name": "Birla Cable Limited",
-   "ltp": 345.2,
-   "change_pct": -4.61,
+   "ltp": 362.45,
+   "change_pct": 5.0,
    "rs": 98,
-   "rel_volume": 0.77
+   "rel_volume": 0.98
+  },
+  {
+   "symbol": "YASHO",
+   "name": "Yasho Industries Limited",
+   "ltp": 4234.1,
+   "change_pct": 4.71,
+   "rs": 98,
+   "rel_volume": 1.3
+  },
+  {
+   "symbol": "MODISONLTD",
+   "name": "MODISON LIMITED",
+   "ltp": 444.05,
+   "change_pct": -2.91,
+   "rs": 98,
+   "rel_volume": 0.32
+  },
+  {
+   "symbol": "NRL",
+   "name": "Nupur Recyclers Limited",
+   "ltp": 161.7,
+   "change_pct": -2.0,
+   "rs": 98,
+   "rel_volume": 0.57
+  },
+  {
+   "symbol": "BLISSGVS",
+   "name": "Bliss GVS Pharma Limited",
+   "ltp": 704.7,
+   "change_pct": 2.57,
+   "rs": 98,
+   "rel_volume": 1.36
+  },
+  {
+   "symbol": "DIACABS",
+   "name": "Diamond Power Infrastructure Limited",
+   "ltp": 354.5,
+   "change_pct": -1.65,
+   "rs": 98,
+   "rel_volume": 0.56
+  },
+  {
+   "symbol": "BHAGERIA",
+   "name": "Bhageria Industries Limited",
+   "ltp": 394.6,
+   "change_pct": 9.72,
+   "rs": 98,
+   "rel_volume": 4.21
+  },
+  {
+   "symbol": "MANINDS",
+   "name": "Man Industries (India) Limited",
+   "ltp": 1020.35,
+   "change_pct": 5.97,
+   "rs": 98,
+   "rel_volume": 0.86
   }
  ],
  "delivery_spikes": [],
  "pocket_pivots": [
   {
-   "symbol": "TFCILTD",
-   "name": "Tourism Finance Corporation of India Limited",
-   "ltp": 143.46,
-   "change_pct": 1.35,
-   "rs": 97,
-   "rel_volume": 1.98
+   "symbol": "BLISSGVS",
+   "name": "Bliss GVS Pharma Limited",
+   "ltp": 704.7,
+   "change_pct": 2.57,
+   "rs": 98,
+   "rel_volume": 1.36
   },
   {
-   "symbol": "SOTL",
-   "name": "Savita Oil Technologies Limited",
-   "ltp": 726.5,
-   "change_pct": 1.52,
-   "rs": 95,
-   "rel_volume": 0.3
+   "symbol": "IRISDOREME",
+   "name": "Iris Clothings Limited",
+   "ltp": 66.15,
+   "change_pct": 0.46,
+   "rs": 96,
+   "rel_volume": 0.62
   },
   {
-   "symbol": "RML",
-   "name": "Rane (Madras) Limited",
-   "ltp": 1362.8,
-   "change_pct": 0.45,
+   "symbol": "OMAXE",
+   "name": "Omaxe Limited",
+   "ltp": 118.53,
+   "change_pct": 0.73,
    "rs": 93,
-   "rel_volume": 0.54
+   "rel_volume": 0.13
+  },
+  {
+   "symbol": "ZIMLAB",
+   "name": "Zim Laboratories Limited",
+   "ltp": 138.48,
+   "change_pct": 0.48,
+   "rs": 93,
+   "rel_volume": 1.22
   },
   {
    "symbol": "ADOR",
    "name": "Ador Welding Limited",
-   "ltp": 1612.9,
-   "change_pct": 0.93,
-   "rs": 91,
-   "rel_volume": 0.64
-  },
-  {
-   "symbol": "SYNCOMF",
-   "name": "Syncom Formulations (India) Limited",
-   "ltp": 20.03,
-   "change_pct": 0.1,
-   "rs": 91,
-   "rel_volume": 0.88
-  },
-  {
-   "symbol": "ESAFSFB",
-   "name": "ESAF Small Finance Bank Limited",
-   "ltp": 40.82,
-   "change_pct": 0.32,
+   "ltp": 1638.9,
+   "change_pct": 1.61,
    "rs": 90,
-   "rel_volume": 4.13
+   "rel_volume": 0.79
   },
   {
-   "symbol": "TCPLPACK",
-   "name": "TCPL Packaging Limited",
-   "ltp": 4058.8,
-   "change_pct": 1.39,
+   "symbol": "SONACOMS",
+   "name": "Sona BLW Precision Forgings Limited",
+   "ltp": 824.5,
+   "change_pct": 1.0,
+   "rs": 90,
+   "rel_volume": 1.62
+  },
+  {
+   "symbol": "GANESHBE",
+   "name": "Ganesh Benzoplast Limited",
+   "ltp": 130.84,
+   "change_pct": 3.44,
    "rs": 89,
-   "rel_volume": 1.36
-  },
-  {
-   "symbol": "EIMCOELECO",
-   "name": "Eimco Elecon (India) Limited",
-   "ltp": 2304.4,
-   "change_pct": 0.29,
-   "rs": 88,
-   "rel_volume": 1.09
+   "rel_volume": 1.7
   },
   {
    "symbol": "NAZARA",
    "name": "Nazara Technologies Limited",
-   "ltp": 374.55,
-   "change_pct": 0.5,
+   "ltp": 376.45,
+   "change_pct": 0.51,
    "rs": 88,
-   "rel_volume": 1.06
+   "rel_volume": 1.31
   },
   {
-   "symbol": "SOMANYCERA",
-   "name": "Somany Ceramics Limited",
-   "ltp": 601.85,
-   "change_pct": 0.93,
-   "rs": 84,
-   "rel_volume": 0.86
-  },
-  {
-   "symbol": "SHRIPISTON",
-   "name": "SPR Auto Technologies Limited",
-   "ltp": 4526.7,
-   "change_pct": 0.82,
-   "rs": 82,
-   "rel_volume": 1.74
-  },
-  {
-   "symbol": "AARTIDRUGS",
-   "name": "Aarti Drugs Limited",
-   "ltp": 437.25,
-   "change_pct": 0.23,
-   "rs": 73,
-   "rel_volume": 2.64
-  },
-  {
-   "symbol": "ALEMBICLTD",
-   "name": "Alembic Limited",
-   "ltp": 107.18,
-   "change_pct": 1.08,
-   "rs": 73,
-   "rel_volume": 0.42
-  },
-  {
-   "symbol": "GODREJAGRO",
-   "name": "Godrej Agrovet Limited",
-   "ltp": 676.05,
-   "change_pct": 0.9,
-   "rs": 73,
-   "rel_volume": 0.96
-  },
-  {
-   "symbol": "MANOMAY",
-   "name": "Manomay Tex India Limited",
-   "ltp": 233.21,
-   "change_pct": 3.89,
-   "rs": 73,
+   "symbol": "TNPETRO",
+   "name": "Tamilnadu PetroProducts Limited",
+   "ltp": 132.93,
+   "change_pct": 4.69,
+   "rs": 88,
    "rel_volume": 2.04
+  },
+  {
+   "symbol": "BALRAMCHIN",
+   "name": "Balrampur Chini Mills Limited",
+   "ltp": 685.8,
+   "change_pct": 4.0,
+   "rs": 86,
+   "rel_volume": 1.07
+  },
+  {
+   "symbol": "MSTCLTD",
+   "name": "Mstc Limited",
+   "ltp": 740.8,
+   "change_pct": 0.37,
+   "rs": 86,
+   "rel_volume": 1.29
+  },
+  {
+   "symbol": "PNGSREVA",
+   "name": "PNGS Reva Diamond Jewellery Limited",
+   "ltp": 524.85,
+   "change_pct": 0.19,
+   "rs": 86,
+   "rel_volume": 2.58
+  },
+  {
+   "symbol": "RAMRAT",
+   "name": "Ram Ratna Wires Limited",
+   "ltp": 570.0,
+   "change_pct": 3.94,
+   "rs": 86,
+   "rel_volume": 0.56
+  },
+  {
+   "symbol": "STYL",
+   "name": "Seshaasai Technologies Limited",
+   "ltp": 381.85,
+   "change_pct": 3.11,
+   "rs": 85,
+   "rel_volume": 4.27
+  },
+  {
+   "symbol": "MUNJALAU",
+   "name": "Munjal Auto Industries Limited",
+   "ltp": 109.02,
+   "change_pct": 3.49,
+   "rs": 82,
+   "rel_volume": 1.09
   }
  ],
  "sector_leaders": [
   {
    "sector": "NIFTY PHARMA",
    "rank": 1,
-   "return_1m": 1.75,
+   "return_1m": 1.41,
    "stocks": [
     {
      "symbol": "LAURUSLABS",
      "name": "Laurus Labs Limited",
-     "ltp": 2026.2,
-     "change_pct": -0.38,
-     "rs": 95,
-     "rel_volume": 0.39
-    },
-    {
-     "symbol": "DIVISLAB",
-     "name": "Divi's Laboratories Limited",
-     "ltp": 9602.0,
-     "change_pct": -0.23,
-     "rs": 91,
-     "rel_volume": 1.27
+     "ltp": 2007.0,
+     "change_pct": -0.95,
+     "rs": 94,
+     "rel_volume": 0.42
     },
     {
      "symbol": "GLAND",
      "name": "Gland Pharma Limited",
-     "ltp": 2897.4,
-     "change_pct": -0.44,
-     "rs": 91,
-     "rel_volume": 0.54
+     "ltp": 2917.2,
+     "change_pct": 0.68,
+     "rs": 90,
+     "rel_volume": 0.21
+    },
+    {
+     "symbol": "DIVISLAB",
+     "name": "Divi's Laboratories Limited",
+     "ltp": 9619.5,
+     "change_pct": 0.18,
+     "rs": 90,
+     "rel_volume": 0.74
     }
    ]
   },
   {
    "sector": "NIFTY HEALTHCARE INDEX",
    "rank": 2,
-   "return_1m": 0.96,
+   "return_1m": 0.55,
    "stocks": [
     {
      "symbol": "LAURUSLABS",
      "name": "Laurus Labs Limited",
-     "ltp": 2026.2,
-     "change_pct": -0.38,
-     "rs": 95,
-     "rel_volume": 0.39
+     "ltp": 2007.0,
+     "change_pct": -0.95,
+     "rs": 94,
+     "rel_volume": 0.42
     },
     {
      "symbol": "DIVISLAB",
      "name": "Divi's Laboratories Limited",
-     "ltp": 9602.0,
-     "change_pct": -0.23,
-     "rs": 91,
-     "rel_volume": 1.27
+     "ltp": 9619.5,
+     "change_pct": 0.18,
+     "rs": 90,
+     "rel_volume": 0.74
     },
     {
-     "symbol": "IPCALAB",
-     "name": "IPCA Laboratories Limited",
-     "ltp": 1997.1,
-     "change_pct": 1.76,
-     "rs": 82,
-     "rel_volume": 1.12
+     "symbol": "PPLPHARMA",
+     "name": "Piramal Pharma Limited",
+     "ltp": 210.31,
+     "change_pct": 1.05,
+     "rs": 83,
+     "rel_volume": 0.77
     }
    ]
   },
   {
-   "sector": "NIFTY METAL",
+   "sector": "NIFTY ENERGY",
    "rank": 3,
-   "return_1m": -2.47,
+   "return_1m": -1.73,
    "stocks": [
     {
-     "symbol": "WELCORP",
-     "name": "Welspun Corp Limited",
-     "ltp": 2692.2,
-     "change_pct": -3.74,
-     "rs": 98,
-     "rel_volume": 0.39
+     "symbol": "AEGISLOG",
+     "name": "Aegis Logistics Limited",
+     "ltp": 1365.4,
+     "change_pct": -0.31,
+     "rs": 93,
+     "rel_volume": 0.3
     },
     {
-     "symbol": "LLOYDSME",
-     "name": "Lloyds Metals And Energy Limited",
-     "ltp": 1821.9,
-     "change_pct": -3.65,
-     "rs": 78,
-     "rel_volume": 0.79
+     "symbol": "BHEL",
+     "name": "Bharat Heavy Electricals Limited",
+     "ltp": 418.95,
+     "change_pct": 0.87,
+     "rs": 81,
+     "rel_volume": 0.99
     },
     {
-     "symbol": "APLAPOLLO",
-     "name": "APL Apollo Tubes Limited",
-     "ltp": 2184.8,
-     "change_pct": -0.46,
-     "rs": 74,
-     "rel_volume": 0.64
+     "symbol": "POWERINDIA",
+     "name": "Hitachi Energy India Limited",
+     "ltp": 31035.0,
+     "change_pct": 1.04,
+     "rs": 71,
+     "rel_volume": 1.48
     }
    ]
   }
  ],
  "counts": {
-  "rated": 2232,
-  "trend_template": 400,
-  "ready": 29,
+  "rated": 2231,
+  "trend_template": 413,
+  "ready": 41,
   "delivery_spikes": 0,
-  "pocket_pivots": 26
+  "pocket_pivots": 43
  }
 }

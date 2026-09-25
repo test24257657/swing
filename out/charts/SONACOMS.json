@@ -2,7 +2,7 @@
  "symbol": "SONACOMS",
  "name": "Sona BLW Precision Forgings Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 816.3,
    "volume": 2572412,
    "delivery_pct": 49.86
+  },
+  {
+   "time": "2026-09-25",
+   "open": 818.0,
+   "high": 835.4,
+   "low": 815.4,
+   "close": 824.5,
+   "volume": 3101062,
+   "delivery_pct": 51.33
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 800.43
+   },
+   {
+    "time": "2026-09-25",
+    "value": 800.71
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 784.22
+   },
+   {
+    "time": "2026-09-25",
+    "value": 787.04
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 604.3
+   },
+   {
+    "time": "2026-09-25",
+    "value": 605.96
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.05,
-  "atr_pct": 2.77,
-  "rel_volume_20d": 1.4,
-  "dist_20dma_pct": 1.98,
-  "dist_50dma_pct": 4.09,
-  "dist_200dma_pct": 35.08
+  "rsi_14": 58.06,
+  "atr_pct": 2.72,
+  "rel_volume_20d": 1.62,
+  "dist_20dma_pct": 2.97,
+  "dist_50dma_pct": 4.76,
+  "dist_200dma_pct": 36.07
  }
 }

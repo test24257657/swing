@@ -2,7 +2,7 @@
  "symbol": "SMLMAH",
  "name": "SML Mahindra Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-11-10",
@@ -1956,6 +1956,15 @@
    "close": 6603.0,
    "volume": 33865,
    "delivery_pct": 41.75
+  },
+  {
+   "time": "2026-09-25",
+   "open": 6675.0,
+   "high": 6889.5,
+   "low": 6594.0,
+   "close": 6825.5,
+   "volume": 50096,
+   "delivery_pct": 38.9
   }
  ],
  "ma": {
@@ -2751,6 +2760,10 @@
    {
     "time": "2026-09-24",
     "value": 6085.05
+   },
+   {
+    "time": "2026-09-25",
+    "value": 6166.62
    }
   ],
   "sma_50": [
@@ -3425,6 +3438,10 @@
    {
     "time": "2026-09-24",
     "value": 5379.42
+   },
+   {
+    "time": "2026-09-25",
+    "value": 5434.03
    }
   ],
   "sma_200": [
@@ -3499,15 +3516,19 @@
    {
     "time": "2026-09-24",
     "value": 4345.16
+   },
+   {
+    "time": "2026-09-25",
+    "value": 4361.63
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.84,
-  "atr_pct": 4.59,
-  "rel_volume_20d": 0.3,
-  "dist_20dma_pct": 8.51,
-  "dist_50dma_pct": 22.75,
-  "dist_200dma_pct": 51.96
+  "rsi_14": 65.94,
+  "atr_pct": 4.43,
+  "rel_volume_20d": 0.45,
+  "dist_20dma_pct": 10.68,
+  "dist_50dma_pct": 25.61,
+  "dist_200dma_pct": 56.49
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "NAZARA",
  "name": "Nazara Technologies Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 374.55,
    "volume": 1869672,
    "delivery_pct": 43.72
+  },
+  {
+   "time": "2026-09-25",
+   "open": 376.8,
+   "high": 384.5,
+   "low": 374.15,
+   "close": 376.45,
+   "volume": 2396562,
+   "delivery_pct": 34.65
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 367.67
+   },
+   {
+    "time": "2026-09-25",
+    "value": 368.76
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 348.14
+   },
+   {
+    "time": "2026-09-25",
+    "value": 349.51
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 287.95
+   },
+   {
+    "time": "2026-09-25",
+    "value": 288.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.06,
-  "atr_pct": 3.06,
-  "rel_volume_20d": 1.06,
-  "dist_20dma_pct": 1.87,
-  "dist_50dma_pct": 7.58,
-  "dist_200dma_pct": 30.07
+  "rsi_14": 62.31,
+  "atr_pct": 3.02,
+  "rel_volume_20d": 1.31,
+  "dist_20dma_pct": 2.08,
+  "dist_50dma_pct": 7.71,
+  "dist_200dma_pct": 30.43
  }
 }

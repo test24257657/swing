@@ -2,7 +2,7 @@
  "symbol": "IVP",
  "name": "IVP Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 228.57,
    "volume": 12881,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-25",
+   "open": 222.0,
+   "high": 229.9,
+   "low": 221.0,
+   "close": 228.62,
+   "volume": 10999,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 212.67
+   },
+   {
+    "time": "2026-09-25",
+    "value": 214.51
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 185.16
+   },
+   {
+    "time": "2026-09-25",
+    "value": 186.53
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 157.17
+   },
+   {
+    "time": "2026-09-25",
+    "value": 157.51
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.73,
-  "atr_pct": 3.76,
-  "rel_volume_20d": 0.65,
-  "dist_20dma_pct": 7.48,
-  "dist_50dma_pct": 23.44,
-  "dist_200dma_pct": 45.43
+  "rsi_14": 72.75,
+  "atr_pct": 3.77,
+  "rel_volume_20d": 0.56,
+  "dist_20dma_pct": 6.58,
+  "dist_50dma_pct": 22.56,
+  "dist_200dma_pct": 45.14
  }
 }

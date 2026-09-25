@@ -2,7 +2,7 @@
  "symbol": "EBGNG",
  "name": "GNG Electronics Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 676.65,
    "volume": 778533,
    "delivery_pct": 46.46
+  },
+  {
+   "time": "2026-09-25",
+   "open": 679.4,
+   "high": 690.0,
+   "low": 659.3,
+   "close": 669.0,
+   "volume": 433643,
+   "delivery_pct": 47.3
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 655.87
+   },
+   {
+    "time": "2026-09-25",
+    "value": 660.31
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 600.29
+   },
+   {
+    "time": "2026-09-25",
+    "value": 602.24
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 441.79
+   },
+   {
+    "time": "2026-09-25",
+    "value": 443.54
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.21,
-  "atr_pct": 5.46,
-  "rel_volume_20d": 0.81,
-  "dist_20dma_pct": 3.17,
-  "dist_50dma_pct": 12.72,
-  "dist_200dma_pct": 53.16
+  "rsi_14": 54.54,
+  "atr_pct": 5.45,
+  "rel_volume_20d": 0.44,
+  "dist_20dma_pct": 1.32,
+  "dist_50dma_pct": 11.09,
+  "dist_200dma_pct": 50.83
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "WOCKPHARMA",
  "name": "Wockhardt Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 2287.7,
    "volume": 824745,
    "delivery_pct": 33.17
+  },
+  {
+   "time": "2026-09-25",
+   "open": 2290.0,
+   "high": 2329.9,
+   "low": 2243.0,
+   "close": 2265.6,
+   "volume": 689934,
+   "delivery_pct": 35.49
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 2096.6
+   },
+   {
+    "time": "2026-09-25",
+    "value": 2111.78
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 1983.91
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1991.7
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 1631.4
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1635.65
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.76,
-  "atr_pct": 3.98,
-  "rel_volume_20d": 0.58,
-  "dist_20dma_pct": 9.12,
-  "dist_50dma_pct": 15.31,
-  "dist_200dma_pct": 40.23
+  "rsi_14": 62.76,
+  "atr_pct": 4.0,
+  "rel_volume_20d": 0.48,
+  "dist_20dma_pct": 7.28,
+  "dist_50dma_pct": 13.75,
+  "dist_200dma_pct": 38.51
  }
 }

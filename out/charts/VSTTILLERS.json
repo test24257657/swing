@@ -2,7 +2,7 @@
  "symbol": "VSTTILLERS",
  "name": "V.S.T Tillers Tractors Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 4516.7,
    "volume": 17167,
    "delivery_pct": 44.47
+  },
+  {
+   "time": "2026-09-25",
+   "open": 4492.0,
+   "high": 4544.2,
+   "low": 4360.0,
+   "close": 4473.3,
+   "volume": 14779,
+   "delivery_pct": 40.92
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 4215.72
+   },
+   {
+    "time": "2026-09-25",
+    "value": 4220.63
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 4365.7
+   },
+   {
+    "time": "2026-09-25",
+    "value": 4363.23
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 5034.45
+   },
+   {
+    "time": "2026-09-25",
+    "value": 5028.6
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.53,
-  "atr_pct": 2.96,
-  "rel_volume_20d": 2.05,
-  "dist_20dma_pct": 7.14,
-  "dist_50dma_pct": 3.46,
-  "dist_200dma_pct": -10.28
+  "rsi_14": 62.64,
+  "atr_pct": 3.07,
+  "rel_volume_20d": 1.64,
+  "dist_20dma_pct": 5.99,
+  "dist_50dma_pct": 2.52,
+  "dist_200dma_pct": -11.04
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "GNA",
  "name": "GNA Axles Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 620.45,
    "volume": 7316206,
    "delivery_pct": 15.49
+  },
+  {
+   "time": "2026-09-25",
+   "open": 623.0,
+   "high": 627.9,
+   "low": 611.1,
+   "close": 617.65,
+   "volume": 623477,
+   "delivery_pct": 30.49
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 550.97
+   },
+   {
+    "time": "2026-09-25",
+    "value": 554.51
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 543.84
+   },
+   {
+    "time": "2026-09-25",
+    "value": 544.35
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 429.1
+   },
+   {
+    "time": "2026-09-25",
+    "value": 430.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.2,
-  "atr_pct": 4.5,
-  "rel_volume_20d": 14.97,
-  "dist_20dma_pct": 12.61,
-  "dist_50dma_pct": 14.09,
-  "dist_200dma_pct": 44.59
+  "rsi_14": 70.89,
+  "atr_pct": 4.39,
+  "rel_volume_20d": 0.74,
+  "dist_20dma_pct": 11.39,
+  "dist_50dma_pct": 13.46,
+  "dist_200dma_pct": 43.43
  }
 }

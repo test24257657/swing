@@ -2,7 +2,7 @@
  "symbol": "PREMIERPOL",
  "name": "Premier Polyfilm Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 100.51,
    "volume": 6670334,
    "delivery_pct": 12.01
+  },
+  {
+   "time": "2026-09-25",
+   "open": 102.0,
+   "high": 102.67,
+   "low": 94.2,
+   "close": 95.4,
+   "volume": 784231,
+   "delivery_pct": 29.66
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 88.95
+   },
+   {
+    "time": "2026-09-25",
+    "value": 88.96
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 82.22
+   },
+   {
+    "time": "2026-09-25",
+    "value": 82.56
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 60.8
+   },
+   {
+    "time": "2026-09-25",
+    "value": 61.05
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.4,
-  "atr_pct": 6.1,
-  "rel_volume_20d": 10.59,
-  "dist_20dma_pct": 12.99,
-  "dist_50dma_pct": 22.25,
-  "dist_200dma_pct": 65.31
+  "rsi_14": 60.45,
+  "atr_pct": 6.61,
+  "rel_volume_20d": 0.82,
+  "dist_20dma_pct": 7.24,
+  "dist_50dma_pct": 15.55,
+  "dist_200dma_pct": 56.27
  }
 }

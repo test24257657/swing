@@ -2,7 +2,7 @@
  "symbol": "BHAGERIA",
  "name": "Bhageria Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 359.65,
    "volume": 243343,
    "delivery_pct": 51.92
+  },
+  {
+   "time": "2026-09-25",
+   "open": 361.0,
+   "high": 395.6,
+   "low": 361.0,
+   "close": 394.6,
+   "volume": 933103,
+   "delivery_pct": 43.71
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 306.39
+   },
+   {
+    "time": "2026-09-25",
+    "value": 314.75
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 249.02
+   },
+   {
+    "time": "2026-09-25",
+    "value": 252.85
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 191.88
+   },
+   {
+    "time": "2026-09-25",
+    "value": 192.94
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.41,
-  "atr_pct": 4.96,
-  "rel_volume_20d": 1.15,
-  "dist_20dma_pct": 17.38,
-  "dist_50dma_pct": 44.43,
-  "dist_200dma_pct": 87.44
+  "rsi_14": 77.8,
+  "atr_pct": 4.85,
+  "rel_volume_20d": 4.21,
+  "dist_20dma_pct": 25.37,
+  "dist_50dma_pct": 56.06,
+  "dist_200dma_pct": 104.52
  }
 }

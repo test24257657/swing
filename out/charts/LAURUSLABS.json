@@ -2,7 +2,7 @@
  "symbol": "LAURUSLABS",
  "name": "Laurus Labs Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 2026.2,
    "volume": 1388039,
    "delivery_pct": 50.87
+  },
+  {
+   "time": "2026-09-25",
+   "open": 2026.0,
+   "high": 2040.0,
+   "low": 1979.2,
+   "close": 2007.0,
+   "volume": 1442142,
+   "delivery_pct": 46.79
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 1935.51
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1939.39
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 1830.53
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1839.52
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 1329.12
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1334.07
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.34,
-  "atr_pct": 2.4,
-  "rel_volume_20d": 0.39,
-  "dist_20dma_pct": 4.69,
-  "dist_50dma_pct": 10.69,
-  "dist_200dma_pct": 52.45
+  "rsi_14": 63.63,
+  "atr_pct": 2.47,
+  "rel_volume_20d": 0.42,
+  "dist_20dma_pct": 3.49,
+  "dist_50dma_pct": 9.1,
+  "dist_200dma_pct": 50.44
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "CASTROLIND",
  "name": "Castrol India Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 194.8,
    "volume": 2326661,
    "delivery_pct": 61.35
+  },
+  {
+   "time": "2026-09-25",
+   "open": 194.8,
+   "high": 202.1,
+   "low": 194.23,
+   "close": 201.67,
+   "volume": 13237379,
+   "delivery_pct": 48.69
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 189.51
+   },
+   {
+    "time": "2026-09-25",
+    "value": 190.33
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 188.02
+   },
+   {
+    "time": "2026-09-25",
+    "value": 188.36
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 185.55
+   },
+   {
+    "time": "2026-09-25",
+    "value": 185.6
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.36,
-  "atr_pct": 1.6,
-  "rel_volume_20d": 0.88,
-  "dist_20dma_pct": 2.79,
-  "dist_50dma_pct": 3.61,
-  "dist_200dma_pct": 4.98
+  "rsi_14": 70.85,
+  "atr_pct": 1.71,
+  "rel_volume_20d": 4.91,
+  "dist_20dma_pct": 5.96,
+  "dist_50dma_pct": 7.07,
+  "dist_200dma_pct": 8.66
  }
 }

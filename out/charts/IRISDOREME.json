@@ -2,7 +2,7 @@
  "symbol": "IRISDOREME",
  "name": "Iris Clothings Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 65.85,
    "volume": 194217,
    "delivery_pct": 34.42
+  },
+  {
+   "time": "2026-09-25",
+   "open": 66.49,
+   "high": 66.99,
+   "low": 64.55,
+   "close": 66.15,
+   "volume": 666872,
+   "delivery_pct": 27.24
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 61.52
+   },
+   {
+    "time": "2026-09-25",
+    "value": 61.93
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 56.47
+   },
+   {
+    "time": "2026-09-25",
+    "value": 56.86
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 40.51
+   },
+   {
+    "time": "2026-09-25",
+    "value": 40.69
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.49,
-  "atr_pct": 4.49,
-  "rel_volume_20d": 0.18,
-  "dist_20dma_pct": 7.05,
-  "dist_50dma_pct": 16.61,
-  "dist_200dma_pct": 62.53
+  "rsi_14": 69.13,
+  "atr_pct": 4.41,
+  "rel_volume_20d": 0.62,
+  "dist_20dma_pct": 6.82,
+  "dist_50dma_pct": 16.34,
+  "dist_200dma_pct": 62.58
  }
 }

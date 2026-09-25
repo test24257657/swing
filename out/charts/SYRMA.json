@@ -2,7 +2,7 @@
  "symbol": "SYRMA",
  "name": "Syrma SGS Technology Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 1698.6,
    "volume": 841054,
    "delivery_pct": 25.43
+  },
+  {
+   "time": "2026-09-25",
+   "open": 1703.0,
+   "high": 1742.7,
+   "low": 1702.0,
+   "close": 1732.6,
+   "volume": 1026235,
+   "delivery_pct": 21.29
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 1576.0
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1587.95
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 1479.49
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1485.66
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 1074.95
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1079.64
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.91,
-  "atr_pct": 4.25,
-  "rel_volume_20d": 0.31,
-  "dist_20dma_pct": 7.78,
-  "dist_50dma_pct": 14.81,
-  "dist_200dma_pct": 58.02
+  "rsi_14": 66.41,
+  "atr_pct": 4.05,
+  "rel_volume_20d": 0.38,
+  "dist_20dma_pct": 9.11,
+  "dist_50dma_pct": 16.62,
+  "dist_200dma_pct": 60.48
  }
 }

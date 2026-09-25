@@ -2,7 +2,7 @@
  "symbol": "GRAUWEIL",
  "name": "Grauer & Weil India Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2026-04-20",
@@ -993,6 +993,15 @@
    "close": 86.69,
    "volume": 725531,
    "delivery_pct": 48.98
+  },
+  {
+   "time": "2026-09-25",
+   "open": 87.2,
+   "high": 88.4,
+   "low": 85.75,
+   "close": 88.02,
+   "volume": 1099667,
+   "delivery_pct": 54.45
   }
  ],
  "ma": {
@@ -1360,6 +1369,10 @@
    {
     "time": "2026-09-24",
     "value": 75.67
+   },
+   {
+    "time": "2026-09-25",
+    "value": 76.69
    }
   ],
   "sma_50": [
@@ -1606,15 +1619,19 @@
    {
     "time": "2026-09-24",
     "value": 73.19
+   },
+   {
+    "time": "2026-09-25",
+    "value": 73.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.71,
-  "atr_pct": 4.54,
-  "rel_volume_20d": 0.57,
-  "dist_20dma_pct": 14.56,
-  "dist_50dma_pct": 18.45,
+  "rsi_14": 71.17,
+  "atr_pct": 4.36,
+  "rel_volume_20d": 0.86,
+  "dist_20dma_pct": 14.78,
+  "dist_50dma_pct": 19.93,
   "dist_200dma_pct": null
  }
 }

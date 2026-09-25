@@ -2,7 +2,7 @@
  "symbol": "VINCOFE",
  "name": "Vintage Coffee And Beverages Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 183.75,
    "volume": 3693467,
    "delivery_pct": 33.63
+  },
+  {
+   "time": "2026-09-25",
+   "open": 184.1,
+   "high": 187.19,
+   "low": 181.04,
+   "close": 184.15,
+   "volume": 911215,
+   "delivery_pct": 45.29
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 176.34
+   },
+   {
+    "time": "2026-09-25",
+    "value": 176.82
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 163.05
+   },
+   {
+    "time": "2026-09-25",
+    "value": 163.52
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 150.89
+   },
+   {
+    "time": "2026-09-25",
+    "value": 151.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.97,
-  "atr_pct": 4.52,
-  "rel_volume_20d": 1.1,
-  "dist_20dma_pct": 4.2,
-  "dist_50dma_pct": 12.7,
-  "dist_200dma_pct": 21.78
+  "rsi_14": 63.28,
+  "atr_pct": 4.43,
+  "rel_volume_20d": 0.27,
+  "dist_20dma_pct": 4.15,
+  "dist_50dma_pct": 12.62,
+  "dist_200dma_pct": 21.96
  }
 }

@@ -1,153 +1,153 @@
 {
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "source": "rules",
- "universe": 271,
- "eligible": 7,
+ "universe": 281,
+ "eligible": 11,
  "picks": [
   {
-   "symbol": "JAGSNPHARM",
-   "ltp": 243.97,
+   "symbol": "ASAHISONG",
+   "ltp": 402.75,
    "technicals": {
-    "rsi_14": 62.42,
-    "rel_volume_20d": 114.33,
-    "dist_20dma_pct": 4.07,
-    "dist_50dma_pct": 5.06,
-    "dist_200dma_pct": 19.1
+    "rsi_14": 63.6,
+    "rel_volume_20d": 2.35,
+    "dist_20dma_pct": 7.37,
+    "dist_50dma_pct": 11.99,
+    "dist_200dma_pct": 49.13
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 243.02,
-    "stop_suggestion": 217.81,
-    "target_suggestion": 291.62,
-    "gap_to_pivot_pct": 0.39
+    "pivot_price": 394.9,
+    "stop_suggestion": 341.2,
+    "target_suggestion": 473.88,
+    "gap_to_pivot_pct": 1.99
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 82.2,
-    "net_income_cr": 13.2,
-    "revenue_qoq_pct": 28.0,
-    "net_income_qoq_pct": 50.0
+    "revenue_cr": 188.9,
+    "net_income_cr": 19.2,
+    "revenue_qoq_pct": 31.1,
+    "net_income_qoq_pct": 76.1
    },
    "reason": null,
    "rank": 1,
-   "name": "Jagsonpal Pharmaceuticals Limited"
+   "name": "Asahi Songwon Colors Limited"
   },
   {
-   "symbol": "WELSPUNLIV",
-   "ltp": 222.32,
+   "symbol": "EMIL",
+   "ltp": 200.22,
    "technicals": {
-    "rsi_14": 74.23,
-    "rel_volume_20d": 1.07,
-    "dist_20dma_pct": 7.15,
-    "dist_50dma_pct": 20.94,
-    "dist_200dma_pct": 51.06
+    "rsi_14": 64.84,
+    "rel_volume_20d": 2.25,
+    "dist_20dma_pct": 8.26,
+    "dist_50dma_pct": 18.15,
+    "dist_200dma_pct": 63.44
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 215.87,
-    "stop_suggestion": 195.7,
-    "target_suggestion": 259.04,
-    "gap_to_pivot_pct": 2.99
+    "stage": "confirmed",
+    "pivot_price": 196.28,
+    "stop_suggestion": 167.54,
+    "target_suggestion": 235.54,
+    "gap_to_pivot_pct": 2.01
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 2795.4,
-    "net_income_cr": 160.7,
-    "revenue_qoq_pct": 14.8,
-    "net_income_qoq_pct": 55.0
+    "revenue_cr": 2419.0,
+    "net_income_cr": 120.6,
+    "revenue_qoq_pct": 26.4,
+    "net_income_qoq_pct": 203.8
    },
    "reason": null,
    "rank": 2,
-   "name": "Welspun Living Limited"
+   "name": "Electronics Mart India Limited"
   },
   {
-   "symbol": "INDOAMIN",
-   "ltp": 134.48,
+   "symbol": "IGPL",
+   "ltp": 593.15,
    "technicals": {
-    "rsi_14": 63.6,
-    "rel_volume_20d": 0.83,
-    "dist_20dma_pct": 6.49,
-    "dist_50dma_pct": 6.18,
-    "dist_200dma_pct": 11.83
+    "rsi_14": 65.33,
+    "rel_volume_20d": 0.52,
+    "dist_20dma_pct": 6.38,
+    "dist_50dma_pct": 16.91,
+    "dist_200dma_pct": 39.11
    },
    "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 136.0,
-    "stop_suggestion": 126.79,
-    "target_suggestion": 156.4,
-    "gap_to_pivot_pct": -1.12
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 584.55,
+    "stop_suggestion": 508.65,
+    "target_suggestion": 701.46,
+    "gap_to_pivot_pct": 1.47
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 374.6,
-    "net_income_cr": 30.8,
-    "revenue_qoq_pct": 17.9,
-    "net_income_qoq_pct": 50.2
+    "revenue_cr": 617.8,
+    "net_income_cr": 66.4,
+    "revenue_qoq_pct": 17.8,
+    "net_income_qoq_pct": 136.3
    },
    "reason": null,
    "rank": 3,
-   "name": "Indo Amines Limited"
+   "name": "IG Petrochemicals Limited"
   },
   {
-   "symbol": "IVP",
-   "ltp": 228.57,
+   "symbol": "INNOVACAP",
+   "ltp": 1281.0,
    "technicals": {
-    "rsi_14": 72.73,
-    "rel_volume_20d": 0.65,
-    "dist_20dma_pct": 7.48,
-    "dist_50dma_pct": 23.44,
-    "dist_200dma_pct": 45.43
+    "rsi_14": 74.18,
+    "rel_volume_20d": 0.28,
+    "dist_20dma_pct": 9.71,
+    "dist_50dma_pct": 20.23,
+    "dist_200dma_pct": 51.28
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 223.66,
-    "stop_suggestion": 200.0,
-    "target_suggestion": 268.39,
-    "gap_to_pivot_pct": 2.2
+    "stage": "confirmed",
+    "pivot_price": 1226.7,
+    "stop_suggestion": 1080.2,
+    "target_suggestion": 1472.04,
+    "gap_to_pivot_pct": 4.43
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 154.7,
-    "net_income_cr": 14.0,
-    "revenue_qoq_pct": -5.9,
-    "net_income_qoq_pct": 57.3
+    "revenue_cr": 470.9,
+    "net_income_cr": 44.1,
+    "revenue_qoq_pct": 5.2,
+    "net_income_qoq_pct": 15.7
    },
    "reason": null,
    "rank": 4,
-   "name": "IVP Limited"
+   "name": "Innova Captab Limited"
   },
   {
-   "symbol": "ALMONDZ",
-   "ltp": 19.86,
+   "symbol": "PREMIERPOL",
+   "ltp": 95.4,
    "technicals": {
-    "rsi_14": 66.71,
-    "rel_volume_20d": 1.13,
-    "dist_20dma_pct": 8.57,
-    "dist_50dma_pct": 26.76,
-    "dist_200dma_pct": 31.12
+    "rsi_14": 60.45,
+    "rel_volume_20d": 0.82,
+    "dist_20dma_pct": 7.24,
+    "dist_50dma_pct": 15.55,
+    "dist_200dma_pct": 56.27
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 19.63,
-    "stop_suggestion": 15.77,
-    "target_suggestion": 23.56,
-    "gap_to_pivot_pct": 1.17
+    "stage": "confirmed",
+    "pivot_price": 95.36,
+    "stop_suggestion": 78.15,
+    "target_suggestion": 114.43,
+    "gap_to_pivot_pct": 0.04
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 36.8,
-    "net_income_cr": 12.5,
-    "revenue_qoq_pct": -49.0,
-    "net_income_qoq_pct": 160.4
+    "revenue_cr": 100.1,
+    "net_income_cr": 9.1,
+    "revenue_qoq_pct": 8.6,
+    "net_income_qoq_pct": 5.8
    },
    "reason": null,
    "rank": 5,
-   "name": "Almondz Global Securities Limited"
+   "name": "Premier Polyfilm Limited"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "symbol": "TBZ",
  "name": "Tribhovandas Bhimji Zaveri Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 674.85,
    "volume": 626801,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-25",
+   "open": 662.5,
+   "high": 671.5,
+   "low": 641.15,
+   "close": 655.6,
+   "volume": 317411,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 508.63
+   },
+   {
+    "time": "2026-09-25",
+    "value": 526.11
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 364.21
+   },
+   {
+    "time": "2026-09-25",
+    "value": 372.21
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 210.73
+   },
+   {
+    "time": "2026-09-25",
+    "value": 213.15
    }
   ]
  },
  "technicals": {
-  "rsi_14": 81.83,
-  "atr_pct": 5.28,
-  "rel_volume_20d": 0.16,
-  "dist_20dma_pct": 32.68,
-  "dist_50dma_pct": 85.29,
-  "dist_200dma_pct": 220.25
+  "rsi_14": 76.79,
+  "atr_pct": 5.42,
+  "rel_volume_20d": 0.08,
+  "dist_20dma_pct": 24.61,
+  "dist_50dma_pct": 76.14,
+  "dist_200dma_pct": 207.58
  }
 }

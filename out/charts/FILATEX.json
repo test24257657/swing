@@ -2,7 +2,7 @@
  "symbol": "FILATEX",
  "name": "Filatex India Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 105.32,
    "volume": 4644101,
    "delivery_pct": 45.72
+  },
+  {
+   "time": "2026-09-25",
+   "open": 106.0,
+   "high": 109.3,
+   "low": 104.0,
+   "close": 106.94,
+   "volume": 6901260,
+   "delivery_pct": 56.37
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 84.86
+   },
+   {
+    "time": "2026-09-25",
+    "value": 86.29
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 80.77
+   },
+   {
+    "time": "2026-09-25",
+    "value": 81.45
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 55.61
+   },
+   {
+    "time": "2026-09-25",
+    "value": 55.89
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.17,
-  "atr_pct": 5.68,
-  "rel_volume_20d": 0.68,
-  "dist_20dma_pct": 24.11,
-  "dist_50dma_pct": 30.39,
-  "dist_200dma_pct": 89.38
+  "rsi_14": 72.19,
+  "atr_pct": 5.55,
+  "rel_volume_20d": 1.06,
+  "dist_20dma_pct": 23.93,
+  "dist_50dma_pct": 31.3,
+  "dist_200dma_pct": 91.34
  }
 }

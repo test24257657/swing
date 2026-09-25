@@ -2,7 +2,7 @@
  "symbol": "SMSPHARMA",
  "name": "SMS Pharmaceuticals Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 474.05,
    "volume": 510891,
    "delivery_pct": 38.59
+  },
+  {
+   "time": "2026-09-25",
+   "open": 475.9,
+   "high": 481.05,
+   "low": 470.0,
+   "close": 475.0,
+   "volume": 361831,
+   "delivery_pct": 38.51
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 412.99
+   },
+   {
+    "time": "2026-09-25",
+    "value": 418.61
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 388.13
+   },
+   {
+    "time": "2026-09-25",
+    "value": 389.88
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 372.91
+   },
+   {
+    "time": "2026-09-25",
+    "value": 373.69
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.83,
-  "atr_pct": 4.92,
-  "rel_volume_20d": 0.34,
-  "dist_20dma_pct": 14.79,
-  "dist_50dma_pct": 22.14,
-  "dist_200dma_pct": 27.12
+  "rsi_14": 68.01,
+  "atr_pct": 4.73,
+  "rel_volume_20d": 0.24,
+  "dist_20dma_pct": 13.47,
+  "dist_50dma_pct": 21.83,
+  "dist_200dma_pct": 27.11
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "UNIDT",
  "name": "United Drilling Tools Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 259.76,
    "volume": 645371,
    "delivery_pct": 43.64
+  },
+  {
+   "time": "2026-09-25",
+   "open": 257.73,
+   "high": 260.82,
+   "low": 238.24,
+   "close": 241.71,
+   "volume": 139221,
+   "delivery_pct": 61.52
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 225.55
+   },
+   {
+    "time": "2026-09-25",
+    "value": 227.0
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 226.21
+   },
+   {
+    "time": "2026-09-25",
+    "value": 226.49
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 207.56
+   },
+   {
+    "time": "2026-09-25",
+    "value": 207.79
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.97,
-  "atr_pct": 6.28,
-  "rel_volume_20d": 17.97,
-  "dist_20dma_pct": 15.17,
-  "dist_50dma_pct": 14.83,
-  "dist_200dma_pct": 25.15
+  "rsi_14": 56.67,
+  "atr_pct": 6.93,
+  "rel_volume_20d": 2.05,
+  "dist_20dma_pct": 6.48,
+  "dist_50dma_pct": 6.72,
+  "dist_200dma_pct": 16.32
  }
 }

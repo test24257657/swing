@@ -2,7 +2,7 @@
  "symbol": "STEELCAS",
  "name": "Steelcast Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 357.8,
    "volume": 173791,
    "delivery_pct": 50.85
+  },
+  {
+   "time": "2026-09-25",
+   "open": 358.95,
+   "high": 390.9,
+   "low": 356.3,
+   "close": 376.5,
+   "volume": 1078414,
+   "delivery_pct": 31.41
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 330.05
+   },
+   {
+    "time": "2026-09-25",
+    "value": 331.88
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 329.31
+   },
+   {
+    "time": "2026-09-25",
+    "value": 330.78
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 270.52
+   },
+   {
+    "time": "2026-09-25",
+    "value": 271.32
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.24,
-  "atr_pct": 4.66,
-  "rel_volume_20d": 1.01,
-  "dist_20dma_pct": 8.41,
-  "dist_50dma_pct": 8.65,
-  "dist_200dma_pct": 32.27
+  "rsi_14": 67.86,
+  "atr_pct": 4.77,
+  "rel_volume_20d": 6.06,
+  "dist_20dma_pct": 13.44,
+  "dist_50dma_pct": 13.82,
+  "dist_200dma_pct": 38.76
  }
 }

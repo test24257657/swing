@@ -2,7 +2,7 @@
  "symbol": "BODALCHEM",
  "name": "Bodal Chemicals Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 195.08,
    "volume": 2298596,
    "delivery_pct": 41.37
+  },
+  {
+   "time": "2026-09-25",
+   "open": 197.03,
+   "high": 204.0,
+   "low": 192.58,
+   "close": 202.02,
+   "volume": 1397350,
+   "delivery_pct": 55.99
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 163.42
+   },
+   {
+    "time": "2026-09-25",
+    "value": 168.79
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 108.08
+   },
+   {
+    "time": "2026-09-25",
+    "value": 110.87
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 70.55
+   },
+   {
+    "time": "2026-09-25",
+    "value": 71.3
    }
   ]
  },
  "technicals": {
-  "rsi_14": 76.54,
-  "atr_pct": 5.48,
-  "rel_volume_20d": 0.42,
-  "dist_20dma_pct": 19.38,
-  "dist_50dma_pct": 80.5,
-  "dist_200dma_pct": 176.49
+  "rsi_14": 78.37,
+  "atr_pct": 5.32,
+  "rel_volume_20d": 0.25,
+  "dist_20dma_pct": 19.68,
+  "dist_50dma_pct": 82.21,
+  "dist_200dma_pct": 183.33
  }
 }

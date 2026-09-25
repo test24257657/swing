@@ -2,7 +2,7 @@
  "symbol": "LIQUIDCASE",
  "name": "LIQUIDCASE",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 116.06,
    "volume": 17169903,
    "delivery_pct": 91.34
+  },
+  {
+   "time": "2026-09-25",
+   "open": 116.11,
+   "high": 116.11,
+   "low": 116.09,
+   "close": 116.1,
+   "volume": 16875461,
+   "delivery_pct": 81.6
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 115.86
+   },
+   {
+    "time": "2026-09-25",
+    "value": 115.88
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 115.55
+   },
+   {
+    "time": "2026-09-25",
+    "value": 115.57
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 113.88
+   },
+   {
+    "time": "2026-09-25",
+    "value": 113.9
    }
   ]
  },
  "technicals": {
   "rsi_14": 100.0,
   "atr_pct": 0.03,
-  "rel_volume_20d": 0.96,
-  "dist_20dma_pct": 0.17,
-  "dist_50dma_pct": 0.44,
-  "dist_200dma_pct": 1.92
+  "rel_volume_20d": 0.94,
+  "dist_20dma_pct": 0.19,
+  "dist_50dma_pct": 0.46,
+  "dist_200dma_pct": 1.93
  }
 }

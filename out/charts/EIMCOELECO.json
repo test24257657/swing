@@ -2,7 +2,7 @@
  "symbol": "EIMCOELECO",
  "name": "Eimco Elecon (India) Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 2304.4,
    "volume": 29400,
    "delivery_pct": 49.33
+  },
+  {
+   "time": "2026-09-25",
+   "open": 2324.8,
+   "high": 2324.8,
+   "low": 2272.8,
+   "close": 2301.6,
+   "volume": 16786,
+   "delivery_pct": 47.3
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 2252.58
+   },
+   {
+    "time": "2026-09-25",
+    "value": 2257.1
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 2055.71
+   },
+   {
+    "time": "2026-09-25",
+    "value": 2064.29
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 1728.04
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1731.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.21,
-  "atr_pct": 3.58,
-  "rel_volume_20d": 1.09,
-  "dist_20dma_pct": 2.3,
-  "dist_50dma_pct": 12.1,
-  "dist_200dma_pct": 33.35
+  "rsi_14": 61.8,
+  "atr_pct": 3.49,
+  "rel_volume_20d": 0.62,
+  "dist_20dma_pct": 1.97,
+  "dist_50dma_pct": 11.5,
+  "dist_200dma_pct": 32.92
  }
 }

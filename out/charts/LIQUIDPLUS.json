@@ -2,7 +2,7 @@
  "symbol": "LIQUIDPLUS",
  "name": "LIQUIDPLUS",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 1104.49,
    "volume": 1037533,
    "delivery_pct": 94.39
+  },
+  {
+   "time": "2026-09-25",
+   "open": 1104.94,
+   "high": 1104.96,
+   "low": 1104.94,
+   "close": 1104.95,
+   "volume": 335120,
+   "delivery_pct": 74.47
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 1102.64
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1102.86
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 1099.64
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1099.85
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 1083.59
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1083.81
    }
   ]
  },
  "technicals": {
   "rsi_14": 100.0,
-  "atr_pct": 0.06,
-  "rel_volume_20d": 2.7,
-  "dist_20dma_pct": 0.17,
-  "dist_50dma_pct": 0.44,
-  "dist_200dma_pct": 1.93
+  "atr_pct": 0.05,
+  "rel_volume_20d": 0.8,
+  "dist_20dma_pct": 0.19,
+  "dist_50dma_pct": 0.46,
+  "dist_200dma_pct": 1.95
  }
 }

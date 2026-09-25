@@ -2,7 +2,7 @@
  "symbol": "ACE",
  "name": "Action Construction Equipment Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 1241.0,
    "volume": 270648,
    "delivery_pct": 47.26
+  },
+  {
+   "time": "2026-09-25",
+   "open": 1242.0,
+   "high": 1250.0,
+   "low": 1212.1,
+   "close": 1226.6,
+   "volume": 184368,
+   "delivery_pct": 43.59
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 1156.9
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1161.43
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 1116.09
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1120.55
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 955.86
+   },
+   {
+    "time": "2026-09-25",
+    "value": 957.13
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.47,
-  "atr_pct": 3.26,
-  "rel_volume_20d": 0.77,
-  "dist_20dma_pct": 7.27,
-  "dist_50dma_pct": 11.19,
-  "dist_200dma_pct": 29.83
+  "rsi_14": 64.25,
+  "atr_pct": 3.28,
+  "rel_volume_20d": 0.51,
+  "dist_20dma_pct": 5.61,
+  "dist_50dma_pct": 9.46,
+  "dist_200dma_pct": 28.15
  }
 }

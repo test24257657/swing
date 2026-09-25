@@ -2,7 +2,7 @@
  "symbol": "INVPRECQ",
  "name": "Investment & Precision Castings Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2026-04-20",
@@ -993,6 +993,15 @@
    "close": 1451.6,
    "volume": 8247,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-25",
+   "open": 1480.6,
+   "high": 1480.6,
+   "low": 1474.0,
+   "close": 1480.6,
+   "volume": 5695,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1360,6 +1369,10 @@
    {
     "time": "2026-09-24",
     "value": 1340.05
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1349.83
    }
   ],
   "sma_50": [
@@ -1606,15 +1619,19 @@
    {
     "time": "2026-09-24",
     "value": 1198.39
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1211.63
    }
   ]
  },
  "technicals": {
-  "rsi_14": 77.99,
-  "atr_pct": 2.14,
-  "rel_volume_20d": 3.1,
-  "dist_20dma_pct": 8.32,
-  "dist_50dma_pct": 21.13,
+  "rsi_14": 80.26,
+  "atr_pct": 2.09,
+  "rel_volume_20d": 1.89,
+  "dist_20dma_pct": 9.69,
+  "dist_50dma_pct": 22.2,
   "dist_200dma_pct": null
  }
 }

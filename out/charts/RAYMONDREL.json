@@ -2,7 +2,7 @@
  "symbol": "RAYMONDREL",
  "name": "Raymond Realty Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 708.3,
    "volume": 18194912,
    "delivery_pct": 8.97
+  },
+  {
+   "time": "2026-09-25",
+   "open": 702.0,
+   "high": 741.95,
+   "low": 701.5,
+   "close": 711.3,
+   "volume": 8688746,
+   "delivery_pct": 10.2
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 574.63
+   },
+   {
+    "time": "2026-09-25",
+    "value": 581.93
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 610.02
+   },
+   {
+    "time": "2026-09-25",
+    "value": 610.26
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 530.17
+   },
+   {
+    "time": "2026-09-25",
+    "value": 531.24
    }
   ]
  },
  "technicals": {
-  "rsi_14": 73.85,
-  "atr_pct": 4.71,
-  "rel_volume_20d": 14.67,
-  "dist_20dma_pct": 23.26,
-  "dist_50dma_pct": 16.11,
-  "dist_200dma_pct": 33.6
+  "rsi_14": 74.18,
+  "atr_pct": 4.76,
+  "rel_volume_20d": 4.05,
+  "dist_20dma_pct": 22.23,
+  "dist_50dma_pct": 16.56,
+  "dist_200dma_pct": 33.89
  }
 }

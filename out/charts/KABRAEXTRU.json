@@ -2,7 +2,7 @@
  "symbol": "KABRAEXTRU",
  "name": "Kabra Extrusion Technik Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 806.1,
    "volume": 520858,
    "delivery_pct": 49.94
+  },
+  {
+   "time": "2026-09-25",
+   "open": 846.4,
+   "high": 846.4,
+   "low": 807.0,
+   "close": 846.4,
+   "volume": 454583,
+   "delivery_pct": 51.46
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 646.79
+   },
+   {
+    "time": "2026-09-25",
+    "value": 659.63
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 530.2
+   },
+   {
+    "time": "2026-09-25",
+    "value": 540.52
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 308.82
+   },
+   {
+    "time": "2026-09-25",
+    "value": 311.86
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.54,
-  "atr_pct": 5.5,
-  "rel_volume_20d": 1.63,
-  "dist_20dma_pct": 24.63,
-  "dist_50dma_pct": 52.04,
-  "dist_200dma_pct": 161.03
+  "rsi_14": 77.04,
+  "atr_pct": 5.2,
+  "rel_volume_20d": 1.35,
+  "dist_20dma_pct": 28.31,
+  "dist_50dma_pct": 56.59,
+  "dist_200dma_pct": 171.4
  }
 }

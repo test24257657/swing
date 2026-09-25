@@ -2,7 +2,7 @@
  "symbol": "RGL",
  "name": "Renaissance Global Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 166.3,
    "volume": 1450286,
    "delivery_pct": 38.27
+  },
+  {
+   "time": "2026-09-25",
+   "open": 165.0,
+   "high": 169.74,
+   "low": 164.37,
+   "close": 167.47,
+   "volume": 471415,
+   "delivery_pct": 34.87
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 149.9
+   },
+   {
+    "time": "2026-09-25",
+    "value": 151.59
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 133.25
+   },
+   {
+    "time": "2026-09-25",
+    "value": 134.2
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 117.35
+   },
+   {
+    "time": "2026-09-25",
+    "value": 117.58
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.23,
-  "atr_pct": 5.44,
-  "rel_volume_20d": 0.38,
-  "dist_20dma_pct": 10.94,
-  "dist_50dma_pct": 24.8,
-  "dist_200dma_pct": 41.71
+  "rsi_14": 64.84,
+  "atr_pct": 5.24,
+  "rel_volume_20d": 0.25,
+  "dist_20dma_pct": 10.48,
+  "dist_50dma_pct": 24.79,
+  "dist_200dma_pct": 42.43
  }
 }

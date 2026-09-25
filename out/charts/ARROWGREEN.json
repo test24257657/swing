@@ -2,7 +2,7 @@
  "symbol": "ARROWGREEN",
  "name": "Arrow Greentech Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 895.95,
    "volume": 30653,
    "delivery_pct": 51.74
+  },
+  {
+   "time": "2026-09-25",
+   "open": 900.0,
+   "high": 918.8,
+   "low": 875.0,
+   "close": 905.8,
+   "volume": 43393,
+   "delivery_pct": 46.53
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 815.82
+   },
+   {
+    "time": "2026-09-25",
+    "value": 826.65
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 762.93
+   },
+   {
+    "time": "2026-09-25",
+    "value": 767.17
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 568.99
+   },
+   {
+    "time": "2026-09-25",
+    "value": 570.9
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.31,
-  "atr_pct": 4.93,
-  "rel_volume_20d": 0.52,
-  "dist_20dma_pct": 9.82,
-  "dist_50dma_pct": 17.44,
-  "dist_200dma_pct": 57.46
+  "rsi_14": 68.63,
+  "atr_pct": 4.88,
+  "rel_volume_20d": 0.73,
+  "dist_20dma_pct": 9.57,
+  "dist_50dma_pct": 18.07,
+  "dist_200dma_pct": 58.66
  }
 }

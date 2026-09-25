@@ -2,7 +2,7 @@
  "symbol": "MUKANDLTD",
  "name": "Mukand Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 155.26,
    "volume": 1025053,
    "delivery_pct": 39.36
+  },
+  {
+   "time": "2026-09-25",
+   "open": 154.04,
+   "high": 167.95,
+   "low": 152.0,
+   "close": 167.05,
+   "volume": 1109036,
+   "delivery_pct": 39.37
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 138.71
+   },
+   {
+    "time": "2026-09-25",
+    "value": 140.25
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 139.29
+   },
+   {
+    "time": "2026-09-25",
+    "value": 139.71
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 134.07
+   },
+   {
+    "time": "2026-09-25",
+    "value": 134.24
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.88,
-  "atr_pct": 3.55,
-  "rel_volume_20d": 4.81,
-  "dist_20dma_pct": 11.93,
-  "dist_50dma_pct": 11.46,
-  "dist_200dma_pct": 15.8
+  "rsi_14": 78.9,
+  "atr_pct": 3.75,
+  "rel_volume_20d": 4.25,
+  "dist_20dma_pct": 19.11,
+  "dist_50dma_pct": 19.57,
+  "dist_200dma_pct": 24.44
  }
 }

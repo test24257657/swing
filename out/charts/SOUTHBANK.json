@@ -2,7 +2,7 @@
  "symbol": "SOUTHBANK",
  "name": "The South Indian Bank Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 49.9,
    "volume": 57683718,
    "delivery_pct": 43.89
+  },
+  {
+   "time": "2026-09-25",
+   "open": 50.05,
+   "high": 50.68,
+   "low": 49.01,
+   "close": 49.95,
+   "volume": 28889000,
+   "delivery_pct": 39.29
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 46.27
+   },
+   {
+    "time": "2026-09-25",
+    "value": 46.48
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 46.26
+   },
+   {
+    "time": "2026-09-25",
+    "value": 46.35
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 42.33
+   },
+   {
+    "time": "2026-09-25",
+    "value": 42.38
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.04,
-  "atr_pct": 2.77,
-  "rel_volume_20d": 6.11,
-  "dist_20dma_pct": 7.86,
-  "dist_50dma_pct": 7.87,
-  "dist_200dma_pct": 17.88
+  "rsi_14": 69.21,
+  "atr_pct": 2.8,
+  "rel_volume_20d": 2.42,
+  "dist_20dma_pct": 7.47,
+  "dist_50dma_pct": 7.76,
+  "dist_200dma_pct": 17.86
  }
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T18:55:57+05:30",
+ "generated_at": "2026-09-25T18:42:08+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -26,9 +26,9 @@
     "2026-09-14"
    ],
    "phantom_sessions_dropped": [],
-   "symbols": 3077,
-   "sessions": 247,
-   "rows": 648367
+   "symbols": 3079,
+   "sessions": 248,
+   "rows": 651293
   },
   "tiles": {
    "ok": 4,
@@ -42,7 +42,7 @@
   },
   "fii_dii": {
    "ok": true,
-   "sessions": 9,
+   "sessions": 10,
    "added_today": 1
   },
   "movers": {
@@ -52,8 +52,8 @@
   },
   "screener": {
    "ok": true,
-   "symbols_scanned": 2684,
-   "symbols_matched": 262
+   "symbols_scanned": 2691,
+   "symbols_matched": 273
   },
   "sectors": {
    "ok": true,
@@ -63,11 +63,11 @@
   },
   "daily_scan": {
    "ok": true,
-   "rated": 2232,
-   "trend_template": 400,
-   "ready": 29,
+   "rated": 2231,
+   "trend_template": 413,
+   "ready": 41,
    "delivery_spikes": 0,
-   "pocket_pivots": 26
+   "pocket_pivots": 43
   },
   "indices": {
    "ok": true,
@@ -76,16 +76,16 @@
   },
   "charts": {
    "ok": true,
-   "count": 294
+   "count": 304
   },
   "fundamentals": {
    "ok": true,
-   "symbols": 271,
-   "written": 223
+   "symbols": 281,
+   "written": 232
   },
   "quotes": {
    "ok": true,
-   "count": 2927
+   "count": 2926
   },
   "alerts": {
    "ok": false,
@@ -94,45 +94,49 @@
   },
   "news": {
    "ok": true,
-   "fetched": 70,
-   "classified": 0,
+   "fetched": 73,
+   "classified": 20,
    "gemini_configured": true
   },
   "institutional": {
    "ok": true,
-   "deals": 255,
+   "deals": 256,
    "participant_oi_sessions": 30,
-   "ai_money_flow": false
+   "ai_money_flow": true
   },
   "fno": {
    "ok": false,
-   "symbols": 271,
+   "symbols": 281,
    "written": 0
   },
   "depth": {
    "ok": false,
-   "symbols": 271,
+   "symbols": 281,
    "written": 0
   },
   "ai_insights": {
    "ok": true,
-   "universe": 271,
+   "universe": 281,
    "scoped": 150,
    "eligible": 148,
-   "written": 30,
+   "written": 45,
    "gemini_calls": 10
   },
   "ai_top_picks": {
    "ok": true,
    "source": "rules",
-   "eligible": 7,
+   "eligible": 11,
    "picks": 5
+  },
+  "weekly_outlook": {
+   "ok": false,
+   "reason": "gemini_unavailable"
   },
   "results_calendar": {
    "ok": true,
-   "upcoming": 29,
-   "past_candidates": 44,
-   "judged": 8,
+   "upcoming": 34,
+   "past_candidates": 40,
+   "judged": 6,
    "good": 0
   }
  }

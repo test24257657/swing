@@ -2,7 +2,7 @@
  "symbol": "MEDANTA",
  "name": "Global Health Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 1506.2,
    "volume": 171482,
    "delivery_pct": 56.46
+  },
+  {
+   "time": "2026-09-25",
+   "open": 1506.0,
+   "high": 1509.7,
+   "low": 1479.9,
+   "close": 1495.4,
+   "volume": 158143,
+   "delivery_pct": 52.1
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 1461.68
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1461.0
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 1428.35
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1431.62
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 1229.51
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1230.93
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.93,
-  "atr_pct": 3.05,
+  "rsi_14": 56.91,
+  "atr_pct": 3.0,
   "rel_volume_20d": 0.51,
-  "dist_20dma_pct": 3.05,
-  "dist_50dma_pct": 5.45,
-  "dist_200dma_pct": 22.5
+  "dist_20dma_pct": 2.35,
+  "dist_50dma_pct": 4.46,
+  "dist_200dma_pct": 21.49
  }
 }

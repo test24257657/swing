@@ -2,7 +2,7 @@
  "symbol": "RHIM",
  "name": "RHI MAGNESITA INDIA LIMITED",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 383.8,
    "volume": 551183,
    "delivery_pct": 49.99
+  },
+  {
+   "time": "2026-09-25",
+   "open": 385.0,
+   "high": 388.05,
+   "low": 378.3,
+   "close": 386.45,
+   "volume": 281131,
+   "delivery_pct": 35.09
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 372.38
+   },
+   {
+    "time": "2026-09-25",
+    "value": 373.19
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 385.72
+   },
+   {
+    "time": "2026-09-25",
+    "value": 385.33
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 404.71
+   },
+   {
+    "time": "2026-09-25",
+    "value": 404.35
    }
   ]
  },
  "technicals": {
-  "rsi_14": 55.68,
-  "atr_pct": 2.99,
-  "rel_volume_20d": 0.55,
-  "dist_20dma_pct": 3.07,
-  "dist_50dma_pct": -0.5,
-  "dist_200dma_pct": -5.17
+  "rsi_14": 57.51,
+  "atr_pct": 2.94,
+  "rel_volume_20d": 0.27,
+  "dist_20dma_pct": 3.55,
+  "dist_50dma_pct": 0.29,
+  "dist_200dma_pct": -4.43
  }
 }

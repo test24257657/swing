@@ -2,7 +2,7 @@
  "symbol": "LAMBODHARA",
  "name": "Lambodhara Textiles Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 139.46,
    "volume": 393605,
    "delivery_pct": 17.64
+  },
+  {
+   "time": "2026-09-25",
+   "open": 147.0,
+   "high": 154.5,
+   "low": 141.05,
+   "close": 144.57,
+   "volume": 644953,
+   "delivery_pct": 14.55
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 131.63
+   },
+   {
+    "time": "2026-09-25",
+    "value": 131.83
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 122.36
+   },
+   {
+    "time": "2026-09-25",
+    "value": 122.91
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 112.38
+   },
+   {
+    "time": "2026-09-25",
+    "value": 112.46
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.75,
-  "atr_pct": 5.7,
-  "rel_volume_20d": 17.75,
-  "dist_20dma_pct": 5.95,
-  "dist_50dma_pct": 13.97,
-  "dist_200dma_pct": 24.1
+  "rsi_14": 63.86,
+  "atr_pct": 5.85,
+  "rel_volume_20d": 17.18,
+  "dist_20dma_pct": 9.67,
+  "dist_50dma_pct": 17.63,
+  "dist_200dma_pct": 28.56
  }
 }

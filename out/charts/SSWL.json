@@ -2,7 +2,7 @@
  "symbol": "SSWL",
  "name": "Steel Strips Wheels Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 376.1,
    "volume": 1355247,
    "delivery_pct": 30.7
+  },
+  {
+   "time": "2026-09-25",
+   "open": 378.9,
+   "high": 394.3,
+   "low": 372.9,
+   "close": 378.75,
+   "volume": 1650357,
+   "delivery_pct": 31.92
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 353.38
+   },
+   {
+    "time": "2026-09-25",
+    "value": 357.69
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 321.35
+   },
+   {
+    "time": "2026-09-25",
+    "value": 323.61
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 237.18
+   },
+   {
+    "time": "2026-09-25",
+    "value": 238.1
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.46,
-  "atr_pct": 4.95,
-  "rel_volume_20d": 0.5,
-  "dist_20dma_pct": 6.43,
+  "rsi_14": 65.31,
+  "atr_pct": 4.97,
+  "rel_volume_20d": 0.6,
+  "dist_20dma_pct": 5.89,
   "dist_50dma_pct": 17.04,
-  "dist_200dma_pct": 58.57
+  "dist_200dma_pct": 59.07
  }
 }

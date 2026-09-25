@@ -2,7 +2,7 @@
  "symbol": "TALBROAUTO",
  "name": "Talbros Automotive Components Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 466.0,
    "volume": 265580,
    "delivery_pct": 41.2
+  },
+  {
+   "time": "2026-09-25",
+   "open": 466.0,
+   "high": 472.7,
+   "low": 452.1,
+   "close": 457.35,
+   "volume": 217822,
+   "delivery_pct": 38.62
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 430.36
+   },
+   {
+    "time": "2026-09-25",
+    "value": 432.8
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 419.86
+   },
+   {
+    "time": "2026-09-25",
+    "value": 421.03
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 329.39
+   },
+   {
+    "time": "2026-09-25",
+    "value": 330.27
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.25,
-  "atr_pct": 4.21,
-  "rel_volume_20d": 0.74,
-  "dist_20dma_pct": 8.28,
-  "dist_50dma_pct": 10.99,
-  "dist_200dma_pct": 41.48
+  "rsi_14": 60.36,
+  "atr_pct": 4.3,
+  "rel_volume_20d": 0.6,
+  "dist_20dma_pct": 5.67,
+  "dist_50dma_pct": 8.63,
+  "dist_200dma_pct": 38.48
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "CAPLIPOINT",
  "name": "Caplin Point Laboratories Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 2867.4,
    "volume": 1241321,
    "delivery_pct": 10.71
+  },
+  {
+   "time": "2026-09-25",
+   "open": 2867.0,
+   "high": 2909.6,
+   "low": 2785.0,
+   "close": 2835.1,
+   "volume": 181149,
+   "delivery_pct": 20.45
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 2710.71
+   },
+   {
+    "time": "2026-09-25",
+    "value": 2725.43
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 2616.21
+   },
+   {
+    "time": "2026-09-25",
+    "value": 2619.48
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 2096.18
+   },
+   {
+    "time": "2026-09-25",
+    "value": 2100.91
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.74,
-  "atr_pct": 3.8,
-  "rel_volume_20d": 4.56,
-  "dist_20dma_pct": 5.78,
-  "dist_50dma_pct": 9.6,
-  "dist_200dma_pct": 36.79
+  "rsi_14": 60.8,
+  "atr_pct": 3.88,
+  "rel_volume_20d": 0.55,
+  "dist_20dma_pct": 4.02,
+  "dist_50dma_pct": 8.23,
+  "dist_200dma_pct": 34.95
  }
 }

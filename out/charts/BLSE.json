@@ -2,7 +2,7 @@
  "symbol": "BLSE",
  "name": "BLS E-Services Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 326.7,
    "volume": 346574,
    "delivery_pct": 34.77
+  },
+  {
+   "time": "2026-09-25",
+   "open": 328.45,
+   "high": 333.0,
+   "low": 322.0,
+   "close": 324.55,
+   "volume": 242706,
+   "delivery_pct": 37.63
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 320.15
+   },
+   {
+    "time": "2026-09-25",
+    "value": 320.68
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 308.2
+   },
+   {
+    "time": "2026-09-25",
+    "value": 309.31
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 220.82
+   },
+   {
+    "time": "2026-09-25",
+    "value": 221.37
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.67,
-  "atr_pct": 3.39,
-  "rel_volume_20d": 0.96,
-  "dist_20dma_pct": 2.04,
-  "dist_50dma_pct": 6.0,
-  "dist_200dma_pct": 47.95
+  "rsi_14": 58.18,
+  "atr_pct": 3.41,
+  "rel_volume_20d": 0.66,
+  "dist_20dma_pct": 1.21,
+  "dist_50dma_pct": 4.93,
+  "dist_200dma_pct": 46.61
  }
 }

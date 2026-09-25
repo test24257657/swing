@@ -2,7 +2,7 @@
  "symbol": "SMALLCAP",
  "name": "SMALLCAP",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 48.51,
    "volume": 2008823,
    "delivery_pct": 61.78
+  },
+  {
+   "time": "2026-09-25",
+   "open": 48.69,
+   "high": 48.78,
+   "low": 48.35,
+   "close": 48.69,
+   "volume": 607893,
+   "delivery_pct": 43.27
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 48.86
+   },
+   {
+    "time": "2026-09-25",
+    "value": 48.84
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 48.27
+   },
+   {
+    "time": "2026-09-25",
+    "value": 48.29
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 44.6
+   },
+   {
+    "time": "2026-09-25",
+    "value": 44.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 48.58,
-  "atr_pct": 2.01,
-  "rel_volume_20d": 1.03,
-  "dist_20dma_pct": -0.72,
-  "dist_50dma_pct": 0.51,
-  "dist_200dma_pct": 8.77
+  "rsi_14": 50.53,
+  "atr_pct": 1.92,
+  "rel_volume_20d": 0.31,
+  "dist_20dma_pct": -0.31,
+  "dist_50dma_pct": 0.83,
+  "dist_200dma_pct": 9.12
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "KTKBANK",
  "name": "The Karnataka Bank Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 338.15,
    "volume": 2049219,
    "delivery_pct": 48.89
+  },
+  {
+   "time": "2026-09-25",
+   "open": 338.15,
+   "high": 340.7,
+   "low": 333.25,
+   "close": 335.5,
+   "volume": 680592,
+   "delivery_pct": 46.38
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 328.99
+   },
+   {
+    "time": "2026-09-25",
+    "value": 329.41
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 311.88
+   },
+   {
+    "time": "2026-09-25",
+    "value": 313.12
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 250.89
+   },
+   {
+    "time": "2026-09-25",
+    "value": 251.51
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.29,
-  "atr_pct": 3.08,
-  "rel_volume_20d": 0.91,
-  "dist_20dma_pct": 2.78,
-  "dist_50dma_pct": 8.42,
-  "dist_200dma_pct": 34.78
+  "rsi_14": 58.11,
+  "atr_pct": 3.04,
+  "rel_volume_20d": 0.31,
+  "dist_20dma_pct": 1.85,
+  "dist_50dma_pct": 7.15,
+  "dist_200dma_pct": 33.39
  }
 }

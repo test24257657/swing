@@ -2,7 +2,7 @@
  "symbol": "PHARMABEES",
  "name": "PHARMABEES",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 27.8,
    "volume": 4033114,
    "delivery_pct": 58.23
+  },
+  {
+   "time": "2026-09-25",
+   "open": 28.4,
+   "high": 28.4,
+   "low": 27.64,
+   "close": 27.8,
+   "volume": 4149103,
+   "delivery_pct": 69.76
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 27.48
+   },
+   {
+    "time": "2026-09-25",
+    "value": 27.5
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 27.22
+   },
+   {
+    "time": "2026-09-25",
+    "value": 27.24
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 24.7
+   },
+   {
+    "time": "2026-09-25",
+    "value": 24.72
    }
   ]
  },
  "technicals": {
   "rsi_14": 60.11,
-  "atr_pct": 2.91,
-  "rel_volume_20d": 0.96,
-  "dist_20dma_pct": 1.15,
-  "dist_50dma_pct": 2.12,
-  "dist_200dma_pct": 12.56
+  "atr_pct": 2.9,
+  "rel_volume_20d": 0.98,
+  "dist_20dma_pct": 1.1,
+  "dist_50dma_pct": 2.04,
+  "dist_200dma_pct": 12.46
  }
 }

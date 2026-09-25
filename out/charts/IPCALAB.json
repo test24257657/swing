@@ -2,7 +2,7 @@
  "symbol": "IPCALAB",
  "name": "IPCA Laboratories Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 1997.1,
    "volume": 272964,
    "delivery_pct": 37.04
+  },
+  {
+   "time": "2026-09-25",
+   "open": 2020.0,
+   "high": 2020.0,
+   "low": 1950.0,
+   "close": 1970.8,
+   "volume": 263825,
+   "delivery_pct": 55.08
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 1970.15
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1970.7
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 1873.42
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1875.04
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 1617.18
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1619.81
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.95,
-  "atr_pct": 2.69,
+  "rsi_14": 55.4,
+  "atr_pct": 2.79,
   "rel_volume_20d": 1.12,
-  "dist_20dma_pct": 1.37,
-  "dist_50dma_pct": 6.6,
-  "dist_200dma_pct": 23.49
+  "dist_20dma_pct": 0.0,
+  "dist_50dma_pct": 5.11,
+  "dist_200dma_pct": 21.67
  }
 }

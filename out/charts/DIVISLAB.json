@@ -2,7 +2,7 @@
  "symbol": "DIVISLAB",
  "name": "Divi's Laboratories Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 9602.0,
    "volume": 666667,
    "delivery_pct": 58.87
+  },
+  {
+   "time": "2026-09-25",
+   "open": 9602.0,
+   "high": 9668.5,
+   "low": 9530.0,
+   "close": 9619.5,
+   "volume": 388859,
+   "delivery_pct": 69.03
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 9334.1
+   },
+   {
+    "time": "2026-09-25",
+    "value": 9362.08
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 8596.81
+   },
+   {
+    "time": "2026-09-25",
+    "value": 8642.88
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 6963.23
+   },
+   {
+    "time": "2026-09-25",
+    "value": 6979.06
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.68,
-  "atr_pct": 2.09,
-  "rel_volume_20d": 1.27,
-  "dist_20dma_pct": 2.87,
-  "dist_50dma_pct": 11.69,
-  "dist_200dma_pct": 37.9
+  "rsi_14": 67.07,
+  "atr_pct": 2.04,
+  "rel_volume_20d": 0.74,
+  "dist_20dma_pct": 2.75,
+  "dist_50dma_pct": 11.3,
+  "dist_200dma_pct": 37.83
  }
 }

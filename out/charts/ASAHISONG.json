@@ -2,7 +2,7 @@
  "symbol": "ASAHISONG",
  "name": "Asahi Songwon Colors Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 388.0,
    "volume": 12997,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-25",
+   "open": 388.0,
+   "high": 404.4,
+   "low": 382.1,
+   "close": 402.75,
+   "volume": 33093,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 373.28
+   },
+   {
+    "time": "2026-09-25",
+    "value": 375.12
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 357.03
+   },
+   {
+    "time": "2026-09-25",
+    "value": 359.64
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 269.34
+   },
+   {
+    "time": "2026-09-25",
+    "value": 270.07
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.9,
-  "atr_pct": 4.68,
-  "rel_volume_20d": 0.94,
-  "dist_20dma_pct": 3.94,
-  "dist_50dma_pct": 8.67,
-  "dist_200dma_pct": 44.06
+  "rsi_14": 63.6,
+  "atr_pct": 4.58,
+  "rel_volume_20d": 2.35,
+  "dist_20dma_pct": 7.37,
+  "dist_50dma_pct": 11.99,
+  "dist_200dma_pct": 49.13
  }
 }

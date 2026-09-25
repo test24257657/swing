@@ -2,7 +2,7 @@
  "symbol": "MAXESTATES",
  "name": "Max Estates Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 616.8,
    "volume": 1371303,
    "delivery_pct": 20.02
+  },
+  {
+   "time": "2026-09-25",
+   "open": 616.9,
+   "high": 625.45,
+   "low": 589.1,
+   "close": 594.65,
+   "volume": 156458,
+   "delivery_pct": 40.98
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 558.98
+   },
+   {
+    "time": "2026-09-25",
+    "value": 560.79
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 483.62
+   },
+   {
+    "time": "2026-09-25",
+    "value": 487.14
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 430.66
+   },
+   {
+    "time": "2026-09-25",
+    "value": 431.27
    }
   ]
  },
  "technicals": {
-  "rsi_14": 79.22,
-  "atr_pct": 4.2,
-  "rel_volume_20d": 6.5,
-  "dist_20dma_pct": 10.34,
-  "dist_50dma_pct": 27.54,
-  "dist_200dma_pct": 43.22
+  "rsi_14": 66.98,
+  "atr_pct": 4.48,
+  "rel_volume_20d": 0.63,
+  "dist_20dma_pct": 6.04,
+  "dist_50dma_pct": 22.07,
+  "dist_200dma_pct": 37.88
  }
 }

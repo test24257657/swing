@@ -2,7 +2,7 @@
  "symbol": "DRREDDY",
  "name": "Dr. Reddy's Laboratories Limited",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 1200.4,
    "volume": 1667696,
    "delivery_pct": 65.03
+  },
+  {
+   "time": "2026-09-25",
+   "open": 1204.5,
+   "high": 1207.8,
+   "low": 1193.4,
+   "close": 1201.0,
+   "volume": 1001238,
+   "delivery_pct": 61.1
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 1167.88
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1169.08
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 1174.94
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1174.47
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 1248.65
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1248.25
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.52,
-  "atr_pct": 1.92,
-  "rel_volume_20d": 1.21,
-  "dist_20dma_pct": 2.78,
-  "dist_50dma_pct": 2.17,
-  "dist_200dma_pct": -3.86
+  "rsi_14": 57.69,
+  "atr_pct": 1.87,
+  "rel_volume_20d": 0.73,
+  "dist_20dma_pct": 2.73,
+  "dist_50dma_pct": 2.26,
+  "dist_200dma_pct": -3.79
  }
 }

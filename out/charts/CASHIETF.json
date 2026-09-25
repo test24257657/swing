@@ -2,7 +2,7 @@
  "symbol": "CASHIETF",
  "name": "CASHIETF",
  "kind": "stock",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-25",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 1080.84,
    "volume": 272120,
    "delivery_pct": 86.5
+  },
+  {
+   "time": "2026-09-25",
+   "open": 1081.27,
+   "high": 1081.29,
+   "low": 1081.27,
+   "close": 1081.27,
+   "volume": 405110,
+   "delivery_pct": 62.66
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-24",
     "value": 1079.0
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1079.21
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-24",
     "value": 1076.03
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1076.23
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-24",
     "value": 1060.34
+   },
+   {
+    "time": "2026-09-25",
+    "value": 1060.55
    }
   ]
  },
  "technicals": {
   "rsi_14": 100.0,
   "atr_pct": 0.05,
-  "rel_volume_20d": 0.54,
-  "dist_20dma_pct": 0.17,
-  "dist_50dma_pct": 0.45,
-  "dist_200dma_pct": 1.93
+  "rel_volume_20d": 0.8,
+  "dist_20dma_pct": 0.19,
+  "dist_50dma_pct": 0.47,
+  "dist_200dma_pct": 1.95
  }
 }
