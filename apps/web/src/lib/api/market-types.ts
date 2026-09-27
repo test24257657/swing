@@ -546,3 +546,54 @@ export interface MorningBrief {
   } | null;
   ai: { headline: string; points: string[] } | null;
 }
+
+export interface IpoBar {
+  time: string;
+  open: number | null;
+  high: number | null;
+  low: number | null;
+  close: number | null;
+  volume: number;
+}
+
+export interface IpoRow {
+  symbol: string;
+  name: string;
+  series: string;
+  listing_date: string;
+  sessions: number;
+  issue_price: number | null;
+  price_range: string | null;
+  listing_open: number | null;
+  listing_close: number | null;
+  ltp: number | null;
+  change_pct: number | null;
+  gain_since_ipo_pct: number | null;
+  gain_since_listing_pct: number | null;
+  listing_pop_pct: number | null;
+  high_since_listing: number | null;
+  low_since_listing: number | null;
+  from_high_pct: number | null;
+  above_listing_close: boolean;
+  pattern: {
+    stage: BreakoutStage;
+    confidence: number;
+    pivot_price: number | null;
+    stop_suggestion: number | null;
+    target_suggestion: number | null;
+    base_weeks: number | null;
+  } | null;
+}
+
+export interface IposData {
+  as_of: string;
+  lookback_days: number;
+  counts: { issues: number; charted: number; sme_skipped: number; with_base: number };
+  ipos: IpoRow[];
+}
+
+export interface IpoChartData {
+  symbol: string;
+  name: string;
+  bars: IpoBar[];
+}

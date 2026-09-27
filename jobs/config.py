@@ -220,3 +220,7 @@ REGIME_BREADTH_OK = 50.0  # % of stocks above their 50-day average
 REGIME_BREADTH_WEAK = 30.0
 SECTOR_LEADER_SECTORS = 3
 SECTOR_LEADERS_PER_SECTOR = 3
+
+# --- recently listed IPOs (jobs/ipos.py) -----------------------------------------
+IPO_LOOKBACK_DAYS = 365
+IPO_MIN_SESSIONS = 5  # fewer bars than this is not a chart, it is a price print

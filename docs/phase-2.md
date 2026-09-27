@@ -143,3 +143,29 @@ series are excluded via NSE's equity list (they topped the delivery-spike list).
 
 Deferred: RS column + filter in the Screener; breadth/screener still count ETFs (same
 fix applies there — changes published breadth numbers, so done separately).
+
+## IPO screen (`/ipo`) — and `ipo_base` out of the screener
+
+`jobs/ipos.py` → `out/ipos.json` (list, ~50 KB) + `out/ipo_charts/<SYMBOL>.json` (bars,
+~12 KB each) → `GET /ipos` and `GET /ipos/{slug}`.
+
+- **Source: NSE's own `/api/public-past-issues`** (`sources.past_issues`, cookie dance,
+  6 h cache) — 1,452 issues on record with issue price, price band, listing date and
+  series. Trendlyne's `recently-listed` API was tried first and rejected: capped at the
+  latest 100 rows (~2 months) with no working page parameter (`p`, `page`, `pageNumber`,
+  `offset`, `limit` all ignored), and it is a third party for data the exchange
+  publishes itself.
+- Last 365 days = 280 issues; only **EQ/BE** get charts (107). SME (SM/ST series) and
+  bonds/InvITs never enter the panel, so they are counted and excluded rather than
+  listed as blank cards.
+- Per IPO: issue price, price band, listing open/close, listing pop %, gain since IPO,
+  gain since listing, high/low since listing, distance from high, and the post-listing
+  bars. **`ipo_base` now runs here**, over the only universe where a first base means
+  anything, and is no longer in `patterns/detect.py::DETECTORS` — it left the Screener's
+  pattern filter and moved onto this screen.
+- Bars are a separate artifact per symbol: inline they made the list 1.4 MB, committed
+  nightly, when a page renders 10 charts.
+- Frontend: 2 cards per row (1 on mobile), **10 per page**, search + sort (newest / best
+  / worst since IPO). Each card is a lightweight-charts candlestick thumbnail with the
+  **issue price (orange)** and **listing-day close (blue dashed)** marked, matching how
+  IPO screens elsewhere present it. Only the 10 visible cards fetch their bars.

@@ -390,6 +390,24 @@ def announcements(start: date, end: date) -> list[dict]:
     return rows if isinstance(rows, list) else []
 
 
+@cached(ttl=6 * 3600)
+@safe(default=list, label="NSE past issues")
+def past_issues() -> list[dict]:
+    """Every public issue NSE has on record — symbol, issue price, price band, listing
+    date, series. The exchange's own IPO history (needs the cookie dance)."""
+    headers = {
+        "User-Agent": _UA,
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
+    }
+    with httpx.Client(headers=headers, timeout=HTTP_TIMEOUT, follow_redirects=True) as cl:
+        cl.get("https://www.nseindia.com")
+        r = cl.get("https://www.nseindia.com/api/public-past-issues")
+        r.raise_for_status()
+        rows = r.json()
+    return rows if isinstance(rows, list) else []
+
+
 # --- calendar ----------------------------------------------------------------
 
 

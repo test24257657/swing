@@ -4,19 +4,19 @@ import pandas as pd
 
 from jobs.patterns import (
     high_52w_breakout,
-    ipo_base,
     near_pivot,
     trendline_breakout,
     vcp,
 )
 from jobs.patterns.base import DetectContext, PatternMatch
 
-# order matters only for display; a symbol can match several
+# order matters only for display; a symbol can match several. ipo_base is deliberately
+# absent: it only applies to stocks listed within the year, so it runs over that
+# universe in jobs/ipos.py and surfaces on the IPO screen instead of the screener.
 DETECTORS = (
     ("vcp", vcp.detect),
     ("high_52w_breakout", high_52w_breakout.detect),
     ("trendline_breakout", trendline_breakout.detect),
-    ("ipo_base", ipo_base.detect),
     ("near_pivot", near_pivot.detect),
 )
 

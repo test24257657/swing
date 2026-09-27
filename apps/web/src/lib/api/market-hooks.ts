@@ -8,6 +8,8 @@ import type {
   ChatReply,
   ChatTurn,
   DailyScanData,
+  IpoChartData,
+  IposData,
   MorningBrief,
   TopPicksData,
   ChartArtifact,
@@ -180,6 +182,26 @@ export function useMorningBrief() {
     queryKey: ["morning-brief"],
     queryFn: () => apiGet<Envelope<MorningBrief>>("/morning-brief"),
     staleTime: 5 * 60_000,
+    retry: false,
+  });
+}
+
+/** Every NSE IPO of the last year that has price history. Bars are fetched per row. */
+export function useIpos() {
+  return useQuery({
+    queryKey: ["ipos"],
+    queryFn: () => apiGet<Envelope<IposData>>("/ipos"),
+    staleTime: 5 * 60_000,
+  });
+}
+
+/** One IPO's post-listing bars — only the cards on the current page fetch theirs. */
+export function useIpoChart(slug: string, enabled = true) {
+  return useQuery({
+    queryKey: ["ipo-chart", slug],
+    queryFn: () => apiGet<Envelope<IpoChartData>>(`/ipos/${slug}`),
+    staleTime: 30 * 60_000,
+    enabled: enabled && Boolean(slug),
     retry: false,
   });
 }
