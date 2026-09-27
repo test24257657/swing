@@ -19,6 +19,7 @@ from app.routers import (
     health,
     indices,
     institutional,
+    ipos,
     news,
     pulse,
     screener,
@@ -74,6 +75,7 @@ app.include_router(fno.router, dependencies=protected)
 app.include_router(ai_insights.router, dependencies=protected)
 app.include_router(chat.router, dependencies=protected)
 app.include_router(daily_scan.router, dependencies=protected)
+app.include_router(ipos.router, dependencies=protected)
 
 # ---------------------------------------------------------------------------
 # Parked until their phase (see docs/ARCHITECTURE.md §13). These routers still

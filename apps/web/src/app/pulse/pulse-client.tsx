@@ -3,8 +3,8 @@
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 
-import { BreadthDonut } from "@/components/charts/breadth-donut";
-import { FlowBars } from "@/components/charts/flow-bars";
+import { BreadthTrend } from "@/components/charts/breadth-trend";
+import { FlowLines } from "@/components/charts/flow-lines";
 import { Sparkline } from "@/components/charts/sparkline";
 import { MorningBriefCard } from "@/components/scan/morning-brief-card";
 import { MarketLight, MiniList, RsBadge, StepHeading } from "@/components/scan/scan-parts";
@@ -318,12 +318,25 @@ export function PulseClient() {
                   </div>
                 );
               })()}
+              {d.breadth.series?.length > 1 && (
+                <div className="mt-3">
+                  <div className="flex flex-wrap items-center justify-between gap-2 text-[11px] text-text-secondary">
+                    <span>Last {d.breadth.series.length} sessions</span>
+                    <span className="flex gap-3">
+                      <span className="flex items-center gap-1.5">
+                        <span className="h-2 w-2 rounded-sm bg-accent" />
+                        rising
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <span className="h-2 w-2 rounded-sm bg-[var(--color-info)]" />
+                        above 50 DMA
+                      </span>
+                    </span>
+                  </div>
+                  <BreadthTrend series={d.breadth.series} />
+                </div>
+              )}
               <div className="mt-3 flex items-center gap-5">
-                <BreadthDonut
-                  advances={d.breadth.advances}
-                  declines={d.breadth.declines}
-                  unchanged={d.breadth.unchanged}
-                />
                 <div className="flex flex-1 flex-col gap-2.5">
                   {[
                     { label: "Rising", v: d.breadth.advances, c: UP },
@@ -388,7 +401,7 @@ export function PulseClient() {
                 );
               })()}
               <div className="mt-3">
-                <FlowBars series={d.flows.series} />
+                <FlowLines series={d.flows.series} />
               </div>
               <div className="mt-2 flex gap-2">
                 <FlowTile label={`FII net · ${d.flows.series.length}d`} v={d.flows.fii_10_session_net} />

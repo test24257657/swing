@@ -44,6 +44,7 @@ TILE_INDICES = ["NIFTY 50", "NIFTY BANK", "NIFTY 500", "INDIA VIX"]
 SPARKLINE_DAYS = 30
 
 # --- breadth -----------------------------------------------------------------
+BREADTH_HISTORY_SESSIONS = 30  # sessions of breadth trend behind the Pulse line chart
 BREADTH_DMA_FAST = 50
 BREADTH_DMA_SLOW = 200
 
@@ -220,3 +221,7 @@ REGIME_BREADTH_OK = 50.0  # % of stocks above their 50-day average
 REGIME_BREADTH_WEAK = 30.0
 SECTOR_LEADER_SECTORS = 3
 SECTOR_LEADERS_PER_SECTOR = 3
+
+# --- recently listed IPOs (jobs/ipos.py) -----------------------------------------
+IPO_LOOKBACK_DAYS = 365
+IPO_MIN_SESSIONS = 5  # fewer bars than this is not a chart, it is a price print

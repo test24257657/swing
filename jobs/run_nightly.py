@@ -25,6 +25,7 @@ from jobs import (
     fundamentals,
     indices,
     institutional,
+    ipos,
     movers,
     news,
     notify,
@@ -111,6 +112,17 @@ def main() -> int:
     )
     sources["daily_scan"] = scan_stats
     writer.write("daily_scan.json", scan_payload)
+
+    # 8c. Recently listed IPOs — one year, from NSE's own past-issues feed, each with
+    #     its post-listing chart. The IPO-base detector runs here (jobs/ipos.py), not in
+    #     the screener: a first base only means anything for a recently listed stock.
+    ipos_payload, ipo_charts, ipo_stats = ipos.build(df, business_date)
+    sources["ipos"] = ipo_stats
+    writer.write("ipos.json", ipos_payload)
+    writer.clear_dir("ipo_charts")
+    for symbol, payload in ipo_charts.items():
+        writer.write(f"ipo_charts/{charts.slug(symbol)}.json", payload)
+    log.info("ipo chart artifacts: %s", len(ipo_charts))
 
     # 9. indices screen — every broad-market + sector index, list metadata
     indices_payload, indices_stats = indices.build()

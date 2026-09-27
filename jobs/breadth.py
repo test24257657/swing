@@ -4,7 +4,12 @@ from __future__ import annotations
 
 import pandas as pd
 
-from jobs.config import BREADTH_DMA_FAST, BREADTH_DMA_SLOW, HIGH_52W_WINDOW
+from jobs.config import (
+    BREADTH_DMA_FAST,
+    BREADTH_DMA_SLOW,
+    BREADTH_HISTORY_SESSIONS,
+    HIGH_52W_WINDOW,
+)
 from jobs.indicators import sma
 from jobs.panel import wide
 
@@ -50,7 +55,44 @@ def compute(panel: pd.DataFrame) -> dict | None:
         "pct_above_200dma": pct_slow,
         "new_52w_highs": new_highs,
         "new_52w_lows": new_lows,
+        "series": history(closes),
     }
+
+
+def history(closes: pd.DataFrame, sessions: int = BREADTH_HISTORY_SESSIONS) -> list[dict]:
+    """Breadth per session, not just today: the count alone can't show whether
+    participation is improving or thinning, which is the actual read.
+
+    `pct_advancing` is measured against the previous *session in the panel* rather than
+    the bhavcopy's prev_close — the same number for every real session, and defined for
+    history rows where we never stored prev_close."""
+    if len(closes) < 2:
+        return []
+    prev = closes.shift()
+    both = closes.notna() & prev.notna()
+    traded = both.sum(axis=1)
+    advancing = ((closes > prev) & both).sum(axis=1)
+
+    fast = closes.rolling(BREADTH_DMA_FAST).mean()
+    comparable = closes.notna() & fast.notna()
+    above = ((closes > fast) & comparable).sum(axis=1)
+    comparable_n = comparable.sum(axis=1)
+
+    out = []
+    for d in closes.index[-sessions:]:
+        n = int(traded.loc[d])
+        if n == 0:
+            continue
+        cn = int(comparable_n.loc[d])
+        out.append(
+            {
+                "date": pd.Timestamp(d).date().isoformat(),
+                "pct_advancing": round(float(advancing.loc[d]) / n * 100, 2),
+                "pct_above_50dma": round(float(above.loc[d]) / cn * 100, 2) if cn else None,
+                "traded": n,
+            }
+        )
+    return out
 
 
 def _pct_above(closes: pd.DataFrame, window: int) -> float | None:

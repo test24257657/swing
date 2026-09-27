@@ -42,6 +42,8 @@ _state: dict[str, dict] = {
     "ai_top_picks": {},
     "daily_scan": {},
     "morning_brief": {},
+    "ipos": {},
+    "ipo_charts": {},
 }
 
 
@@ -92,6 +94,8 @@ def load() -> None:
     _state["ai_top_picks"] = _read("ai_top_picks.json")
     _state["daily_scan"] = _read("daily_scan.json")
     _state["morning_brief"] = _read("morning_brief.json")
+    _state["ipos"] = _read("ipos.json")
+    _state["ipo_charts"] = _read_dir("ipo_charts")
 
     log.info(
         "artifacts loaded from %s — pulse=%s keys, charts=%s, fundamentals=%s, generated_at=%s",
@@ -176,6 +180,14 @@ def ai_top_picks() -> dict:
 
 def daily_scan() -> dict:
     return _state["daily_scan"]
+
+
+def ipos() -> dict:
+    return _state["ipos"]
+
+
+def ipo_chart(slug: str) -> dict | None:
+    return _state["ipo_charts"].get(slug.upper())
 
 
 def morning_brief() -> dict:
