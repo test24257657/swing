@@ -16,6 +16,13 @@ export interface IndexTile {
   as_of: string;
 }
 
+export interface BreadthPoint {
+  date: string;
+  pct_advancing: number;
+  pct_above_50dma: number | null;
+  traded: number;
+}
+
 export interface Breadth {
   date: string;
   advances: number;
@@ -27,6 +34,7 @@ export interface Breadth {
   pct_above_200dma: number | null;
   new_52w_highs: number | null;
   new_52w_lows: number | null;
+  series: BreadthPoint[];
 }
 
 export interface FlowPoint {

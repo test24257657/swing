@@ -44,6 +44,7 @@ TILE_INDICES = ["NIFTY 50", "NIFTY BANK", "NIFTY 500", "INDIA VIX"]
 SPARKLINE_DAYS = 30
 
 # --- breadth -----------------------------------------------------------------
+BREADTH_HISTORY_SESSIONS = 30  # sessions of breadth trend behind the Pulse line chart
 BREADTH_DMA_FAST = 50
 BREADTH_DMA_SLOW = 200
 

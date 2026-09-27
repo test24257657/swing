@@ -81,3 +81,21 @@ backfill — the user chose to keep building on stubs and run ingestion later.
 | TanStack Virtual for a full client-side result set | later (server pagination for now) |
 | Real NSE holiday calendar | Phase 2 |
 | Pattern engine + stage classifier + live counts + list chips (items 14–17) | **Phase 2** |
+
+## Pulse charts — FII/DII and breadth are line charts
+
+- **FII/DII**: `FlowLines` replaces the grouped `FlowBars`. Same numbers; two lines
+  around a zero baseline make each side's trend — and where they cross — readable, which
+  is the actual question (are domestics absorbing foreign selling?).
+- **Breadth**: `BreadthTrend` replaces `BreadthDonut`. The donut only described today.
+  `jobs/breadth.py::history` now returns `BREADTH_HISTORY_SESSIONS` (30) rows of
+  `pct_advancing` and `pct_above_50dma`, so the card shows whether participation is
+  improving or thinning, with 50% drawn as the neutral line. The rising/falling counts
+  and the stat tiles stay.
+  - `pct_advancing` compares each close to the **previous session in the panel**, not the
+    bhavcopy's `prev_close` (which we only store for the latest row). Symbols without a
+    prior close (listed that day) are excluded, and a session with no comparable prior
+    is dropped rather than reported as 0%.
+  - Verified against the same day's snapshot: 51.16% vs 51.09% advancing, 37.47% vs
+    37.46% above the 50-day — the small gap is the prev_close vs prior-session difference.
+- `breadth-donut.tsx` and `flow-bars.tsx` deleted, not left unused.
