@@ -1,109 +1,114 @@
 {
- "generated_at": "2026-09-25T08:16:08+05:30",
- "for_session": "2026-09-25",
+ "generated_at": "2026-09-28T08:15:44+05:30",
+ "for_session": "2026-09-28",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7704.13,
-   "change_pct": -0.02,
-   "as_of": "2026-09-24"
+   "value": 7743.41,
+   "change_pct": 0.51,
+   "as_of": "2026-09-25"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 26939.37,
-   "change_pct": 0.01,
-   "as_of": "2026-09-24"
+   "value": 27068.72,
+   "change_pct": 0.48,
+   "as_of": "2026-09-25"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51349.98,
-   "change_pct": -0.31,
-   "as_of": "2026-09-24"
+   "value": 51828.62,
+   "change_pct": 0.93,
+   "as_of": "2026-09-25"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 66318.14,
-   "change_pct": 1.23,
-   "as_of": "2026-09-25"
+   "value": 66333.53,
+   "change_pct": -0.05,
+   "as_of": "2026-09-28"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24349.71,
-   "change_pct": -1.66,
-   "as_of": "2026-09-25"
+   "value": 24642.84,
+   "change_pct": 0.54,
+   "as_of": "2026-09-28"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 7080.92,
-   "change_pct": 1.04,
-   "as_of": "2026-09-23"
+   "value": 6903.18,
+   "change_pct": -2.51,
+   "as_of": "2026-09-28"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 105.8,
-   "change_pct": 2.64,
-   "as_of": "2026-09-24"
+   "value": 98.51,
+   "change_pct": -5.57,
+   "as_of": "2026-09-27"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4322.0,
-   "change_pct": 0.08,
-   "as_of": "2026-09-24"
-  },
-  {
-   "label": "USD/INR",
-   "group": "Macro",
-   "value": 95.94,
-   "change_pct": 0.21,
-   "as_of": "2026-09-25"
+   "value": 4242.1,
+   "change_pct": -1.83,
+   "as_of": "2026-09-27"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.16,
-   "change_pct": 0.94,
-   "as_of": "2026-09-24"
+   "value": 5.18,
+   "change_pct": 0.43,
+   "as_of": "2026-09-25"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 101.24,
-   "change_pct": 0.14,
-   "as_of": "2026-09-24"
+   "value": 101.1,
+   "change_pct": 0.13,
+   "as_of": "2026-09-27"
   }
  ],
  "global_tone": {
   "tone": "mixed",
-  "avg_change_pct": 0.12,
+  "avg_change_pct": -0.21,
   "crude_alert": true
  },
  "nifty": {
-  "session": "2026-09-24",
-  "close": 23063.1,
-  "high": 23281.95,
-  "low": 23046.15,
-  "pivot": 23130.4,
-  "r1": 23214.65,
-  "s1": 22978.85,
-  "r2": 23366.2,
-  "s2": 22894.6,
-  "sma_20": 23600.82,
-  "sma_50": 24013.1,
-  "sma_200": 24431.59
+  "session": "2026-09-25",
+  "close": 23140.5,
+  "high": 23162.7,
+  "low": 23020.95,
+  "pivot": 23108.05,
+  "r1": 23195.15,
+  "s1": 23053.4,
+  "r2": 23249.8,
+  "s2": 22966.3,
+  "sma_20": 23553.3,
+  "sma_50": 23994.46,
+  "sma_200": 24417.13
  },
  "focus": [
   {
-   "symbol": "BODALCHEM",
-   "name": "Bodal Chemicals Limited",
+   "symbol": "INDSWFTLAB",
+   "name": "Ind-Swift Laboratories Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 99
+  },
+  {
+   "symbol": "TBZ",
+   "name": "Tribhovandas Bhimji Zaveri Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 99
+  },
+  {
+   "symbol": "MOREPENLAB",
+   "name": "Morepen Laboratories Limited",
    "why": "Ready setup near its pivot",
    "rs": 99
   },
@@ -114,68 +119,62 @@
    "rs": 98
   },
   {
-   "symbol": "SUBEXLTD",
-   "name": "Subex Limited",
+   "symbol": "RATNAVEER",
+   "name": "Ratnaveer Precision Engineering Limited",
    "why": "Ready setup near its pivot",
    "rs": 97
   },
   {
-   "symbol": "BHAGERIA",
-   "name": "Bhageria Industries Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 97
-  },
-  {
-   "symbol": "CORDSCABLE",
-   "name": "Cords Cable Industries Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 97
-  },
-  {
-   "symbol": "JAGSNPHARM",
-   "name": "Jagsonpal Pharmaceuticals Limited",
+   "symbol": "ASAHISONG",
+   "name": "Asahi Songwon Colors Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "WELSPUNLIV",
-   "name": "Welspun Living Limited",
+   "symbol": "EMIL",
+   "name": "Electronics Mart India Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "INDOAMIN",
-   "name": "Indo Amines Limited",
+   "symbol": "IGPL",
+   "name": "IG Petrochemicals Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "IVP",
-   "name": "IVP Limited",
+   "symbol": "INNOVACAP",
+   "name": "Innova Captab Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "ALMONDZ",
-   "name": "Almondz Global Securities Limited",
+   "symbol": "PREMIERPOL",
+   "name": "Premier Polyfilm Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "TFCILTD",
-   "name": "Tourism Finance Corporation of India Limited",
+   "symbol": "BLISSGVS",
+   "name": "Bliss GVS Pharma Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 97
+   "rs": 98
   },
   {
-   "symbol": "SOTL",
-   "name": "Savita Oil Technologies Limited",
+   "symbol": "IRISDOREME",
+   "name": "Iris Clothings Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 95
+   "rs": 96
   },
   {
-   "symbol": "RML",
-   "name": "Rane (Madras) Limited",
+   "symbol": "OMAXE",
+   "name": "Omaxe Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 93
+  },
+  {
+   "symbol": "ZIMLAB",
+   "name": "Zim Laboratories Limited",
    "why": "Pocket pivot yesterday",
    "rs": 93
   },
@@ -183,45 +182,86 @@
    "symbol": "ADOR",
    "name": "Ador Welding Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 91
-  },
-  {
-   "symbol": "SYNCOMF",
-   "name": "Syncom Formulations (India) Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 91
+   "rs": 90
   }
  ],
  "overnight_news": [
   {
-   "symbol": "CIPLA",
-   "time": "24 Sep 19:03",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Cipla Limited has informed the Exchange regarding Allotment of 12168  Shares.",
-   "url": "https://nsearchives.nseindia.com/corporate/CIPLA_24092026190246_SE_Intimationsigned.pdf"
+   "symbol": "POWERGRID",
+   "time": "26 Sep 16:58",
+   "category": "Outcome of Board Meeting",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange regarding Outcome of Board Meeting held on September 26, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_26092026165837_NSEBSEPI26092026_signed_v1.pdf"
   },
   {
-   "symbol": "ULTRACEMCO",
-   "time": "24 Sep 18:10",
-   "category": "Rumour Verification - Regulation 30(11)",
-   "text": "UltraTech Cement Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
-   "url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_24092026180953_MPM24092026.pdf"
+   "symbol": "ADANIENT",
+   "time": "26 Sep 12:48",
+   "category": "Acquisition",
+   "text": "Adani Enterprises Limited has informed the Exchange about acquisition of 50% stake of Monvarex Aluminium Holding RSC Ltd. by Adani Global Limited, a wholly owned subsidiary of the Company",
+   "url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_26092026124830_AELIntimationsigned26092026.pdf"
+  },
+  {
+   "symbol": "RELIANCE",
+   "time": "25 Sep 22:09",
+   "category": "Credit Rating",
+   "text": "Reliance Industries Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_25092026220844_SE_CARE_and_CRISIL.pdf"
+  },
+  {
+   "symbol": "TECHM",
+   "time": "25 Sep 20:46",
+   "category": "Credit Rating",
+   "text": "Tech Mahindra Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.com/corporate/Apekshakhemka_25092026204623_SEIntimationCreditRatings_S.pdf"
+  },
+  {
+   "symbol": "INDIGO",
+   "time": "25 Sep 19:37",
+   "category": "Credit Rating",
+   "text": "InterGlobe Aviation Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.com/corporate/Indigo1_25092026193740_Disclosure_CreditRating.pdf"
+  },
+  {
+   "symbol": "OMAXE",
+   "time": "25 Sep 18:15",
+   "category": "Action(s) taken or orders passed",
+   "text": "Omaxe Limited has informed the Exchange about Action(s) taken or orders passed by Securities and Exchange of Board India.",
+   "url": "https://nsearchives.nseindia.com/corporate/OMAXE_25092026180858_Intimation_Order_Passed_SEBI.pdf"
   }
  ],
- "events": [],
+ "events": [
+  "3 companies report results today."
+ ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
   "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
- "community": null,
+ "community": {
+  "items": [
+   {
+    "title": "Indian market feels cold while US AI stocks are flying. Anyone else feeling this? Is hope still left?",
+    "url": "https://www.reddit.com/r/IndianStockMarket/comments/1wqpu23/indian_market_feels_cold_while_us_ai_stocks_are/",
+    "where": "r/IndianStockMarket",
+    "date": "2026-09-26",
+    "views": null,
+    "upvotes": 40,
+    "comments": 28
+   }
+  ],
+  "sources": {
+   "reddit": "ok",
+   "youtube": "no-results"
+  },
+  "window_days": 3
+ },
  "ai": {
-  "headline": "Mixed global cues and red market light suggest cautious open for Nifty",
+  "headline": "Mixed global cues and red market light set tone for NIFTY open",
   "points": [
-   "Global signals are mixed as Nikkei gained 1.23% while Hang Seng dropped 1.66% and Brent crude rose to 105.8.",
-   "NIFTY closed at 23063.1 with key pivot at 23130.4, S1 support at 22978.85, and R1 resistance at 23214.65.",
-   "With the market light at red, watch USD/INR at 95.94 and NIFTY's 20-day average placed far above at 23600.82.",
-   "CIPLA announced allotment of 12168 ESOP shares, while UltraTech Cement issued a rumour verification update."
+   "Global tone is mixed with S&P 500 up 0.51% at 7743.41, while Brent crude dropped 5.57% to 98.51.",
+   "NIFTY closed at 23140.5 with market light red; watch support at S1 23053.4 and resistance at R1 23195.15.",
+   "Asian cues are divided as Kospi fell 2.51% to 6903.18 while Hang Seng gained 0.54% to 24642.84.",
+   "3 companies report results today, while Adani Enterprises announced acquiring a 50% stake in Monvarex Aluminium Holding."
   ]
  }
 }
