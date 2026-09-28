@@ -165,6 +165,18 @@ fix applies there — changes published breadth numbers, so done separately).
   pattern filter and moved onto this screen.
 - Bars are a separate artifact per symbol: inline they made the list 1.4 MB, committed
   nightly, when a page renders 10 charts.
+- Chart interaction (fixed after the first pass rendered badly): drag to pan and pinch
+  to zoom, but **wheel zoom is off** — with ten charts on a page the wheel must keep
+  scrolling the page. The default view is the **last 90 sessions**, not the whole
+  listing history: 247 daily candles squeezed into a 450 px card render as a hairline
+  smear (verified in a headless harness against real bars). A new listing with 5-8 bars
+  gets a wider `barSpacing` so its candles are visible, and the chart is created with a
+  fallback width because a grid card can be 0 px wide on first paint.
+- yfinance was evaluated as a second source for these charts and **not adopted**: for
+  every IPO in the window our panel already holds the full post-listing history (the
+  panel starts before the oldest listing, so nothing is truncated), Yahoo returns the
+  same bars, and it has **zero coverage of SME** (`AXIOMGAS.NS`, `SPECTRAA.NS`,
+  `KHERIAAUTO.NS`… all return 0 rows), which is the only gap we actually have.
 - Frontend: 2 cards per row (1 on mobile), **10 per page**, search + sort (newest / best
   / worst since IPO). Each card is a lightweight-charts candlestick thumbnail with the
   **issue price (orange)** and **listing-day close (blue dashed)** marked, matching how
