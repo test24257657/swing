@@ -2,7 +2,7 @@
  "symbol": "SIGNATURE",
  "name": "Signatureglobal (India) Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 788.85,
    "volume": 326668,
    "delivery_pct": 16.04
+  },
+  {
+   "time": "2026-09-28",
+   "open": 805.0,
+   "high": 828.0,
+   "low": 761.25,
+   "close": 780.35,
+   "volume": 1645065,
+   "delivery_pct": 8.45
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 773.53
+   },
+   {
+    "time": "2026-09-28",
+    "value": 773.59
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 790.25
+   },
+   {
+    "time": "2026-09-28",
+    "value": 789.66
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 868.91
+   },
+   {
+    "time": "2026-09-28",
+    "value": 867.22
    }
   ]
  },
  "technicals": {
-  "rsi_14": 55.18,
-  "atr_pct": 3.26,
-  "rel_volume_20d": 1.29,
-  "dist_20dma_pct": 1.98,
-  "dist_50dma_pct": -0.18,
-  "dist_200dma_pct": -9.21
+  "rsi_14": 50.98,
+  "atr_pct": 3.67,
+  "rel_volume_20d": 6.35,
+  "dist_20dma_pct": 0.87,
+  "dist_50dma_pct": -1.18,
+  "dist_200dma_pct": -10.02
  }
 }

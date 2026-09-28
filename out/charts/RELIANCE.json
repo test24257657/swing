@@ -2,7 +2,7 @@
  "symbol": "RELIANCE",
  "name": "Reliance Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 1226.0,
    "volume": 13138735,
    "delivery_pct": 63.26
+  },
+  {
+   "time": "2026-09-28",
+   "open": 1218.0,
+   "high": 1219.7,
+   "low": 1197.0,
+   "close": 1197.6,
+   "volume": 13602349,
+   "delivery_pct": 69.56
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 1267.61
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1263.13
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 1290.23
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1287.63
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 1371.64
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1369.95
    }
   ]
  },
  "technicals": {
-  "rsi_14": 37.4,
-  "atr_pct": 1.66,
-  "rel_volume_20d": 1.09,
-  "dist_20dma_pct": -3.28,
-  "dist_50dma_pct": -4.98,
-  "dist_200dma_pct": -10.62
+  "rsi_14": 31.93,
+  "atr_pct": 1.75,
+  "rel_volume_20d": 1.12,
+  "dist_20dma_pct": -5.19,
+  "dist_50dma_pct": -6.99,
+  "dist_200dma_pct": -12.58
  }
 }

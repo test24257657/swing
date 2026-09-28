@@ -2,7 +2,7 @@
  "symbol": "WELINV",
  "name": "Welspun Investments and Commercials Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2172,6 +2172,15 @@
    "close": 2499.9,
    "volume": 20,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-28",
+   "open": 2499.0,
+   "high": 2499.0,
+   "low": 2451.0,
+   "close": 2451.0,
+   "volume": 99,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3063,6 +3072,10 @@
    {
     "time": "2026-09-25",
     "value": 2304.95
+   },
+   {
+    "time": "2026-09-28",
+    "value": 2314.53
    }
   ],
   "sma_50": [
@@ -3833,6 +3846,10 @@
    {
     "time": "2026-09-25",
     "value": 2074.39
+   },
+   {
+    "time": "2026-09-28",
+    "value": 2086.91
    }
   ],
   "sma_200": [
@@ -4003,15 +4020,19 @@
    {
     "time": "2026-09-25",
     "value": 1613.37
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1618.52
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.1,
-  "atr_pct": 2.46,
-  "rel_volume_20d": 0.07,
-  "dist_20dma_pct": 8.46,
-  "dist_50dma_pct": 20.51,
-  "dist_200dma_pct": 54.95
+  "rsi_14": 67.62,
+  "atr_pct": 2.48,
+  "rel_volume_20d": 0.42,
+  "dist_20dma_pct": 5.9,
+  "dist_50dma_pct": 17.45,
+  "dist_200dma_pct": 51.43
  }
 }

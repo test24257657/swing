@@ -2,7 +2,7 @@
  "symbol": "SETCO",
  "name": "Setco Automotive Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 18.47,
    "volume": 119430,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-28",
+   "open": 19.0,
+   "high": 19.0,
+   "low": 18.4,
+   "close": 18.52,
+   "volume": 57495,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 17.36
+   },
+   {
+    "time": "2026-09-28",
+    "value": 17.39
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 17.57
+   },
+   {
+    "time": "2026-09-28",
+    "value": 17.59
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 18.22
+   },
+   {
+    "time": "2026-09-28",
+    "value": 18.24
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.63,
-  "atr_pct": 4.58,
-  "rel_volume_20d": 2.39,
-  "dist_20dma_pct": 6.38,
-  "dist_50dma_pct": 5.09,
-  "dist_200dma_pct": 1.35
+  "rsi_14": 65.12,
+  "atr_pct": 4.47,
+  "rel_volume_20d": 1.07,
+  "dist_20dma_pct": 6.48,
+  "dist_50dma_pct": 5.32,
+  "dist_200dma_pct": 1.54
  }
 }

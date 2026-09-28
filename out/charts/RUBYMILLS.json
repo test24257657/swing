@@ -2,7 +2,7 @@
  "symbol": "RUBYMILLS",
  "name": "The Ruby Mills Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 491.85,
    "volume": 13428,
    "delivery_pct": 44.9
+  },
+  {
+   "time": "2026-09-28",
+   "open": 492.1,
+   "high": 522.0,
+   "low": 486.8,
+   "close": 510.6,
+   "volume": 95953,
+   "delivery_pct": 49.64
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 444.8
+   },
+   {
+    "time": "2026-09-28",
+    "value": 450.81
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 410.31
+   },
+   {
+    "time": "2026-09-28",
+    "value": 412.25
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 284.36
+   },
+   {
+    "time": "2026-09-28",
+    "value": 285.82
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.95,
-  "atr_pct": 7.14,
-  "rel_volume_20d": 0.37,
-  "dist_20dma_pct": 10.58,
-  "dist_50dma_pct": 19.87,
-  "dist_200dma_pct": 72.97
+  "rsi_14": 70.56,
+  "atr_pct": 6.88,
+  "rel_volume_20d": 2.63,
+  "dist_20dma_pct": 13.26,
+  "dist_50dma_pct": 23.86,
+  "dist_200dma_pct": 78.64
  }
 }

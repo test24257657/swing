@@ -2,7 +2,7 @@
  "symbol": "GLOBAL",
  "name": "Global Education Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 135.4,
    "volume": 227619,
    "delivery_pct": 64.36
+  },
+  {
+   "time": "2026-09-28",
+   "open": 133.5,
+   "high": 135.45,
+   "low": 131.01,
+   "close": 133.61,
+   "volume": 156821,
+   "delivery_pct": 62.5
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 124.47
+   },
+   {
+    "time": "2026-09-28",
+    "value": 125.71
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 112.29
+   },
+   {
+    "time": "2026-09-28",
+    "value": 112.98
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 101.04
+   },
+   {
+    "time": "2026-09-28",
+    "value": 101.25
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.32,
-  "atr_pct": 4.74,
-  "rel_volume_20d": 0.9,
-  "dist_20dma_pct": 8.78,
-  "dist_50dma_pct": 20.58,
-  "dist_200dma_pct": 34.0
+  "rsi_14": 64.94,
+  "atr_pct": 4.7,
+  "rel_volume_20d": 0.6,
+  "dist_20dma_pct": 6.29,
+  "dist_50dma_pct": 18.26,
+  "dist_200dma_pct": 31.96
  }
 }

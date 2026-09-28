@@ -2,7 +2,7 @@
  "symbol": "STLNETWORK",
  "name": "STL Networks Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 54.61,
    "volume": 8981723,
    "delivery_pct": 39.71
+  },
+  {
+   "time": "2026-09-28",
+   "open": 55.4,
+   "high": 56.5,
+   "low": 51.88,
+   "close": 52.06,
+   "volume": 18589690,
+   "delivery_pct": 45.57
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 37.12
+   },
+   {
+    "time": "2026-09-28",
+    "value": 38.36
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 29.91
+   },
+   {
+    "time": "2026-09-28",
+    "value": 30.46
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 25.11
+   },
+   {
+    "time": "2026-09-28",
+    "value": 25.25
    }
   ]
  },
  "technicals": {
-  "rsi_14": 94.9,
-  "atr_pct": 3.69,
-  "rel_volume_20d": 1.38,
-  "dist_20dma_pct": 47.13,
-  "dist_50dma_pct": 82.61,
-  "dist_200dma_pct": 117.52
+  "rsi_14": 83.82,
+  "atr_pct": 4.23,
+  "rel_volume_20d": 2.7,
+  "dist_20dma_pct": 35.73,
+  "dist_50dma_pct": 70.93,
+  "dist_200dma_pct": 106.14
  }
 }

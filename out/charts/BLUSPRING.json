@@ -2,7 +2,7 @@
  "symbol": "BLUSPRING",
  "name": "Bluspring Enterprises Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 145.12,
    "volume": 758518,
    "delivery_pct": 40.8
+  },
+  {
+   "time": "2026-09-28",
+   "open": 145.12,
+   "high": 151.9,
+   "low": 138.43,
+   "close": 149.44,
+   "volume": 690632,
+   "delivery_pct": 41.32
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 130.18
+   },
+   {
+    "time": "2026-09-28",
+    "value": 131.28
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 121.38
+   },
+   {
+    "time": "2026-09-28",
+    "value": 122.15
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 83.43
+   },
+   {
+    "time": "2026-09-28",
+    "value": 83.83
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.7,
-  "atr_pct": 5.89,
-  "rel_volume_20d": 1.47,
-  "dist_20dma_pct": 11.48,
-  "dist_50dma_pct": 19.56,
-  "dist_200dma_pct": 73.95
+  "rsi_14": 67.12,
+  "atr_pct": 5.95,
+  "rel_volume_20d": 1.28,
+  "dist_20dma_pct": 13.83,
+  "dist_50dma_pct": 22.35,
+  "dist_200dma_pct": 78.26
  }
 }

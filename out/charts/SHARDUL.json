@@ -2,7 +2,7 @@
  "symbol": "SHARDUL",
  "name": "Shardul Securities Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1002,6 +1002,15 @@
    "close": 55.4,
    "volume": 15450,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-28",
+   "open": 56.0,
+   "high": 56.6,
+   "low": 54.6,
+   "close": 55.56,
+   "volume": 10416,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1373,6 +1382,10 @@
    {
     "time": "2026-09-25",
     "value": 54.13
+   },
+   {
+    "time": "2026-09-28",
+    "value": 54.3
    }
   ],
   "sma_50": [
@@ -1623,15 +1636,19 @@
    {
     "time": "2026-09-25",
     "value": 51.48
+   },
+   {
+    "time": "2026-09-28",
+    "value": 51.56
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.2,
-  "atr_pct": 2.97,
-  "rel_volume_20d": 1.07,
-  "dist_20dma_pct": 2.34,
-  "dist_50dma_pct": 7.62,
+  "rsi_14": 62.82,
+  "atr_pct": 3.01,
+  "rel_volume_20d": 0.69,
+  "dist_20dma_pct": 2.32,
+  "dist_50dma_pct": 7.76,
   "dist_200dma_pct": null
  }
 }

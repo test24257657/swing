@@ -2,7 +2,7 @@
  "symbol": "GSEC5IETF",
  "name": "GSEC5IETF",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 65.85,
    "volume": 17513,
    "delivery_pct": 53.97
+  },
+  {
+   "time": "2026-09-28",
+   "open": 66.15,
+   "high": 66.97,
+   "low": 65.8,
+   "close": 65.97,
+   "volume": 13075,
+   "delivery_pct": 61.19
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 66.12
+   },
+   {
+    "time": "2026-09-28",
+    "value": 66.11
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 66.3
+   },
+   {
+    "time": "2026-09-28",
+    "value": 66.29
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 64.99
+   },
+   {
+    "time": "2026-09-28",
+    "value": 65.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 45.39,
-  "atr_pct": 1.11,
-  "rel_volume_20d": 1.16,
-  "dist_20dma_pct": -0.41,
-  "dist_50dma_pct": -0.68,
-  "dist_200dma_pct": 1.33
+  "rsi_14": 47.35,
+  "atr_pct": 1.15,
+  "rel_volume_20d": 1.0,
+  "dist_20dma_pct": -0.21,
+  "dist_50dma_pct": -0.48,
+  "dist_200dma_pct": 1.5
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "AEGISVOPAK",
  "name": "Aegis Vopak Terminals Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 287.5,
    "volume": 673754,
    "delivery_pct": 42.23
+  },
+  {
+   "time": "2026-09-28",
+   "open": 287.05,
+   "high": 301.3,
+   "low": 280.25,
+   "close": 298.55,
+   "volume": 2120065,
+   "delivery_pct": 34.44
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 292.53
+   },
+   {
+    "time": "2026-09-28",
+    "value": 293.97
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 285.97
+   },
+   {
+    "time": "2026-09-28",
+    "value": 286.51
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 235.17
+   },
+   {
+    "time": "2026-09-28",
+    "value": 235.35
    }
   ]
  },
  "technicals": {
-  "rsi_14": 47.91,
+  "rsi_14": 54.32,
   "atr_pct": 4.82,
-  "rel_volume_20d": 0.35,
-  "dist_20dma_pct": -1.72,
-  "dist_50dma_pct": 0.54,
-  "dist_200dma_pct": 22.25
+  "rel_volume_20d": 1.1,
+  "dist_20dma_pct": 1.56,
+  "dist_50dma_pct": 4.2,
+  "dist_200dma_pct": 26.86
  }
 }

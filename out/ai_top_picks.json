@@ -1,153 +1,124 @@
 {
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "source": "rules",
- "universe": 281,
- "eligible": 11,
+ "universe": 191,
+ "eligible": 4,
  "picks": [
   {
-   "symbol": "ASAHISONG",
-   "ltp": 402.75,
+   "symbol": "ANTELOPUS",
+   "ltp": 1159.45,
    "technicals": {
-    "rsi_14": 63.6,
-    "rel_volume_20d": 2.35,
-    "dist_20dma_pct": 7.37,
-    "dist_50dma_pct": 11.99,
-    "dist_200dma_pct": 49.13
+    "rsi_14": 59.32,
+    "rel_volume_20d": 0.33,
+    "dist_20dma_pct": 8.34,
+    "dist_50dma_pct": 25.66,
+    "dist_200dma_pct": 67.33
    },
    "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 394.9,
-    "stop_suggestion": 341.2,
-    "target_suggestion": 473.88,
-    "gap_to_pivot_pct": 1.99
+    "code": "vcp",
+    "stage": "forming",
+    "pivot_price": 1218.3,
+    "stop_suggestion": 1024.63,
+    "target_suggestion": 1522.88,
+    "gap_to_pivot_pct": -4.83
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 188.9,
-    "net_income_cr": 19.2,
-    "revenue_qoq_pct": 31.1,
-    "net_income_qoq_pct": 76.1
+    "revenue_cr": 131.0,
+    "net_income_cr": 54.3,
+    "revenue_qoq_pct": 28.4,
+    "net_income_qoq_pct": 42.5
    },
    "reason": null,
    "rank": 1,
-   "name": "Asahi Songwon Colors Limited"
+   "name": "Antelopus Selan Energy Limited"
   },
   {
-   "symbol": "EMIL",
-   "ltp": 200.22,
+   "symbol": "LORDSCHLO",
+   "ltp": 148.2,
    "technicals": {
-    "rsi_14": 64.84,
-    "rel_volume_20d": 2.25,
-    "dist_20dma_pct": 8.26,
-    "dist_50dma_pct": 18.15,
-    "dist_200dma_pct": 63.44
+    "rsi_14": 62.12,
+    "rel_volume_20d": 3.03,
+    "dist_20dma_pct": 6.98,
+    "dist_50dma_pct": 5.53,
+    "dist_200dma_pct": 4.57
    },
    "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 196.28,
-    "stop_suggestion": 167.54,
-    "target_suggestion": 235.54,
-    "gap_to_pivot_pct": 2.01
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 150.0,
+    "stop_suggestion": 136.61,
+    "target_suggestion": 172.5,
+    "gap_to_pivot_pct": -1.2
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 2419.0,
-    "net_income_cr": 120.6,
-    "revenue_qoq_pct": 26.4,
-    "net_income_qoq_pct": 203.8
+    "revenue_cr": 106.3,
+    "net_income_cr": 15.0,
+    "revenue_qoq_pct": 8.9,
+    "net_income_qoq_pct": 240.9
    },
    "reason": null,
    "rank": 2,
-   "name": "Electronics Mart India Limited"
+   "name": "Lords Chloro Alkali Limited"
   },
   {
-   "symbol": "IGPL",
-   "ltp": 593.15,
+   "symbol": "SHREEJISPG",
+   "ltp": 752.8,
    "technicals": {
-    "rsi_14": 65.33,
-    "rel_volume_20d": 0.52,
-    "dist_20dma_pct": 6.38,
-    "dist_50dma_pct": 16.91,
-    "dist_200dma_pct": 39.11
+    "rsi_14": 73.8,
+    "rel_volume_20d": 0.68,
+    "dist_20dma_pct": 7.99,
+    "dist_50dma_pct": 13.72,
+    "dist_200dma_pct": 60.78
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 584.55,
-    "stop_suggestion": 508.65,
-    "target_suggestion": 701.46,
-    "gap_to_pivot_pct": 1.47
+    "stage": "forming",
+    "pivot_price": 723.75,
+    "stop_suggestion": 655.75,
+    "target_suggestion": 868.5,
+    "gap_to_pivot_pct": 4.01
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 617.8,
-    "net_income_cr": 66.4,
-    "revenue_qoq_pct": 17.8,
-    "net_income_qoq_pct": 136.3
+    "revenue_cr": 208.8,
+    "net_income_cr": 44.3,
+    "revenue_qoq_pct": 11.0,
+    "net_income_qoq_pct": 9.9
    },
    "reason": null,
    "rank": 3,
-   "name": "IG Petrochemicals Limited"
+   "name": "Shreeji Shipping Global Limited"
   },
   {
-   "symbol": "INNOVACAP",
-   "ltp": 1281.0,
+   "symbol": "SYRMA",
+   "ltp": 1746.4,
    "technicals": {
-    "rsi_14": 74.18,
-    "rel_volume_20d": 0.28,
-    "dist_20dma_pct": 9.71,
-    "dist_50dma_pct": 20.23,
-    "dist_200dma_pct": 51.28
+    "rsi_14": 67.4,
+    "rel_volume_20d": 0.68,
+    "dist_20dma_pct": 9.04,
+    "dist_50dma_pct": 16.94,
+    "dist_200dma_pct": 61.04
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 1226.7,
-    "stop_suggestion": 1080.2,
-    "target_suggestion": 1472.04,
-    "gap_to_pivot_pct": 4.43
+    "stage": "forming",
+    "pivot_price": 1741.8,
+    "stop_suggestion": 1418.0,
+    "target_suggestion": 2090.16,
+    "gap_to_pivot_pct": 0.26
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 470.9,
-    "net_income_cr": 44.1,
-    "revenue_qoq_pct": 5.2,
-    "net_income_qoq_pct": 15.7
+    "revenue_cr": 1588.6,
+    "net_income_cr": 100.1,
+    "revenue_qoq_pct": 8.4,
+    "net_income_qoq_pct": -1.1
    },
    "reason": null,
    "rank": 4,
-   "name": "Innova Captab Limited"
-  },
-  {
-   "symbol": "PREMIERPOL",
-   "ltp": 95.4,
-   "technicals": {
-    "rsi_14": 60.45,
-    "rel_volume_20d": 0.82,
-    "dist_20dma_pct": 7.24,
-    "dist_50dma_pct": 15.55,
-    "dist_200dma_pct": 56.27
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 95.36,
-    "stop_suggestion": 78.15,
-    "target_suggestion": 114.43,
-    "gap_to_pivot_pct": 0.04
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 100.1,
-    "net_income_cr": 9.1,
-    "revenue_qoq_pct": 8.6,
-    "net_income_qoq_pct": 5.8
-   },
-   "reason": null,
-   "rank": 5,
-   "name": "Premier Polyfilm Limited"
+   "name": "Syrma SGS Technology Limited"
   }
  ]
 }

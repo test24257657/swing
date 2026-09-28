@@ -2,7 +2,7 @@
  "symbol": "NURECA",
  "name": "Nureca Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 351.5,
    "volume": 13395,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-28",
+   "open": 354.95,
+   "high": 365.0,
+   "low": 344.2,
+   "close": 362.55,
+   "volume": 20759,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 334.23
+   },
+   {
+    "time": "2026-09-28",
+    "value": 335.8
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 325.56
+   },
+   {
+    "time": "2026-09-28",
+    "value": 327.21
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 282.34
+   },
+   {
+    "time": "2026-09-28",
+    "value": 282.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.29,
-  "atr_pct": 4.76,
-  "rel_volume_20d": 1.47,
-  "dist_20dma_pct": 5.17,
-  "dist_50dma_pct": 7.97,
-  "dist_200dma_pct": 24.5
+  "rsi_14": 64.21,
+  "atr_pct": 4.7,
+  "rel_volume_20d": 2.22,
+  "dist_20dma_pct": 7.97,
+  "dist_50dma_pct": 10.8,
+  "dist_200dma_pct": 28.28
  }
 }

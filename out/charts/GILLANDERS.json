@@ -2,7 +2,7 @@
  "symbol": "GILLANDERS",
  "name": "Gillanders Arbuthnot & Company Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 108.69,
    "volume": 20672,
    "delivery_pct": 94.58
+  },
+  {
+   "time": "2026-09-28",
+   "open": 112.0,
+   "high": 112.37,
+   "low": 106.08,
+   "close": 107.38,
+   "volume": 16194,
+   "delivery_pct": 70.66
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 104.45
+   },
+   {
+    "time": "2026-09-28",
+    "value": 104.5
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 96.74
+   },
+   {
+    "time": "2026-09-28",
+    "value": 97.09
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 93.89
+   },
+   {
+    "time": "2026-09-28",
+    "value": 93.89
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.22,
-  "atr_pct": 5.0,
-  "rel_volume_20d": 3.75,
-  "dist_20dma_pct": 4.06,
-  "dist_50dma_pct": 12.35,
-  "dist_200dma_pct": 15.76
+  "rsi_14": 62.15,
+  "atr_pct": 5.11,
+  "rel_volume_20d": 2.96,
+  "dist_20dma_pct": 2.76,
+  "dist_50dma_pct": 10.6,
+  "dist_200dma_pct": 14.36
  }
 }

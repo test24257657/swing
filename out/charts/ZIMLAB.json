@@ -2,7 +2,7 @@
  "symbol": "ZIMLAB",
  "name": "Zim Laboratories Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 138.48,
    "volume": 179885,
    "delivery_pct": 38.98
+  },
+  {
+   "time": "2026-09-28",
+   "open": 141.94,
+   "high": 141.94,
+   "low": 133.85,
+   "close": 137.55,
+   "volume": 114414,
+   "delivery_pct": 48.94
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 132.1
+   },
+   {
+    "time": "2026-09-28",
+    "value": 132.7
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 122.65
+   },
+   {
+    "time": "2026-09-28",
+    "value": 122.98
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 94.58
+   },
+   {
+    "time": "2026-09-28",
+    "value": 94.91
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.21,
-  "atr_pct": 5.65,
-  "rel_volume_20d": 1.22,
-  "dist_20dma_pct": 4.83,
-  "dist_50dma_pct": 12.9,
-  "dist_200dma_pct": 46.41
+  "rsi_14": 60.57,
+  "atr_pct": 5.7,
+  "rel_volume_20d": 0.74,
+  "dist_20dma_pct": 3.65,
+  "dist_50dma_pct": 11.84,
+  "dist_200dma_pct": 44.92
  }
 }

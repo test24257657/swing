@@ -2,7 +2,7 @@
  "symbol": "INDGN",
  "name": "Indegene Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 608.95,
    "volume": 2095862,
    "delivery_pct": 22.94
+  },
+  {
+   "time": "2026-09-28",
+   "open": 614.9,
+   "high": 620.0,
+   "low": 600.05,
+   "close": 613.3,
+   "volume": 744751,
+   "delivery_pct": 45.77
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 592.72
+   },
+   {
+    "time": "2026-09-28",
+    "value": 594.44
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 561.9
+   },
+   {
+    "time": "2026-09-28",
+    "value": 563.94
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 514.86
+   },
+   {
+    "time": "2026-09-28",
+    "value": 515.25
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.3,
-  "atr_pct": 2.86,
-  "rel_volume_20d": 3.23,
-  "dist_20dma_pct": 2.74,
-  "dist_50dma_pct": 8.37,
-  "dist_200dma_pct": 18.27
+  "rsi_14": 65.95,
+  "atr_pct": 2.87,
+  "rel_volume_20d": 1.02,
+  "dist_20dma_pct": 3.17,
+  "dist_50dma_pct": 8.75,
+  "dist_200dma_pct": 19.03
  }
 }

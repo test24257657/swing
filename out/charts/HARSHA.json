@@ -2,7 +2,7 @@
  "symbol": "HARSHA",
  "name": "Harsha Engineers International Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 462.05,
    "volume": 150621,
    "delivery_pct": 47.32
+  },
+  {
+   "time": "2026-09-28",
+   "open": 465.0,
+   "high": 474.9,
+   "low": 463.1,
+   "close": 465.55,
+   "volume": 196133,
+   "delivery_pct": 51.68
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 450.93
+   },
+   {
+    "time": "2026-09-28",
+    "value": 452.26
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 431.48
+   },
+   {
+    "time": "2026-09-28",
+    "value": 432.39
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 396.99
+   },
+   {
+    "time": "2026-09-28",
+    "value": 397.44
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.93,
-  "atr_pct": 3.66,
-  "rel_volume_20d": 0.74,
-  "dist_20dma_pct": 2.47,
-  "dist_50dma_pct": 7.08,
-  "dist_200dma_pct": 16.39
+  "rsi_14": 60.45,
+  "atr_pct": 3.57,
+  "rel_volume_20d": 0.96,
+  "dist_20dma_pct": 2.94,
+  "dist_50dma_pct": 7.67,
+  "dist_200dma_pct": 17.14
  }
 }

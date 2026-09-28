@@ -2,7 +2,7 @@
  "symbol": "FINEORG",
  "name": "Fine Organic Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 5083.0,
    "volume": 6621,
    "delivery_pct": 50.2
+  },
+  {
+   "time": "2026-09-28",
+   "open": 5083.0,
+   "high": 5170.5,
+   "low": 5034.5,
+   "close": 5124.0,
+   "volume": 36014,
+   "delivery_pct": 70.08
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 5169.51
+   },
+   {
+    "time": "2026-09-28",
+    "value": 5161.59
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 5079.85
+   },
+   {
+    "time": "2026-09-28",
+    "value": 5081.21
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 4681.04
+   },
+   {
+    "time": "2026-09-28",
+    "value": 4684.16
    }
   ]
  },
  "technicals": {
-  "rsi_14": 44.79,
-  "atr_pct": 2.5,
-  "rel_volume_20d": 0.31,
-  "dist_20dma_pct": -1.67,
-  "dist_50dma_pct": 0.06,
-  "dist_200dma_pct": 8.59
+  "rsi_14": 48.78,
+  "atr_pct": 2.49,
+  "rel_volume_20d": 1.76,
+  "dist_20dma_pct": -0.73,
+  "dist_50dma_pct": 0.84,
+  "dist_200dma_pct": 9.39
  }
 }

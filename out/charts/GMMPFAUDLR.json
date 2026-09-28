@@ -2,7 +2,7 @@
  "symbol": "GMMPFAUDLR",
  "name": "GMM Pfaudler Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 1505.2,
    "volume": 220062,
    "delivery_pct": 47.0
+  },
+  {
+   "time": "2026-09-28",
+   "open": 1510.0,
+   "high": 1510.0,
+   "low": 1457.2,
+   "close": 1480.1,
+   "volume": 191005,
+   "delivery_pct": 49.26
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 1289.69
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1312.36
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 1069.83
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1083.49
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 952.44
+   },
+   {
+    "time": "2026-09-28",
+    "value": 954.34
    }
   ]
  },
  "technicals": {
-  "rsi_14": 78.94,
-  "atr_pct": 4.03,
-  "rel_volume_20d": 0.38,
-  "dist_20dma_pct": 16.71,
-  "dist_50dma_pct": 40.7,
-  "dist_200dma_pct": 58.04
+  "rsi_14": 74.5,
+  "atr_pct": 4.06,
+  "rel_volume_20d": 0.33,
+  "dist_20dma_pct": 12.78,
+  "dist_50dma_pct": 36.61,
+  "dist_200dma_pct": 55.09
  }
 }

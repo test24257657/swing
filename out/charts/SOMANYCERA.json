@@ -2,7 +2,7 @@
  "symbol": "SOMANYCERA",
  "name": "Somany Ceramics Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 618.05,
    "volume": 272762,
    "delivery_pct": 42.78
+  },
+  {
+   "time": "2026-09-28",
+   "open": 618.05,
+   "high": 627.3,
+   "low": 610.0,
+   "close": 620.05,
+   "volume": 132882,
+   "delivery_pct": 51.37
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 571.36
+   },
+   {
+    "time": "2026-09-28",
+    "value": 574.13
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 535.22
+   },
+   {
+    "time": "2026-09-28",
+    "value": 537.17
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 463.9
+   },
+   {
+    "time": "2026-09-28",
+    "value": 464.92
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.49,
-  "atr_pct": 3.3,
-  "rel_volume_20d": 2.11,
-  "dist_20dma_pct": 8.17,
-  "dist_50dma_pct": 15.48,
-  "dist_200dma_pct": 33.23
+  "rsi_14": 75.95,
+  "atr_pct": 3.25,
+  "rel_volume_20d": 1.01,
+  "dist_20dma_pct": 8.0,
+  "dist_50dma_pct": 15.43,
+  "dist_200dma_pct": 33.37
  }
 }

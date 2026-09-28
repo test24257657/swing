@@ -2,7 +2,7 @@
  "symbol": "GANESHBE",
  "name": "Ganesh Benzoplast Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 130.84,
    "volume": 352767,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-28",
+   "open": 132.0,
+   "high": 137.38,
+   "low": 128.11,
+   "close": 137.32,
+   "volume": 583964,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 125.32
+   },
+   {
+    "time": "2026-09-28",
+    "value": 126.19
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 119.96
+   },
+   {
+    "time": "2026-09-28",
+    "value": 120.62
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 96.09
+   },
+   {
+    "time": "2026-09-28",
+    "value": 96.37
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.48,
-  "atr_pct": 4.94,
-  "rel_volume_20d": 1.7,
-  "dist_20dma_pct": 4.4,
-  "dist_50dma_pct": 9.07,
-  "dist_200dma_pct": 36.16
+  "rsi_14": 62.85,
+  "atr_pct": 4.85,
+  "rel_volume_20d": 2.66,
+  "dist_20dma_pct": 8.82,
+  "dist_50dma_pct": 13.85,
+  "dist_200dma_pct": 42.49
  }
 }

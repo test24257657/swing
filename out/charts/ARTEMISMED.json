@@ -2,7 +2,7 @@
  "symbol": "ARTEMISMED",
  "name": "Artemis Medicare Services Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 357.7,
    "volume": 18980196,
    "delivery_pct": 8.2
+  },
+  {
+   "time": "2026-09-28",
+   "open": 362.2,
+   "high": 372.0,
+   "low": 350.2,
+   "close": 365.9,
+   "volume": 2092323,
+   "delivery_pct": 21.83
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 335.43
+   },
+   {
+    "time": "2026-09-28",
+    "value": 337.76
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 316.3
+   },
+   {
+    "time": "2026-09-28",
+    "value": 318.23
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 268.16
+   },
+   {
+    "time": "2026-09-28",
+    "value": 268.65
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.99,
-  "atr_pct": 4.19,
-  "rel_volume_20d": 48.18,
-  "dist_20dma_pct": 6.64,
-  "dist_50dma_pct": 13.09,
-  "dist_200dma_pct": 33.39
+  "rsi_14": 67.96,
+  "atr_pct": 4.23,
+  "rel_volume_20d": 1.57,
+  "dist_20dma_pct": 8.33,
+  "dist_50dma_pct": 14.98,
+  "dist_200dma_pct": 36.2
  }
 }

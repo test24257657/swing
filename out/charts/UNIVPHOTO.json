@@ -2,7 +2,7 @@
  "symbol": "UNIVPHOTO",
  "name": "Universus Photo Imagings Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 547.25,
    "volume": 547,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-28",
+   "open": 549.95,
+   "high": 552.65,
+   "low": 520.05,
+   "close": 524.3,
+   "volume": 587,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 533.88
+   },
+   {
+    "time": "2026-09-28",
+    "value": 537.29
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 492.89
+   },
+   {
+    "time": "2026-09-28",
+    "value": 494.65
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 383.43
+   },
+   {
+    "time": "2026-09-28",
+    "value": 384.86
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.69,
-  "atr_pct": 4.97,
-  "rel_volume_20d": 0.14,
-  "dist_20dma_pct": 2.5,
-  "dist_50dma_pct": 11.03,
-  "dist_200dma_pct": 42.72
+  "rsi_14": 48.99,
+  "atr_pct": 5.26,
+  "rel_volume_20d": 0.15,
+  "dist_20dma_pct": -2.42,
+  "dist_50dma_pct": 5.99,
+  "dist_200dma_pct": 36.23
  }
 }

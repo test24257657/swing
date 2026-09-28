@@ -2,7 +2,7 @@
  "symbol": "LLOYDSENGG",
  "name": "LLOYDS ENGINEERING WORKS LIMITED",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 98.56,
    "volume": 60674433,
    "delivery_pct": 27.68
+  },
+  {
+   "time": "2026-09-28",
+   "open": 98.68,
+   "high": 99.35,
+   "low": 95.1,
+   "close": 95.97,
+   "volume": 19001411,
+   "delivery_pct": 33.68
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 84.65
+   },
+   {
+    "time": "2026-09-28",
+    "value": 85.12
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 88.26
+   },
+   {
+    "time": "2026-09-28",
+    "value": 88.41
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 66.39
+   },
+   {
+    "time": "2026-09-28",
+    "value": 66.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.02,
-  "atr_pct": 4.04,
-  "rel_volume_20d": 10.06,
-  "dist_20dma_pct": 16.43,
-  "dist_50dma_pct": 11.67,
-  "dist_200dma_pct": 48.46
+  "rsi_14": 65.1,
+  "atr_pct": 4.17,
+  "rel_volume_20d": 2.14,
+  "dist_20dma_pct": 12.75,
+  "dist_50dma_pct": 8.55,
+  "dist_200dma_pct": 44.06
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "SANATHAN",
  "name": "Sanathan Textiles Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 523.2,
    "volume": 189507,
    "delivery_pct": 50.25
+  },
+  {
+   "time": "2026-09-28",
+   "open": 526.0,
+   "high": 530.35,
+   "low": 515.0,
+   "close": 517.55,
+   "volume": 74280,
+   "delivery_pct": 41.45
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 470.45
+   },
+   {
+    "time": "2026-09-28",
+    "value": 473.93
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 470.38
+   },
+   {
+    "time": "2026-09-28",
+    "value": 471.89
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 436.97
+   },
+   {
+    "time": "2026-09-28",
+    "value": 437.28
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.48,
-  "atr_pct": 4.32,
-  "rel_volume_20d": 1.16,
-  "dist_20dma_pct": 11.21,
-  "dist_50dma_pct": 11.23,
-  "dist_200dma_pct": 19.73
+  "rsi_14": 63.96,
+  "atr_pct": 4.26,
+  "rel_volume_20d": 0.43,
+  "dist_20dma_pct": 9.21,
+  "dist_50dma_pct": 9.68,
+  "dist_200dma_pct": 18.36
  }
 }

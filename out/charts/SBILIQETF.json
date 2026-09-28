@@ -2,7 +2,7 @@
  "symbol": "SBILIQETF",
  "name": "SBILIQETF",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2226,6 +2226,15 @@
    "close": 1057.62,
    "volume": 54249,
    "delivery_pct": 97.91
+  },
+  {
+   "time": "2026-09-28",
+   "open": 1057.73,
+   "high": 1057.75,
+   "low": 1057.73,
+   "close": 1057.74,
+   "volume": 9850,
+   "delivery_pct": 73.04
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-09-25",
     "value": 1055.61
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1055.8
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-09-25",
     "value": 1052.72
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1052.92
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-09-25",
     "value": 1037.41
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1037.61
    }
   ]
  },
  "technicals": {
   "rsi_14": 100.0,
   "atr_pct": 0.02,
-  "rel_volume_20d": 0.24,
-  "dist_20dma_pct": 0.19,
-  "dist_50dma_pct": 0.47,
-  "dist_200dma_pct": 1.95
+  "rel_volume_20d": 0.04,
+  "dist_20dma_pct": 0.18,
+  "dist_50dma_pct": 0.46,
+  "dist_200dma_pct": 1.94
  }
 }

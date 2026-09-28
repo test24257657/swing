@@ -2,7 +2,7 @@
  "symbol": "SBC",
  "name": "SBC Exports Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 53.02,
    "volume": 23868200,
    "delivery_pct": 31.06
+  },
+  {
+   "time": "2026-09-28",
+   "open": 53.5,
+   "high": 56.9,
+   "low": 53.06,
+   "close": 53.54,
+   "volume": 22177245,
+   "delivery_pct": 28.36
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 46.89
+   },
+   {
+    "time": "2026-09-28",
+    "value": 47.47
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 43.31
+   },
+   {
+    "time": "2026-09-28",
+    "value": 43.53
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 35.73
+   },
+   {
+    "time": "2026-09-28",
+    "value": 35.86
    }
   ]
  },
  "technicals": {
-  "rsi_14": 80.2,
-  "atr_pct": 3.12,
-  "rel_volume_20d": 2.62,
-  "dist_20dma_pct": 13.08,
-  "dist_50dma_pct": 22.42,
-  "dist_200dma_pct": 48.4
+  "rsi_14": 81.07,
+  "atr_pct": 3.38,
+  "rel_volume_20d": 2.24,
+  "dist_20dma_pct": 12.79,
+  "dist_50dma_pct": 22.98,
+  "dist_200dma_pct": 49.3
  }
 }

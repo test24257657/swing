@@ -2,7 +2,7 @@
  "symbol": "QUADFUTURE",
  "name": "Quadrant Future Tek Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 547.5,
    "volume": 1950037,
    "delivery_pct": 15.76
+  },
+  {
+   "time": "2026-09-28",
+   "open": 537.0,
+   "high": 564.9,
+   "low": 527.6,
+   "close": 531.5,
+   "volume": 1323802,
+   "delivery_pct": 23.35
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 469.92
+   },
+   {
+    "time": "2026-09-28",
+    "value": 475.03
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 411.72
+   },
+   {
+    "time": "2026-09-28",
+    "value": 414.25
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 345.32
+   },
+   {
+    "time": "2026-09-28",
+    "value": 346.53
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.52,
-  "atr_pct": 5.77,
-  "rel_volume_20d": 1.38,
-  "dist_20dma_pct": 16.51,
-  "dist_50dma_pct": 32.98,
-  "dist_200dma_pct": 58.55
+  "rsi_14": 65.37,
+  "atr_pct": 6.02,
+  "rel_volume_20d": 0.93,
+  "dist_20dma_pct": 11.89,
+  "dist_50dma_pct": 28.31,
+  "dist_200dma_pct": 53.38
  }
 }

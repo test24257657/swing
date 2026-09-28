@@ -2,7 +2,7 @@
  "symbol": "JASH",
  "name": "Jash Engineering Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 593.85,
    "volume": 322251,
    "delivery_pct": 46.0
+  },
+  {
+   "time": "2026-09-28",
+   "open": 593.85,
+   "high": 596.75,
+   "low": 583.35,
+   "close": 588.75,
+   "volume": 241237,
+   "delivery_pct": 43.18
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 516.97
+   },
+   {
+    "time": "2026-09-28",
+    "value": 522.49
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 504.83
+   },
+   {
+    "time": "2026-09-28",
+    "value": 506.2
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 441.52
+   },
+   {
+    "time": "2026-09-28",
+    "value": 442.22
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.2,
-  "atr_pct": 3.92,
-  "rel_volume_20d": 0.32,
-  "dist_20dma_pct": 14.87,
-  "dist_50dma_pct": 17.63,
-  "dist_200dma_pct": 34.5
+  "rsi_14": 69.06,
+  "atr_pct": 3.84,
+  "rel_volume_20d": 0.24,
+  "dist_20dma_pct": 12.68,
+  "dist_50dma_pct": 16.31,
+  "dist_200dma_pct": 33.14
  }
 }

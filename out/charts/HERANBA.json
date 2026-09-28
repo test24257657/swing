@@ -2,7 +2,7 @@
  "symbol": "HERANBA",
  "name": "Heranba Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 187.6,
    "volume": 3333268,
    "delivery_pct": 6.86
+  },
+  {
+   "time": "2026-09-28",
+   "open": 187.9,
+   "high": 188.78,
+   "low": 179.0,
+   "close": 179.94,
+   "volume": 103604,
+   "delivery_pct": 40.13
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 171.62
+   },
+   {
+    "time": "2026-09-28",
+    "value": 172.03
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 173.11
+   },
+   {
+    "time": "2026-09-28",
+    "value": 173.1
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 197.54
+   },
+   {
+    "time": "2026-09-28",
+    "value": 197.2
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.39,
-  "atr_pct": 4.04,
-  "rel_volume_20d": 108.32,
-  "dist_20dma_pct": 9.31,
-  "dist_50dma_pct": 8.37,
-  "dist_200dma_pct": -5.03
+  "rsi_14": 57.93,
+  "atr_pct": 4.3,
+  "rel_volume_20d": 0.53,
+  "dist_20dma_pct": 4.6,
+  "dist_50dma_pct": 3.95,
+  "dist_200dma_pct": -8.75
  }
 }

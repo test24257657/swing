@@ -2,7 +2,7 @@
  "symbol": "APLLTD",
  "name": "Alembic Pharmaceuticals Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 863.75,
    "volume": 309225,
    "delivery_pct": 63.81
+  },
+  {
+   "time": "2026-09-28",
+   "open": 870.0,
+   "high": 870.0,
+   "low": 843.65,
+   "close": 854.35,
+   "volume": 211650,
+   "delivery_pct": 58.11
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 827.63
+   },
+   {
+    "time": "2026-09-28",
+    "value": 829.67
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 822.97
+   },
+   {
+    "time": "2026-09-28",
+    "value": 823.55
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 784.41
+   },
+   {
+    "time": "2026-09-28",
+    "value": 784.18
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.39,
-  "atr_pct": 2.87,
-  "rel_volume_20d": 1.54,
-  "dist_20dma_pct": 4.36,
-  "dist_50dma_pct": 4.96,
-  "dist_200dma_pct": 10.11
+  "rsi_14": 60.27,
+  "atr_pct": 2.91,
+  "rel_volume_20d": 1.05,
+  "dist_20dma_pct": 2.97,
+  "dist_50dma_pct": 3.74,
+  "dist_200dma_pct": 8.95
  }
 }

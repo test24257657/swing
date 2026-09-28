@@ -2,7 +2,7 @@
  "symbol": "ABSLLIQUID",
  "name": "ABSLLIQUID",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 1000.0,
    "volume": 802,
    "delivery_pct": 62.84
+  },
+  {
+   "time": "2026-09-28",
+   "open": 999.99,
+   "high": 1000.01,
+   "low": 999.99,
+   "close": 1000.0,
+   "volume": 32152,
+   "delivery_pct": 99.04
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 1000.0
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1000.0
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 1000.0
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1000.0
    }
   ],
   "sma_200": [
@@ -4150,13 +4167,17 @@
    {
     "time": "2026-09-25",
     "value": 1000.0
+   },
+   {
+    "time": "2026-09-28",
+    "value": 1000.0
    }
   ]
  },
  "technicals": {
   "rsi_14": 51.17,
-  "atr_pct": 0.15,
-  "rel_volume_20d": 0.14,
+  "atr_pct": 0.14,
+  "rel_volume_20d": 5.82,
   "dist_20dma_pct": 0.0,
   "dist_50dma_pct": 0.0,
   "dist_200dma_pct": 0.0

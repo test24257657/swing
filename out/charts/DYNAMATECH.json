@@ -2,7 +2,7 @@
  "symbol": "DYNAMATECH",
  "name": "Dynamatic Technologies Limited",
  "kind": "stock",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-28",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2235,6 +2235,15 @@
    "close": 13153.0,
    "volume": 38127,
    "delivery_pct": 29.16
+  },
+  {
+   "time": "2026-09-28",
+   "open": 13380.0,
+   "high": 13500.0,
+   "low": 13014.0,
+   "close": 13139.0,
+   "volume": 44529,
+   "delivery_pct": 32.1
   }
  ],
  "ma": {
@@ -3154,6 +3163,10 @@
    {
     "time": "2026-09-25",
     "value": 11954.35
+   },
+   {
+    "time": "2026-09-28",
+    "value": 12039.5
    }
   ],
   "sma_50": [
@@ -3952,6 +3965,10 @@
    {
     "time": "2026-09-25",
     "value": 11330.88
+   },
+   {
+    "time": "2026-09-28",
+    "value": 11387.48
    }
   ],
   "sma_200": [
@@ -4150,15 +4167,19 @@
    {
     "time": "2026-09-25",
     "value": 10331.58
+   },
+   {
+    "time": "2026-09-28",
+    "value": 10354.31
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.64,
-  "atr_pct": 3.69,
-  "rel_volume_20d": 1.93,
-  "dist_20dma_pct": 10.03,
-  "dist_50dma_pct": 16.08,
-  "dist_200dma_pct": 27.31
+  "rsi_14": 75.21,
+  "atr_pct": 3.7,
+  "rel_volume_20d": 2.11,
+  "dist_20dma_pct": 9.13,
+  "dist_50dma_pct": 15.38,
+  "dist_200dma_pct": 26.89
  }
 }
