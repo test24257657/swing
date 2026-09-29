@@ -2,7 +2,7 @@
  "symbol": "HITECHCORP",
  "name": "Hitech Corporation Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 341.45,
    "volume": 38828,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-29",
+   "open": 343.5,
+   "high": 343.5,
+   "low": 332.65,
+   "close": 342.45,
+   "volume": 7424,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 333.3
+   },
+   {
+    "time": "2026-09-29",
+    "value": 333.69
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 328.8
+   },
+   {
+    "time": "2026-09-29",
+    "value": 329.19
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 223.38
+   },
+   {
+    "time": "2026-09-29",
+    "value": 224.21
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.35,
-  "atr_pct": 2.47,
-  "rel_volume_20d": 5.66,
-  "dist_20dma_pct": 2.44,
-  "dist_50dma_pct": 3.85,
-  "dist_200dma_pct": 52.86
+  "rsi_14": 63.26,
+  "atr_pct": 2.52,
+  "rel_volume_20d": 0.89,
+  "dist_20dma_pct": 2.62,
+  "dist_50dma_pct": 4.03,
+  "dist_200dma_pct": 52.74
  }
 }

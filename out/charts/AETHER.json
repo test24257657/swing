@@ -2,7 +2,7 @@
  "symbol": "AETHER",
  "name": "Aether Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 1739.2,
    "volume": 318334,
    "delivery_pct": 34.25
+  },
+  {
+   "time": "2026-09-29",
+   "open": 1746.9,
+   "high": 1773.7,
+   "low": 1707.0,
+   "close": 1749.9,
+   "volume": 521059,
+   "delivery_pct": 46.77
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 1650.66
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1653.59
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 1601.58
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1607.57
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 1213.78
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1218.29
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.81,
+  "rsi_14": 64.86,
   "atr_pct": 3.46,
-  "rel_volume_20d": 1.13,
-  "dist_20dma_pct": 5.36,
-  "dist_50dma_pct": 8.59,
-  "dist_200dma_pct": 43.29
+  "rel_volume_20d": 1.89,
+  "dist_20dma_pct": 5.82,
+  "dist_50dma_pct": 8.85,
+  "dist_200dma_pct": 43.64
  }
 }

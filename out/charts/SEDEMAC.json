@@ -2,7 +2,7 @@
  "symbol": "SEDEMAC",
  "name": "SEDEMAC Mechatronics Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2026-03-11",
@@ -1227,6 +1227,15 @@
    "close": 3547.8,
    "volume": 659236,
    "delivery_pct": 29.28
+  },
+  {
+   "time": "2026-09-29",
+   "open": 3523.9,
+   "high": 3596.0,
+   "low": 3450.6,
+   "close": 3485.6,
+   "volume": 437207,
+   "delivery_pct": 33.27
   }
  ],
  "ma": {
@@ -1698,6 +1707,10 @@
    {
     "time": "2026-09-28",
     "value": 3043.81
+   },
+   {
+    "time": "2026-09-29",
+    "value": 3063.62
    }
   ],
   "sma_50": [
@@ -2048,15 +2061,19 @@
    {
     "time": "2026-09-28",
     "value": 2974.85
+   },
+   {
+    "time": "2026-09-29",
+    "value": 2991.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.02,
-  "atr_pct": 4.5,
-  "rel_volume_20d": 2.77,
-  "dist_20dma_pct": 16.56,
-  "dist_50dma_pct": 19.26,
+  "rsi_14": 69.55,
+  "atr_pct": 4.55,
+  "rel_volume_20d": 1.63,
+  "dist_20dma_pct": 13.77,
+  "dist_50dma_pct": 16.54,
   "dist_200dma_pct": null
  }
 }

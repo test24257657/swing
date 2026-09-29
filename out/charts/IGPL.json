@@ -2,7 +2,7 @@
  "symbol": "IGPL",
  "name": "IG Petrochemicals Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 581.55,
    "volume": 48549,
    "delivery_pct": 53.7
+  },
+  {
+   "time": "2026-09-29",
+   "open": 580.0,
+   "high": 591.9,
+   "low": 575.0,
+   "close": 584.3,
+   "volume": 44273,
+   "delivery_pct": 47.42
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 560.02
+   },
+   {
+    "time": "2026-09-29",
+    "value": 562.49
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 510.42
+   },
+   {
+    "time": "2026-09-29",
+    "value": 513.53
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 427.29
+   },
+   {
+    "time": "2026-09-29",
+    "value": 428.23
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.95,
-  "atr_pct": 4.3,
-  "rel_volume_20d": 0.44,
-  "dist_20dma_pct": 3.84,
-  "dist_50dma_pct": 13.94,
-  "dist_200dma_pct": 36.1
+  "rsi_14": 61.61,
+  "atr_pct": 4.18,
+  "rel_volume_20d": 0.41,
+  "dist_20dma_pct": 3.88,
+  "dist_50dma_pct": 13.78,
+  "dist_200dma_pct": 36.44
  }
 }

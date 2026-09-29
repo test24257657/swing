@@ -2,7 +2,7 @@
  "symbol": "SBIN",
  "name": "State Bank of India",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 962.0,
    "volume": 9846646,
    "delivery_pct": 61.93
+  },
+  {
+   "time": "2026-09-29",
+   "open": 960.9,
+   "high": 968.1,
+   "low": 953.0,
+   "close": 964.7,
+   "volume": 26781498,
+   "delivery_pct": 70.08
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 1000.98
+   },
+   {
+    "time": "2026-09-29",
+    "value": 996.21
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 1029.22
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1027.31
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 1040.86
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1040.83
    }
   ]
  },
  "technicals": {
-  "rsi_14": 33.79,
-  "atr_pct": 1.78,
-  "rel_volume_20d": 1.33,
-  "dist_20dma_pct": -3.89,
-  "dist_50dma_pct": -6.53,
-  "dist_200dma_pct": -7.58
+  "rsi_14": 35.08,
+  "atr_pct": 1.76,
+  "rel_volume_20d": 3.5,
+  "dist_20dma_pct": -3.16,
+  "dist_50dma_pct": -6.09,
+  "dist_200dma_pct": -7.31
  }
 }

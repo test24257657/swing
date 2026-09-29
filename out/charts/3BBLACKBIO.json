@@ -2,7 +2,7 @@
  "symbol": "3BBLACKBIO",
  "name": "3B Blackbio Dx Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1011,6 +1011,15 @@
    "close": 1584.8,
    "volume": 84310,
    "delivery_pct": 31.62
+  },
+  {
+   "time": "2026-09-29",
+   "open": 1575.1,
+   "high": 1635.0,
+   "low": 1532.9,
+   "close": 1622.7,
+   "volume": 31539,
+   "delivery_pct": 42.01
   }
  ],
  "ma": {
@@ -1386,6 +1395,10 @@
    {
     "time": "2026-09-28",
     "value": 1431.32
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1440.06
    }
   ],
   "sma_50": [
@@ -1640,15 +1653,19 @@
    {
     "time": "2026-09-28",
     "value": 1319.85
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1326.95
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.56,
+  "rsi_14": 68.55,
   "atr_pct": 4.8,
-  "rel_volume_20d": 4.48,
-  "dist_20dma_pct": 10.72,
-  "dist_50dma_pct": 20.07,
+  "rel_volume_20d": 1.52,
+  "dist_20dma_pct": 12.68,
+  "dist_50dma_pct": 22.29,
   "dist_200dma_pct": null
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "ADROITINFO",
  "name": "Adroit Infotech Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 13.51,
    "volume": 230079,
    "delivery_pct": 72.08
+  },
+  {
+   "time": "2026-09-29",
+   "open": 13.98,
+   "high": 14.97,
+   "low": 13.25,
+   "close": 14.23,
+   "volume": 767644,
+   "delivery_pct": 60.67
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 11.32
+   },
+   {
+    "time": "2026-09-29",
+    "value": 11.52
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 10.43
+   },
+   {
+    "time": "2026-09-29",
+    "value": 10.53
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 9.77
+   },
+   {
+    "time": "2026-09-29",
+    "value": 9.79
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.68,
-  "atr_pct": 6.12,
-  "rel_volume_20d": 2.88,
-  "dist_20dma_pct": 19.34,
-  "dist_50dma_pct": 29.48,
-  "dist_200dma_pct": 38.29
+  "rsi_14": 79.21,
+  "atr_pct": 6.26,
+  "rel_volume_20d": 8.47,
+  "dist_20dma_pct": 23.55,
+  "dist_50dma_pct": 35.08,
+  "dist_200dma_pct": 45.37
  }
 }

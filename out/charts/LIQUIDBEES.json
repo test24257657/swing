@@ -2,7 +2,7 @@
  "symbol": "LIQUIDBEES",
  "name": "LIQUIDBEES",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 999.99,
    "volume": 3571800,
    "delivery_pct": 80.26
+  },
+  {
+   "time": "2026-09-29",
+   "open": 1000.0,
+   "high": 1000.01,
+   "low": 994.99,
+   "close": 1000.0,
+   "volume": 6333869,
+   "delivery_pct": 73.16
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 999.99
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1000.0
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 1000.0
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1000.0
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 1000.0
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1000.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 45.73,
-  "atr_pct": 0.09,
-  "rel_volume_20d": 1.05,
-  "dist_20dma_pct": -0.0,
-  "dist_50dma_pct": -0.0,
-  "dist_200dma_pct": -0.0
+  "rsi_14": 54.52,
+  "atr_pct": 0.12,
+  "rel_volume_20d": 1.88,
+  "dist_20dma_pct": 0.0,
+  "dist_50dma_pct": 0.0,
+  "dist_200dma_pct": 0.0
  }
 }

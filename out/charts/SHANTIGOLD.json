@@ -2,7 +2,7 @@
  "symbol": "SHANTIGOLD",
  "name": "Shanti Gold International Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 308.77,
    "volume": 7374839,
    "delivery_pct": 20.73
+  },
+  {
+   "time": "2026-09-29",
+   "open": 310.0,
+   "high": 314.99,
+   "low": 296.85,
+   "close": 306.85,
+   "volume": 3338239,
+   "delivery_pct": 27.56
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 262.31
+   },
+   {
+    "time": "2026-09-29",
+    "value": 265.32
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 244.49
+   },
+   {
+    "time": "2026-09-29",
+    "value": 246.38
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 215.11
+   },
+   {
+    "time": "2026-09-29",
+    "value": 215.64
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.78,
-  "atr_pct": 5.72,
-  "rel_volume_20d": 1.85,
-  "dist_20dma_pct": 17.71,
-  "dist_50dma_pct": 26.29,
-  "dist_200dma_pct": 43.54
+  "rsi_14": 65.86,
+  "atr_pct": 5.77,
+  "rel_volume_20d": 0.78,
+  "dist_20dma_pct": 15.65,
+  "dist_50dma_pct": 24.54,
+  "dist_200dma_pct": 42.3
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "AONELIQUID",
  "name": "AONELIQUID",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 1078.72,
    "volume": 13091,
    "delivery_pct": 74.51
+  },
+  {
+   "time": "2026-09-29",
+   "open": 1078.86,
+   "high": 1078.88,
+   "low": 1078.86,
+   "close": 1078.86,
+   "volume": 16578,
+   "delivery_pct": 62.28
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 1076.72
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1076.92
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 1073.75
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1073.95
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 1058.11
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1058.32
    }
   ]
  },
  "technicals": {
   "rsi_14": 100.0,
   "atr_pct": 0.03,
-  "rel_volume_20d": 0.61,
-  "dist_20dma_pct": 0.19,
+  "rel_volume_20d": 0.77,
+  "dist_20dma_pct": 0.18,
   "dist_50dma_pct": 0.46,
-  "dist_200dma_pct": 1.95
+  "dist_200dma_pct": 1.94
  }
 }

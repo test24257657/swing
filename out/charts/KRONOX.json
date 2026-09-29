@@ -2,7 +2,7 @@
  "symbol": "KRONOX",
  "name": "Kronox Lab Sciences Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 216.9,
    "volume": 377726,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-29",
+   "open": 227.74,
+   "high": 227.74,
+   "low": 210.2,
+   "close": 217.04,
+   "volume": 496174,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 182.33
+   },
+   {
+    "time": "2026-09-29",
+    "value": 184.31
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 172.17
+   },
+   {
+    "time": "2026-09-29",
+    "value": 173.44
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 142.33
+   },
+   {
+    "time": "2026-09-29",
+    "value": 142.72
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.48,
-  "atr_pct": 5.13,
-  "rel_volume_20d": 3.35,
-  "dist_20dma_pct": 18.96,
-  "dist_50dma_pct": 25.98,
-  "dist_200dma_pct": 52.4
+  "rsi_14": 72.52,
+  "atr_pct": 5.34,
+  "rel_volume_20d": 4.05,
+  "dist_20dma_pct": 17.76,
+  "dist_50dma_pct": 25.13,
+  "dist_200dma_pct": 52.07
  }
 }

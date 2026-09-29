@@ -2,7 +2,7 @@
  "symbol": "VETO",
  "name": "Veto Switchgears And Cables Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 147.7,
    "volume": 243862,
    "delivery_pct": 51.95
+  },
+  {
+   "time": "2026-09-29",
+   "open": 147.7,
+   "high": 150.99,
+   "low": 143.25,
+   "close": 146.25,
+   "volume": 109301,
+   "delivery_pct": 55.79
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 132.73
+   },
+   {
+    "time": "2026-09-29",
+    "value": 133.77
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 127.28
+   },
+   {
+    "time": "2026-09-29",
+    "value": 127.65
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 115.23
+   },
+   {
+    "time": "2026-09-29",
+    "value": 115.41
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.46,
-  "atr_pct": 4.24,
-  "rel_volume_20d": 2.83,
-  "dist_20dma_pct": 11.28,
-  "dist_50dma_pct": 16.04,
-  "dist_200dma_pct": 28.18
+  "rsi_14": 65.95,
+  "atr_pct": 4.35,
+  "rel_volume_20d": 1.12,
+  "dist_20dma_pct": 9.33,
+  "dist_50dma_pct": 14.57,
+  "dist_200dma_pct": 26.72
  }
 }

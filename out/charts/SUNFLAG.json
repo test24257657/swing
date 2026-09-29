@@ -2,7 +2,7 @@
  "symbol": "SUNFLAG",
  "name": "Sunflag Iron And Steel Company Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 449.2,
    "volume": 4467850,
    "delivery_pct": 28.82
+  },
+  {
+   "time": "2026-09-29",
+   "open": 459.4,
+   "high": 469.0,
+   "low": 435.15,
+   "close": 464.3,
+   "volume": 2158845,
+   "delivery_pct": 32.93
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 356.13
+   },
+   {
+    "time": "2026-09-29",
+    "value": 362.33
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 358.44
+   },
+   {
+    "time": "2026-09-29",
+    "value": 360.7
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 306.13
+   },
+   {
+    "time": "2026-09-29",
+    "value": 307.18
    }
   ]
  },
  "technicals": {
-  "rsi_14": 82.88,
-  "atr_pct": 3.67,
-  "rel_volume_20d": 12.38,
-  "dist_20dma_pct": 26.13,
-  "dist_50dma_pct": 25.32,
-  "dist_200dma_pct": 46.73
+  "rsi_14": 84.67,
+  "atr_pct": 3.82,
+  "rel_volume_20d": 3.72,
+  "dist_20dma_pct": 28.14,
+  "dist_50dma_pct": 28.72,
+  "dist_200dma_pct": 51.15
  }
 }

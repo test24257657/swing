@@ -2,7 +2,7 @@
  "symbol": "POLICYBZR",
  "name": "PB Fintech Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 1151.3,
    "volume": 10839191,
    "delivery_pct": 31.84
+  },
+  {
+   "time": "2026-09-29",
+   "open": 1162.1,
+   "high": 1162.3,
+   "low": 1077.0,
+   "close": 1081.0,
+   "volume": 19346053,
+   "delivery_pct": 55.3
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 1717.86
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1678.17
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 1692.43
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1682.36
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 1642.95
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1638.88
    }
   ]
  },
  "technicals": {
-  "rsi_14": 23.54,
-  "atr_pct": 9.35,
-  "rel_volume_20d": 2.32,
-  "dist_20dma_pct": -32.98,
-  "dist_50dma_pct": -31.97,
-  "dist_200dma_pct": -29.92
+  "rsi_14": 21.94,
+  "atr_pct": 9.81,
+  "rel_volume_20d": 3.72,
+  "dist_20dma_pct": -35.58,
+  "dist_50dma_pct": -35.74,
+  "dist_200dma_pct": -34.04
  }
 }

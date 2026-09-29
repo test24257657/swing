@@ -2,7 +2,7 @@
  "symbol": "ALMONDZ",
  "name": "Almondz Global Securities Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 21.09,
    "volume": 314984,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-29",
+   "open": 20.6,
+   "high": 20.61,
+   "low": 20.04,
+   "close": 20.06,
+   "volume": 253726,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 18.76
+   },
+   {
+    "time": "2026-09-29",
+    "value": 18.89
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 15.99
+   },
+   {
+    "time": "2026-09-29",
+    "value": 16.13
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 15.19
+   },
+   {
+    "time": "2026-09-29",
+    "value": 15.2
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.09,
-  "atr_pct": 5.94,
-  "rel_volume_20d": 0.73,
-  "dist_20dma_pct": 12.42,
-  "dist_50dma_pct": 31.91,
-  "dist_200dma_pct": 38.86
+  "rsi_14": 61.72,
+  "atr_pct": 6.18,
+  "rel_volume_20d": 0.62,
+  "dist_20dma_pct": 6.21,
+  "dist_50dma_pct": 24.38,
+  "dist_200dma_pct": 31.94
  }
 }

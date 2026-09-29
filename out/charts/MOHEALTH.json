@@ -2,7 +2,7 @@
  "symbol": "MOHEALTH",
  "name": "MOHEALTH",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 52.09,
    "volume": 54572,
    "delivery_pct": 66.52
+  },
+  {
+   "time": "2026-09-29",
+   "open": 50.78,
+   "high": 52.89,
+   "low": 50.78,
+   "close": 52.21,
+   "volume": 27494,
+   "delivery_pct": 64.95
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 52.13
+   },
+   {
+    "time": "2026-09-29",
+    "value": 52.13
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 51.77
+   },
+   {
+    "time": "2026-09-29",
+    "value": 51.79
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 46.94
+   },
+   {
+    "time": "2026-09-29",
+    "value": 46.98
    }
   ]
  },
  "technicals": {
-  "rsi_14": 50.61,
-  "atr_pct": 2.21,
-  "rel_volume_20d": 0.65,
-  "dist_20dma_pct": -0.08,
-  "dist_50dma_pct": 0.62,
-  "dist_200dma_pct": 10.96
+  "rsi_14": 51.85,
+  "atr_pct": 2.34,
+  "rel_volume_20d": 0.33,
+  "dist_20dma_pct": 0.14,
+  "dist_50dma_pct": 0.82,
+  "dist_200dma_pct": 11.13
  }
 }

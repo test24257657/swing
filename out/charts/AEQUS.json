@@ -2,7 +2,7 @@
  "symbol": "AEQUS",
  "name": "Aequs Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-12-10",
@@ -1776,6 +1776,15 @@
    "close": 260.1,
    "volume": 33667541,
    "delivery_pct": 29.06
+  },
+  {
+   "time": "2026-09-29",
+   "open": 260.0,
+   "high": 273.0,
+   "low": 249.03,
+   "close": 271.63,
+   "volume": 11417115,
+   "delivery_pct": 34.94
   }
  ],
  "ma": {
@@ -2491,6 +2500,10 @@
    {
     "time": "2026-09-28",
     "value": 237.48
+   },
+   {
+    "time": "2026-09-29",
+    "value": 238.84
    }
   ],
   "sma_50": [
@@ -3085,15 +3098,19 @@
    {
     "time": "2026-09-28",
     "value": 240.38
+   },
+   {
+    "time": "2026-09-29",
+    "value": 241.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.04,
-  "atr_pct": 4.03,
-  "rel_volume_20d": 14.72,
-  "dist_20dma_pct": 9.53,
-  "dist_50dma_pct": 8.21,
+  "rsi_14": 73.53,
+  "atr_pct": 4.22,
+  "rel_volume_20d": 2.92,
+  "dist_20dma_pct": 13.73,
+  "dist_50dma_pct": 12.71,
   "dist_200dma_pct": null
  }
 }

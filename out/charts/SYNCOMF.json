@@ -2,7 +2,7 @@
  "symbol": "SYNCOMF",
  "name": "Syncom Formulations (India) Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 22.2,
    "volume": 82454897,
    "delivery_pct": 16.1
+  },
+  {
+   "time": "2026-09-29",
+   "open": 22.46,
+   "high": 26.64,
+   "low": 22.03,
+   "close": 26.18,
+   "volume": 237186557,
+   "delivery_pct": 10.06
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 20.06
+   },
+   {
+    "time": "2026-09-29",
+    "value": 20.4
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 16.82
+   },
+   {
+    "time": "2026-09-29",
+    "value": 17.07
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 14.4
+   },
+   {
+    "time": "2026-09-29",
+    "value": 14.45
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.66,
-  "atr_pct": 5.99,
-  "rel_volume_20d": 5.91,
-  "dist_20dma_pct": 10.64,
-  "dist_50dma_pct": 31.99,
-  "dist_200dma_pct": 54.18
+  "rsi_14": 80.71,
+  "atr_pct": 5.98,
+  "rel_volume_20d": 15.58,
+  "dist_20dma_pct": 28.34,
+  "dist_50dma_pct": 53.36,
+  "dist_200dma_pct": 81.13
  }
 }

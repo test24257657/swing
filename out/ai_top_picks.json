@@ -1,124 +1,153 @@
 {
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "source": "rules",
- "universe": 191,
- "eligible": 4,
+ "universe": 209,
+ "eligible": 55,
  "picks": [
   {
-   "symbol": "ANTELOPUS",
-   "ltp": 1159.45,
+   "symbol": "GANDHAR",
+   "ltp": 273.55,
    "technicals": {
-    "rsi_14": 59.32,
-    "rel_volume_20d": 0.33,
-    "dist_20dma_pct": 8.34,
-    "dist_50dma_pct": 25.66,
-    "dist_200dma_pct": 67.33
-   },
-   "pattern": {
-    "code": "vcp",
-    "stage": "forming",
-    "pivot_price": 1218.3,
-    "stop_suggestion": 1024.63,
-    "target_suggestion": 1522.88,
-    "gap_to_pivot_pct": -4.83
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 131.0,
-    "net_income_cr": 54.3,
-    "revenue_qoq_pct": 28.4,
-    "net_income_qoq_pct": 42.5
-   },
-   "reason": null,
-   "rank": 1,
-   "name": "Antelopus Selan Energy Limited"
-  },
-  {
-   "symbol": "LORDSCHLO",
-   "ltp": 148.2,
-   "technicals": {
-    "rsi_14": 62.12,
-    "rel_volume_20d": 3.03,
-    "dist_20dma_pct": 6.98,
-    "dist_50dma_pct": 5.53,
-    "dist_200dma_pct": 4.57
+    "rsi_14": 60.49,
+    "rel_volume_20d": 0.88,
+    "dist_20dma_pct": 2.62,
+    "dist_50dma_pct": 7.7,
+    "dist_200dma_pct": 54.01
    },
    "pattern": {
     "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 150.0,
-    "stop_suggestion": 136.61,
-    "target_suggestion": 172.5,
-    "gap_to_pivot_pct": -1.2
+    "pivot_price": 278.0,
+    "stop_suggestion": 258.64,
+    "target_suggestion": 319.7,
+    "gap_to_pivot_pct": -1.6
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 106.3,
-    "net_income_cr": 15.0,
-    "revenue_qoq_pct": 8.9,
-    "net_income_qoq_pct": 240.9
+    "revenue_cr": 1731.9,
+    "net_income_cr": 192.3,
+    "revenue_qoq_pct": 58.4,
+    "net_income_qoq_pct": 372.5
+   },
+   "reason": null,
+   "rank": 1,
+   "name": "Gandhar Oil Refinery (India) Limited"
+  },
+  {
+   "symbol": "TATVA",
+   "ltp": 1806.4,
+   "technicals": {
+    "rsi_14": 60.94,
+    "rel_volume_20d": 1.27,
+    "dist_20dma_pct": 6.65,
+    "dist_50dma_pct": 6.62,
+    "dist_200dma_pct": 32.75
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 1800.1,
+    "stop_suggestion": 1520.0,
+    "target_suggestion": 2160.12,
+    "gap_to_pivot_pct": 0.35
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 167.1,
+    "net_income_cr": 16.0,
+    "revenue_qoq_pct": 24.6,
+    "net_income_qoq_pct": 55.3
    },
    "reason": null,
    "rank": 2,
-   "name": "Lords Chloro Alkali Limited"
+   "name": "Tatva Chintan Pharma Chem Limited"
   },
   {
-   "symbol": "SHREEJISPG",
-   "ltp": 752.8,
+   "symbol": "ESAFSFB",
+   "ltp": 44.54,
    "technicals": {
-    "rsi_14": 73.8,
-    "rel_volume_20d": 0.68,
-    "dist_20dma_pct": 7.99,
-    "dist_50dma_pct": 13.72,
-    "dist_200dma_pct": 60.78
+    "rsi_14": 68.2,
+    "rel_volume_20d": 2.49,
+    "dist_20dma_pct": 8.99,
+    "dist_50dma_pct": 9.69,
+    "dist_200dma_pct": 44.27
    },
    "pattern": {
-    "code": "high_52w_breakout",
+    "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 723.75,
-    "stop_suggestion": 655.75,
-    "target_suggestion": 868.5,
-    "gap_to_pivot_pct": 4.01
+    "pivot_price": 44.99,
+    "stop_suggestion": 41.37,
+    "target_suggestion": 51.74,
+    "gap_to_pivot_pct": -1.0
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 208.8,
-    "net_income_cr": 44.3,
-    "revenue_qoq_pct": 11.0,
-    "net_income_qoq_pct": 9.9
+    "revenue_cr": 832.3,
+    "net_income_cr": 80.1,
+    "revenue_qoq_pct": 15.7,
+    "net_income_qoq_pct": 240.9
    },
    "reason": null,
    "rank": 3,
-   "name": "Shreeji Shipping Global Limited"
+   "name": "ESAF Small Finance Bank Limited"
   },
   {
-   "symbol": "SYRMA",
-   "ltp": 1746.4,
+   "symbol": "JGCHEM",
+   "ltp": 658.65,
    "technicals": {
-    "rsi_14": 67.4,
-    "rel_volume_20d": 0.68,
-    "dist_20dma_pct": 9.04,
-    "dist_50dma_pct": 16.94,
-    "dist_200dma_pct": 61.04
+    "rsi_14": 62.94,
+    "rel_volume_20d": 4.41,
+    "dist_20dma_pct": 8.55,
+    "dist_50dma_pct": 13.15,
+    "dist_200dma_pct": 53.25
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 1741.8,
-    "stop_suggestion": 1418.0,
-    "target_suggestion": 2090.16,
-    "gap_to_pivot_pct": 0.26
+    "stage": "confirmed",
+    "pivot_price": 651.3,
+    "stop_suggestion": 544.95,
+    "target_suggestion": 781.56,
+    "gap_to_pivot_pct": 1.13
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 1588.6,
-    "net_income_cr": 100.1,
-    "revenue_qoq_pct": 8.4,
-    "net_income_qoq_pct": -1.1
+    "revenue_cr": 315.6,
+    "net_income_cr": 25.1,
+    "revenue_qoq_pct": 10.3,
+    "net_income_qoq_pct": 37.9
    },
    "reason": null,
    "rank": 4,
-   "name": "Syrma SGS Technology Limited"
+   "name": "J.G.Chemicals Limited"
+  },
+  {
+   "symbol": "EIMCOELECO",
+   "ltp": 2278.3,
+   "technicals": {
+    "rsi_14": 58.08,
+    "rel_volume_20d": 0.61,
+    "dist_20dma_pct": 0.59,
+    "dist_50dma_pct": 9.42,
+    "dist_200dma_pct": 31.08
+   },
+   "pattern": {
+    "code": "vcp",
+    "stage": "forming",
+    "pivot_price": 2348.8,
+    "stop_suggestion": 2160.73,
+    "target_suggestion": 2936.0,
+    "gap_to_pivot_pct": -3.0
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 77.5,
+    "net_income_cr": 15.4,
+    "revenue_qoq_pct": 15.8,
+    "net_income_qoq_pct": 140.6
+   },
+   "reason": null,
+   "rank": 5,
+   "name": "Eimco Elecon (India) Limited"
   }
  ]
 }

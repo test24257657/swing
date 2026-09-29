@@ -2,7 +2,7 @@
  "symbol": "SHIVAUM",
  "name": "Shiv Aum Steels Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-11-14",
@@ -1776,6 +1776,15 @@
    "close": 544.2,
    "volume": 27387,
    "delivery_pct": 71.43
+  },
+  {
+   "time": "2026-09-29",
+   "open": 544.0,
+   "high": 548.8,
+   "low": 542.0,
+   "close": 545.4,
+   "volume": 13192,
+   "delivery_pct": 86.46
   }
  ],
  "ma": {
@@ -2491,6 +2500,10 @@
    {
     "time": "2026-09-28",
     "value": 474.52
+   },
+   {
+    "time": "2026-09-29",
+    "value": 479.49
    }
   ],
   "sma_50": [
@@ -3085,15 +3098,19 @@
    {
     "time": "2026-09-28",
     "value": 447.83
+   },
+   {
+    "time": "2026-09-29",
+    "value": 450.64
    }
   ]
  },
  "technicals": {
-  "rsi_14": 86.09,
-  "atr_pct": 3.4,
-  "rel_volume_20d": 0.31,
-  "dist_20dma_pct": 14.68,
-  "dist_50dma_pct": 21.52,
+  "rsi_14": 86.26,
+  "atr_pct": 3.24,
+  "rel_volume_20d": 0.15,
+  "dist_20dma_pct": 13.75,
+  "dist_50dma_pct": 21.03,
   "dist_200dma_pct": null
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "ENGINERSIN",
  "name": "Engineers India Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 313.9,
    "volume": 9838833,
    "delivery_pct": 21.7
+  },
+  {
+   "time": "2026-09-29",
+   "open": 310.1,
+   "high": 316.8,
+   "low": 304.75,
+   "close": 310.2,
+   "volume": 4987436,
+   "delivery_pct": 25.11
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 281.18
+   },
+   {
+    "time": "2026-09-29",
+    "value": 283.6
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 254.5
+   },
+   {
+    "time": "2026-09-29",
+    "value": 256.11
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 225.16
+   },
+   {
+    "time": "2026-09-29",
+    "value": 225.7
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.6,
-  "atr_pct": 3.94,
-  "rel_volume_20d": 1.12,
-  "dist_20dma_pct": 11.64,
-  "dist_50dma_pct": 23.34,
-  "dist_200dma_pct": 39.41
+  "rsi_14": 68.7,
+  "atr_pct": 3.98,
+  "rel_volume_20d": 0.55,
+  "dist_20dma_pct": 9.38,
+  "dist_50dma_pct": 21.12,
+  "dist_200dma_pct": 37.44
  }
 }

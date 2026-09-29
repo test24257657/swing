@@ -2,7 +2,7 @@
  "symbol": "HEALTHY",
  "name": "HEALTHY",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 17.03,
    "volume": 329803,
    "delivery_pct": 62.62
+  },
+  {
+   "time": "2026-09-29",
+   "open": 17.03,
+   "high": 17.25,
+   "low": 16.95,
+   "close": 17.14,
+   "volume": 279445,
+   "delivery_pct": 62.24
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 17.08
+   },
+   {
+    "time": "2026-09-29",
+    "value": 17.07
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 17.05
+   },
+   {
+    "time": "2026-09-29",
+    "value": 17.06
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 15.78
+   },
+   {
+    "time": "2026-09-29",
+    "value": 15.79
    }
   ]
  },
  "technicals": {
-  "rsi_14": 48.29,
-  "atr_pct": 2.44,
-  "rel_volume_20d": 0.96,
-  "dist_20dma_pct": -0.28,
-  "dist_50dma_pct": -0.14,
-  "dist_200dma_pct": 7.92
+  "rsi_14": 52.25,
+  "atr_pct": 2.38,
+  "rel_volume_20d": 0.84,
+  "dist_20dma_pct": 0.38,
+  "dist_50dma_pct": 0.48,
+  "dist_200dma_pct": 8.55
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "ZYDUSLIFE",
  "name": "Zydus Lifesciences Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 1215.0,
    "volume": 3986338,
    "delivery_pct": 40.48
+  },
+  {
+   "time": "2026-09-29",
+   "open": 1217.6,
+   "high": 1232.1,
+   "low": 1200.5,
+   "close": 1200.5,
+   "volume": 2372609,
+   "delivery_pct": 51.62
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 1150.36
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1152.32
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 1139.39
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1140.42
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 1007.7
+   },
+   {
+    "time": "2026-09-29",
+    "value": 1009.04
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.57,
-  "atr_pct": 2.35,
-  "rel_volume_20d": 3.04,
-  "dist_20dma_pct": 5.62,
-  "dist_50dma_pct": 6.64,
-  "dist_200dma_pct": 20.57
+  "rsi_14": 61.81,
+  "atr_pct": 2.39,
+  "rel_volume_20d": 1.64,
+  "dist_20dma_pct": 4.18,
+  "dist_50dma_pct": 5.27,
+  "dist_200dma_pct": 18.97
  }
 }

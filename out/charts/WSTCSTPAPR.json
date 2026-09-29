@@ -2,7 +2,7 @@
  "symbol": "WSTCSTPAPR",
  "name": "West Coast Paper Mills Limited",
  "kind": "stock",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2244,6 +2244,15 @@
    "close": 722.35,
    "volume": 120599,
    "delivery_pct": 42.98
+  },
+  {
+   "time": "2026-09-29",
+   "open": 724.0,
+   "high": 724.9,
+   "low": 694.0,
+   "close": 703.45,
+   "volume": 169050,
+   "delivery_pct": 54.55
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-09-28",
     "value": 701.01
+   },
+   {
+    "time": "2026-09-29",
+    "value": 705.6
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-09-28",
     "value": 633.69
+   },
+   {
+    "time": "2026-09-29",
+    "value": 637.42
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-09-28",
     "value": 499.1
+   },
+   {
+    "time": "2026-09-29",
+    "value": 500.56
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.48,
-  "atr_pct": 4.07,
-  "rel_volume_20d": 0.39,
-  "dist_20dma_pct": 3.04,
-  "dist_50dma_pct": 13.99,
-  "dist_200dma_pct": 44.73
+  "rsi_14": 54.21,
+  "atr_pct": 4.19,
+  "rel_volume_20d": 0.54,
+  "dist_20dma_pct": -0.3,
+  "dist_50dma_pct": 10.36,
+  "dist_200dma_pct": 40.53
  }
 }
