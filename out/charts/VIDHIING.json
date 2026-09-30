@@ -2,7 +2,7 @@
  "symbol": "VIDHIING",
  "name": "Vidhi Specialty Food Ingredients Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 359.4,
    "volume": 27204,
    "delivery_pct": 82.52
+  },
+  {
+   "time": "2026-09-30",
+   "open": 359.9,
+   "high": 364.8,
+   "low": 346.05,
+   "close": 357.6,
+   "volume": 22528,
+   "delivery_pct": 61.95
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 347.68
+   },
+   {
+    "time": "2026-09-30",
+    "value": 347.84
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 332.69
+   },
+   {
+    "time": "2026-09-30",
+    "value": 333.84
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 313.64
+   },
+   {
+    "time": "2026-09-30",
+    "value": 313.76
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.69,
-  "atr_pct": 4.26,
-  "rel_volume_20d": 0.88,
-  "dist_20dma_pct": 3.37,
-  "dist_50dma_pct": 8.03,
-  "dist_200dma_pct": 14.59
+  "rsi_14": 57.51,
+  "atr_pct": 4.35,
+  "rel_volume_20d": 0.75,
+  "dist_20dma_pct": 2.81,
+  "dist_50dma_pct": 7.12,
+  "dist_200dma_pct": 13.97
  }
 }

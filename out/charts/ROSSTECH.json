@@ -2,7 +2,7 @@
  "symbol": "ROSSTECH",
  "name": "Rossell Techsys Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 1481.7,
    "volume": 315207,
    "delivery_pct": 39.33
+  },
+  {
+   "time": "2026-09-30",
+   "open": 1480.0,
+   "high": 1525.0,
+   "low": 1455.2,
+   "close": 1503.2,
+   "volume": 253108,
+   "delivery_pct": 42.21
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 1293.52
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1311.87
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 1145.11
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1155.02
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 896.06
+   },
+   {
+    "time": "2026-09-30",
+    "value": 900.22
    }
   ]
  },
  "technicals": {
-  "rsi_14": 73.66,
-  "atr_pct": 5.19,
-  "rel_volume_20d": 0.63,
-  "dist_20dma_pct": 14.55,
-  "dist_50dma_pct": 29.39,
-  "dist_200dma_pct": 65.36
+  "rsi_14": 74.91,
+  "atr_pct": 5.08,
+  "rel_volume_20d": 0.5,
+  "dist_20dma_pct": 14.58,
+  "dist_50dma_pct": 30.14,
+  "dist_200dma_pct": 66.98
  }
 }

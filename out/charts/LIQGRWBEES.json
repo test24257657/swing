@@ -2,7 +2,7 @@
  "symbol": "LIQGRWBEES",
  "name": "LIQGRWBEES",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 1057.36,
    "volume": 121996,
    "delivery_pct": 95.31
+  },
+  {
+   "time": "2026-09-30",
+   "open": 1057.52,
+   "high": 1057.52,
+   "low": 1057.5,
+   "close": 1057.5,
+   "volume": 85673,
+   "delivery_pct": 68.5
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 1055.59
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1055.77
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 1052.88
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1053.06
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 1038.38
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1038.57
    }
   ]
  },
  "technicals": {
   "rsi_14": 100.0,
-  "atr_pct": 0.13,
-  "rel_volume_20d": 1.05,
-  "dist_20dma_pct": 0.17,
-  "dist_50dma_pct": 0.43,
-  "dist_200dma_pct": 1.83
+  "atr_pct": 0.12,
+  "rel_volume_20d": 0.71,
+  "dist_20dma_pct": 0.16,
+  "dist_50dma_pct": 0.42,
+  "dist_200dma_pct": 1.82
  }
 }

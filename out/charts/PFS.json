@@ -2,7 +2,7 @@
  "symbol": "PFS",
  "name": "PTC India Financial Services Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 28.0,
    "volume": 4112305,
    "delivery_pct": 24.1
+  },
+  {
+   "time": "2026-09-30",
+   "open": 28.0,
+   "high": 29.49,
+   "low": 27.65,
+   "close": 29.08,
+   "volume": 2963292,
+   "delivery_pct": 31.55
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 26.94
+   },
+   {
+    "time": "2026-09-30",
+    "value": 27.04
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 27.78
+   },
+   {
+    "time": "2026-09-30",
+    "value": 27.77
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 30.21
+   },
+   {
+    "time": "2026-09-30",
+    "value": 30.19
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.82,
-  "atr_pct": 4.01,
-  "rel_volume_20d": 1.67,
-  "dist_20dma_pct": 3.95,
-  "dist_50dma_pct": 0.8,
-  "dist_200dma_pct": -7.31
+  "rsi_14": 65.34,
+  "atr_pct": 4.04,
+  "rel_volume_20d": 1.12,
+  "dist_20dma_pct": 7.54,
+  "dist_50dma_pct": 4.73,
+  "dist_200dma_pct": -3.69
  }
 }

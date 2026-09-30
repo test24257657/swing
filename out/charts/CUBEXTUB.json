@@ -2,7 +2,7 @@
  "symbol": "CUBEXTUB",
  "name": "Cubex Tubings Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 175.74,
    "volume": 511101,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-30",
+   "open": 175.74,
+   "high": 184.0,
+   "low": 166.96,
+   "close": 174.84,
+   "volume": 388081,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 98.23
+   },
+   {
+    "time": "2026-09-30",
+    "value": 103.13
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 86.56
+   },
+   {
+    "time": "2026-09-30",
+    "value": 88.48
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 93.79
+   },
+   {
+    "time": "2026-09-30",
+    "value": 94.23
    }
   ]
  },
  "technicals": {
-  "rsi_14": 94.81,
-  "atr_pct": 5.05,
-  "rel_volume_20d": 1.31,
-  "dist_20dma_pct": 78.91,
-  "dist_50dma_pct": 103.03,
-  "dist_200dma_pct": 87.37
+  "rsi_14": 93.77,
+  "atr_pct": 5.41,
+  "rel_volume_20d": 0.94,
+  "dist_20dma_pct": 69.54,
+  "dist_50dma_pct": 97.6,
+  "dist_200dma_pct": 85.54
  }
 }

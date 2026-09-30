@@ -2,7 +2,7 @@
  "symbol": "JGCHEM",
  "name": "J.G.Chemicals Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 658.65,
    "volume": 1558962,
    "delivery_pct": 25.47
+  },
+  {
+   "time": "2026-09-30",
+   "open": 671.55,
+   "high": 688.0,
+   "low": 617.5,
+   "close": 645.1,
+   "volume": 1421545,
+   "delivery_pct": 26.1
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 606.79
+   },
+   {
+    "time": "2026-09-30",
+    "value": 607.74
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 582.08
+   },
+   {
+    "time": "2026-09-30",
+    "value": 585.11
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 429.77
+   },
+   {
+    "time": "2026-09-30",
+    "value": 431.23
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.94,
-  "atr_pct": 5.29,
-  "rel_volume_20d": 4.41,
-  "dist_20dma_pct": 8.55,
-  "dist_50dma_pct": 13.15,
-  "dist_200dma_pct": 53.25
+  "rsi_14": 59.22,
+  "atr_pct": 5.8,
+  "rel_volume_20d": 3.52,
+  "dist_20dma_pct": 6.15,
+  "dist_50dma_pct": 10.25,
+  "dist_200dma_pct": 49.59
  }
 }

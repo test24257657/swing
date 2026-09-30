@@ -2,7 +2,7 @@
  "symbol": "GROWWLIQID",
  "name": "GROWWLIQID",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 110.94,
    "volume": 281604,
    "delivery_pct": 69.66
+  },
+  {
+   "time": "2026-09-30",
+   "open": 110.96,
+   "high": 110.96,
+   "low": 110.95,
+   "close": 110.95,
+   "volume": 247098,
+   "delivery_pct": 53.62
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 110.75
+   },
+   {
+    "time": "2026-09-30",
+    "value": 110.77
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 110.47
+   },
+   {
+    "time": "2026-09-30",
+    "value": 110.49
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 108.95
+   },
+   {
+    "time": "2026-09-30",
+    "value": 108.97
    }
   ]
  },
  "technicals": {
   "rsi_14": 100.0,
   "atr_pct": 0.1,
-  "rel_volume_20d": 0.78,
-  "dist_20dma_pct": 0.17,
-  "dist_50dma_pct": 0.43,
-  "dist_200dma_pct": 1.83
+  "rel_volume_20d": 0.67,
+  "dist_20dma_pct": 0.16,
+  "dist_50dma_pct": 0.42,
+  "dist_200dma_pct": 1.82
  }
 }

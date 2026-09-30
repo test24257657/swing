@@ -2,7 +2,7 @@
  "symbol": "TECHNOE",
  "name": "Techno Electric & Engineering Company Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 1010.15,
    "volume": 271404,
    "delivery_pct": 44.11
+  },
+  {
+   "time": "2026-09-30",
+   "open": 1006.2,
+   "high": 1027.35,
+   "low": 1001.5,
+   "close": 1008.75,
+   "volume": 133810,
+   "delivery_pct": 48.44
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 985.93
+   },
+   {
+    "time": "2026-09-30",
+    "value": 987.55
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 993.97
+   },
+   {
+    "time": "2026-09-30",
+    "value": 993.73
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 1072.54
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1072.27
    }
   ]
  },
  "technicals": {
-  "rsi_14": 53.54,
-  "atr_pct": 3.43,
-  "rel_volume_20d": 1.92,
-  "dist_20dma_pct": 2.46,
-  "dist_50dma_pct": 1.63,
-  "dist_200dma_pct": -5.82
+  "rsi_14": 53.21,
+  "atr_pct": 3.37,
+  "rel_volume_20d": 0.93,
+  "dist_20dma_pct": 2.15,
+  "dist_50dma_pct": 1.51,
+  "dist_200dma_pct": -5.92
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "INDOAMIN",
  "name": "Indo Amines Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 145.45,
    "volume": 626536,
    "delivery_pct": 46.42
+  },
+  {
+   "time": "2026-09-30",
+   "open": 145.61,
+   "high": 148.0,
+   "low": 138.35,
+   "close": 142.07,
+   "volume": 208080,
+   "delivery_pct": 49.67
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 129.2
+   },
+   {
+    "time": "2026-09-30",
+    "value": 130.28
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 127.66
+   },
+   {
+    "time": "2026-09-30",
+    "value": 127.96
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 120.58
+   },
+   {
+    "time": "2026-09-30",
+    "value": 120.72
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.55,
-  "atr_pct": 4.45,
-  "rel_volume_20d": 6.16,
-  "dist_20dma_pct": 12.58,
-  "dist_50dma_pct": 13.94,
-  "dist_200dma_pct": 20.63
+  "rsi_14": 67.91,
+  "atr_pct": 4.71,
+  "rel_volume_20d": 1.58,
+  "dist_20dma_pct": 9.05,
+  "dist_50dma_pct": 11.02,
+  "dist_200dma_pct": 17.69
  }
 }

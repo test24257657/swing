@@ -2,7 +2,7 @@
  "symbol": "LIQUIDADD",
  "name": "LIQUIDADD",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 1146.82,
    "volume": 706908,
    "delivery_pct": 73.87
+  },
+  {
+   "time": "2026-09-30",
+   "open": 1146.97,
+   "high": 1146.99,
+   "low": 1146.97,
+   "close": 1146.97,
+   "volume": 523853,
+   "delivery_pct": 53.9
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 1144.8
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1145.0
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 1141.7
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1141.91
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 1125.3
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1125.52
    }
   ]
  },
  "technicals": {
   "rsi_14": 100.0,
-  "atr_pct": 0.24,
-  "rel_volume_20d": 1.19,
-  "dist_20dma_pct": 0.18,
-  "dist_50dma_pct": 0.45,
+  "atr_pct": 0.23,
+  "rel_volume_20d": 0.85,
+  "dist_20dma_pct": 0.17,
+  "dist_50dma_pct": 0.44,
   "dist_200dma_pct": 1.91
  }
 }

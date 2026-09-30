@@ -2,7 +2,7 @@
  "symbol": "RAYMOND",
  "name": "Raymond Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 1185.75,
    "volume": 1469467,
    "delivery_pct": 12.34
+  },
+  {
+   "time": "2026-09-30",
+   "open": 1185.75,
+   "high": 1241.0,
+   "low": 1185.4,
+   "close": 1213.05,
+   "volume": 1545036,
+   "delivery_pct": 15.39
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 956.27
+   },
+   {
+    "time": "2026-09-30",
+    "value": 985.16
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 752.78
+   },
+   {
+    "time": "2026-09-30",
+    "value": 764.88
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 531.91
+   },
+   {
+    "time": "2026-09-30",
+    "value": 535.75
    }
   ]
  },
  "technicals": {
-  "rsi_14": 82.0,
-  "atr_pct": 5.88,
-  "rel_volume_20d": 0.22,
-  "dist_20dma_pct": 24.0,
-  "dist_50dma_pct": 57.52,
-  "dist_200dma_pct": 122.92
+  "rsi_14": 83.18,
+  "atr_pct": 5.66,
+  "rel_volume_20d": 0.23,
+  "dist_20dma_pct": 23.13,
+  "dist_50dma_pct": 58.59,
+  "dist_200dma_pct": 126.42
  }
 }

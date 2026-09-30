@@ -2,7 +2,7 @@
  "symbol": "MAHSEAMLES",
  "name": "Maharashtra Seamless Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 721.85,
    "volume": 534025,
    "delivery_pct": 51.5
+  },
+  {
+   "time": "2026-09-30",
+   "open": 725.0,
+   "high": 768.0,
+   "low": 721.95,
+   "close": 737.65,
+   "volume": 1572414,
+   "delivery_pct": 39.63
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 697.46
+   },
+   {
+    "time": "2026-09-30",
+    "value": 701.86
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 640.69
+   },
+   {
+    "time": "2026-09-30",
+    "value": 643.84
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 597.32
+   },
+   {
+    "time": "2026-09-30",
+    "value": 598.19
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.33,
-  "atr_pct": 3.5,
-  "rel_volume_20d": 1.19,
-  "dist_20dma_pct": 3.5,
-  "dist_50dma_pct": 12.67,
-  "dist_200dma_pct": 20.85
+  "rsi_14": 68.17,
+  "atr_pct": 3.63,
+  "rel_volume_20d": 3.44,
+  "dist_20dma_pct": 5.1,
+  "dist_50dma_pct": 14.57,
+  "dist_200dma_pct": 23.31
  }
 }

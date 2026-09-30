@@ -2,7 +2,7 @@
  "symbol": "GANDHAR",
  "name": "Gandhar Oil Refinery (India) Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 273.55,
    "volume": 691116,
    "delivery_pct": 52.07
+  },
+  {
+   "time": "2026-09-30",
+   "open": 274.0,
+   "high": 283.45,
+   "low": 274.0,
+   "close": 278.85,
+   "volume": 742278,
+   "delivery_pct": 51.35
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 266.58
+   },
+   {
+    "time": "2026-09-30",
+    "value": 267.43
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 253.99
+   },
+   {
+    "time": "2026-09-30",
+    "value": 255.03
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 177.61
+   },
+   {
+    "time": "2026-09-30",
+    "value": 178.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.49,
-  "atr_pct": 3.63,
-  "rel_volume_20d": 0.88,
-  "dist_20dma_pct": 2.62,
-  "dist_50dma_pct": 7.7,
-  "dist_200dma_pct": 54.01
+  "rsi_14": 63.77,
+  "atr_pct": 3.56,
+  "rel_volume_20d": 0.94,
+  "dist_20dma_pct": 4.27,
+  "dist_50dma_pct": 9.34,
+  "dist_200dma_pct": 56.31
  }
 }

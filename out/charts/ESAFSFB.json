@@ -2,7 +2,7 @@
  "symbol": "ESAFSFB",
  "name": "ESAF Small Finance Bank Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 44.54,
    "volume": 1486139,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-30",
+   "open": 44.55,
+   "high": 46.0,
+   "low": 44.03,
+   "close": 44.52,
+   "volume": 733692,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 40.86
+   },
+   {
+    "time": "2026-09-30",
+    "value": 41.02
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 40.6
+   },
+   {
+    "time": "2026-09-30",
+    "value": 40.77
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 30.87
+   },
+   {
+    "time": "2026-09-30",
+    "value": 30.97
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.2,
-  "atr_pct": 4.74,
-  "rel_volume_20d": 2.49,
-  "dist_20dma_pct": 8.99,
-  "dist_50dma_pct": 9.69,
-  "dist_200dma_pct": 44.27
+  "rsi_14": 68.06,
+  "atr_pct": 4.72,
+  "rel_volume_20d": 1.13,
+  "dist_20dma_pct": 8.54,
+  "dist_50dma_pct": 9.19,
+  "dist_200dma_pct": 43.74
  }
 }

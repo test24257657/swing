@@ -2,7 +2,7 @@
  "symbol": "GILT5YBEES",
  "name": "GILT5YBEES",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 65.79,
    "volume": 162764,
    "delivery_pct": 71.03
+  },
+  {
+   "time": "2026-09-30",
+   "open": 67.11,
+   "high": 67.11,
+   "low": 64.62,
+   "close": 65.79,
+   "volume": 167837,
+   "delivery_pct": 68.59
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 66.02
+   },
+   {
+    "time": "2026-09-30",
+    "value": 66.0
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 66.12
+   },
+   {
+    "time": "2026-09-30",
+    "value": 66.12
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 64.81
+   },
+   {
+    "time": "2026-09-30",
+    "value": 64.82
    }
   ]
  },
  "technicals": {
   "rsi_14": 42.7,
-  "atr_pct": 1.41,
-  "rel_volume_20d": 0.85,
-  "dist_20dma_pct": -0.34,
+  "atr_pct": 1.58,
+  "rel_volume_20d": 0.86,
+  "dist_20dma_pct": -0.32,
   "dist_50dma_pct": -0.5,
-  "dist_200dma_pct": 1.52
+  "dist_200dma_pct": 1.5
  }
 }

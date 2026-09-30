@@ -2,7 +2,7 @@
  "symbol": "LTGILTCASE",
  "name": "LTGILTCASE",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 30.15,
    "volume": 70790,
    "delivery_pct": 97.3
+  },
+  {
+   "time": "2026-09-30",
+   "open": 30.75,
+   "high": 30.75,
+   "low": 30.15,
+   "close": 30.16,
+   "volume": 531368,
+   "delivery_pct": 94.21
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 30.32
+   },
+   {
+    "time": "2026-09-30",
+    "value": 30.31
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 30.46
+   },
+   {
+    "time": "2026-09-30",
+    "value": 30.45
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 30.01
+   },
+   {
+    "time": "2026-09-30",
+    "value": 30.01
    }
   ]
  },
  "technicals": {
-  "rsi_14": 35.36,
-  "atr_pct": 1.53,
-  "rel_volume_20d": 0.41,
-  "dist_20dma_pct": -0.56,
-  "dist_50dma_pct": -1.02,
-  "dist_200dma_pct": 0.48
+  "rsi_14": 36.33,
+  "atr_pct": 1.56,
+  "rel_volume_20d": 3.16,
+  "dist_20dma_pct": -0.49,
+  "dist_50dma_pct": -0.96,
+  "dist_200dma_pct": 0.51
  }
 }

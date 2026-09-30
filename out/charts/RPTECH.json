@@ -2,7 +2,7 @@
  "symbol": "RPTECH",
  "name": "Rashi Peripherals Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 925.35,
    "volume": 557981,
    "delivery_pct": 42.53
+  },
+  {
+   "time": "2026-09-30",
+   "open": 930.15,
+   "high": 1004.7,
+   "low": 930.15,
+   "close": 953.5,
+   "volume": 1657051,
+   "delivery_pct": 26.58
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 836.16
+   },
+   {
+    "time": "2026-09-30",
+    "value": 843.38
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 833.59
+   },
+   {
+    "time": "2026-09-30",
+    "value": 837.79
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 557.81
+   },
+   {
+    "time": "2026-09-30",
+    "value": 560.94
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.36,
-  "atr_pct": 4.45,
-  "rel_volume_20d": 1.8,
-  "dist_20dma_pct": 10.67,
-  "dist_50dma_pct": 11.01,
-  "dist_200dma_pct": 65.89
+  "rsi_14": 68.67,
+  "atr_pct": 4.6,
+  "rel_volume_20d": 5.11,
+  "dist_20dma_pct": 13.06,
+  "dist_50dma_pct": 13.81,
+  "dist_200dma_pct": 69.98
  }
 }

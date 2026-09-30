@@ -2,7 +2,7 @@
  "symbol": "DPABHUSHAN",
  "name": "D. P. Abhushan Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 1665.8,
    "volume": 975157,
    "delivery_pct": 20.4
+  },
+  {
+   "time": "2026-09-30",
+   "open": 1750.0,
+   "high": 1815.7,
+   "low": 1685.0,
+   "close": 1788.8,
+   "volume": 869922,
+   "delivery_pct": 12.17
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 1408.67
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1427.32
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 1425.53
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1431.87
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 1216.35
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1218.03
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.76,
-  "atr_pct": 4.67,
-  "rel_volume_20d": 43.42,
-  "dist_20dma_pct": 18.25,
-  "dist_50dma_pct": 16.85,
-  "dist_200dma_pct": 36.95
+  "rsi_14": 73.75,
+  "atr_pct": 4.63,
+  "rel_volume_20d": 12.31,
+  "dist_20dma_pct": 25.33,
+  "dist_50dma_pct": 24.93,
+  "dist_200dma_pct": 46.86
  }
 }

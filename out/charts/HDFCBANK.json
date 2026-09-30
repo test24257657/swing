@@ -2,7 +2,7 @@
  "symbol": "HDFCBANK",
  "name": "HDFC Bank Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 722.7,
    "volume": 42755901,
    "delivery_pct": 64.07
+  },
+  {
+   "time": "2026-09-30",
+   "open": 711.5,
+   "high": 720.3,
+   "low": 708.7,
+   "close": 708.7,
+   "volume": 39365496,
+   "delivery_pct": 66.62
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 716.89
+   },
+   {
+    "time": "2026-09-30",
+    "value": 716.73
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 727.04
+   },
+   {
+    "time": "2026-09-30",
+    "value": 725.98
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 819.85
+   },
+   {
+    "time": "2026-09-30",
+    "value": 818.38
    }
   ]
  },
  "technicals": {
-  "rsi_14": 49.21,
-  "atr_pct": 1.93,
-  "rel_volume_20d": 1.35,
-  "dist_20dma_pct": 0.81,
-  "dist_50dma_pct": -0.6,
-  "dist_200dma_pct": -11.85
+  "rsi_14": 43.02,
+  "atr_pct": 1.97,
+  "rel_volume_20d": 1.31,
+  "dist_20dma_pct": -1.12,
+  "dist_50dma_pct": -2.38,
+  "dist_200dma_pct": -13.4
  }
 }

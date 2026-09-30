@@ -2,7 +2,7 @@
  "symbol": "SIGMAADV",
  "name": "SIGMA ADVANCED SYSTEMS LIMITED",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2026-02-09",
@@ -1425,6 +1425,15 @@
    "close": 976.9,
    "volume": 564099,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-30",
+   "open": 990.25,
+   "high": 1025.7,
+   "low": 990.05,
+   "close": 1025.7,
+   "volume": 370551,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1984,6 +1993,10 @@
    {
     "time": "2026-09-29",
     "value": 845.0
+   },
+   {
+    "time": "2026-09-30",
+    "value": 857.27
    }
   ],
   "sma_50": [
@@ -2422,15 +2435,19 @@
    {
     "time": "2026-09-29",
     "value": 730.62
+   },
+   {
+    "time": "2026-09-30",
+    "value": 740.73
    }
   ]
  },
  "technicals": {
-  "rsi_14": 73.64,
-  "atr_pct": 5.2,
-  "rel_volume_20d": 2.28,
-  "dist_20dma_pct": 15.61,
-  "dist_50dma_pct": 33.71,
+  "rsi_14": 77.21,
+  "atr_pct": 4.94,
+  "rel_volume_20d": 1.42,
+  "dist_20dma_pct": 19.65,
+  "dist_50dma_pct": 38.47,
   "dist_200dma_pct": null
  }
 }

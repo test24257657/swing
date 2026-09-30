@@ -2,7 +2,7 @@
  "symbol": "NEOGEN",
  "name": "Neogen Chemicals Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 2435.3,
    "volume": 157182,
    "delivery_pct": 40.97
+  },
+  {
+   "time": "2026-09-30",
+   "open": 2445.3,
+   "high": 2480.0,
+   "low": 2403.0,
+   "close": 2451.6,
+   "volume": 147004,
+   "delivery_pct": 44.8
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 2308.66
+   },
+   {
+    "time": "2026-09-30",
+    "value": 2323.55
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 2202.63
+   },
+   {
+    "time": "2026-09-30",
+    "value": 2208.55
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 1682.09
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1689.32
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.02,
-  "atr_pct": 4.37,
-  "rel_volume_20d": 0.71,
-  "dist_20dma_pct": 5.49,
-  "dist_50dma_pct": 10.56,
-  "dist_200dma_pct": 44.78
+  "rsi_14": 62.03,
+  "atr_pct": 4.25,
+  "rel_volume_20d": 0.65,
+  "dist_20dma_pct": 5.51,
+  "dist_50dma_pct": 11.0,
+  "dist_200dma_pct": 45.12
  }
 }

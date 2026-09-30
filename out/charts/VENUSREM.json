@@ -2,7 +2,7 @@
  "symbol": "VENUSREM",
  "name": "Venus Remedies Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 1710.6,
    "volume": 44957,
    "delivery_pct": 66.66
+  },
+  {
+   "time": "2026-09-30",
+   "open": 1738.9,
+   "high": 1796.1,
+   "low": 1730.0,
+   "close": 1796.1,
+   "volume": 28419,
+   "delivery_pct": 88.82
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 1624.87
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1634.62
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 1636.83
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1637.25
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 1200.12
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1205.28
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.18,
-  "atr_pct": 4.95,
-  "rel_volume_20d": 1.69,
-  "dist_20dma_pct": 5.28,
-  "dist_50dma_pct": 4.51,
-  "dist_200dma_pct": 42.54
+  "rsi_14": 64.72,
+  "atr_pct": 4.72,
+  "rel_volume_20d": 1.04,
+  "dist_20dma_pct": 9.88,
+  "dist_50dma_pct": 9.7,
+  "dist_200dma_pct": 49.02
  }
 }

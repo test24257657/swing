@@ -2,7 +2,7 @@
  "symbol": "SCHAND",
  "name": "S Chand And Company Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 147.29,
    "volume": 40487,
    "delivery_pct": 53.48
+  },
+  {
+   "time": "2026-09-30",
+   "open": 143.52,
+   "high": 148.73,
+   "low": 143.52,
+   "close": 148.08,
+   "volume": 17383,
+   "delivery_pct": 71.97
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 136.75
+   },
+   {
+    "time": "2026-09-30",
+    "value": 137.47
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 139.59
+   },
+   {
+    "time": "2026-09-30",
+    "value": 139.56
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 152.28
+   },
+   {
+    "time": "2026-09-30",
+    "value": 152.23
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.58,
-  "atr_pct": 3.56,
-  "rel_volume_20d": 1.4,
-  "dist_20dma_pct": 7.71,
-  "dist_50dma_pct": 5.52,
-  "dist_200dma_pct": -3.28
+  "rsi_14": 67.54,
+  "atr_pct": 3.54,
+  "rel_volume_20d": 0.59,
+  "dist_20dma_pct": 7.72,
+  "dist_50dma_pct": 6.1,
+  "dist_200dma_pct": -2.73
  }
 }

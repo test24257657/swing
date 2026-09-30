@@ -2,7 +2,7 @@
  "symbol": "TRACXN",
  "name": "Tracxn Technologies Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 32.94,
    "volume": 229392,
    "delivery_pct": 70.15
+  },
+  {
+   "time": "2026-09-30",
+   "open": 32.55,
+   "high": 33.2,
+   "low": 32.16,
+   "close": 32.91,
+   "volume": 152016,
+   "delivery_pct": 67.5
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 30.98
+   },
+   {
+    "time": "2026-09-30",
+    "value": 31.13
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 30.23
+   },
+   {
+    "time": "2026-09-30",
+    "value": 30.29
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 32.92
+   },
+   {
+    "time": "2026-09-30",
+    "value": 32.88
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.37,
-  "atr_pct": 3.88,
-  "rel_volume_20d": 0.94,
-  "dist_20dma_pct": 6.32,
-  "dist_50dma_pct": 8.96,
-  "dist_200dma_pct": 0.06
+  "rsi_14": 63.1,
+  "atr_pct": 3.83,
+  "rel_volume_20d": 0.62,
+  "dist_20dma_pct": 5.73,
+  "dist_50dma_pct": 8.66,
+  "dist_200dma_pct": 0.09
  }
 }

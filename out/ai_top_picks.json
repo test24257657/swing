@@ -1,153 +1,153 @@
 {
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "source": "rules",
- "universe": 209,
- "eligible": 55,
+ "universe": 204,
+ "eligible": 8,
  "picks": [
   {
-   "symbol": "GANDHAR",
-   "ltp": 273.55,
+   "symbol": "EMIL",
+   "ltp": 205.36,
    "technicals": {
-    "rsi_14": 60.49,
-    "rel_volume_20d": 0.88,
-    "dist_20dma_pct": 2.62,
-    "dist_50dma_pct": 7.7,
-    "dist_200dma_pct": 54.01
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 278.0,
-    "stop_suggestion": 258.64,
-    "target_suggestion": 319.7,
-    "gap_to_pivot_pct": -1.6
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 1731.9,
-    "net_income_cr": 192.3,
-    "revenue_qoq_pct": 58.4,
-    "net_income_qoq_pct": 372.5
-   },
-   "reason": null,
-   "rank": 1,
-   "name": "Gandhar Oil Refinery (India) Limited"
-  },
-  {
-   "symbol": "TATVA",
-   "ltp": 1806.4,
-   "technicals": {
-    "rsi_14": 60.94,
-    "rel_volume_20d": 1.27,
-    "dist_20dma_pct": 6.65,
-    "dist_50dma_pct": 6.62,
-    "dist_200dma_pct": 32.75
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 1800.1,
-    "stop_suggestion": 1520.0,
-    "target_suggestion": 2160.12,
-    "gap_to_pivot_pct": 0.35
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 167.1,
-    "net_income_cr": 16.0,
-    "revenue_qoq_pct": 24.6,
-    "net_income_qoq_pct": 55.3
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "Tatva Chintan Pharma Chem Limited"
-  },
-  {
-   "symbol": "ESAFSFB",
-   "ltp": 44.54,
-   "technicals": {
-    "rsi_14": 68.2,
-    "rel_volume_20d": 2.49,
-    "dist_20dma_pct": 8.99,
-    "dist_50dma_pct": 9.69,
-    "dist_200dma_pct": 44.27
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 44.99,
-    "stop_suggestion": 41.37,
-    "target_suggestion": 51.74,
-    "gap_to_pivot_pct": -1.0
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 832.3,
-    "net_income_cr": 80.1,
-    "revenue_qoq_pct": 15.7,
-    "net_income_qoq_pct": 240.9
-   },
-   "reason": null,
-   "rank": 3,
-   "name": "ESAF Small Finance Bank Limited"
-  },
-  {
-   "symbol": "JGCHEM",
-   "ltp": 658.65,
-   "technicals": {
-    "rsi_14": 62.94,
-    "rel_volume_20d": 4.41,
-    "dist_20dma_pct": 8.55,
-    "dist_50dma_pct": 13.15,
-    "dist_200dma_pct": 53.25
+    "rsi_14": 64.83,
+    "rel_volume_20d": 4.02,
+    "dist_20dma_pct": 9.37,
+    "dist_50dma_pct": 18.41,
+    "dist_200dma_pct": 65.98
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 651.3,
-    "stop_suggestion": 544.95,
-    "target_suggestion": 781.56,
-    "gap_to_pivot_pct": 1.13
+    "pivot_price": 200.22,
+    "stop_suggestion": 173.71,
+    "target_suggestion": 240.26,
+    "gap_to_pivot_pct": 2.57
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 315.6,
-    "net_income_cr": 25.1,
-    "revenue_qoq_pct": 10.3,
-    "net_income_qoq_pct": 37.9
+    "revenue_cr": 2419.0,
+    "net_income_cr": 120.6,
+    "revenue_qoq_pct": 26.4,
+    "net_income_qoq_pct": 203.8
+   },
+   "reason": null,
+   "rank": 1,
+   "name": "Electronics Mart India Limited"
+  },
+  {
+   "symbol": "MAHSEAMLES",
+   "ltp": 737.65,
+   "technicals": {
+    "rsi_14": 68.17,
+    "rel_volume_20d": 3.44,
+    "dist_20dma_pct": 5.1,
+    "dist_50dma_pct": 14.57,
+    "dist_200dma_pct": 23.31
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 728.9,
+    "stop_suggestion": 668.7,
+    "target_suggestion": 874.68,
+    "gap_to_pivot_pct": 1.2
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 1091.2,
+    "net_income_cr": 266.4,
+    "revenue_qoq_pct": -14.8,
+    "net_income_qoq_pct": 159.1
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "Maharashtra Seamless Limited"
+  },
+  {
+   "symbol": "WELSPUNLIV",
+   "ltp": 227.33,
+   "technicals": {
+    "rsi_14": 73.93,
+    "rel_volume_20d": 0.68,
+    "dist_20dma_pct": 6.29,
+    "dist_50dma_pct": 20.43,
+    "dist_200dma_pct": 52.59
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 224.68,
+    "stop_suggestion": 195.7,
+    "target_suggestion": 269.62,
+    "gap_to_pivot_pct": 1.18
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 2795.4,
+    "net_income_cr": 160.7,
+    "revenue_qoq_pct": 14.8,
+    "net_income_qoq_pct": 55.0
+   },
+   "reason": null,
+   "rank": 3,
+   "name": "Welspun Living Limited"
+  },
+  {
+   "symbol": "HITECHCORP",
+   "ltp": 345.25,
+   "technicals": {
+    "rsi_14": 65.73,
+    "rel_volume_20d": 3.57,
+    "dist_20dma_pct": 3.35,
+    "dist_50dma_pct": 4.72,
+    "dist_200dma_pct": 53.38
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 337.65,
+    "stop_suggestion": 320.5,
+    "target_suggestion": 405.18,
+    "gap_to_pivot_pct": 2.25
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 225.7,
+    "net_income_cr": 7.1,
+    "revenue_qoq_pct": 36.0,
+    "net_income_qoq_pct": -20.2
    },
    "reason": null,
    "rank": 4,
-   "name": "J.G.Chemicals Limited"
+   "name": "Hitech Corporation Limited"
   },
   {
-   "symbol": "EIMCOELECO",
-   "ltp": 2278.3,
+   "symbol": "VIDHIING",
+   "ltp": 357.6,
    "technicals": {
-    "rsi_14": 58.08,
-    "rel_volume_20d": 0.61,
-    "dist_20dma_pct": 0.59,
-    "dist_50dma_pct": 9.42,
-    "dist_200dma_pct": 31.08
+    "rsi_14": 57.51,
+    "rel_volume_20d": 0.75,
+    "dist_20dma_pct": 2.81,
+    "dist_50dma_pct": 7.12,
+    "dist_200dma_pct": 13.97
    },
    "pattern": {
-    "code": "vcp",
+    "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 2348.8,
-    "stop_suggestion": 2160.73,
-    "target_suggestion": 2936.0,
-    "gap_to_pivot_pct": -3.0
+    "pivot_price": 365.0,
+    "stop_suggestion": 334.27,
+    "target_suggestion": 419.75,
+    "gap_to_pivot_pct": -2.03
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 77.5,
-    "net_income_cr": 15.4,
-    "revenue_qoq_pct": 15.8,
-    "net_income_qoq_pct": 140.6
+    "revenue_cr": 146.3,
+    "net_income_cr": 17.1,
+    "revenue_qoq_pct": 19.2,
+    "net_income_qoq_pct": 30.5
    },
    "reason": null,
    "rank": 5,
-   "name": "Eimco Elecon (India) Limited"
+   "name": "Vidhi Specialty Food Ingredients Limited"
   }
  ]
 }

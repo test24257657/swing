@@ -2,7 +2,7 @@
  "symbol": "SHREEJISPG",
  "name": "Shreeji Shipping Global Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 763.3,
    "volume": 864463,
    "delivery_pct": 37.11
+  },
+  {
+   "time": "2026-09-30",
+   "open": 764.0,
+   "high": 774.0,
+   "low": 764.0,
+   "close": 770.4,
+   "volume": 359788,
+   "delivery_pct": 38.9
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 703.0
+   },
+   {
+    "time": "2026-09-30",
+    "value": 709.67
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 664.93
+   },
+   {
+    "time": "2026-09-30",
+    "value": 668.09
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 470.37
+   },
+   {
+    "time": "2026-09-30",
+    "value": 472.6
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.74,
-  "atr_pct": 3.1,
-  "rel_volume_20d": 0.74,
-  "dist_20dma_pct": 8.58,
-  "dist_50dma_pct": 14.79,
-  "dist_200dma_pct": 62.28
+  "rsi_14": 76.97,
+  "atr_pct": 2.95,
+  "rel_volume_20d": 0.31,
+  "dist_20dma_pct": 8.56,
+  "dist_50dma_pct": 15.31,
+  "dist_200dma_pct": 63.01
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "IWP",
  "name": "The Indian Wood Products Company Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1020,6 +1020,15 @@
    "close": 36.88,
    "volume": 466683,
    "delivery_pct": 39.94
+  },
+  {
+   "time": "2026-09-30",
+   "open": 38.34,
+   "high": 38.65,
+   "low": 36.41,
+   "close": 37.52,
+   "volume": 82945,
+   "delivery_pct": 83.47
   }
  ],
  "ma": {
@@ -1399,6 +1408,10 @@
    {
     "time": "2026-09-29",
     "value": 34.99
+   },
+   {
+    "time": "2026-09-30",
+    "value": 35.14
    }
   ],
   "sma_50": [
@@ -1657,15 +1670,19 @@
    {
     "time": "2026-09-29",
     "value": 34.24
+   },
+   {
+    "time": "2026-09-30",
+    "value": 34.34
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.26,
-  "atr_pct": 6.73,
-  "rel_volume_20d": 9.16,
-  "dist_20dma_pct": 5.41,
-  "dist_50dma_pct": 7.7,
+  "rsi_14": 58.08,
+  "atr_pct": 6.57,
+  "rel_volume_20d": 1.12,
+  "dist_20dma_pct": 6.78,
+  "dist_50dma_pct": 9.27,
   "dist_200dma_pct": null
  }
 }

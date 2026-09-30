@@ -2,7 +2,7 @@
  "symbol": "MARINE",
  "name": "Marine Electricals (India) Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 438.25,
    "volume": 1949017,
    "delivery_pct": 31.27
+  },
+  {
+   "time": "2026-09-30",
+   "open": 440.4,
+   "high": 446.05,
+   "low": 416.65,
+   "close": 429.55,
+   "volume": 1225757,
+   "delivery_pct": 35.7
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 412.46
+   },
+   {
+    "time": "2026-09-30",
+    "value": 412.31
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 362.45
+   },
+   {
+    "time": "2026-09-30",
+    "value": 365.83
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 251.28
+   },
+   {
+    "time": "2026-09-30",
+    "value": 252.42
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.12,
-  "atr_pct": 5.95,
-  "rel_volume_20d": 0.92,
-  "dist_20dma_pct": 6.25,
-  "dist_50dma_pct": 20.91,
-  "dist_200dma_pct": 74.41
+  "rsi_14": 59.8,
+  "atr_pct": 6.12,
+  "rel_volume_20d": 0.58,
+  "dist_20dma_pct": 4.18,
+  "dist_50dma_pct": 17.42,
+  "dist_200dma_pct": 70.17
  }
 }

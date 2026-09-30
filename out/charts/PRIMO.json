@@ -2,7 +2,7 @@
  "symbol": "PRIMO",
  "name": "Primo Chemicals Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 27.38,
    "volume": 1302676,
    "delivery_pct": 39.36
+  },
+  {
+   "time": "2026-09-30",
+   "open": 27.9,
+   "high": 28.0,
+   "low": 26.4,
+   "close": 26.64,
+   "volume": 448253,
+   "delivery_pct": 58.61
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 22.46
+   },
+   {
+    "time": "2026-09-30",
+    "value": 22.73
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 22.76
+   },
+   {
+    "time": "2026-09-30",
+    "value": 22.83
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 22.4
+   },
+   {
+    "time": "2026-09-30",
+    "value": 22.42
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.11,
-  "atr_pct": 6.55,
-  "rel_volume_20d": 2.84,
-  "dist_20dma_pct": 21.89,
-  "dist_50dma_pct": 20.29,
-  "dist_200dma_pct": 22.25
+  "rsi_14": 64.87,
+  "atr_pct": 6.68,
+  "rel_volume_20d": 0.86,
+  "dist_20dma_pct": 17.19,
+  "dist_50dma_pct": 16.67,
+  "dist_200dma_pct": 18.83
  }
 }

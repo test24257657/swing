@@ -2,7 +2,7 @@
  "symbol": "YUKEN",
  "name": "Yuken India Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 1130.7,
    "volume": 15657,
    "delivery_pct": 53.45
+  },
+  {
+   "time": "2026-09-30",
+   "open": 1138.95,
+   "high": 1139.0,
+   "low": 1088.95,
+   "close": 1131.1,
+   "volume": 10732,
+   "delivery_pct": 41.13
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 1081.98
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1089.93
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 925.46
+   },
+   {
+    "time": "2026-09-30",
+    "value": 933.7
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 791.64
+   },
+   {
+    "time": "2026-09-30",
+    "value": 793.09
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.1,
-  "atr_pct": 4.63,
-  "rel_volume_20d": 0.56,
-  "dist_20dma_pct": 4.5,
-  "dist_50dma_pct": 22.18,
-  "dist_200dma_pct": 42.83
+  "rsi_14": 70.16,
+  "atr_pct": 4.61,
+  "rel_volume_20d": 0.38,
+  "dist_20dma_pct": 3.78,
+  "dist_50dma_pct": 21.14,
+  "dist_200dma_pct": 42.62
  }
 }

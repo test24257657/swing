@@ -2,7 +2,7 @@
  "symbol": "QPOWER",
  "name": "Quality Power Electrical Equipments Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 1614.3,
    "volume": 378939,
    "delivery_pct": 39.88
+  },
+  {
+   "time": "2026-09-30",
+   "open": 1610.1,
+   "high": 1675.0,
+   "low": 1572.3,
+   "close": 1584.8,
+   "volume": 267707,
+   "delivery_pct": 50.75
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 1491.28
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1496.12
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 1329.38
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1338.53
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 1054.96
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1059.45
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.23,
-  "atr_pct": 4.58,
-  "rel_volume_20d": 1.05,
-  "dist_20dma_pct": 8.25,
-  "dist_50dma_pct": 21.43,
-  "dist_200dma_pct": 53.02
+  "rsi_14": 61.78,
+  "atr_pct": 4.79,
+  "rel_volume_20d": 0.77,
+  "dist_20dma_pct": 5.93,
+  "dist_50dma_pct": 18.4,
+  "dist_200dma_pct": 49.59
  }
 }

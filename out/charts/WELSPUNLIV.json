@@ -2,7 +2,7 @@
  "symbol": "WELSPUNLIV",
  "name": "Welspun Living Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 225.21,
    "volume": 1833544,
    "delivery_pct": 40.96
+  },
+  {
+   "time": "2026-09-30",
+   "open": 225.45,
+   "high": 232.49,
+   "low": 225.01,
+   "close": 227.33,
+   "volume": 3089710,
+   "delivery_pct": 40.45
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 212.42
+   },
+   {
+    "time": "2026-09-30",
+    "value": 213.87
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 187.53
+   },
+   {
+    "time": "2026-09-30",
+    "value": 188.76
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 148.51
+   },
+   {
+    "time": "2026-09-30",
+    "value": 148.98
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.57,
-  "atr_pct": 3.44,
-  "rel_volume_20d": 0.39,
-  "dist_20dma_pct": 6.02,
-  "dist_50dma_pct": 20.09,
-  "dist_200dma_pct": 51.65
+  "rsi_14": 73.93,
+  "atr_pct": 3.4,
+  "rel_volume_20d": 0.68,
+  "dist_20dma_pct": 6.29,
+  "dist_50dma_pct": 20.43,
+  "dist_200dma_pct": 52.59
  }
 }

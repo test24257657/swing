@@ -2,7 +2,7 @@
  "symbol": "KINGFA",
  "name": "Kingfa Science & Technology (India) Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 6524.5,
    "volume": 22165,
    "delivery_pct": 37.69
+  },
+  {
+   "time": "2026-09-30",
+   "open": 6550.0,
+   "high": 6601.0,
+   "low": 6380.5,
+   "close": 6482.5,
+   "volume": 19393,
+   "delivery_pct": 37.18
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 6081.5
+   },
+   {
+    "time": "2026-09-30",
+    "value": 6104.12
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 5766.19
+   },
+   {
+    "time": "2026-09-30",
+    "value": 5794.85
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 4881.52
+   },
+   {
+    "time": "2026-09-30",
+    "value": 4895.04
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.9,
-  "atr_pct": 3.26,
-  "rel_volume_20d": 1.44,
-  "dist_20dma_pct": 7.28,
-  "dist_50dma_pct": 13.15,
-  "dist_200dma_pct": 33.66
+  "rsi_14": 66.74,
+  "atr_pct": 3.29,
+  "rel_volume_20d": 1.21,
+  "dist_20dma_pct": 6.2,
+  "dist_50dma_pct": 11.87,
+  "dist_200dma_pct": 32.43
  }
 }

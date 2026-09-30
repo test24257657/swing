@@ -2,7 +2,7 @@
  "symbol": "OCCLLTD",
  "name": "OCCL Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 178.52,
    "volume": 155325,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-09-30",
+   "open": 184.0,
+   "high": 187.44,
+   "low": 182.17,
+   "close": 187.44,
+   "volume": 146245,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 161.03
+   },
+   {
+    "time": "2026-09-30",
+    "value": 162.25
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 158.69
+   },
+   {
+    "time": "2026-09-30",
+    "value": 159.71
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 116.37
+   },
+   {
+    "time": "2026-09-30",
+    "value": 116.86
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.61,
-  "atr_pct": 4.48,
-  "rel_volume_20d": 2.3,
-  "dist_20dma_pct": 10.86,
-  "dist_50dma_pct": 12.5,
-  "dist_200dma_pct": 53.41
+  "rsi_14": 74.5,
+  "atr_pct": 4.31,
+  "rel_volume_20d": 1.97,
+  "dist_20dma_pct": 15.52,
+  "dist_50dma_pct": 17.36,
+  "dist_200dma_pct": 60.4
  }
 }

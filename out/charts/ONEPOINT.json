@@ -2,7 +2,7 @@
  "symbol": "ONEPOINT",
  "name": "One Point One Solutions Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 71.62,
    "volume": 7409814,
    "delivery_pct": 32.02
+  },
+  {
+   "time": "2026-09-30",
+   "open": 71.55,
+   "high": 74.4,
+   "low": 70.62,
+   "close": 73.39,
+   "volume": 6743812,
+   "delivery_pct": 26.32
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 60.53
+   },
+   {
+    "time": "2026-09-30",
+    "value": 61.46
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 58.14
+   },
+   {
+    "time": "2026-09-30",
+    "value": 58.53
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 54.56
+   },
+   {
+    "time": "2026-09-30",
+    "value": 54.66
    }
   ]
  },
  "technicals": {
-  "rsi_14": 83.48,
-  "atr_pct": 4.57,
-  "rel_volume_20d": 2.33,
-  "dist_20dma_pct": 18.32,
-  "dist_50dma_pct": 23.19,
-  "dist_200dma_pct": 31.27
+  "rsi_14": 85.19,
+  "atr_pct": 4.51,
+  "rel_volume_20d": 1.91,
+  "dist_20dma_pct": 19.41,
+  "dist_50dma_pct": 25.39,
+  "dist_200dma_pct": 34.27
  }
 }

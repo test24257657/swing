@@ -2,7 +2,7 @@
  "symbol": "MACPOWER",
  "name": "Macpower CNC Machines Limited",
  "kind": "stock",
- "as_of": "2026-09-29",
+ "as_of": "2026-09-30",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 2128.1,
    "volume": 55501,
    "delivery_pct": 45.93
+  },
+  {
+   "time": "2026-09-30",
+   "open": 2165.5,
+   "high": 2183.6,
+   "low": 2080.0,
+   "close": 2096.0,
+   "volume": 40395,
+   "delivery_pct": 48.64
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-29",
     "value": 1963.22
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1972.46
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-29",
     "value": 1786.12
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1801.08
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-29",
     "value": 1219.0
+   },
+   {
+    "time": "2026-09-30",
+    "value": 1225.03
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.65,
-  "atr_pct": 6.45,
-  "rel_volume_20d": 0.83,
-  "dist_20dma_pct": 8.4,
-  "dist_50dma_pct": 19.15,
-  "dist_200dma_pct": 74.58
+  "rsi_14": 59.26,
+  "atr_pct": 6.43,
+  "rel_volume_20d": 0.6,
+  "dist_20dma_pct": 6.26,
+  "dist_50dma_pct": 16.37,
+  "dist_200dma_pct": 71.1
  }
 }
