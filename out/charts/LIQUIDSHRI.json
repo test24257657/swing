@@ -2,7 +2,7 @@
  "symbol": "LIQUIDSHRI",
  "name": "LIQUIDSHRI",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 1123.55,
    "volume": 16544,
    "delivery_pct": 95.01
+  },
+  {
+   "time": "2026-10-01",
+   "open": 1124.13,
+   "high": 1124.13,
+   "low": 1124.11,
+   "close": 1124.12,
+   "volume": 37736,
+   "delivery_pct": 86.99
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 1121.7
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1121.92
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 1118.82
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1119.02
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 1103.42
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1103.63
    }
   ]
  },
  "technicals": {
-  "rsi_14": 99.88,
+  "rsi_14": 99.9,
   "atr_pct": 0.02,
-  "rel_volume_20d": 1.39,
-  "dist_20dma_pct": 0.16,
-  "dist_50dma_pct": 0.42,
-  "dist_200dma_pct": 1.82
+  "rel_volume_20d": 2.98,
+  "dist_20dma_pct": 0.2,
+  "dist_50dma_pct": 0.46,
+  "dist_200dma_pct": 1.86
  }
 }

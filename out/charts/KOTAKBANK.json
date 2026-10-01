@@ -2,7 +2,7 @@
  "symbol": "KOTAKBANK",
  "name": "Kotak Mahindra Bank Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 417.0,
    "volume": 32537029,
    "delivery_pct": 76.63
+  },
+  {
+   "time": "2026-10-01",
+   "open": 426.0,
+   "high": 435.6,
+   "low": 416.05,
+   "close": 418.35,
+   "volume": 76637247,
+   "delivery_pct": 58.17
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 414.41
+   },
+   {
+    "time": "2026-10-01",
+    "value": 414.15
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 404.01
+   },
+   {
+    "time": "2026-10-01",
+    "value": 404.76
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 616.27
+   },
+   {
+    "time": "2026-10-01",
+    "value": 607.73
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.53,
-  "atr_pct": 1.96,
-  "rel_volume_20d": 2.73,
-  "dist_20dma_pct": 0.63,
-  "dist_50dma_pct": 3.21,
-  "dist_200dma_pct": -32.34
+  "rsi_14": 57.6,
+  "atr_pct": 2.15,
+  "rel_volume_20d": 5.83,
+  "dist_20dma_pct": 1.01,
+  "dist_50dma_pct": 3.36,
+  "dist_200dma_pct": -31.16
  }
 }

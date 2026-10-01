@@ -2,7 +2,7 @@
  "symbol": "HUBTOWN",
  "name": "Hubtown Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 182.28,
    "volume": 1619724,
    "delivery_pct": 28.54
+  },
+  {
+   "time": "2026-10-01",
+   "open": 183.0,
+   "high": 184.37,
+   "low": 174.32,
+   "close": 177.42,
+   "volume": 420252,
+   "delivery_pct": 39.7
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 178.86
+   },
+   {
+    "time": "2026-10-01",
+    "value": 178.7
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 183.9
+   },
+   {
+    "time": "2026-10-01",
+    "value": 183.42
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 205.66
+   },
+   {
+    "time": "2026-10-01",
+    "value": 205.14
    }
   ]
  },
  "technicals": {
-  "rsi_14": 52.86,
-  "atr_pct": 3.96,
-  "rel_volume_20d": 4.0,
-  "dist_20dma_pct": 1.91,
-  "dist_50dma_pct": -0.88,
-  "dist_200dma_pct": -11.37
+  "rsi_14": 48.25,
+  "atr_pct": 4.18,
+  "rel_volume_20d": 0.88,
+  "dist_20dma_pct": -0.72,
+  "dist_50dma_pct": -3.27,
+  "dist_200dma_pct": -13.51
  }
 }

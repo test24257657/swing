@@ -2,7 +2,7 @@
  "symbol": "LGEINDIA",
  "name": "LG Electronics India Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-10-14",
@@ -2145,6 +2145,15 @@
    "close": 1723.5,
    "volume": 421274,
    "delivery_pct": 60.06
+  },
+  {
+   "time": "2026-10-01",
+   "open": 1718.1,
+   "high": 1743.1,
+   "low": 1692.7,
+   "close": 1721.8,
+   "volume": 560330,
+   "delivery_pct": 54.55
   }
  ],
  "ma": {
@@ -3024,6 +3033,10 @@
    {
     "time": "2026-09-30",
     "value": 1672.45
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1675.88
    }
   ],
   "sma_50": [
@@ -3782,6 +3795,10 @@
    {
     "time": "2026-09-30",
     "value": 1629.0
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1632.84
    }
   ],
   "sma_200": [
@@ -3940,15 +3957,19 @@
    {
     "time": "2026-09-30",
     "value": 1550.54
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1551.14
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.96,
-  "atr_pct": 2.39,
-  "rel_volume_20d": 0.79,
-  "dist_20dma_pct": 3.05,
-  "dist_50dma_pct": 5.8,
-  "dist_200dma_pct": 11.16
+  "rsi_14": 60.53,
+  "atr_pct": 2.43,
+  "rel_volume_20d": 1.05,
+  "dist_20dma_pct": 2.74,
+  "dist_50dma_pct": 5.45,
+  "dist_200dma_pct": 11.0
  }
 }

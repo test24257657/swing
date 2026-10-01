@@ -2,7 +2,7 @@
  "symbol": "ICICIGI",
  "name": "ICICI Lombard General Insurance Company Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 1590.0,
    "volume": 1952166,
    "delivery_pct": 67.69
+  },
+  {
+   "time": "2026-10-01",
+   "open": 1579.0,
+   "high": 1594.7,
+   "low": 1562.6,
+   "close": 1563.0,
+   "volume": 1189772,
+   "delivery_pct": 60.54
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 1501.16
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1502.46
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 1577.47
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1577.06
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 1771.11
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1769.2
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.43,
+  "rsi_14": 53.39,
   "atr_pct": 2.69,
-  "rel_volume_20d": 2.45,
-  "dist_20dma_pct": 5.92,
-  "dist_50dma_pct": 0.79,
-  "dist_200dma_pct": -10.23
+  "rel_volume_20d": 1.36,
+  "dist_20dma_pct": 4.03,
+  "dist_50dma_pct": -0.89,
+  "dist_200dma_pct": -11.66
  }
 }

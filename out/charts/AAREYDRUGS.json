@@ -2,7 +2,7 @@
  "symbol": "AAREYDRUGS",
  "name": "Aarey Drugs & Pharmaceuticals Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 102.72,
    "volume": 392668,
    "delivery_pct": 77.93
+  },
+  {
+   "time": "2026-10-01",
+   "open": 104.3,
+   "high": 107.85,
+   "low": 102.49,
+   "close": 103.85,
+   "volume": 449714,
+   "delivery_pct": 63.95
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 99.3
+   },
+   {
+    "time": "2026-10-01",
+    "value": 99.91
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 88.73
+   },
+   {
+    "time": "2026-10-01",
+    "value": 89.29
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 78.29
+   },
+   {
+    "time": "2026-10-01",
+    "value": 78.47
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.48,
-  "atr_pct": 3.89,
-  "rel_volume_20d": 1.63,
-  "dist_20dma_pct": 3.44,
-  "dist_50dma_pct": 15.77,
-  "dist_200dma_pct": 31.21
+  "rsi_14": 67.26,
+  "atr_pct": 3.94,
+  "rel_volume_20d": 2.0,
+  "dist_20dma_pct": 3.95,
+  "dist_50dma_pct": 16.31,
+  "dist_200dma_pct": 32.35
  }
 }

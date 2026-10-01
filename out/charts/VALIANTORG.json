@@ -2,7 +2,7 @@
  "symbol": "VALIANTORG",
  "name": "Valiant Organics Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 455.1,
    "volume": 606539,
    "delivery_pct": 43.08
+  },
+  {
+   "time": "2026-10-01",
+   "open": 469.0,
+   "high": 480.6,
+   "low": 440.0,
+   "close": 477.15,
+   "volume": 551682,
+   "delivery_pct": 33.25
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 384.65
+   },
+   {
+    "time": "2026-10-01",
+    "value": 393.46
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 328.82
+   },
+   {
+    "time": "2026-10-01",
+    "value": 333.04
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 280.12
+   },
+   {
+    "time": "2026-10-01",
+    "value": 281.17
    }
   ]
  },
  "technicals": {
-  "rsi_14": 76.33,
-  "atr_pct": 5.24,
-  "rel_volume_20d": 7.54,
-  "dist_20dma_pct": 18.31,
-  "dist_50dma_pct": 38.4,
-  "dist_200dma_pct": 62.46
+  "rsi_14": 79.34,
+  "atr_pct": 5.25,
+  "rel_volume_20d": 5.06,
+  "dist_20dma_pct": 21.27,
+  "dist_50dma_pct": 43.27,
+  "dist_200dma_pct": 69.7
  }
 }

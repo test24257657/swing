@@ -2,7 +2,7 @@
  "symbol": "AZAD",
  "name": "Azad Engineering Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 2963.2,
    "volume": 5708538,
    "delivery_pct": 11.94
+  },
+  {
+   "time": "2026-10-01",
+   "open": 2982.0,
+   "high": 2982.0,
+   "low": 2825.1,
+   "close": 2860.9,
+   "volume": 1334621,
+   "delivery_pct": 23.26
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 2769.55
+   },
+   {
+    "time": "2026-10-01",
+    "value": 2773.31
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 2664.57
+   },
+   {
+    "time": "2026-10-01",
+    "value": 2675.25
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 2037.01
+   },
+   {
+    "time": "2026-10-01",
+    "value": 2043.13
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.41,
-  "atr_pct": 4.46,
-  "rel_volume_20d": 9.39,
-  "dist_20dma_pct": 6.99,
-  "dist_50dma_pct": 11.21,
-  "dist_200dma_pct": 45.47
+  "rsi_14": 56.22,
+  "atr_pct": 4.68,
+  "rel_volume_20d": 1.53,
+  "dist_20dma_pct": 3.16,
+  "dist_50dma_pct": 6.94,
+  "dist_200dma_pct": 40.03
  }
 }

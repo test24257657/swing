@@ -2,7 +2,7 @@
  "symbol": "EIHOTEL",
  "name": "EIH Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 301.1,
    "volume": 1001715,
    "delivery_pct": 88.81
+  },
+  {
+   "time": "2026-10-01",
+   "open": 300.65,
+   "high": 301.0,
+   "low": 295.15,
+   "close": 297.85,
+   "volume": 167855,
+   "delivery_pct": 52.46
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 295.82
+   },
+   {
+    "time": "2026-10-01",
+    "value": 296.43
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 304.86
+   },
+   {
+    "time": "2026-10-01",
+    "value": 304.18
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 321.65
+   },
+   {
+    "time": "2026-10-01",
+    "value": 321.24
    }
   ]
  },
  "technicals": {
-  "rsi_14": 51.34,
-  "atr_pct": 2.92,
-  "rel_volume_20d": 2.47,
-  "dist_20dma_pct": 1.78,
-  "dist_50dma_pct": -1.23,
-  "dist_200dma_pct": -6.39
+  "rsi_14": 48.77,
+  "atr_pct": 2.89,
+  "rel_volume_20d": 0.39,
+  "dist_20dma_pct": 0.48,
+  "dist_50dma_pct": -2.08,
+  "dist_200dma_pct": -7.28
  }
 }

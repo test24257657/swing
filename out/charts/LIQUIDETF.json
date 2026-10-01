@@ -2,7 +2,7 @@
  "symbol": "LIQUIDETF",
  "name": "LIQUIDETF",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 999.99,
    "volume": 144112,
    "delivery_pct": 73.75
+  },
+  {
+   "time": "2026-10-01",
+   "open": 1000.0,
+   "high": 1000.01,
+   "low": 999.99,
+   "close": 1000.0,
+   "volume": 197180,
+   "delivery_pct": 71.9
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 999.99
+   },
+   {
+    "time": "2026-10-01",
+    "value": 999.99
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 999.99
+   },
+   {
+    "time": "2026-10-01",
+    "value": 999.99
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 1000.0
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1000.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 47.17,
+  "rsi_14": 55.79,
   "atr_pct": 0.0,
-  "rel_volume_20d": 1.17,
-  "dist_20dma_pct": -0.0,
-  "dist_50dma_pct": -0.0,
-  "dist_200dma_pct": -0.0
+  "rel_volume_20d": 1.65,
+  "dist_20dma_pct": 0.0,
+  "dist_50dma_pct": 0.0,
+  "dist_200dma_pct": 0.0
  }
 }

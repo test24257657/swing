@@ -2,7 +2,7 @@
  "symbol": "AONELIQUID",
  "name": "AONELIQUID",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 1079.0,
    "volume": 7508,
    "delivery_pct": 56.03
+  },
+  {
+   "time": "2026-10-01",
+   "open": 1079.59,
+   "high": 1079.59,
+   "low": 1079.57,
+   "close": 1079.57,
+   "volume": 16340,
+   "delivery_pct": 42.44
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 1077.12
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1077.34
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 1074.15
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1074.35
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 1058.53
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1058.74
    }
   ]
  },
  "technicals": {
   "rsi_14": 100.0,
-  "atr_pct": 0.02,
-  "rel_volume_20d": 0.35,
-  "dist_20dma_pct": 0.17,
-  "dist_50dma_pct": 0.45,
-  "dist_200dma_pct": 1.93
+  "atr_pct": 0.03,
+  "rel_volume_20d": 0.77,
+  "dist_20dma_pct": 0.21,
+  "dist_50dma_pct": 0.49,
+  "dist_200dma_pct": 1.97
  }
 }

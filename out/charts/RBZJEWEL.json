@@ -2,7 +2,7 @@
  "symbol": "RBZJEWEL",
  "name": "RBZ Jewellers Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 207.23,
    "volume": 238976,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-01",
+   "open": 202.8,
+   "high": 202.8,
+   "low": 196.87,
+   "close": 196.87,
+   "volume": 123782,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 179.91
+   },
+   {
+    "time": "2026-10-01",
+    "value": 181.68
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 159.26
+   },
+   {
+    "time": "2026-10-01",
+    "value": 160.26
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 141.21
+   },
+   {
+    "time": "2026-10-01",
+    "value": 141.5
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.11,
-  "atr_pct": 5.43,
-  "rel_volume_20d": 0.13,
-  "dist_20dma_pct": 15.18,
-  "dist_50dma_pct": 30.12,
-  "dist_200dma_pct": 46.75
+  "rsi_14": 62.38,
+  "atr_pct": 5.68,
+  "rel_volume_20d": 0.08,
+  "dist_20dma_pct": 8.36,
+  "dist_50dma_pct": 22.84,
+  "dist_200dma_pct": 39.13
  }
 }

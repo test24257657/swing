@@ -2,7 +2,7 @@
  "symbol": "SANGAMIND",
  "name": "Sangam (India) Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 626.9,
    "volume": 27711,
    "delivery_pct": 41.16
+  },
+  {
+   "time": "2026-10-01",
+   "open": 625.0,
+   "high": 638.5,
+   "low": 612.05,
+   "close": 634.55,
+   "volume": 50667,
+   "delivery_pct": 41.36
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 586.28
+   },
+   {
+    "time": "2026-10-01",
+    "value": 589.51
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 592.21
+   },
+   {
+    "time": "2026-10-01",
+    "value": 592.47
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 513.29
+   },
+   {
+    "time": "2026-10-01",
+    "value": 514.34
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.14,
-  "atr_pct": 3.79,
-  "rel_volume_20d": 0.55,
-  "dist_20dma_pct": 6.93,
-  "dist_50dma_pct": 5.86,
-  "dist_200dma_pct": 22.13
+  "rsi_14": 65.16,
+  "atr_pct": 3.77,
+  "rel_volume_20d": 0.98,
+  "dist_20dma_pct": 7.64,
+  "dist_50dma_pct": 7.1,
+  "dist_200dma_pct": 23.37
  }
 }

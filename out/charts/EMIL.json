@@ -2,7 +2,7 @@
  "symbol": "EMIL",
  "name": "Electronics Mart India Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 205.36,
    "volume": 14305072,
    "delivery_pct": 27.87
+  },
+  {
+   "time": "2026-10-01",
+   "open": 204.0,
+   "high": 207.15,
+   "low": 197.73,
+   "close": 204.05,
+   "volume": 4017614,
+   "delivery_pct": 36.69
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 187.77
+   },
+   {
+    "time": "2026-10-01",
+    "value": 189.15
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 173.42
+   },
+   {
+    "time": "2026-10-01",
+    "value": 174.88
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 123.73
+   },
+   {
+    "time": "2026-10-01",
+    "value": 124.18
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.83,
-  "atr_pct": 4.95,
-  "rel_volume_20d": 4.02,
-  "dist_20dma_pct": 9.37,
-  "dist_50dma_pct": 18.41,
-  "dist_200dma_pct": 65.98
+  "rsi_14": 63.56,
+  "atr_pct": 4.96,
+  "rel_volume_20d": 0.95,
+  "dist_20dma_pct": 7.88,
+  "dist_50dma_pct": 16.68,
+  "dist_200dma_pct": 64.31
  }
 }

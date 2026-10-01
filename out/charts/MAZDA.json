@@ -2,7 +2,7 @@
  "symbol": "MAZDA",
  "name": "Mazda Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 303.3,
    "volume": 42578,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-01",
+   "open": 307.95,
+   "high": 310.0,
+   "low": 288.15,
+   "close": 288.15,
+   "volume": 32502,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 267.55
+   },
+   {
+    "time": "2026-10-01",
+    "value": 268.89
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 245.86
+   },
+   {
+    "time": "2026-10-01",
+    "value": 247.2
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 219.8
+   },
+   {
+    "time": "2026-10-01",
+    "value": 220.14
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.59,
-  "atr_pct": 4.67,
-  "rel_volume_20d": 0.73,
-  "dist_20dma_pct": 13.36,
-  "dist_50dma_pct": 23.36,
-  "dist_200dma_pct": 37.99
+  "rsi_14": 61.65,
+  "atr_pct": 5.11,
+  "rel_volume_20d": 0.54,
+  "dist_20dma_pct": 7.16,
+  "dist_50dma_pct": 16.57,
+  "dist_200dma_pct": 30.89
  }
 }

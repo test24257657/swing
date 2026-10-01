@@ -2,7 +2,7 @@
  "symbol": "SALSTEEL",
  "name": "S.A.L. Steel Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 99.06,
    "volume": 1173619,
    "delivery_pct": 28.29
+  },
+  {
+   "time": "2026-10-01",
+   "open": 98.89,
+   "high": 102.4,
+   "low": 94.11,
+   "close": 98.92,
+   "volume": 1173063,
+   "delivery_pct": 34.02
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 83.21
+   },
+   {
+    "time": "2026-10-01",
+    "value": 84.05
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 73.25
+   },
+   {
+    "time": "2026-10-01",
+    "value": 74.09
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 54.99
+   },
+   {
+    "time": "2026-10-01",
+    "value": 55.32
    }
   ]
  },
  "technicals": {
-  "rsi_14": 76.54,
-  "atr_pct": 4.88,
-  "rel_volume_20d": 1.83,
-  "dist_20dma_pct": 19.05,
-  "dist_50dma_pct": 35.24,
-  "dist_200dma_pct": 80.13
+  "rsi_14": 76.2,
+  "atr_pct": 5.13,
+  "rel_volume_20d": 1.78,
+  "dist_20dma_pct": 17.69,
+  "dist_50dma_pct": 33.52,
+  "dist_200dma_pct": 78.82
  }
 }

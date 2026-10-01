@@ -2,7 +2,7 @@
  "symbol": "OAL",
  "name": "Oriental Aromatics Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 533.25,
    "volume": 15746,
    "delivery_pct": 58.94
+  },
+  {
+   "time": "2026-10-01",
+   "open": 531.45,
+   "high": 549.0,
+   "low": 510.8,
+   "close": 532.2,
+   "volume": 64420,
+   "delivery_pct": 44.73
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 527.56
+   },
+   {
+    "time": "2026-10-01",
+    "value": 531.28
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 437.56
+   },
+   {
+    "time": "2026-10-01",
+    "value": 441.23
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 330.75
+   },
+   {
+    "time": "2026-10-01",
+    "value": 332.02
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.05,
-  "atr_pct": 5.53,
-  "rel_volume_20d": 0.23,
-  "dist_20dma_pct": 1.08,
-  "dist_50dma_pct": 21.87,
-  "dist_200dma_pct": 61.23
+  "rsi_14": 59.69,
+  "atr_pct": 5.66,
+  "rel_volume_20d": 0.98,
+  "dist_20dma_pct": 0.17,
+  "dist_50dma_pct": 20.62,
+  "dist_200dma_pct": 60.29
  }
 }

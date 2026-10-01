@@ -2,7 +2,7 @@
  "symbol": "HDFCLIQUID",
  "name": "HDFCLIQUID",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 1080.05,
    "volume": 29271,
    "delivery_pct": 63.67
+  },
+  {
+   "time": "2026-10-01",
+   "open": 1081.14,
+   "high": 1083.65,
+   "low": 1076.65,
+   "close": 1080.61,
+   "volume": 57033,
+   "delivery_pct": 54.52
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 1078.17
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1078.39
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 1075.24
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1075.44
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 1059.74
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1059.95
    }
   ]
  },
  "technicals": {
-  "rsi_14": 99.94,
-  "atr_pct": 0.08,
-  "rel_volume_20d": 1.04,
-  "dist_20dma_pct": 0.17,
-  "dist_50dma_pct": 0.45,
-  "dist_200dma_pct": 1.92
+  "rsi_14": 99.95,
+  "atr_pct": 0.12,
+  "rel_volume_20d": 1.97,
+  "dist_20dma_pct": 0.21,
+  "dist_50dma_pct": 0.48,
+  "dist_200dma_pct": 1.95
  }
 }

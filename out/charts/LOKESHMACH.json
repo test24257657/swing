@@ -2,7 +2,7 @@
  "symbol": "LOKESHMACH",
  "name": "Lokesh Machines Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 365.9,
    "volume": 76813,
    "delivery_pct": 61.84
+  },
+  {
+   "time": "2026-10-01",
+   "open": 366.2,
+   "high": 411.45,
+   "low": 360.15,
+   "close": 400.8,
+   "volume": 991506,
+   "delivery_pct": 19.27
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 347.75
+   },
+   {
+    "time": "2026-10-01",
+    "value": 350.79
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 339.53
+   },
+   {
+    "time": "2026-10-01",
+    "value": 340.67
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 253.74
+   },
+   {
+    "time": "2026-10-01",
+    "value": 255.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.72,
-  "atr_pct": 5.36,
-  "rel_volume_20d": 1.59,
-  "dist_20dma_pct": 5.22,
-  "dist_50dma_pct": 7.77,
-  "dist_200dma_pct": 44.2
+  "rsi_14": 67.13,
+  "atr_pct": 5.46,
+  "rel_volume_20d": 20.89,
+  "dist_20dma_pct": 14.25,
+  "dist_50dma_pct": 17.65,
+  "dist_200dma_pct": 57.18
  }
 }

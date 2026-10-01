@@ -2,7 +2,7 @@
  "symbol": "ICICIBANK",
  "name": "ICICI Bank Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 1321.7,
    "volume": 14095232,
    "delivery_pct": 68.37
+  },
+  {
+   "time": "2026-10-01",
+   "open": 1316.0,
+   "high": 1329.9,
+   "low": 1308.4,
+   "close": 1310.6,
+   "volume": 13163495,
+   "delivery_pct": 57.07
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 1362.85
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1357.06
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 1403.91
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1401.31
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 1354.04
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1353.72
    }
   ]
  },
  "technicals": {
-  "rsi_14": 36.22,
-  "atr_pct": 1.66,
-  "rel_volume_20d": 1.56,
-  "dist_20dma_pct": -3.02,
-  "dist_50dma_pct": -5.86,
-  "dist_200dma_pct": -2.39
+  "rsi_14": 33.81,
+  "atr_pct": 1.67,
+  "rel_volume_20d": 1.43,
+  "dist_20dma_pct": -3.42,
+  "dist_50dma_pct": -6.47,
+  "dist_200dma_pct": -3.19
  }
 }

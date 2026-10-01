@@ -2,7 +2,7 @@
  "symbol": "SHEKHAWATI",
  "name": "Shekhawati Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 31.68,
    "volume": 19430,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-01",
+   "open": 33.26,
+   "high": 33.26,
+   "low": 30.1,
+   "close": 30.1,
+   "volume": 138399,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 21.67
+   },
+   {
+    "time": "2026-10-01",
+    "value": 22.41
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 18.02
+   },
+   {
+    "time": "2026-10-01",
+    "value": 18.38
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 15.57
+   },
+   {
+    "time": "2026-10-01",
+    "value": 15.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 90.41,
-  "atr_pct": 4.2,
-  "rel_volume_20d": 0.24,
-  "dist_20dma_pct": 46.17,
-  "dist_50dma_pct": 75.78,
-  "dist_200dma_pct": 103.43
+  "rsi_14": 79.81,
+  "atr_pct": 4.86,
+  "rel_volume_20d": 1.73,
+  "dist_20dma_pct": 34.3,
+  "dist_50dma_pct": 63.74,
+  "dist_200dma_pct": 92.75
  }
 }

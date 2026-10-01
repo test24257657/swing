@@ -1,153 +1,153 @@
 {
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "source": "rules",
- "universe": 204,
- "eligible": 8,
+ "universe": 159,
+ "eligible": 6,
  "picks": [
   {
-   "symbol": "EMIL",
-   "ltp": 205.36,
+   "symbol": "LOTUSDEV",
+   "ltp": 230.07,
    "technicals": {
-    "rsi_14": 64.83,
-    "rel_volume_20d": 4.02,
-    "dist_20dma_pct": 9.37,
-    "dist_50dma_pct": 18.41,
-    "dist_200dma_pct": 65.98
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 200.22,
-    "stop_suggestion": 173.71,
-    "target_suggestion": 240.26,
-    "gap_to_pivot_pct": 2.57
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 2419.0,
-    "net_income_cr": 120.6,
-    "revenue_qoq_pct": 26.4,
-    "net_income_qoq_pct": 203.8
-   },
-   "reason": null,
-   "rank": 1,
-   "name": "Electronics Mart India Limited"
-  },
-  {
-   "symbol": "MAHSEAMLES",
-   "ltp": 737.65,
-   "technicals": {
-    "rsi_14": 68.17,
-    "rel_volume_20d": 3.44,
-    "dist_20dma_pct": 5.1,
-    "dist_50dma_pct": 14.57,
-    "dist_200dma_pct": 23.31
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 728.9,
-    "stop_suggestion": 668.7,
-    "target_suggestion": 874.68,
-    "gap_to_pivot_pct": 1.2
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 1091.2,
-    "net_income_cr": 266.4,
-    "revenue_qoq_pct": -14.8,
-    "net_income_qoq_pct": 159.1
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "Maharashtra Seamless Limited"
-  },
-  {
-   "symbol": "WELSPUNLIV",
-   "ltp": 227.33,
-   "technicals": {
-    "rsi_14": 73.93,
-    "rel_volume_20d": 0.68,
-    "dist_20dma_pct": 6.29,
-    "dist_50dma_pct": 20.43,
-    "dist_200dma_pct": 52.59
+    "rsi_14": 69.24,
+    "rel_volume_20d": 0.95,
+    "dist_20dma_pct": 9.13,
+    "dist_50dma_pct": 19.26,
+    "dist_200dma_pct": 48.52
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "forming",
-    "pivot_price": 224.68,
-    "stop_suggestion": 195.7,
-    "target_suggestion": 269.62,
-    "gap_to_pivot_pct": 1.18
+    "pivot_price": 224.46,
+    "stop_suggestion": 195.0,
+    "target_suggestion": 269.35,
+    "gap_to_pivot_pct": 2.5
    },
    "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 2795.4,
-    "net_income_cr": 160.7,
-    "revenue_qoq_pct": 14.8,
-    "net_income_qoq_pct": 55.0
+    "quarter": "Q4 FY26",
+    "revenue_cr": 307.5,
+    "net_income_cr": 95.6,
+    "revenue_qoq_pct": 37.3,
+    "net_income_qoq_pct": 37.2
    },
    "reason": null,
-   "rank": 3,
-   "name": "Welspun Living Limited"
+   "rank": 1,
+   "name": "Sri Lotus Developers and Realty Limited"
   },
   {
-   "symbol": "HITECHCORP",
-   "ltp": 345.25,
+   "symbol": "SURAKSHA",
+   "ltp": 350.15,
    "technicals": {
-    "rsi_14": 65.73,
-    "rel_volume_20d": 3.57,
-    "dist_20dma_pct": 3.35,
-    "dist_50dma_pct": 4.72,
-    "dist_200dma_pct": 53.38
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 337.65,
-    "stop_suggestion": 320.5,
-    "target_suggestion": 405.18,
-    "gap_to_pivot_pct": 2.25
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 225.7,
-    "net_income_cr": 7.1,
-    "revenue_qoq_pct": 36.0,
-    "net_income_qoq_pct": -20.2
-   },
-   "reason": null,
-   "rank": 4,
-   "name": "Hitech Corporation Limited"
-  },
-  {
-   "symbol": "VIDHIING",
-   "ltp": 357.6,
-   "technicals": {
-    "rsi_14": 57.51,
-    "rel_volume_20d": 0.75,
-    "dist_20dma_pct": 2.81,
-    "dist_50dma_pct": 7.12,
-    "dist_200dma_pct": 13.97
+    "rsi_14": 61.14,
+    "rel_volume_20d": 0.98,
+    "dist_20dma_pct": 2.73,
+    "dist_50dma_pct": 13.12,
+    "dist_200dma_pct": 23.84
    },
    "pattern": {
     "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 365.0,
-    "stop_suggestion": 334.27,
-    "target_suggestion": 419.75,
-    "gap_to_pivot_pct": -2.03
+    "pivot_price": 360.0,
+    "stop_suggestion": 328.4,
+    "target_suggestion": 414.0,
+    "gap_to_pivot_pct": -2.74
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 146.3,
-    "net_income_cr": 17.1,
-    "revenue_qoq_pct": 19.2,
-    "net_income_qoq_pct": 30.5
+    "revenue_cr": 87.6,
+    "net_income_cr": 13.0,
+    "revenue_qoq_pct": 7.6,
+    "net_income_qoq_pct": 106.3
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "Suraksha Diagnostic Limited"
+  },
+  {
+   "symbol": "AKUMS",
+   "ltp": 813.1,
+   "technicals": {
+    "rsi_14": 59.91,
+    "rel_volume_20d": 0.6,
+    "dist_20dma_pct": 3.36,
+    "dist_50dma_pct": 8.65,
+    "dist_200dma_pct": 41.66
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 823.3,
+    "stop_suggestion": 740.35,
+    "target_suggestion": 987.96,
+    "gap_to_pivot_pct": -1.24
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 1166.6,
+    "net_income_cr": 100.0,
+    "revenue_qoq_pct": 0.8,
+    "net_income_qoq_pct": 18.2
+   },
+   "reason": null,
+   "rank": 3,
+   "name": "Akums Drugs and Pharmaceuticals Limited"
+  },
+  {
+   "symbol": "AZAD",
+   "ltp": 2860.9,
+   "technicals": {
+    "rsi_14": 56.22,
+    "rel_volume_20d": 1.53,
+    "dist_20dma_pct": 3.16,
+    "dist_50dma_pct": 6.94,
+    "dist_200dma_pct": 40.03
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 2899.9,
+    "stop_suggestion": 2555.0,
+    "target_suggestion": 3479.88,
+    "gap_to_pivot_pct": -1.34
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 172.6,
+    "net_income_cr": 35.7,
+    "revenue_qoq_pct": 6.9,
+    "net_income_qoq_pct": -0.8
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "Azad Engineering Limited"
+  },
+  {
+   "symbol": "FINCABLES",
+   "ltp": 1458.8,
+   "technicals": {
+    "rsi_14": 62.29,
+    "rel_volume_20d": 0.47,
+    "dist_20dma_pct": 5.1,
+    "dist_50dma_pct": 16.93,
+    "dist_200dma_pct": 46.16
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 1498.0,
+    "stop_suggestion": 1367.18,
+    "target_suggestion": 1722.7,
+    "gap_to_pivot_pct": -2.62
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 2013.2,
+    "net_income_cr": 249.0,
+    "revenue_qoq_pct": 3.2,
+    "net_income_qoq_pct": 11.0
    },
    "reason": null,
    "rank": 5,
-   "name": "Vidhi Specialty Food Ingredients Limited"
+   "name": "Finolex Cables Limited"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "symbol": "TEGA",
  "name": "Tega Industries Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 2106.7,
    "volume": 1493714,
    "delivery_pct": 27.33
+  },
+  {
+   "time": "2026-10-01",
+   "open": 2106.7,
+   "high": 2132.0,
+   "low": 2034.0,
+   "close": 2093.4,
+   "volume": 408456,
+   "delivery_pct": 36.95
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 1843.29
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1870.97
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 1709.19
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1719.71
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 1735.19
+   },
+   {
+    "time": "2026-10-01",
+    "value": 1736.25
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.21,
-  "atr_pct": 4.38,
-  "rel_volume_20d": 1.73,
-  "dist_20dma_pct": 14.29,
-  "dist_50dma_pct": 23.26,
-  "dist_200dma_pct": 21.41
+  "rsi_14": 67.8,
+  "atr_pct": 4.43,
+  "rel_volume_20d": 0.44,
+  "dist_20dma_pct": 11.89,
+  "dist_50dma_pct": 21.73,
+  "dist_200dma_pct": 20.57
  }
 }

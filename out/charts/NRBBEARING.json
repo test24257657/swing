@@ -2,7 +2,7 @@
  "symbol": "NRBBEARING",
  "name": "NRB Bearing Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 534.05,
    "volume": 557714,
    "delivery_pct": 37.79
+  },
+  {
+   "time": "2026-10-01",
+   "open": 530.0,
+   "high": 552.0,
+   "low": 512.45,
+   "close": 542.6,
+   "volume": 677742,
+   "delivery_pct": 43.25
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 502.98
+   },
+   {
+    "time": "2026-10-01",
+    "value": 507.43
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 472.09
+   },
+   {
+    "time": "2026-10-01",
+    "value": 475.06
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 352.16
+   },
+   {
+    "time": "2026-10-01",
+    "value": 353.48
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.38,
-  "atr_pct": 4.34,
-  "rel_volume_20d": 0.53,
-  "dist_20dma_pct": 6.18,
-  "dist_50dma_pct": 13.13,
-  "dist_200dma_pct": 51.65
+  "rsi_14": 63.55,
+  "atr_pct": 4.48,
+  "rel_volume_20d": 0.64,
+  "dist_20dma_pct": 6.93,
+  "dist_50dma_pct": 14.22,
+  "dist_200dma_pct": 53.5
  }
 }

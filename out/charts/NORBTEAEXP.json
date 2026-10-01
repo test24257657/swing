@@ -2,7 +2,7 @@
  "symbol": "NORBTEAEXP",
  "name": "Norben Tea & Exports Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2253,6 +2253,15 @@
    "close": 66.25,
    "volume": 4585,
    "delivery_pct": 85.87
+  },
+  {
+   "time": "2026-10-01",
+   "open": 64.1,
+   "high": 69.5,
+   "low": 62.95,
+   "close": 69.04,
+   "volume": 9225,
+   "delivery_pct": 81.01
   }
  ],
  "ma": {
@@ -3180,6 +3189,10 @@
    {
     "time": "2026-09-30",
     "value": 66.54
+   },
+   {
+    "time": "2026-10-01",
+    "value": 66.73
    }
   ],
   "sma_50": [
@@ -3986,6 +3999,10 @@
    {
     "time": "2026-09-30",
     "value": 66.81
+   },
+   {
+    "time": "2026-10-01",
+    "value": 66.85
    }
   ],
   "sma_200": [
@@ -4192,15 +4209,19 @@
    {
     "time": "2026-09-30",
     "value": 77.57
+   },
+   {
+    "time": "2026-10-01",
+    "value": 77.55
    }
   ]
  },
  "technicals": {
-  "rsi_14": 48.73,
-  "atr_pct": 5.78,
-  "rel_volume_20d": 2.6,
-  "dist_20dma_pct": -0.44,
-  "dist_50dma_pct": -0.83,
-  "dist_200dma_pct": -14.59
+  "rsi_14": 55.05,
+  "atr_pct": 5.83,
+  "rel_volume_20d": 4.7,
+  "dist_20dma_pct": 3.47,
+  "dist_50dma_pct": 3.28,
+  "dist_200dma_pct": -10.97
  }
 }

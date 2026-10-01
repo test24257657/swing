@@ -2,7 +2,7 @@
  "symbol": "UYFINCORP",
  "name": "U. Y. Fincorp Limited",
  "kind": "stock",
- "as_of": "2026-09-30",
+ "as_of": "2026-10-01",
  "bars": [
   {
    "time": "2025-09-24",
@@ -2262,6 +2262,15 @@
    "close": 21.8,
    "volume": 415001,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-01",
+   "open": 22.89,
+   "high": 22.89,
+   "low": 21.85,
+   "close": 22.86,
+   "volume": 414760,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-09-30",
     "value": 19.65
+   },
+   {
+    "time": "2026-10-01",
+    "value": 19.83
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-09-30",
     "value": 19.74
+   },
+   {
+    "time": "2026-10-01",
+    "value": 19.85
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-09-30",
     "value": 15.58
+   },
+   {
+    "time": "2026-10-01",
+    "value": 15.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.47,
-  "atr_pct": 3.94,
-  "rel_volume_20d": 4.15,
-  "dist_20dma_pct": 10.92,
-  "dist_50dma_pct": 10.43,
-  "dist_200dma_pct": 39.91
+  "rsi_14": 76.58,
+  "atr_pct": 3.83,
+  "rel_volume_20d": 3.48,
+  "dist_20dma_pct": 15.27,
+  "dist_50dma_pct": 15.15,
+  "dist_200dma_pct": 46.32
  }
 }
