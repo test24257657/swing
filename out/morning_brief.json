@@ -1,250 +1,286 @@
 {
- "generated_at": "2026-09-30T08:15:52+05:30",
- "for_session": "2026-09-30",
+ "generated_at": "2026-10-01T08:15:56+05:30",
+ "for_session": "2026-10-01",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7670.84,
-   "change_pct": -0.17,
-   "as_of": "2026-09-29"
+   "value": 7651.54,
+   "change_pct": -0.25,
+   "as_of": "2026-09-30"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 26797.54,
-   "change_pct": -0.09,
-   "as_of": "2026-09-29"
+   "value": 26861.06,
+   "change_pct": 0.24,
+   "as_of": "2026-09-30"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51349.92,
-   "change_pct": -0.26,
-   "as_of": "2026-09-29"
+   "value": 50906.05,
+   "change_pct": -0.86,
+   "as_of": "2026-09-30"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 66318.81,
-   "change_pct": 1.28,
-   "as_of": "2026-09-30"
+   "value": 68355.81,
+   "change_pct": 2.4,
+   "as_of": "2026-10-01"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24461.97,
-   "change_pct": -0.25,
+   "value": 24613.27,
+   "change_pct": 0.37,
    "as_of": "2026-09-30"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 6878.58,
-   "change_pct": 0.11,
-   "as_of": "2026-09-30"
+   "value": 6860.11,
+   "change_pct": 0.32,
+   "as_of": "2026-10-01"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 96.28,
-   "change_pct": -8.55,
-   "as_of": "2026-09-29"
+   "value": 97.66,
+   "change_pct": -4.81,
+   "as_of": "2026-09-30"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4205.1,
-   "change_pct": 0.88,
-   "as_of": "2026-09-29"
+   "value": 4184.7,
+   "change_pct": 0.12,
+   "as_of": "2026-09-30"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 95.97,
-   "change_pct": -0.01,
-   "as_of": "2026-09-30"
+   "value": 95.82,
+   "change_pct": -0.24,
+   "as_of": "2026-10-01"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.26,
-   "change_pct": 0.29,
-   "as_of": "2026-09-29"
+   "value": 5.29,
+   "change_pct": 0.72,
+   "as_of": "2026-09-30"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 101.34,
-   "change_pct": 0.14,
-   "as_of": "2026-09-29"
+   "value": 101.58,
+   "change_pct": 0.21,
+   "as_of": "2026-09-30"
   }
  ],
  "global_tone": {
-  "tone": "mixed",
-  "avg_change_pct": 0.18,
+  "tone": "positive",
+  "avg_change_pct": 0.62,
   "crude_alert": true
  },
  "nifty": {
-  "session": "2026-09-29",
-  "close": 22716.2,
-  "high": 22753.25,
-  "low": 22569.65,
-  "pivot": 22679.7,
-  "r1": 22789.75,
-  "s1": 22606.15,
-  "r2": 22863.3,
-  "s2": 22496.1,
-  "sma_20": 23415.32,
-  "sma_50": 23932.93,
-  "sma_200": 24383.87
+  "session": "2026-09-30",
+  "close": 22620.45,
+  "high": 22809.35,
+  "low": 22595.2,
+  "pivot": 22675.0,
+  "r1": 22754.8,
+  "s1": 22540.65,
+  "r2": 22889.15,
+  "s2": 22460.85,
+  "sma_20": 23343.55,
+  "sma_50": 23901.58,
+  "sma_200": 24367.78
  },
  "focus": [
   {
-   "symbol": "RAYMOND",
-   "name": "Raymond Limited",
+   "symbol": "BODALCHEM",
+   "name": "Bodal Chemicals Limited",
    "why": "Ready setup near its pivot",
    "rs": 99
   },
   {
-   "symbol": "SHILPAMED",
-   "name": "Shilpa Medicare Limited",
+   "symbol": "FILATEX",
+   "name": "Filatex India Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
   {
-   "symbol": "BLISSGVS",
-   "name": "Bliss GVS Pharma Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 98
-  },
-  {
-   "symbol": "RUBYMILLS",
-   "name": "The Ruby Mills Limited",
+   "symbol": "MACPOWER",
+   "name": "Macpower CNC Machines Limited",
    "why": "Ready setup near its pivot",
    "rs": 97
   },
   {
-   "symbol": "RATNAVEER",
-   "name": "Ratnaveer Precision Engineering Limited",
+   "symbol": "MARINE",
+   "name": "Marine Electricals (India) Limited",
    "why": "Ready setup near its pivot",
    "rs": 97
   },
   {
-   "symbol": "GANDHAR",
-   "name": "Gandhar Oil Refinery (India) Limited",
+   "symbol": "MMP",
+   "name": "MMP Industries Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 97
+  },
+  {
+   "symbol": "EMIL",
+   "name": "Electronics Mart India Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "TATVA",
-   "name": "Tatva Chintan Pharma Chem Limited",
+   "symbol": "MAHSEAMLES",
+   "name": "Maharashtra Seamless Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "ESAFSFB",
-   "name": "ESAF Small Finance Bank Limited",
+   "symbol": "WELSPUNLIV",
+   "name": "Welspun Living Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "JGCHEM",
-   "name": "J.G.Chemicals Limited",
+   "symbol": "HITECHCORP",
+   "name": "Hitech Corporation Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "EIMCOELECO",
-   "name": "Eimco Elecon (India) Limited",
+   "symbol": "VIDHIING",
+   "name": "Vidhi Specialty Food Ingredients Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "STLTECH",
-   "name": "Sterlite Technologies Limited",
+   "symbol": "MOREPENLAB",
+   "name": "Morepen Laboratories Limited",
    "why": "Pocket pivot yesterday",
    "rs": 99
   },
   {
-   "symbol": "DIACABS",
-   "name": "Diamond Power Infrastructure Limited",
+   "symbol": "BIRLACABLE",
+   "name": "Birla Cable Limited",
    "why": "Pocket pivot yesterday",
    "rs": 98
   },
   {
-   "symbol": "MENONBE",
-   "name": "Menon Bearings Limited",
+   "symbol": "TFCILTD",
+   "name": "Tourism Finance Corporation of India Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 98
+   "rs": 97
   },
   {
-   "symbol": "NRL",
-   "name": "Nupur Recyclers Limited",
+   "symbol": "SYRMA",
+   "name": "Syrma SGS Technology Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 98
+   "rs": 96
+  },
+  {
+   "symbol": "SOTL",
+   "name": "Savita Oil Technologies Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 95
   }
  ],
  "overnight_news": [
   {
-   "symbol": "MAXHEALTH",
-   "time": "29 Sep 22:39",
-   "category": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
-   "text": "Max Healthcare Institute Limited has informed the Exchange about disclosure under regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "url": "https://nsearchives.nseindia.com/corporate/MAXHEALTH_29092026223824_SE_Disclosure.pdf"
+   "symbol": "POWERGRID",
+   "time": "30 Sep 20:07",
+   "category": "Change in Management",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange about change in Senior Management",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_30092026200747_BSENSEReg30signed.pdf"
   },
   {
-   "symbol": "TMPV",
-   "time": "29 Sep 21:41",
-   "category": "News Verification",
-   "text": "The Exchange has sought clarification from Tata Motors Passenger Vehicles Limited with respect to recent news item captioned Tata Chemicals, TMPV shares fall up to 3% after Trusts' proposal dims Tata Sons' listing hopes.",
-   "url": "https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_29092026214058_NSE_PVRumourVerification.pdf"
+   "symbol": "POWERGRID",
+   "time": "30 Sep 20:04",
+   "category": "Appointment",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange regarding Appointment of Mr Akhilesh Pathak as Director (Projects) of the company w.e.f. September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_30092026200406_BSENSEReg30dt30092026_Final.pdf"
+  },
+  {
+   "symbol": "POWERGRID",
+   "time": "30 Sep 19:57",
+   "category": "Outcome of Board Meeting",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange regarding Outcome of Board Meeting held on September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_30092026195726_BSENSEReg30dt30092026_Final.pdf"
+  },
+  {
+   "symbol": "SOTL",
+   "time": "30 Sep 19:32",
+   "category": "Spurt in Volume",
+   "text": "Significant increase in volume has been observed in Savita Oil Technologies Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so th",
+   "url": "-"
+  },
+  {
+   "symbol": "SHRIRAMFIN",
+   "time": "30 Sep 19:31",
+   "category": "Action(s) taken or orders passed",
+   "text": "Shriram Finance Limited has informed the Exchange about Action(s) taken or orders passed by Office of Assessment Unit of Income Tax Department",
+   "url": "https://nsearchives.nseindia.com/corporate/Mathew_30092026193113_NSEBSEReg30PenaltySept302026.pdf"
+  },
+  {
+   "symbol": "BAJAJFINSV",
+   "time": "30 Sep 19:15",
+   "category": "Retirement",
+   "text": "Bajaj Finserv Limited has informed the Exchange about Retirement of Shri Ramaswamy P. Subramaniam, President - Private Equity Investments & Group Strategy Head with effect from 30 September 2026 (close of business hours)",
+   "url": "https://nsearchives.nseindia.com/corporate/walimbelk_30092026191527_SamIntimation.pdf"
   },
   {
    "symbol": "ULTRACEMCO",
-   "time": "29 Sep 18:28",
+   "time": "30 Sep 18:46",
    "category": "Rumour Verification - Regulation 30(11)",
    "text": "UltraTech Cement Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
-   "url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_29092026182752_MPM29092026.pdf"
+   "url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_30092026184543_MPM30092026.pdf"
   },
   {
-   "symbol": "TATASTEEL",
-   "time": "29 Sep 18:06",
+   "symbol": "HDFCBANK",
+   "time": "30 Sep 18:33",
+   "category": "Change in Management",
+   "text": "HDFC Bank Limited has informed the Exchange about change in Management",
+   "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026183242_SE_Intimation-_CCO.pdf"
+  },
+  {
+   "symbol": "JIOFIN",
+   "time": "30 Sep 18:12",
    "category": "Acquisition",
-   "text": "Tata Steel Limited has informed the Exchange about acquisition of equity shares in T Steel Holdings Pte. Ltd",
-   "url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_29092026180406_BSENSE-TSH_funding.pdf"
+   "text": "Investment in Jio Allianz General Insurance Limited, joint venture between the Company and Allianz Europe B.V.",
+   "url": "https://nsearchives.nseindia.com/corporate/JIOFINANCIAL_30092026181135_JFSL.pdf"
   },
   {
-   "symbol": "AXISBANK",
-   "time": "29 Sep 17:42",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 116086  Shares.",
-   "url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_29092026174128_SE29092026.pdf"
-  },
-  {
-   "symbol": "BHARTIARTL",
-   "time": "29 Sep 17:29",
+   "symbol": "MARUTI",
+   "time": "30 Sep 17:15",
    "category": "Action(s) taken or orders passed",
-   "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-   "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_29092026172859_BhartiAirtel-Reg30disclosure.pdf"
-  },
-  {
-   "symbol": "TATASTEEL",
-   "time": "29 Sep 16:47",
-   "category": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
-   "text": "Tata Steel Limited has informed the Exchange about disclosure under Regulation(s) 30 read with 51 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_29092026164617_BSENSE_Signed.pdf"
+   "text": "Maruti Suzuki India Limited has informed the Exchange about Action(s) taken or orders passed",
+   "url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_30092026171404_STxIntimation_IncomeTaxPenaltyOrder_30Sep2026.pdf"
   },
   {
    "symbol": "ADANIENT",
-   "time": "29 Sep 16:20",
-   "category": "News Verification",
-   "text": "The Exchange has sought clarification from Adani Enterprises Limited with respect to recent news item captioned Adani Airport Holdings raises $120 million through local bond issue..  The response from the Company is awai",
-   "url": "-"
+   "time": "30 Sep 17:13",
+   "category": "Outcome of Board Meeting",
+   "text": "Adani Enterprises Limited has informed the Exchange regarding Outcome of Rights Issue Committee Meeting held on Wednesday September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_30092026171121_OutcomeRICommittee30092026.pdf"
+  },
+  {
+   "symbol": "ADANIENT",
+   "time": "30 Sep 17:07",
+   "category": "Committee Meeting Updates",
+   "text": "Adani Enterprises Limited has informed the Exchange regarding Outcome of Rights Committee Meeting held on Wednesday, September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_30092026170710_OutcomeRICommittee30092026.pdf"
   }
  ],
- "events": [],
+ "events": [
+  "2 companies report results today."
+ ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
   "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
@@ -252,6 +288,15 @@
  ],
  "community": {
   "items": [
+   {
+    "title": "Stock market crash today: BSE Sensex crashes over 1,100 points, investors lose Rs 8.92 lakh crore - top reasons for fall - The Times of India",
+    "url": "https://www.reddit.com/r/india/comments/1wt2o9i/stock_market_crash_today_bse_sensex_crashes_over/",
+    "where": "r/india",
+    "date": "2026-09-29",
+    "views": null,
+    "upvotes": 504,
+    "comments": 74
+   },
    {
     "title": "Why Is the Indian Stock Market Falling Again Today?",
     "url": "https://www.reddit.com/r/IndianStockMarket/comments/1ws5sku/why_is_the_indian_stock_market_falling_again_today/",
@@ -268,13 +313,5 @@
   },
   "window_days": 3
  },
- "ai": {
-  "headline": "Mixed Global Signals and Red Light Point to Cautious Market Opening",
-  "points": [
-   "Global cues are mixed as the Nikkei rose 1.28% to 66318.81 while the US S&P 500 slipped 0.17% to 7670.84.",
-   "NIFTY 50 closed at 22716.2; watch support at S1 22606.15 and resistance at R1 22789.75 with market light red.",
-   "Brent crude dropped 8.55% to 96.28, while Gold ticked up 0.88% to 4205.1 and USD/INR stood at 95.97.",
-   "Watch Axis Bank following its allotment of 116086 shares and Adani Enterprises regarding its $120 million bond news clarification."
-  ]
- }
+ "ai": null
 }
