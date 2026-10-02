@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T18:45:17+05:30",
+ "generated_at": "2026-10-02T18:39:40+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "bhavcopy": {
    "ok": true,
-   "sessions_added": 1,
+   "sessions_added": 0,
    "failed": [
     "2025-10-22",
     "2025-11-05",
@@ -22,7 +22,8 @@
     "2026-05-01",
     "2026-05-28",
     "2026-06-26",
-    "2026-09-14"
+    "2026-09-14",
+    "2026-10-02"
    ],
    "phantom_sessions_dropped": [],
    "symbols": 3087,
@@ -70,9 +71,9 @@
   },
   "ipos": {
    "ok": true,
-   "issues": 276,
-   "charted": 115,
-   "sme_skipped": 150,
+   "issues": 272,
+   "charted": 112,
+   "sme_skipped": 149,
    "with_base": 3
   },
   "indices": {
@@ -100,13 +101,13 @@
   },
   "news": {
    "ok": true,
-   "fetched": 47,
+   "fetched": 52,
    "classified": 20,
    "gemini_configured": true
   },
   "institutional": {
    "ok": true,
-   "deals": 193,
+   "deals": 163,
    "participant_oi_sessions": 30,
    "ai_money_flow": true
   },
@@ -125,19 +126,23 @@
    "universe": 159,
    "scoped": 150,
    "eligible": 149,
-   "written": 30,
+   "written": 89,
    "gemini_calls": 10
   },
   "ai_top_picks": {
    "ok": true,
    "source": "rules",
-   "eligible": 6,
+   "eligible": 14,
    "picks": 5
+  },
+  "weekly_outlook": {
+   "ok": false,
+   "reason": "gemini_unavailable"
   },
   "results_calendar": {
    "ok": true,
-   "upcoming": 78,
-   "past_candidates": 37,
+   "upcoming": 80,
+   "past_candidates": 36,
    "judged": 3,
    "good": 0
   }
