@@ -2,7 +2,7 @@
  "symbol": "FERMENTA",
  "name": "Fermenta Biotech Limited",
  "kind": "stock",
- "as_of": "2026-10-01",
+ "as_of": "2026-10-05",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1038,6 +1038,15 @@
    "close": 553.25,
    "volume": 433950,
    "delivery_pct": 24.0
+  },
+  {
+   "time": "2026-10-05",
+   "open": 558.85,
+   "high": 573.0,
+   "low": 546.1,
+   "close": 557.45,
+   "volume": 341567,
+   "delivery_pct": 31.84
   }
  ],
  "ma": {
@@ -1425,6 +1434,10 @@
    {
     "time": "2026-10-01",
     "value": 490.6
+   },
+   {
+    "time": "2026-10-05",
+    "value": 493.36
    }
   ],
   "sma_50": [
@@ -1691,15 +1704,19 @@
    {
     "time": "2026-10-01",
     "value": 486.4
+   },
+   {
+    "time": "2026-10-05",
+    "value": 489.53
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.83,
-  "atr_pct": 5.95,
-  "rel_volume_20d": 1.08,
-  "dist_20dma_pct": 12.77,
-  "dist_50dma_pct": 13.74,
+  "rsi_14": 70.63,
+  "atr_pct": 5.83,
+  "rel_volume_20d": 0.82,
+  "dist_20dma_pct": 12.99,
+  "dist_50dma_pct": 13.87,
   "dist_200dma_pct": null
  }
 }

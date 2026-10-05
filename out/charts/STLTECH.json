@@ -2,17 +2,8 @@
  "symbol": "STLTECH",
  "name": "Sterlite Technologies Limited",
  "kind": "stock",
- "as_of": "2026-10-01",
+ "as_of": "2026-10-05",
  "bars": [
-  {
-   "time": "2025-09-24",
-   "open": 124.0,
-   "high": 124.99,
-   "low": 122.05,
-   "close": 123.27,
-   "volume": 823617,
-   "delivery_pct": 52.98
-  },
   {
    "time": "2025-09-25",
    "open": 122.99,
@@ -2271,14 +2262,19 @@
    "close": 955.35,
    "volume": 5594054,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-05",
+   "open": 952.4,
+   "high": 1003.1,
+   "low": 932.0,
+   "close": 1001.25,
+   "volume": 3877431,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-23",
-    "value": 118.13
-   },
    {
     "time": "2025-10-24",
     "value": 117.98
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-01",
     "value": 837.33
+   },
+   {
+    "time": "2026-10-05",
+    "value": 851.73
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-05",
-    "value": 114.68
-   },
    {
     "time": "2025-12-08",
     "value": 114.13
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-01",
     "value": 711.07
+   },
+   {
+    "time": "2026-10-05",
+    "value": 720.12
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-20",
-    "value": 245.28
-   },
    {
     "time": "2026-07-21",
     "value": 247.31
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-01",
     "value": 398.82
+   },
+   {
+    "time": "2026-10-05",
+    "value": 403.35
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.02,
-  "atr_pct": 4.77,
-  "rel_volume_20d": 3.08,
-  "dist_20dma_pct": 14.1,
-  "dist_50dma_pct": 34.35,
-  "dist_200dma_pct": 139.54
+  "rsi_14": 75.32,
+  "atr_pct": 4.73,
+  "rel_volume_20d": 1.93,
+  "dist_20dma_pct": 17.56,
+  "dist_50dma_pct": 39.04,
+  "dist_200dma_pct": 148.23
  }
 }

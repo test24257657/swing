@@ -2,7 +2,7 @@
  "symbol": "KLBRENG-B",
  "name": "Kilburn Engineering Limited",
  "kind": "stock",
- "as_of": "2026-10-01",
+ "as_of": "2026-10-05",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1038,6 +1038,15 @@
    "close": 523.95,
    "volume": 193647,
    "delivery_pct": 46.2
+  },
+  {
+   "time": "2026-10-05",
+   "open": 530.0,
+   "high": 538.65,
+   "low": 517.55,
+   "close": 524.3,
+   "volume": 101469,
+   "delivery_pct": 54.0
   }
  ],
  "ma": {
@@ -1425,6 +1434,10 @@
    {
     "time": "2026-10-01",
     "value": 487.91
+   },
+   {
+    "time": "2026-10-05",
+    "value": 491.46
    }
   ],
   "sma_50": [
@@ -1691,15 +1704,19 @@
    {
     "time": "2026-10-01",
     "value": 435.74
+   },
+   {
+    "time": "2026-10-05",
+    "value": 437.47
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.75,
-  "atr_pct": 4.19,
-  "rel_volume_20d": 0.56,
-  "dist_20dma_pct": 7.39,
-  "dist_50dma_pct": 20.24,
+  "rsi_14": 69.84,
+  "atr_pct": 4.18,
+  "rel_volume_20d": 0.3,
+  "dist_20dma_pct": 6.68,
+  "dist_50dma_pct": 19.85,
   "dist_200dma_pct": null
  }
 }

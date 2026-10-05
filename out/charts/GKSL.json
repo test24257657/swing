@@ -2,7 +2,7 @@
  "symbol": "GKSL",
  "name": "Gujarat Kidney And Super Speciality Limited",
  "kind": "stock",
- "as_of": "2026-10-01",
+ "as_of": "2026-10-05",
  "bars": [
   {
    "time": "2025-12-30",
@@ -1686,6 +1686,15 @@
    "close": 194.27,
    "volume": 34935174,
    "delivery_pct": 4.65
+  },
+  {
+   "time": "2026-10-05",
+   "open": 198.0,
+   "high": 199.0,
+   "low": 183.02,
+   "close": 190.34,
+   "volume": 5218727,
+   "delivery_pct": 10.21
   }
  ],
  "ma": {
@@ -2361,6 +2370,10 @@
    {
     "time": "2026-10-01",
     "value": 176.51
+   },
+   {
+    "time": "2026-10-05",
+    "value": 177.45
    }
   ],
   "sma_50": [
@@ -2915,15 +2928,19 @@
    {
     "time": "2026-10-01",
     "value": 155.77
+   },
+   {
+    "time": "2026-10-05",
+    "value": 157.03
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.76,
-  "atr_pct": 4.99,
-  "rel_volume_20d": 58.48,
-  "dist_20dma_pct": 10.06,
-  "dist_50dma_pct": 24.71,
+  "rsi_14": 66.88,
+  "atr_pct": 5.33,
+  "rel_volume_20d": 2.27,
+  "dist_20dma_pct": 7.26,
+  "dist_50dma_pct": 21.21,
   "dist_200dma_pct": null
  }
 }

@@ -2,17 +2,8 @@
  "symbol": "GMRP&UI",
  "name": "GMR Power and Urban Infra Limited",
  "kind": "stock",
- "as_of": "2026-10-01",
+ "as_of": "2026-10-05",
  "bars": [
-  {
-   "time": "2025-09-24",
-   "open": 122.0,
-   "high": 122.1,
-   "low": 117.34,
-   "close": 117.75,
-   "volume": 1597657,
-   "delivery_pct": 50.11
-  },
   {
    "time": "2025-09-25",
    "open": 117.75,
@@ -2271,14 +2262,19 @@
    "close": 101.87,
    "volume": 1700842,
    "delivery_pct": 38.23
+  },
+  {
+   "time": "2026-10-05",
+   "open": 102.55,
+   "high": 103.49,
+   "low": 100.6,
+   "close": 100.85,
+   "volume": 1003861,
+   "delivery_pct": 40.37
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-23",
-    "value": 114.15
-   },
    {
     "time": "2025-10-24",
     "value": 114.49
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-01",
     "value": 96.47
+   },
+   {
+    "time": "2026-10-05",
+    "value": 96.92
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-05",
-    "value": 117.97
-   },
    {
     "time": "2025-12-08",
     "value": 117.75
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-01",
     "value": 96.41
+   },
+   {
+    "time": "2026-10-05",
+    "value": 96.43
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-20",
-    "value": 109.3
-   },
    {
     "time": "2026-07-21",
     "value": 109.19
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-01",
     "value": 103.83
+   },
+   {
+    "time": "2026-10-05",
+    "value": 103.78
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.78,
-  "atr_pct": 4.01,
-  "rel_volume_20d": 0.95,
-  "dist_20dma_pct": 5.6,
-  "dist_50dma_pct": 5.66,
-  "dist_200dma_pct": -1.89
+  "rsi_14": 56.5,
+  "atr_pct": 3.97,
+  "rel_volume_20d": 0.57,
+  "dist_20dma_pct": 4.05,
+  "dist_50dma_pct": 4.58,
+  "dist_200dma_pct": -2.82
  }
 }

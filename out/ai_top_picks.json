@@ -1,18 +1,76 @@
 {
- "as_of": "2026-10-02",
+ "as_of": "2026-10-05",
  "source": "rules",
- "universe": 159,
- "eligible": 14,
+ "universe": 161,
+ "eligible": 34,
  "picks": [
   {
-   "symbol": "GANDHAR",
-   "ltp": 282.6,
+   "symbol": "EMIL",
+   "ltp": 205.1,
    "technicals": {
-    "rsi_14": 65.92,
-    "rel_volume_20d": 1.25,
-    "dist_20dma_pct": 5.34,
-    "dist_50dma_pct": 10.41,
-    "dist_200dma_pct": 57.7
+    "rsi_14": 64.17,
+    "rel_volume_20d": 2.09,
+    "dist_20dma_pct": 7.61,
+    "dist_50dma_pct": 16.26,
+    "dist_200dma_pct": 64.53
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 200.22,
+    "stop_suggestion": 173.71,
+    "target_suggestion": 240.26,
+    "gap_to_pivot_pct": 2.44
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 2419.0,
+    "net_income_cr": 120.6,
+    "revenue_qoq_pct": 26.4,
+    "net_income_qoq_pct": 203.8
+   },
+   "reason": null,
+   "rank": 1,
+   "name": "Electronics Mart India Limited"
+  },
+  {
+   "symbol": "DMCC",
+   "ltp": 319.1,
+   "technicals": {
+    "rsi_14": 65.1,
+    "rel_volume_20d": 2.01,
+    "dist_20dma_pct": 9.24,
+    "dist_50dma_pct": 10.63,
+    "dist_200dma_pct": 22.85
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 322.7,
+    "stop_suggestion": 256.9,
+    "target_suggestion": 387.24,
+    "gap_to_pivot_pct": -1.12
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 253.0,
+    "net_income_cr": 20.4,
+    "revenue_qoq_pct": 42.5,
+    "net_income_qoq_pct": 164.9
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "DMCC SPECIALITY CHEMICALS LIMITED"
+  },
+  {
+   "symbol": "GANDHAR",
+   "ltp": 278.55,
+   "technicals": {
+    "rsi_14": 61.66,
+    "rel_volume_20d": 0.98,
+    "dist_20dma_pct": 3.62,
+    "dist_50dma_pct": 8.86,
+    "dist_200dma_pct": 54.77
    },
    "pattern": {
     "code": "high_52w_breakout",
@@ -20,7 +78,7 @@
     "pivot_price": 282.46,
     "stop_suggestion": 247.05,
     "target_suggestion": 338.95,
-    "gap_to_pivot_pct": 0.05
+    "gap_to_pivot_pct": -1.38
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
@@ -30,124 +88,66 @@
     "net_income_qoq_pct": 372.5
    },
    "reason": null,
-   "rank": 1,
+   "rank": 3,
    "name": "Gandhar Oil Refinery (India) Limited"
   },
   {
-   "symbol": "SURAKSHA",
-   "ltp": 350.15,
+   "symbol": "WELSPUNLIV",
+   "ltp": 230.27,
    "technicals": {
-    "rsi_14": 61.14,
-    "rel_volume_20d": 0.98,
-    "dist_20dma_pct": 2.73,
-    "dist_50dma_pct": 13.12,
-    "dist_200dma_pct": 23.84
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 360.0,
-    "stop_suggestion": 328.4,
-    "target_suggestion": 414.0,
-    "gap_to_pivot_pct": -2.74
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 87.6,
-    "net_income_cr": 13.0,
-    "revenue_qoq_pct": 7.6,
-    "net_income_qoq_pct": 106.3
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "Suraksha Diagnostic Limited"
-  },
-  {
-   "symbol": "KINGFA",
-   "ltp": 6586.5,
-   "technicals": {
-    "rsi_14": 69.3,
-    "rel_volume_20d": 0.99,
-    "dist_20dma_pct": 7.33,
-    "dist_50dma_pct": 13.07,
-    "dist_200dma_pct": 34.17
+    "rsi_14": 67.38,
+    "rel_volume_20d": 1.09,
+    "dist_20dma_pct": 5.96,
+    "dist_50dma_pct": 20.22,
+    "dist_200dma_pct": 53.55
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 6384.0,
-    "stop_suggestion": 5675.5,
-    "target_suggestion": 7660.8,
-    "gap_to_pivot_pct": 3.17
+    "stage": "confirmed",
+    "pivot_price": 227.95,
+    "stop_suggestion": 195.7,
+    "target_suggestion": 273.54,
+    "gap_to_pivot_pct": 1.02
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 688.6,
-    "net_income_cr": 80.2,
-    "revenue_qoq_pct": 19.0,
-    "net_income_qoq_pct": 35.7
-   },
-   "reason": null,
-   "rank": 3,
-   "name": "Kingfa Science & Technology (India) Limited"
-  },
-  {
-   "symbol": "UNIMECH",
-   "ltp": 1773.0,
-   "technicals": {
-    "rsi_14": 67.28,
-    "rel_volume_20d": 1.19,
-    "dist_20dma_pct": 9.56,
-    "dist_50dma_pct": 19.52,
-    "dist_200dma_pct": 61.79
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 1732.5,
-    "stop_suggestion": 1430.1,
-    "target_suggestion": 2079.0,
-    "gap_to_pivot_pct": 2.34
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 107.6,
-    "net_income_cr": 27.9,
-    "revenue_qoq_pct": 31.5,
-    "net_income_qoq_pct": 6.9
+    "revenue_cr": 2795.4,
+    "net_income_cr": 160.7,
+    "revenue_qoq_pct": 14.8,
+    "net_income_qoq_pct": 55.0
    },
    "reason": null,
    "rank": 4,
-   "name": "Unimech Aerospace and Manufacturing Limited"
+   "name": "Welspun Living Limited"
   },
   {
-   "symbol": "IOLCP",
-   "ltp": 209.39,
+   "symbol": "INDOAMIN",
+   "ltp": 143.31,
    "technicals": {
-    "rsi_14": 60.59,
-    "rel_volume_20d": 0.94,
-    "dist_20dma_pct": 3.61,
-    "dist_50dma_pct": 16.43,
-    "dist_200dma_pct": 76.25
+    "rsi_14": 64.67,
+    "rel_volume_20d": 3.85,
+    "dist_20dma_pct": 8.62,
+    "dist_50dma_pct": 11.69,
+    "dist_200dma_pct": 18.49
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "forming",
-    "pivot_price": 213.04,
-    "stop_suggestion": 173.55,
-    "target_suggestion": 255.65,
-    "gap_to_pivot_pct": -1.71
+    "pivot_price": 145.45,
+    "stop_suggestion": 117.7,
+    "target_suggestion": 174.54,
+    "gap_to_pivot_pct": -1.47
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 756.3,
-    "net_income_cr": 64.4,
-    "revenue_qoq_pct": 22.1,
-    "net_income_qoq_pct": 21.1
+    "revenue_cr": 374.6,
+    "net_income_cr": 30.8,
+    "revenue_qoq_pct": 17.9,
+    "net_income_qoq_pct": 50.2
    },
    "reason": null,
    "rank": 5,
-   "name": "IOL Chemicals and Pharmaceuticals Limited"
+   "name": "Indo Amines Limited"
   }
  ]
 }
