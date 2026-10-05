@@ -1,89 +1,89 @@
 {
- "generated_at": "2026-10-02T08:15:48+05:30",
+ "generated_at": "2026-10-05T08:15:55+05:30",
  "for_session": "2026-10-05",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7666.45,
-   "change_pct": 0.19,
-   "as_of": "2026-10-01"
+   "value": 7722.72,
+   "change_pct": 0.73,
+   "as_of": "2026-10-02"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 26871.6,
-   "change_pct": 0.04,
-   "as_of": "2026-10-01"
+   "value": 27190.86,
+   "change_pct": 1.19,
+   "as_of": "2026-10-02"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 50926.56,
-   "change_pct": 0.04,
-   "as_of": "2026-10-01"
+   "value": 51176.96,
+   "change_pct": 0.49,
+   "as_of": "2026-10-02"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 68326.72,
-   "change_pct": -0.91,
-   "as_of": "2026-10-02"
+   "value": 70037.61,
+   "change_pct": 2.53,
+   "as_of": "2026-10-05"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 23964.82,
-   "change_pct": -2.63,
-   "as_of": "2026-10-02"
+   "value": 23934.89,
+   "change_pct": -0.16,
+   "as_of": "2026-10-05"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 6975.04,
-   "change_pct": 0.05,
+   "value": 7003.74,
+   "change_pct": 0.46,
    "as_of": "2026-10-02"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 102.51,
-   "change_pct": -0.99,
-   "as_of": "2026-10-01"
+   "value": 101.5,
+   "change_pct": -0.73,
+   "as_of": "2026-10-04"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4186.6,
-   "change_pct": -0.0,
-   "as_of": "2026-10-01"
+   "value": 4182.2,
+   "change_pct": 0.48,
+   "as_of": "2026-10-04"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
    "value": 96.3,
-   "change_pct": 0.39,
-   "as_of": "2026-10-02"
+   "change_pct": 0.08,
+   "as_of": "2026-10-05"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.24,
-   "change_pct": -1.06,
-   "as_of": "2026-10-01"
+   "value": 5.28,
+   "change_pct": 0.76,
+   "as_of": "2026-10-02"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 102.03,
-   "change_pct": 0.57,
-   "as_of": "2026-10-01"
+   "value": 102.21,
+   "change_pct": 0.27,
+   "as_of": "2026-10-04"
   }
  ],
  "global_tone": {
-  "tone": "negative",
-  "avg_change_pct": -0.65,
+  "tone": "positive",
+  "avg_change_pct": 0.95,
   "crude_alert": false
  },
  "nifty": {
@@ -132,8 +132,8 @@
    "rs": 96
   },
   {
-   "symbol": "LOTUSDEV",
-   "name": "Sri Lotus Developers and Realty Limited",
+   "symbol": "GANDHAR",
+   "name": "Gandhar Oil Refinery (India) Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -144,20 +144,14 @@
    "rs": null
   },
   {
-   "symbol": "AKUMS",
-   "name": "Akums Drugs and Pharmaceuticals Limited",
+   "symbol": "KINGFA",
+   "name": "Kingfa Science & Technology (India) Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "AZAD",
-   "name": "Azad Engineering Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "FINCABLES",
-   "name": "Finolex Cables Limited",
+   "symbol": "UNIMECH",
+   "name": "Unimech Aerospace and Manufacturing Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -168,12 +162,6 @@
    "rs": 98
   },
   {
-   "symbol": "GANDHAR",
-   "name": "Gandhar Oil Refinery (India) Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 96
-  },
-  {
    "symbol": "PRECWIRE",
    "name": "Precision Wires India Limited",
    "why": "Pocket pivot yesterday",
@@ -181,6 +169,20 @@
   }
  ],
  "overnight_news": [
+  {
+   "symbol": "DRREDDY",
+   "time": "03 Oct 17:15",
+   "category": "Action(s) taken or orders passed",
+   "text": "Dr. Reddy's Laboratories Limited has informed the Exchange about imposition of penalty to Dr. Reddy s Laboratories, Inc. ( DRL Inc ), a step-down wholly owned subsidiary of the Company.",
+   "url": "https://nsearchives.nseindia.com/corporate/DRREDDY_03102026171508_SE_intimation_03102026_signed.pdf"
+  },
+  {
+   "symbol": "ADANIPORTS",
+   "time": "02 Oct 09:58",
+   "category": "Monthly Business Updates",
+   "text": "Adani Ports and Special Economic Zone Limited has informed the Exchange regarding Monthly Business Updates for the month of September 2026",
+   "url": "https://nsearchives.nseindia.com/corporate/rkbhagia_02102026095818_SEINTIMATION.pdf"
+  },
   {
    "symbol": "BAJAJFINSV",
    "time": "01 Oct 23:37",
@@ -231,13 +233,6 @@
    "url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_01102026205831_BSENSE_-_RIL_Order.pdf"
   },
   {
-   "symbol": "LOTUSDEV",
-   "time": "01 Oct 18:43",
-   "category": "Resignation of Director/KMP/SMP",
-   "text": "Sri Lotus Developers and Realty Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-   "url": "https://nsearchives.nseindia.com/corporate/LOTUSDEV_ROID_99643_KMP_Doc.zip"
-  },
-  {
    "symbol": "TCS",
    "time": "01 Oct 18:41",
    "category": "Acquisition",
@@ -257,13 +252,6 @@
    "category": "Change in Director(s)",
    "text": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
    "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf"
-  },
-  {
-   "symbol": "ULTRACEMCO",
-   "time": "01 Oct 17:28",
-   "category": "Rumour Verification - Regulation 30(11)",
-   "text": "UltraTech Cement Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
-   "url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_01102026172752_MPM010102026.pdf"
   }
  ],
  "events": [
@@ -271,9 +259,16 @@
  ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
-  "Weak global cues — let the first 15-30 minutes settle before acting.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
- "ai": null
+ "ai": {
+  "headline": "Positive Global Tone Cues Upbeat Start; NIFTY Key Level At 22416.62",
+  "points": [
+   "Global markets are positive, led by Nikkei gaining +2.53% and Nasdaq rising +1.19%, suggesting an upbeat opening tone.",
+   "NIFTY closed at 22421.95 below its 20-day average of 23268.93, with pivot support at 22416.62 while market light remains red.",
+   "Brent crude fell -0.73% to 101.5, while USD/INR edged up +0.08% to 96.3, providing mixed cues for domestic markets.",
+   "Watch Bajaj Finserv after announcing Rs. 5,800 Crore warrant subscription alongside 3 companies reporting earnings results today."
+  ]
+ }
 }
