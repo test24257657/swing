@@ -2,7 +2,7 @@
  "symbol": "BOSCH-HCIL",
  "name": "BOSCH HOME COMFORT INDIA LIMITED",
  "kind": "stock",
- "as_of": "2026-10-05",
+ "as_of": "2026-10-06",
  "bars": [
   {
    "time": "2025-12-24",
@@ -1722,6 +1722,15 @@
    "close": 1998.2,
    "volume": 115592,
    "delivery_pct": 47.24
+  },
+  {
+   "time": "2026-10-06",
+   "open": 1990.0,
+   "high": 2020.0,
+   "low": 1970.1,
+   "close": 1976.9,
+   "volume": 35164,
+   "delivery_pct": 49.22
   }
  ],
  "ma": {
@@ -2413,6 +2422,10 @@
    {
     "time": "2026-10-05",
     "value": 1781.84
+   },
+   {
+    "time": "2026-10-06",
+    "value": 1789.75
    }
   ],
   "sma_50": [
@@ -2983,15 +2996,19 @@
    {
     "time": "2026-10-05",
     "value": 1677.85
+   },
+   {
+    "time": "2026-10-06",
+    "value": 1690.73
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.01,
-  "atr_pct": 4.19,
-  "rel_volume_20d": 1.99,
-  "dist_20dma_pct": 12.14,
-  "dist_50dma_pct": 19.09,
+  "rsi_14": 67.48,
+  "atr_pct": 4.11,
+  "rel_volume_20d": 0.59,
+  "dist_20dma_pct": 10.46,
+  "dist_50dma_pct": 16.93,
   "dist_200dma_pct": null
  }
 }

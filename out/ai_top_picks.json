@@ -1,153 +1,153 @@
 {
- "as_of": "2026-10-05",
+ "as_of": "2026-10-06",
  "source": "rules",
- "universe": 161,
- "eligible": 34,
+ "universe": 219,
+ "eligible": 15,
  "picks": [
   {
-   "symbol": "EMIL",
-   "ltp": 205.1,
+   "symbol": "LXCHEM",
+   "ltp": 188.86,
    "technicals": {
-    "rsi_14": 64.17,
-    "rel_volume_20d": 2.09,
-    "dist_20dma_pct": 7.61,
-    "dist_50dma_pct": 16.26,
-    "dist_200dma_pct": 64.53
+    "rsi_14": 59.67,
+    "rel_volume_20d": 3.36,
+    "dist_20dma_pct": 6.01,
+    "dist_50dma_pct": 6.46,
+    "dist_200dma_pct": 21.64
    },
    "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 200.22,
-    "stop_suggestion": 173.71,
-    "target_suggestion": 240.26,
-    "gap_to_pivot_pct": 2.44
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 189.14,
+    "stop_suggestion": 176.91,
+    "target_suggestion": 217.51,
+    "gap_to_pivot_pct": -0.15
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 2419.0,
-    "net_income_cr": 120.6,
-    "revenue_qoq_pct": 26.4,
-    "net_income_qoq_pct": 203.8
+    "revenue_cr": 968.3,
+    "net_income_cr": 67.7,
+    "revenue_qoq_pct": 31.7,
+    "net_income_qoq_pct": 213.4
    },
    "reason": null,
    "rank": 1,
-   "name": "Electronics Mart India Limited"
+   "name": "Laxmi Organic Industries Limited"
   },
   {
-   "symbol": "DMCC",
-   "ltp": 319.1,
+   "symbol": "EIMCOELECO",
+   "ltp": 2371.8,
    "technicals": {
-    "rsi_14": 65.1,
-    "rel_volume_20d": 2.01,
-    "dist_20dma_pct": 9.24,
-    "dist_50dma_pct": 10.63,
-    "dist_200dma_pct": 22.85
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 322.7,
-    "stop_suggestion": 256.9,
-    "target_suggestion": 387.24,
-    "gap_to_pivot_pct": -1.12
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 253.0,
-    "net_income_cr": 20.4,
-    "revenue_qoq_pct": 42.5,
-    "net_income_qoq_pct": 164.9
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "DMCC SPECIALITY CHEMICALS LIMITED"
-  },
-  {
-   "symbol": "GANDHAR",
-   "ltp": 278.55,
-   "technicals": {
-    "rsi_14": 61.66,
-    "rel_volume_20d": 0.98,
-    "dist_20dma_pct": 3.62,
-    "dist_50dma_pct": 8.86,
-    "dist_200dma_pct": 54.77
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 282.46,
-    "stop_suggestion": 247.05,
-    "target_suggestion": 338.95,
-    "gap_to_pivot_pct": -1.38
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 1731.9,
-    "net_income_cr": 192.3,
-    "revenue_qoq_pct": 58.4,
-    "net_income_qoq_pct": 372.5
-   },
-   "reason": null,
-   "rank": 3,
-   "name": "Gandhar Oil Refinery (India) Limited"
-  },
-  {
-   "symbol": "WELSPUNLIV",
-   "ltp": 230.27,
-   "technicals": {
-    "rsi_14": 67.38,
-    "rel_volume_20d": 1.09,
-    "dist_20dma_pct": 5.96,
-    "dist_50dma_pct": 20.22,
-    "dist_200dma_pct": 53.55
+    "rsi_14": 65.7,
+    "rel_volume_20d": 3.72,
+    "dist_20dma_pct": 4.19,
+    "dist_50dma_pct": 11.82,
+    "dist_200dma_pct": 35.3
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 227.95,
-    "stop_suggestion": 195.7,
-    "target_suggestion": 273.54,
-    "gap_to_pivot_pct": 1.02
+    "pivot_price": 2325.5,
+    "stop_suggestion": 2211.1,
+    "target_suggestion": 2790.6,
+    "gap_to_pivot_pct": 1.99
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 2795.4,
-    "net_income_cr": 160.7,
-    "revenue_qoq_pct": 14.8,
-    "net_income_qoq_pct": 55.0
+    "revenue_cr": 77.5,
+    "net_income_cr": 15.4,
+    "revenue_qoq_pct": 15.8,
+    "net_income_qoq_pct": 140.6
    },
    "reason": null,
-   "rank": 4,
-   "name": "Welspun Living Limited"
+   "rank": 2,
+   "name": "Eimco Elecon (India) Limited"
   },
   {
-   "symbol": "INDOAMIN",
-   "ltp": 143.31,
+   "symbol": "TATVA",
+   "ltp": 1877.4,
    "technicals": {
-    "rsi_14": 64.67,
-    "rel_volume_20d": 3.85,
-    "dist_20dma_pct": 8.62,
-    "dist_50dma_pct": 11.69,
-    "dist_200dma_pct": 18.49
+    "rsi_14": 64.11,
+    "rel_volume_20d": 1.75,
+    "dist_20dma_pct": 8.58,
+    "dist_50dma_pct": 10.25,
+    "dist_200dma_pct": 37.23
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 145.45,
-    "stop_suggestion": 117.7,
-    "target_suggestion": 174.54,
-    "gap_to_pivot_pct": -1.47
+    "stage": "confirmed",
+    "pivot_price": 1806.4,
+    "stop_suggestion": 1520.0,
+    "target_suggestion": 2167.68,
+    "gap_to_pivot_pct": 3.93
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 374.6,
-    "net_income_cr": 30.8,
-    "revenue_qoq_pct": 17.9,
-    "net_income_qoq_pct": 50.2
+    "revenue_cr": 167.1,
+    "net_income_cr": 16.0,
+    "revenue_qoq_pct": 24.6,
+    "net_income_qoq_pct": 55.3
+   },
+   "reason": null,
+   "rank": 3,
+   "name": "Tatva Chintan Pharma Chem Limited"
+  },
+  {
+   "symbol": "MANALIPETC",
+   "ltp": 92.36,
+   "technicals": {
+    "rsi_14": 63.42,
+    "rel_volume_20d": 2.77,
+    "dist_20dma_pct": 9.27,
+    "dist_50dma_pct": 20.29,
+    "dist_200dma_pct": 48.14
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 90.08,
+    "stop_suggestion": 75.56,
+    "target_suggestion": 108.1,
+    "gap_to_pivot_pct": 2.53
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 274.7,
+    "net_income_cr": 64.4,
+    "revenue_qoq_pct": -6.1,
+    "net_income_qoq_pct": 122.1
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "Manali Petrochemicals Limited"
+  },
+  {
+   "symbol": "JGCHEM",
+   "ltp": 665.45,
+   "technicals": {
+    "rsi_14": 60.94,
+    "rel_volume_20d": 1.56,
+    "dist_20dma_pct": 8.83,
+    "dist_50dma_pct": 12.12,
+    "dist_200dma_pct": 52.92
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 658.65,
+    "stop_suggestion": 544.95,
+    "target_suggestion": 790.38,
+    "gap_to_pivot_pct": 1.03
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 315.6,
+    "net_income_cr": 25.1,
+    "revenue_qoq_pct": 10.3,
+    "net_income_qoq_pct": 37.9
    },
    "reason": null,
    "rank": 5,
-   "name": "Indo Amines Limited"
+   "name": "J.G.Chemicals Limited"
   }
  ]
 }

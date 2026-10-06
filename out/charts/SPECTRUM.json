@@ -2,17 +2,8 @@
  "symbol": "SPECTRUM",
  "name": "Spectrum Electrical Industries Limited",
  "kind": "stock",
- "as_of": "2026-10-05",
+ "as_of": "2026-10-06",
  "bars": [
-  {
-   "time": "2025-09-25",
-   "open": 1418.5,
-   "high": 1438.0,
-   "low": 1395.0,
-   "close": 1430.0,
-   "volume": 4583,
-   "delivery_pct": 61.44
-  },
   {
    "time": "2025-09-26",
    "open": 1417.1,
@@ -2271,14 +2262,19 @@
    "close": 3839.1,
    "volume": 7191,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-06",
+   "open": 3799.9,
+   "high": 3939.6,
+   "low": 3661.0,
+   "close": 3915.9,
+   "volume": 19949,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-24",
-    "value": 1337.38
-   },
    {
     "time": "2025-10-27",
     "value": 1335.84
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-05",
     "value": 3197.36
+   },
+   {
+    "time": "2026-10-06",
+    "value": 3274.73
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-08",
-    "value": 1345.12
-   },
    {
     "time": "2025-12-09",
     "value": 1339.43
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-05",
     "value": 2656.57
+   },
+   {
+    "time": "2026-10-06",
+    "value": 2689.25
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-21",
-    "value": 1389.66
-   },
    {
     "time": "2026-07-22",
     "value": 1393.18
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-05",
     "value": 1728.56
+   },
+   {
+    "time": "2026-10-06",
+    "value": 1742.31
    }
   ]
  },
  "technicals": {
-  "rsi_14": 82.12,
-  "atr_pct": 5.32,
-  "rel_volume_20d": 0.46,
-  "dist_20dma_pct": 20.07,
-  "dist_50dma_pct": 44.51,
-  "dist_200dma_pct": 122.1
+  "rsi_14": 83.25,
+  "atr_pct": 5.35,
+  "rel_volume_20d": 1.29,
+  "dist_20dma_pct": 19.58,
+  "dist_50dma_pct": 45.61,
+  "dist_200dma_pct": 124.75
  }
 }

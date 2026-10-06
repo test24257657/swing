@@ -2,7 +2,7 @@
  "symbol": "PREMCO",
  "name": "Premco Global Limited",
  "kind": "stock",
- "as_of": "2026-10-05",
+ "as_of": "2026-10-06",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1047,6 +1047,15 @@
    "close": 398.8,
    "volume": 196,
    "delivery_pct": 100.0
+  },
+  {
+   "time": "2026-10-06",
+   "open": 399.0,
+   "high": 406.8,
+   "low": 391.2,
+   "close": 405.9,
+   "volume": 425,
+   "delivery_pct": 93.18
   }
  ],
  "ma": {
@@ -1438,6 +1447,10 @@
    {
     "time": "2026-10-05",
     "value": 395.72
+   },
+   {
+    "time": "2026-10-06",
+    "value": 396.46
    }
   ],
   "sma_50": [
@@ -1708,15 +1721,19 @@
    {
     "time": "2026-10-05",
     "value": 386.25
+   },
+   {
+    "time": "2026-10-06",
+    "value": 387.09
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.28,
-  "atr_pct": 2.63,
-  "rel_volume_20d": 0.27,
-  "dist_20dma_pct": 0.78,
-  "dist_50dma_pct": 3.25,
+  "rsi_14": 64.21,
+  "atr_pct": 2.68,
+  "rel_volume_20d": 0.61,
+  "dist_20dma_pct": 2.38,
+  "dist_50dma_pct": 4.86,
   "dist_200dma_pct": null
  }
 }

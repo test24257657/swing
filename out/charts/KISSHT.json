@@ -2,7 +2,7 @@
  "symbol": "KISSHT",
  "name": "OnEMI Technology Solutions Limited",
  "kind": "stock",
- "as_of": "2026-10-05",
+ "as_of": "2026-10-06",
  "bars": [
   {
    "time": "2026-05-08",
@@ -930,6 +930,15 @@
    "close": 379.2,
    "volume": 1755374,
    "delivery_pct": 47.8
+  },
+  {
+   "time": "2026-10-06",
+   "open": 381.0,
+   "high": 384.75,
+   "low": 375.3,
+   "close": 383.1,
+   "volume": 692711,
+   "delivery_pct": 39.56
   }
  ],
  "ma": {
@@ -1269,6 +1278,10 @@
    {
     "time": "2026-10-05",
     "value": 346.21
+   },
+   {
+    "time": "2026-10-06",
+    "value": 349.9
    }
   ],
   "sma_50": [
@@ -1487,15 +1500,19 @@
    {
     "time": "2026-10-05",
     "value": 324.31
+   },
+   {
+    "time": "2026-10-06",
+    "value": 325.17
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.63,
-  "atr_pct": 4.8,
-  "rel_volume_20d": 0.86,
-  "dist_20dma_pct": 9.53,
-  "dist_50dma_pct": 16.92,
+  "rsi_14": 69.81,
+  "atr_pct": 4.59,
+  "rel_volume_20d": 0.34,
+  "dist_20dma_pct": 9.49,
+  "dist_50dma_pct": 17.81,
   "dist_200dma_pct": null
  }
 }

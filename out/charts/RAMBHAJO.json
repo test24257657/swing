@@ -2,7 +2,7 @@
  "symbol": "RAMBHAJO",
  "name": "Advit Jewels Limited",
  "kind": "stock",
- "as_of": "2026-10-05",
+ "as_of": "2026-10-06",
  "bars": [
   {
    "time": "2026-07-01",
@@ -606,6 +606,15 @@
    "close": 305.1,
    "volume": 1851970,
    "delivery_pct": 41.6
+  },
+  {
+   "time": "2026-10-06",
+   "open": 309.95,
+   "high": 332.0,
+   "low": 307.85,
+   "close": 330.35,
+   "volume": 880575,
+   "delivery_pct": 28.65
   }
  ],
  "ma": {
@@ -801,6 +810,10 @@
    {
     "time": "2026-10-05",
     "value": 278.46
+   },
+   {
+    "time": "2026-10-06",
+    "value": 281.54
    }
   ],
   "sma_50": [
@@ -875,15 +888,19 @@
    {
     "time": "2026-10-05",
     "value": 231.92
+   },
+   {
+    "time": "2026-10-06",
+    "value": 234.64
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.58,
-  "atr_pct": 6.54,
-  "rel_volume_20d": 1.98,
-  "dist_20dma_pct": 9.57,
-  "dist_50dma_pct": 31.56,
+  "rsi_14": 68.99,
+  "atr_pct": 6.19,
+  "rel_volume_20d": 0.94,
+  "dist_20dma_pct": 17.34,
+  "dist_50dma_pct": 40.79,
   "dist_200dma_pct": null
  }
 }

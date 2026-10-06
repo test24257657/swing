@@ -2,17 +2,8 @@
  "symbol": "VALIANTORG",
  "name": "Valiant Organics Limited",
  "kind": "stock",
- "as_of": "2026-10-05",
+ "as_of": "2026-10-06",
  "bars": [
-  {
-   "time": "2025-09-25",
-   "open": 351.55,
-   "high": 351.55,
-   "low": 341.65,
-   "close": 343.0,
-   "volume": 6975,
-   "delivery_pct": null
-  },
   {
    "time": "2025-09-26",
    "open": 348.5,
@@ -2271,14 +2262,19 @@
    "close": 475.65,
    "volume": 461753,
    "delivery_pct": 44.37
+  },
+  {
+   "time": "2026-10-06",
+   "open": 476.0,
+   "high": 503.0,
+   "low": 469.15,
+   "close": 496.8,
+   "volume": 262872,
+   "delivery_pct": 54.75
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-24",
-    "value": 316.18
-   },
    {
     "time": "2025-10-27",
     "value": 314.26
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-05",
     "value": 401.43
+   },
+   {
+    "time": "2026-10-06",
+    "value": 410.26
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-08",
-    "value": 295.0
-   },
    {
     "time": "2025-12-09",
     "value": 293.48
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-05",
     "value": 337.28
+   },
+   {
+    "time": "2026-10-06",
+    "value": 341.96
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-21",
-    "value": 271.67
-   },
    {
     "time": "2026-07-22",
     "value": 271.28
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-05",
     "value": 282.19
+   },
+   {
+    "time": "2026-10-06",
+    "value": 283.3
    }
   ]
  },
  "technicals": {
-  "rsi_14": 78.61,
-  "atr_pct": 5.37,
-  "rel_volume_20d": 3.45,
-  "dist_20dma_pct": 18.49,
-  "dist_50dma_pct": 41.03,
-  "dist_200dma_pct": 68.56
+  "rsi_14": 81.24,
+  "atr_pct": 5.26,
+  "rel_volume_20d": 1.72,
+  "dist_20dma_pct": 21.09,
+  "dist_50dma_pct": 45.28,
+  "dist_200dma_pct": 75.36
  }
 }

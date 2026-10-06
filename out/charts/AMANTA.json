@@ -2,17 +2,8 @@
  "symbol": "AMANTA",
  "name": "Amanta Healthcare Limited",
  "kind": "stock",
- "as_of": "2026-10-05",
+ "as_of": "2026-10-06",
  "bars": [
-  {
-   "time": "2025-09-25",
-   "open": 143.99,
-   "high": 144.89,
-   "low": 137.34,
-   "close": 139.21,
-   "volume": 251539,
-   "delivery_pct": 51.38
-  },
   {
    "time": "2025-09-26",
    "open": 138.74,
@@ -2271,14 +2262,19 @@
    "close": 199.92,
    "volume": 74113,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-06",
+   "open": 206.3,
+   "high": 206.3,
+   "low": 191.0,
+   "close": 197.68,
+   "volume": 77852,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-24",
-    "value": 131.89
-   },
    {
     "time": "2025-10-27",
     "value": 131.15
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-05",
     "value": 192.56
+   },
+   {
+    "time": "2026-10-06",
+    "value": 192.74
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-08",
-    "value": 122.29
-   },
    {
     "time": "2025-12-09",
     "value": 121.49
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-05",
     "value": 181.68
+   },
+   {
+    "time": "2026-10-06",
+    "value": 182.37
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-21",
-    "value": 122.51
-   },
    {
     "time": "2026-07-22",
     "value": 122.65
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-05",
     "value": 138.01
+   },
+   {
+    "time": "2026-10-06",
+    "value": 138.48
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.46,
-  "atr_pct": 2.62,
-  "rel_volume_20d": 2.54,
-  "dist_20dma_pct": 3.82,
-  "dist_50dma_pct": 10.04,
-  "dist_200dma_pct": 44.86
+  "rsi_14": 59.53,
+  "atr_pct": 3.02,
+  "rel_volume_20d": 2.44,
+  "dist_20dma_pct": 2.56,
+  "dist_50dma_pct": 8.4,
+  "dist_200dma_pct": 42.75
  }
 }
