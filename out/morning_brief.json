@@ -1,165 +1,183 @@
 {
- "generated_at": "2026-10-05T08:15:55+05:30",
- "for_session": "2026-10-05",
+ "generated_at": "2026-10-06T08:15:51+05:30",
+ "for_session": "2026-10-06",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7722.72,
-   "change_pct": 0.73,
-   "as_of": "2026-10-02"
+   "value": 7773.95,
+   "change_pct": 0.66,
+   "as_of": "2026-10-05"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 27190.86,
-   "change_pct": 1.19,
-   "as_of": "2026-10-02"
+   "value": 27477.31,
+   "change_pct": 1.05,
+   "as_of": "2026-10-05"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51176.96,
-   "change_pct": 0.49,
-   "as_of": "2026-10-02"
+   "value": 51267.9,
+   "change_pct": 0.18,
+   "as_of": "2026-10-05"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 70037.61,
-   "change_pct": 2.53,
-   "as_of": "2026-10-05"
+   "value": 70081.53,
+   "change_pct": 0.19,
+   "as_of": "2026-10-06"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 23934.89,
-   "change_pct": -0.16,
-   "as_of": "2026-10-05"
+   "value": 24234.06,
+   "change_pct": 0.81,
+   "as_of": "2026-10-06"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 7003.74,
-   "change_pct": 0.46,
-   "as_of": "2026-10-02"
+   "value": 6964.69,
+   "change_pct": -0.56,
+   "as_of": "2026-10-06"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 101.5,
-   "change_pct": -0.73,
-   "as_of": "2026-10-04"
+   "value": 100.82,
+   "change_pct": -1.4,
+   "as_of": "2026-10-05"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4182.2,
-   "change_pct": 0.48,
-   "as_of": "2026-10-04"
+   "value": 4141.1,
+   "change_pct": -0.51,
+   "as_of": "2026-10-05"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
    "value": 96.3,
-   "change_pct": 0.08,
-   "as_of": "2026-10-05"
+   "change_pct": -0.03,
+   "as_of": "2026-10-06"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.28,
-   "change_pct": 0.76,
-   "as_of": "2026-10-02"
+   "value": 5.31,
+   "change_pct": 0.64,
+   "as_of": "2026-10-05"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 102.21,
-   "change_pct": 0.27,
-   "as_of": "2026-10-04"
+   "value": 102.19,
+   "change_pct": 0.25,
+   "as_of": "2026-10-05"
   }
  ],
  "global_tone": {
-  "tone": "positive",
-  "avg_change_pct": 0.95,
+  "tone": "mixed",
+  "avg_change_pct": 0.43,
   "crude_alert": false
  },
  "nifty": {
-  "session": "2026-10-01",
-  "close": 22421.95,
-  "high": 22610.6,
-  "low": 22217.3,
-  "pivot": 22416.62,
-  "r1": 22615.93,
-  "s1": 22222.63,
-  "r2": 22809.92,
-  "s2": 22023.32,
-  "sma_20": 23268.93,
-  "sma_50": 23870.1,
-  "sma_200": 24351.1
+  "session": "2026-10-05",
+  "close": 22555.75,
+  "high": 22621.8,
+  "low": 22397.1,
+  "pivot": 22524.88,
+  "r1": 22652.67,
+  "s1": 22427.97,
+  "r2": 22749.58,
+  "s2": 22300.18,
+  "sma_20": 23203.04,
+  "sma_50": 23843.82,
+  "sma_200": 24334.38
  },
  "focus": [
   {
-   "symbol": "RAYMOND",
-   "name": "Raymond Limited",
+   "symbol": "HFCL",
+   "name": "HFCL Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
   {
-   "symbol": "SHILPAMED",
-   "name": "Shilpa Medicare Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 98
-  },
-  {
-   "symbol": "RPTECH",
-   "name": "Rashi Peripherals Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 98
-  },
-  {
-   "symbol": "IOLCP",
-   "name": "IOL Chemicals and Pharmaceuticals Limited",
+   "symbol": "MACPOWER",
+   "name": "Macpower CNC Machines Limited",
    "why": "Ready setup near its pivot",
    "rs": 97
   },
   {
-   "symbol": "KOPRAN",
-   "name": "Kopran Limited",
+   "symbol": "GANDHAR",
+   "name": "Gandhar Oil Refinery (India) Limited",
    "why": "Ready setup near its pivot",
    "rs": 96
   },
   {
-   "symbol": "GANDHAR",
-   "name": "Gandhar Oil Refinery (India) Limited",
+   "symbol": "AVADHSUGAR",
+   "name": "Avadh Sugar & Energy Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 96
+  },
+  {
+   "symbol": "NRBBEARING",
+   "name": "NRB Bearing Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 95
+  },
+  {
+   "symbol": "EMIL",
+   "name": "Electronics Mart India Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "SURAKSHA",
-   "name": "Suraksha Diagnostic Limited",
+   "symbol": "DMCC",
+   "name": "DMCC SPECIALITY CHEMICALS LIMITED",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "KINGFA",
-   "name": "Kingfa Science & Technology (India) Limited",
+   "symbol": "WELSPUNLIV",
+   "name": "Welspun Living Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "UNIMECH",
-   "name": "Unimech Aerospace and Manufacturing Limited",
+   "symbol": "INDOAMIN",
+   "name": "Indo Amines Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "RATNAVEER",
-   "name": "Ratnaveer Precision Engineering Limited",
+   "symbol": "CYIENTDLM",
+   "name": "Cyient DLM Limited",
    "why": "Pocket pivot yesterday",
    "rs": 98
+  },
+  {
+   "symbol": "SETL",
+   "name": "Standard Engineering Technology Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 98
+  },
+  {
+   "symbol": "AEROFLEX",
+   "name": "Aeroflex Industries Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 97
+  },
+  {
+   "symbol": "RPEL",
+   "name": "Raghav Productivity Enhancers Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 97
   },
   {
    "symbol": "PRECWIRE",
@@ -170,92 +188,23 @@
  ],
  "overnight_news": [
   {
-   "symbol": "DRREDDY",
-   "time": "03 Oct 17:15",
-   "category": "Action(s) taken or orders passed",
-   "text": "Dr. Reddy's Laboratories Limited has informed the Exchange about imposition of penalty to Dr. Reddy s Laboratories, Inc. ( DRL Inc ), a step-down wholly owned subsidiary of the Company.",
-   "url": "https://nsearchives.nseindia.com/corporate/DRREDDY_03102026171508_SE_intimation_03102026_signed.pdf"
+   "symbol": "NTPC",
+   "time": "05 Oct 20:47",
+   "category": "Cessation",
+   "text": "NTPC Limited has informed the Exchange regarding Cessation of  Shri Piyush Singh as Non- Executive Director of the company w.e.f. October 05, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/NTPC_05102026203959_20261005_Cessation_of_Director.pdf"
   },
   {
-   "symbol": "ADANIPORTS",
-   "time": "02 Oct 09:58",
-   "category": "Monthly Business Updates",
-   "text": "Adani Ports and Special Economic Zone Limited has informed the Exchange regarding Monthly Business Updates for the month of September 2026",
-   "url": "https://nsearchives.nseindia.com/corporate/rkbhagia_02102026095818_SEINTIMATION.pdf"
-  },
-  {
-   "symbol": "BAJAJFINSV",
-   "time": "01 Oct 23:37",
-   "category": "Acquisition",
-   "text": "Bajaj Finserv Limited has informed the Exchange about subscription of warrants convertible into equivalent number of Equity Shares for an aggregate consideration not exceeding Rs. 5,800 Crore by way of preferential issue",
-   "url": "https://nsearchives.nseindia.com/corporate/walimbelk_01102026233519_BFS_SEIntimationletter_Final.pdf"
-  },
-  {
-   "symbol": "BAJFINANCE",
-   "time": "01 Oct 23:24",
-   "category": "Qualified Institutional Placement",
-   "text": "Bajaj Finance Limited has informed the Exchange about qualified Institutional Placement",
-   "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026232348_Outcome_post_SE_Intimation_01102026_Final.pdf"
-  },
-  {
-   "symbol": "BAJFINANCE",
-   "time": "01 Oct 23:21",
-   "category": "Preferential issue",
-   "text": "Bajaj Finance Limited has informed the Exchange about Preferential issue",
-   "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026232111_Outcome_post_SE_Intimation_01102026_Final.pdf"
-  },
-  {
-   "symbol": "BAJFINANCE",
-   "time": "01 Oct 23:17",
-   "category": "Outcome of Board Meeting",
-   "text": "Bajaj Finance Limited has informed the Exchange regarding Outcome of Board Meeting held on October 01, 2026 - Capital raise through QIP and Preferential Issue.",
-   "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026231622_Outcome_post_SE_Intimation_01102026_Final.pdf"
-  },
-  {
-   "symbol": "HINDALCO",
-   "time": "01 Oct 23:02",
-   "category": "Acquisition",
-   "text": "Hindalco Industries Limited has informed the Exchange about Update on Acquisition",
-   "url": "https://nsearchives.nseindia.com/corporate/HINDALCOIND_01102026230241_Reg30_Aluchem_update_final_signed.pdf"
-  },
-  {
-   "symbol": "TATASTEEL",
-   "time": "01 Oct 21:04",
-   "category": "Scheme of Arrangement",
-   "text": "Tata Steel Limited has informed the Exchange about Pronouncement of Order by the Hon ble National Company Law Tribunal, Mumbai Bench, approving and sanctioning the Scheme of Amalgamation amongst Tata Steel Limited and Ru",
-   "url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_01102026210329_BSENSE_-_RIL_Order.pdf"
-  },
-  {
-   "symbol": "TATASTEEL",
-   "time": "01 Oct 21:01",
-   "category": "Amalgamation/Merger",
-   "text": "Tata Steel Limited has informed the Exchange about Pronouncement of Order by the Hon ble National Company Law Tribunal, Mumbai Bench, approving and sanctioning the Scheme of Amalgamation amongst Tata Steel Limited and Ru",
-   "url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_01102026205831_BSENSE_-_RIL_Order.pdf"
-  },
-  {
-   "symbol": "TCS",
-   "time": "01 Oct 18:41",
-   "category": "Acquisition",
-   "text": "Tata Consultancy Services Limited has informed the Exchange about Acquisition",
-   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026184041_Signed_SE_Letter.pdf"
-  },
-  {
-   "symbol": "TCS",
-   "time": "01 Oct 18:39",
-   "category": "Outcome of Board Meeting",
-   "text": "Tata Consultancy Services Limited has informed the Exchange regarding Outcome of Meeting of Investment Committee, as empowered by the Board, held on October 01, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026182634_Signed_SE_Letter.pdf"
-  },
-  {
-   "symbol": "HDFCBANK",
-   "time": "01 Oct 18:23",
-   "category": "Change in Director(s)",
-   "text": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf"
+   "symbol": "AXISBANK",
+   "time": "05 Oct 17:17",
+   "category": "Change in Management",
+   "text": "Axis Bank Limited has informed the Exchange about change in Management",
+   "url": "https://nsearchives.nseindia.com/corporate/AXISBANK_05102026171731_SEintimationSigned.pdf"
   }
  ],
  "events": [
-  "3 companies report results today."
+  "5 companies report results today.",
+  "NIFTY weekly options expiry today — expect sharper intraday swings."
  ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
@@ -263,12 +212,12 @@
  ],
  "community": null,
  "ai": {
-  "headline": "Positive Global Tone Cues Upbeat Start; NIFTY Key Level At 22416.62",
+  "headline": "Mixed global signals and red market light point to a cautious open",
   "points": [
-   "Global markets are positive, led by Nikkei gaining +2.53% and Nasdaq rising +1.19%, suggesting an upbeat opening tone.",
-   "NIFTY closed at 22421.95 below its 20-day average of 23268.93, with pivot support at 22416.62 while market light remains red.",
-   "Brent crude fell -0.73% to 101.5, while USD/INR edged up +0.08% to 96.3, providing mixed cues for domestic markets.",
-   "Watch Bajaj Finserv after announcing Rs. 5,800 Crore warrant subscription alongside 3 companies reporting earnings results today."
+   "Global cues are mixed with US markets rising as Nasdaq hit 27477.31 (+1.05%), while Brent crude dropped to 100.82 (-1.40%).",
+   "NIFTY closed at 22555.75; watch pivot level 22524.88 alongside support at S1 22427.97 and resistance at R1 22652.67.",
+   "Our market light is red while NIFTY trades below its 20-day average of 23203.04; expect volatility from weekly options expiry and 5 earnings.",
+   "Keep an eye on Axis Bank following management changes and NTPC after director cessation, alongside USD/INR at 96.3 (-0.03%)."
   ]
  }
 }
