@@ -2,7 +2,7 @@
  "as_of": "2026-10-06",
  "source": "rules",
  "universe": 219,
- "eligible": 15,
+ "eligible": 9,
  "picks": [
   {
    "symbol": "LXCHEM",
@@ -34,35 +34,6 @@
    "name": "Laxmi Organic Industries Limited"
   },
   {
-   "symbol": "EIMCOELECO",
-   "ltp": 2371.8,
-   "technicals": {
-    "rsi_14": 65.7,
-    "rel_volume_20d": 3.72,
-    "dist_20dma_pct": 4.19,
-    "dist_50dma_pct": 11.82,
-    "dist_200dma_pct": 35.3
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 2325.5,
-    "stop_suggestion": 2211.1,
-    "target_suggestion": 2790.6,
-    "gap_to_pivot_pct": 1.99
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 77.5,
-    "net_income_cr": 15.4,
-    "revenue_qoq_pct": 15.8,
-    "net_income_qoq_pct": 140.6
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "Eimco Elecon (India) Limited"
-  },
-  {
    "symbol": "TATVA",
    "ltp": 1877.4,
    "technicals": {
@@ -88,37 +59,8 @@
     "net_income_qoq_pct": 55.3
    },
    "reason": null,
-   "rank": 3,
+   "rank": 2,
    "name": "Tatva Chintan Pharma Chem Limited"
-  },
-  {
-   "symbol": "MANALIPETC",
-   "ltp": 92.36,
-   "technicals": {
-    "rsi_14": 63.42,
-    "rel_volume_20d": 2.77,
-    "dist_20dma_pct": 9.27,
-    "dist_50dma_pct": 20.29,
-    "dist_200dma_pct": 48.14
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 90.08,
-    "stop_suggestion": 75.56,
-    "target_suggestion": 108.1,
-    "gap_to_pivot_pct": 2.53
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 274.7,
-    "net_income_cr": 64.4,
-    "revenue_qoq_pct": -6.1,
-    "net_income_qoq_pct": 122.1
-   },
-   "reason": null,
-   "rank": 4,
-   "name": "Manali Petrochemicals Limited"
   },
   {
    "symbol": "JGCHEM",
@@ -146,8 +88,66 @@
     "net_income_qoq_pct": 37.9
    },
    "reason": null,
-   "rank": 5,
+   "rank": 3,
    "name": "J.G.Chemicals Limited"
+  },
+  {
+   "symbol": "IOLCP",
+   "ltp": 214.9,
+   "technicals": {
+    "rsi_14": 62.68,
+    "rel_volume_20d": 0.94,
+    "dist_20dma_pct": 5.71,
+    "dist_50dma_pct": 17.86,
+    "dist_200dma_pct": 78.98
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 213.04,
+    "stop_suggestion": 173.55,
+    "target_suggestion": 255.65,
+    "gap_to_pivot_pct": 0.87
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 756.3,
+    "net_income_cr": 64.4,
+    "revenue_qoq_pct": 22.1,
+    "net_income_qoq_pct": 21.1
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "IOL Chemicals and Pharmaceuticals Limited"
+  },
+  {
+   "symbol": "IVP",
+   "ltp": 228.92,
+   "technicals": {
+    "rsi_14": 65.72,
+    "rel_volume_20d": 1.33,
+    "dist_20dma_pct": 3.42,
+    "dist_50dma_pct": 17.45,
+    "dist_200dma_pct": 43.28
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 232.0,
+    "stop_suggestion": 215.34,
+    "target_suggestion": 266.8,
+    "gap_to_pivot_pct": -1.33
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 154.7,
+    "net_income_cr": 14.0,
+    "revenue_qoq_pct": -5.9,
+    "net_income_qoq_pct": 57.3
+   },
+   "reason": null,
+   "rank": 5,
+   "name": "IVP Limited"
   }
  ]
 }
