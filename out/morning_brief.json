@@ -1,127 +1,121 @@
 {
- "generated_at": "2026-10-06T08:15:51+05:30",
- "for_session": "2026-10-06",
+ "generated_at": "2026-10-07T08:16:01+05:30",
+ "for_session": "2026-10-07",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7773.95,
-   "change_pct": 0.66,
-   "as_of": "2026-10-05"
+   "value": 7818.93,
+   "change_pct": 0.58,
+   "as_of": "2026-10-06"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 27477.31,
-   "change_pct": 1.05,
-   "as_of": "2026-10-05"
+   "value": 27599.89,
+   "change_pct": 0.45,
+   "as_of": "2026-10-06"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51267.9,
-   "change_pct": 0.18,
-   "as_of": "2026-10-05"
+   "value": 51521.28,
+   "change_pct": 0.49,
+   "as_of": "2026-10-06"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 70081.53,
-   "change_pct": 0.19,
-   "as_of": "2026-10-06"
+   "value": 70074.13,
+   "change_pct": -0.86,
+   "as_of": "2026-10-07"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24234.06,
-   "change_pct": 0.81,
-   "as_of": "2026-10-06"
+   "value": 24118.47,
+   "change_pct": -0.67,
+   "as_of": "2026-10-07"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 6964.69,
-   "change_pct": -0.56,
-   "as_of": "2026-10-06"
+   "value": 6853.93,
+   "change_pct": -1.26,
+   "as_of": "2026-10-07"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 100.82,
-   "change_pct": -1.4,
-   "as_of": "2026-10-05"
+   "value": 101.47,
+   "change_pct": 1.15,
+   "as_of": "2026-10-06"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4141.1,
-   "change_pct": -0.51,
-   "as_of": "2026-10-05"
+   "value": 4174.1,
+   "change_pct": 0.42,
+   "as_of": "2026-10-06"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 96.3,
-   "change_pct": -0.03,
-   "as_of": "2026-10-06"
+   "value": 96.36,
+   "change_pct": 0.02,
+   "as_of": "2026-10-07"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.31,
-   "change_pct": 0.64,
-   "as_of": "2026-10-05"
+   "value": 5.27,
+   "change_pct": -0.79,
+   "as_of": "2026-10-06"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 102.19,
-   "change_pct": 0.25,
-   "as_of": "2026-10-05"
+   "value": 102.04,
+   "change_pct": -0.13,
+   "as_of": "2026-10-06"
   }
  ],
  "global_tone": {
   "tone": "mixed",
-  "avg_change_pct": 0.43,
+  "avg_change_pct": -0.35,
   "crude_alert": false
  },
  "nifty": {
-  "session": "2026-10-05",
-  "close": 22555.75,
-  "high": 22621.8,
-  "low": 22397.1,
-  "pivot": 22524.88,
-  "r1": 22652.67,
-  "s1": 22427.97,
-  "r2": 22749.58,
-  "s2": 22300.18,
-  "sma_20": 23203.04,
-  "sma_50": 23843.82,
-  "sma_200": 24334.38
+  "session": "2026-10-06",
+  "close": 22776.1,
+  "high": 22776.1,
+  "low": 22561.6,
+  "pivot": 22704.6,
+  "r1": 22847.6,
+  "s1": 22633.1,
+  "r2": 22919.1,
+  "s2": 22490.1,
+  "sma_20": 23146.96,
+  "sma_50": 23823.99,
+  "sma_200": 24318.03
  },
  "focus": [
   {
-   "symbol": "HFCL",
-   "name": "HFCL Limited",
+   "symbol": "FILATEX",
+   "name": "Filatex India Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
   {
-   "symbol": "MACPOWER",
-   "name": "Macpower CNC Machines Limited",
+   "symbol": "RPTECH",
+   "name": "Rashi Peripherals Limited",
    "why": "Ready setup near its pivot",
-   "rs": 97
+   "rs": 98
   },
   {
-   "symbol": "GANDHAR",
-   "name": "Gandhar Oil Refinery (India) Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 96
-  },
-  {
-   "symbol": "AVADHSUGAR",
-   "name": "Avadh Sugar & Energy Limited",
+   "symbol": "SOTL",
+   "name": "Savita Oil Technologies Limited",
    "why": "Ready setup near its pivot",
    "rs": 96
   },
@@ -132,92 +126,95 @@
    "rs": 95
   },
   {
-   "symbol": "EMIL",
-   "name": "Electronics Mart India Limited",
+   "symbol": "ZIMLAB",
+   "name": "Zim Laboratories Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 94
+  },
+  {
+   "symbol": "LXCHEM",
+   "name": "Laxmi Organic Industries Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "DMCC",
-   "name": "DMCC SPECIALITY CHEMICALS LIMITED",
+   "symbol": "TATVA",
+   "name": "Tatva Chintan Pharma Chem Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "WELSPUNLIV",
-   "name": "Welspun Living Limited",
+   "symbol": "JGCHEM",
+   "name": "J.G.Chemicals Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "INDOAMIN",
-   "name": "Indo Amines Limited",
+   "symbol": "IOLCP",
+   "name": "IOL Chemicals and Pharmaceuticals Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "CYIENTDLM",
-   "name": "Cyient DLM Limited",
+   "symbol": "IVP",
+   "name": "IVP Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "DIACABS",
+   "name": "Diamond Power Infrastructure Limited",
    "why": "Pocket pivot yesterday",
    "rs": 98
   },
   {
-   "symbol": "SETL",
-   "name": "Standard Engineering Technology Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 98
-  },
-  {
-   "symbol": "AEROFLEX",
-   "name": "Aeroflex Industries Limited",
+   "symbol": "BHAGERIA",
+   "name": "Bhageria Industries Limited",
    "why": "Pocket pivot yesterday",
    "rs": 97
   },
   {
-   "symbol": "RPEL",
-   "name": "Raghav Productivity Enhancers Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 97
-  },
-  {
-   "symbol": "PRECWIRE",
-   "name": "Precision Wires India Limited",
+   "symbol": "VINDHYATEL",
+   "name": "Vindhya Telelinks Limited",
    "why": "Pocket pivot yesterday",
    "rs": 96
+  },
+  {
+   "symbol": "FCL",
+   "name": "Fineotex Chemical Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 95
   }
  ],
  "overnight_news": [
   {
-   "symbol": "NTPC",
-   "time": "05 Oct 20:47",
-   "category": "Cessation",
-   "text": "NTPC Limited has informed the Exchange regarding Cessation of  Shri Piyush Singh as Non- Executive Director of the company w.e.f. October 05, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/NTPC_05102026203959_20261005_Cessation_of_Director.pdf"
+   "symbol": "ASIANPAINT",
+   "time": "06 Oct 19:12",
+   "category": "Record Date",
+   "text": "Asian Paints Limited has informed the Exchange that Record date for the purpose of Dividend  is 04-Nov-2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026191216_BMintimationtoStockExchangesOct26.pdf"
   },
   {
    "symbol": "AXISBANK",
-   "time": "05 Oct 17:17",
-   "category": "Change in Management",
-   "text": "Axis Bank Limited has informed the Exchange about change in Management",
-   "url": "https://nsearchives.nseindia.com/corporate/AXISBANK_05102026171731_SEintimationSigned.pdf"
+   "time": "06 Oct 17:59",
+   "category": "ESOP/ESOS/ESPS",
+   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 83304  Shares.",
+   "url": "https://nsearchives.nseindia.com/corporate/AXISBANK_06102026175855_SE06102026.pdf"
   }
  ],
- "events": [
-  "5 companies report results today.",
-  "NIFTY weekly options expiry today — expect sharper intraday swings."
- ],
+ "events": [],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
  "ai": {
-  "headline": "Mixed global signals and red market light point to a cautious open",
+  "headline": "Mixed Global Cues and Red Market Light Signal Cautious NIFTY Opening",
   "points": [
-   "Global cues are mixed with US markets rising as Nasdaq hit 27477.31 (+1.05%), while Brent crude dropped to 100.82 (-1.40%).",
-   "NIFTY closed at 22555.75; watch pivot level 22524.88 alongside support at S1 22427.97 and resistance at R1 22652.67.",
-   "Our market light is red while NIFTY trades below its 20-day average of 23203.04; expect volatility from weekly options expiry and 5 earnings.",
-   "Keep an eye on Axis Bank following management changes and NTPC after director cessation, alongside USD/INR at 96.3 (-0.03%)."
+   "US markets rose with S&P 500 up +0.58%, but Asian markets dropped with Nikkei down -0.86%, setting a mixed global backdrop.",
+   "With market light red, NIFTY 50 trades near pivot 22704.6, facing resistance R1 at 22847.6 and support S1 at 22633.1.",
+   "Oil prices ticked higher as Brent crude rose +1.15% to 101.47, while USD/INR edged to 96.36.",
+   "Among individual stocks, Axis Bank allotted 83304 shares under ESOP, and Asian Paints announced a dividend record date."
   ]
  }
 }
