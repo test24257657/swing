@@ -1,0 +1,170 @@
+{
+ "symbol": "INDUSTOWER",
+ "buildup": {
+  "label": "short_buildup",
+  "note": "Fresh shorts \u2014 open interest is rising as price falls.",
+  "expiry": "2026-10-27",
+  "price_chg_pct": -0.95,
+  "oi_chg_pct": 0.62,
+  "open_interest": 84510400,
+  "close": 385.85
+ },
+ "option_chain": {
+  "expiry": "27-Oct-2026",
+  "underlying_value": 385.05,
+  "rows": [
+   {
+    "strike": 335,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 37,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 340,
+    "call_oi": 1,
+    "call_oi_chg": 0,
+    "put_oi": 1383,
+    "put_oi_chg": -20
+   },
+   {
+    "strike": 345,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 50,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 350,
+    "call_oi": 18,
+    "call_oi_chg": 0,
+    "put_oi": 461,
+    "put_oi_chg": -54
+   },
+   {
+    "strike": 355,
+    "call_oi": 25,
+    "call_oi_chg": 0,
+    "put_oi": 80,
+    "put_oi_chg": -5
+   },
+   {
+    "strike": 360,
+    "call_oi": 236,
+    "call_oi_chg": -3,
+    "put_oi": 933,
+    "put_oi_chg": 30
+   },
+   {
+    "strike": 365,
+    "call_oi": 90,
+    "call_oi_chg": 0,
+    "put_oi": 538,
+    "put_oi_chg": -30
+   },
+   {
+    "strike": 370,
+    "call_oi": 280,
+    "call_oi_chg": -2,
+    "put_oi": 491,
+    "put_oi_chg": 35
+   },
+   {
+    "strike": 375,
+    "call_oi": 257,
+    "call_oi_chg": -14,
+    "put_oi": 173,
+    "put_oi_chg": -33
+   },
+   {
+    "strike": 380,
+    "call_oi": 3677,
+    "call_oi_chg": -4,
+    "put_oi": 801,
+    "put_oi_chg": -36
+   },
+   {
+    "strike": 385,
+    "call_oi": 571,
+    "call_oi_chg": 54,
+    "put_oi": 240,
+    "put_oi_chg": -25
+   },
+   {
+    "strike": 390,
+    "call_oi": 1378,
+    "call_oi_chg": 384,
+    "put_oi": 838,
+    "put_oi_chg": 14
+   },
+   {
+    "strike": 395,
+    "call_oi": 743,
+    "call_oi_chg": 81,
+    "put_oi": 259,
+    "put_oi_chg": 13
+   },
+   {
+    "strike": 400,
+    "call_oi": 1065,
+    "call_oi_chg": 85,
+    "put_oi": 329,
+    "put_oi_chg": -4
+   },
+   {
+    "strike": 405,
+    "call_oi": 295,
+    "call_oi_chg": 91,
+    "put_oi": 11,
+    "put_oi_chg": -2
+   },
+   {
+    "strike": 410,
+    "call_oi": 438,
+    "call_oi_chg": 73,
+    "put_oi": 17,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 415,
+    "call_oi": 68,
+    "call_oi_chg": 14,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 420,
+    "call_oi": 202,
+    "call_oi_chg": 19,
+    "put_oi": 36,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 425,
+    "call_oi": 48,
+    "call_oi_chg": 0,
+    "put_oi": 1,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 430,
+    "call_oi": 65,
+    "call_oi_chg": 2,
+    "put_oi": 1,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 440,
+    "call_oi": 22,
+    "call_oi_chg": 7,
+    "put_oi": 3,
+    "put_oi_chg": 0
+   }
+  ],
+  "pcr": 0.75,
+  "total_call_oi": 9708,
+  "total_put_oi": 7314,
+  "max_call_oi_strike": 380,
+  "max_put_oi_strike": 340
+ }
+}

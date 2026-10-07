@@ -1,0 +1,156 @@
+{
+ "symbol": "KOTAKBANK",
+ "buildup": {
+  "label": "long_buildup",
+  "note": "Fresh longs \u2014 price and open interest are both rising together.",
+  "expiry": "2026-10-27",
+  "price_chg_pct": 1.97,
+  "oi_chg_pct": 3.14,
+  "open_interest": 161314000,
+  "close": 440.7
+ },
+ "option_chain": {
+  "expiry": "27-Oct-2026",
+  "underlying_value": 440,
+  "rows": [
+   {
+    "strike": 390,
+    "call_oi": 252,
+    "call_oi_chg": 0,
+    "put_oi": 2441,
+    "put_oi_chg": 61
+   },
+   {
+    "strike": 395,
+    "call_oi": 203,
+    "call_oi_chg": 1,
+    "put_oi": 303,
+    "put_oi_chg": -11
+   },
+   {
+    "strike": 400,
+    "call_oi": 753,
+    "call_oi_chg": -11,
+    "put_oi": 2596,
+    "put_oi_chg": 265
+   },
+   {
+    "strike": 405,
+    "call_oi": 725,
+    "call_oi_chg": -4,
+    "put_oi": 747,
+    "put_oi_chg": -14
+   },
+   {
+    "strike": 410,
+    "call_oi": 6095,
+    "call_oi_chg": -5,
+    "put_oi": 1782,
+    "put_oi_chg": 146
+   },
+   {
+    "strike": 415,
+    "call_oi": 874,
+    "call_oi_chg": -36,
+    "put_oi": 1396,
+    "put_oi_chg": 294
+   },
+   {
+    "strike": 420,
+    "call_oi": 2571,
+    "call_oi_chg": 164,
+    "put_oi": 2356,
+    "put_oi_chg": 111
+   },
+   {
+    "strike": 425,
+    "call_oi": 1638,
+    "call_oi_chg": -20,
+    "put_oi": 1401,
+    "put_oi_chg": 131
+   },
+   {
+    "strike": 430,
+    "call_oi": 6066,
+    "call_oi_chg": -201,
+    "put_oi": 3755,
+    "put_oi_chg": 729
+   },
+   {
+    "strike": 435,
+    "call_oi": 4350,
+    "call_oi_chg": 548,
+    "put_oi": 2184,
+    "put_oi_chg": 912
+   },
+   {
+    "strike": 440,
+    "call_oi": 4460,
+    "call_oi_chg": 313,
+    "put_oi": 2542,
+    "put_oi_chg": 1475
+   },
+   {
+    "strike": 445,
+    "call_oi": 1557,
+    "call_oi_chg": 496,
+    "put_oi": 530,
+    "put_oi_chg": 399
+   },
+   {
+    "strike": 450,
+    "call_oi": 3799,
+    "call_oi_chg": 2153,
+    "put_oi": 604,
+    "put_oi_chg": 396
+   },
+   {
+    "strike": 455,
+    "call_oi": 599,
+    "call_oi_chg": 86,
+    "put_oi": 86,
+    "put_oi_chg": 43
+   },
+   {
+    "strike": 460,
+    "call_oi": 1079,
+    "call_oi_chg": 258,
+    "put_oi": 116,
+    "put_oi_chg": 22
+   },
+   {
+    "strike": 465,
+    "call_oi": 624,
+    "call_oi_chg": 34,
+    "put_oi": 5,
+    "put_oi_chg": 5
+   },
+   {
+    "strike": 470,
+    "call_oi": 1811,
+    "call_oi_chg": 726,
+    "put_oi": 6,
+    "put_oi_chg": 6
+   },
+   {
+    "strike": 480,
+    "call_oi": 686,
+    "call_oi_chg": 337,
+    "put_oi": 1,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 490,
+    "call_oi": 55,
+    "call_oi_chg": 55,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   }
+  ],
+  "pcr": 0.65,
+  "total_call_oi": 38400,
+  "total_put_oi": 24915,
+  "max_call_oi_strike": 410,
+  "max_put_oi_strike": 430
+ }
+}
