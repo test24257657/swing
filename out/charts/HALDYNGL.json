@@ -2,7 +2,7 @@
  "symbol": "HALDYNGL",
  "name": "Haldyn Glass Limited",
  "kind": "stock",
- "as_of": "2026-10-06",
+ "as_of": "2026-10-07",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1056,6 +1056,15 @@
    "close": 142.27,
    "volume": 43552,
    "delivery_pct": 65.22
+  },
+  {
+   "time": "2026-10-07",
+   "open": 143.0,
+   "high": 143.83,
+   "low": 139.4,
+   "close": 140.78,
+   "volume": 31368,
+   "delivery_pct": 55.14
   }
  ],
  "ma": {
@@ -1451,6 +1460,10 @@
    {
     "time": "2026-10-06",
     "value": 144.8
+   },
+   {
+    "time": "2026-10-07",
+    "value": 144.62
    }
   ],
   "sma_50": [
@@ -1725,15 +1738,19 @@
    {
     "time": "2026-10-06",
     "value": 136.58
+   },
+   {
+    "time": "2026-10-07",
+    "value": 136.99
    }
   ]
  },
  "technicals": {
-  "rsi_14": 49.16,
-  "atr_pct": 5.06,
-  "rel_volume_20d": 0.69,
-  "dist_20dma_pct": -1.74,
-  "dist_50dma_pct": 4.16,
+  "rsi_14": 47.04,
+  "atr_pct": 4.97,
+  "rel_volume_20d": 0.49,
+  "dist_20dma_pct": -2.65,
+  "dist_50dma_pct": 2.77,
   "dist_200dma_pct": null
  }
 }

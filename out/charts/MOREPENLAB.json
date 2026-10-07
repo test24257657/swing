@@ -2,17 +2,8 @@
  "symbol": "MOREPENLAB",
  "name": "Morepen Laboratories Limited",
  "kind": "stock",
- "as_of": "2026-10-06",
+ "as_of": "2026-10-07",
  "bars": [
-  {
-   "time": "2025-09-26",
-   "open": 49.75,
-   "high": 49.77,
-   "low": 48.36,
-   "close": 48.87,
-   "volume": 2848819,
-   "delivery_pct": 36.79
-  },
   {
    "time": "2025-09-29",
    "open": 49.0,
@@ -2271,14 +2262,19 @@
    "close": 143.96,
    "volume": 22422554,
    "delivery_pct": 26.15
+  },
+  {
+   "time": "2026-10-07",
+   "open": 145.3,
+   "high": 150.7,
+   "low": 145.14,
+   "close": 146.97,
+   "volume": 19889954,
+   "delivery_pct": 34.16
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-27",
-    "value": 48.59
-   },
    {
     "time": "2025-10-28",
     "value": 48.56
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-06",
     "value": 121.26
+   },
+   {
+    "time": "2026-10-07",
+    "value": 122.67
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-09",
-    "value": 46.59
-   },
    {
     "time": "2025-12-10",
     "value": 46.43
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-06",
     "value": 99.37
+   },
+   {
+    "time": "2026-10-07",
+    "value": 101.18
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-22",
-    "value": 44.33
-   },
    {
     "time": "2026-07-23",
     "value": 44.35
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-06",
     "value": 57.65
+   },
+   {
+    "time": "2026-10-07",
+    "value": 58.17
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.97,
-  "atr_pct": 5.21,
-  "rel_volume_20d": 1.21,
-  "dist_20dma_pct": 18.72,
-  "dist_50dma_pct": 44.87,
-  "dist_200dma_pct": 149.73
+  "rsi_14": 77.26,
+  "atr_pct": 5.07,
+  "rel_volume_20d": 1.06,
+  "dist_20dma_pct": 19.81,
+  "dist_50dma_pct": 45.26,
+  "dist_200dma_pct": 152.64
  }
 }

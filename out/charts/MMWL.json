@@ -2,7 +2,7 @@
  "symbol": "MMWL",
  "name": "Media Matrix Worldwide Limited",
  "kind": "stock",
- "as_of": "2026-10-06",
+ "as_of": "2026-10-07",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1056,6 +1056,15 @@
    "close": 17.14,
    "volume": 44579,
    "delivery_pct": 100.0
+  },
+  {
+   "time": "2026-10-07",
+   "open": 17.99,
+   "high": 17.99,
+   "low": 17.99,
+   "close": 17.99,
+   "volume": 23177,
+   "delivery_pct": 100.0
   }
  ],
  "ma": {
@@ -1451,6 +1460,10 @@
    {
     "time": "2026-10-06",
     "value": 14.22
+   },
+   {
+    "time": "2026-10-07",
+    "value": 14.41
    }
   ],
   "sma_50": [
@@ -1725,15 +1738,19 @@
    {
     "time": "2026-10-06",
     "value": 14.52
+   },
+   {
+    "time": "2026-10-07",
+    "value": 14.61
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.86,
-  "atr_pct": 5.01,
-  "rel_volume_20d": 0.73,
-  "dist_20dma_pct": 20.5,
-  "dist_50dma_pct": 18.03,
+  "rsi_14": 74.42,
+  "atr_pct": 4.77,
+  "rel_volume_20d": 0.37,
+  "dist_20dma_pct": 24.87,
+  "dist_50dma_pct": 23.16,
   "dist_200dma_pct": null
  }
 }

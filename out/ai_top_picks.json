@@ -1,153 +1,153 @@
 {
- "as_of": "2026-10-06",
+ "as_of": "2026-10-07",
  "source": "rules",
- "universe": 219,
- "eligible": 9,
+ "universe": 210,
+ "eligible": 22,
  "picks": [
   {
-   "symbol": "LXCHEM",
-   "ltp": 188.86,
+   "symbol": "EMIL",
+   "ltp": 211.54,
    "technicals": {
-    "rsi_14": 59.67,
-    "rel_volume_20d": 3.36,
-    "dist_20dma_pct": 6.01,
-    "dist_50dma_pct": 6.46,
-    "dist_200dma_pct": 21.64
+    "rsi_14": 66.27,
+    "rel_volume_20d": 1.82,
+    "dist_20dma_pct": 9.24,
+    "dist_50dma_pct": 17.8,
+    "dist_200dma_pct": 68.4
    },
    "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 189.14,
-    "stop_suggestion": 176.91,
-    "target_suggestion": 217.51,
-    "gap_to_pivot_pct": -0.15
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 205.36,
+    "stop_suggestion": 173.71,
+    "target_suggestion": 246.43,
+    "gap_to_pivot_pct": 3.01
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 968.3,
-    "net_income_cr": 67.7,
-    "revenue_qoq_pct": 31.7,
-    "net_income_qoq_pct": 213.4
+    "revenue_cr": 2419.0,
+    "net_income_cr": 120.6,
+    "revenue_qoq_pct": 26.4,
+    "net_income_qoq_pct": 203.8
    },
    "reason": null,
    "rank": 1,
-   "name": "Laxmi Organic Industries Limited"
+   "name": "Electronics Mart India Limited"
   },
   {
-   "symbol": "TATVA",
-   "ltp": 1877.4,
+   "symbol": "SHREEPUSHK",
+   "ltp": 517.5,
    "technicals": {
-    "rsi_14": 64.11,
-    "rel_volume_20d": 1.75,
-    "dist_20dma_pct": 8.58,
-    "dist_50dma_pct": 10.25,
-    "dist_200dma_pct": 37.23
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 1806.4,
-    "stop_suggestion": 1520.0,
-    "target_suggestion": 2167.68,
-    "gap_to_pivot_pct": 3.93
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 167.1,
-    "net_income_cr": 16.0,
-    "revenue_qoq_pct": 24.6,
-    "net_income_qoq_pct": 55.3
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "Tatva Chintan Pharma Chem Limited"
-  },
-  {
-   "symbol": "JGCHEM",
-   "ltp": 665.45,
-   "technicals": {
-    "rsi_14": 60.94,
-    "rel_volume_20d": 1.56,
-    "dist_20dma_pct": 8.83,
-    "dist_50dma_pct": 12.12,
-    "dist_200dma_pct": 52.92
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 658.65,
-    "stop_suggestion": 544.95,
-    "target_suggestion": 790.38,
-    "gap_to_pivot_pct": 1.03
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 315.6,
-    "net_income_cr": 25.1,
-    "revenue_qoq_pct": 10.3,
-    "net_income_qoq_pct": 37.9
-   },
-   "reason": null,
-   "rank": 3,
-   "name": "J.G.Chemicals Limited"
-  },
-  {
-   "symbol": "IOLCP",
-   "ltp": 214.9,
-   "technicals": {
-    "rsi_14": 62.68,
-    "rel_volume_20d": 0.94,
-    "dist_20dma_pct": 5.71,
-    "dist_50dma_pct": 17.86,
-    "dist_200dma_pct": 78.98
+    "rsi_14": 63.69,
+    "rel_volume_20d": 0.48,
+    "dist_20dma_pct": 3.26,
+    "dist_50dma_pct": 13.95,
+    "dist_200dma_pct": 35.42
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "forming",
-    "pivot_price": 213.04,
-    "stop_suggestion": 173.55,
-    "target_suggestion": 255.65,
-    "gap_to_pivot_pct": 0.87
+    "pivot_price": 514.9,
+    "stop_suggestion": 476.55,
+    "target_suggestion": 617.88,
+    "gap_to_pivot_pct": 0.5
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 756.3,
-    "net_income_cr": 64.4,
-    "revenue_qoq_pct": 22.1,
-    "net_income_qoq_pct": 21.1
+    "revenue_cr": 280.1,
+    "net_income_cr": 22.9,
+    "revenue_qoq_pct": 28.4,
+    "net_income_qoq_pct": 77.5
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "Shree Pushkar Chemicals & Fertilisers Limited"
+  },
+  {
+   "symbol": "TFCILTD",
+   "ltp": 152.24,
+   "technicals": {
+    "rsi_14": 71.72,
+    "rel_volume_20d": 1.61,
+    "dist_20dma_pct": 8.01,
+    "dist_50dma_pct": 16.4,
+    "dist_200dma_pct": 76.29
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 146.71,
+    "stop_suggestion": 132.93,
+    "target_suggestion": 176.05,
+    "gap_to_pivot_pct": 3.77
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 77.4,
+    "net_income_cr": 61.2,
+    "revenue_qoq_pct": 7.4,
+    "net_income_qoq_pct": 91.3
+   },
+   "reason": null,
+   "rank": 3,
+   "name": "Tourism Finance Corporation of India Limited"
+  },
+  {
+   "symbol": "MOLDTECH",
+   "ltp": 220.99,
+   "technicals": {
+    "rsi_14": 68.33,
+    "rel_volume_20d": 1.53,
+    "dist_20dma_pct": 8.56,
+    "dist_50dma_pct": 15.71,
+    "dist_200dma_pct": 50.82
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 219.18,
+    "stop_suggestion": 180.0,
+    "target_suggestion": 263.02,
+    "gap_to_pivot_pct": 0.83
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 59.5,
+    "net_income_cr": 9.0,
+    "revenue_qoq_pct": 7.2,
+    "net_income_qoq_pct": 291.3
    },
    "reason": null,
    "rank": 4,
-   "name": "IOL Chemicals and Pharmaceuticals Limited"
+   "name": "Mold-Tek Technologies Limited"
   },
   {
-   "symbol": "IVP",
-   "ltp": 228.92,
+   "symbol": "TBOTEK",
+   "ltp": 1704.5,
    "technicals": {
-    "rsi_14": 65.72,
-    "rel_volume_20d": 1.33,
-    "dist_20dma_pct": 3.42,
-    "dist_50dma_pct": 17.45,
-    "dist_200dma_pct": 43.28
+    "rsi_14": 54.9,
+    "rel_volume_20d": 11.68,
+    "dist_20dma_pct": 1.28,
+    "dist_50dma_pct": 2.44,
+    "dist_200dma_pct": 18.66
    },
    "pattern": {
     "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 232.0,
-    "stop_suggestion": 215.34,
-    "target_suggestion": 266.8,
-    "gap_to_pivot_pct": -1.33
+    "pivot_price": 1750.0,
+    "stop_suggestion": 1614.0,
+    "target_suggestion": 2012.5,
+    "gap_to_pivot_pct": -2.6
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 154.7,
-    "net_income_cr": 14.0,
-    "revenue_qoq_pct": -5.9,
-    "net_income_qoq_pct": 57.3
+    "revenue_cr": 925.8,
+    "net_income_cr": 83.4,
+    "revenue_qoq_pct": 13.7,
+    "net_income_qoq_pct": 38.8
    },
    "reason": null,
    "rank": 5,
-   "name": "IVP Limited"
+   "name": "TBO Tek Limited"
   }
  ]
 }

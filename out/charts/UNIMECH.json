@@ -2,17 +2,8 @@
  "symbol": "UNIMECH",
  "name": "Unimech Aerospace and Manufacturing Limited",
  "kind": "stock",
- "as_of": "2026-10-06",
+ "as_of": "2026-10-07",
  "bars": [
-  {
-   "time": "2025-09-26",
-   "open": 1077.0,
-   "high": 1077.0,
-   "low": 1040.0,
-   "close": 1043.0,
-   "volume": 46367,
-   "delivery_pct": 58.09
-  },
   {
    "time": "2025-09-29",
    "open": 1057.5,
@@ -2271,14 +2262,19 @@
    "close": 1873.1,
    "volume": 288002,
    "delivery_pct": 37.06
+  },
+  {
+   "time": "2026-10-07",
+   "open": 1892.5,
+   "high": 1892.5,
+   "low": 1840.1,
+   "close": 1854.5,
+   "volume": 143988,
+   "delivery_pct": 41.5
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-27",
-    "value": 982.04
-   },
    {
     "time": "2025-10-28",
     "value": 982.37
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-06",
     "value": 1655.84
+   },
+   {
+    "time": "2026-10-07",
+    "value": 1673.78
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-09",
-    "value": 985.58
-   },
    {
     "time": "2025-12-10",
     "value": 983.51
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-06",
     "value": 1508.76
+   },
+   {
+    "time": "2026-10-07",
+    "value": 1521.79
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-22",
-    "value": 971.41
-   },
    {
     "time": "2026-07-23",
     "value": 972.27
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-06",
     "value": 1105.06
+   },
+   {
+    "time": "2026-10-07",
+    "value": 1109.61
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.71,
-  "atr_pct": 4.47,
-  "rel_volume_20d": 0.8,
-  "dist_20dma_pct": 13.12,
-  "dist_50dma_pct": 24.15,
-  "dist_200dma_pct": 69.5
+  "rsi_14": 70.25,
+  "atr_pct": 4.39,
+  "rel_volume_20d": 0.39,
+  "dist_20dma_pct": 10.8,
+  "dist_50dma_pct": 21.86,
+  "dist_200dma_pct": 67.13
  }
 }

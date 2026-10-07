@@ -2,7 +2,7 @@
  "symbol": "VELJAN",
  "name": "Veljan Denison Limited",
  "kind": "stock",
- "as_of": "2026-10-06",
+ "as_of": "2026-10-07",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1056,6 +1056,15 @@
    "close": 2531.4,
    "volume": 1420,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-07",
+   "open": 2657.9,
+   "high": 2657.9,
+   "low": 2580.0,
+   "close": 2657.9,
+   "volume": 4352,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1451,6 +1460,10 @@
    {
     "time": "2026-10-06",
     "value": 2045.76
+   },
+   {
+    "time": "2026-10-07",
+    "value": 2083.55
    }
   ],
   "sma_50": [
@@ -1725,15 +1738,19 @@
    {
     "time": "2026-10-06",
     "value": 1881.4
+   },
+   {
+    "time": "2026-10-07",
+    "value": 1898.47
    }
   ]
  },
  "technicals": {
-  "rsi_14": 85.32,
-  "atr_pct": 3.96,
-  "rel_volume_20d": 1.29,
-  "dist_20dma_pct": 23.74,
-  "dist_50dma_pct": 34.55,
+  "rsi_14": 87.57,
+  "atr_pct": 3.84,
+  "rel_volume_20d": 3.91,
+  "dist_20dma_pct": 27.57,
+  "dist_50dma_pct": 40.0,
   "dist_200dma_pct": null
  }
 }
