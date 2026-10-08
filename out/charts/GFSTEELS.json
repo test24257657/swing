@@ -2,17 +2,8 @@
  "symbol": "GFSTEELS",
  "name": "Grand Foundry Limited",
  "kind": "stock",
- "as_of": "2026-10-07",
+ "as_of": "2026-10-08",
  "bars": [
-  {
-   "time": "2025-09-29",
-   "open": 10.21,
-   "high": 10.21,
-   "low": 10.21,
-   "close": 10.21,
-   "volume": 10800,
-   "delivery_pct": null
-  },
   {
    "time": "2025-10-06",
    "open": 10.21,
@@ -624,14 +615,19 @@
    "close": 40.62,
    "volume": 26331,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-08",
+   "open": 41.43,
+   "high": 41.43,
+   "low": 41.43,
+   "close": 41.43,
+   "volume": 13521,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2026-02-09",
-    "value": 10.83
-   },
    {
     "time": "2026-02-16",
     "value": 10.91
@@ -827,13 +823,13 @@
    {
     "time": "2026-10-07",
     "value": 29.15
+   },
+   {
+    "time": "2026-10-08",
+    "value": 30.4
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-09-08",
-    "value": 12.34
-   },
    {
     "time": "2026-09-09",
     "value": 12.5
@@ -909,15 +905,19 @@
    {
     "time": "2026-10-07",
     "value": 19.57
+   },
+   {
+    "time": "2026-10-08",
+    "value": 20.17
    }
   ]
  },
  "technicals": {
-  "rsi_14": 99.99,
-  "atr_pct": 2.5,
-  "rel_volume_20d": 0.74,
-  "dist_20dma_pct": 39.34,
-  "dist_50dma_pct": 107.54,
+  "rsi_14": 100.0,
+  "atr_pct": 2.42,
+  "rel_volume_20d": 0.37,
+  "dist_20dma_pct": 36.29,
+  "dist_50dma_pct": 105.45,
   "dist_200dma_pct": null
  }
 }

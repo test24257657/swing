@@ -2,7 +2,7 @@
  "symbol": "SAPPL",
  "name": "Shree Ajit Pulp & Paper Limited",
  "kind": "stock",
- "as_of": "2026-10-07",
+ "as_of": "2026-10-08",
  "bars": [
   {
    "time": "2026-04-21",
@@ -1056,6 +1056,15 @@
    "close": 317.9,
    "volume": 2022,
    "delivery_pct": 87.88
+  },
+  {
+   "time": "2026-10-08",
+   "open": 311.6,
+   "high": 332.8,
+   "low": 311.6,
+   "close": 328.4,
+   "volume": 3119,
+   "delivery_pct": 85.73
   }
  ],
  "ma": {
@@ -1451,6 +1460,10 @@
    {
     "time": "2026-10-07",
     "value": 289.41
+   },
+   {
+    "time": "2026-10-08",
+    "value": 291.69
    }
   ],
   "sma_50": [
@@ -1725,15 +1738,19 @@
    {
     "time": "2026-10-07",
     "value": 287.55
+   },
+   {
+    "time": "2026-10-08",
+    "value": 288.13
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.37,
-  "atr_pct": 6.17,
-  "rel_volume_20d": 0.68,
-  "dist_20dma_pct": 9.85,
-  "dist_50dma_pct": 10.56,
+  "rsi_14": 68.11,
+  "atr_pct": 6.01,
+  "rel_volume_20d": 1.05,
+  "dist_20dma_pct": 12.59,
+  "dist_50dma_pct": 13.97,
   "dist_200dma_pct": null
  }
 }

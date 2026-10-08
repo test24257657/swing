@@ -2,17 +2,8 @@
  "symbol": "ANSALAPI",
  "name": "Ansal Properties & Infrastructure Limited",
  "kind": "stock",
- "as_of": "2026-10-07",
+ "as_of": "2026-10-08",
  "bars": [
-  {
-   "time": "2025-09-29",
-   "open": 4.68,
-   "high": 4.72,
-   "low": 4.6,
-   "close": 4.64,
-   "volume": 18713,
-   "delivery_pct": null
-  },
   {
    "time": "2025-09-30",
    "open": 4.68,
@@ -2262,14 +2253,19 @@
    "close": 3.85,
    "volume": 10870,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-08",
+   "open": 3.85,
+   "high": 3.88,
+   "low": 3.78,
+   "close": 3.78,
+   "volume": 7419,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-28",
-    "value": 4.47
-   },
    {
     "time": "2025-10-29",
     "value": 4.46
@@ -2868,7 +2864,7 @@
    },
    {
     "time": "2026-06-10",
-    "value": 3.98
+    "value": 3.99
    },
    {
     "time": "2026-06-11",
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-10-07",
     "value": 3.73
+   },
+   {
+    "time": "2026-10-08",
+    "value": 3.75
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-10",
-    "value": 4.02
-   },
    {
     "time": "2025-12-11",
     "value": 3.99
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-10-07",
     "value": 3.52
+   },
+   {
+    "time": "2026-10-08",
+    "value": 3.53
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-24",
-    "value": 3.56
-   },
    {
     "time": "2026-07-27",
     "value": 3.55
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-10-07",
     "value": 3.44
+   },
+   {
+    "time": "2026-10-08",
+    "value": 3.44
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.69,
-  "atr_pct": 2.74,
-  "rel_volume_20d": 0.27,
-  "dist_20dma_pct": 3.2,
-  "dist_50dma_pct": 9.44,
-  "dist_200dma_pct": 12.06
+  "rsi_14": 54.09,
+  "atr_pct": 2.78,
+  "rel_volume_20d": 0.18,
+  "dist_20dma_pct": 0.83,
+  "dist_50dma_pct": 7.06,
+  "dist_200dma_pct": 9.97
  }
 }

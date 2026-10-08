@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T00:51:59+05:30",
+ "generated_at": "2026-10-08T18:51:30+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -7,14 +7,28 @@
   },
   "bhavcopy": {
    "ok": true,
-   "sessions_added": 0,
+   "sessions_added": 1,
    "failed": [
+    "2025-10-22",
+    "2025-11-05",
+    "2025-12-25",
+    "2026-01-15",
+    "2026-01-26",
+    "2026-03-03",
+    "2026-03-26",
+    "2026-03-31",
+    "2026-04-03",
+    "2026-04-14",
+    "2026-05-01",
+    "2026-05-28",
+    "2026-06-26",
+    "2026-09-14",
     "2026-10-02"
    ],
    "phantom_sessions_dropped": [],
-   "symbols": 3094,
+   "symbols": 3095,
    "sessions": 252,
-   "rows": 664568
+   "rows": 665053
   },
   "tiles": {
    "ok": 4,
@@ -38,8 +52,8 @@
   },
   "screener": {
    "ok": true,
-   "symbols_scanned": 2696,
-   "symbols_matched": 201
+   "symbols_scanned": 2701,
+   "symbols_matched": 113
   },
   "sectors": {
    "ok": true,
@@ -49,18 +63,18 @@
   },
   "daily_scan": {
    "ok": true,
-   "rated": 2238,
-   "trend_template": 368,
-   "ready": 30,
-   "delivery_spikes": 1,
-   "pocket_pivots": 39
+   "rated": 2239,
+   "trend_template": 271,
+   "ready": 10,
+   "delivery_spikes": 0,
+   "pocket_pivots": 16
   },
   "ipos": {
    "ok": true,
-   "issues": 278,
+   "issues": 277,
    "charted": 114,
-   "sme_skipped": 152,
-   "with_base": 8
+   "sme_skipped": 151,
+   "with_base": 6
   },
   "indices": {
    "ok": true,
@@ -69,16 +83,16 @@
   },
   "charts": {
    "ok": true,
-   "count": 233
+   "count": 146
   },
   "fundamentals": {
    "ok": true,
-   "symbols": 210,
-   "written": 175
+   "symbols": 123,
+   "written": 92
   },
   "quotes": {
    "ok": true,
-   "count": 2941
+   "count": 2947
   },
   "alerts": {
    "ok": false,
@@ -87,8 +101,8 @@
   },
   "news": {
    "ok": true,
-   "fetched": 35,
-   "classified": 20,
+   "fetched": 25,
+   "classified": 0,
    "gemini_configured": true
   },
   "institutional": {
@@ -98,35 +112,34 @@
    "ai_money_flow": false
   },
   "fno": {
-   "ok": true,
-   "eligible": 213,
-   "symbols": 15,
-   "written": 15
+   "ok": false,
+   "symbols": 123,
+   "written": 0
   },
   "depth": {
    "ok": false,
-   "symbols": 210,
+   "symbols": 123,
    "written": 0
   },
   "ai_insights": {
-   "ok": true,
-   "universe": 210,
-   "scoped": 150,
-   "eligible": 148,
-   "written": 60,
-   "gemini_calls": 10
+   "ok": false,
+   "universe": 123,
+   "scoped": 123,
+   "eligible": 121,
+   "written": 0,
+   "gemini_calls": 9
   },
   "ai_top_picks": {
    "ok": true,
    "source": "rules",
-   "eligible": 19,
+   "eligible": 23,
    "picks": 5
   },
   "results_calendar": {
    "ok": true,
-   "upcoming": 195,
-   "past_candidates": 41,
-   "judged": 3,
+   "upcoming": 221,
+   "past_candidates": 40,
+   "judged": 4,
    "good": 0
   }
  }

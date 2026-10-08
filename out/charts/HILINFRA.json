@@ -2,17 +2,8 @@
  "symbol": "HILINFRA",
  "name": "Highway Infrastructure Limited",
  "kind": "stock",
- "as_of": "2026-10-07",
+ "as_of": "2026-10-08",
  "bars": [
-  {
-   "time": "2025-09-29",
-   "open": 82.7,
-   "high": 82.7,
-   "low": 79.57,
-   "close": 80.88,
-   "volume": 345093,
-   "delivery_pct": 37.58
-  },
   {
    "time": "2025-09-30",
    "open": 80.7,
@@ -2271,14 +2262,19 @@
    "close": 47.6,
    "volume": 455922,
    "delivery_pct": 62.68
+  },
+  {
+   "time": "2026-10-08",
+   "open": 48.0,
+   "high": 48.45,
+   "low": 46.24,
+   "close": 47.69,
+   "volume": 254499,
+   "delivery_pct": 56.99
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-28",
-    "value": 79.49
-   },
    {
     "time": "2025-10-29",
     "value": 79.36
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-07",
     "value": 43.6
+   },
+   {
+    "time": "2026-10-08",
+    "value": 43.8
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-10",
-    "value": 73.21
-   },
    {
     "time": "2025-12-11",
     "value": 72.82
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-07",
     "value": 44.67
+   },
+   {
+    "time": "2026-10-08",
+    "value": 44.68
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-23",
-    "value": 56.83
-   },
    {
     "time": "2026-07-24",
     "value": 56.64
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-07",
     "value": 49.53
+   },
+   {
+    "time": "2026-10-08",
+    "value": 49.46
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.77,
-  "atr_pct": 4.39,
-  "rel_volume_20d": 2.83,
-  "dist_20dma_pct": 9.16,
-  "dist_50dma_pct": 6.55,
-  "dist_200dma_pct": -3.9
+  "rsi_14": 65.04,
+  "atr_pct": 4.4,
+  "rel_volume_20d": 1.41,
+  "dist_20dma_pct": 8.87,
+  "dist_50dma_pct": 6.73,
+  "dist_200dma_pct": -3.58
  }
 }
