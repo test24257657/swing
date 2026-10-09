@@ -2,17 +2,8 @@
  "symbol": "THELEELA",
  "name": "Leela Palaces Hotels & Resorts Limited",
  "kind": "stock",
- "as_of": "2026-10-08",
+ "as_of": "2026-10-09",
  "bars": [
-  {
-   "time": "2025-09-30",
-   "open": 414.9,
-   "high": 419.4,
-   "low": 404.0,
-   "close": 413.0,
-   "volume": 357523,
-   "delivery_pct": 57.46
-  },
   {
    "time": "2025-10-01",
    "open": 417.95,
@@ -2271,14 +2262,19 @@
    "close": 586.95,
    "volume": 253791,
    "delivery_pct": 54.92
+  },
+  {
+   "time": "2026-10-09",
+   "open": 589.9,
+   "high": 609.0,
+   "low": 576.2,
+   "close": 587.5,
+   "volume": 227500,
+   "delivery_pct": 44.71
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-29",
-    "value": 435.42
-   },
    {
     "time": "2025-10-30",
     "value": 436.58
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-08",
     "value": 550.89
+   },
+   {
+    "time": "2026-10-09",
+    "value": 553.69
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-11",
-    "value": 425.52
-   },
    {
     "time": "2025-12-12",
     "value": 425.21
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-08",
     "value": 537.35
+   },
+   {
+    "time": "2026-10-09",
+    "value": 539.66
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-24",
-    "value": 432.82
-   },
    {
     "time": "2026-07-27",
     "value": 433.14
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-08",
     "value": 461.57
+   },
+   {
+    "time": "2026-10-09",
+    "value": 462.44
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.67,
-  "atr_pct": 3.95,
-  "rel_volume_20d": 0.66,
-  "dist_20dma_pct": 6.55,
-  "dist_50dma_pct": 9.23,
-  "dist_200dma_pct": 27.16
+  "rsi_14": 61.82,
+  "atr_pct": 4.07,
+  "rel_volume_20d": 0.6,
+  "dist_20dma_pct": 6.11,
+  "dist_50dma_pct": 8.86,
+  "dist_200dma_pct": 27.04
  }
 }

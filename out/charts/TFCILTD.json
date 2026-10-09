@@ -2,17 +2,8 @@
  "symbol": "TFCILTD",
  "name": "Tourism Finance Corporation of India Limited",
  "kind": "stock",
- "as_of": "2026-10-08",
+ "as_of": "2026-10-09",
  "bars": [
-  {
-   "time": "2025-09-30",
-   "open": 72.2,
-   "high": 73.75,
-   "low": 72.05,
-   "close": 73.35,
-   "volume": 4162212,
-   "delivery_pct": 57.55
-  },
   {
    "time": "2025-10-01",
    "open": 73.89,
@@ -2271,14 +2262,19 @@
    "close": 146.65,
    "volume": 8707702,
    "delivery_pct": 38.75
+  },
+  {
+   "time": "2026-10-09",
+   "open": 147.39,
+   "high": 150.2,
+   "low": 145.0,
+   "close": 147.05,
+   "volume": 27675622,
+   "delivery_pct": 47.56
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-29",
-    "value": 73.19
-   },
    {
     "time": "2025-10-30",
     "value": 72.91
@@ -2969,11 +2965,11 @@
    },
    {
     "time": "2026-07-15",
-    "value": 77.51
+    "value": 77.5
    },
    {
     "time": "2026-07-16",
-    "value": 77.92
+    "value": 77.91
    },
    {
     "time": "2026-07-17",
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-08",
     "value": 141.23
+   },
+   {
+    "time": "2026-10-09",
+    "value": 141.5
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-11",
-    "value": 69.73
-   },
    {
     "time": "2025-12-12",
     "value": 69.59
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-08",
     "value": 131.78
+   },
+   {
+    "time": "2026-10-09",
+    "value": 132.71
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-24",
-    "value": 70.95
-   },
    {
     "time": "2026-07-27",
     "value": 71.06
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-08",
     "value": 86.76
+   },
+   {
+    "time": "2026-10-09",
+    "value": 87.17
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.2,
-  "atr_pct": 3.91,
-  "rel_volume_20d": 0.67,
-  "dist_20dma_pct": 3.83,
-  "dist_50dma_pct": 11.28,
-  "dist_200dma_pct": 69.04
+  "rsi_14": 61.63,
+  "atr_pct": 3.87,
+  "rel_volume_20d": 2.1,
+  "dist_20dma_pct": 3.92,
+  "dist_50dma_pct": 10.81,
+  "dist_200dma_pct": 68.7
  }
 }

@@ -2,17 +2,8 @@
  "symbol": "BROOKS",
  "name": "Brooks Laboratories Limited",
  "kind": "stock",
- "as_of": "2026-10-08",
+ "as_of": "2026-10-09",
  "bars": [
-  {
-   "time": "2025-09-30",
-   "open": 135.01,
-   "high": 139.19,
-   "low": 132.99,
-   "close": 134.25,
-   "volume": 28140,
-   "delivery_pct": 73.0
-  },
   {
    "time": "2025-10-01",
    "open": 134.25,
@@ -2271,14 +2262,19 @@
    "close": 69.46,
    "volume": 1508771,
    "delivery_pct": 29.3
+  },
+  {
+   "time": "2026-10-09",
+   "open": 74.9,
+   "high": 75.6,
+   "low": 69.31,
+   "close": 70.13,
+   "volume": 1060555,
+   "delivery_pct": 27.04
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-29",
-    "value": 123.4
-   },
    {
     "time": "2025-10-30",
     "value": 122.27
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-08",
     "value": 60.14
+   },
+   {
+    "time": "2026-10-09",
+    "value": 60.5
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-11",
-    "value": 111.18
-   },
    {
     "time": "2025-12-12",
     "value": 110.45
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-08",
     "value": 61.51
+   },
+   {
+    "time": "2026-10-09",
+    "value": 61.72
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-24",
-    "value": 77.8
-   },
    {
     "time": "2026-07-27",
     "value": 77.45
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-08",
     "value": 65.05
+   },
+   {
+    "time": "2026-10-09",
+    "value": 64.91
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.66,
-  "atr_pct": 5.94,
-  "rel_volume_20d": 32.91,
-  "dist_20dma_pct": 15.5,
-  "dist_50dma_pct": 12.92,
-  "dist_200dma_pct": 6.78
+  "rsi_14": 66.46,
+  "atr_pct": 6.1,
+  "rel_volume_20d": 8.98,
+  "dist_20dma_pct": 15.92,
+  "dist_50dma_pct": 13.64,
+  "dist_200dma_pct": 8.04
  }
 }

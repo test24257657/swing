@@ -1,18 +1,18 @@
 {
- "as_of": "2026-10-08",
+ "as_of": "2026-10-09",
  "source": "rules",
- "universe": 123,
- "eligible": 23,
+ "universe": 130,
+ "eligible": 21,
  "picks": [
   {
    "symbol": "GANDHAR",
-   "ltp": 296.45,
+   "ltp": 296.55,
    "technicals": {
-    "rsi_14": 69.4,
-    "rel_volume_20d": 1.51,
-    "dist_20dma_pct": 8.63,
-    "dist_50dma_pct": 14.84,
-    "dist_200dma_pct": 62.48
+    "rsi_14": 69.44,
+    "rel_volume_20d": 1.68,
+    "dist_20dma_pct": 8.06,
+    "dist_50dma_pct": 14.31,
+    "dist_200dma_pct": 61.84
    },
    "pattern": {
     "code": "high_52w_breakout",
@@ -20,7 +20,7 @@
     "pivot_price": 282.6,
     "stop_suggestion": 257.3,
     "target_suggestion": 339.12,
-    "gap_to_pivot_pct": 4.9
+    "gap_to_pivot_pct": 4.94
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
@@ -34,80 +34,80 @@
    "name": "Gandhar Oil Refinery (India) Limited"
   },
   {
-   "symbol": "TATVA",
-   "ltp": 1855.6,
+   "symbol": "GALAXYSURF",
+   "ltp": 2502.2,
    "technicals": {
-    "rsi_14": 57.53,
-    "rel_volume_20d": 1.61,
-    "dist_20dma_pct": 5.87,
-    "dist_50dma_pct": 8.55,
-    "dist_200dma_pct": 35.17
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 1806.4,
-    "stop_suggestion": 1635.0,
-    "target_suggestion": 2167.68,
-    "gap_to_pivot_pct": 2.72
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 167.1,
-    "net_income_cr": 16.0,
-    "revenue_qoq_pct": 24.6,
-    "net_income_qoq_pct": 55.3
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "Tatva Chintan Pharma Chem Limited"
-  },
-  {
-   "symbol": "LOTUSDEV",
-   "ltp": 233.73,
-   "technicals": {
-    "rsi_14": 64.12,
-    "rel_volume_20d": 0.27,
-    "dist_20dma_pct": 6.25,
-    "dist_50dma_pct": 18.35,
-    "dist_200dma_pct": 49.3
+    "rsi_14": 66.11,
+    "rel_volume_20d": 1.84,
+    "dist_20dma_pct": 9.7,
+    "dist_50dma_pct": 12.24,
+    "dist_200dma_pct": 27.6
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "forming",
-    "pivot_price": 237.89,
-    "stop_suggestion": 202.15,
-    "target_suggestion": 285.47,
-    "gap_to_pivot_pct": -1.75
+    "pivot_price": 2508.4,
+    "stop_suggestion": 2169.0,
+    "target_suggestion": 3010.08,
+    "gap_to_pivot_pct": -0.25
    },
    "fundamentals": {
-    "quarter": "Q4 FY26",
-    "revenue_cr": 307.5,
-    "net_income_cr": 95.6,
-    "revenue_qoq_pct": 37.3,
-    "net_income_qoq_pct": 37.2
+    "quarter": "Q1 FY27",
+    "revenue_cr": 1781.9,
+    "net_income_cr": 165.9,
+    "revenue_qoq_pct": 35.5,
+    "net_income_qoq_pct": 165.9
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "Galaxy Surfactants Limited"
+  },
+  {
+   "symbol": "TFCILTD",
+   "ltp": 147.05,
+   "technicals": {
+    "rsi_14": 61.63,
+    "rel_volume_20d": 2.1,
+    "dist_20dma_pct": 3.92,
+    "dist_50dma_pct": 10.81,
+    "dist_200dma_pct": 68.7
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 146.71,
+    "stop_suggestion": 135.49,
+    "target_suggestion": 176.05,
+    "gap_to_pivot_pct": 0.23
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 77.4,
+    "net_income_cr": 61.2,
+    "revenue_qoq_pct": 7.4,
+    "net_income_qoq_pct": 91.3
    },
    "reason": null,
    "rank": 3,
-   "name": "Sri Lotus Developers and Realty Limited"
+   "name": "Tourism Finance Corporation of India Limited"
   },
   {
    "symbol": "DICIND",
-   "ltp": 600.75,
+   "ltp": 603.1,
    "technicals": {
-    "rsi_14": 46.95,
-    "rel_volume_20d": 0.1,
-    "dist_20dma_pct": -3.65,
-    "dist_50dma_pct": 2.32,
-    "dist_200dma_pct": 12.69
+    "rsi_14": 47.63,
+    "rel_volume_20d": 0.05,
+    "dist_20dma_pct": -3.16,
+    "dist_50dma_pct": 2.41,
+    "dist_200dma_pct": 13.01
    },
    "pattern": {
     "code": "vcp",
     "stage": "forming",
     "pivot_price": 638.95,
-    "stop_suggestion": 557.57,
+    "stop_suggestion": 561.15,
     "target_suggestion": 798.69,
-    "gap_to_pivot_pct": -5.98
+    "gap_to_pivot_pct": -5.61
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
@@ -122,21 +122,21 @@
   },
   {
    "symbol": "HITECHCORP",
-   "ltp": 350.55,
+   "ltp": 350.8,
    "technicals": {
-    "rsi_14": 67.61,
-    "rel_volume_20d": 3.07,
-    "dist_20dma_pct": 4.25,
-    "dist_50dma_pct": 5.53,
-    "dist_200dma_pct": 52.76
+    "rsi_14": 67.81,
+    "rel_volume_20d": 2.03,
+    "dist_20dma_pct": 4.09,
+    "dist_50dma_pct": 5.41,
+    "dist_200dma_pct": 52.27
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
     "pivot_price": 345.25,
-    "stop_suggestion": 320.5,
+    "stop_suggestion": 322.0,
     "target_suggestion": 414.3,
-    "gap_to_pivot_pct": 1.54
+    "gap_to_pivot_pct": 1.61
    },
    "fundamentals": {
     "quarter": "Q1 FY27",

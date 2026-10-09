@@ -2,17 +2,8 @@
  "symbol": "BAFNAPH",
  "name": "Bafna Pharmaceuticals Limited",
  "kind": "stock",
- "as_of": "2026-10-08",
+ "as_of": "2026-10-09",
  "bars": [
-  {
-   "time": "2025-09-30",
-   "open": 169.34,
-   "high": 176.25,
-   "low": 169.34,
-   "close": 176.25,
-   "volume": 40015,
-   "delivery_pct": null
-  },
   {
    "time": "2025-10-01",
    "open": 176.25,
@@ -2271,14 +2262,19 @@
    "close": 409.85,
    "volume": 1108,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-09",
+   "open": 418.0,
+   "high": 418.0,
+   "low": 418.0,
+   "close": 418.0,
+   "volume": 549,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-29",
-    "value": 152.94
-   },
    {
     "time": "2025-10-30",
     "value": 151.17
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-08",
     "value": 345.08
+   },
+   {
+    "time": "2026-10-09",
+    "value": 350.9
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-11",
-    "value": 157.33
-   },
    {
     "time": "2025-12-12",
     "value": 156.72
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-08",
     "value": 302.66
+   },
+   {
+    "time": "2026-10-09",
+    "value": 305.97
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-24",
-    "value": 147.78
-   },
    {
     "time": "2026-07-27",
     "value": 148.11
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-08",
     "value": 185.12
+   },
+   {
+    "time": "2026-10-09",
+    "value": 186.5
    }
   ]
  },
  "technicals": {
-  "rsi_14": 89.24,
-  "atr_pct": 1.79,
-  "rel_volume_20d": 0.26,
-  "dist_20dma_pct": 18.77,
-  "dist_50dma_pct": 35.41,
-  "dist_200dma_pct": 121.4
+  "rsi_14": 90.15,
+  "atr_pct": 1.77,
+  "rel_volume_20d": 0.14,
+  "dist_20dma_pct": 19.12,
+  "dist_50dma_pct": 36.62,
+  "dist_200dma_pct": 124.13
  }
 }

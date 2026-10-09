@@ -2,7 +2,7 @@
  "symbol": "PNGSREVA",
  "name": "PNGS Reva Diamond Jewellery Limited",
  "kind": "stock",
- "as_of": "2026-10-08",
+ "as_of": "2026-10-09",
  "bars": [
   {
    "time": "2026-03-04",
@@ -1335,6 +1335,15 @@
    "close": 701.95,
    "volume": 14908756,
    "delivery_pct": 3.8
+  },
+  {
+   "time": "2026-10-09",
+   "open": 680.0,
+   "high": 720.95,
+   "low": 663.9,
+   "close": 687.75,
+   "volume": 2860095,
+   "delivery_pct": 8.33
   }
  ],
  "ma": {
@@ -1854,6 +1863,10 @@
    {
     "time": "2026-10-08",
     "value": 528.09
+   },
+   {
+    "time": "2026-10-09",
+    "value": 536.49
    }
   ],
   "sma_50": [
@@ -2252,15 +2265,19 @@
    {
     "time": "2026-10-08",
     "value": 529.08
+   },
+   {
+    "time": "2026-10-09",
+    "value": 533.88
    }
   ]
  },
  "technicals": {
-  "rsi_14": 80.98,
-  "atr_pct": 5.45,
-  "rel_volume_20d": 38.29,
-  "dist_20dma_pct": 32.92,
-  "dist_50dma_pct": 32.67,
+  "rsi_14": 76.85,
+  "atr_pct": 5.75,
+  "rel_volume_20d": 2.55,
+  "dist_20dma_pct": 28.19,
+  "dist_50dma_pct": 28.82,
   "dist_200dma_pct": null
  }
 }

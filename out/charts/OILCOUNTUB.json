@@ -2,17 +2,8 @@
  "symbol": "OILCOUNTUB",
  "name": "Oil Country Tubular Limited",
  "kind": "stock",
- "as_of": "2026-10-08",
+ "as_of": "2026-10-09",
  "bars": [
-  {
-   "time": "2025-09-30",
-   "open": 69.0,
-   "high": 71.09,
-   "low": 67.04,
-   "close": 71.0,
-   "volume": 13827,
-   "delivery_pct": 69.07
-  },
   {
    "time": "2025-10-01",
    "open": 71.99,
@@ -2271,14 +2262,19 @@
    "close": 84.56,
    "volume": 142655,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-09",
+   "open": 86.25,
+   "high": 86.25,
+   "low": 86.25,
+   "close": 86.25,
+   "volume": 46337,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-29",
-    "value": 72.22
-   },
    {
     "time": "2025-10-30",
     "value": 72.08
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-08",
     "value": 70.91
+   },
+   {
+    "time": "2026-10-09",
+    "value": 72.14
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-11",
-    "value": 67.65
-   },
    {
     "time": "2025-12-12",
     "value": 67.55
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-08",
     "value": 64.65
+   },
+   {
+    "time": "2026-10-09",
+    "value": 65.23
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-24",
-    "value": 57.05
-   },
    {
     "time": "2026-07-27",
     "value": 56.98
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-08",
     "value": 56.2
+   },
+   {
+    "time": "2026-10-09",
+    "value": 56.31
    }
   ]
  },
  "technicals": {
-  "rsi_14": 87.97,
-  "atr_pct": 2.0,
-  "rel_volume_20d": 3.64,
-  "dist_20dma_pct": 19.25,
-  "dist_50dma_pct": 30.8,
-  "dist_200dma_pct": 50.46
+  "rsi_14": 89.02,
+  "atr_pct": 1.96,
+  "rel_volume_20d": 1.01,
+  "dist_20dma_pct": 19.56,
+  "dist_50dma_pct": 32.21,
+  "dist_200dma_pct": 53.17
  }
 }
