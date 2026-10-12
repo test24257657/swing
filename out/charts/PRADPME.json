@@ -2,7 +2,7 @@
  "symbol": "PRADPME",
  "name": "Pradeep Metals Limited",
  "kind": "stock",
- "as_of": "2026-10-09",
+ "as_of": "2026-10-12",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1083,6 +1083,15 @@
    "close": 635.35,
    "volume": 115635,
    "delivery_pct": 39.72
+  },
+  {
+   "time": "2026-10-12",
+   "open": 645.15,
+   "high": 680.0,
+   "low": 610.0,
+   "close": 643.4,
+   "volume": 97032,
+   "delivery_pct": 48.2
   }
  ],
  "ma": {
@@ -1490,6 +1499,10 @@
    {
     "time": "2026-10-09",
     "value": 499.79
+   },
+   {
+    "time": "2026-10-12",
+    "value": 507.62
    }
   ],
   "sma_50": [
@@ -1776,15 +1789,19 @@
    {
     "time": "2026-10-09",
     "value": 503.62
+   },
+   {
+    "time": "2026-10-12",
+    "value": 506.15
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.29,
-  "atr_pct": 5.52,
-  "rel_volume_20d": 2.67,
-  "dist_20dma_pct": 27.12,
-  "dist_50dma_pct": 26.16,
+  "rsi_14": 72.07,
+  "atr_pct": 5.84,
+  "rel_volume_20d": 1.99,
+  "dist_20dma_pct": 26.75,
+  "dist_50dma_pct": 27.12,
   "dist_200dma_pct": null
  }
 }

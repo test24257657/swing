@@ -2,17 +2,8 @@
  "symbol": "TEAMGTY",
  "name": "Team India Guaranty Limited",
  "kind": "stock",
- "as_of": "2026-10-09",
+ "as_of": "2026-10-12",
  "bars": [
-  {
-   "time": "2025-10-01",
-   "open": 254.7,
-   "high": 256.0,
-   "low": 254.0,
-   "close": 256.0,
-   "volume": 1324,
-   "delivery_pct": null
-  },
   {
    "time": "2025-10-03",
    "open": 256.0,
@@ -2262,14 +2253,19 @@
    "close": 243.02,
    "volume": 1628,
    "delivery_pct": 75.18
+  },
+  {
+   "time": "2026-10-12",
+   "open": 249.9,
+   "high": 264.9,
+   "low": 240.0,
+   "close": 244.03,
+   "volume": 673,
+   "delivery_pct": 87.67
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-31",
-    "value": 250.25
-   },
    {
     "time": "2025-11-03",
     "value": 250.34
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-10-09",
     "value": 237.81
+   },
+   {
+    "time": "2026-10-12",
+    "value": 238.25
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-15",
-    "value": 259.94
-   },
    {
     "time": "2025-12-16",
     "value": 260.35
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-10-09",
     "value": 233.36
+   },
+   {
+    "time": "2026-10-12",
+    "value": 233.86
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-28",
-    "value": 257.64
-   },
    {
     "time": "2026-07-29",
     "value": 257.44
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-10-09",
     "value": 250.7
+   },
+   {
+    "time": "2026-10-12",
+    "value": 250.55
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.42,
-  "atr_pct": 3.55,
-  "rel_volume_20d": 3.36,
-  "dist_20dma_pct": 2.19,
-  "dist_50dma_pct": 4.14,
-  "dist_200dma_pct": -3.06
+  "rsi_14": 59.55,
+  "atr_pct": 4.01,
+  "rel_volume_20d": 1.22,
+  "dist_20dma_pct": 2.43,
+  "dist_50dma_pct": 4.35,
+  "dist_200dma_pct": -2.6
  }
 }

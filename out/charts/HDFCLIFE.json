@@ -2,17 +2,8 @@
  "symbol": "HDFCLIFE",
  "name": "HDFC Life Insurance Company Limited",
  "kind": "stock",
- "as_of": "2026-10-09",
+ "as_of": "2026-10-12",
  "bars": [
-  {
-   "time": "2025-10-01",
-   "open": 753.2,
-   "high": 766.75,
-   "low": 748.95,
-   "close": 764.0,
-   "volume": 1540724,
-   "delivery_pct": 65.06
-  },
   {
    "time": "2025-10-03",
    "open": 756.65,
@@ -2271,14 +2262,19 @@
    "close": 556.65,
    "volume": 2712798,
    "delivery_pct": 41.08
+  },
+  {
+   "time": "2026-10-12",
+   "open": 560.05,
+   "high": 563.95,
+   "low": 554.25,
+   "close": 559.25,
+   "volume": 1704385,
+   "delivery_pct": 46.11
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-30",
-    "value": 749.38
-   },
    {
     "time": "2025-10-31",
     "value": 747.77
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-09",
     "value": 539.06
+   },
+   {
+    "time": "2026-10-12",
+    "value": 540.71
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-12",
-    "value": 757.43
-   },
    {
     "time": "2025-12-15",
     "value": 757.6
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-09",
     "value": 540.38
+   },
+   {
+    "time": "2026-10-12",
+    "value": 540.66
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-27",
-    "value": 673.36
-   },
    {
     "time": "2026-07-28",
     "value": 672.34
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-09",
     "value": 616.99
+   },
+   {
+    "time": "2026-10-12",
+    "value": 616.02
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.91,
-  "atr_pct": 2.71,
-  "rel_volume_20d": 0.51,
-  "dist_20dma_pct": 3.26,
-  "dist_50dma_pct": 3.01,
-  "dist_200dma_pct": -9.78
+  "rsi_14": 58.95,
+  "atr_pct": 2.63,
+  "rel_volume_20d": 0.34,
+  "dist_20dma_pct": 3.43,
+  "dist_50dma_pct": 3.44,
+  "dist_200dma_pct": -9.22
  }
 }

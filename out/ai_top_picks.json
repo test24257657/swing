@@ -1,142 +1,142 @@
 {
- "as_of": "2026-10-09",
+ "as_of": "2026-10-12",
  "source": "rules",
- "universe": 130,
- "eligible": 21,
+ "universe": 158,
+ "eligible": 30,
  "picks": [
   {
-   "symbol": "GANDHAR",
-   "ltp": 296.55,
+   "symbol": "RGL",
+   "ltp": 164.29,
    "technicals": {
-    "rsi_14": 69.44,
-    "rel_volume_20d": 1.68,
-    "dist_20dma_pct": 8.06,
-    "dist_50dma_pct": 14.31,
-    "dist_200dma_pct": 61.84
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 282.6,
-    "stop_suggestion": 257.3,
-    "target_suggestion": 339.12,
-    "gap_to_pivot_pct": 4.94
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 1731.9,
-    "net_income_cr": 192.3,
-    "revenue_qoq_pct": 58.4,
-    "net_income_qoq_pct": 372.5
-   },
-   "reason": null,
-   "rank": 1,
-   "name": "Gandhar Oil Refinery (India) Limited"
-  },
-  {
-   "symbol": "GALAXYSURF",
-   "ltp": 2502.2,
-   "technicals": {
-    "rsi_14": 66.11,
-    "rel_volume_20d": 1.84,
-    "dist_20dma_pct": 9.7,
-    "dist_50dma_pct": 12.24,
-    "dist_200dma_pct": 27.6
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 2508.4,
-    "stop_suggestion": 2169.0,
-    "target_suggestion": 3010.08,
-    "gap_to_pivot_pct": -0.25
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 1781.9,
-    "net_income_cr": 165.9,
-    "revenue_qoq_pct": 35.5,
-    "net_income_qoq_pct": 165.9
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "Galaxy Surfactants Limited"
-  },
-  {
-   "symbol": "TFCILTD",
-   "ltp": 147.05,
-   "technicals": {
-    "rsi_14": 61.63,
-    "rel_volume_20d": 2.1,
-    "dist_20dma_pct": 3.92,
-    "dist_50dma_pct": 10.81,
-    "dist_200dma_pct": 68.7
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 146.71,
-    "stop_suggestion": 135.49,
-    "target_suggestion": 176.05,
-    "gap_to_pivot_pct": 0.23
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 77.4,
-    "net_income_cr": 61.2,
-    "revenue_qoq_pct": 7.4,
-    "net_income_qoq_pct": 91.3
-   },
-   "reason": null,
-   "rank": 3,
-   "name": "Tourism Finance Corporation of India Limited"
-  },
-  {
-   "symbol": "DICIND",
-   "ltp": 603.1,
-   "technicals": {
-    "rsi_14": 47.63,
-    "rel_volume_20d": 0.05,
-    "dist_20dma_pct": -3.16,
-    "dist_50dma_pct": 2.41,
-    "dist_200dma_pct": 13.01
+    "rsi_14": 57.08,
+    "rel_volume_20d": 0.45,
+    "dist_20dma_pct": 2.09,
+    "dist_50dma_pct": 14.92,
+    "dist_200dma_pct": 37.71
    },
    "pattern": {
     "code": "vcp",
     "stage": "forming",
-    "pivot_price": 638.95,
-    "stop_suggestion": 561.15,
-    "target_suggestion": 798.69,
-    "gap_to_pivot_pct": -5.61
+    "pivot_price": 173.8,
+    "stop_suggestion": 151.69,
+    "target_suggestion": 217.25,
+    "gap_to_pivot_pct": -5.47
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 282.7,
-    "net_income_cr": 14.3,
-    "revenue_qoq_pct": 17.9,
-    "net_income_qoq_pct": 240.5
+    "revenue_cr": 780.4,
+    "net_income_cr": 25.4,
+    "revenue_qoq_pct": 104.5,
+    "net_income_qoq_pct": 229.9
    },
    "reason": null,
-   "rank": 4,
-   "name": "DIC India Limited"
+   "rank": 1,
+   "name": "Renaissance Global Limited"
   },
   {
-   "symbol": "HITECHCORP",
-   "ltp": 350.8,
+   "symbol": "NRAIL",
+   "ltp": 706.1,
    "technicals": {
-    "rsi_14": 67.81,
-    "rel_volume_20d": 2.03,
-    "dist_20dma_pct": 4.09,
-    "dist_50dma_pct": 5.41,
-    "dist_200dma_pct": 52.27
+    "rsi_14": 67.03,
+    "rel_volume_20d": 5.46,
+    "dist_20dma_pct": 8.59,
+    "dist_50dma_pct": 23.03,
+    "dist_200dma_pct": 46.61
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 345.25,
+    "pivot_price": 677.25,
+    "stop_suggestion": 612.4,
+    "target_suggestion": 812.7,
+    "gap_to_pivot_pct": 4.26
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 647.0,
+    "net_income_cr": 35.0,
+    "revenue_qoq_pct": 6.9,
+    "net_income_qoq_pct": 146.5
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "N R Agarwal Industries Limited"
+  },
+  {
+   "symbol": "NEOGEN",
+   "ltp": 2534.5,
+   "technicals": {
+    "rsi_14": 62.83,
+    "rel_volume_20d": 1.85,
+    "dist_20dma_pct": 5.9,
+    "dist_50dma_pct": 12.23,
+    "dist_200dma_pct": 45.96
+   },
+   "pattern": {
+    "code": "vcp",
+    "stage": "confirmed",
+    "pivot_price": 2499.7,
+    "stop_suggestion": 2319.0,
+    "target_suggestion": 3124.62,
+    "gap_to_pivot_pct": 1.39
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 250.3,
+    "net_income_cr": 17.1,
+    "revenue_qoq_pct": 1.5,
+    "net_income_qoq_pct": 50.0
+   },
+   "reason": null,
+   "rank": 3,
+   "name": "Neogen Chemicals Limited"
+  },
+  {
+   "symbol": "GESHIP",
+   "ltp": 1550.5,
+   "technicals": {
+    "rsi_14": 63.08,
+    "rel_volume_20d": 0.6,
+    "dist_20dma_pct": 3.72,
+    "dist_50dma_pct": 10.68,
+    "dist_200dma_pct": 12.7
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 1583.0,
+    "stop_suggestion": 1489.38,
+    "target_suggestion": 1820.45,
+    "gap_to_pivot_pct": -2.05
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 2005.4,
+    "net_income_cr": 1308.8,
+    "revenue_qoq_pct": 32.7,
+    "net_income_qoq_pct": 25.4
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "The Great Eastern Shipping Company Limited"
+  },
+  {
+   "symbol": "HITECHCORP",
+   "ltp": 355.5,
+   "technicals": {
+    "rsi_14": 71.5,
+    "rel_volume_20d": 2.57,
+    "dist_20dma_pct": 5.12,
+    "dist_50dma_pct": 6.61,
+    "dist_200dma_pct": 53.69
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 349.1,
     "stop_suggestion": 322.0,
-    "target_suggestion": 414.3,
-    "gap_to_pivot_pct": 1.61
+    "target_suggestion": 418.92,
+    "gap_to_pivot_pct": 1.83
    },
    "fundamentals": {
     "quarter": "Q1 FY27",

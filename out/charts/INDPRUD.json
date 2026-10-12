@@ -2,7 +2,7 @@
  "symbol": "INDPRUD",
  "name": "Industrial & Prudential Investment Company Limited",
  "kind": "stock",
- "as_of": "2026-10-09",
+ "as_of": "2026-10-12",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1038,6 +1038,15 @@
    "close": 6300.0,
    "volume": 131,
    "delivery_pct": 96.95
+  },
+  {
+   "time": "2026-10-12",
+   "open": 6300.0,
+   "high": 6300.0,
+   "low": 6300.0,
+   "close": 6300.0,
+   "volume": 1,
+   "delivery_pct": 100.0
   }
  ],
  "ma": {
@@ -1425,6 +1434,10 @@
    {
     "time": "2026-10-09",
     "value": 6253.7
+   },
+   {
+    "time": "2026-10-12",
+    "value": 6258.12
    }
   ],
   "sma_50": [
@@ -1691,15 +1704,19 @@
    {
     "time": "2026-10-09",
     "value": 6296.07
+   },
+   {
+    "time": "2026-10-12",
+    "value": 6292.05
    }
   ]
  },
  "technicals": {
   "rsi_14": 51.42,
-  "atr_pct": 2.52,
-  "rel_volume_20d": 2.0,
-  "dist_20dma_pct": 0.74,
-  "dist_50dma_pct": 0.06,
+  "atr_pct": 2.34,
+  "rel_volume_20d": 0.01,
+  "dist_20dma_pct": 0.67,
+  "dist_50dma_pct": 0.13,
   "dist_200dma_pct": null
  }
 }

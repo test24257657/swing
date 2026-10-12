@@ -2,17 +2,8 @@
  "symbol": "WCIL",
  "name": "Western Carriers (India) Limited",
  "kind": "stock",
- "as_of": "2026-10-09",
+ "as_of": "2026-10-12",
  "bars": [
-  {
-   "time": "2025-10-01",
-   "open": 129.0,
-   "high": 130.17,
-   "low": 127.0,
-   "close": 127.98,
-   "volume": 207539,
-   "delivery_pct": 48.05
-  },
   {
    "time": "2025-10-03",
    "open": 127.8,
@@ -2271,14 +2262,19 @@
    "close": 97.52,
    "volume": 571502,
    "delivery_pct": 43.89
+  },
+  {
+   "time": "2026-10-12",
+   "open": 97.1,
+   "high": 99.4,
+   "low": 97.1,
+   "close": 98.23,
+   "volume": 257611,
+   "delivery_pct": 45.76
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-30",
-    "value": 127.09
-   },
    {
     "time": "2025-10-31",
     "value": 127.34
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-09",
     "value": 92.93
+   },
+   {
+    "time": "2026-10-12",
+    "value": 93.62
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-12",
-    "value": 124.68
-   },
    {
     "time": "2025-12-15",
     "value": 124.55
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-09",
     "value": 89.18
+   },
+   {
+    "time": "2026-10-12",
+    "value": 89.36
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-27",
-    "value": 109.19
-   },
    {
     "time": "2026-07-28",
     "value": 109.0
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-09",
     "value": 100.01
+   },
+   {
+    "time": "2026-10-12",
+    "value": 99.9
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.71,
-  "atr_pct": 3.96,
-  "rel_volume_20d": 2.33,
-  "dist_20dma_pct": 4.94,
-  "dist_50dma_pct": 9.36,
-  "dist_200dma_pct": -2.49
+  "rsi_14": 62.76,
+  "atr_pct": 3.82,
+  "rel_volume_20d": 0.96,
+  "dist_20dma_pct": 4.93,
+  "dist_50dma_pct": 9.92,
+  "dist_200dma_pct": -1.67
  }
 }
