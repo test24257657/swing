@@ -1,135 +1,135 @@
 {
- "generated_at": "2026-10-09T08:15:52+05:30",
- "for_session": "2026-10-09",
+ "generated_at": "2026-10-12T08:15:48+05:30",
+ "for_session": "2026-10-12",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7765.36,
-   "change_pct": -0.47,
-   "as_of": "2026-10-08"
+   "value": 7811.54,
+   "change_pct": 0.59,
+   "as_of": "2026-10-09"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 27193.34,
-   "change_pct": -1.25,
-   "as_of": "2026-10-08"
+   "value": 27366.17,
+   "change_pct": 0.64,
+   "as_of": "2026-10-09"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51231.64,
-   "change_pct": 0.1,
-   "as_of": "2026-10-08"
+   "value": 51654.95,
+   "change_pct": 0.83,
+   "as_of": "2026-10-09"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 68512.3,
-   "change_pct": -0.77,
+   "value": 69030.92,
+   "change_pct": -0.02,
    "as_of": "2026-10-09"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24038.06,
-   "change_pct": 1.06,
-   "as_of": "2026-10-09"
+   "value": 24330.94,
+   "change_pct": 0.49,
+   "as_of": "2026-10-12"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 6625.93,
-   "change_pct": -2.62,
-   "as_of": "2026-10-08"
+   "value": 6482.08,
+   "change_pct": -2.17,
+   "as_of": "2026-10-12"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 103.29,
-   "change_pct": 3.08,
-   "as_of": "2026-10-08"
+   "value": 102.94,
+   "change_pct": -1.7,
+   "as_of": "2026-10-11"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4197.3,
-   "change_pct": 1.37,
-   "as_of": "2026-10-08"
+   "value": 4229.3,
+   "change_pct": 0.31,
+   "as_of": "2026-10-11"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
    "value": 96.78,
-   "change_pct": 0.02,
-   "as_of": "2026-10-09"
+   "change_pct": -0.04,
+   "as_of": "2026-10-11"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.23,
-   "change_pct": -0.87,
-   "as_of": "2026-10-08"
+   "value": 5.24,
+   "change_pct": 0.25,
+   "as_of": "2026-10-09"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 102.03,
-   "change_pct": -0.21,
-   "as_of": "2026-10-08"
+   "value": 102.14,
+   "change_pct": -0.06,
+   "as_of": "2026-10-11"
   }
  ],
  "global_tone": {
-  "tone": "negative",
-  "avg_change_pct": -0.81,
-  "crude_alert": true
+  "tone": "mixed",
+  "avg_change_pct": -0.09,
+  "crude_alert": false
  },
  "nifty": {
-  "session": "2026-10-08",
-  "close": 22231.8,
-  "high": 22599.05,
-  "low": 22179.9,
-  "pivot": 22336.92,
-  "r1": 22493.93,
-  "s1": 22074.78,
-  "r2": 22756.07,
-  "s2": 21917.77,
-  "sma_20": 23017.99,
-  "sma_50": 23761.06,
-  "sma_200": 24282.77
+  "session": "2026-10-09",
+  "close": 22520.45,
+  "high": 22580.75,
+  "low": 22294.75,
+  "pivot": 22465.32,
+  "r1": 22635.88,
+  "s1": 22349.88,
+  "r2": 22751.32,
+  "s2": 22179.32,
+  "sma_20": 22972.44,
+  "sma_50": 23726.47,
+  "sma_200": 24266.28
  },
  "focus": [
   {
-   "symbol": "SPECTRUM",
-   "name": "Spectrum Electrical Industries Limited",
+   "symbol": "STLTECH",
+   "name": "Sterlite Technologies Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 99
+  },
+  {
+   "symbol": "HFCL",
+   "name": "HFCL Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 99
+  },
+  {
+   "symbol": "RATNAVEER",
+   "name": "Ratnaveer Precision Engineering Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
   {
-   "symbol": "TFCILTD",
-   "name": "Tourism Finance Corporation of India Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 98
-  },
-  {
-   "symbol": "CPPLUS",
-   "name": "Aditya Infotech Limited",
+   "symbol": "LOKESHMACH",
+   "name": "Lokesh Machines Limited",
    "why": "Ready setup near its pivot",
    "rs": 97
   },
   {
-   "symbol": "SSWL",
-   "name": "Steel Strips Wheels Limited",
+   "symbol": "BLUSPRING",
+   "name": "Bluspring Enterprises Limited",
    "why": "Ready setup near its pivot",
    "rs": 96
-  },
-  {
-   "symbol": "AETHER",
-   "name": "Aether Industries Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 95
   },
   {
    "symbol": "GANDHAR",
@@ -138,14 +138,14 @@
    "rs": null
   },
   {
-   "symbol": "TATVA",
-   "name": "Tatva Chintan Pharma Chem Limited",
+   "symbol": "GALAXYSURF",
+   "name": "Galaxy Surfactants Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "LOTUSDEV",
-   "name": "Sri Lotus Developers and Realty Limited",
+   "symbol": "TFCILTD",
+   "name": "Tourism Finance Corporation of India Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -162,73 +162,79 @@
    "rs": null
   },
   {
-   "symbol": "DIACABS",
-   "name": "Diamond Power Infrastructure Limited",
+   "symbol": "MODISONLTD",
+   "name": "MODISON LIMITED",
    "why": "Pocket pivot yesterday",
    "rs": 98
   },
   {
-   "symbol": "SALSTEEL",
-   "name": "S.A.L. Steel Limited",
+   "symbol": "SHREEJISPG",
+   "name": "Shreeji Shipping Global Limited",
    "why": "Pocket pivot yesterday",
    "rs": 98
   },
   {
-   "symbol": "GCSL",
-   "name": "Gretex Corporate Services Limited",
+   "symbol": "SAKAR",
+   "name": "Sakar Healthcare Limited",
    "why": "Pocket pivot yesterday",
    "rs": 97
   },
   {
-   "symbol": "INDOBORAX",
-   "name": "Indo Borax & Chemicals Limited",
+   "symbol": "IRISDOREME",
+   "name": "Iris Clothings Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 93
-  },
-  {
-   "symbol": "MANORAMA",
-   "name": "Manorama Industries Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 90
+   "rs": 94
   }
  ],
  "overnight_news": [
   {
-   "symbol": "ICICIBANK",
-   "time": "08 Oct 17:56",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "ICICI Bank Limited has informed the Exchange regarding Allotment of 80255  Shares.",
-   "url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_08102026175523_LETTERTOSTOCKEXCHANGE.pdf"
+   "symbol": "TECHM",
+   "time": "09 Oct 23:27",
+   "category": "Sale or disposal",
+   "text": "Tech Mahindra Limited has informed the Exchange about Liquidation of a stepdownsubsidiary of the Company",
+   "url": "https://nsearchives.nseindia.com/corporate/Apekshakhemka_09102026232520_LiquidationIntimation-LCC_poland_S.pdf"
   },
   {
-   "symbol": "SHRIRAMFIN",
-   "time": "08 Oct 17:15",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Shriram Finance Limited has informed the Exchange regarding Allotment of 41758  Equity Shares on Exercise of Fresh Stock Option under SFL ESOP 2023 No.1",
-   "url": "https://nsearchives.nseindia.com/corporate/Mathew_08102026171459_NSEBSEallotmentofESOSOCT2026.pdf"
+   "symbol": "M&M",
+   "time": "09 Oct 23:20",
+   "category": "Sale or disposal",
+   "text": "Mahindra & Mahindra Limited has informed the Exchange about Sale or disposal",
+   "url": "https://nsearchives.nseindia.com/corporate/AmitDodani_09102026232007_Novavayu_SE_Intimation_Investment_Agreement_Revised.pdf"
   },
   {
-   "symbol": "TCS",
-   "time": "08 Oct 15:42",
-   "category": "Dividend",
-   "text": "Tata Consultancy Services Limited has informed the Exchange that Board of Directors at its meeting held on October 8, 2026, declared Interim Dividend of Rs. 12 per equity share.",
-   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154152_Post_BM_SE_Letter_fin.pdf"
+   "symbol": "TECHM",
+   "time": "09 Oct 22:29",
+   "category": "Sale or disposal",
+   "text": "Tech Mahindra Limited has informed the Exchange about Liquidation of step down subsidiary of the Company",
+   "url": "https://nsearchives.nseindia.com/corporate/Apekshakhemka_09102026222936_LiquidationIntimation-LCC_poland_S.pdf"
   },
   {
-   "symbol": "TCS",
-   "time": "08 Oct 15:40",
-   "category": "Outcome of Board Meeting",
-   "text": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf"
+   "symbol": "MAXHEALTH",
+   "time": "09 Oct 22:24",
+   "category": "Credit Rating",
+   "text": "Max Healthcare Institute Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.com/corporate/MAXHEALTH_09102026222417_SE_Intimation.pdf"
+  },
+  {
+   "symbol": "ONGC",
+   "time": "09 Oct 19:33",
+   "category": "Credit Rating",
+   "text": "Oil & Natural Gas Corporation Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.com/corporate/ONGC_09102026193255_creditrating09102026.pdf"
+  },
+  {
+   "symbol": "LOKESHMACH",
+   "time": "09 Oct 18:06",
+   "category": "Action(s) taken or orders passed",
+   "text": "Lokesh Machines Limited has informed the Exchange about Action(s) taken or orders passed",
+   "url": "https://nsearchives.nseindia.com/corporate/LOKESHMACH_09102026180206_sdfinal.pdf"
   }
  ],
  "events": [
-  "7 companies report results today."
+  "12 companies report results today."
  ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
-  "Weak global cues — let the first 15-30 minutes settle before acting.",
-  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
