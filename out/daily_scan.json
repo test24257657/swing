@@ -5,12 +5,12 @@
   "label": "Stay defensive",
   "advice": "Avoid new buys. Protect open trades with tight stops.",
   "reasons": [
-   "NIFTY 50 is below its 50-day average (-5.1%)",
-   "below its 200-day average (-7.2%)",
+   "NIFTY 50 is below its 50-day average (-5.6%)",
+   "below its 200-day average (-7.8%)",
    "11 distribution days in the last 25 sessions \u2014 big players are selling",
    "25% of stocks are above their 50-day average"
   ],
-  "nifty_close": 22520.45,
+  "nifty_close": 22363.35,
   "distribution_days": 11,
   "pct_above_50dma": 24.7
  },
@@ -460,7 +460,7 @@
   {
    "sector": "NIFTY MEDIA",
    "rank": 1,
-   "return_1m": 0.82,
+   "return_1m": 6.44,
    "stocks": [
     {
      "symbol": "NAZARA",
@@ -491,7 +491,7 @@
   {
    "sector": "NIFTY PRIVATE BANK",
    "rank": 2,
-   "return_1m": -0.92,
+   "return_1m": -0.34,
    "stocks": [
     {
      "symbol": "RBLBANK",
@@ -520,33 +520,33 @@
    ]
   },
   {
-   "sector": "NIFTY FMCG",
+   "sector": "NIFTY IT",
    "rank": 3,
-   "return_1m": -1.94,
+   "return_1m": -1.95,
    "stocks": [
     {
-     "symbol": "RADICO",
-     "name": "Radico Khaitan Limited",
-     "ltp": 4555.0,
-     "change_pct": 0.11,
-     "rs": 89,
-     "rel_volume": 0.71
+     "symbol": "COFORGE",
+     "name": "Coforge Limited",
+     "ltp": 1846.6,
+     "change_pct": -1.14,
+     "rs": 82,
+     "rel_volume": 0.57
     },
     {
-     "symbol": "NESTLEIND",
-     "name": "Nestle India Limited",
-     "ltp": 1324.7,
-     "change_pct": -0.62,
-     "rs": 65,
-     "rel_volume": 1.05
+     "symbol": "OFSS",
+     "name": "Oracle Financial Services Software Limited",
+     "ltp": 10360.0,
+     "change_pct": -1.43,
+     "rs": 76,
+     "rel_volume": 1.14
     },
     {
-     "symbol": "MARICO",
-     "name": "Marico Limited",
-     "ltp": 782.4,
-     "change_pct": -0.48,
-     "rs": 63,
-     "rel_volume": 0.64
+     "symbol": "PERSISTENT",
+     "name": "Persistent Systems Limited",
+     "ltp": 5787.0,
+     "change_pct": 0.29,
+     "rs": 71,
+     "rel_volume": 0.76
     }
    ]
   }

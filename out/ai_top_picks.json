@@ -2,7 +2,7 @@
  "as_of": "2026-10-12",
  "source": "rules",
  "universe": 158,
- "eligible": 30,
+ "eligible": 26,
  "picks": [
   {
    "symbol": "RGL",
@@ -34,35 +34,6 @@
    "name": "Renaissance Global Limited"
   },
   {
-   "symbol": "NRAIL",
-   "ltp": 706.1,
-   "technicals": {
-    "rsi_14": 67.03,
-    "rel_volume_20d": 5.46,
-    "dist_20dma_pct": 8.59,
-    "dist_50dma_pct": 23.03,
-    "dist_200dma_pct": 46.61
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 677.25,
-    "stop_suggestion": 612.4,
-    "target_suggestion": 812.7,
-    "gap_to_pivot_pct": 4.26
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 647.0,
-    "net_income_cr": 35.0,
-    "revenue_qoq_pct": 6.9,
-    "net_income_qoq_pct": 146.5
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "N R Agarwal Industries Limited"
-  },
-  {
    "symbol": "NEOGEN",
    "ltp": 2534.5,
    "technicals": {
@@ -88,7 +59,7 @@
     "net_income_qoq_pct": 50.0
    },
    "reason": null,
-   "rank": 3,
+   "rank": 2,
    "name": "Neogen Chemicals Limited"
   },
   {
@@ -117,7 +88,7 @@
     "net_income_qoq_pct": 25.4
    },
    "reason": null,
-   "rank": 4,
+   "rank": 3,
    "name": "The Great Eastern Shipping Company Limited"
   },
   {
@@ -146,8 +117,37 @@
     "net_income_qoq_pct": -20.2
    },
    "reason": null,
-   "rank": 5,
+   "rank": 4,
    "name": "Hitech Corporation Limited"
+  },
+  {
+   "symbol": "AVTNPL",
+   "ltp": 97.5,
+   "technicals": {
+    "rsi_14": 60.85,
+    "rel_volume_20d": 1.83,
+    "dist_20dma_pct": 7.89,
+    "dist_50dma_pct": 13.81,
+    "dist_200dma_pct": 36.7
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 98.26,
+    "stop_suggestion": 83.1,
+    "target_suggestion": 117.91,
+    "gap_to_pivot_pct": -0.77
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 241.2,
+    "net_income_cr": 31.1,
+    "revenue_qoq_pct": 6.5,
+    "net_income_qoq_pct": 41.4
+   },
+   "reason": null,
+   "rank": 5,
+   "name": "AVT Natural Products Limited"
   }
  ]
 }
