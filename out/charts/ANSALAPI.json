@@ -2,17 +2,8 @@
  "symbol": "ANSALAPI",
  "name": "Ansal Properties & Infrastructure Limited",
  "kind": "stock",
- "as_of": "2026-10-12",
+ "as_of": "2026-10-13",
  "bars": [
-  {
-   "time": "2025-10-03",
-   "open": 4.58,
-   "high": 4.7,
-   "low": 4.54,
-   "close": 4.56,
-   "volume": 45888,
-   "delivery_pct": null
-  },
   {
    "time": "2025-10-06",
    "open": 4.54,
@@ -2262,14 +2253,19 @@
    "close": 3.65,
    "volume": 8485,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-13",
+   "open": 3.72,
+   "high": 3.72,
+   "low": 3.58,
+   "close": 3.64,
+   "volume": 6404,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-31",
-    "value": 4.41
-   },
    {
     "time": "2025-11-03",
     "value": 4.4
@@ -2664,7 +2660,7 @@
    },
    {
     "time": "2026-03-27",
-    "value": 3.6
+    "value": 3.59
    },
    {
     "time": "2026-03-30",
@@ -2856,7 +2852,7 @@
    },
    {
     "time": "2026-06-10",
-    "value": 3.98
+    "value": 3.99
    },
    {
     "time": "2026-06-11",
@@ -2940,7 +2936,7 @@
    },
    {
     "time": "2026-07-13",
-    "value": 2.96
+    "value": 2.95
    },
    {
     "time": "2026-07-14",
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-10-12",
     "value": 3.78
+   },
+   {
+    "time": "2026-10-13",
+    "value": 3.79
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-15",
-    "value": 3.95
-   },
    {
     "time": "2025-12-16",
     "value": 3.93
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-10-12",
     "value": 3.55
+   },
+   {
+    "time": "2026-10-13",
+    "value": 3.55
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-29",
-    "value": 3.54
-   },
    {
     "time": "2026-07-30",
     "value": 3.53
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-10-12",
     "value": 3.44
+   },
+   {
+    "time": "2026-10-13",
+    "value": 3.44
    }
   ]
  },
  "technicals": {
-  "rsi_14": 46.53,
-  "atr_pct": 2.86,
-  "rel_volume_20d": 0.22,
-  "dist_20dma_pct": -3.32,
-  "dist_50dma_pct": 2.87,
-  "dist_200dma_pct": 6.15
+  "rsi_14": 45.98,
+  "atr_pct": 2.94,
+  "rel_volume_20d": 0.16,
+  "dist_20dma_pct": -3.97,
+  "dist_50dma_pct": 2.41,
+  "dist_200dma_pct": 5.86
  }
 }

@@ -2,17 +2,8 @@
  "symbol": "NILAINFRA",
  "name": "Nila Infrastructures Limited",
  "kind": "stock",
- "as_of": "2026-10-12",
+ "as_of": "2026-10-13",
  "bars": [
-  {
-   "time": "2025-10-03",
-   "open": 10.14,
-   "high": 10.4,
-   "low": 10.09,
-   "close": 10.29,
-   "volume": 402710,
-   "delivery_pct": 50.53
-  },
   {
    "time": "2025-10-06",
    "open": 10.4,
@@ -2271,14 +2262,19 @@
    "close": 6.83,
    "volume": 1034852,
    "delivery_pct": 47.05
+  },
+  {
+   "time": "2026-10-13",
+   "open": 6.9,
+   "high": 6.99,
+   "low": 6.83,
+   "close": 6.87,
+   "volume": 54791,
+   "delivery_pct": 80.32
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-10-31",
-    "value": 10.24
-   },
    {
     "time": "2025-11-03",
     "value": 10.23
@@ -2681,7 +2677,7 @@
    },
    {
     "time": "2026-04-01",
-    "value": 7.09
+    "value": 7.08
    },
    {
     "time": "2026-04-02",
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-12",
     "value": 6.69
+   },
+   {
+    "time": "2026-10-13",
+    "value": 6.7
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-15",
-    "value": 9.91
-   },
    {
     "time": "2025-12-16",
     "value": 9.9
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-12",
     "value": 6.91
+   },
+   {
+    "time": "2026-10-13",
+    "value": 6.89
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-28",
-    "value": 8.56
-   },
    {
     "time": "2026-07-29",
     "value": 8.55
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-12",
     "value": 7.79
+   },
+   {
+    "time": "2026-10-13",
+    "value": 7.77
    }
   ]
  },
  "technicals": {
-  "rsi_14": 53.22,
-  "atr_pct": 4.78,
-  "rel_volume_20d": 6.9,
-  "dist_20dma_pct": 2.13,
-  "dist_50dma_pct": -1.09,
-  "dist_200dma_pct": -12.29
+  "rsi_14": 54.62,
+  "atr_pct": 4.58,
+  "rel_volume_20d": 0.28,
+  "dist_20dma_pct": 2.55,
+  "dist_50dma_pct": -0.36,
+  "dist_200dma_pct": -11.63
  }
 }

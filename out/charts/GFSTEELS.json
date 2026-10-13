@@ -2,7 +2,7 @@
  "symbol": "GFSTEELS",
  "name": "Grand Foundry Limited",
  "kind": "stock",
- "as_of": "2026-10-12",
+ "as_of": "2026-10-13",
  "bars": [
   {
    "time": "2025-10-06",
@@ -642,6 +642,15 @@
    "close": 43.09,
    "volume": 5972,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-13",
+   "open": 43.95,
+   "high": 43.95,
+   "low": 43.95,
+   "close": 43.95,
+   "volume": 6514,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -853,6 +862,10 @@
    {
     "time": "2026-10-12",
     "value": 32.76
+   },
+   {
+    "time": "2026-10-13",
+    "value": 33.91
    }
   ],
   "sma_50": [
@@ -943,15 +956,19 @@
    {
     "time": "2026-10-12",
     "value": 21.4
+   },
+   {
+    "time": "2026-10-13",
+    "value": 22.04
    }
   ]
  },
  "technicals": {
   "rsi_14": 100.0,
-  "atr_pct": 2.27,
-  "rel_volume_20d": 0.16,
-  "dist_20dma_pct": 31.53,
-  "dist_50dma_pct": 101.35,
+  "atr_pct": 2.2,
+  "rel_volume_20d": 0.17,
+  "dist_20dma_pct": 29.61,
+  "dist_50dma_pct": 99.37,
   "dist_200dma_pct": null
  }
 }

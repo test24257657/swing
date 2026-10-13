@@ -2,7 +2,7 @@
  "symbol": "SUPREMEENG",
  "name": "Supreme Engineering Limited",
  "kind": "stock",
- "as_of": "2026-10-12",
+ "as_of": "2026-10-13",
  "bars": [
   {
    "time": "2025-10-06",
@@ -1956,6 +1956,15 @@
    "close": 4.74,
    "volume": 89204,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-13",
+   "open": 4.83,
+   "high": 4.83,
+   "low": 4.83,
+   "close": 4.83,
+   "volume": 292018,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -2751,6 +2760,10 @@
    {
     "time": "2026-10-12",
     "value": 3.99
+   },
+   {
+    "time": "2026-10-13",
+    "value": 4.07
    }
   ],
   "sma_50": [
@@ -3425,6 +3438,10 @@
    {
     "time": "2026-10-12",
     "value": 3.16
+   },
+   {
+    "time": "2026-10-13",
+    "value": 3.21
    }
   ],
   "sma_200": [
@@ -3499,15 +3516,19 @@
    {
     "time": "2026-10-12",
     "value": 1.69
+   },
+   {
+    "time": "2026-10-13",
+    "value": 1.71
    }
   ]
  },
  "technicals": {
-  "rsi_14": 99.54,
+  "rsi_14": 99.58,
   "atr_pct": 1.5,
-  "rel_volume_20d": 0.19,
-  "dist_20dma_pct": 18.74,
-  "dist_50dma_pct": 50.18,
-  "dist_200dma_pct": 181.15
+  "rel_volume_20d": 0.65,
+  "dist_20dma_pct": 18.76,
+  "dist_50dma_pct": 50.42,
+  "dist_200dma_pct": 183.26
  }
 }
