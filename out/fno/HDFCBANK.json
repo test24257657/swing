@@ -1,0 +1,170 @@
+{
+ "symbol": "HDFCBANK",
+ "buildup": {
+  "label": "short_covering",
+  "note": "Shorts are closing out \u2014 open interest is falling as price rises.",
+  "expiry": "2026-10-27",
+  "price_chg_pct": 1.93,
+  "oi_chg_pct": -1.7,
+  "open_interest": 323163750,
+  "close": 718.9
+ },
+ "option_chain": {
+  "expiry": "27-Oct-2026",
+  "underlying_value": 714,
+  "rows": [
+   {
+    "strike": 610,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 156,
+    "put_oi_chg": -25
+   },
+   {
+    "strike": 620,
+    "call_oi": 2,
+    "call_oi_chg": 0,
+    "put_oi": 930,
+    "put_oi_chg": 33
+   },
+   {
+    "strike": 630,
+    "call_oi": 10,
+    "call_oi_chg": 0,
+    "put_oi": 2557,
+    "put_oi_chg": -26
+   },
+   {
+    "strike": 640,
+    "call_oi": 229,
+    "call_oi_chg": 1,
+    "put_oi": 2203,
+    "put_oi_chg": -26
+   },
+   {
+    "strike": 650,
+    "call_oi": 208,
+    "call_oi_chg": -73,
+    "put_oi": 3034,
+    "put_oi_chg": -376
+   },
+   {
+    "strike": 660,
+    "call_oi": 299,
+    "call_oi_chg": -52,
+    "put_oi": 7917,
+    "put_oi_chg": 930
+   },
+   {
+    "strike": 670,
+    "call_oi": 497,
+    "call_oi_chg": -30,
+    "put_oi": 8580,
+    "put_oi_chg": 382
+   },
+   {
+    "strike": 680,
+    "call_oi": 1379,
+    "call_oi_chg": -190,
+    "put_oi": 5872,
+    "put_oi_chg": -1048
+   },
+   {
+    "strike": 690,
+    "call_oi": 2033,
+    "call_oi_chg": -319,
+    "put_oi": 7269,
+    "put_oi_chg": 466
+   },
+   {
+    "strike": 700,
+    "call_oi": 10253,
+    "call_oi_chg": -2602,
+    "put_oi": 21204,
+    "put_oi_chg": 307
+   },
+   {
+    "strike": 710,
+    "call_oi": 18274,
+    "call_oi_chg": -2124,
+    "put_oi": 9876,
+    "put_oi_chg": 2426
+   },
+   {
+    "strike": 720,
+    "call_oi": 29197,
+    "call_oi_chg": 1056,
+    "put_oi": 16292,
+    "put_oi_chg": 373
+   },
+   {
+    "strike": 730,
+    "call_oi": 25307,
+    "call_oi_chg": 1051,
+    "put_oi": 8151,
+    "put_oi_chg": 184
+   },
+   {
+    "strike": 740,
+    "call_oi": 27612,
+    "call_oi_chg": 213,
+    "put_oi": 9304,
+    "put_oi_chg": -84
+   },
+   {
+    "strike": 750,
+    "call_oi": 35807,
+    "call_oi_chg": -2222,
+    "put_oi": 8033,
+    "put_oi_chg": -81
+   },
+   {
+    "strike": 760,
+    "call_oi": 18001,
+    "call_oi_chg": -69,
+    "put_oi": 1915,
+    "put_oi_chg": 10
+   },
+   {
+    "strike": 770,
+    "call_oi": 7498,
+    "call_oi_chg": 607,
+    "put_oi": 654,
+    "put_oi_chg": -2
+   },
+   {
+    "strike": 780,
+    "call_oi": 6872,
+    "call_oi_chg": -260,
+    "put_oi": 1123,
+    "put_oi_chg": -20
+   },
+   {
+    "strike": 790,
+    "call_oi": 4243,
+    "call_oi_chg": -133,
+    "put_oi": 156,
+    "put_oi_chg": -8
+   },
+   {
+    "strike": 800,
+    "call_oi": 19322,
+    "call_oi_chg": -1883,
+    "put_oi": 3763,
+    "put_oi_chg": -55
+   },
+   {
+    "strike": 810,
+    "call_oi": 2602,
+    "call_oi_chg": -74,
+    "put_oi": 538,
+    "put_oi_chg": 0
+   }
+  ],
+  "pcr": 0.56,
+  "total_call_oi": 226391,
+  "total_put_oi": 125742,
+  "max_call_oi_strike": 750,
+  "max_put_oi_strike": 700
+ }
+}

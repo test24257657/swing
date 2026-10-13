@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T18:45:18+05:30",
+ "generated_at": "2026-10-14T01:07:17+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -7,24 +7,8 @@
   },
   "bhavcopy": {
    "ok": true,
-   "sessions_added": 1,
-   "failed": [
-    "2025-10-22",
-    "2025-11-05",
-    "2025-12-25",
-    "2026-01-15",
-    "2026-01-26",
-    "2026-03-03",
-    "2026-03-26",
-    "2026-03-31",
-    "2026-04-03",
-    "2026-04-14",
-    "2026-05-01",
-    "2026-05-28",
-    "2026-06-26",
-    "2026-09-14",
-    "2026-10-02"
-   ],
+   "sessions_added": 0,
+   "failed": [],
    "phantom_sessions_dropped": [],
    "symbols": 3097,
    "sessions": 252,
@@ -101,20 +85,21 @@
   },
   "news": {
    "ok": true,
-   "fetched": 33,
+   "fetched": 38,
    "classified": 0,
    "gemini_configured": true
   },
   "institutional": {
    "ok": true,
-   "deals": 105,
+   "deals": 171,
    "participant_oi_sessions": 30,
    "ai_money_flow": false
   },
   "fno": {
-   "ok": false,
-   "symbols": 164,
-   "written": 0
+   "ok": true,
+   "eligible": 213,
+   "symbols": 18,
+   "written": 18
   },
   "depth": {
    "ok": false,
@@ -137,7 +122,7 @@
   },
   "results_calendar": {
    "ok": true,
-   "upcoming": 324,
+   "upcoming": 333,
    "past_candidates": 72,
    "judged": 20,
    "good": 0
