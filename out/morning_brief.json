@@ -1,104 +1,104 @@
 {
- "generated_at": "2026-10-12T08:15:48+05:30",
- "for_session": "2026-10-12",
+ "generated_at": "2026-10-13T08:15:52+05:30",
+ "for_session": "2026-10-13",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7811.54,
-   "change_pct": 0.59,
-   "as_of": "2026-10-09"
+   "value": 7807.24,
+   "change_pct": -0.06,
+   "as_of": "2026-10-12"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 27366.17,
-   "change_pct": 0.64,
-   "as_of": "2026-10-09"
+   "value": 27245.9,
+   "change_pct": -0.44,
+   "as_of": "2026-10-12"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51654.95,
-   "change_pct": 0.83,
-   "as_of": "2026-10-09"
+   "value": 51850.55,
+   "change_pct": 0.38,
+   "as_of": "2026-10-12"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 69030.92,
-   "change_pct": -0.02,
-   "as_of": "2026-10-09"
+   "value": 67292.39,
+   "change_pct": -2.52,
+   "as_of": "2026-10-13"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24330.94,
-   "change_pct": 0.49,
-   "as_of": "2026-10-12"
+   "value": 23997.02,
+   "change_pct": -1.13,
+   "as_of": "2026-10-13"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 6482.08,
-   "change_pct": -2.17,
-   "as_of": "2026-10-12"
+   "value": 5974.66,
+   "change_pct": -6.42,
+   "as_of": "2026-10-13"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 102.94,
-   "change_pct": -1.7,
-   "as_of": "2026-10-11"
+   "value": 105.51,
+   "change_pct": 0.75,
+   "as_of": "2026-10-12"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4229.3,
-   "change_pct": 0.31,
-   "as_of": "2026-10-11"
+   "value": 4191.8,
+   "change_pct": -0.58,
+   "as_of": "2026-10-12"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 96.78,
-   "change_pct": -0.04,
-   "as_of": "2026-10-11"
+   "value": 95.76,
+   "change_pct": -1.1,
+   "as_of": "2026-10-13"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
    "value": 5.24,
-   "change_pct": 0.25,
-   "as_of": "2026-10-09"
+   "change_pct": -0.08,
+   "as_of": "2026-10-12"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 102.14,
-   "change_pct": -0.06,
-   "as_of": "2026-10-11"
+   "value": 102.41,
+   "change_pct": 0.2,
+   "as_of": "2026-10-12"
   }
  ],
  "global_tone": {
-  "tone": "mixed",
-  "avg_change_pct": -0.09,
+  "tone": "negative",
+  "avg_change_pct": -2.11,
   "crude_alert": false
  },
  "nifty": {
-  "session": "2026-10-09",
-  "close": 22520.45,
-  "high": 22580.75,
-  "low": 22294.75,
-  "pivot": 22465.32,
-  "r1": 22635.88,
-  "s1": 22349.88,
-  "r2": 22751.32,
-  "s2": 22179.32,
-  "sma_20": 22972.44,
-  "sma_50": 23726.47,
-  "sma_200": 24266.28
+  "session": "2026-10-12",
+  "close": 22363.35,
+  "high": 22651.1,
+  "low": 22304.45,
+  "pivot": 22439.63,
+  "r1": 22574.82,
+  "s1": 22228.17,
+  "r2": 22786.28,
+  "s2": 22092.98,
+  "sma_20": 22916.72,
+  "sma_50": 23687.39,
+  "sma_200": 24249.01
  },
  "focus": [
   {
@@ -108,50 +108,44 @@
    "rs": 99
   },
   {
-   "symbol": "HFCL",
-   "name": "HFCL Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 99
-  },
-  {
-   "symbol": "RATNAVEER",
-   "name": "Ratnaveer Precision Engineering Limited",
+   "symbol": "TFCILTD",
+   "name": "Tourism Finance Corporation of India Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
   {
-   "symbol": "LOKESHMACH",
-   "name": "Lokesh Machines Limited",
+   "symbol": "CYIENTDLM",
+   "name": "Cyient DLM Limited",
    "why": "Ready setup near its pivot",
-   "rs": 97
+   "rs": 98
   },
   {
-   "symbol": "BLUSPRING",
-   "name": "Bluspring Enterprises Limited",
+   "symbol": "AEROFLEX",
+   "name": "Aeroflex Industries Limited",
    "why": "Ready setup near its pivot",
-   "rs": 96
+   "rs": 98
   },
   {
-   "symbol": "GANDHAR",
-   "name": "Gandhar Oil Refinery (India) Limited",
+   "symbol": "WELCORP",
+   "name": "Welspun Corp Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 98
+  },
+  {
+   "symbol": "RGL",
+   "name": "Renaissance Global Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "GALAXYSURF",
-   "name": "Galaxy Surfactants Limited",
+   "symbol": "NEOGEN",
+   "name": "Neogen Chemicals Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "TFCILTD",
-   "name": "Tourism Finance Corporation of India Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "DICIND",
-   "name": "DIC India Limited",
+   "symbol": "GESHIP",
+   "name": "The Great Eastern Shipping Company Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -162,79 +156,115 @@
    "rs": null
   },
   {
-   "symbol": "MODISONLTD",
-   "name": "MODISON LIMITED",
-   "why": "Pocket pivot yesterday",
-   "rs": 98
+   "symbol": "AVTNPL",
+   "name": "AVT Natural Products Limited",
+   "why": "AI top 5",
+   "rs": null
   },
   {
-   "symbol": "SHREEJISPG",
-   "name": "Shreeji Shipping Global Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 98
-  },
-  {
-   "symbol": "SAKAR",
-   "name": "Sakar Healthcare Limited",
+   "symbol": "SBCL",
+   "name": "Shivalik Bimetal Controls Limited",
    "why": "Pocket pivot yesterday",
    "rs": 97
   },
   {
-   "symbol": "IRISDOREME",
-   "name": "Iris Clothings Limited",
+   "symbol": "SHADOWFAX",
+   "name": "Shadowfax Technologies Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 94
+   "rs": 95
+  },
+  {
+   "symbol": "UNIVCABLES",
+   "name": "Universal Cables Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 95
+  },
+  {
+   "symbol": "ESAFSFB",
+   "name": "ESAF Small Finance Bank Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 92
   }
  ],
  "overnight_news": [
   {
-   "symbol": "TECHM",
-   "time": "09 Oct 23:27",
-   "category": "Sale or disposal",
-   "text": "Tech Mahindra Limited has informed the Exchange about Liquidation of a stepdownsubsidiary of the Company",
-   "url": "https://nsearchives.nseindia.com/corporate/Apekshakhemka_09102026232520_LiquidationIntimation-LCC_poland_S.pdf"
+   "symbol": "POWERGRID",
+   "time": "12 Oct 21:45",
+   "category": "Acquisition",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange about Acquisition of Jam Khambhaliya REZ Transmission Limited by POWERGRID under TBCB route.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_12102026214537_JamKhambhaliya.pdf"
   },
   {
-   "symbol": "M&M",
-   "time": "09 Oct 23:20",
-   "category": "Sale or disposal",
-   "text": "Mahindra & Mahindra Limited has informed the Exchange about Sale or disposal",
-   "url": "https://nsearchives.nseindia.com/corporate/AmitDodani_09102026232007_Novavayu_SE_Intimation_Investment_Agreement_Revised.pdf"
+   "symbol": "POWERGRID",
+   "time": "12 Oct 21:44",
+   "category": "Acquisition",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange about Acquisition of Lakadia C Power Transmission Limited by POWERGRID under TBCB route.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_12102026214346_LakadiaC.pdf"
   },
   {
-   "symbol": "TECHM",
-   "time": "09 Oct 22:29",
-   "category": "Sale or disposal",
-   "text": "Tech Mahindra Limited has informed the Exchange about Liquidation of step down subsidiary of the Company",
-   "url": "https://nsearchives.nseindia.com/corporate/Apekshakhemka_09102026222936_LiquidationIntimation-LCC_poland_S.pdf"
+   "symbol": "SUNPHARMA",
+   "time": "12 Oct 20:34",
+   "category": "Resignation of Director/KMP/SMP",
+   "text": "Sun Pharmaceutical Industries Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_ROID_100278_KMP_Doc.zip"
   },
   {
-   "symbol": "MAXHEALTH",
-   "time": "09 Oct 22:24",
-   "category": "Credit Rating",
-   "text": "Max Healthcare Institute Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.com/corporate/MAXHEALTH_09102026222417_SE_Intimation.pdf"
+   "symbol": "SUNPHARMA",
+   "time": "12 Oct 20:05",
+   "category": "Resignation",
+   "text": "Resignation of Director of the Company",
+   "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf"
   },
   {
-   "symbol": "ONGC",
-   "time": "09 Oct 19:33",
-   "category": "Credit Rating",
-   "text": "Oil & Natural Gas Corporation Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.com/corporate/ONGC_09102026193255_creditrating09102026.pdf"
+   "symbol": "SUNPHARMA",
+   "time": "12 Oct 19:57",
+   "category": "Outcome of Board Meeting",
+   "text": "Outcome of the Board Meeting held on 12 October 2026",
+   "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026195625_BMOutcome12October2026.pdf"
   },
   {
-   "symbol": "LOKESHMACH",
-   "time": "09 Oct 18:06",
-   "category": "Action(s) taken or orders passed",
-   "text": "Lokesh Machines Limited has informed the Exchange about Action(s) taken or orders passed",
-   "url": "https://nsearchives.nseindia.com/corporate/LOKESHMACH_09102026180206_sdfinal.pdf"
+   "symbol": "TATACONSUM",
+   "time": "12 Oct 18:03",
+   "category": "ESOP/ESOS/ESPS",
+   "text": "TATA CONSUMER PRODUCTS LIMITED has informed the Exchange regarding Allotment of 2847  Shares.",
+   "url": "https://nsearchives.nseindia.com/corporate/Sukhvinder_12102026180258_SE_ESOP_Intimation.pdf"
+  },
+  {
+   "symbol": "POWERGRID",
+   "time": "12 Oct 17:30",
+   "category": "Acquisition",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange about Acquisition of Lakadia II Power Transmission Limited by POWERGRID under TBCB route.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_12102026173004_BSENSEReg30acquisitionDt12102026REC.pdf"
+  },
+  {
+   "symbol": "HCLTECH",
+   "time": "12 Oct 17:22",
+   "category": "Record Date",
+   "text": "HCL Technologies Limited has informed the Exchange that Record date for the purpose of Dividend  is 16-Oct-2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026172145_FinancialResults_6.pdf"
+  },
+  {
+   "symbol": "HCLTECH",
+   "time": "12 Oct 17:01",
+   "category": "Dividend",
+   "text": "HCL Technologies Limited has informed the Exchange that Board of Directors at its meeting held on October 12, 2026, declared Interim Dividend of Rs. 12 per equity share.",
+   "url": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026170051_FinancialResults.pdf"
+  },
+  {
+   "symbol": "HCLTECH",
+   "time": "12 Oct 16:58",
+   "category": "Outcome of Board Meeting",
+   "text": "HCL Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/HCLTECH_12102026165747_FinancialResults.pdf"
   }
  ],
  "events": [
-  "12 companies report results today."
+  "15 companies report results today.",
+  "NIFTY weekly options expiry today — expect sharper intraday swings."
  ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
+  "Weak global cues — let the first 15-30 minutes settle before acting.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
