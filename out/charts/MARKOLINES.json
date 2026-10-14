@@ -2,7 +2,7 @@
  "symbol": "MARKOLINES",
  "name": "Markolines Pavement Technologies Limited",
  "kind": "stock",
- "as_of": "2026-10-13",
+ "as_of": "2026-10-14",
  "bars": [
   {
    "time": "2025-10-14",
@@ -2217,6 +2217,15 @@
    "close": 175.03,
    "volume": 602266,
    "delivery_pct": 35.62
+  },
+  {
+   "time": "2026-10-14",
+   "open": 175.55,
+   "high": 180.0,
+   "low": 174.61,
+   "close": 177.75,
+   "volume": 648003,
+   "delivery_pct": 33.92
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-10-13",
     "value": 169.3
+   },
+   {
+    "time": "2026-10-14",
+    "value": 170.03
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-10-13",
     "value": 172.22
+   },
+   {
+    "time": "2026-10-14",
+    "value": 172.22
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-10-13",
     "value": 162.5
+   },
+   {
+    "time": "2026-10-14",
+    "value": 162.56
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.82,
-  "atr_pct": 3.2,
-  "rel_volume_20d": 3.15,
-  "dist_20dma_pct": 3.39,
-  "dist_50dma_pct": 1.63,
-  "dist_200dma_pct": 7.71
+  "rsi_14": 61.46,
+  "atr_pct": 3.14,
+  "rel_volume_20d": 2.98,
+  "dist_20dma_pct": 4.54,
+  "dist_50dma_pct": 3.21,
+  "dist_200dma_pct": 9.35
  }
 }

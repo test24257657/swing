@@ -2,7 +2,7 @@
  "symbol": "AARNAV",
  "name": "Aarnav Fashions Limited",
  "kind": "stock",
- "as_of": "2026-10-13",
+ "as_of": "2026-10-14",
  "bars": [
   {
    "time": "2026-02-25",
@@ -1398,6 +1398,15 @@
    "close": 37.47,
    "volume": 52427,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-14",
+   "open": 37.0,
+   "high": 37.47,
+   "low": 35.6,
+   "close": 37.0,
+   "volume": 25970,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1945,6 +1954,10 @@
    {
     "time": "2026-10-13",
     "value": 34.54
+   },
+   {
+    "time": "2026-10-14",
+    "value": 34.9
    }
   ],
   "sma_50": [
@@ -2371,15 +2384,19 @@
    {
     "time": "2026-10-13",
     "value": 33.16
+   },
+   {
+    "time": "2026-10-14",
+    "value": 33.29
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.88,
+  "rsi_14": 60.39,
   "atr_pct": 5.99,
-  "rel_volume_20d": 2.53,
-  "dist_20dma_pct": 8.48,
-  "dist_50dma_pct": 13.01,
+  "rel_volume_20d": 1.14,
+  "dist_20dma_pct": 6.01,
+  "dist_50dma_pct": 11.15,
   "dist_200dma_pct": null
  }
 }

@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-13",
+ "as_of": "2026-10-14",
  "tiles": [
   {
    "symbol": "NIFTY 50",
@@ -159,23 +159,17 @@
   }
  ],
  "breadth": {
-  "date": "2026-10-13",
-  "advances": 1733,
-  "declines": 1170,
-  "unchanged": 41,
+  "date": "2026-10-14",
+  "advances": 1658,
+  "declines": 1244,
+  "unchanged": 42,
   "traded": 2944,
-  "ad_ratio": 1.48,
-  "pct_above_50dma": 25.26,
-  "pct_above_200dma": 39.07,
+  "ad_ratio": 1.33,
+  "pct_above_50dma": 28.36,
+  "pct_above_200dma": 40.37,
   "new_52w_highs": 7,
   "new_52w_lows": 3,
   "series": [
-   {
-    "date": "2026-08-31",
-    "pct_advancing": 34.16,
-    "pct_above_50dma": 47.68,
-    "traded": 2895
-   },
    {
     "date": "2026-09-01",
     "pct_advancing": 33.98,
@@ -349,6 +343,12 @@
     "pct_advancing": 58.9,
     "pct_above_50dma": 25.33,
     "traded": 2939
+   },
+   {
+    "date": "2026-10-14",
+    "pct_advancing": 56.32,
+    "pct_above_50dma": 28.41,
+    "traded": 2935
    }
   ]
  },
@@ -419,146 +419,146 @@
  },
  "most_active": [
   {
-   "symbol": "HCLTECH",
-   "name": "HCL Technologies Limited",
-   "ltp": 1326.0,
-   "change_pct": 8.42,
-   "turnover_cr": 2818.0
-  },
-  {
    "symbol": "TCS",
    "name": "Tata Consultancy Services Limited",
-   "ltp": 2269.3,
-   "change_pct": 6.79,
-   "turnover_cr": 2473.5
+   "ltp": 2304.9,
+   "change_pct": 1.57,
+   "turnover_cr": 2805.2
+  },
+  {
+   "symbol": "TARIL",
+   "name": "Transformers And Rectifiers (India) Limited",
+   "ltp": 349.5,
+   "change_pct": 14.97,
+   "turnover_cr": 2413.3
   },
   {
    "symbol": "INFY",
    "name": "Infosys Limited",
-   "ltp": 1062.1,
-   "change_pct": 4.13,
-   "turnover_cr": 2282.9
+   "ltp": 1088.0,
+   "change_pct": 2.44,
+   "turnover_cr": 2400.5
   },
   {
-   "symbol": "CMLL",
-   "name": "Caliber Mining and Logistics Limited",
-   "ltp": 622.95,
-   "change_pct": 10.61,
-   "turnover_cr": 1899.2
-  },
-  {
-   "symbol": "SHRINGARMS",
-   "name": "Shringar House of Mangalsutra Limited",
-   "ltp": 310.85,
-   "change_pct": 17.15,
-   "turnover_cr": 1878.6
-  },
-  {
-   "symbol": "RBLBANK",
-   "name": "RBL Bank Limited",
-   "ltp": 388.05,
-   "change_pct": -7.1,
-   "turnover_cr": 1529.7
-  },
-  {
-   "symbol": "PAYTM",
-   "name": "One 97 Communications Limited",
-   "ltp": 1715.0,
-   "change_pct": 1.48,
-   "turnover_cr": 1527.3
-  },
-  {
-   "symbol": "BSE",
-   "name": "BSE Limited",
-   "ltp": 3375.4,
-   "change_pct": 1.36,
-   "turnover_cr": 1377.2
+   "symbol": "MEESHO",
+   "name": "Meesho Limited",
+   "ltp": 228.35,
+   "change_pct": -5.12,
+   "turnover_cr": 2002.6
   },
   {
    "symbol": "HDFCBANK",
    "name": "HDFC Bank Limited",
-   "ltp": 714.0,
-   "change_pct": 1.29,
-   "turnover_cr": 1342.7
+   "ltp": 710.7,
+   "change_pct": -0.46,
+   "turnover_cr": 1706.2
   },
   {
-   "symbol": "RELIANCE",
-   "name": "Reliance Industries Limited",
-   "ltp": 1166.7,
-   "change_pct": 0.67,
-   "turnover_cr": 1274.2
+   "symbol": "BHEL",
+   "name": "Bharat Heavy Electricals Limited",
+   "ltp": 464.0,
+   "change_pct": 4.89,
+   "turnover_cr": 1700.4
+  },
+  {
+   "symbol": "MVELECTRO",
+   "name": "MV Electrosystems Limited",
+   "ltp": 977.6,
+   "change_pct": 17.23,
+   "turnover_cr": 1593.2
+  },
+  {
+   "symbol": "AXISBANK",
+   "name": "Axis Bank Limited",
+   "ltp": 1264.6,
+   "change_pct": -0.3,
+   "turnover_cr": 1456.1
+  },
+  {
+   "symbol": "TATAELXSI",
+   "name": "Tata Elxsi Limited",
+   "ltp": 3623.1,
+   "change_pct": 5.73,
+   "turnover_cr": 1454.0
+  },
+  {
+   "symbol": "SSRETAIL",
+   "name": "SSRETAIL",
+   "ltp": 767.25,
+   "change_pct": 10.88,
+   "turnover_cr": 1450.8
   }
  ],
  "breakouts_52w": [
   {
+   "symbol": "AONELIQUID",
+   "name": "AONELIQUID",
+   "ltp": 1081.06,
+   "change_pct": 0.01,
+   "vol_ratio": 10.8
+  },
+  {
+   "symbol": "PASUPTAC",
+   "name": "Pasupati Acrylon Limited",
+   "ltp": 84.28,
+   "change_pct": 12.45,
+   "vol_ratio": 9.7
+  },
+  {
+   "symbol": "ONWARDTEC",
+   "name": "Onward Technologies Limited",
+   "ltp": 359.45,
+   "change_pct": 9.94,
+   "vol_ratio": 8.9
+  },
+  {
+   "symbol": "WSTCSTPAPR",
+   "name": "West Coast Paper Mills Limited",
+   "ltp": 940.45,
+   "change_pct": 13.55,
+   "vol_ratio": 7.6
+  },
+  {
+   "symbol": "ADVANCE",
+   "name": "Advance Agrolife Limited",
+   "ltp": 155.67,
+   "change_pct": 8.13,
+   "vol_ratio": 5.5
+  },
+  {
+   "symbol": "RUBYMILLS",
+   "name": "The Ruby Mills Limited",
+   "ltp": 541.25,
+   "change_pct": 10.0,
+   "vol_ratio": 5.0
+  },
+  {
    "symbol": "SHRINGARMS",
    "name": "Shringar House of Mangalsutra Limited",
-   "ltp": 310.85,
-   "change_pct": 17.15,
-   "vol_ratio": 14.5
+   "ltp": 317.74,
+   "change_pct": 2.22,
+   "vol_ratio": 4.5
   },
   {
-   "symbol": "NRAIL",
-   "name": "N R Agarwal Industries Limited",
-   "ltp": 754.1,
-   "change_pct": 6.8,
-   "vol_ratio": 8.7
+   "symbol": "EIMCOELECO",
+   "name": "Eimco Elecon (India) Limited",
+   "ltp": 2454.2,
+   "change_pct": 9.59,
+   "vol_ratio": 4.2
   },
   {
-   "symbol": "UTTAMSUGAR",
-   "name": "Uttam Sugar Mills Limited",
-   "ltp": 374.15,
-   "change_pct": 10.76,
-   "vol_ratio": 5.2
+   "symbol": "AEGISLOG",
+   "name": "Aegis Logistics Limited",
+   "ltp": 1489.1,
+   "change_pct": 6.98,
+   "vol_ratio": 3.9
   },
   {
-   "symbol": "MAWANASUG",
-   "name": "Mawana Sugars Limited",
-   "ltp": 174.71,
-   "change_pct": 3.51,
-   "vol_ratio": 3.3
-  },
-  {
-   "symbol": "MAZDA",
-   "name": "Mazda Limited",
-   "ltp": 310.9,
-   "change_pct": 6.38,
-   "vol_ratio": 3.2
-  },
-  {
-   "symbol": "SANATHAN",
-   "name": "Sanathan Textiles Limited",
-   "ltp": 533.4,
-   "change_pct": 1.86,
-   "vol_ratio": 3.0
-  },
-  {
-   "symbol": "LIQUIDADD",
-   "name": "LIQUIDADD",
-   "ltp": 1148.97,
-   "change_pct": 0.01,
-   "vol_ratio": 2.9
-  },
-  {
-   "symbol": "CASHIETF",
-   "name": "CASHIETF",
-   "ltp": 1083.59,
-   "change_pct": 0.01,
-   "vol_ratio": 2.8
-  },
-  {
-   "symbol": "DHAMPURSUG",
-   "name": "Dhampur Sugar Mills Limited",
-   "ltp": 202.64,
-   "change_pct": 4.13,
-   "vol_ratio": 2.4
-  },
-  {
-   "symbol": "AARNAV",
-   "name": "Aarnav Fashions Limited",
-   "ltp": 37.47,
-   "change_pct": 4.11,
-   "vol_ratio": 2.3
+   "symbol": "BHEL",
+   "name": "Bharat Heavy Electricals Limited",
+   "ltp": 464.0,
+   "change_pct": 4.89,
+   "vol_ratio": 3.4
   }
  ]
 }

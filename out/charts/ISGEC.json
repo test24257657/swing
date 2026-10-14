@@ -2,17 +2,8 @@
  "symbol": "ISGEC",
  "name": "Isgec Heavy Engineering Limited",
  "kind": "stock",
- "as_of": "2026-10-13",
+ "as_of": "2026-10-14",
  "bars": [
-  {
-   "time": "2025-10-06",
-   "open": 916.0,
-   "high": 916.0,
-   "low": 859.5,
-   "close": 882.0,
-   "volume": 53048,
-   "delivery_pct": 48.69
-  },
   {
    "time": "2025-10-07",
    "open": 889.05,
@@ -2271,14 +2262,19 @@
    "close": 912.45,
    "volume": 33665,
    "delivery_pct": 51.71
+  },
+  {
+   "time": "2026-10-14",
+   "open": 910.8,
+   "high": 929.75,
+   "low": 904.0,
+   "close": 927.35,
+   "volume": 58163,
+   "delivery_pct": 60.58
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-03",
-    "value": 884.81
-   },
    {
     "time": "2025-11-04",
     "value": 884.76
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-13",
     "value": 865.62
+   },
+   {
+    "time": "2026-10-14",
+    "value": 873.29
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-16",
-    "value": 856.14
-   },
    {
     "time": "2025-12-17",
     "value": 854.7
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-13",
     "value": 816.7
+   },
+   {
+    "time": "2026-10-14",
+    "value": 818.47
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-29",
-    "value": 898.49
-   },
    {
     "time": "2026-07-30",
     "value": 898.31
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-13",
     "value": 888.92
+   },
+   {
+    "time": "2026-10-14",
+    "value": 889.49
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.7,
-  "atr_pct": 3.3,
-  "rel_volume_20d": 0.29,
-  "dist_20dma_pct": 5.41,
-  "dist_50dma_pct": 11.72,
-  "dist_200dma_pct": 2.65
+  "rsi_14": 66.47,
+  "atr_pct": 3.22,
+  "rel_volume_20d": 0.51,
+  "dist_20dma_pct": 6.19,
+  "dist_50dma_pct": 13.3,
+  "dist_200dma_pct": 4.26
  }
 }

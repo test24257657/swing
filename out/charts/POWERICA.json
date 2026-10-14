@@ -2,7 +2,7 @@
  "symbol": "POWERICA",
  "name": "Powerica Limited",
  "kind": "stock",
- "as_of": "2026-10-13",
+ "as_of": "2026-10-14",
  "bars": [
   {
    "time": "2026-04-02",
@@ -1191,6 +1191,15 @@
    "close": 592.2,
    "volume": 194971,
    "delivery_pct": 38.49
+  },
+  {
+   "time": "2026-10-14",
+   "open": 594.95,
+   "high": 601.35,
+   "low": 585.0,
+   "close": 591.05,
+   "volume": 86750,
+   "delivery_pct": 39.3
   }
  ],
  "ma": {
@@ -1646,6 +1655,10 @@
    {
     "time": "2026-10-13",
     "value": 578.3
+   },
+   {
+    "time": "2026-10-14",
+    "value": 581.21
    }
   ],
   "sma_50": [
@@ -1980,15 +1993,19 @@
    {
     "time": "2026-10-13",
     "value": 551.6
+   },
+   {
+    "time": "2026-10-14",
+    "value": 553.04
    }
   ]
  },
  "technicals": {
-  "rsi_14": 55.21,
-  "atr_pct": 4.76,
-  "rel_volume_20d": 1.03,
-  "dist_20dma_pct": 2.4,
-  "dist_50dma_pct": 7.36,
+  "rsi_14": 54.85,
+  "atr_pct": 4.62,
+  "rel_volume_20d": 0.46,
+  "dist_20dma_pct": 1.69,
+  "dist_50dma_pct": 6.87,
   "dist_200dma_pct": null
  }
 }
