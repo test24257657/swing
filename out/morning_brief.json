@@ -1,108 +1,121 @@
 {
- "generated_at": "2026-10-14T08:15:46+05:30",
- "for_session": "2026-10-14",
+ "generated_at": "2026-10-15T08:15:41+05:30",
+ "for_session": "2026-10-15",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7805.45,
-   "change_pct": -0.02,
-   "as_of": "2026-10-13"
+   "value": 7718.94,
+   "change_pct": -1.11,
+   "as_of": "2026-10-14"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 27204.38,
-   "change_pct": -0.15,
-   "as_of": "2026-10-13"
+   "value": 26692.87,
+   "change_pct": -1.88,
+   "as_of": "2026-10-14"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51670.1,
-   "change_pct": -0.35,
-   "as_of": "2026-10-13"
+   "value": 51621.48,
+   "change_pct": -0.09,
+   "as_of": "2026-10-14"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 68193.13,
-   "change_pct": 0.61,
-   "as_of": "2026-10-14"
+   "value": 64489.06,
+   "change_pct": -4.81,
+   "as_of": "2026-10-15"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24337.01,
-   "change_pct": -0.03,
-   "as_of": "2026-10-14"
+   "value": 24055.55,
+   "change_pct": -1.06,
+   "as_of": "2026-10-15"
+  },
+  {
+   "label": "Kospi",
+   "group": "Asia",
+   "value": 5573.36,
+   "change_pct": -7.25,
+   "as_of": "2026-10-15"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 106.64,
-   "change_pct": -0.01,
-   "as_of": "2026-10-13"
+   "value": 104.41,
+   "change_pct": -1.21,
+   "as_of": "2026-10-14"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4184.8,
-   "change_pct": -0.14,
-   "as_of": "2026-10-13"
+   "value": 4166.1,
+   "change_pct": -0.27,
+   "as_of": "2026-10-14"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 95.78,
-   "change_pct": -1.03,
-   "as_of": "2026-10-13"
+   "value": 95.14,
+   "change_pct": -0.15,
+   "as_of": "2026-10-15"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.22,
-   "change_pct": -0.44,
-   "as_of": "2026-10-13"
+   "value": 5.19,
+   "change_pct": -0.52,
+   "as_of": "2026-10-14"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 102.13,
-   "change_pct": -0.44,
-   "as_of": "2026-10-13"
+   "value": 102.02,
+   "change_pct": -0.16,
+   "as_of": "2026-10-14"
   }
  ],
  "global_tone": {
-  "tone": "mixed",
-  "avg_change_pct": 0.1,
+  "tone": "negative",
+  "avg_change_pct": -3.22,
   "crude_alert": false
  },
  "nifty": {
-  "session": "2026-10-13",
-  "close": 22721.95,
-  "high": 22721.95,
-  "low": 22288.45,
-  "pivot": 22577.45,
-  "r1": 22866.45,
-  "s1": 22432.95,
-  "r2": 23010.95,
-  "s2": 22143.95,
-  "sma_20": 22882.91,
-  "sma_50": 23654.16,
-  "sma_200": 24232.79
+  "session": "2026-10-14",
+  "close": 22622.7,
+  "high": 22757.95,
+  "low": 22558.95,
+  "pivot": 22646.53,
+  "r1": 22734.12,
+  "s1": 22535.12,
+  "r2": 22845.53,
+  "s2": 22447.53,
+  "sma_20": 22858.11,
+  "sma_50": 23611.13,
+  "sma_200": 24215.04
  },
  "focus": [
   {
-   "symbol": "MODISONLTD",
-   "name": "MODISON LIMITED",
+   "symbol": "TBZ",
+   "name": "Tribhovandas Bhimji Zaveri Limited",
    "why": "Ready setup near its pivot",
    "rs": 99
   },
   {
-   "symbol": "RATNAVEER",
-   "name": "Ratnaveer Precision Engineering Limited",
+   "symbol": "SPECTRUM",
+   "name": "Spectrum Electrical Industries Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 99
+  },
+  {
+   "symbol": "AEROFLEX",
+   "name": "Aeroflex Industries Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
@@ -110,7 +123,7 @@
    "symbol": "MARINE",
    "name": "Marine Electricals (India) Limited",
    "why": "Ready setup near its pivot",
-   "rs": 97
+   "rs": 98
   },
   {
    "symbol": "RPEL",
@@ -119,114 +132,46 @@
    "rs": 97
   },
   {
-   "symbol": "LAURUSLABS",
-   "name": "Laurus Labs Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 96
-  },
-  {
-   "symbol": "SANATHAN",
-   "name": "Sanathan Textiles Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "NEOGEN",
-   "name": "Neogen Chemicals Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "GANDHAR",
-   "name": "Gandhar Oil Refinery (India) Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "GAEL",
-   "name": "Gujarat Ambuja Exports Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "GPPL",
-   "name": "Gujarat Pipavav Port Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "SIGMAADV",
-   "name": "SIGMA ADVANCED SYSTEMS LIMITED",
-   "why": "Pocket pivot yesterday",
-   "rs": 99
-  },
-  {
-   "symbol": "MTARTECH",
-   "name": "Mtar Technologies Limited",
+   "symbol": "NRL",
+   "name": "Nupur Recyclers Limited",
    "why": "Pocket pivot yesterday",
    "rs": 98
   },
   {
-   "symbol": "SPECTRUM",
-   "name": "Spectrum Electrical Industries Limited",
+   "symbol": "MMP",
+   "name": "MMP Industries Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 98
+   "rs": 97
   },
   {
-   "symbol": "SMLMAH",
-   "name": "SML Mahindra Limited",
+   "symbol": "FCL",
+   "name": "Fineotex Chemical Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 92
-  },
-  {
-   "symbol": "PASUPTAC",
-   "name": "Pasupati Acrylon Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 91
+   "rs": 95
   }
  ],
  "overnight_news": [
   {
-   "symbol": "AXISBANK",
-   "time": "13 Oct 19:36",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 92708  Shares.",
-   "url": "https://nsearchives.nseindia.com/corporate/Kapil_13102026193551_SE13102026.pdf"
-  },
-  {
-   "symbol": "TECHM",
-   "time": "13 Oct 18:34",
-   "category": "Allotment of Securities",
-   "text": "Tech Mahindra Limited has informed the Exchange regarding allotment of 45955 securities pursuant to ESOP/ESPS at its meeting held on October 13, 2026",
-   "url": "https://nsearchives.nseindia.com/corporate/TECHM_13102026183332_ESOP_allotment_Intimation_S.pdf"
-  },
-  {
-   "symbol": "INDIGO",
-   "time": "13 Oct 18:19",
+   "symbol": "BHARTIARTL",
+   "time": "14 Oct 16:05",
    "category": "Action(s) taken or orders passed",
-   "text": "InterGlobe Aviation Limited has informed the Exchange about Action(s) taken or orders passed",
-   "url": "https://nsearchives.nseindia.com/corporate/Indigo1_13102026181943_LoDR-Order.pdf"
+   "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+   "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_14102026160249_BhartiAirtelReg30disclosure.pdf"
   },
   {
-   "symbol": "SUNPHARMA",
-   "time": "13 Oct 17:54",
-   "category": "Credit Rating",
-   "text": "Sun Pharmaceutical Industries Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_13102026175414_Intimation_to_SE_-_NCDs_Credit_Ratings.pdf"
-  },
-  {
-   "symbol": "BEL",
-   "time": "13 Oct 15:33",
-   "category": "Bagging/Receiving of orders/contracts",
-   "text": "Bharat Electronics Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "url": "https://nsearchives.nseindia.com/corporate/BEL_13102026153239_Lettersigned.pdf"
+   "symbol": "SHRIRAMFIN",
+   "time": "14 Oct 16:02",
+   "category": "Rumour Verification - Regulation 30(11)",
+   "text": "Shriram Finance Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
+   "url": "https://nsearchives.nseindia.com/corporate/Mathew_14102026160157_BSENSERumourVerificationOctober142026.pdf"
   }
  ],
  "events": [
-  "20 companies report results today."
+  "39 companies report results today."
  ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
+  "Weak global cues — let the first 15-30 minutes settle before acting.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
