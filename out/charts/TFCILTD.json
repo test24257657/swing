@@ -2,17 +2,8 @@
  "symbol": "TFCILTD",
  "name": "Tourism Finance Corporation of India Limited",
  "kind": "stock",
- "as_of": "2026-10-14",
+ "as_of": "2026-10-15",
  "bars": [
-  {
-   "time": "2025-10-07",
-   "open": 75.86,
-   "high": 75.9,
-   "low": 74.18,
-   "close": 75.26,
-   "volume": 12637878,
-   "delivery_pct": 58.02
-  },
   {
    "time": "2025-10-08",
    "open": 75.45,
@@ -2271,14 +2262,19 @@
    "close": 160.8,
    "volume": 14513536,
    "delivery_pct": 18.42
+  },
+  {
+   "time": "2026-10-15",
+   "open": 160.51,
+   "high": 161.24,
+   "low": 157.11,
+   "close": 157.82,
+   "volume": 17645856,
+   "delivery_pct": 44.0
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-04",
-    "value": 72.18
-   },
    {
     "time": "2025-11-06",
     "value": 71.81
@@ -2953,7 +2949,7 @@
    },
    {
     "time": "2026-07-15",
-    "value": 77.5
+    "value": 77.51
    },
    {
     "time": "2026-07-16",
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-14",
     "value": 143.92
+   },
+   {
+    "time": "2026-10-15",
+    "value": 144.87
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-17",
-    "value": 69.03
-   },
    {
     "time": "2025-12-18",
     "value": 68.81
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-14",
     "value": 135.96
+   },
+   {
+    "time": "2026-10-15",
+    "value": 136.93
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-30",
-    "value": 71.43
-   },
    {
     "time": "2026-07-31",
     "value": 71.57
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-14",
     "value": 88.56
+   },
+   {
+    "time": "2026-10-15",
+    "value": 89.02
    }
   ]
  },
  "technicals": {
-  "rsi_14": 73.36,
-  "atr_pct": 3.72,
-  "rel_volume_20d": 0.99,
-  "dist_20dma_pct": 11.73,
-  "dist_50dma_pct": 18.27,
-  "dist_200dma_pct": 81.58
+  "rsi_14": 68.06,
+  "atr_pct": 3.71,
+  "rel_volume_20d": 1.18,
+  "dist_20dma_pct": 8.94,
+  "dist_50dma_pct": 15.25,
+  "dist_200dma_pct": 77.28
  }
 }

@@ -2,17 +2,8 @@
  "symbol": "ANSALAPI",
  "name": "Ansal Properties & Infrastructure Limited",
  "kind": "stock",
- "as_of": "2026-10-14",
+ "as_of": "2026-10-15",
  "bars": [
-  {
-   "time": "2025-10-07",
-   "open": 4.63,
-   "high": 4.63,
-   "low": 4.52,
-   "close": 4.52,
-   "volume": 43013,
-   "delivery_pct": null
-  },
   {
    "time": "2025-10-08",
    "open": 4.5,
@@ -2262,14 +2253,19 @@
    "close": 3.57,
    "volume": 6640,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-15",
+   "open": 3.6,
+   "high": 3.6,
+   "low": 3.5,
+   "close": 3.57,
+   "volume": 41053,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-04",
-    "value": 4.37
-   },
    {
     "time": "2025-11-06",
     "value": 4.35
@@ -2656,7 +2652,7 @@
    },
    {
     "time": "2026-03-27",
-    "value": 3.6
+    "value": 3.59
    },
    {
     "time": "2026-03-30",
@@ -2848,7 +2844,7 @@
    },
    {
     "time": "2026-06-10",
-    "value": 3.98
+    "value": 3.99
    },
    {
     "time": "2026-06-11",
@@ -2932,7 +2928,7 @@
    },
    {
     "time": "2026-07-13",
-    "value": 2.96
+    "value": 2.95
    },
    {
     "time": "2026-07-14",
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-10-14",
     "value": 3.8
+   },
+   {
+    "time": "2026-10-15",
+    "value": 3.8
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-17",
-    "value": 3.91
-   },
    {
     "time": "2025-12-18",
     "value": 3.89
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-10-14",
     "value": 3.56
+   },
+   {
+    "time": "2026-10-15",
+    "value": 3.56
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-31",
-    "value": 3.53
-   },
    {
     "time": "2026-08-03",
     "value": 3.52
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-10-14",
     "value": 3.44
+   },
+   {
+    "time": "2026-10-15",
+    "value": 3.44
    }
   ]
  },
  "technicals": {
   "rsi_14": 42.19,
-  "atr_pct": 2.98,
-  "rel_volume_20d": 0.17,
-  "dist_20dma_pct": -6.03,
-  "dist_50dma_pct": 0.34,
-  "dist_200dma_pct": 3.83
+  "atr_pct": 2.97,
+  "rel_volume_20d": 1.09,
+  "dist_20dma_pct": -6.16,
+  "dist_50dma_pct": 0.27,
+  "dist_200dma_pct": 3.84
  }
 }

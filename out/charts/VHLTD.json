@@ -2,17 +2,8 @@
  "symbol": "VHLTD",
  "name": "Viceroy Hotels Limited",
  "kind": "stock",
- "as_of": "2026-10-14",
+ "as_of": "2026-10-15",
  "bars": [
-  {
-   "time": "2025-10-07",
-   "open": 120.0,
-   "high": 121.98,
-   "low": 119.8,
-   "close": 121.0,
-   "volume": 9008,
-   "delivery_pct": null
-  },
   {
    "time": "2025-10-08",
    "open": 120.0,
@@ -2271,14 +2262,19 @@
    "close": 152.21,
    "volume": 37110,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-15",
+   "open": 157.79,
+   "high": 157.79,
+   "low": 150.0,
+   "close": 155.93,
+   "volume": 35311,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-04",
-    "value": 127.06
-   },
    {
     "time": "2025-11-06",
     "value": 127.41
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-14",
     "value": 132.54
+   },
+   {
+    "time": "2026-10-15",
+    "value": 133.99
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-17",
-    "value": 126.47
-   },
    {
     "time": "2025-12-18",
     "value": 126.68
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-14",
     "value": 126.34
+   },
+   {
+    "time": "2026-10-15",
+    "value": 126.86
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-30",
-    "value": 135.21
-   },
    {
     "time": "2026-07-31",
     "value": 135.28
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-14",
     "value": 135.19
+   },
+   {
+    "time": "2026-10-15",
+    "value": 135.27
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.25,
-  "atr_pct": 4.1,
-  "rel_volume_20d": 0.62,
-  "dist_20dma_pct": 14.84,
-  "dist_50dma_pct": 20.48,
-  "dist_200dma_pct": 12.59
+  "rsi_14": 76.39,
+  "atr_pct": 4.07,
+  "rel_volume_20d": 0.59,
+  "dist_20dma_pct": 16.37,
+  "dist_50dma_pct": 22.91,
+  "dist_200dma_pct": 15.27
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "ADVANCE",
  "name": "Advance Agrolife Limited",
  "kind": "stock",
- "as_of": "2026-10-14",
+ "as_of": "2026-10-15",
  "bars": [
   {
    "time": "2025-10-08",
@@ -2262,6 +2262,15 @@
    "close": 155.67,
    "volume": 8853796,
    "delivery_pct": 12.63
+  },
+  {
+   "time": "2026-10-15",
+   "open": 160.0,
+   "high": 163.76,
+   "low": 154.0,
+   "close": 158.43,
+   "volume": 5969574,
+   "delivery_pct": 14.95
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-10-14",
     "value": 119.67
+   },
+   {
+    "time": "2026-10-15",
+    "value": 122.09
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-10-14",
     "value": 119.52
+   },
+   {
+    "time": "2026-10-15",
+    "value": 120.19
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-10-14",
     "value": 114.8
+   },
+   {
+    "time": "2026-10-15",
+    "value": 115.02
    }
   ]
  },
  "technicals": {
-  "rsi_14": 78.53,
-  "atr_pct": 5.44,
-  "rel_volume_20d": 7.66,
-  "dist_20dma_pct": 30.08,
-  "dist_50dma_pct": 30.25,
-  "dist_200dma_pct": 35.6
+  "rsi_14": 79.49,
+  "atr_pct": 5.41,
+  "rel_volume_20d": 3.74,
+  "dist_20dma_pct": 29.77,
+  "dist_50dma_pct": 31.82,
+  "dist_200dma_pct": 37.74
  }
 }

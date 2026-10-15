@@ -2,17 +2,8 @@
  "symbol": "AKASH",
  "name": "Akash Infra-Projects Limited",
  "kind": "stock",
- "as_of": "2026-10-14",
+ "as_of": "2026-10-15",
  "bars": [
-  {
-   "time": "2025-10-07",
-   "open": 30.98,
-   "high": 31.48,
-   "low": 29.25,
-   "close": 29.5,
-   "volume": 14926,
-   "delivery_pct": 77.88
-  },
   {
    "time": "2025-10-08",
    "open": 30.48,
@@ -2271,14 +2262,19 @@
    "close": 25.38,
    "volume": 44454,
    "delivery_pct": 99.1
+  },
+  {
+   "time": "2026-10-15",
+   "open": 25.89,
+   "high": 25.89,
+   "low": 24.81,
+   "close": 25.37,
+   "volume": 3473,
+   "delivery_pct": 94.3
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-04",
-    "value": 28.13
-   },
    {
     "time": "2025-11-06",
     "value": 28.05
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-14",
     "value": 24.71
+   },
+   {
+    "time": "2026-10-15",
+    "value": 24.77
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-17",
-    "value": 26.94
-   },
    {
     "time": "2025-12-18",
     "value": 26.86
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-14",
     "value": 25.07
+   },
+   {
+    "time": "2026-10-15",
+    "value": 25.05
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-30",
-    "value": 26.39
-   },
    {
     "time": "2026-07-31",
     "value": 26.38
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-14",
     "value": 25.94
+   },
+   {
+    "time": "2026-10-15",
+    "value": 25.93
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.88,
-  "atr_pct": 3.61,
-  "rel_volume_20d": 13.18,
-  "dist_20dma_pct": 2.73,
-  "dist_50dma_pct": 1.22,
-  "dist_200dma_pct": -2.14
+  "rsi_14": 56.73,
+  "atr_pct": 3.66,
+  "rel_volume_20d": 0.63,
+  "dist_20dma_pct": 2.44,
+  "dist_50dma_pct": 1.26,
+  "dist_200dma_pct": -2.17
  }
 }

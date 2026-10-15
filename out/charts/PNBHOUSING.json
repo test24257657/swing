@@ -2,17 +2,8 @@
  "symbol": "PNBHOUSING",
  "name": "PNB Housing Finance Limited",
  "kind": "stock",
- "as_of": "2026-10-14",
+ "as_of": "2026-10-15",
  "bars": [
-  {
-   "time": "2025-10-07",
-   "open": 896.7,
-   "high": 898.2,
-   "low": 879.5,
-   "close": 890.0,
-   "volume": 972976,
-   "delivery_pct": 45.79
-  },
   {
    "time": "2025-10-08",
    "open": 892.0,
@@ -2271,14 +2262,19 @@
    "close": 1200.0,
    "volume": 735608,
    "delivery_pct": 55.67
+  },
+  {
+   "time": "2026-10-15",
+   "open": 1200.0,
+   "high": 1207.7,
+   "low": 1175.4,
+   "close": 1183.9,
+   "volume": 462065,
+   "delivery_pct": 51.65
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-04",
-    "value": 889.57
-   },
    {
     "time": "2025-11-06",
     "value": 890.5
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-14",
     "value": 1131.61
+   },
+   {
+    "time": "2026-10-15",
+    "value": 1134.1
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-17",
-    "value": 896.5
-   },
    {
     "time": "2025-12-18",
     "value": 896.62
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-14",
     "value": 1146.69
+   },
+   {
+    "time": "2026-10-15",
+    "value": 1148.77
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-30",
-    "value": 936.11
-   },
    {
     "time": "2026-07-31",
     "value": 936.93
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-14",
     "value": 1000.26
+   },
+   {
+    "time": "2026-10-15",
+    "value": 1001.5
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.15,
-  "atr_pct": 2.8,
-  "rel_volume_20d": 0.67,
-  "dist_20dma_pct": 6.04,
-  "dist_50dma_pct": 4.65,
-  "dist_200dma_pct": 19.97
+  "rsi_14": 57.44,
+  "atr_pct": 2.83,
+  "rel_volume_20d": 0.41,
+  "dist_20dma_pct": 4.39,
+  "dist_50dma_pct": 3.06,
+  "dist_200dma_pct": 18.21
  }
 }

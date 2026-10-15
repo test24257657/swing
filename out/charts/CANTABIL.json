@@ -2,17 +2,8 @@
  "symbol": "CANTABIL",
  "name": "Cantabil Retail India Limited",
  "kind": "stock",
- "as_of": "2026-10-14",
+ "as_of": "2026-10-15",
  "bars": [
-  {
-   "time": "2025-10-07",
-   "open": 254.0,
-   "high": 261.0,
-   "low": 251.0,
-   "close": 255.5,
-   "volume": 111754,
-   "delivery_pct": 50.14
-  },
   {
    "time": "2025-10-08",
    "open": 256.55,
@@ -2271,14 +2262,19 @@
    "close": 247.38,
    "volume": 711400,
    "delivery_pct": 68.78
+  },
+  {
+   "time": "2026-10-15",
+   "open": 247.4,
+   "high": 251.29,
+   "low": 246.0,
+   "close": 249.91,
+   "volume": 133523,
+   "delivery_pct": 56.43
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-04",
-    "value": 250.16
-   },
    {
     "time": "2025-11-06",
     "value": 250.03
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-14",
     "value": 235.77
+   },
+   {
+    "time": "2026-10-15",
+    "value": 236.32
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-17",
-    "value": 252.67
-   },
    {
     "time": "2025-12-18",
     "value": 252.69
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-14",
     "value": 237.45
+   },
+   {
+    "time": "2026-10-15",
+    "value": 237.5
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-30",
-    "value": 252.52
-   },
    {
     "time": "2026-07-31",
     "value": 252.47
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-14",
     "value": 248.62
+   },
+   {
+    "time": "2026-10-15",
+    "value": 248.56
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.11,
-  "atr_pct": 2.86,
-  "rel_volume_20d": 5.64,
-  "dist_20dma_pct": 4.92,
-  "dist_50dma_pct": 4.18,
-  "dist_200dma_pct": -0.5
+  "rsi_14": 65.26,
+  "atr_pct": 2.78,
+  "rel_volume_20d": 0.88,
+  "dist_20dma_pct": 5.75,
+  "dist_50dma_pct": 5.23,
+  "dist_200dma_pct": 0.54
  }
 }
