@@ -2,7 +2,7 @@
  "symbol": "AEROPLANE",
  "name": "Amir Chand Jagdish Kumar (Exports) Limited",
  "kind": "stock",
- "as_of": "2026-10-15",
+ "as_of": "2026-10-16",
  "bars": [
   {
    "time": "2026-07-20",
@@ -561,6 +561,15 @@
    "close": 232.15,
    "volume": 1995569,
    "delivery_pct": 38.78
+  },
+  {
+   "time": "2026-10-16",
+   "open": 232.19,
+   "high": 241.8,
+   "low": 230.65,
+   "close": 234.78,
+   "volume": 1295088,
+   "delivery_pct": 41.71
   }
  ],
  "ma": {
@@ -736,6 +745,10 @@
    {
     "time": "2026-10-15",
     "value": 210.0
+   },
+   {
+    "time": "2026-10-16",
+    "value": 212.06
    }
   ],
   "sma_50": [
@@ -790,15 +803,19 @@
    {
     "time": "2026-10-15",
     "value": 196.52
+   },
+   {
+    "time": "2026-10-16",
+    "value": 197.21
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.71,
-  "atr_pct": 4.03,
-  "rel_volume_20d": 2.47,
-  "dist_20dma_pct": 10.55,
-  "dist_50dma_pct": 18.13,
+  "rsi_14": 74.01,
+  "atr_pct": 4.04,
+  "rel_volume_20d": 1.48,
+  "dist_20dma_pct": 10.71,
+  "dist_50dma_pct": 19.05,
   "dist_200dma_pct": null
  }
 }

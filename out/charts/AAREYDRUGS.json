@@ -2,17 +2,8 @@
  "symbol": "AAREYDRUGS",
  "name": "Aarey Drugs & Pharmaceuticals Limited",
  "kind": "stock",
- "as_of": "2026-10-15",
+ "as_of": "2026-10-16",
  "bars": [
-  {
-   "time": "2025-10-08",
-   "open": 83.81,
-   "high": 83.81,
-   "low": 82.32,
-   "close": 83.0,
-   "volume": 18116,
-   "delivery_pct": null
-  },
   {
    "time": "2025-10-09",
    "open": 82.0,
@@ -2271,14 +2262,19 @@
    "close": 108.74,
    "volume": 141631,
    "delivery_pct": 62.14
+  },
+  {
+   "time": "2026-10-16",
+   "open": 107.01,
+   "high": 113.5,
+   "low": 105.21,
+   "close": 112.91,
+   "volume": 187209,
+   "delivery_pct": 66.01
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-06",
-    "value": 89.48
-   },
    {
     "time": "2025-11-07",
     "value": 90.19
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-15",
     "value": 103.54
+   },
+   {
+    "time": "2026-10-16",
+    "value": 104.1
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-18",
-    "value": 85.99
-   },
    {
     "time": "2025-12-19",
     "value": 85.7
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-15",
     "value": 94.24
+   },
+   {
+    "time": "2026-10-16",
+    "value": 94.81
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-31",
-    "value": 78.0
-   },
    {
     "time": "2026-08-03",
     "value": 77.99
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-15",
     "value": 80.19
+   },
+   {
+    "time": "2026-10-16",
+    "value": 80.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.0,
-  "atr_pct": 4.34,
-  "rel_volume_20d": 0.54,
-  "dist_20dma_pct": 5.03,
-  "dist_50dma_pct": 15.38,
-  "dist_200dma_pct": 35.61
+  "rsi_14": 71.1,
+  "atr_pct": 4.41,
+  "rel_volume_20d": 0.77,
+  "dist_20dma_pct": 8.47,
+  "dist_50dma_pct": 19.09,
+  "dist_200dma_pct": 40.45
  }
 }

@@ -2,17 +2,8 @@
  "symbol": "NRL",
  "name": "Nupur Recyclers Limited",
  "kind": "stock",
- "as_of": "2026-10-15",
+ "as_of": "2026-10-16",
  "bars": [
-  {
-   "time": "2025-10-08",
-   "open": 70.9,
-   "high": 70.9,
-   "low": 68.0,
-   "close": 68.74,
-   "volume": 64159,
-   "delivery_pct": 55.18
-  },
   {
    "time": "2025-10-09",
    "open": 69.0,
@@ -2271,14 +2262,19 @@
    "close": 165.54,
    "volume": 22351,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-16",
+   "open": 168.85,
+   "high": 168.85,
+   "low": 168.85,
+   "close": 168.85,
+   "volume": 29508,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-06",
-    "value": 67.76
-   },
    {
     "time": "2025-11-07",
     "value": 67.66
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-15",
     "value": 157.59
+   },
+   {
+    "time": "2026-10-16",
+    "value": 159.18
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-18",
-    "value": 64.03
-   },
    {
     "time": "2025-12-19",
     "value": 63.81
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-15",
     "value": 136.35
+   },
+   {
+    "time": "2026-10-16",
+    "value": 137.47
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-31",
-    "value": 64.22
-   },
    {
     "time": "2026-08-03",
     "value": 64.42
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-15",
     "value": 82.83
+   },
+   {
+    "time": "2026-10-16",
+    "value": 83.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.02,
-  "atr_pct": 2.37,
-  "rel_volume_20d": 0.25,
-  "dist_20dma_pct": 5.04,
-  "dist_50dma_pct": 21.4,
-  "dist_200dma_pct": 99.86
+  "rsi_14": 74.53,
+  "atr_pct": 2.3,
+  "rel_volume_20d": 0.34,
+  "dist_20dma_pct": 6.08,
+  "dist_50dma_pct": 22.83,
+  "dist_200dma_pct": 102.49
  }
 }

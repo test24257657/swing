@@ -2,17 +2,8 @@
  "symbol": "PILITA",
  "name": "PIL ITALICA LIFESTYLE LIMITED",
  "kind": "stock",
- "as_of": "2026-10-15",
+ "as_of": "2026-10-16",
  "bars": [
-  {
-   "time": "2025-10-08",
-   "open": 13.4,
-   "high": 13.5,
-   "low": 12.9,
-   "close": 13.01,
-   "volume": 67399,
-   "delivery_pct": 78.69
-  },
   {
    "time": "2025-10-09",
    "open": 13.0,
@@ -2271,14 +2262,19 @@
    "close": 7.88,
    "volume": 228957,
    "delivery_pct": 69.46
+  },
+  {
+   "time": "2026-10-16",
+   "open": 7.51,
+   "high": 8.18,
+   "low": 7.51,
+   "close": 7.67,
+   "volume": 30478,
+   "delivery_pct": 62.96
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-06",
-    "value": 12.27
-   },
    {
     "time": "2025-11-07",
     "value": 12.23
@@ -2401,7 +2397,7 @@
    },
    {
     "time": "2025-12-19",
-    "value": 10.89
+    "value": 10.88
    },
    {
     "time": "2025-12-22",
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-15",
     "value": 7.45
+   },
+   {
+    "time": "2026-10-16",
+    "value": 7.44
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-18",
-    "value": 11.66
-   },
    {
     "time": "2025-12-19",
     "value": 11.6
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-15",
     "value": 7.84
+   },
+   {
+    "time": "2026-10-16",
+    "value": 7.82
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-07-31",
-    "value": 9.27
-   },
    {
     "time": "2026-08-03",
     "value": 9.25
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-15",
     "value": 8.3
+   },
+   {
+    "time": "2026-10-16",
+    "value": 8.28
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.49,
-  "atr_pct": 5.03,
-  "rel_volume_20d": 6.94,
-  "dist_20dma_pct": 5.81,
-  "dist_50dma_pct": 0.54,
-  "dist_200dma_pct": -5.03
+  "rsi_14": 52.58,
+  "atr_pct": 5.42,
+  "rel_volume_20d": 0.7,
+  "dist_20dma_pct": 3.05,
+  "dist_50dma_pct": -1.91,
+  "dist_200dma_pct": -7.41
  }
 }

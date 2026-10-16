@@ -1,146 +1,146 @@
 {
- "as_of": "2026-10-15",
+ "as_of": "2026-10-16",
  "source": "rules",
- "universe": 173,
- "eligible": 5,
+ "universe": 186,
+ "eligible": 7,
  "picks": [
   {
-   "symbol": "SOUTHBANK",
-   "ltp": 51.48,
+   "symbol": "AVTNPL",
+   "ltp": 101.0,
    "technicals": {
-    "rsi_14": 66.96,
-    "rel_volume_20d": 5.11,
-    "dist_20dma_pct": 7.31,
-    "dist_50dma_pct": 10.08,
-    "dist_200dma_pct": 19.83
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 49.95,
-    "stop_suggestion": 46.11,
-    "target_suggestion": 59.94,
-    "gap_to_pivot_pct": 3.06
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 1404.3,
-    "net_income_cr": 377.7,
-    "revenue_qoq_pct": 7.9,
-    "net_income_qoq_pct": -7.3
-   },
-   "reason": null,
-   "rank": 1,
-   "name": "The South Indian Bank Limited"
-  },
-  {
-   "symbol": "SHYAMMETL",
-   "ltp": 1157.0,
-   "technicals": {
-    "rsi_14": 69.11,
-    "rel_volume_20d": 0.93,
-    "dist_20dma_pct": 6.8,
-    "dist_50dma_pct": 9.79,
-    "dist_200dma_pct": 24.35
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 1105.8,
-    "stop_suggestion": 1015.0,
-    "target_suggestion": 1326.96,
-    "gap_to_pivot_pct": 4.63
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 5455.1,
-    "net_income_cr": 345.1,
-    "revenue_qoq_pct": 4.1,
-    "net_income_qoq_pct": 8.1
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "Shyam Metalics and Energy Limited"
-  },
-  {
-   "symbol": "KRONOX",
-   "ltp": 218.18,
-   "technicals": {
-    "rsi_14": 63.31,
-    "rel_volume_20d": 0.74,
-    "dist_20dma_pct": 8.44,
-    "dist_50dma_pct": 17.57,
-    "dist_200dma_pct": 48.99
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 217.04,
-    "stop_suggestion": 191.0,
-    "target_suggestion": 260.45,
-    "gap_to_pivot_pct": 0.53
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 28.4,
-    "net_income_cr": 7.3,
-    "revenue_qoq_pct": 8.8,
-    "net_income_qoq_pct": -8.8
-   },
-   "reason": null,
-   "rank": 3,
-   "name": "Kronox Lab Sciences Limited"
-  },
-  {
-   "symbol": "BSE",
-   "ltp": 3428.0,
-   "technicals": {
-    "rsi_14": 57.89,
-    "rel_volume_20d": 0.9,
-    "dist_20dma_pct": 5.58,
-    "dist_50dma_pct": 3.24,
-    "dist_200dma_pct": 2.87
+    "rsi_14": 64.44,
+    "rel_volume_20d": 1.91,
+    "dist_20dma_pct": 8.81,
+    "dist_50dma_pct": 14.87,
+    "dist_200dma_pct": 40.29
    },
    "pattern": {
     "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 3474.5,
-    "stop_suggestion": 3266.15,
-    "target_suggestion": 3995.67,
-    "gap_to_pivot_pct": -1.34
+    "pivot_price": 102.0,
+    "stop_suggestion": 91.89,
+    "target_suggestion": 117.3,
+    "gap_to_pivot_pct": -0.98
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 1566.0,
-    "net_income_cr": 874.0,
-    "revenue_qoq_pct": 0.2,
-    "net_income_qoq_pct": 9.6
+    "revenue_cr": 241.2,
+    "net_income_cr": 31.1,
+    "revenue_qoq_pct": 6.5,
+    "net_income_qoq_pct": 41.4
    },
    "reason": null,
-   "rank": 4,
-   "name": "BSE Limited"
+   "rank": 1,
+   "name": "AVT Natural Products Limited"
   },
   {
-   "symbol": "ICICIBANK",
-   "ltp": 1389.4,
+   "symbol": "HBLENGINE",
+   "ltp": 833.15,
    "technicals": {
-    "rsi_14": 57.75,
-    "rel_volume_20d": 1.85,
-    "dist_20dma_pct": 3.83,
-    "dist_50dma_pct": 0.3,
-    "dist_200dma_pct": 2.67
+    "rsi_14": 66.13,
+    "rel_volume_20d": 20.83,
+    "dist_20dma_pct": 9.4,
+    "dist_50dma_pct": 15.34,
+    "dist_200dma_pct": 10.31
    },
    "pattern": null,
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 38365.7,
-    "net_income_cr": 15440.1,
-    "revenue_qoq_pct": 7.3,
-    "net_income_qoq_pct": 4.6
+    "revenue_cr": 638.0,
+    "net_income_cr": 109.1,
+    "revenue_qoq_pct": 5.6,
+    "net_income_qoq_pct": 71.0
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "HBL Engineering Limited"
+  },
+  {
+   "symbol": "KARURVYSYA",
+   "ltp": 355.65,
+   "technicals": {
+    "rsi_14": 66.8,
+    "rel_volume_20d": 7.39,
+    "dist_20dma_pct": 7.33,
+    "dist_50dma_pct": 5.88,
+    "dist_200dma_pct": 16.3
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 354.35,
+    "stop_suggestion": 311.4,
+    "target_suggestion": 425.22,
+    "gap_to_pivot_pct": 0.37
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 1864.5,
+    "net_income_cr": 755.7,
+    "revenue_qoq_pct": -5.6,
+    "net_income_qoq_pct": 4.2
+   },
+   "reason": null,
+   "rank": 3,
+   "name": "Karur Vysya Bank Limited"
+  },
+  {
+   "symbol": "PREMEXPLN",
+   "ltp": 691.4,
+   "technicals": {
+    "rsi_14": 65.86,
+    "rel_volume_20d": 0.88,
+    "dist_20dma_pct": 1.28,
+    "dist_50dma_pct": 3.02,
+    "dist_200dma_pct": 16.71
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 702.5,
+    "stop_suggestion": 679.09,
+    "target_suggestion": 807.87,
+    "gap_to_pivot_pct": -1.58
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 102.6,
+    "net_income_cr": 3.1,
+    "revenue_qoq_pct": 15.0,
+    "net_income_qoq_pct": -53.0
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "Premier Explosives Limited"
+  },
+  {
+   "symbol": "AXISBANK",
+   "ltp": 1290.0,
+   "technicals": {
+    "rsi_14": 62.8,
+    "rel_volume_20d": 1.34,
+    "dist_20dma_pct": 3.83,
+    "dist_50dma_pct": 3.64,
+    "dist_200dma_pct": 0.4
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 1300.0,
+    "stop_suggestion": 1251.17,
+    "target_suggestion": 1495.0,
+    "gap_to_pivot_pct": -0.77
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 22998.1,
+    "net_income_cr": 7632.3,
+    "revenue_qoq_pct": 4.2,
+    "net_income_qoq_pct": 0.4
    },
    "reason": null,
    "rank": 5,
-   "name": "ICICI Bank Limited"
+   "name": "Axis Bank Limited"
   }
  ]
 }
