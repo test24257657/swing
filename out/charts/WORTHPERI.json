@@ -2,7 +2,7 @@
  "symbol": "WORTHPERI",
  "name": "Worth Peripherals Limited",
  "kind": "stock",
- "as_of": "2026-10-16",
+ "as_of": "2026-10-19",
  "bars": [
   {
    "time": "2025-10-10",
@@ -2262,6 +2262,15 @@
    "close": 168.89,
    "volume": 144098,
    "delivery_pct": 43.7
+  },
+  {
+   "time": "2026-10-19",
+   "open": 172.99,
+   "high": 173.0,
+   "low": 166.0,
+   "close": 167.96,
+   "volume": 33144,
+   "delivery_pct": 66.22
   }
  ],
  "ma": {
@@ -3193,6 +3202,10 @@
    {
     "time": "2026-10-16",
     "value": 148.94
+   },
+   {
+    "time": "2026-10-19",
+    "value": 149.96
    }
   ],
   "sma_50": [
@@ -4003,6 +4016,10 @@
    {
     "time": "2026-10-16",
     "value": 151.88
+   },
+   {
+    "time": "2026-10-19",
+    "value": 152.25
    }
   ],
   "sma_200": [
@@ -4213,15 +4230,19 @@
    {
     "time": "2026-10-16",
     "value": 139.64
+   },
+   {
+    "time": "2026-10-19",
+    "value": 139.79
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.93,
-  "atr_pct": 5.26,
-  "rel_volume_20d": 9.05,
-  "dist_20dma_pct": 13.39,
-  "dist_50dma_pct": 11.2,
-  "dist_200dma_pct": 20.94
+  "rsi_14": 65.79,
+  "atr_pct": 5.21,
+  "rel_volume_20d": 1.48,
+  "dist_20dma_pct": 12.0,
+  "dist_50dma_pct": 10.32,
+  "dist_200dma_pct": 20.16
  }
 }

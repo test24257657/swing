@@ -2,17 +2,8 @@
  "symbol": "TEXINFRA",
  "name": "Texmaco Infrastructure & Holdings Limited",
  "kind": "stock",
- "as_of": "2026-10-16",
+ "as_of": "2026-10-19",
  "bars": [
-  {
-   "time": "2025-10-09",
-   "open": 94.2,
-   "high": 94.59,
-   "low": 93.0,
-   "close": 93.23,
-   "volume": 83019,
-   "delivery_pct": 52.15
-  },
   {
    "time": "2025-10-10",
    "open": 93.47,
@@ -2271,14 +2262,19 @@
    "close": 128.14,
    "volume": 621459,
    "delivery_pct": 73.91
+  },
+  {
+   "time": "2026-10-19",
+   "open": 127.0,
+   "high": 130.78,
+   "low": 127.0,
+   "close": 128.27,
+   "volume": 575609,
+   "delivery_pct": 61.77
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-07",
-    "value": 96.87
-   },
    {
     "time": "2025-11-10",
     "value": 97.21
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-16",
     "value": 119.53
+   },
+   {
+    "time": "2026-10-19",
+    "value": 120.26
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-19",
-    "value": 100.1
-   },
    {
     "time": "2025-12-22",
     "value": 100.29
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-16",
     "value": 115.28
+   },
+   {
+    "time": "2026-10-19",
+    "value": 115.58
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-03",
-    "value": 100.23
-   },
    {
     "time": "2026-08-04",
     "value": 100.34
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-16",
     "value": 104.14
+   },
+   {
+    "time": "2026-10-19",
+    "value": 104.28
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.37,
-  "atr_pct": 4.11,
-  "rel_volume_20d": 1.52,
-  "dist_20dma_pct": 7.21,
-  "dist_50dma_pct": 11.15,
-  "dist_200dma_pct": 23.04
+  "rsi_14": 64.51,
+  "atr_pct": 4.02,
+  "rel_volume_20d": 1.31,
+  "dist_20dma_pct": 6.66,
+  "dist_50dma_pct": 10.98,
+  "dist_200dma_pct": 23.0
  }
 }

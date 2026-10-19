@@ -2,7 +2,7 @@
  "symbol": "SINGERIND",
  "name": "Singer India Limited",
  "kind": "stock",
- "as_of": "2026-10-16",
+ "as_of": "2026-10-19",
  "bars": [
   {
    "time": "2026-03-19",
@@ -1290,6 +1290,15 @@
    "close": 90.09,
    "volume": 4330111,
    "delivery_pct": 36.37
+  },
+  {
+   "time": "2026-10-19",
+   "open": 89.99,
+   "high": 96.44,
+   "low": 85.62,
+   "close": 92.53,
+   "volume": 2089207,
+   "delivery_pct": 32.54
   }
  ],
  "ma": {
@@ -1789,6 +1798,10 @@
    {
     "time": "2026-10-16",
     "value": 77.14
+   },
+   {
+    "time": "2026-10-19",
+    "value": 77.95
    }
   ],
   "sma_50": [
@@ -2167,15 +2180,19 @@
    {
     "time": "2026-10-16",
     "value": 77.33
+   },
+   {
+    "time": "2026-10-19",
+    "value": 77.8
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.34,
-  "atr_pct": 4.43,
-  "rel_volume_20d": 64.61,
-  "dist_20dma_pct": 16.79,
-  "dist_50dma_pct": 16.5,
+  "rsi_14": 77.49,
+  "atr_pct": 4.84,
+  "rel_volume_20d": 7.41,
+  "dist_20dma_pct": 18.7,
+  "dist_50dma_pct": 18.93,
   "dist_200dma_pct": null
  }
 }

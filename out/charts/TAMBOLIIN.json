@@ -2,7 +2,7 @@
  "symbol": "TAMBOLIIN",
  "name": "Tamboli Industries Limited",
  "kind": "stock",
- "as_of": "2026-10-16",
+ "as_of": "2026-10-19",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1128,6 +1128,15 @@
    "close": 361.9,
    "volume": 143030,
    "delivery_pct": 61.32
+  },
+  {
+   "time": "2026-10-19",
+   "open": 368.0,
+   "high": 380.85,
+   "low": 333.65,
+   "close": 350.5,
+   "volume": 58633,
+   "delivery_pct": 44.44
   }
  ],
  "ma": {
@@ -1555,6 +1564,10 @@
    {
     "time": "2026-10-16",
     "value": 299.97
+   },
+   {
+    "time": "2026-10-19",
+    "value": 302.42
    }
   ],
   "sma_50": [
@@ -1861,15 +1874,19 @@
    {
     "time": "2026-10-16",
     "value": 273.3
+   },
+   {
+    "time": "2026-10-19",
+    "value": 275.94
    }
   ]
  },
  "technicals": {
-  "rsi_14": 76.7,
-  "atr_pct": 6.01,
-  "rel_volume_20d": 17.82,
-  "dist_20dma_pct": 20.65,
-  "dist_50dma_pct": 32.42,
+  "rsi_14": 70.4,
+  "atr_pct": 6.72,
+  "rel_volume_20d": 3.98,
+  "dist_20dma_pct": 15.9,
+  "dist_50dma_pct": 27.02,
   "dist_200dma_pct": null
  }
 }

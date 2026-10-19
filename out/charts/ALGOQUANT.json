@@ -2,7 +2,7 @@
  "symbol": "ALGOQUANT",
  "name": "Algoquant Fintech Limited",
  "kind": "stock",
- "as_of": "2026-10-16",
+ "as_of": "2026-10-19",
  "bars": [
   {
    "time": "2026-01-06",
@@ -1731,6 +1731,15 @@
    "close": 72.02,
    "volume": 1534253,
    "delivery_pct": 18.54
+  },
+  {
+   "time": "2026-10-19",
+   "open": 72.0,
+   "high": 73.5,
+   "low": 71.6,
+   "close": 72.83,
+   "volume": 1137726,
+   "delivery_pct": 22.88
   }
  ],
  "ma": {
@@ -2426,6 +2435,10 @@
    {
     "time": "2026-10-16",
     "value": 69.8
+   },
+   {
+    "time": "2026-10-19",
+    "value": 69.83
    }
   ],
   "sma_50": [
@@ -3000,15 +3013,19 @@
    {
     "time": "2026-10-16",
     "value": 67.17
+   },
+   {
+    "time": "2026-10-19",
+    "value": 67.3
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.08,
-  "atr_pct": 4.57,
-  "rel_volume_20d": 0.97,
-  "dist_20dma_pct": 3.18,
-  "dist_50dma_pct": 7.23,
+  "rsi_14": 61.87,
+  "atr_pct": 4.38,
+  "rel_volume_20d": 0.73,
+  "dist_20dma_pct": 4.3,
+  "dist_50dma_pct": 8.22,
   "dist_200dma_pct": null
  }
 }

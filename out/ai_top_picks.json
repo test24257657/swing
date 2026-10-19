@@ -1,146 +1,146 @@
 {
- "as_of": "2026-10-16",
- "source": "rules",
- "universe": 186,
+ "as_of": "2026-10-19",
+ "source": "ai",
+ "universe": 153,
  "eligible": 7,
  "picks": [
   {
-   "symbol": "AVTNPL",
-   "ltp": 101.0,
+   "symbol": "LTTS",
+   "ltp": 3611.3,
    "technicals": {
-    "rsi_14": 64.44,
-    "rel_volume_20d": 1.91,
-    "dist_20dma_pct": 8.81,
-    "dist_50dma_pct": 14.87,
-    "dist_200dma_pct": 40.29
+    "rsi_14": 62.89,
+    "rel_volume_20d": 1.38,
+    "dist_20dma_pct": 8.5,
+    "dist_50dma_pct": 5.26,
+    "dist_200dma_pct": 2.68
    },
    "pattern": {
     "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 102.0,
-    "stop_suggestion": 91.89,
-    "target_suggestion": 117.3,
-    "gap_to_pivot_pct": -0.98
+    "pivot_price": 3675.0,
+    "stop_suggestion": 3428.93,
+    "target_suggestion": 4226.25,
+    "gap_to_pivot_pct": -1.73
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 241.2,
-    "net_income_cr": 31.1,
-    "revenue_qoq_pct": 6.5,
-    "net_income_qoq_pct": 41.4
+    "revenue_cr": 2940.1,
+    "net_income_cr": 356.6,
+    "revenue_qoq_pct": 2.9,
+    "net_income_qoq_pct": 7.4
    },
-   "reason": null,
+   "reason": "LTTS forms a near-pivot setup with healthy 1.38x volume and 62.89 RSI. Fundamentals are solid with revenue up 2.9% QoQ and net profit growing 7.4% QoQ.",
    "rank": 1,
-   "name": "AVT Natural Products Limited"
+   "name": "L&T Technology Services Limited"
   },
   {
-   "symbol": "HBLENGINE",
-   "ltp": 833.15,
+   "symbol": "JAYNECOIND",
+   "ltp": 97.98,
    "technicals": {
-    "rsi_14": 66.13,
-    "rel_volume_20d": 20.83,
-    "dist_20dma_pct": 9.4,
-    "dist_50dma_pct": 15.34,
-    "dist_200dma_pct": 10.31
+    "rsi_14": 57.58,
+    "rel_volume_20d": 2.72,
+    "dist_20dma_pct": 5.18,
+    "dist_50dma_pct": 4.91,
+    "dist_200dma_pct": 10.24
+   },
+   "pattern": {
+    "code": "vcp",
+    "stage": "forming",
+    "pivot_price": 101.87,
+    "stop_suggestion": 90.27,
+    "target_suggestion": 127.34,
+    "gap_to_pivot_pct": -3.82
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 2106.6,
+    "net_income_cr": 193.9,
+    "revenue_qoq_pct": 6.7,
+    "net_income_qoq_pct": 1.6
+   },
+   "reason": "JAYNECOIND forms a VCP pattern with strong 2.72x volume and 57.58 RSI. Fundamentals show steady dual growth with revenue up 6.7% QoQ and profit up 1.6% QoQ.",
+   "rank": 2,
+   "name": "Jayaswal Neco Industries Limited"
+  },
+  {
+   "symbol": "RATNAVEER",
+   "ltp": 350.3,
+   "technicals": {
+    "rsi_14": 63.4,
+    "rel_volume_20d": 0.86,
+    "dist_20dma_pct": 4.51,
+    "dist_50dma_pct": 18.12,
+    "dist_200dma_pct": 79.11
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 345.45,
+    "stop_suggestion": 320.3,
+    "target_suggestion": 414.54,
+    "gap_to_pivot_pct": 1.4
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 314.6,
+    "net_income_cr": 18.2,
+    "revenue_qoq_pct": 26.3,
+    "net_income_qoq_pct": 7.1
+   },
+   "reason": "RATNAVEER forms a 52-week breakout setup with a healthy 63.4 RSI. Revenue grew 26.3% QoQ while net profit increased by 7.1% QoQ.",
+   "rank": 3,
+   "name": "Ratnaveer Precision Engineering Limited"
+  },
+  {
+   "symbol": "NRL",
+   "ltp": 166.9,
+   "technicals": {
+    "rsi_14": 70.51,
+    "rel_volume_20d": 0.23,
+    "dist_20dma_pct": 4.09,
+    "dist_50dma_pct": 20.51,
+    "dist_200dma_pct": 98.84
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 166.26,
+    "stop_suggestion": 153.48,
+    "target_suggestion": 199.51,
+    "gap_to_pivot_pct": 0.38
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 79.3,
+    "net_income_cr": 6.5,
+    "revenue_qoq_pct": 38.4,
+    "net_income_qoq_pct": 132.1
+   },
+   "reason": "NRL forms a 52-week breakout setup 0.38% from pivot. Growth is exceptional with revenue up 38.4% QoQ and net profit surging 132.1% QoQ.",
+   "rank": 4,
+   "name": "Nupur Recyclers Limited"
+  },
+  {
+   "symbol": "JUSTDIAL",
+   "ltp": 731.75,
+   "technicals": {
+    "rsi_14": 68.38,
+    "rel_volume_20d": 142.54,
+    "dist_20dma_pct": 9.04,
+    "dist_50dma_pct": 8.27,
+    "dist_200dma_pct": 18.13
    },
    "pattern": null,
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 638.0,
-    "net_income_cr": 109.1,
-    "revenue_qoq_pct": 5.6,
-    "net_income_qoq_pct": 71.0
+    "revenue_cr": 327.5,
+    "net_income_cr": 166.2,
+    "revenue_qoq_pct": 6.6,
+    "net_income_qoq_pct": 66.2
    },
-   "reason": null,
-   "rank": 2,
-   "name": "HBL Engineering Limited"
-  },
-  {
-   "symbol": "KARURVYSYA",
-   "ltp": 355.65,
-   "technicals": {
-    "rsi_14": 66.8,
-    "rel_volume_20d": 7.39,
-    "dist_20dma_pct": 7.33,
-    "dist_50dma_pct": 5.88,
-    "dist_200dma_pct": 16.3
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 354.35,
-    "stop_suggestion": 311.4,
-    "target_suggestion": 425.22,
-    "gap_to_pivot_pct": 0.37
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 1864.5,
-    "net_income_cr": 755.7,
-    "revenue_qoq_pct": -5.6,
-    "net_income_qoq_pct": 4.2
-   },
-   "reason": null,
-   "rank": 3,
-   "name": "Karur Vysya Bank Limited"
-  },
-  {
-   "symbol": "PREMEXPLN",
-   "ltp": 691.4,
-   "technicals": {
-    "rsi_14": 65.86,
-    "rel_volume_20d": 0.88,
-    "dist_20dma_pct": 1.28,
-    "dist_50dma_pct": 3.02,
-    "dist_200dma_pct": 16.71
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 702.5,
-    "stop_suggestion": 679.09,
-    "target_suggestion": 807.87,
-    "gap_to_pivot_pct": -1.58
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 102.6,
-    "net_income_cr": 3.1,
-    "revenue_qoq_pct": 15.0,
-    "net_income_qoq_pct": -53.0
-   },
-   "reason": null,
-   "rank": 4,
-   "name": "Premier Explosives Limited"
-  },
-  {
-   "symbol": "AXISBANK",
-   "ltp": 1290.0,
-   "technicals": {
-    "rsi_14": 62.8,
-    "rel_volume_20d": 1.34,
-    "dist_20dma_pct": 3.83,
-    "dist_50dma_pct": 3.64,
-    "dist_200dma_pct": 0.4
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 1300.0,
-    "stop_suggestion": 1251.17,
-    "target_suggestion": 1495.0,
-    "gap_to_pivot_pct": -0.77
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 22998.1,
-    "net_income_cr": 7632.3,
-    "revenue_qoq_pct": 4.2,
-    "net_income_qoq_pct": 0.4
-   },
-   "reason": null,
+   "reason": "JUSTDIAL shows exceptional momentum backed by a massive 142.54x volume surge and 68.38 RSI, alongside strong Q1 net profit growth of 66.2% QoQ.",
    "rank": 5,
-   "name": "Axis Bank Limited"
+   "name": "Just Dial Limited"
   }
  ]
 }

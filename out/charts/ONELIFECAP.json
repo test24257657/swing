@@ -2,17 +2,8 @@
  "symbol": "ONELIFECAP",
  "name": "Onelife Capital Advisors Limited",
  "kind": "stock",
- "as_of": "2026-10-16",
+ "as_of": "2026-10-19",
  "bars": [
-  {
-   "time": "2025-10-09",
-   "open": 12.95,
-   "high": 13.37,
-   "low": 12.0,
-   "close": 12.3,
-   "volume": 18821,
-   "delivery_pct": 74.04
-  },
   {
    "time": "2025-10-10",
    "open": 12.78,
@@ -2271,14 +2262,19 @@
    "close": 50.45,
    "volume": 245208,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-19",
+   "open": 50.7,
+   "high": 50.7,
+   "low": 49.0,
+   "close": 50.01,
+   "volume": 132797,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-07",
-    "value": 13.22
-   },
    {
     "time": "2025-11-10",
     "value": 13.4
@@ -2701,11 +2697,11 @@
    },
    {
     "time": "2026-04-16",
-    "value": 14.94
+    "value": 14.95
    },
    {
     "time": "2026-04-17",
-    "value": 14.95
+    "value": 14.96
    },
    {
     "time": "2026-04-20",
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-16",
     "value": 42.82
+   },
+   {
+    "time": "2026-10-19",
+    "value": 43.62
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-19",
-    "value": 13.91
-   },
    {
     "time": "2025-12-22",
     "value": 13.98
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-16",
     "value": 36.68
+   },
+   {
+    "time": "2026-10-19",
+    "value": 37.01
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-03",
-    "value": 19.81
-   },
    {
     "time": "2026-08-04",
     "value": 19.92
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-16",
     "value": 25.69
+   },
+   {
+    "time": "2026-10-19",
+    "value": 25.86
    }
   ]
  },
  "technicals": {
-  "rsi_14": 88.25,
-  "atr_pct": 4.51,
-  "rel_volume_20d": 1.96,
-  "dist_20dma_pct": 17.82,
-  "dist_50dma_pct": 37.54,
-  "dist_200dma_pct": 96.38
+  "rsi_14": 84.67,
+  "atr_pct": 4.47,
+  "rel_volume_20d": 1.01,
+  "dist_20dma_pct": 14.65,
+  "dist_50dma_pct": 35.14,
+  "dist_200dma_pct": 93.38
  }
 }
