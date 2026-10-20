@@ -1,104 +1,104 @@
 {
- "generated_at": "2026-10-19T08:15:53+05:30",
- "for_session": "2026-10-19",
+ "generated_at": "2026-10-20T08:15:55+05:30",
+ "for_session": "2026-10-21",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7659.44,
-   "change_pct": -1.09,
-   "as_of": "2026-10-16"
+   "value": 7690.73,
+   "change_pct": 0.41,
+   "as_of": "2026-10-19"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 26140.03,
-   "change_pct": -2.15,
-   "as_of": "2026-10-16"
+   "value": 26430.89,
+   "change_pct": 1.11,
+   "as_of": "2026-10-19"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 52002.41,
-   "change_pct": -0.34,
-   "as_of": "2026-10-16"
+   "value": 51966.03,
+   "change_pct": -0.07,
+   "as_of": "2026-10-19"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 64534.03,
-   "change_pct": -1.21,
-   "as_of": "2026-10-19"
+   "value": 64512.35,
+   "change_pct": -0.62,
+   "as_of": "2026-10-20"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24186.83,
-   "change_pct": 0.52,
-   "as_of": "2026-10-16"
+   "value": 23945.66,
+   "change_pct": -1.0,
+   "as_of": "2026-10-20"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5658.64,
-   "change_pct": -0.17,
-   "as_of": "2026-10-19"
+   "value": 5635.1,
+   "change_pct": -2.3,
+   "as_of": "2026-10-20"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 107.89,
-   "change_pct": -1.79,
-   "as_of": "2026-10-18"
+   "value": 109.44,
+   "change_pct": -0.38,
+   "as_of": "2026-10-19"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4195.2,
-   "change_pct": 0.34,
-   "as_of": "2026-10-18"
+   "value": 4155.3,
+   "change_pct": -0.62,
+   "as_of": "2026-10-19"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 94.95,
-   "change_pct": 0.45,
-   "as_of": "2026-10-19"
+   "value": 94.92,
+   "change_pct": -0.07,
+   "as_of": "2026-10-20"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.1,
-   "change_pct": 0.18,
-   "as_of": "2026-10-16"
+   "value": 5.14,
+   "change_pct": 0.75,
+   "as_of": "2026-10-19"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 101.81,
-   "change_pct": -0.03,
-   "as_of": "2026-10-18"
+   "value": 101.88,
+   "change_pct": 0.04,
+   "as_of": "2026-10-19"
   }
  ],
  "global_tone": {
-  "tone": "negative",
-  "avg_change_pct": -0.82,
+  "tone": "mixed",
+  "avg_change_pct": -0.48,
   "crude_alert": false
  },
  "nifty": {
-  "session": "2026-10-16",
-  "close": 23146.15,
-  "high": 23149.85,
-  "low": 22913.8,
-  "pivot": 23069.93,
-  "r1": 23226.07,
-  "s1": 22990.02,
-  "r2": 23305.98,
-  "s2": 22833.88,
-  "sma_20": 22840.88,
-  "sma_50": 23549.21,
-  "sma_200": 24184.17
+  "session": "2026-10-19",
+  "close": 22888.95,
+  "high": 23175.25,
+  "low": 22845.0,
+  "pivot": 22969.73,
+  "r1": 23094.47,
+  "s1": 22764.22,
+  "r2": 23299.98,
+  "s2": 22639.48,
+  "sma_20": 22818.01,
+  "sma_50": 23514.27,
+  "sma_200": 24168.4
  },
  "focus": [
   {
@@ -108,22 +108,16 @@
    "rs": 98
   },
   {
-   "symbol": "RATNAVEER",
-   "name": "Ratnaveer Precision Engineering Limited",
+   "symbol": "HFCL",
+   "name": "HFCL Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
   {
-   "symbol": "TFCILTD",
-   "name": "Tourism Finance Corporation of India Limited",
+   "symbol": "SHREEJISPG",
+   "name": "Shreeji Shipping Global Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
-  },
-  {
-   "symbol": "SBC",
-   "name": "SBC Exports Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 97
   },
   {
    "symbol": "LAURUSLABS",
@@ -132,149 +126,128 @@
    "rs": 96
   },
   {
-   "symbol": "AVTNPL",
-   "name": "AVT Natural Products Limited",
+   "symbol": "NEOGEN",
+   "name": "Neogen Chemicals Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 94
+  },
+  {
+   "symbol": "JUSTDIAL",
+   "name": "Just Dial Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "HBLENGINE",
-   "name": "HBL Engineering Limited",
+   "symbol": "JAYNECOIND",
+   "name": "Jayaswal Neco Industries Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "KARURVYSYA",
-   "name": "Karur Vysya Bank Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "PREMEXPLN",
-   "name": "Premier Explosives Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "AXISBANK",
-   "name": "Axis Bank Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "HFCL",
-   "name": "HFCL Limited",
+   "symbol": "MANINDS",
+   "name": "Man Industries (India) Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 98
+   "rs": 97
   },
   {
-   "symbol": "INDORAMA",
-   "name": "Indo Rama Synthetics (India) Limited",
+   "symbol": "SALSTEEL",
+   "name": "S.A.L. Steel Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 98
+   "rs": 97
   },
   {
-   "symbol": "LOTUSDEV",
-   "name": "Sri Lotus Developers and Realty Limited",
+   "symbol": "KOPRAN",
+   "name": "Kopran Limited",
    "why": "Pocket pivot yesterday",
    "rs": 94
   },
   {
-   "symbol": "LLOYDSENGG",
-   "name": "LLOYDS ENGINEERING WORKS LIMITED",
+   "symbol": "ACUTAAS",
+   "name": "Acutaas Chemicals Limited",
    "why": "Pocket pivot yesterday",
    "rs": 92
   }
  ],
  "overnight_news": [
   {
-   "symbol": "TRENT",
-   "time": "18 Oct 18:47",
-   "category": "Resignation",
-   "text": "Trent Limited has informed the Exchange regarding Intimation of resignation of Non-Executive Non-Independent Director of the Company.",
-   "url": "https://nsearchives.nseindia.com/corporate/TRENT_18102026184315_Intimation_of_Resignation_of_NED.pdf"
-  },
-  {
-   "symbol": "JSWSTEEL",
-   "time": "18 Oct 12:25",
-   "category": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
-   "text": "JSW Steel Limited has informed the Exchange about Intimation under Regulation 30 of SEBI Listing Regulations",
-   "url": "https://nsearchives.nseindia.com/corporate/DivyaMascarenhas_18102026122524_SEIntimationJajangMinesHCOrdersOct162026.pdf"
-  },
-  {
-   "symbol": "BAJAJFINSV",
-   "time": "17 Oct 17:03",
-   "category": "Acquisition",
-   "text": "Bajaj Finserv Limited has informed the Exchange about the incorporation of a wholly owned subsidiary company i.e. Bajaj Reinsurance Limited",
-   "url": "https://nsearchives.nseindia.com/corporate/walimbelk_17102026170249_SEIntimationIncorporationofReinsurance17Oct2026.pdf"
-  },
-  {
-   "symbol": "ICICIBANK",
-   "time": "17 Oct 15:28",
+   "symbol": "JUSTDIAL",
+   "time": "19 Oct 20:22",
    "category": "Outcome of Board Meeting",
-   "text": "ICICI Bank Limited has informed the Exchange that the Board at its meeting held today, inter alia, approved the filing of an application with RBI seeking its approval for the continuation of Mr. Pradeep Kumar Sinha as a ",
-   "url": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026152608_NSEBSE17102026.pdf"
+   "text": "Just Dial Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/chintan_19102026202058_Outcome.pdf"
   },
   {
-   "symbol": "ICICIBANK",
-   "time": "17 Oct 15:21",
-   "category": "Outcome of Board Meeting",
-   "text": "ICICI Bank Limited has submitted to the Exchange, the unaudited financial results of the Bank (standalone and consolidated) for the quarter and six months ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026152039_NSEBSE17102026.pdf"
-  },
-  {
-   "symbol": "AXISBANK",
-   "time": "17 Oct 14:25",
-   "category": "Appointment",
-   "text": "Axis Bank Limited has informed the Exchange regarding Appointment of Mr Rahul Shukla as Other of the company w.e.f. October 19, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_17102026142522_SEIntimation_SMPSigned.pdf"
-  },
-  {
-   "symbol": "HDFCBANK",
-   "time": "17 Oct 13:56",
-   "category": "Outcome of Board Meeting",
-   "text": "HDFC Bank Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026135520_OutcomeofBMResults_17oct2026.pdf"
-  },
-  {
-   "symbol": "AXISBANK",
-   "time": "17 Oct 12:52",
-   "category": "Outcome of Board Meeting",
-   "text": "Axis Bank Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_17102026125236_AxisBank_Q2FY27_results.pdf"
-  },
-  {
-   "symbol": "JSWSTEEL",
-   "time": "17 Oct 11:00",
-   "category": "Amalgamation/Merger",
-   "text": "JSW Steel Limited has informed the Exchange about Order ofHon ble National Company Law Tribunal sanctioning the Scheme of Amalgamation of Piombino Steel Limited with JSW Steel Limited and theirrespective shareholders und",
-   "url": "https://nsearchives.nseindia.com/corporate/DivyaMascarenhas_17102026105940_JSWSLSEIntimationforOrdersanctioningPSLMergerOct2026.pdf"
-  },
-  {
-   "symbol": "LOTUSDEV",
-   "time": "16 Oct 16:38",
+   "symbol": "HFCL",
+   "time": "19 Oct 18:51",
    "category": "Monitoring Agency Report",
-   "text": "Monitoring Agency Report for the quarter ended September 30, 2026",
-   "url": "https://nsearchives.nseindia.com/corporate/SRILOTUS_16102026163834_IntimationMAReport.pdf"
+   "text": "Monitoring Agency Reports on the utilisation of proceeds raised through Qualified Institutions Placements and Preferential Issue of Warrants for the Quarter ended September 30, 2026",
+   "url": "https://nsearchives.nseindia.com/corporate/AHMED_19102026185141_HFCL_STX_MAReport_30092026.pdf"
   },
   {
-   "symbol": "HINDALCO",
-   "time": "16 Oct 16:33",
-   "category": "Credit Rating- Others",
-   "text": "Hindalco Industries Limited has informed the Exchange about ESG Rating",
-   "url": "https://nsearchives.nseindia.com/corporate/HINDALCOIND_16102026163309_Reg30_ESG_Rating_signed.pdf"
+   "symbol": "ULTRACEMCO",
+   "time": "19 Oct 18:38",
+   "category": "Options to purchase securities",
+   "text": "UltraTech Cement Limited has informed the Exchange about Options to purchase securities",
+   "url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_19102026183754_SEGrant19102026.pdf"
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "time": "19 Oct 17:57",
+   "category": "Change in Management",
+   "text": "Bajaj Finance Limited has informed the Exchange about change in Management",
+   "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175648_Change_in_SMT_Prashant_Verma_CISO_signed.pdf"
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "time": "19 Oct 17:57",
+   "category": "Issue of Securities",
+   "text": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
+   "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf"
+  },
+  {
+   "symbol": "ULTRACEMCO",
+   "time": "19 Oct 17:38",
+   "category": "Rumour Verification - Regulation 30(11)",
+   "text": "UltraTech Cement Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
+   "url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_19102026173746_MPM19102026.pdf"
+  },
+  {
+   "symbol": "TRENT",
+   "time": "19 Oct 17:25",
+   "category": "Resignation of Director/KMP/SMP",
+   "text": "Trent Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "url": "https://nsearchives.nseindia.com/corporate/TRENT_ROID_100856_KMP_Doc.zip"
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "time": "19 Oct 17:20",
+   "category": "Outcome of Board Meeting",
+   "text": "Bajaj Finance Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026172017_BMOutcome_19102026.pdf"
+  },
+  {
+   "symbol": "ULTRACEMCO",
+   "time": "19 Oct 16:07",
+   "category": "Resignation of Director/KMP/SMP",
+   "text": "UltraTech Cement Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_ROID_100832_KMP_Doc.zip"
   }
  ],
  "events": [
-  "Results today for stocks in focus: HFCL — avoid fresh buys before the numbers.",
   "26 companies report results today."
  ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
-  "Weak global cues — let the first 15-30 minutes settle before acting.",
-  "Some focus stocks report today — wait for the result.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
- "ai": null
+ "ai": {
+  "headline": "Cautious start expected for NIFTY amid mixed global cues and red light",
+  "points": [
+   "US markets ended mixed with Nasdaq up 1.11% to 26430.89, but Asian indices like Kospi fell 2.30% to 5635.1.",
+   "NIFTY closed at 22888.95 with the market light at red; watch pivot at 22969.73 and support S1 at 22764.22.",
+   "As 26 companies report results today, Brent crude slipped -0.38% to 109.44 and US 10Y yields hit 5.14.",
+   "NIFTY holds near its 20-day average of 22818.01, with resistance R1 positioned at 23094.47."
+  ]
+ }
 }
