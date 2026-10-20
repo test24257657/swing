@@ -1,9 +1,38 @@
 {
- "as_of": "2026-10-19",
+ "as_of": "2026-10-20",
  "source": "rules",
  "universe": 153,
- "eligible": 2,
+ "eligible": 6,
  "picks": [
+  {
+   "symbol": "GABRIEL",
+   "ltp": 1486.1,
+   "technicals": {
+    "rsi_14": 64.32,
+    "rel_volume_20d": 3.96,
+    "dist_20dma_pct": 7.75,
+    "dist_50dma_pct": 7.12,
+    "dist_200dma_pct": 29.68
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 1495.0,
+    "stop_suggestion": 1403.99,
+    "target_suggestion": 1719.25,
+    "gap_to_pivot_pct": -0.6
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 1425.7,
+    "net_income_cr": 107.4,
+    "revenue_qoq_pct": 17.9,
+    "net_income_qoq_pct": 61.3
+   },
+   "reason": null,
+   "rank": 1,
+   "name": "Gabriel India Limited"
+  },
   {
    "symbol": "JUSTDIAL",
    "ltp": 731.75,
@@ -23,7 +52,7 @@
     "net_income_qoq_pct": 66.2
    },
    "reason": null,
-   "rank": 1,
+   "rank": 2,
    "name": "Just Dial Limited"
   },
   {
@@ -52,8 +81,66 @@
     "net_income_qoq_pct": 1.6
    },
    "reason": null,
-   "rank": 2,
+   "rank": 3,
    "name": "Jayaswal Neco Industries Limited"
+  },
+  {
+   "symbol": "GROWW",
+   "ltp": 198.08,
+   "technicals": {
+    "rsi_14": 57.43,
+    "rel_volume_20d": 0.71,
+    "dist_20dma_pct": 3.93,
+    "dist_50dma_pct": 2.61,
+    "dist_200dma_pct": 6.72
+   },
+   "pattern": {
+    "code": "trendline_breakout",
+    "stage": "confirmed",
+    "pivot_price": 194.5,
+    "stop_suggestion": 178.01,
+    "target_suggestion": 233.4,
+    "gap_to_pivot_pct": 1.84
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 1501.4,
+    "net_income_cr": 735.0,
+    "revenue_qoq_pct": -0.3,
+    "net_income_qoq_pct": 7.1
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "Billionbrains Garage Ventures Limited"
+  },
+  {
+   "symbol": "ATL",
+   "ltp": 27.88,
+   "technicals": {
+    "rsi_14": 62.85,
+    "rel_volume_20d": 1.78,
+    "dist_20dma_pct": 9.06,
+    "dist_50dma_pct": 10.65,
+    "dist_200dma_pct": 12.64
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 28.18,
+    "stop_suggestion": 25.7,
+    "target_suggestion": 32.41,
+    "gap_to_pivot_pct": -1.06
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 214.4,
+    "net_income_cr": 6.4,
+    "revenue_qoq_pct": 3.1,
+    "net_income_qoq_pct": -27.3
+   },
+   "reason": null,
+   "rank": 5,
+   "name": "Allcargo Terminals Limited"
   }
  ]
 }
