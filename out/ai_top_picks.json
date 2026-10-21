@@ -1,146 +1,153 @@
 {
- "as_of": "2026-10-20",
+ "as_of": "2026-10-21",
  "source": "rules",
- "universe": 153,
- "eligible": 6,
+ "universe": 108,
+ "eligible": 8,
  "picks": [
   {
-   "symbol": "GABRIEL",
-   "ltp": 1486.1,
+   "symbol": "STOVEKRAFT",
+   "ltp": 840.05,
    "technicals": {
-    "rsi_14": 64.32,
-    "rel_volume_20d": 3.96,
-    "dist_20dma_pct": 7.75,
-    "dist_50dma_pct": 7.12,
-    "dist_200dma_pct": 29.68
+    "rsi_14": 56.71,
+    "rel_volume_20d": 2.33,
+    "dist_20dma_pct": 2.5,
+    "dist_50dma_pct": 3.21,
+    "dist_200dma_pct": 29.14
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 850.8,
+    "stop_suggestion": 775.2,
+    "target_suggestion": 1020.96,
+    "gap_to_pivot_pct": -1.26
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 480.6,
+    "net_income_cr": 17.1,
+    "revenue_qoq_pct": 15.9,
+    "net_income_qoq_pct": 180.3
+   },
+   "reason": null,
+   "rank": 1,
+   "name": "Stove Kraft Limited"
+  },
+  {
+   "symbol": "LAURUSLABS",
+   "ltp": 2012.5,
+   "technicals": {
+    "rsi_14": 52.29,
+    "rel_volume_20d": 0.87,
+    "dist_20dma_pct": -0.52,
+    "dist_50dma_pct": 3.83,
+    "dist_200dma_pct": 42.37
    },
    "pattern": {
     "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 1495.0,
-    "stop_suggestion": 1403.99,
-    "target_suggestion": 1719.25,
-    "gap_to_pivot_pct": -0.6
+    "pivot_price": 2069.2,
+    "stop_suggestion": 1934.36,
+    "target_suggestion": 2379.58,
+    "gap_to_pivot_pct": -2.74
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 1425.7,
-    "net_income_cr": 107.4,
-    "revenue_qoq_pct": 17.9,
-    "net_income_qoq_pct": 61.3
-   },
-   "reason": null,
-   "rank": 1,
-   "name": "Gabriel India Limited"
-  },
-  {
-   "symbol": "JUSTDIAL",
-   "ltp": 731.75,
-   "technicals": {
-    "rsi_14": 68.38,
-    "rel_volume_20d": 142.54,
-    "dist_20dma_pct": 9.04,
-    "dist_50dma_pct": 8.27,
-    "dist_200dma_pct": 18.13
-   },
-   "pattern": null,
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 327.5,
-    "net_income_cr": 166.2,
-    "revenue_qoq_pct": 6.6,
-    "net_income_qoq_pct": 66.2
+    "revenue_cr": 2026.3,
+    "net_income_cr": 367.6,
+    "revenue_qoq_pct": 11.9,
+    "net_income_qoq_pct": 31.7
    },
    "reason": null,
    "rank": 2,
-   "name": "Just Dial Limited"
+   "name": "Laurus Labs Limited"
   },
   {
-   "symbol": "JAYNECOIND",
-   "ltp": 97.98,
+   "symbol": "UYFINCORP",
+   "ltp": 23.0,
    "technicals": {
-    "rsi_14": 57.58,
-    "rel_volume_20d": 2.72,
-    "dist_20dma_pct": 5.18,
-    "dist_50dma_pct": 4.91,
-    "dist_200dma_pct": 10.24
+    "rsi_14": 53.03,
+    "rel_volume_20d": 3.22,
+    "dist_20dma_pct": 1.29,
+    "dist_50dma_pct": 9.44,
+    "dist_200dma_pct": 41.74
    },
    "pattern": {
     "code": "vcp",
     "stage": "forming",
-    "pivot_price": 101.87,
-    "stop_suggestion": 90.27,
-    "target_suggestion": 127.34,
-    "gap_to_pivot_pct": -3.82
+    "pivot_price": 22.34,
+    "stop_suggestion": 19.2,
+    "target_suggestion": 27.93,
+    "gap_to_pivot_pct": 2.95
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 2106.6,
-    "net_income_cr": 193.9,
-    "revenue_qoq_pct": 6.7,
-    "net_income_qoq_pct": 1.6
+    "revenue_cr": 59.6,
+    "net_income_cr": 19.6,
+    "revenue_qoq_pct": 3.3,
+    "net_income_qoq_pct": 12.6
    },
    "reason": null,
    "rank": 3,
-   "name": "Jayaswal Neco Industries Limited"
+   "name": "U. Y. Fincorp Limited"
   },
   {
-   "symbol": "GROWW",
-   "ltp": 198.08,
+   "symbol": "SHYAMMETL",
+   "ltp": 1195.6,
    "technicals": {
-    "rsi_14": 57.43,
-    "rel_volume_20d": 0.71,
-    "dist_20dma_pct": 3.93,
-    "dist_50dma_pct": 2.61,
-    "dist_200dma_pct": 6.72
+    "rsi_14": 68.26,
+    "rel_volume_20d": 1.68,
+    "dist_20dma_pct": 8.63,
+    "dist_50dma_pct": 12.24,
+    "dist_200dma_pct": 27.7
    },
    "pattern": {
-    "code": "trendline_breakout",
+    "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 194.5,
-    "stop_suggestion": 178.01,
-    "target_suggestion": 233.4,
-    "gap_to_pivot_pct": 1.84
+    "pivot_price": 1157.0,
+    "stop_suggestion": 1015.0,
+    "target_suggestion": 1388.4,
+    "gap_to_pivot_pct": 3.34
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 1501.4,
-    "net_income_cr": 735.0,
-    "revenue_qoq_pct": -0.3,
-    "net_income_qoq_pct": 7.1
+    "revenue_cr": 5455.1,
+    "net_income_cr": 345.1,
+    "revenue_qoq_pct": 4.1,
+    "net_income_qoq_pct": 8.1
    },
    "reason": null,
    "rank": 4,
-   "name": "Billionbrains Garage Ventures Limited"
+   "name": "Shyam Metalics and Energy Limited"
   },
   {
-   "symbol": "ATL",
-   "ltp": 27.88,
+   "symbol": "KARURVYSYA",
+   "ltp": 359.65,
    "technicals": {
-    "rsi_14": 62.85,
-    "rel_volume_20d": 1.78,
-    "dist_20dma_pct": 9.06,
-    "dist_50dma_pct": 10.65,
-    "dist_200dma_pct": 12.64
+    "rsi_14": 63.64,
+    "rel_volume_20d": 3.13,
+    "dist_20dma_pct": 7.38,
+    "dist_50dma_pct": 6.71,
+    "dist_200dma_pct": 17.19
    },
    "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 28.18,
-    "stop_suggestion": 25.7,
-    "target_suggestion": 32.41,
-    "gap_to_pivot_pct": -1.06
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 354.35,
+    "stop_suggestion": 311.4,
+    "target_suggestion": 425.22,
+    "gap_to_pivot_pct": 1.5
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 214.4,
-    "net_income_cr": 6.4,
-    "revenue_qoq_pct": 3.1,
-    "net_income_qoq_pct": -27.3
+    "revenue_cr": 1864.5,
+    "net_income_cr": 755.7,
+    "revenue_qoq_pct": -5.6,
+    "net_income_qoq_pct": 4.2
    },
    "reason": null,
    "rank": 5,
-   "name": "Allcargo Terminals Limited"
+   "name": "Karur Vysya Bank Limited"
   }
  ]
 }

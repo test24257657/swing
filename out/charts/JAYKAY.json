@@ -2,7 +2,7 @@
  "symbol": "JAYKAY",
  "name": "Jaykay Enterprises Limited",
  "kind": "stock",
- "as_of": "2026-10-19",
+ "as_of": "2026-10-21",
  "bars": [
   {
    "time": "2025-12-03",
@@ -1947,6 +1947,15 @@
    "close": 215.01,
    "volume": 210028,
    "delivery_pct": 50.52
+  },
+  {
+   "time": "2026-10-21",
+   "open": 216.17,
+   "high": 217.52,
+   "low": 199.1,
+   "close": 202.39,
+   "volume": 516578,
+   "delivery_pct": 50.49
   }
  ],
  "ma": {
@@ -2738,6 +2747,10 @@
    {
     "time": "2026-10-19",
     "value": 216.49
+   },
+   {
+    "time": "2026-10-21",
+    "value": 217.23
    }
   ],
   "sma_50": [
@@ -3408,6 +3421,10 @@
    {
     "time": "2026-10-19",
     "value": 181.07
+   },
+   {
+    "time": "2026-10-21",
+    "value": 182.14
    }
   ],
   "sma_200": [
@@ -3478,15 +3495,19 @@
    {
     "time": "2026-10-19",
     "value": 168.79
+   },
+   {
+    "time": "2026-10-21",
+    "value": 168.82
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.24,
-  "atr_pct": 6.76,
-  "rel_volume_20d": 0.09,
-  "dist_20dma_pct": -0.68,
-  "dist_50dma_pct": 18.74,
-  "dist_200dma_pct": 27.38
+  "rsi_14": 48.24,
+  "atr_pct": 7.31,
+  "rel_volume_20d": 0.23,
+  "dist_20dma_pct": -6.83,
+  "dist_50dma_pct": 11.12,
+  "dist_200dma_pct": 19.89
  }
 }

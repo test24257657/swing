@@ -2,17 +2,8 @@
  "symbol": "PANACHE",
  "name": "Panache Digilife Limited",
  "kind": "stock",
- "as_of": "2026-10-19",
+ "as_of": "2026-10-21",
  "bars": [
-  {
-   "time": "2025-10-10",
-   "open": 452.1,
-   "high": 452.1,
-   "low": 446.0,
-   "close": 446.0,
-   "volume": 5692,
-   "delivery_pct": null
-  },
   {
    "time": "2025-10-13",
    "open": 437.1,
@@ -2271,14 +2262,19 @@
    "close": 669.55,
    "volume": 7129,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-21",
+   "open": 682.9,
+   "high": 682.9,
+   "low": 656.2,
+   "close": 656.2,
+   "volume": 14921,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-10",
-    "value": 423.22
-   },
    {
     "time": "2025-11-11",
     "value": 422.17
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-19",
     "value": 571.26
+   },
+   {
+    "time": "2026-10-21",
+    "value": 578.07
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-22",
-    "value": 394.59
-   },
    {
     "time": "2025-12-23",
     "value": 392.34
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-19",
     "value": 540.94
+   },
+   {
+    "time": "2026-10-21",
+    "value": 544.89
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-04",
-    "value": 360.35
-   },
    {
     "time": "2026-08-05",
     "value": 360.31
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-19",
     "value": 398.04
+   },
+   {
+    "time": "2026-10-21",
+    "value": 399.68
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.48,
-  "atr_pct": 3.22,
-  "rel_volume_20d": 0.28,
-  "dist_20dma_pct": 17.21,
-  "dist_50dma_pct": 23.78,
-  "dist_200dma_pct": 68.21
+  "rsi_14": 70.39,
+  "atr_pct": 3.34,
+  "rel_volume_20d": 0.59,
+  "dist_20dma_pct": 13.52,
+  "dist_50dma_pct": 20.43,
+  "dist_200dma_pct": 64.18
  }
 }

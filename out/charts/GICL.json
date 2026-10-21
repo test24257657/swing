@@ -2,7 +2,7 @@
  "symbol": "GICL",
  "name": "Globe International Carriers Limited",
  "kind": "stock",
- "as_of": "2026-10-19",
+ "as_of": "2026-10-21",
  "bars": [
   {
    "time": "2026-02-18",
@@ -1479,6 +1479,15 @@
    "close": 25.2,
    "volume": 151477,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-21",
+   "open": 25.2,
+   "high": 25.6,
+   "low": 24.65,
+   "close": 25.22,
+   "volume": 404296,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -2062,6 +2071,10 @@
    {
     "time": "2026-10-19",
     "value": 22.9
+   },
+   {
+    "time": "2026-10-21",
+    "value": 22.98
    }
   ],
   "sma_50": [
@@ -2524,15 +2537,19 @@
    {
     "time": "2026-10-19",
     "value": 23.33
+   },
+   {
+    "time": "2026-10-21",
+    "value": 23.44
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.68,
-  "atr_pct": 5.76,
-  "rel_volume_20d": 0.85,
-  "dist_20dma_pct": 10.03,
-  "dist_50dma_pct": 8.01,
+  "rsi_14": 68.79,
+  "atr_pct": 5.62,
+  "rel_volume_20d": 2.26,
+  "dist_20dma_pct": 9.74,
+  "dist_50dma_pct": 7.61,
   "dist_200dma_pct": null
  }
 }

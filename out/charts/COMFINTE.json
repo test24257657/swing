@@ -2,7 +2,7 @@
  "symbol": "COMFINTE",
  "name": "Comfort Intech Limited",
  "kind": "stock",
- "as_of": "2026-10-19",
+ "as_of": "2026-10-21",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1137,6 +1137,15 @@
    "close": 9.27,
    "volume": 13216096,
    "delivery_pct": 31.73
+  },
+  {
+   "time": "2026-10-21",
+   "open": 9.81,
+   "high": 10.19,
+   "low": 9.8,
+   "close": 10.18,
+   "volume": 25048871,
+   "delivery_pct": 18.88
   }
  ],
  "ma": {
@@ -1568,6 +1577,10 @@
    {
     "time": "2026-10-19",
     "value": 6.49
+   },
+   {
+    "time": "2026-10-21",
+    "value": 6.71
    }
   ],
   "sma_50": [
@@ -1878,15 +1891,19 @@
    {
     "time": "2026-10-19",
     "value": 6.34
+   },
+   {
+    "time": "2026-10-21",
+    "value": 6.41
    }
   ]
  },
  "technicals": {
-  "rsi_14": 80.94,
-  "atr_pct": 6.32,
-  "rel_volume_20d": 13.63,
-  "dist_20dma_pct": 42.89,
-  "dist_50dma_pct": 46.31,
+  "rsi_14": 84.23,
+  "atr_pct": 5.99,
+  "rel_volume_20d": 15.4,
+  "dist_20dma_pct": 51.7,
+  "dist_50dma_pct": 58.88,
   "dist_200dma_pct": null
  }
 }
