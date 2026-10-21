@@ -1,89 +1,89 @@
 {
- "generated_at": "2026-10-20T08:15:55+05:30",
+ "generated_at": "2026-10-21T08:15:47+05:30",
  "for_session": "2026-10-21",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7690.73,
-   "change_pct": 0.41,
-   "as_of": "2026-10-19"
+   "value": 7712.57,
+   "change_pct": 0.28,
+   "as_of": "2026-10-20"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 26430.89,
-   "change_pct": 1.11,
-   "as_of": "2026-10-19"
+   "value": 26424.82,
+   "change_pct": -0.02,
+   "as_of": "2026-10-20"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51966.03,
-   "change_pct": -0.07,
-   "as_of": "2026-10-19"
+   "value": 52495.88,
+   "change_pct": 1.02,
+   "as_of": "2026-10-20"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 64512.35,
-   "change_pct": -0.62,
-   "as_of": "2026-10-20"
+   "value": 64823.55,
+   "change_pct": 1.17,
+   "as_of": "2026-10-21"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 23945.66,
-   "change_pct": -1.0,
-   "as_of": "2026-10-20"
+   "value": 23849.57,
+   "change_pct": -0.08,
+   "as_of": "2026-10-21"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5635.1,
-   "change_pct": -2.3,
-   "as_of": "2026-10-20"
+   "value": 5779.64,
+   "change_pct": 4.09,
+   "as_of": "2026-10-21"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 109.44,
-   "change_pct": -0.38,
-   "as_of": "2026-10-19"
+   "value": 110.4,
+   "change_pct": 0.78,
+   "as_of": "2026-10-20"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4155.3,
+   "value": 4134.4,
    "change_pct": -0.62,
-   "as_of": "2026-10-19"
+   "as_of": "2026-10-20"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 94.92,
-   "change_pct": -0.07,
-   "as_of": "2026-10-20"
+   "value": 94.77,
+   "change_pct": -0.24,
+   "as_of": "2026-10-21"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.14,
-   "change_pct": 0.75,
-   "as_of": "2026-10-19"
+   "value": 5.12,
+   "change_pct": -0.37,
+   "as_of": "2026-10-20"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 101.88,
-   "change_pct": 0.04,
-   "as_of": "2026-10-19"
+   "value": 101.78,
+   "change_pct": -0.2,
+   "as_of": "2026-10-20"
   }
  ],
  "global_tone": {
-  "tone": "mixed",
-  "avg_change_pct": -0.48,
+  "tone": "positive",
+  "avg_change_pct": 1.09,
   "crude_alert": false
  },
  "nifty": {
@@ -132,6 +132,12 @@
    "rs": 94
   },
   {
+   "symbol": "GABRIEL",
+   "name": "Gabriel India Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
    "symbol": "JUSTDIAL",
    "name": "Just Dial Limited",
    "why": "AI top 5",
@@ -140,6 +146,18 @@
   {
    "symbol": "JAYNECOIND",
    "name": "Jayaswal Neco Industries Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "GROWW",
+   "name": "Billionbrains Garage Ventures Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "ATL",
+   "name": "Allcargo Terminals Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -233,21 +251,11 @@
    "url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_ROID_100832_KMP_Doc.zip"
   }
  ],
- "events": [
-  "26 companies report results today."
- ],
+ "events": [],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
- "ai": {
-  "headline": "Cautious start expected for NIFTY amid mixed global cues and red light",
-  "points": [
-   "US markets ended mixed with Nasdaq up 1.11% to 26430.89, but Asian indices like Kospi fell 2.30% to 5635.1.",
-   "NIFTY closed at 22888.95 with the market light at red; watch pivot at 22969.73 and support S1 at 22764.22.",
-   "As 26 companies report results today, Brent crude slipped -0.38% to 109.44 and US 10Y yields hit 5.14.",
-   "NIFTY holds near its 20-day average of 22818.01, with resistance R1 positioned at 23094.47."
-  ]
- }
+ "ai": null
 }
