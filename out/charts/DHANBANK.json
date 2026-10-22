@@ -2,17 +2,8 @@
  "symbol": "DHANBANK",
  "name": "Dhanlaxmi Bank Limited",
  "kind": "stock",
- "as_of": "2026-10-21",
+ "as_of": "2026-10-22",
  "bars": [
-  {
-   "time": "2025-10-13",
-   "open": 26.04,
-   "high": 26.04,
-   "low": 25.5,
-   "close": 25.63,
-   "volume": 793569,
-   "delivery_pct": 64.8
-  },
   {
    "time": "2025-10-14",
    "open": 25.66,
@@ -2271,14 +2262,19 @@
    "close": 35.53,
    "volume": 2209333,
    "delivery_pct": 45.22
+  },
+  {
+   "time": "2026-10-22",
+   "open": 34.8,
+   "high": 37.99,
+   "low": 34.6,
+   "close": 37.09,
+   "volume": 3704707,
+   "delivery_pct": 28.71
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-11",
-    "value": 26.18
-   },
    {
     "time": "2025-11-12",
     "value": 26.23
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-21",
     "value": 31.42
+   },
+   {
+    "time": "2026-10-22",
+    "value": 31.81
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-23",
-    "value": 26.13
-   },
    {
     "time": "2025-12-24",
     "value": 26.11
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-21",
     "value": 31.62
+   },
+   {
+    "time": "2026-10-22",
+    "value": 31.7
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-05",
-    "value": 27.81
-   },
    {
     "time": "2026-08-06",
     "value": 27.84
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-21",
     "value": 29.26
+   },
+   {
+    "time": "2026-10-22",
+    "value": 29.32
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.07,
-  "atr_pct": 5.63,
-  "rel_volume_20d": 0.77,
-  "dist_20dma_pct": 13.09,
-  "dist_50dma_pct": 12.36,
-  "dist_200dma_pct": 21.43
+  "rsi_14": 67.18,
+  "atr_pct": 5.66,
+  "rel_volume_20d": 1.25,
+  "dist_20dma_pct": 16.59,
+  "dist_50dma_pct": 17.01,
+  "dist_200dma_pct": 26.5
  }
 }

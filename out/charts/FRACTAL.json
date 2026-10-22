@@ -2,7 +2,7 @@
  "symbol": "FRACTAL",
  "name": "Fractal Analytics Limited",
  "kind": "stock",
- "as_of": "2026-10-21",
+ "as_of": "2026-10-22",
  "bars": [
   {
    "time": "2026-02-16",
@@ -1506,6 +1506,15 @@
    "close": 785.9,
    "volume": 13710880,
    "delivery_pct": 6.54
+  },
+  {
+   "time": "2026-10-22",
+   "open": 784.0,
+   "high": 802.0,
+   "low": 743.4,
+   "close": 752.4,
+   "volume": 3545473,
+   "delivery_pct": 8.39
   }
  ],
  "ma": {
@@ -2101,6 +2110,10 @@
    {
     "time": "2026-10-21",
     "value": 734.51
+   },
+   {
+    "time": "2026-10-22",
+    "value": 734.06
    }
   ],
   "sma_50": [
@@ -2575,15 +2588,19 @@
    {
     "time": "2026-10-21",
     "value": 779.21
+   },
+   {
+    "time": "2026-10-22",
+    "value": 778.14
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.5,
-  "atr_pct": 3.75,
-  "rel_volume_20d": 46.17,
-  "dist_20dma_pct": 7.0,
-  "dist_50dma_pct": 0.86,
+  "rsi_14": 51.12,
+  "atr_pct": 4.2,
+  "rel_volume_20d": 3.68,
+  "dist_20dma_pct": 2.5,
+  "dist_50dma_pct": -3.31,
   "dist_200dma_pct": null
  }
 }

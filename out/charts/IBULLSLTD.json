@@ -2,7 +2,7 @@
  "symbol": "IBULLSLTD",
  "name": "Indiabulls Limited",
  "kind": "stock",
- "as_of": "2026-10-21",
+ "as_of": "2026-10-22",
  "bars": [
   {
    "time": "2025-11-10",
@@ -1965,6 +1965,15 @@
    "close": 34.57,
    "volume": 38808057,
    "delivery_pct": 45.45
+  },
+  {
+   "time": "2026-10-22",
+   "open": 34.5,
+   "high": 35.24,
+   "low": 33.0,
+   "close": 33.29,
+   "volume": 17274317,
+   "delivery_pct": 52.91
   }
  ],
  "ma": {
@@ -2764,6 +2773,10 @@
    {
     "time": "2026-10-21",
     "value": 32.57
+   },
+   {
+    "time": "2026-10-22",
+    "value": 32.76
    }
   ],
   "sma_50": [
@@ -3442,6 +3455,10 @@
    {
     "time": "2026-10-21",
     "value": 29.16
+   },
+   {
+    "time": "2026-10-22",
+    "value": 29.25
    }
   ],
   "sma_200": [
@@ -3520,15 +3537,19 @@
    {
     "time": "2026-10-21",
     "value": 20.84
+   },
+   {
+    "time": "2026-10-22",
+    "value": 20.92
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.11,
-  "atr_pct": 6.47,
-  "rel_volume_20d": 1.89,
-  "dist_20dma_pct": 6.14,
-  "dist_50dma_pct": 18.54,
-  "dist_200dma_pct": 65.91
+  "rsi_14": 53.78,
+  "atr_pct": 6.72,
+  "rel_volume_20d": 0.79,
+  "dist_20dma_pct": 1.62,
+  "dist_50dma_pct": 13.8,
+  "dist_200dma_pct": 59.15
  }
 }

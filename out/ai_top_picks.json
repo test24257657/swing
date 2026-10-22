@@ -1,26 +1,26 @@
 {
- "as_of": "2026-10-21",
- "source": "rules",
- "universe": 108,
- "eligible": 8,
+ "as_of": "2026-10-22",
+ "source": "ai",
+ "universe": 84,
+ "eligible": 10,
  "picks": [
   {
    "symbol": "STOVEKRAFT",
-   "ltp": 840.05,
+   "ltp": 841.4,
    "technicals": {
-    "rsi_14": 56.71,
-    "rel_volume_20d": 2.33,
-    "dist_20dma_pct": 2.5,
-    "dist_50dma_pct": 3.21,
-    "dist_200dma_pct": 29.14
+    "rsi_14": 57.14,
+    "rel_volume_20d": 1.09,
+    "dist_20dma_pct": 2.58,
+    "dist_50dma_pct": 3.29,
+    "dist_200dma_pct": 29.08
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "forming",
-    "pivot_price": 850.8,
+    "pivot_price": 851.35,
     "stop_suggestion": 775.2,
-    "target_suggestion": 1020.96,
-    "gap_to_pivot_pct": -1.26
+    "target_suggestion": 1021.62,
+    "gap_to_pivot_pct": -1.17
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
@@ -29,85 +29,27 @@
     "revenue_qoq_pct": 15.9,
     "net_income_qoq_pct": 180.3
    },
-   "reason": null,
+   "reason": "Forms a 52-week breakout 1.17% below pivot with strong 1.09x volume and RSI 57.14, backed by stellar Q1 growth in both revenue (15.9%) and net profit (180.3%).",
    "rank": 1,
    "name": "Stove Kraft Limited"
   },
   {
-   "symbol": "LAURUSLABS",
-   "ltp": 2012.5,
-   "technicals": {
-    "rsi_14": 52.29,
-    "rel_volume_20d": 0.87,
-    "dist_20dma_pct": -0.52,
-    "dist_50dma_pct": 3.83,
-    "dist_200dma_pct": 42.37
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 2069.2,
-    "stop_suggestion": 1934.36,
-    "target_suggestion": 2379.58,
-    "gap_to_pivot_pct": -2.74
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 2026.3,
-    "net_income_cr": 367.6,
-    "revenue_qoq_pct": 11.9,
-    "net_income_qoq_pct": 31.7
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "Laurus Labs Limited"
-  },
-  {
-   "symbol": "UYFINCORP",
-   "ltp": 23.0,
-   "technicals": {
-    "rsi_14": 53.03,
-    "rel_volume_20d": 3.22,
-    "dist_20dma_pct": 1.29,
-    "dist_50dma_pct": 9.44,
-    "dist_200dma_pct": 41.74
-   },
-   "pattern": {
-    "code": "vcp",
-    "stage": "forming",
-    "pivot_price": 22.34,
-    "stop_suggestion": 19.2,
-    "target_suggestion": 27.93,
-    "gap_to_pivot_pct": 2.95
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 59.6,
-    "net_income_cr": 19.6,
-    "revenue_qoq_pct": 3.3,
-    "net_income_qoq_pct": 12.6
-   },
-   "reason": null,
-   "rank": 3,
-   "name": "U. Y. Fincorp Limited"
-  },
-  {
    "symbol": "SHYAMMETL",
-   "ltp": 1195.6,
+   "ltp": 1200.0,
    "technicals": {
-    "rsi_14": 68.26,
-    "rel_volume_20d": 1.68,
-    "dist_20dma_pct": 8.63,
+    "rsi_14": 68.8,
+    "rel_volume_20d": 0.71,
+    "dist_20dma_pct": 8.51,
     "dist_50dma_pct": 12.24,
-    "dist_200dma_pct": 27.7
+    "dist_200dma_pct": 27.91
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 1157.0,
+    "stage": "forming",
+    "pivot_price": 1198.5,
     "stop_suggestion": 1015.0,
-    "target_suggestion": 1388.4,
-    "gap_to_pivot_pct": 3.34
+    "target_suggestion": 1438.2,
+    "gap_to_pivot_pct": 0.13
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
@@ -116,27 +58,56 @@
     "revenue_qoq_pct": 4.1,
     "net_income_qoq_pct": 8.1
    },
-   "reason": null,
-   "rank": 4,
+   "reason": "Forming a 52-week breakout 0.13% from pivot with healthy RSI of 68.8, supported by consistent dual QoQ growth in revenue (4.1%) and net profit (8.1%).",
+   "rank": 2,
    "name": "Shyam Metalics and Energy Limited"
   },
   {
-   "symbol": "KARURVYSYA",
-   "ltp": 359.65,
+   "symbol": "UNITEDPOLY",
+   "ltp": 49.43,
    "technicals": {
-    "rsi_14": 63.64,
-    "rel_volume_20d": 3.13,
-    "dist_20dma_pct": 7.38,
-    "dist_50dma_pct": 6.71,
-    "dist_200dma_pct": 17.19
+    "rsi_14": 57.34,
+    "rel_volume_20d": 0.49,
+    "dist_20dma_pct": 1.35,
+    "dist_50dma_pct": 15.1,
+    "dist_200dma_pct": 51.04
+   },
+   "pattern": {
+    "code": "vcp",
+    "stage": "forming",
+    "pivot_price": 50.23,
+    "stop_suggestion": 45.06,
+    "target_suggestion": 62.79,
+    "gap_to_pivot_pct": -1.59
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 179.9,
+    "net_income_cr": 7.8,
+    "revenue_qoq_pct": 4.6,
+    "net_income_qoq_pct": 9.9
+   },
+   "reason": "Constructing a VCP pattern 1.59% under pivot with comfortable RSI at 57.34, backed by solid Q1 revenue growth of 4.6% and profit growth of 9.9% QoQ.",
+   "rank": 3,
+   "name": "United Polyfab Gujarat Limited"
+  },
+  {
+   "symbol": "KARURVYSYA",
+   "ltp": 356.05,
+   "technicals": {
+    "rsi_14": 60.68,
+    "rel_volume_20d": 0.77,
+    "dist_20dma_pct": 5.74,
+    "dist_50dma_pct": 5.48,
+    "dist_200dma_pct": 15.83
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 354.35,
+    "pivot_price": 355.65,
     "stop_suggestion": 311.4,
-    "target_suggestion": 425.22,
-    "gap_to_pivot_pct": 1.5
+    "target_suggestion": 426.78,
+    "gap_to_pivot_pct": 0.11
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
@@ -145,9 +116,38 @@
     "revenue_qoq_pct": -5.6,
     "net_income_qoq_pct": 4.2
    },
-   "reason": null,
-   "rank": 5,
+   "reason": "Features a confirmed 52-week breakout 0.11% above pivot with healthy momentum (RSI 60.68), backed by \u20b9755.7 crore net profit showing 4.2% QoQ growth.",
+   "rank": 4,
    "name": "Karur Vysya Bank Limited"
+  },
+  {
+   "symbol": "CRISIL",
+   "ltp": 4777.2,
+   "technicals": {
+    "rsi_14": 64.38,
+    "rel_volume_20d": 5.22,
+    "dist_20dma_pct": 5.81,
+    "dist_50dma_pct": 4.49,
+    "dist_200dma_pct": 10.05
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 4872.0,
+    "stop_suggestion": 4570.63,
+    "target_suggestion": 5602.8,
+    "gap_to_pivot_pct": -1.95
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 1075.4,
+    "net_income_cr": 216.5,
+    "revenue_qoq_pct": 1.7,
+    "net_income_qoq_pct": -7.2
+   },
+   "reason": "Near pivot setup (-1.95%) backed by huge 5.22x average volume and RSI 64.38, supported by strong revenue of \u20b91075.4 crore growing 1.7% QoQ.",
+   "rank": 5,
+   "name": "Crisil Limited"
   }
  ]
 }

@@ -2,17 +2,8 @@
  "symbol": "TOKYOPLAST",
  "name": "Tokyo Plast International Limited",
  "kind": "stock",
- "as_of": "2026-10-21",
+ "as_of": "2026-10-22",
  "bars": [
-  {
-   "time": "2025-10-13",
-   "open": 123.8,
-   "high": 129.0,
-   "low": 122.0,
-   "close": 127.23,
-   "volume": 17089,
-   "delivery_pct": 73.8
-  },
   {
    "time": "2025-10-14",
    "open": 132.59,
@@ -2271,14 +2262,19 @@
    "close": 77.73,
    "volume": 9422,
    "delivery_pct": 67.37
+  },
+  {
+   "time": "2026-10-22",
+   "open": 74.73,
+   "high": 77.0,
+   "low": 72.25,
+   "close": 73.64,
+   "volume": 458,
+   "delivery_pct": 81.22
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-11",
-    "value": 125.37
-   },
    {
     "time": "2025-11-12",
     "value": 125.15
@@ -2733,7 +2729,7 @@
    },
    {
     "time": "2026-04-30",
-    "value": 85.41
+    "value": 85.42
    },
    {
     "time": "2026-05-04",
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-21",
     "value": 72.13
+   },
+   {
+    "time": "2026-10-22",
+    "value": 71.89
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-23",
-    "value": 120.19
-   },
    {
     "time": "2025-12-24",
     "value": 119.91
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-21",
     "value": 75.32
+   },
+   {
+    "time": "2026-10-22",
+    "value": 75.19
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-05",
-    "value": 96.02
-   },
    {
     "time": "2026-08-06",
     "value": 95.79
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-21",
     "value": 84.5
+   },
+   {
+    "time": "2026-10-22",
+    "value": 84.31
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.59,
-  "atr_pct": 5.34,
-  "rel_volume_20d": 4.28,
-  "dist_20dma_pct": 7.76,
-  "dist_50dma_pct": 3.2,
-  "dist_200dma_pct": -8.01
+  "rsi_14": 51.19,
+  "atr_pct": 5.77,
+  "rel_volume_20d": 0.18,
+  "dist_20dma_pct": 2.43,
+  "dist_50dma_pct": -2.07,
+  "dist_200dma_pct": -12.66
  }
 }
