@@ -2,17 +2,8 @@
  "symbol": "TTML",
  "name": "Tata Teleservices (Maharashtra) Limited",
  "kind": "stock",
- "as_of": "2026-10-22",
+ "as_of": "2026-10-23",
  "bars": [
-  {
-   "time": "2025-10-14",
-   "open": 57.12,
-   "high": 57.15,
-   "low": 55.5,
-   "close": 55.86,
-   "volume": 1147103,
-   "delivery_pct": 61.05
-  },
   {
    "time": "2025-10-15",
    "open": 56.01,
@@ -2271,14 +2262,19 @@
    "close": 38.01,
    "volume": 209010072,
    "delivery_pct": 6.52
+  },
+  {
+   "time": "2026-10-23",
+   "open": 40.9,
+   "high": 40.99,
+   "low": 32.8,
+   "close": 37.68,
+   "volume": 166964939,
+   "delivery_pct": 4.63
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-12",
-    "value": 55.13
-   },
    {
     "time": "2025-11-13",
     "value": 55.04
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-22",
     "value": 34.23
+   },
+   {
+    "time": "2026-10-23",
+    "value": 34.33
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-24",
-    "value": 52.68
-   },
    {
     "time": "2025-12-26",
     "value": 52.57
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-22",
     "value": 36.06
+   },
+   {
+    "time": "2026-10-23",
+    "value": 36.03
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-06",
-    "value": 45.0
-   },
    {
     "time": "2026-08-07",
     "value": 44.92
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-22",
     "value": 40.74
+   },
+   {
+    "time": "2026-10-23",
+    "value": 40.68
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.67,
-  "atr_pct": 3.98,
-  "rel_volume_20d": 33.49,
-  "dist_20dma_pct": 11.04,
-  "dist_50dma_pct": 5.41,
-  "dist_200dma_pct": -6.71
+  "rsi_14": 61.94,
+  "atr_pct": 5.28,
+  "rel_volume_20d": 10.04,
+  "dist_20dma_pct": 9.75,
+  "dist_50dma_pct": 4.57,
+  "dist_200dma_pct": -7.38
  }
 }

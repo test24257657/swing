@@ -1,84 +1,55 @@
 {
- "as_of": "2026-10-22",
+ "as_of": "2026-10-23",
  "source": "ai",
- "universe": 84,
- "eligible": 10,
+ "universe": 68,
+ "eligible": 4,
  "picks": [
   {
-   "symbol": "STOVEKRAFT",
-   "ltp": 841.4,
+   "symbol": "CYIENT",
+   "ltp": 1233.0,
    "technicals": {
-    "rsi_14": 57.14,
-    "rel_volume_20d": 1.09,
-    "dist_20dma_pct": 2.58,
-    "dist_50dma_pct": 3.29,
-    "dist_200dma_pct": 29.08
+    "rsi_14": 66.7,
+    "rel_volume_20d": 25.29,
+    "dist_20dma_pct": 8.44,
+    "dist_50dma_pct": 15.45,
+    "dist_200dma_pct": 27.69
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 851.35,
-    "stop_suggestion": 775.2,
-    "target_suggestion": 1021.62,
-    "gap_to_pivot_pct": -1.17
+    "stage": "confirmed",
+    "pivot_price": 1211.7,
+    "stop_suggestion": 1068.0,
+    "target_suggestion": 1454.04,
+    "gap_to_pivot_pct": 1.76
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 480.6,
-    "net_income_cr": 17.1,
-    "revenue_qoq_pct": 15.9,
-    "net_income_qoq_pct": 180.3
+    "revenue_cr": 2075.7,
+    "net_income_cr": 104.1,
+    "revenue_qoq_pct": 7.7,
+    "net_income_qoq_pct": 90.0
    },
-   "reason": "Forms a 52-week breakout 1.17% below pivot with strong 1.09x volume and RSI 57.14, backed by stellar Q1 growth in both revenue (15.9%) and net profit (180.3%).",
+   "reason": "Confirmed 52-week breakout with a massive 25.29x volume surge and 66.7 RSI. Both Q1 revenue grew 7.7% QoQ and net profit jumped 90.0% QoQ, creating a strong setup.",
    "rank": 1,
-   "name": "Stove Kraft Limited"
-  },
-  {
-   "symbol": "SHYAMMETL",
-   "ltp": 1200.0,
-   "technicals": {
-    "rsi_14": 68.8,
-    "rel_volume_20d": 0.71,
-    "dist_20dma_pct": 8.51,
-    "dist_50dma_pct": 12.24,
-    "dist_200dma_pct": 27.91
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 1198.5,
-    "stop_suggestion": 1015.0,
-    "target_suggestion": 1438.2,
-    "gap_to_pivot_pct": 0.13
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 5455.1,
-    "net_income_cr": 345.1,
-    "revenue_qoq_pct": 4.1,
-    "net_income_qoq_pct": 8.1
-   },
-   "reason": "Forming a 52-week breakout 0.13% from pivot with healthy RSI of 68.8, supported by consistent dual QoQ growth in revenue (4.1%) and net profit (8.1%).",
-   "rank": 2,
-   "name": "Shyam Metalics and Energy Limited"
+   "name": "Cyient Limited"
   },
   {
    "symbol": "UNITEDPOLY",
-   "ltp": 49.43,
+   "ltp": 49.19,
    "technicals": {
-    "rsi_14": 57.34,
-    "rel_volume_20d": 0.49,
-    "dist_20dma_pct": 1.35,
-    "dist_50dma_pct": 15.1,
-    "dist_200dma_pct": 51.04
+    "rsi_14": 56.32,
+    "rel_volume_20d": 0.38,
+    "dist_20dma_pct": 0.52,
+    "dist_50dma_pct": 13.58,
+    "dist_200dma_pct": 49.73
    },
    "pattern": {
     "code": "vcp",
     "stage": "forming",
     "pivot_price": 50.23,
-    "stop_suggestion": 45.06,
+    "stop_suggestion": 44.65,
     "target_suggestion": 62.79,
-    "gap_to_pivot_pct": -1.59
+    "gap_to_pivot_pct": -2.07
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
@@ -87,67 +58,67 @@
     "revenue_qoq_pct": 4.6,
     "net_income_qoq_pct": 9.9
    },
-   "reason": "Constructing a VCP pattern 1.59% under pivot with comfortable RSI at 57.34, backed by solid Q1 revenue growth of 4.6% and profit growth of 9.9% QoQ.",
-   "rank": 3,
+   "reason": "Forming a VCP pattern with a solid 56.32 RSI and 49.73% distance above its 200-day average. Q1 revenue grew 4.6% QoQ while net profit increased 9.9% QoQ.",
+   "rank": 2,
    "name": "United Polyfab Gujarat Limited"
   },
   {
-   "symbol": "KARURVYSYA",
-   "ltp": 356.05,
+   "symbol": "PREMEXPLN",
+   "ltp": 687.4,
    "technicals": {
-    "rsi_14": 60.68,
-    "rel_volume_20d": 0.77,
-    "dist_20dma_pct": 5.74,
-    "dist_50dma_pct": 5.48,
-    "dist_200dma_pct": 15.83
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 355.65,
-    "stop_suggestion": 311.4,
-    "target_suggestion": 426.78,
-    "gap_to_pivot_pct": 0.11
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 1864.5,
-    "net_income_cr": 755.7,
-    "revenue_qoq_pct": -5.6,
-    "net_income_qoq_pct": 4.2
-   },
-   "reason": "Features a confirmed 52-week breakout 0.11% above pivot with healthy momentum (RSI 60.68), backed by \u20b9755.7 crore net profit showing 4.2% QoQ growth.",
-   "rank": 4,
-   "name": "Karur Vysya Bank Limited"
-  },
-  {
-   "symbol": "CRISIL",
-   "ltp": 4777.2,
-   "technicals": {
-    "rsi_14": 64.38,
-    "rel_volume_20d": 5.22,
-    "dist_20dma_pct": 5.81,
-    "dist_50dma_pct": 4.49,
-    "dist_200dma_pct": 10.05
+    "rsi_14": 56.23,
+    "rel_volume_20d": 2.45,
+    "dist_20dma_pct": 0.17,
+    "dist_50dma_pct": 1.94,
+    "dist_200dma_pct": 15.37
    },
    "pattern": {
     "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 4872.0,
-    "stop_suggestion": 4570.63,
-    "target_suggestion": 5602.8,
-    "gap_to_pivot_pct": -1.95
+    "pivot_price": 702.5,
+    "stop_suggestion": 675.9,
+    "target_suggestion": 807.87,
+    "gap_to_pivot_pct": -2.15
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 1075.4,
-    "net_income_cr": 216.5,
-    "revenue_qoq_pct": 1.7,
-    "net_income_qoq_pct": -7.2
+    "revenue_cr": 102.6,
+    "net_income_cr": 3.1,
+    "revenue_qoq_pct": 15.0,
+    "net_income_qoq_pct": -53.0
    },
-   "reason": "Near pivot setup (-1.95%) backed by huge 5.22x average volume and RSI 64.38, supported by strong revenue of \u20b91075.4 crore growing 1.7% QoQ.",
-   "rank": 5,
-   "name": "Crisil Limited"
+   "reason": "Trading near pivot backed by 2.45x average volume and healthy 56.23 RSI. Q1 revenue grew 15.0% QoQ to \u20b9102.6 cr, offering near-term breakout potential despite reduced profit.",
+   "rank": 3,
+   "name": "Premier Explosives Limited"
+  },
+  {
+   "symbol": "SGMART",
+   "ltp": 796.8,
+   "technicals": {
+    "rsi_14": 57.94,
+    "rel_volume_20d": 2.76,
+    "dist_20dma_pct": 5.36,
+    "dist_50dma_pct": 3.57,
+    "dist_200dma_pct": 35.91
+   },
+   "pattern": {
+    "code": "vcp",
+    "stage": "forming",
+    "pivot_price": 859.95,
+    "stop_suggestion": 737.19,
+    "target_suggestion": 1074.94,
+    "gap_to_pivot_pct": -7.34
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 1308.6,
+    "net_income_cr": 45.6,
+    "revenue_qoq_pct": -28.2,
+    "net_income_qoq_pct": 9.9
+   },
+   "reason": "Forming a VCP pattern with strong 2.76x volume and healthy 57.94 RSI. Q1 net profit grew 9.9% QoQ to \u20b945.6 cr, keeping earnings positive despite a drop in revenue.",
+   "rank": 4,
+   "name": "SG Mart Limited"
   }
  ]
 }
