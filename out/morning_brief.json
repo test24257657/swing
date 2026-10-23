@@ -1,109 +1,109 @@
 {
- "generated_at": "2026-10-22T08:15:54+05:30",
- "for_session": "2026-10-22",
+ "generated_at": "2026-10-23T08:15:53+05:30",
+ "for_session": "2026-10-23",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7757.17,
-   "change_pct": 0.58,
-   "as_of": "2026-10-21"
+   "value": 7663.43,
+   "change_pct": -1.21,
+   "as_of": "2026-10-22"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 26702.86,
-   "change_pct": 1.05,
-   "as_of": "2026-10-21"
+   "value": 26008.86,
+   "change_pct": -2.6,
+   "as_of": "2026-10-22"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 52856.09,
-   "change_pct": 0.69,
-   "as_of": "2026-10-21"
+   "value": 52867.98,
+   "change_pct": 0.02,
+   "as_of": "2026-10-22"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 63917.43,
-   "change_pct": -1.09,
-   "as_of": "2026-10-22"
+   "value": 61825.26,
+   "change_pct": -1.72,
+   "as_of": "2026-10-23"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 23074.35,
-   "change_pct": -2.44,
-   "as_of": "2026-10-22"
+   "value": 22954.46,
+   "change_pct": 0.09,
+   "as_of": "2026-10-23"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5598.02,
-   "change_pct": -2.4,
-   "as_of": "2026-10-22"
+   "value": 5388.91,
+   "change_pct": -2.62,
+   "as_of": "2026-10-23"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 110.53,
-   "change_pct": 1.6,
-   "as_of": "2026-10-21"
+   "value": 113.93,
+   "change_pct": 4.7,
+   "as_of": "2026-10-22"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4137.0,
-   "change_pct": -0.14,
-   "as_of": "2026-10-21"
+   "value": 4033.8,
+   "change_pct": -2.8,
+   "as_of": "2026-10-22"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 94.45,
-   "change_pct": -0.28,
-   "as_of": "2026-10-22"
+   "value": 94.81,
+   "change_pct": 0.53,
+   "as_of": "2026-10-23"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.15,
-   "change_pct": 0.57,
-   "as_of": "2026-10-21"
+   "value": 4.95,
+   "change_pct": -3.75,
+   "as_of": "2026-10-22"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 101.64,
-   "change_pct": -0.09,
-   "as_of": "2026-10-21"
+   "value": 101.67,
+   "change_pct": -0.11,
+   "as_of": "2026-10-22"
   }
  ],
  "global_tone": {
   "tone": "negative",
-  "avg_change_pct": -0.86,
-  "crude_alert": false
+  "avg_change_pct": -1.61,
+  "crude_alert": true
  },
  "nifty": {
-  "session": "2026-10-21",
-  "close": 22811.35,
-  "high": 23120.9,
-  "low": 22649.9,
-  "pivot": 22860.72,
-  "r1": 23071.53,
-  "s1": 22600.53,
-  "r2": 23331.72,
-  "s2": 22389.72,
-  "sma_20": 22787.86,
-  "sma_50": 23479.08,
-  "sma_200": 24152.74
+  "session": "2026-10-22",
+  "close": 22687.65,
+  "high": 22785.0,
+  "low": 22554.85,
+  "pivot": 22675.83,
+  "r1": 22796.82,
+  "s1": 22566.67,
+  "r2": 22905.98,
+  "s2": 22445.68,
+  "sma_20": 22755.79,
+  "sma_50": 23441.16,
+  "sma_200": 24136.49
  },
  "focus": [
   {
-   "symbol": "SBC",
-   "name": "SBC Exports Limited",
+   "symbol": "SKYGOLD",
+   "name": "SKY GOLD AND DIAMONDS LIMITED",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
@@ -114,34 +114,22 @@
    "rs": 96
   },
   {
-   "symbol": "LAURUSLABS",
-   "name": "Laurus Labs Limited",
+   "symbol": "UNITEDPOLY",
+   "name": "United Polyfab Gujarat Limited",
    "why": "Ready setup near its pivot",
-   "rs": 96
-  },
-  {
-   "symbol": "SAMBHV",
-   "name": "Sambhv Steel Tubes Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 93
-  },
-  {
-   "symbol": "NAZARA",
-   "name": "Nazara Technologies Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 92
+   "rs": 95
   },
   {
    "symbol": "STOVEKRAFT",
    "name": "Stove Kraft Limited",
-   "why": "AI top 5",
-   "rs": null
+   "why": "Ready setup near its pivot",
+   "rs": 89
   },
   {
-   "symbol": "UYFINCORP",
-   "name": "U. Y. Fincorp Limited",
-   "why": "AI top 5",
-   "rs": null
+   "symbol": "SAREGAMA",
+   "name": "Saregama India Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 85
   },
   {
    "symbol": "SHYAMMETL",
@@ -156,16 +144,22 @@
    "rs": null
   },
   {
-   "symbol": "SWANDEF",
-   "name": "Swan Defence and Heavy Industries Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 98
+   "symbol": "CRISIL",
+   "name": "Crisil Limited",
+   "why": "AI top 5",
+   "rs": null
   },
   {
-   "symbol": "IBULLSLTD",
-   "name": "Indiabulls Limited",
+   "symbol": "EBGNG",
+   "name": "GNG Electronics Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 97
+   "rs": 96
+  },
+  {
+   "symbol": "WSTCSTPAPR",
+   "name": "West Coast Paper Mills Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 96
   },
   {
    "symbol": "SYNCOMF",
@@ -174,65 +168,38 @@
    "rs": 95
   },
   {
-   "symbol": "PTCIL",
-   "name": "PTC Industries Limited",
+   "symbol": "SHADOWFAX",
+   "name": "Shadowfax Technologies Limited",
    "why": "Pocket pivot yesterday",
    "rs": 93
+  },
+  {
+   "symbol": "PVRINOX",
+   "name": "PVR INOX Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 92
   }
  ],
  "overnight_news": [
   {
-   "symbol": "RELIANCE",
-   "time": "21 Oct 20:43",
-   "category": "Credit Rating",
-   "text": "Reliance Industries Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_21102026204310_SE_ICRA.pdf"
-  },
-  {
-   "symbol": "NESTLEIND",
-   "time": "21 Oct 19:36",
-   "category": "Change in Management",
-   "text": "Nestle India Limited has informed the Exchange about Disclosure of nominations/ changes in the Senior Management of the Company effective from 1st January 2027, subject to necessary approvals",
-   "url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_21102026193438_CommunicationChangeinSMPssigned.pdf"
-  },
-  {
-   "symbol": "AXISBANK",
-   "time": "21 Oct 19:13",
+   "symbol": "ICICIBANK",
+   "time": "22 Oct 16:45",
    "category": "ESOP/ESOS/ESPS",
-   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 47781  Shares.",
-   "url": "https://nsearchives.nseindia.com/corporate/Kapil_21102026191242_SE21102026.pdf"
-  },
-  {
-   "symbol": "ETERNAL",
-   "time": "21 Oct 17:35",
-   "category": "Monitoring Agency Report",
-   "text": "Eternal Limited has filed with exchange monitoring agency report for quarter ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026173358_SignedMALletter.pdf"
-  },
-  {
-   "symbol": "ETERNAL",
-   "time": "21 Oct 15:33",
-   "category": "Sale or disposal",
-   "text": "Eternal Limited has informed exchange regarding proposed restructuring, acquisition and divestment.",
-   "url": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026153325_OutcomeSIGNED.pdf"
+   "text": "ICICI Bank Limited has informed the Exchange regarding Allotment of 24096  Shares.",
+   "url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_22102026164514_Lettertoexchange.pdf"
   }
  ],
  "events": [
-  "35 companies report results today."
+  "Results today for stocks in focus: CRISIL — avoid fresh buys before the numbers.",
+  "58 companies report results today."
  ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
   "Weak global cues — let the first 15-30 minutes settle before acting.",
+  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
+  "Some focus stocks report today — wait for the result.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
- "ai": {
-  "headline": "Weak Asian Cues Signal Cautious Open With Market Light Red",
-  "points": [
-   "Asian markets drag cues lower, with Hang Seng dropping 2.44% and Kospi down 2.40%, creating an overall negative global tone averaging -0.86%.",
-   "With market light red, NIFTY closed at 22811.35; key levels to watch include pivot 22860.72 and S1 support at 22600.53.",
-   "Brent crude rose to 110.53 (+1.60%), while US 10Y yield rose to 5.15 (+0.57%) and USD/INR fell to 94.45 (-0.28%).",
-   "Watch stock actions as 35 companies report results today, while Axis Bank announced an allotment of 47781 equity shares."
-  ]
- }
+ "ai": null
 }
