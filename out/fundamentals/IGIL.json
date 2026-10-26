@@ -2,21 +2,12 @@
  "symbol": "IGIL",
  "quarters": [
   {
-   "label": "Q2 FY26",
-   "period_end": "2025-09-30",
-   "revenue_cr": 303.7,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 129.8,
-   "net_income_qoq_pct": null,
-   "eps": 3.0
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 304.7,
-   "revenue_qoq_pct": 0.3,
+   "revenue_qoq_pct": null,
    "net_income_cr": 140.7,
-   "net_income_qoq_pct": 8.4,
+   "net_income_qoq_pct": null,
    "eps": 3.26
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 165.7,
    "net_income_qoq_pct": -7.7,
    "eps": 3.84
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 398.0,
+   "revenue_qoq_pct": 7.3,
+   "net_income_cr": 185.8,
+   "net_income_qoq_pct": 12.1,
+   "eps": null
   }
  ],
  "verification": null
