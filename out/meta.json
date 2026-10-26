@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T18:19:10+05:30",
+ "generated_at": "2026-10-27T00:21:10+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -7,22 +7,8 @@
   },
   "bhavcopy": {
    "ok": true,
-   "sessions_added": 1,
+   "sessions_added": 0,
    "failed": [
-    "2025-11-05",
-    "2025-12-25",
-    "2026-01-15",
-    "2026-01-26",
-    "2026-03-03",
-    "2026-03-26",
-    "2026-03-31",
-    "2026-04-03",
-    "2026-04-14",
-    "2026-05-01",
-    "2026-05-28",
-    "2026-06-26",
-    "2026-09-14",
-    "2026-10-02",
     "2026-10-20"
    ],
    "phantom_sessions_dropped": [],
@@ -71,9 +57,9 @@
   },
   "ipos": {
    "ok": true,
-   "issues": 272,
+   "issues": 273,
    "charted": 115,
-   "sme_skipped": 147,
+   "sme_skipped": 148,
    "with_base": 1
   },
   "indices": {
@@ -101,20 +87,21 @@
   },
   "news": {
    "ok": true,
-   "fetched": 30,
-   "classified": 10,
+   "fetched": 31,
+   "classified": 0,
    "gemini_configured": true
   },
   "institutional": {
    "ok": true,
-   "deals": 118,
+   "deals": 89,
    "participant_oi_sessions": 30,
    "ai_money_flow": true
   },
   "fno": {
-   "ok": false,
-   "symbols": 77,
-   "written": 0
+   "ok": true,
+   "eligible": 213,
+   "symbols": 11,
+   "written": 11
   },
   "depth": {
    "ok": false,
@@ -126,18 +113,18 @@
    "universe": 77,
    "scoped": 77,
    "eligible": 77,
-   "written": 62,
+   "written": 77,
    "gemini_calls": 6
   },
   "ai_top_picks": {
    "ok": true,
-   "source": "rules",
-   "eligible": 11,
+   "source": "ai",
+   "eligible": 14,
    "picks": 5
   },
   "results_calendar": {
    "ok": true,
-   "upcoming": 765,
+   "upcoming": 809,
    "past_candidates": 378,
    "judged": 212,
    "good": 107

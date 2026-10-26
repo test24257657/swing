@@ -1,37 +1,95 @@
 {
  "as_of": "2026-10-26",
- "source": "rules",
+ "source": "ai",
  "universe": 77,
- "eligible": 11,
+ "eligible": 14,
  "picks": [
   {
-   "symbol": "OMFREIGHT",
-   "ltp": 110.58,
+   "symbol": "COFORGE",
+   "ltp": 1993.0,
    "technicals": {
-    "rsi_14": 72.25,
-    "rel_volume_20d": 0.41,
-    "dist_20dma_pct": 6.14,
-    "dist_50dma_pct": 15.16,
-    "dist_200dma_pct": 24.59
+    "rsi_14": 64.13,
+    "rel_volume_20d": 2.13,
+    "dist_20dma_pct": 6.78,
+    "dist_50dma_pct": 6.75,
+    "dist_200dma_pct": 29.96
    },
    "pattern": {
-    "code": "vcp",
+    "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 110.5,
-    "stop_suggestion": 102.43,
-    "target_suggestion": 138.12,
-    "gap_to_pivot_pct": 0.07
+    "pivot_price": 2021.2,
+    "stop_suggestion": 1885.4,
+    "target_suggestion": 2324.38,
+    "gap_to_pivot_pct": -1.4
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 6170.8,
+    "net_income_cr": 588.1,
+    "revenue_qoq_pct": 11.6,
+    "net_income_qoq_pct": 13.4
+   },
+   "reason": "With volume at 2.13x average and a healthy RSI of 64.13 near its pivot, strong revenue growth of 11.6% QoQ and profit growth of 13.4% QoQ support a high-quality swing setup.",
+   "rank": 1,
+   "name": "Coforge Limited"
+  },
+  {
+   "symbol": "CYIENT",
+   "ltp": 1242.9,
+   "technicals": {
+    "rsi_14": 67.71,
+    "rel_volume_20d": 1.01,
+    "dist_20dma_pct": 8.43,
+    "dist_50dma_pct": 15.5,
+    "dist_200dma_pct": 28.63
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 1211.7,
+    "stop_suggestion": 1071.3,
+    "target_suggestion": 1454.04,
+    "gap_to_pivot_pct": 2.57
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 2235.0,
+    "net_income_cr": 121.4,
+    "revenue_qoq_pct": 7.7,
+    "net_income_qoq_pct": 16.6
+   },
+   "reason": "Featuring a confirmed 52-week breakout with 1.01x average volume and RSI of 67.71, both revenue (+7.7% QoQ) and net profit (+16.6% QoQ) are growing together.",
+   "rank": 2,
+   "name": "Cyient Limited"
+  },
+  {
+   "symbol": "LAURUSLABS",
+   "ltp": 2058.9,
+   "technicals": {
+    "rsi_14": 57.43,
+    "rel_volume_20d": 1.28,
+    "dist_20dma_pct": 1.86,
+    "dist_50dma_pct": 5.71,
+    "dist_200dma_pct": 44.25
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 2089.0,
+    "stop_suggestion": 1971.43,
+    "target_suggestion": 2402.35,
+    "gap_to_pivot_pct": -1.44
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 193.3,
-    "net_income_cr": 7.3,
-    "revenue_qoq_pct": 29.3,
-    "net_income_qoq_pct": 78.0
+    "revenue_cr": 2026.3,
+    "net_income_cr": 367.6,
+    "revenue_qoq_pct": 11.9,
+    "net_income_qoq_pct": 31.7
    },
-   "reason": null,
-   "rank": 1,
-   "name": "Om Freight Forwarders Limited"
+   "reason": "Trading 44.25% above its 200-day average with 1.28x volume near pivot, it delivers balanced QoQ growth in revenue (11.9%) and profit (31.7%).",
+   "rank": 3,
+   "name": "Laurus Labs Limited"
   },
   {
    "symbol": "ORIENTHOT",
@@ -58,8 +116,8 @@
     "revenue_qoq_pct": 5.7,
     "net_income_qoq_pct": 62.3
    },
-   "reason": null,
-   "rank": 2,
+   "reason": "Forming a 52-week breakout near pivot with healthy RSI of 65.04 and volume at 0.97x average, revenue grew 5.7% QoQ while net profit jumped 62.3% QoQ.",
+   "rank": 4,
    "name": "Oriental Hotels Limited"
   },
   {
@@ -87,67 +145,9 @@
     "revenue_qoq_pct": 35.7,
     "net_income_qoq_pct": 18.8
    },
-   "reason": null,
-   "rank": 3,
-   "name": "SBC Exports Limited"
-  },
-  {
-   "symbol": "LAURUSLABS",
-   "ltp": 2058.9,
-   "technicals": {
-    "rsi_14": 57.43,
-    "rel_volume_20d": 1.28,
-    "dist_20dma_pct": 1.86,
-    "dist_50dma_pct": 5.71,
-    "dist_200dma_pct": 44.25
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 2089.0,
-    "stop_suggestion": 1971.43,
-    "target_suggestion": 2402.35,
-    "gap_to_pivot_pct": -1.44
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 2026.3,
-    "net_income_cr": 367.6,
-    "revenue_qoq_pct": 11.9,
-    "net_income_qoq_pct": 31.7
-   },
-   "reason": null,
-   "rank": 4,
-   "name": "Laurus Labs Limited"
-  },
-  {
-   "symbol": "CYIENT",
-   "ltp": 1242.9,
-   "technicals": {
-    "rsi_14": 67.71,
-    "rel_volume_20d": 1.01,
-    "dist_20dma_pct": 8.43,
-    "dist_50dma_pct": 15.5,
-    "dist_200dma_pct": 28.63
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 1211.7,
-    "stop_suggestion": 1071.3,
-    "target_suggestion": 1454.04,
-    "gap_to_pivot_pct": 2.57
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 2235.0,
-    "net_income_cr": 121.4,
-    "revenue_qoq_pct": 7.7,
-    "net_income_qoq_pct": 16.6
-   },
-   "reason": null,
+   "reason": "Positioned 63.68% above its 200-day average near a breakout with RSI 68.98, revenue surged 35.7% QoQ alongside an 18.8% QoQ profit increase.",
    "rank": 5,
-   "name": "Cyient Limited"
+   "name": "SBC Exports Limited"
   }
  ]
 }
