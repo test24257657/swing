@@ -1,104 +1,104 @@
 {
- "generated_at": "2026-10-23T08:15:53+05:30",
- "for_session": "2026-10-23",
+ "generated_at": "2026-10-26T08:15:49+05:30",
+ "for_session": "2026-10-26",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7663.43,
-   "change_pct": -1.21,
-   "as_of": "2026-10-22"
+   "value": 7623.68,
+   "change_pct": -0.52,
+   "as_of": "2026-10-23"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 26008.86,
-   "change_pct": -2.6,
-   "as_of": "2026-10-22"
+   "value": 25955.34,
+   "change_pct": -0.21,
+   "as_of": "2026-10-23"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 52867.98,
-   "change_pct": 0.02,
-   "as_of": "2026-10-22"
+   "value": 52215.16,
+   "change_pct": -1.23,
+   "as_of": "2026-10-23"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 61825.26,
-   "change_pct": -1.72,
-   "as_of": "2026-10-23"
+   "value": 62214.66,
+   "change_pct": -0.76,
+   "as_of": "2026-10-26"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 22954.46,
-   "change_pct": 0.09,
-   "as_of": "2026-10-23"
+   "value": 23074.46,
+   "change_pct": -0.08,
+   "as_of": "2026-10-26"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5388.91,
-   "change_pct": -2.62,
-   "as_of": "2026-10-23"
+   "value": 5478.96,
+   "change_pct": -1.29,
+   "as_of": "2026-10-26"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 113.93,
-   "change_pct": 4.7,
-   "as_of": "2026-10-22"
+   "value": 109.8,
+   "change_pct": -5.93,
+   "as_of": "2026-10-25"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4033.8,
-   "change_pct": -2.8,
-   "as_of": "2026-10-22"
+   "value": 4005.0,
+   "change_pct": -0.07,
+   "as_of": "2026-10-25"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 94.81,
-   "change_pct": 0.53,
-   "as_of": "2026-10-23"
+   "value": 94.93,
+   "change_pct": 0.23,
+   "as_of": "2026-10-26"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 4.95,
-   "change_pct": -3.75,
-   "as_of": "2026-10-22"
+   "value": 4.99,
+   "change_pct": 0.71,
+   "as_of": "2026-10-23"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 101.67,
-   "change_pct": -0.11,
-   "as_of": "2026-10-22"
+   "value": 101.61,
+   "change_pct": -0.2,
+   "as_of": "2026-10-25"
   }
  ],
  "global_tone": {
   "tone": "negative",
-  "avg_change_pct": -1.61,
+  "avg_change_pct": -0.57,
   "crude_alert": true
  },
  "nifty": {
-  "session": "2026-10-22",
-  "close": 22687.65,
-  "high": 22785.0,
-  "low": 22554.85,
-  "pivot": 22675.83,
-  "r1": 22796.82,
-  "s1": 22566.67,
-  "r2": 22905.98,
-  "s2": 22445.68,
-  "sma_20": 22755.79,
-  "sma_50": 23441.16,
-  "sma_200": 24136.49
+  "session": "2026-10-23",
+  "close": 22600.0,
+  "high": 22787.25,
+  "low": 22372.0,
+  "pivot": 22586.42,
+  "r1": 22800.83,
+  "s1": 22385.58,
+  "r2": 23001.67,
+  "s2": 22171.17,
+  "sma_20": 22713.45,
+  "sma_50": 23403.72,
+  "sma_200": 24118.84
  },
  "focus": [
   {
@@ -108,10 +108,10 @@
    "rs": 98
   },
   {
-   "symbol": "GLOBAL",
-   "name": "Global Education Limited",
+   "symbol": "PCJEWELLER",
+   "name": "PC Jeweller Limited",
    "why": "Ready setup near its pivot",
-   "rs": 96
+   "rs": 97
   },
   {
    "symbol": "UNITEDPOLY",
@@ -120,86 +120,163 @@
    "rs": 95
   },
   {
-   "symbol": "STOVEKRAFT",
-   "name": "Stove Kraft Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 89
-  },
-  {
-   "symbol": "SAREGAMA",
-   "name": "Saregama India Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 85
-  },
-  {
-   "symbol": "SHYAMMETL",
-   "name": "Shyam Metalics and Energy Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "KARURVYSYA",
-   "name": "Karur Vysya Bank Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "CRISIL",
-   "name": "Crisil Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "EBGNG",
-   "name": "GNG Electronics Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 96
-  },
-  {
-   "symbol": "WSTCSTPAPR",
-   "name": "West Coast Paper Mills Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 96
-  },
-  {
-   "symbol": "SYNCOMF",
-   "name": "Syncom Formulations (India) Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 95
-  },
-  {
-   "symbol": "SHADOWFAX",
-   "name": "Shadowfax Technologies Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 93
-  },
-  {
    "symbol": "PVRINOX",
    "name": "PVR INOX Limited",
-   "why": "Pocket pivot yesterday",
+   "why": "Ready setup near its pivot",
    "rs": 92
+  },
+  {
+   "symbol": "ORIENTHOT",
+   "name": "Oriental Hotels Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 90
+  },
+  {
+   "symbol": "CYIENT",
+   "name": "Cyient Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "PREMEXPLN",
+   "name": "Premier Explosives Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "SGMART",
+   "name": "SG Mart Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "STLTECH",
+   "name": "Sterlite Technologies Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 99
+  },
+  {
+   "symbol": "RATNAVEER",
+   "name": "Ratnaveer Precision Engineering Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 98
+  },
+  {
+   "symbol": "ROSSTECH",
+   "name": "Rossell Techsys Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 97
+  },
+  {
+   "symbol": "CHENNPETRO",
+   "name": "Chennai Petroleum Corporation Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 94
   }
  ],
  "overnight_news": [
   {
-   "symbol": "ICICIBANK",
-   "time": "22 Oct 16:45",
+   "symbol": "HDFCBANK",
+   "time": "24 Oct 22:27",
    "category": "ESOP/ESOS/ESPS",
-   "text": "ICICI Bank Limited has informed the Exchange regarding Allotment of 24096  Shares.",
-   "url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_22102026164514_Lettertoexchange.pdf"
+   "text": "HDFC Bank Limited has informed the Exchange regarding Grant of 1302379  Options.",
+   "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_24102026222634_SE_Intimation_grant_of_ESOPs.pdf"
+  },
+  {
+   "symbol": "KOTAKBANK",
+   "time": "24 Oct 15:48",
+   "category": "Appointment",
+   "text": "Kotak Mahindra Bank Limited has informed the Exchange regarding Appointment of Ms Anu Aggarwal as Other of the company w.e.f. October 24, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/KMBLTAB_24102026154817_OutcomeofBM24102026SMPSIGNED.pdf"
+  },
+  {
+   "symbol": "KOTAKBANK",
+   "time": "24 Oct 15:42",
+   "category": "Change in Director(s)",
+   "text": "Kotak Mahindra Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "url": "https://nsearchives.nseindia.com/corporate/KMBLTAB_24102026154235_OutcomeofBM24102026MDIDSIGNED.pdf"
+  },
+  {
+   "symbol": "ICICIBANK",
+   "time": "24 Oct 13:46",
+   "category": "Credit Rating",
+   "text": "ICICI Bank Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24102026134600_NSEBSE24102026.pdf"
+  },
+  {
+   "symbol": "KOTAKBANK",
+   "time": "24 Oct 13:17",
+   "category": "Outcome of Board Meeting",
+   "text": "Kotak Mahindra Bank Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/KMBLTAB_24102026131109_OutcomeofBMOct242026SIGNED.pdf"
+  },
+  {
+   "symbol": "TRENT",
+   "time": "23 Oct 19:48",
+   "category": "Sale or disposal",
+   "text": "Trent Limited has informed the Exchange about Nahar Retail Trading Services Limited ( Nahar ), a wholly owned subsidiary of the Company, has entered into a binding term sheet dated 22nd October 2026 with TreBits Investme",
+   "url": "https://nsearchives.nseindia.com/corporate/TRENT_23102026194710_Reg30DivestmentofstepdownsubsidiaryofNahar.pdf"
+  },
+  {
+   "symbol": "DRREDDY",
+   "time": "23 Oct 18:43",
+   "category": "Change in Management",
+   "text": "Dr. Reddy's Laboratories Limited has informed the Exchange about change in Management",
+   "url": "https://nsearchives.nseindia.com/corporate/DRREDDY_23102026184253_SE_intimation_Reg30_change_in_mgt_23102026_Signed.pdf"
+  },
+  {
+   "symbol": "DRREDDY",
+   "time": "23 Oct 18:41",
+   "category": "Outcome of Board Meeting",
+   "text": "Dr. Reddy's Laboratories Limited has informed the Exchange regarding Outcome of Board Meeting held on October 23, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/DRREDDY_23102026184026_SE_Intimation_Outcome_23102026_Signed.pdf"
+  },
+  {
+   "symbol": "GRASIM",
+   "time": "23 Oct 18:07",
+   "category": "News Verification",
+   "text": "The Exchange has sought clarification from Grasim Industries Limited with respect to recent news item captioned Bombay HC Quashes Rs 329 Crore Tax Claim Against Grasim Over Vodafone Idea Rights Issue..  The response from",
+   "url": "-"
+  },
+  {
+   "symbol": "SHRIRAMFIN",
+   "time": "23 Oct 17:30",
+   "category": "Record Date",
+   "text": "Shriram Finance Limited has informed the Exchange that Record date for the purpose of payment of Interim Dividend for the Financial Year 2026-27 is October 29, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/Mathew_23102026172848_BSENSE_Record_Date_Intimation.pdf"
+  },
+  {
+   "symbol": "DRREDDY",
+   "time": "23 Oct 17:29",
+   "category": "Outcome of Board Meeting",
+   "text": "Dr. Reddy's Laboratories Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/DRREDDY_23102026172921_SE_Intimation_results_23102026.pdf"
+  },
+  {
+   "symbol": "NTPC",
+   "time": "23 Oct 17:23",
+   "category": "Appointment",
+   "text": "NTPC Limited has informed the Exchange regarding Appointment of Mr Shri Diwakar Nath Misra as Non- Executive Director of the company w.e.f. October 23, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/NTPC_23102026172037_20261023_APPOINTMENTOFGOIDIRECTOR.pdf"
   }
  ],
  "events": [
-  "Results today for stocks in focus: CRISIL — avoid fresh buys before the numbers.",
-  "58 companies report results today."
+  "55 companies report results today."
  ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
   "Weak global cues — let the first 15-30 minutes settle before acting.",
   "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
-  "Some focus stocks report today — wait for the result.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
- "ai": null
+ "ai": {
+  "headline": "Negative Global Cues Signal Soft Open; NIFTY Support at 22385.58",
+  "points": [
+   "Weak global cues set a cautious tone, with the Dow falling -1.23% to 52215.16 and S&P 500 declining -0.52% to 7623.68.",
+   "NIFTY closed at 22600.0, trading below its 20-day average of 22713.45 with key support S1 at 22385.58.",
+   "Asian markets show weakness as Kospi falls -1.29%, while USD/INR moved to 94.93 (+0.23%) and Brent crude dropped -5.93% to 109.8.",
+   "Keep an eye on stock-specific action today as 55 companies report quarterly earnings under a red market light signal."
+  ]
+ }
 }
