@@ -2,21 +2,12 @@
  "symbol": "INFY",
  "quarters": [
   {
-   "label": "Q2 FY26",
-   "period_end": "2025-09-30",
-   "revenue_cr": 507.6,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 83.9,
-   "net_income_qoq_pct": null,
-   "eps": null
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 509.9,
-   "revenue_qoq_pct": 0.5,
+   "revenue_qoq_pct": null,
    "net_income_cr": 74.7,
-   "net_income_qoq_pct": -11.0,
+   "net_income_qoq_pct": null,
    "eps": 0.18
   },
   {
@@ -35,6 +26,15 @@
    "revenue_qoq_pct": 0.8,
    "net_income_cr": 81.9,
    "net_income_qoq_pct": -10.9,
+   "eps": 0.2
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 514.5,
+   "revenue_qoq_pct": 1.2,
+   "net_income_cr": 81.7,
+   "net_income_qoq_pct": -0.2,
    "eps": 0.2
   }
  ],

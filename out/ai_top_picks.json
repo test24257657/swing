@@ -1,84 +1,55 @@
 {
- "as_of": "2026-10-26",
+ "as_of": "2026-10-27",
  "source": "ai",
- "universe": 77,
- "eligible": 14,
+ "universe": 105,
+ "eligible": 23,
  "picks": [
   {
-   "symbol": "COFORGE",
-   "ltp": 1993.0,
+   "symbol": "GANDHAR",
+   "ltp": 314.9,
    "technicals": {
-    "rsi_14": 64.13,
-    "rel_volume_20d": 2.13,
-    "dist_20dma_pct": 6.78,
-    "dist_50dma_pct": 6.75,
-    "dist_200dma_pct": 29.96
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 2021.2,
-    "stop_suggestion": 1885.4,
-    "target_suggestion": 2324.38,
-    "gap_to_pivot_pct": -1.4
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 6170.8,
-    "net_income_cr": 588.1,
-    "revenue_qoq_pct": 11.6,
-    "net_income_qoq_pct": 13.4
-   },
-   "reason": "With volume at 2.13x average and a healthy RSI of 64.13 near its pivot, strong revenue growth of 11.6% QoQ and profit growth of 13.4% QoQ support a high-quality swing setup.",
-   "rank": 1,
-   "name": "Coforge Limited"
-  },
-  {
-   "symbol": "CYIENT",
-   "ltp": 1242.9,
-   "technicals": {
-    "rsi_14": 67.71,
-    "rel_volume_20d": 1.01,
-    "dist_20dma_pct": 8.43,
-    "dist_50dma_pct": 15.5,
-    "dist_200dma_pct": 28.63
+    "rsi_14": 65.25,
+    "rel_volume_20d": 2.97,
+    "dist_20dma_pct": 7.64,
+    "dist_50dma_pct": 15.05,
+    "dist_200dma_pct": 64.36
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 1211.7,
-    "stop_suggestion": 1071.3,
-    "target_suggestion": 1454.04,
-    "gap_to_pivot_pct": 2.57
+    "pivot_price": 310.95,
+    "stop_suggestion": 273.55,
+    "target_suggestion": 373.14,
+    "gap_to_pivot_pct": 1.27
    },
    "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 2235.0,
-    "net_income_cr": 121.4,
-    "revenue_qoq_pct": 7.7,
-    "net_income_qoq_pct": 16.6
+    "quarter": "Q1 FY27",
+    "revenue_cr": 1731.9,
+    "net_income_cr": 192.3,
+    "revenue_qoq_pct": 58.4,
+    "net_income_qoq_pct": 372.5
    },
-   "reason": "Featuring a confirmed 52-week breakout with 1.01x average volume and RSI of 67.71, both revenue (+7.7% QoQ) and net profit (+16.6% QoQ) are growing together.",
-   "rank": 2,
-   "name": "Cyient Limited"
+   "reason": "Gandhar offers a confirmed 52-week breakout with strong 2.97x average volume and RSI of 65.25. Fundamentals back this move with revenue up 58.4% QoQ to \u20b91731.9 cr and profit rising 372.5%.",
+   "rank": 1,
+   "name": "Gandhar Oil Refinery (India) Limited"
   },
   {
    "symbol": "LAURUSLABS",
-   "ltp": 2058.9,
+   "ltp": 2142.0,
    "technicals": {
-    "rsi_14": 57.43,
-    "rel_volume_20d": 1.28,
-    "dist_20dma_pct": 1.86,
-    "dist_50dma_pct": 5.71,
-    "dist_200dma_pct": 44.25
+    "rsi_14": 64.75,
+    "rel_volume_20d": 2.11,
+    "dist_20dma_pct": 5.62,
+    "dist_50dma_pct": 9.65,
+    "dist_200dma_pct": 49.53
    },
    "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 2089.0,
-    "stop_suggestion": 1971.43,
-    "target_suggestion": 2402.35,
-    "gap_to_pivot_pct": -1.44
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 2069.2,
+    "stop_suggestion": 1933.5,
+    "target_suggestion": 2483.04,
+    "gap_to_pivot_pct": 3.52
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
@@ -87,67 +58,96 @@
     "revenue_qoq_pct": 11.9,
     "net_income_qoq_pct": 31.7
    },
-   "reason": "Trading 44.25% above its 200-day average with 1.28x volume near pivot, it delivers balanced QoQ growth in revenue (11.9%) and profit (31.7%).",
-   "rank": 3,
+   "reason": "Laurus Labs shows a confirmed 52-week breakout with 2.11x average volume and RSI at 64.75. Growth is solid, with quarterly revenue up 11.9% QoQ to \u20b92026.3 cr and profit increasing 31.7% QoQ.",
+   "rank": 2,
    "name": "Laurus Labs Limited"
   },
   {
-   "symbol": "ORIENTHOT",
-   "ltp": 154.52,
+   "symbol": "COFORGE",
+   "ltp": 1997.0,
    "technicals": {
-    "rsi_14": 65.04,
-    "rel_volume_20d": 0.97,
-    "dist_20dma_pct": 7.16,
-    "dist_50dma_pct": 9.96,
-    "dist_200dma_pct": 32.09
+    "rsi_14": 64.48,
+    "rel_volume_20d": 1.55,
+    "dist_20dma_pct": 6.39,
+    "dist_50dma_pct": 6.77,
+    "dist_200dma_pct": 30.07
    },
    "pattern": {
-    "code": "high_52w_breakout",
+    "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 151.8,
-    "stop_suggestion": 137.61,
-    "target_suggestion": 182.16,
-    "gap_to_pivot_pct": 1.79
+    "pivot_price": 2021.2,
+    "stop_suggestion": 1891.1,
+    "target_suggestion": 2324.38,
+    "gap_to_pivot_pct": -1.2
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 117.8,
-    "net_income_cr": 8.6,
-    "revenue_qoq_pct": 5.7,
-    "net_income_qoq_pct": 62.3
+    "revenue_cr": 6170.8,
+    "net_income_cr": 588.1,
+    "revenue_qoq_pct": 11.6,
+    "net_income_qoq_pct": 13.4
    },
-   "reason": "Forming a 52-week breakout near pivot with healthy RSI of 65.04 and volume at 0.97x average, revenue grew 5.7% QoQ while net profit jumped 62.3% QoQ.",
-   "rank": 4,
-   "name": "Oriental Hotels Limited"
+   "reason": "Coforge is forming near its pivot on above-average volume of 1.55x and RSI of 64.48. Fundamental strength supports the trend, with revenue rising 11.6% QoQ to \u20b96170.8 cr and profit growing 13.4% QoQ.",
+   "rank": 3,
+   "name": "Coforge Limited"
   },
   {
-   "symbol": "SBC",
-   "ltp": 63.71,
+   "symbol": "GESHIP",
+   "ltp": 1550.9,
    "technicals": {
-    "rsi_14": 68.98,
-    "rel_volume_20d": 0.54,
-    "dist_20dma_pct": 4.14,
-    "dist_50dma_pct": 25.27,
-    "dist_200dma_pct": 63.68
+    "rsi_14": 59.21,
+    "rel_volume_20d": 1.23,
+    "dist_20dma_pct": 1.25,
+    "dist_50dma_pct": 8.06,
+    "dist_200dma_pct": 11.07
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 1583.0,
+    "stop_suggestion": 1483.17,
+    "target_suggestion": 1820.45,
+    "gap_to_pivot_pct": -2.03
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 2005.4,
+    "net_income_cr": 1308.8,
+    "revenue_qoq_pct": 32.7,
+    "net_income_qoq_pct": 25.4
+   },
+   "reason": "Great Eastern Shipping consolidates near its pivot with 1.23x volume expansion and a healthy RSI of 59.21. Revenue grew 32.7% QoQ to \u20b92005.4 cr while net profit jumped 25.4% QoQ to \u20b91308.8 cr.",
+   "rank": 4,
+   "name": "The Great Eastern Shipping Company Limited"
+  },
+  {
+   "symbol": "STOVEKRAFT",
+   "ltp": 840.7,
+   "technicals": {
+    "rsi_14": 55.12,
+    "rel_volume_20d": 1.03,
+    "dist_20dma_pct": 2.6,
+    "dist_50dma_pct": 3.01,
+    "dist_200dma_pct": 28.25
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "forming",
-    "pivot_price": 64.5,
-    "stop_suggestion": 57.36,
-    "target_suggestion": 77.4,
-    "gap_to_pivot_pct": -1.22
+    "pivot_price": 851.35,
+    "stop_suggestion": 775.2,
+    "target_suggestion": 1021.62,
+    "gap_to_pivot_pct": -1.25
    },
    "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 164.3,
-    "net_income_cr": 11.4,
-    "revenue_qoq_pct": 35.7,
-    "net_income_qoq_pct": 18.8
+    "quarter": "Q1 FY27",
+    "revenue_cr": 480.6,
+    "net_income_cr": 17.1,
+    "revenue_qoq_pct": 15.9,
+    "net_income_qoq_pct": 180.3
    },
-   "reason": "Positioned 63.68% above its 200-day average near a breakout with RSI 68.98, revenue surged 35.7% QoQ alongside an 18.8% QoQ profit increase.",
+   "reason": "Stovekraft is forming a 52-week breakout with RSI at 55.12 and steady 1.03x volume. Strong financial backing includes revenue growing 15.9% QoQ to \u20b9480.6 cr and net profit surging 180.3% QoQ.",
    "rank": 5,
-   "name": "SBC Exports Limited"
+   "name": "Stove Kraft Limited"
   }
  ]
 }

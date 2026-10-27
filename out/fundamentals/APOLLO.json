@@ -2,21 +2,12 @@
  "symbol": "APOLLO",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 133.6,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 18.5,
-   "net_income_qoq_pct": null,
-   "eps": 0.59
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 252.2,
-   "revenue_qoq_pct": 88.8,
+   "revenue_qoq_pct": null,
    "net_income_cr": 25.7,
-   "net_income_qoq_pct": 38.9,
+   "net_income_qoq_pct": null,
    "eps": 0.69
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 26.9,
    "net_income_qoq_pct": -28.5,
    "eps": 0.75
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 388.1,
+   "revenue_qoq_pct": 54.4,
+   "net_income_cr": 48.4,
+   "net_income_qoq_pct": 79.9,
+   "eps": 1.32
   }
  ],
  "verification": null
