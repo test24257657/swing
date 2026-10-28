@@ -2,17 +2,8 @@
  "symbol": "GCSL",
  "name": "Gretex Corporate Services Limited",
  "kind": "stock",
- "as_of": "2026-10-27",
+ "as_of": "2026-10-28",
  "bars": [
-  {
-   "time": "2025-10-17",
-   "open": 225.7,
-   "high": 226.0,
-   "low": 216.5,
-   "close": 220.5,
-   "volume": 47272,
-   "delivery_pct": 68.42
-  },
   {
    "time": "2025-10-20",
    "open": 223.0,
@@ -2262,14 +2253,19 @@
    "close": 747.7,
    "volume": 535880,
    "delivery_pct": 43.75
+  },
+  {
+   "time": "2026-10-28",
+   "open": 750.25,
+   "high": 756.8,
+   "low": 746.65,
+   "close": 751.35,
+   "volume": 249452,
+   "delivery_pct": 33.0
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-17",
-    "value": 264.34
-   },
    {
     "time": "2025-11-18",
     "value": 271.34
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-10-27",
     "value": 710.12
+   },
+   {
+    "time": "2026-10-28",
+    "value": 714.32
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-30",
-    "value": 318.21
-   },
    {
     "time": "2025-12-31",
     "value": 320.95
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-10-27",
     "value": 627.52
+   },
+   {
+    "time": "2026-10-28",
+    "value": 632.2
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-12",
-    "value": 372.6
-   },
    {
     "time": "2026-08-13",
     "value": 374.08
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-10-27",
     "value": 450.72
+   },
+   {
+    "time": "2026-10-28",
+    "value": 452.77
    }
   ]
  },
  "technicals": {
-  "rsi_14": 73.96,
-  "atr_pct": 2.67,
-  "rel_volume_20d": 1.42,
-  "dist_20dma_pct": 5.29,
-  "dist_50dma_pct": 19.15,
-  "dist_200dma_pct": 65.89
+  "rsi_14": 74.73,
+  "atr_pct": 2.56,
+  "rel_volume_20d": 0.65,
+  "dist_20dma_pct": 5.18,
+  "dist_50dma_pct": 18.85,
+  "dist_200dma_pct": 65.94
  }
 }

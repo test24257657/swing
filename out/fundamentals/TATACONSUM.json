@@ -2,21 +2,12 @@
  "symbol": "TATACONSUM",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 4778.9,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 334.1,
-   "net_income_qoq_pct": null,
-   "eps": 3.38
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 5112.0,
-   "revenue_qoq_pct": 7.0,
+   "revenue_qoq_pct": null,
    "net_income_cr": 384.6,
-   "net_income_qoq_pct": 15.1,
+   "net_income_qoq_pct": null,
    "eps": 3.88
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 427.0,
    "net_income_qoq_pct": 1.9,
    "eps": 4.31
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 5661.1,
+   "revenue_qoq_pct": 5.8,
+   "net_income_cr": 469.3,
+   "net_income_qoq_pct": 9.9,
+   "eps": 4.75
   }
  ],
  "verification": null

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T18:32:26+05:30",
+ "generated_at": "2026-10-28T18:37:58+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -26,9 +26,9 @@
     "2026-10-20"
    ],
    "phantom_sessions_dropped": [],
-   "symbols": 3108,
+   "symbols": 3112,
    "sessions": 252,
-   "rows": 670977
+   "rows": 671467
   },
   "tiles": {
    "ok": 4,
@@ -48,12 +48,12 @@
   "movers": {
    "ok": true,
    "most_active": 10,
-   "breakouts": 6
+   "breakouts": 7
   },
   "screener": {
    "ok": true,
-   "symbols_scanned": 2714,
-   "symbols_matched": 97
+   "symbols_scanned": 2710,
+   "symbols_matched": 99
   },
   "sectors": {
    "ok": true,
@@ -63,18 +63,18 @@
   },
   "daily_scan": {
    "ok": true,
-   "rated": 2332,
-   "trend_template": 154,
-   "ready": 16,
-   "delivery_spikes": 1,
-   "pocket_pivots": 34
+   "rated": 2330,
+   "trend_template": 172,
+   "ready": 12,
+   "delivery_spikes": 2,
+   "pocket_pivots": 20
   },
   "ipos": {
    "ok": true,
-   "issues": 273,
-   "charted": 116,
+   "issues": 275,
+   "charted": 117,
    "sme_skipped": 148,
-   "with_base": 1
+   "with_base": 0
   },
   "indices": {
    "ok": true,
@@ -83,16 +83,16 @@
   },
   "charts": {
    "ok": true,
-   "count": 128
+   "count": 131
   },
   "fundamentals": {
    "ok": true,
-   "symbols": 105,
-   "written": 81
+   "symbols": 108,
+   "written": 82
   },
   "quotes": {
    "ok": true,
-   "count": 2958
+   "count": 2954
   },
   "alerts": {
    "ok": false,
@@ -101,46 +101,46 @@
   },
   "news": {
    "ok": true,
-   "fetched": 21,
-   "classified": 0,
+   "fetched": 29,
+   "classified": 9,
    "gemini_configured": true
   },
   "institutional": {
    "ok": true,
-   "deals": 89,
+   "deals": 70,
    "participant_oi_sessions": 30,
    "ai_money_flow": true
   },
   "fno": {
    "ok": false,
-   "symbols": 105,
+   "symbols": 108,
    "written": 0
   },
   "depth": {
    "ok": false,
-   "symbols": 105,
+   "symbols": 108,
    "written": 0
   },
   "ai_insights": {
    "ok": true,
-   "universe": 105,
-   "scoped": 105,
-   "eligible": 105,
-   "written": 90,
-   "gemini_calls": 7
+   "universe": 108,
+   "scoped": 108,
+   "eligible": 107,
+   "written": 107,
+   "gemini_calls": 8
   },
   "ai_top_picks": {
    "ok": true,
    "source": "ai",
-   "eligible": 23,
+   "eligible": 24,
    "picks": 5
   },
   "results_calendar": {
    "ok": true,
-   "upcoming": 839,
-   "past_candidates": 457,
-   "judged": 269,
-   "good": 115
+   "upcoming": 880,
+   "past_candidates": 565,
+   "judged": 351,
+   "good": 101
   }
  }
 }

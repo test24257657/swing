@@ -1,134 +1,105 @@
 {
- "as_of": "2026-10-27",
+ "as_of": "2026-10-28",
  "source": "ai",
- "universe": 105,
- "eligible": 23,
+ "universe": 108,
+ "eligible": 24,
  "picks": [
   {
-   "symbol": "GANDHAR",
-   "ltp": 314.9,
+   "symbol": "SHREEPUSHK",
+   "ltp": 542.7,
    "technicals": {
-    "rsi_14": 65.25,
-    "rel_volume_20d": 2.97,
-    "dist_20dma_pct": 7.64,
-    "dist_50dma_pct": 15.05,
-    "dist_200dma_pct": 64.36
+    "rsi_14": 64.28,
+    "rel_volume_20d": 4.35,
+    "dist_20dma_pct": 9.33,
+    "dist_50dma_pct": 12.98,
+    "dist_200dma_pct": 39.08
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 310.95,
-    "stop_suggestion": 273.55,
-    "target_suggestion": 373.14,
-    "gap_to_pivot_pct": 1.27
+    "pivot_price": 517.5,
+    "stop_suggestion": 426.2,
+    "target_suggestion": 621.0,
+    "gap_to_pivot_pct": 4.87
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 1731.9,
-    "net_income_cr": 192.3,
-    "revenue_qoq_pct": 58.4,
-    "net_income_qoq_pct": 372.5
+    "revenue_cr": 280.1,
+    "net_income_cr": 22.9,
+    "revenue_qoq_pct": 28.4,
+    "net_income_qoq_pct": 77.5
    },
-   "reason": "Gandhar offers a confirmed 52-week breakout with strong 2.97x average volume and RSI of 65.25. Fundamentals back this move with revenue up 58.4% QoQ to \u20b91731.9 cr and profit rising 372.5%.",
+   "reason": "Confirmed 52-week breakout with a strong 4.35x volume surge and healthy 64.28 RSI, backed by solid 77.5% QoQ profit growth and 28.4% QoQ revenue expansion.",
    "rank": 1,
-   "name": "Gandhar Oil Refinery (India) Limited"
+   "name": "Shree Pushkar Chemicals & Fertilisers Limited"
   },
   {
-   "symbol": "LAURUSLABS",
-   "ltp": 2142.0,
+   "symbol": "VADILALIND",
+   "ltp": 7342.0,
    "technicals": {
-    "rsi_14": 64.75,
-    "rel_volume_20d": 2.11,
-    "dist_20dma_pct": 5.62,
-    "dist_50dma_pct": 9.65,
-    "dist_200dma_pct": 49.53
+    "rsi_14": 54.47,
+    "rel_volume_20d": 1.31,
+    "dist_20dma_pct": 2.33,
+    "dist_50dma_pct": 0.12,
+    "dist_200dma_pct": 26.5
+   },
+   "pattern": {
+    "code": "trendline_breakout",
+    "stage": "confirmed",
+    "pivot_price": 7235.72,
+    "stop_suggestion": 6826.0,
+    "target_suggestion": 8682.87,
+    "gap_to_pivot_pct": 1.47
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 680.1,
+    "net_income_cr": 130.9,
+    "revenue_qoq_pct": 63.6,
+    "net_income_qoq_pct": 138.4
+   },
+   "reason": "Confirmed trendline breakout with 1.31x average volume, supported by massive quarterly earnings where revenue grew 63.6% QoQ and net profit surged 138.4% QoQ.",
+   "rank": 2,
+   "name": "Vadilal Industries Limited"
+  },
+  {
+   "symbol": "SHREEJISPG",
+   "ltp": 840.3,
+   "technicals": {
+    "rsi_14": 67.15,
+    "rel_volume_20d": 1.52,
+    "dist_20dma_pct": 4.39,
+    "dist_50dma_pct": 15.54,
+    "dist_200dma_pct": 63.28
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 2069.2,
-    "stop_suggestion": 1933.5,
-    "target_suggestion": 2483.04,
-    "gap_to_pivot_pct": 3.52
+    "pivot_price": 840.0,
+    "stop_suggestion": 735.8,
+    "target_suggestion": 1008.0,
+    "gap_to_pivot_pct": 0.04
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 2026.3,
-    "net_income_cr": 367.6,
-    "revenue_qoq_pct": 11.9,
-    "net_income_qoq_pct": 31.7
+    "revenue_cr": 208.8,
+    "net_income_cr": 44.3,
+    "revenue_qoq_pct": 11.0,
+    "net_income_qoq_pct": 9.9
    },
-   "reason": "Laurus Labs shows a confirmed 52-week breakout with 2.11x average volume and RSI at 64.75. Growth is solid, with quarterly revenue up 11.9% QoQ to \u20b92026.3 cr and profit increasing 31.7% QoQ.",
-   "rank": 2,
-   "name": "Laurus Labs Limited"
-  },
-  {
-   "symbol": "COFORGE",
-   "ltp": 1997.0,
-   "technicals": {
-    "rsi_14": 64.48,
-    "rel_volume_20d": 1.55,
-    "dist_20dma_pct": 6.39,
-    "dist_50dma_pct": 6.77,
-    "dist_200dma_pct": 30.07
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 2021.2,
-    "stop_suggestion": 1891.1,
-    "target_suggestion": 2324.38,
-    "gap_to_pivot_pct": -1.2
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 6170.8,
-    "net_income_cr": 588.1,
-    "revenue_qoq_pct": 11.6,
-    "net_income_qoq_pct": 13.4
-   },
-   "reason": "Coforge is forming near its pivot on above-average volume of 1.55x and RSI of 64.48. Fundamental strength supports the trend, with revenue rising 11.6% QoQ to \u20b96170.8 cr and profit growing 13.4% QoQ.",
+   "reason": "Confirmed 52-week breakout right at pivot (+0.04%) with 1.52x volume and strong 67.15 RSI, backed by 11.0% QoQ revenue and 9.9% QoQ profit growth.",
    "rank": 3,
-   "name": "Coforge Limited"
-  },
-  {
-   "symbol": "GESHIP",
-   "ltp": 1550.9,
-   "technicals": {
-    "rsi_14": 59.21,
-    "rel_volume_20d": 1.23,
-    "dist_20dma_pct": 1.25,
-    "dist_50dma_pct": 8.06,
-    "dist_200dma_pct": 11.07
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 1583.0,
-    "stop_suggestion": 1483.17,
-    "target_suggestion": 1820.45,
-    "gap_to_pivot_pct": -2.03
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 2005.4,
-    "net_income_cr": 1308.8,
-    "revenue_qoq_pct": 32.7,
-    "net_income_qoq_pct": 25.4
-   },
-   "reason": "Great Eastern Shipping consolidates near its pivot with 1.23x volume expansion and a healthy RSI of 59.21. Revenue grew 32.7% QoQ to \u20b92005.4 cr while net profit jumped 25.4% QoQ to \u20b91308.8 cr.",
-   "rank": 4,
-   "name": "The Great Eastern Shipping Company Limited"
+   "name": "Shreeji Shipping Global Limited"
   },
   {
    "symbol": "STOVEKRAFT",
-   "ltp": 840.7,
+   "ltp": 856.3,
    "technicals": {
-    "rsi_14": 55.12,
-    "rel_volume_20d": 1.03,
-    "dist_20dma_pct": 2.6,
-    "dist_50dma_pct": 3.01,
-    "dist_200dma_pct": 28.25
+    "rsi_14": 58.61,
+    "rel_volume_20d": 1.27,
+    "dist_20dma_pct": 4.13,
+    "dist_50dma_pct": 4.65,
+    "dist_200dma_pct": 30.37
    },
    "pattern": {
     "code": "high_52w_breakout",
@@ -136,7 +107,7 @@
     "pivot_price": 851.35,
     "stop_suggestion": 775.2,
     "target_suggestion": 1021.62,
-    "gap_to_pivot_pct": -1.25
+    "gap_to_pivot_pct": 0.58
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
@@ -145,9 +116,38 @@
     "revenue_qoq_pct": 15.9,
     "net_income_qoq_pct": 180.3
    },
-   "reason": "Stovekraft is forming a 52-week breakout with RSI at 55.12 and steady 1.03x volume. Strong financial backing includes revenue growing 15.9% QoQ to \u20b9480.6 cr and net profit surging 180.3% QoQ.",
-   "rank": 5,
+   "reason": "Forming 52-week breakout just 0.58% above pivot, backed by 1.27x volume, 58.61 RSI, and impressive fundamental growth with net profit jumping 180.3% QoQ.",
+   "rank": 4,
    "name": "Stove Kraft Limited"
+  },
+  {
+   "symbol": "ISFT",
+   "ltp": 107.47,
+   "technicals": {
+    "rsi_14": 63.37,
+    "rel_volume_20d": 1.62,
+    "dist_20dma_pct": 6.03,
+    "dist_50dma_pct": 14.32,
+    "dist_200dma_pct": 30.13
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 107.63,
+    "stop_suggestion": 93.55,
+    "target_suggestion": 129.16,
+    "gap_to_pivot_pct": -0.15
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 139.6,
+    "net_income_cr": 4.5,
+    "revenue_qoq_pct": 2.6,
+    "net_income_qoq_pct": 45.2
+   },
+   "reason": "Forming 52-week breakout just -0.15% from pivot with above-average 1.62x volume and a healthy 63.37 RSI, alongside 45.2% QoQ profit growth.",
+   "rank": 5,
+   "name": "Intrasoft Technologies Limited"
   }
  ]
 }

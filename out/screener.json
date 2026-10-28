@@ -1,110 +1,91 @@
 {
- "as_of": "2026-10-27",
+ "as_of": "2026-10-28",
  "facets": {
   "patterns": {
-   "near_pivot": 36,
-   "high_52w_breakout": 58,
-   "vcp": 13,
-   "trendline_breakout": 12
+   "high_52w_breakout": 64,
+   "near_pivot": 31,
+   "vcp": 10,
+   "trendline_breakout": 15
   },
   "stages": {
-   "forming": 91,
-   "confirmed": 23,
-   "extended": 5
+   "forming": 89,
+   "confirmed": 24,
+   "extended": 7
   }
  },
  "rows": [
   {
-   "symbol": "ERIS",
-   "name": "Eris Lifesciences Limited",
-   "ltp": 1198.4,
-   "change_pct": 8.43,
-   "volume": 742044,
+   "symbol": "EASEMYTRIP",
+   "name": "Easy Trip Planners Limited",
+   "ltp": 5.81,
+   "change_pct": 0.52,
+   "volume": 13812417,
    "patterns": [
     {
      "code": "trendline_breakout",
      "stage": "confirmed",
      "confidence": 0.95,
-     "pivot_price": 1189.47,
-     "stop_suggestion": 1069.0,
-     "target_suggestion": 1427.37,
-     "base_start_date": "2026-07-16",
+     "pivot_price": 5.77,
+     "stop_suggestion": 5.1,
+     "target_suggestion": 6.92,
+     "base_start_date": "2026-07-27",
      "breakout_date": "2026-10-27"
     }
    ]
   },
   {
-   "symbol": "INDIAMART",
-   "name": "Indiamart Intermesh Limited",
-   "ltp": 1627.8,
-   "change_pct": 4.21,
-   "volume": 202015,
+   "symbol": "KRITIKA",
+   "name": "Kritika Wires Limited",
+   "ltp": 5.14,
+   "change_pct": 10.54,
+   "volume": 467653,
    "patterns": [
     {
      "code": "trendline_breakout",
      "stage": "confirmed",
      "confidence": 0.95,
-     "pivot_price": 1583.72,
-     "stop_suggestion": 1540.0,
-     "target_suggestion": 1900.47,
-     "base_start_date": "2026-08-14",
-     "breakout_date": "2026-10-27"
-    }
-   ]
-  },
-  {
-   "symbol": "JUBLINGREA",
-   "name": "Jubilant Ingrevia Limited",
-   "ltp": 632.35,
-   "change_pct": 4.35,
-   "volume": 2707855,
-   "patterns": [
-    {
-     "code": "trendline_breakout",
-     "stage": "confirmed",
-     "confidence": 0.95,
-     "pivot_price": 627.43,
-     "stop_suggestion": 592.65,
-     "target_suggestion": 752.92,
-     "base_start_date": "2026-07-22",
-     "breakout_date": "2026-10-27"
-    }
-   ]
-  },
-  {
-   "symbol": "SANOFI",
-   "name": "Sanofi India Limited",
-   "ltp": 3075.0,
-   "change_pct": 7.79,
-   "volume": 42050,
-   "patterns": [
-    {
-     "code": "trendline_breakout",
-     "stage": "confirmed",
-     "confidence": 0.95,
-     "pivot_price": 2970.21,
-     "stop_suggestion": 2758.2,
-     "target_suggestion": 3564.25,
-     "base_start_date": "2026-07-07",
-     "breakout_date": "2026-10-27"
+     "pivot_price": 4.89,
+     "stop_suggestion": 4.41,
+     "target_suggestion": 5.87,
+     "base_start_date": "2026-08-19",
+     "breakout_date": "2026-10-28"
     }
    ]
   },
   {
    "symbol": "TATACONSUM",
    "name": "TATA CONSUMER PRODUCTS LIMITED",
-   "ltp": 1000.0,
-   "change_pct": 6.78,
-   "volume": 7578802,
+   "ltp": 1000.2,
+   "change_pct": 0.02,
+   "volume": 3141717,
    "patterns": [
     {
      "code": "trendline_breakout",
      "stage": "confirmed",
      "confidence": 0.95,
-     "pivot_price": 959.87,
+     "pivot_price": 957.46,
      "stop_suggestion": 916.0,
-     "target_suggestion": 1151.84,
+     "target_suggestion": 1148.96,
      "base_start_date": "2026-06-29",
+     "breakout_date": "2026-10-27"
+    }
+   ]
+  },
+  {
+   "symbol": "ROML",
+   "name": "Raj Oil Mills Limited",
+   "ltp": 41.7,
+   "change_pct": 1.29,
+   "volume": 741,
+   "patterns": [
+    {
+     "code": "trendline_breakout",
+     "stage": "confirmed",
+     "confidence": 0.9245,
+     "pivot_price": 41.69,
+     "stop_suggestion": 38.34,
+     "target_suggestion": 50.03,
+     "base_start_date": "2026-07-01",
      "breakout_date": "2026-10-27"
     }
    ]
@@ -112,9 +93,9 @@
   {
    "symbol": "ACUTAAS",
    "name": "Acutaas Chemicals Limited",
-   "ltp": 3793.3,
-   "change_pct": 13.27,
-   "volume": 4746620,
+   "ltp": 3710.0,
+   "change_pct": -2.2,
+   "volume": 2271934,
    "patterns": [
     {
      "code": "high_52w_breakout",
@@ -125,24 +106,91 @@
      "target_suggestion": 4433.76,
      "base_start_date": null,
      "breakout_date": "2026-10-27"
+    },
+    {
+     "code": "vcp",
+     "stage": "extended",
+     "confidence": 0.6162,
+     "pivot_price": 3509.9,
+     "stop_suggestion": 3085.0,
+     "target_suggestion": 4387.38,
+     "base_start_date": "2026-09-11",
+     "breakout_date": null
     }
    ]
   },
   {
-   "symbol": "GANDHAR",
-   "name": "Gandhar Oil Refinery (India) Limited",
-   "ltp": 314.9,
-   "change_pct": 4.88,
-   "volume": 2581251,
+   "symbol": "PPLPHARMA",
+   "name": "Piramal Pharma Limited",
+   "ltp": 232.8,
+   "change_pct": 17.15,
+   "volume": 118072228,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "confirmed",
      "confidence": 0.9,
-     "pivot_price": 310.95,
-     "stop_suggestion": 273.55,
-     "target_suggestion": 373.14,
+     "pivot_price": 226.62,
+     "stop_suggestion": 185.02,
+     "target_suggestion": 271.94,
      "base_start_date": null,
+     "breakout_date": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "symbol": "SHREEPUSHK",
+   "name": "Shree Pushkar Chemicals & Fertilisers Limited",
+   "ltp": 542.7,
+   "change_pct": 7.79,
+   "volume": 235412,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "confirmed",
+     "confidence": 0.9,
+     "pivot_price": 517.5,
+     "stop_suggestion": 426.2,
+     "target_suggestion": 621.0,
+     "base_start_date": null,
+     "breakout_date": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "symbol": "KPITTECH",
+   "name": "KPIT Technologies Limited",
+   "ltp": 552.5,
+   "change_pct": 3.87,
+   "volume": 7309935,
+   "patterns": [
+    {
+     "code": "trendline_breakout",
+     "stage": "confirmed",
+     "confidence": 0.875,
+     "pivot_price": 539.71,
+     "stop_suggestion": 470.1,
+     "target_suggestion": 647.65,
+     "base_start_date": "2026-07-29",
+     "breakout_date": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "symbol": "CHOICEIN",
+   "name": "Choice International Limited",
+   "ltp": 732.4,
+   "change_pct": 1.56,
+   "volume": 576479,
+   "patterns": [
+    {
+     "code": "trendline_breakout",
+     "stage": "confirmed",
+     "confidence": 0.8742,
+     "pivot_price": 720.07,
+     "stop_suggestion": 671.7,
+     "target_suggestion": 864.09,
+     "base_start_date": "2026-08-11",
      "breakout_date": "2026-10-27"
     }
    ]
@@ -150,55 +198,46 @@
   {
    "symbol": "MGEL",
    "name": "Mangalam Global Enterprise Limited",
-   "ltp": 17.79,
-   "change_pct": -2.36,
-   "volume": 336922,
+   "ltp": 18.05,
+   "change_pct": 1.46,
+   "volume": 246443,
    "patterns": [
     {
-     "code": "high_52w_breakout",
+     "code": "vcp",
      "stage": "confirmed",
-     "confidence": 0.9,
+     "confidence": 0.8606,
+     "pivot_price": 17.5,
+     "stop_suggestion": 16.7,
+     "target_suggestion": 21.88,
+     "base_start_date": "2026-09-07",
+     "breakout_date": "2026-10-26"
+    },
+    {
+     "code": "high_52w_breakout",
+     "stage": "extended",
+     "confidence": 0.45,
      "pivot_price": 17.05,
-     "stop_suggestion": 15.41,
+     "stop_suggestion": 15.51,
      "target_suggestion": 20.46,
      "base_start_date": null,
-     "breakout_date": "2026-10-26"
-    }
-   ]
-  },
-  {
-   "symbol": "SONACOMS",
-   "name": "Sona BLW Precision Forgings Limited",
-   "ltp": 851.85,
-   "change_pct": 8.95,
-   "volume": 19084943,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "confirmed",
-     "confidence": 0.9,
-     "pivot_price": 833.0,
-     "stop_suggestion": 741.3,
-     "target_suggestion": 999.6,
-     "base_start_date": null,
-     "breakout_date": "2026-10-27"
+     "breakout_date": null
     }
    ]
   },
   {
    "symbol": "FORCEMOT",
    "name": "FORCE MOTORS LTD",
-   "ltp": 17375.0,
-   "change_pct": 4.74,
-   "volume": 106798,
+   "ltp": 17094.0,
+   "change_pct": -1.62,
+   "volume": 79318,
    "patterns": [
     {
      "code": "trendline_breakout",
      "stage": "confirmed",
-     "confidence": 0.8152,
-     "pivot_price": 16998.61,
+     "confidence": 0.8115,
+     "pivot_price": 16969.13,
      "stop_suggestion": 16184.0,
-     "target_suggestion": 20398.33,
+     "target_suggestion": 20362.95,
      "base_start_date": "2026-07-03",
      "breakout_date": "2026-10-27"
     }
@@ -207,168 +246,130 @@
   {
    "symbol": "HINDPETRO",
    "name": "Hindustan Petroleum Corporation Limited",
-   "ltp": 354.0,
-   "change_pct": 3.07,
-   "volume": 8404556,
+   "ltp": 347.15,
+   "change_pct": -1.94,
+   "volume": 3345980,
    "patterns": [
     {
      "code": "trendline_breakout",
      "stage": "confirmed",
-     "confidence": 0.8058,
-     "pivot_price": 346.28,
+     "confidence": 0.8077,
+     "pivot_price": 345.42,
      "stop_suggestion": 323.25,
-     "target_suggestion": 415.54,
+     "target_suggestion": 414.5,
      "base_start_date": "2026-06-25",
      "breakout_date": "2026-10-27"
     }
    ]
   },
   {
-   "symbol": "GARFIBRES",
-   "name": "Garware Technical Fibres Limited",
-   "ltp": 775.55,
-   "change_pct": 7.45,
-   "volume": 144873,
+   "symbol": "DIGISPICE",
+   "name": "DiGiSPICE Technologies Limited",
+   "ltp": 15.92,
+   "change_pct": 2.78,
+   "volume": 75227,
    "patterns": [
     {
      "code": "trendline_breakout",
      "stage": "confirmed",
      "confidence": 0.8,
-     "pivot_price": 771.87,
-     "stop_suggestion": 700.1,
-     "target_suggestion": 926.24,
-     "base_start_date": "2026-08-06",
-     "breakout_date": "2026-10-27"
+     "pivot_price": 15.48,
+     "stop_suggestion": 12.67,
+     "target_suggestion": 18.58,
+     "base_start_date": "2026-07-20",
+     "breakout_date": "2026-10-26"
     }
    ]
   },
   {
-   "symbol": "LAURUSLABS",
-   "name": "Laurus Labs Limited",
-   "ltp": 2142.0,
-   "change_pct": 4.04,
-   "volume": 3117057,
+   "symbol": "SECURKLOUD",
+   "name": "SECUREKLOUD TECHNOLOGIES LIMITED",
+   "ltp": 16.24,
+   "change_pct": 8.05,
+   "volume": 99639,
    "patterns": [
     {
-     "code": "high_52w_breakout",
+     "code": "trendline_breakout",
      "stage": "confirmed",
-     "confidence": 0.7996,
-     "pivot_price": 2069.2,
-     "stop_suggestion": 1933.5,
-     "target_suggestion": 2483.04,
-     "base_start_date": null,
-     "breakout_date": "2026-10-27"
+     "confidence": 0.8,
+     "pivot_price": 16.19,
+     "stop_suggestion": 14.41,
+     "target_suggestion": 19.42,
+     "base_start_date": "2026-07-10",
+     "breakout_date": "2026-10-28"
     }
    ]
   },
   {
    "symbol": "NHPC",
    "name": "NHPC Limited",
-   "ltp": 73.2,
-   "change_pct": 3.74,
-   "volume": 19295057,
+   "ltp": 74.44,
+   "change_pct": 1.69,
+   "volume": 8763446,
    "patterns": [
     {
      "code": "trendline_breakout",
      "stage": "confirmed",
-     "confidence": 0.7993,
-     "pivot_price": 71.58,
+     "confidence": 0.7937,
+     "pivot_price": 71.42,
      "stop_suggestion": 68.79,
-     "target_suggestion": 85.9,
+     "target_suggestion": 85.7,
      "base_start_date": "2026-07-21",
      "breakout_date": "2026-10-27"
     }
    ]
   },
   {
-   "symbol": "TOKYOPLAST",
-   "name": "Tokyo Plast International Limited",
-   "ltp": 72.0,
-   "change_pct": -1.22,
-   "volume": 996,
-   "patterns": [
-    {
-     "code": "trendline_breakout",
-     "stage": "confirmed",
-     "confidence": 0.797,
-     "pivot_price": 71.38,
-     "stop_suggestion": 62.1,
-     "target_suggestion": 85.66,
-     "base_start_date": "2026-07-03",
-     "breakout_date": "2026-10-23"
-    }
-   ]
-  },
-  {
-   "symbol": "UFO",
-   "name": "UFO Moviez India Limited",
-   "ltp": 61.36,
-   "change_pct": 3.89,
-   "volume": 38701,
-   "patterns": [
-    {
-     "code": "trendline_breakout",
-     "stage": "confirmed",
-     "confidence": 0.7938,
-     "pivot_price": 59.18,
-     "stop_suggestion": 53.9,
-     "target_suggestion": 71.01,
-     "base_start_date": "2026-06-23",
-     "breakout_date": "2026-10-26"
-    }
-   ]
-  },
-  {
-   "symbol": "SHREEPUSHK",
-   "name": "Shree Pushkar Chemicals & Fertilisers Limited",
-   "ltp": 503.5,
-   "change_pct": 2.62,
-   "volume": 37262,
-   "patterns": [
-    {
-     "code": "vcp",
-     "stage": "forming",
-     "confidence": 0.7928,
-     "pivot_price": 545.2,
-     "stop_suggestion": 461.54,
-     "target_suggestion": 681.5,
-     "base_start_date": "2026-09-08",
-     "breakout_date": null
-    }
-   ]
-  },
-  {
    "symbol": "SAREGAMA",
    "name": "Saregama India Limited",
-   "ltp": 509.5,
-   "change_pct": 4.18,
-   "volume": 266996,
+   "ltp": 523.95,
+   "change_pct": 2.84,
+   "volume": 980934,
    "patterns": [
     {
      "code": "vcp",
-     "stage": "forming",
+     "stage": "confirmed",
      "confidence": 0.7923,
      "pivot_price": 518.65,
-     "stop_suggestion": 480.11,
+     "stop_suggestion": 481.55,
      "target_suggestion": 648.31,
      "base_start_date": "2026-09-09",
-     "breakout_date": null
+     "breakout_date": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "symbol": "VADILALIND",
+   "name": "Vadilal Industries Limited",
+   "ltp": 7342.0,
+   "change_pct": 1.66,
+   "volume": 9021,
+   "patterns": [
+    {
+     "code": "trendline_breakout",
+     "stage": "confirmed",
+     "confidence": 0.7882,
+     "pivot_price": 7235.72,
+     "stop_suggestion": 6826.0,
+     "target_suggestion": 8682.87,
+     "base_start_date": "2026-08-13",
+     "breakout_date": "2026-10-27"
     }
    ]
   },
   {
    "symbol": "LIQUIDPLUS",
    "name": "LIQUIDPLUS",
-   "ltp": 1109.72,
-   "change_pct": 0.02,
-   "volume": 347914,
+   "ltp": 1109.88,
+   "change_pct": 0.01,
+   "volume": 234984,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.7857,
+     "confidence": 0.7869,
      "pivot_price": 1111.63,
-     "stop_suggestion": 1108.54,
+     "stop_suggestion": 1108.76,
      "target_suggestion": 1278.37,
      "base_start_date": null,
      "breakout_date": null
@@ -376,69 +377,126 @@
     {
      "code": "high_52w_breakout",
      "stage": "forming",
-     "confidence": 0.6,
-     "pivot_price": 1108.87,
-     "stop_suggestion": 1104.99,
-     "target_suggestion": 1330.64,
+     "confidence": 0.6336,
+     "pivot_price": 1109.37,
+     "stop_suggestion": 1106.1,
+     "target_suggestion": 1331.24,
      "base_start_date": null,
-     "breakout_date": "2026-10-23"
-    }
-   ]
-  },
-  {
-   "symbol": "LIQGRWBEES",
-   "name": "LIQGRWBEES",
-   "ltp": 1061.45,
-   "change_pct": 0.02,
-   "volume": 44829,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.7673,
-     "pivot_price": 1065.63,
-     "stop_suggestion": 1059.52,
-     "target_suggestion": 1225.47,
-     "base_start_date": null,
-     "breakout_date": null
-    },
-    {
-     "code": "high_52w_breakout",
-     "stage": "confirmed",
-     "confidence": 0.6932,
-     "pivot_price": 1060.64,
-     "stop_suggestion": 1056.25,
-     "target_suggestion": 1272.77,
-     "base_start_date": null,
-     "breakout_date": "2026-10-23"
+     "breakout_date": "2026-10-26"
     }
    ]
   },
   {
    "symbol": "SUPRAJIT",
    "name": "Suprajit Engineering Limited",
-   "ltp": 476.65,
-   "change_pct": 5.29,
-   "volume": 139280,
+   "ltp": 466.5,
+   "change_pct": -2.13,
+   "volume": 23189,
    "patterns": [
     {
      "code": "trendline_breakout",
      "stage": "confirmed",
-     "confidence": 0.7663,
-     "pivot_price": 457.91,
+     "confidence": 0.7698,
+     "pivot_price": 456.16,
      "stop_suggestion": 440.6,
-     "target_suggestion": 549.49,
+     "target_suggestion": 547.39,
      "base_start_date": "2026-08-10",
      "breakout_date": "2026-10-27"
     }
    ]
   },
   {
+   "symbol": "LIQGRWBEES",
+   "name": "LIQGRWBEES",
+   "ltp": 1061.6,
+   "change_pct": 0.01,
+   "volume": 33488,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.7685,
+     "pivot_price": 1065.63,
+     "stop_suggestion": 1059.79,
+     "target_suggestion": 1225.47,
+     "base_start_date": null,
+     "breakout_date": null
+    },
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6,
+     "pivot_price": 1061.12,
+     "stop_suggestion": 1056.25,
+     "target_suggestion": 1273.34,
+     "base_start_date": null,
+     "breakout_date": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "symbol": "SANOFI",
+   "name": "Sanofi India Limited",
+   "ltp": 2992.0,
+   "change_pct": -2.7,
+   "volume": 13824,
+   "patterns": [
+    {
+     "code": "trendline_breakout",
+     "stage": "confirmed",
+     "confidence": 0.7673,
+     "pivot_price": 2962.91,
+     "stop_suggestion": 2758.2,
+     "target_suggestion": 3555.49,
+     "base_start_date": "2026-07-07",
+     "breakout_date": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "symbol": "TIPSMUSIC",
+   "name": "Tips Music Limited",
+   "ltp": 793.9,
+   "change_pct": 7.05,
+   "volume": 1647467,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "confirmed",
+     "confidence": 0.7618,
+     "pivot_price": 771.7,
+     "stop_suggestion": 616.05,
+     "target_suggestion": 926.04,
+     "base_start_date": null,
+     "breakout_date": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "symbol": "AARTIDRUGS",
+   "name": "Aarti Drugs Limited",
+   "ltp": 447.9,
+   "change_pct": 11.35,
+   "volume": 11572516,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.7574,
+     "pivot_price": 450.2,
+     "stop_suggestion": 421.36,
+     "target_suggestion": 517.73,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
    "symbol": "GCSL",
    "name": "Gretex Corporate Services Limited",
-   "ltp": 747.7,
-   "change_pct": 2.01,
-   "volume": 535880,
+   "ltp": 751.35,
+   "change_pct": 0.49,
+   "volume": 249452,
    "patterns": [
     {
      "code": "vcp",
@@ -448,12 +506,12 @@
      "stop_suggestion": 705.35,
      "target_suggestion": 936.81,
      "base_start_date": "2026-08-06",
-     "breakout_date": null
+     "breakout_date": "2026-10-28"
     },
     {
      "code": "high_52w_breakout",
      "stage": "confirmed",
-     "confidence": 0.6806,
+     "confidence": 0.6814,
      "pivot_price": 740.45,
      "stop_suggestion": 681.45,
      "target_suggestion": 888.54,
@@ -463,37 +521,18 @@
    ]
   },
   {
-   "symbol": "MARKOLINES",
-   "name": "Markolines Pavement Technologies Limited",
-   "ltp": 175.69,
-   "change_pct": -0.1,
-   "volume": 131080,
-   "patterns": [
-    {
-     "code": "vcp",
-     "stage": "forming",
-     "confidence": 0.7528,
-     "pivot_price": 180.8,
-     "stop_suggestion": 163.5,
-     "target_suggestion": 226.0,
-     "base_start_date": "2026-09-07",
-     "breakout_date": null
-    }
-   ]
-  },
-  {
    "symbol": "ELIQUID",
    "name": "ELIQUID",
-   "ltp": 1054.56,
+   "ltp": 1054.72,
    "change_pct": 0.02,
-   "volume": 16084,
+   "volume": 37696,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.7485,
+     "confidence": 0.7498,
      "pivot_price": 1054.75,
-     "stop_suggestion": 1053.31,
+     "stop_suggestion": 1053.54,
      "target_suggestion": 1212.96,
      "base_start_date": null,
      "breakout_date": null
@@ -502,57 +541,28 @@
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.6,
-     "pivot_price": 1053.13,
+     "pivot_price": 1053.6,
      "stop_suggestion": 1047.75,
-     "target_suggestion": 1263.76,
+     "target_suggestion": 1264.32,
      "base_start_date": null,
-     "breakout_date": "2026-10-23"
+     "breakout_date": "2026-10-26"
     }
    ]
   },
   {
    "symbol": "LIQUIDBETF",
    "name": "LIQUIDBETF",
-   "ltp": 1104.93,
+   "ltp": 1105.09,
    "change_pct": 0.01,
-   "volume": 253854,
+   "volume": 199857,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.7474,
+     "confidence": 0.7486,
      "pivot_price": 1105.27,
-     "stop_suggestion": 1103.79,
+     "stop_suggestion": 1104.01,
      "target_suggestion": 1271.06,
-     "base_start_date": null,
-     "breakout_date": null
-    },
-    {
-     "code": "high_52w_breakout",
-     "stage": "confirmed",
-     "confidence": 0.7358,
-     "pivot_price": 1104.16,
-     "stop_suggestion": 1100.44,
-     "target_suggestion": 1324.99,
-     "base_start_date": null,
-     "breakout_date": "2026-10-23"
-    }
-   ]
-  },
-  {
-   "symbol": "HDFCLIQUID",
-   "name": "HDFCLIQUID",
-   "ltp": 1084.23,
-   "change_pct": 0.02,
-   "volume": 74862,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.7468,
-     "pivot_price": 1084.65,
-     "stop_suggestion": 1082.97,
-     "target_suggestion": 1247.35,
      "base_start_date": null,
      "breakout_date": null
     },
@@ -560,25 +570,54 @@
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.6,
-     "pivot_price": 1083.4,
-     "stop_suggestion": 1080.61,
-     "target_suggestion": 1300.08,
+     "pivot_price": 1104.63,
+     "stop_suggestion": 1100.44,
+     "target_suggestion": 1325.56,
      "base_start_date": null,
-     "breakout_date": "2026-10-23"
+     "breakout_date": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "symbol": "HDFCLIQUID",
+   "name": "HDFCLIQUID",
+   "ltp": 1084.39,
+   "change_pct": 0.01,
+   "volume": 43423,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.748,
+     "pivot_price": 1084.65,
+     "stop_suggestion": 1083.04,
+     "target_suggestion": 1247.35,
+     "base_start_date": null,
+     "breakout_date": null
+    },
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6442,
+     "pivot_price": 1083.89,
+     "stop_suggestion": 1081.0,
+     "target_suggestion": 1300.67,
+     "base_start_date": null,
+     "breakout_date": "2026-10-26"
     }
    ]
   },
   {
    "symbol": "IGIL",
    "name": "International Gemological Institute Limited",
-   "ltp": 392.55,
-   "change_pct": 1.88,
-   "volume": 7150424,
+   "ltp": 398.45,
+   "change_pct": 1.5,
+   "volume": 1247480,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "confirmed",
-     "confidence": 0.7452,
+     "confidence": 0.7388,
      "pivot_price": 381.25,
      "stop_suggestion": 304.1,
      "target_suggestion": 457.5,
@@ -588,37 +627,18 @@
    ]
   },
   {
-   "symbol": "LIQUIDADD",
-   "name": "LIQUIDADD",
-   "ltp": 1151.34,
-   "change_pct": 0.01,
-   "volume": 345020,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "confirmed",
-     "confidence": 0.7356,
-     "pivot_price": 1150.48,
-     "stop_suggestion": 1147.15,
-     "target_suggestion": 1380.58,
-     "base_start_date": null,
-     "breakout_date": "2026-10-23"
-    }
-   ]
-  },
-  {
    "symbol": "ANANDRATHI",
    "name": "Anand Rathi Wealth Limited",
-   "ltp": 2259.0,
-   "change_pct": 1.3,
-   "volume": 437149,
+   "ltp": 2264.6,
+   "change_pct": 0.25,
+   "volume": 368628,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.7155,
+     "confidence": 0.736,
      "pivot_price": 2268.4,
-     "stop_suggestion": 2186.76,
+     "stop_suggestion": 2193.04,
      "target_suggestion": 2608.66,
      "base_start_date": null,
      "breakout_date": null
@@ -626,56 +646,75 @@
    ]
   },
   {
-   "symbol": "COHANCE",
-   "name": "Cohance Lifesciences Limited",
-   "ltp": 479.25,
-   "change_pct": 3.39,
-   "volume": 1227886,
+   "symbol": "SHREEJISPG",
+   "name": "Shreeji Shipping Global Limited",
+   "ltp": 840.3,
+   "change_pct": 0.16,
+   "volume": 1728514,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "confirmed",
+     "confidence": 0.6928,
+     "pivot_price": 840.0,
+     "stop_suggestion": 735.8,
+     "target_suggestion": 1008.0,
+     "base_start_date": null,
+     "breakout_date": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "symbol": "UFO",
+   "name": "UFO Moviez India Limited",
+   "ltp": 59.8,
+   "change_pct": -2.54,
+   "volume": 101082,
+   "patterns": [
+    {
+     "code": "trendline_breakout",
+     "stage": "confirmed",
+     "confidence": 0.6928,
+     "pivot_price": 59.51,
+     "stop_suggestion": 53.9,
+     "target_suggestion": 71.41,
+     "base_start_date": "2026-07-27",
+     "breakout_date": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "symbol": "SVPGLOB",
+   "name": "SVP GLOBAL TEXTILES LIMITED",
+   "ltp": 4.04,
+   "change_pct": 6.6,
+   "volume": 197941,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.6982,
-     "pivot_price": 482.25,
-     "stop_suggestion": 454.18,
-     "target_suggestion": 554.59,
+     "confidence": 0.6794,
+     "pivot_price": 4.05,
+     "stop_suggestion": 3.58,
+     "target_suggestion": 4.66,
      "base_start_date": null,
      "breakout_date": null
     }
    ]
   },
   {
-   "symbol": "LIQUIDCASE",
-   "name": "LIQUIDCASE",
-   "ltp": 116.59,
-   "change_pct": 0.01,
-   "volume": 23559396,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "confirmed",
-     "confidence": 0.695,
-     "pivot_price": 116.51,
-     "stop_suggestion": 116.23,
-     "target_suggestion": 139.81,
-     "base_start_date": null,
-     "breakout_date": "2026-10-23"
-    }
-   ]
-  },
-  {
    "symbol": "AONELIQUID",
    "name": "AONELIQUID",
-   "ltp": 1083.07,
-   "change_pct": 0.02,
-   "volume": 20458,
+   "ltp": 1083.22,
+   "change_pct": 0.01,
+   "volume": 13929,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.6732,
+     "confidence": 0.6743,
      "pivot_price": 1086.57,
-     "stop_suggestion": 1081.8,
+     "stop_suggestion": 1082.02,
      "target_suggestion": 1249.56,
      "base_start_date": null,
      "breakout_date": null
@@ -684,78 +723,30 @@
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.6,
-     "pivot_price": 1082.26,
+     "pivot_price": 1082.74,
      "stop_suggestion": 1075.0,
-     "target_suggestion": 1298.71,
+     "target_suggestion": 1299.29,
      "base_start_date": null,
-     "breakout_date": "2026-10-23"
-    }
-   ]
-  },
-  {
-   "symbol": "BSE",
-   "name": "BSE Limited",
-   "ltp": 3441.1,
-   "change_pct": 2.44,
-   "volume": 4508338,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.6699,
-     "pivot_price": 3474.5,
-     "stop_suggestion": 3275.01,
-     "target_suggestion": 3995.67,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "UNITEDPOLY",
-   "name": "United Polyfab Gujarat Limited",
-   "ltp": 53.39,
-   "change_pct": 6.65,
-   "volume": 956672,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.663,
-     "pivot_price": 53.37,
-     "stop_suggestion": 44.81,
-     "target_suggestion": 64.04,
-     "base_start_date": null,
-     "breakout_date": "2026-10-27"
-    },
-    {
-     "code": "vcp",
-     "stage": "extended",
-     "confidence": 0.6295,
-     "pivot_price": 50.23,
-     "stop_suggestion": 46.6,
-     "target_suggestion": 62.79,
-     "base_start_date": "2026-07-28",
-     "breakout_date": null
+     "breakout_date": "2026-10-26"
     }
    ]
   },
   {
    "symbol": "GLAND",
    "name": "Gland Pharma Limited",
-   "ltp": 2960.3,
-   "change_pct": 4.09,
-   "volume": 397406,
+   "ltp": 3049.0,
+   "change_pct": 3.0,
+   "volume": 282542,
    "patterns": [
     {
      "code": "vcp",
      "stage": "forming",
      "confidence": 0.6613,
      "pivot_price": 3042.0,
-     "stop_suggestion": 2803.89,
+     "stop_suggestion": 2863.1,
      "target_suggestion": 3802.5,
      "base_start_date": "2026-08-14",
-     "breakout_date": null
+     "breakout_date": "2026-10-28"
     }
    ]
   },
@@ -764,14 +755,14 @@
    "name": "ABSLLIQUID",
    "ltp": 1000.0,
    "change_pct": 0.0,
-   "volume": 16531,
+   "volume": 10057,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
      "confidence": 0.6585,
      "pivot_price": 1005.0,
-     "stop_suggestion": 999.47,
+     "stop_suggestion": 999.5,
      "target_suggestion": 1155.75,
      "base_start_date": null,
      "breakout_date": null
@@ -789,115 +780,96 @@
    ]
   },
   {
-   "symbol": "PVRINOX",
-   "name": "PVR INOX Limited",
-   "ltp": 1464.0,
-   "change_pct": 4.22,
-   "volume": 1070308,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6552,
-     "pivot_price": 1419.9,
-     "stop_suggestion": 1226.1,
-     "target_suggestion": 1703.88,
-     "base_start_date": null,
-     "breakout_date": "2026-10-27"
-    }
-   ]
-  },
-  {
-   "symbol": "INDUSTOWER",
-   "name": "Indus Towers Limited",
-   "ltp": 385.3,
-   "change_pct": -0.95,
-   "volume": 4631562,
+   "symbol": "GROWWLIQID",
+   "name": "GROWWLIQID",
+   "ltp": 111.37,
+   "change_pct": 0.01,
+   "volume": 1553134,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.6513,
-     "pivot_price": 392.3,
-     "stop_suggestion": 370.75,
-     "target_suggestion": 451.14,
+     "confidence": 0.6509,
+     "pivot_price": 112.71,
+     "stop_suggestion": 111.17,
+     "target_suggestion": 129.62,
      "base_start_date": null,
      "breakout_date": null
+    },
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6328,
+     "pivot_price": 111.33,
+     "stop_suggestion": 111.05,
+     "target_suggestion": 133.6,
+     "base_start_date": null,
+     "breakout_date": "2026-10-26"
     }
    ]
   },
   {
-   "symbol": "LIQUIDSHRI",
-   "name": "LIQUIDSHRI",
-   "ltp": 1127.68,
-   "change_pct": 0.02,
-   "volume": 5643,
+   "symbol": "STOVEKRAFT",
+   "name": "Stove Kraft Limited",
+   "ltp": 856.3,
+   "change_pct": 1.86,
+   "volume": 150004,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "forming",
-     "confidence": 0.6508,
-     "pivot_price": 1126.87,
-     "stop_suggestion": 1124.4,
-     "target_suggestion": 1352.24,
+     "confidence": 0.6468,
+     "pivot_price": 851.35,
+     "stop_suggestion": 775.2,
+     "target_suggestion": 1021.62,
      "base_start_date": null,
-     "breakout_date": "2026-10-23"
+     "breakout_date": "2026-10-28"
     }
    ]
   },
   {
    "symbol": "OMFREIGHT",
    "name": "Om Freight Forwarders Limited",
-   "ltp": 110.49,
-   "change_pct": -0.08,
-   "volume": 12058,
+   "ltp": 112.09,
+   "change_pct": 1.45,
+   "volume": 49082,
    "patterns": [
     {
      "code": "vcp",
      "stage": "forming",
      "confidence": 0.6445,
      "pivot_price": 110.5,
-     "stop_suggestion": 102.4,
+     "stop_suggestion": 103.51,
      "target_suggestion": 138.12,
      "base_start_date": "2026-08-21",
-     "breakout_date": null
+     "breakout_date": "2026-10-28"
     },
     {
      "code": "high_52w_breakout",
      "stage": "forming",
-     "confidence": 0.45,
+     "confidence": 0.6212,
      "pivot_price": 111.76,
-     "stop_suggestion": 97.0,
+     "stop_suggestion": 102.0,
      "target_suggestion": 134.11,
      "base_start_date": null,
-     "breakout_date": null
+     "breakout_date": "2026-10-28"
     }
    ]
   },
   {
-   "symbol": "EBGNG",
-   "name": "GNG Electronics Limited",
-   "ltp": 720.1,
-   "change_pct": 1.62,
-   "volume": 336301,
+   "symbol": "COHANCE",
+   "name": "Cohance Lifesciences Limited",
+   "ltp": 476.05,
+   "change_pct": -0.67,
+   "volume": 627122,
    "patterns": [
     {
-     "code": "vcp",
+     "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.6401,
-     "pivot_price": 740.4,
-     "stop_suggestion": 663.53,
-     "target_suggestion": 925.5,
-     "base_start_date": "2026-09-02",
-     "breakout_date": null
-    },
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.45,
-     "pivot_price": 731.35,
-     "stop_suggestion": 648.4,
-     "target_suggestion": 877.62,
+     "confidence": 0.6429,
+     "pivot_price": 482.25,
+     "stop_suggestion": 451.09,
+     "target_suggestion": 554.59,
      "base_start_date": null,
      "breakout_date": null
     }
@@ -906,26 +878,26 @@
   {
    "symbol": "ONELIFECAP",
    "name": "Onelife Capital Advisors Limited",
-   "ltp": 52.0,
-   "change_pct": 1.98,
-   "volume": 21615,
+   "ltp": 53.11,
+   "change_pct": 2.13,
+   "volume": 40687,
    "patterns": [
     {
      "code": "vcp",
      "stage": "forming",
      "confidence": 0.6372,
      "pivot_price": 52.56,
-     "stop_suggestion": 48.47,
+     "stop_suggestion": 49.0,
      "target_suggestion": 65.7,
      "base_start_date": "2026-08-11",
-     "breakout_date": null
+     "breakout_date": "2026-10-28"
     },
     {
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.6,
      "pivot_price": 50.89,
-     "stop_suggestion": 42.55,
+     "stop_suggestion": 45.0,
      "target_suggestion": 61.07,
      "base_start_date": null,
      "breakout_date": "2026-10-26"
@@ -935,46 +907,17 @@
   {
    "symbol": "BHARTIHEXA",
    "name": "Bharti Hexacom Limited",
-   "ltp": 1665.9,
-   "change_pct": 2.23,
-   "volume": 144533,
+   "ltp": 1665.4,
+   "change_pct": -0.03,
+   "volume": 158582,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.6365,
+     "confidence": 0.634,
      "pivot_price": 1678.7,
-     "stop_suggestion": 1588.66,
+     "stop_suggestion": 1587.33,
      "target_suggestion": 1930.5,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "LIQUID1",
-   "name": "LIQUID1",
-   "ltp": 1128.99,
-   "change_pct": 0.01,
-   "volume": 830435,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6364,
-     "pivot_price": 1128.17,
-     "stop_suggestion": 1115.35,
-     "target_suggestion": 1353.8,
-     "base_start_date": null,
-     "breakout_date": "2026-10-23"
-    },
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.6169,
-     "pivot_price": 1147.32,
-     "stop_suggestion": 1120.43,
-     "target_suggestion": 1319.42,
      "base_start_date": null,
      "breakout_date": null
     }
@@ -983,16 +926,16 @@
   {
    "symbol": "BBOX",
    "name": "Black Box Limited",
-   "ltp": 809.15,
-   "change_pct": 1.65,
-   "volume": 492644,
+   "ltp": 811.65,
+   "change_pct": 0.31,
+   "volume": 490503,
    "patterns": [
     {
      "code": "vcp",
      "stage": "forming",
      "confidence": 0.6322,
      "pivot_price": 854.6,
-     "stop_suggestion": 739.45,
+     "stop_suggestion": 744.09,
      "target_suggestion": 1068.25,
      "base_start_date": "2026-08-21",
      "breakout_date": null
@@ -1000,553 +943,18 @@
    ]
   },
   {
-   "symbol": "EBBETF0431",
-   "name": "EBBETF0431",
-   "ltp": 1414.42,
-   "change_pct": 0.03,
-   "volume": 1962,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.6271,
-     "pivot_price": 1444.39,
-     "stop_suggestion": 1398.66,
-     "target_suggestion": 1661.05,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "ITCHOTELS",
-   "name": "ITC Hotels Limited",
-   "ltp": 166.3,
-   "change_pct": 1.21,
-   "volume": 19774211,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.626,
-     "pivot_price": 167.79,
-     "stop_suggestion": 157.75,
-     "target_suggestion": 192.96,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "GROWWLIQID",
-   "name": "GROWWLIQID",
-   "ltp": 111.36,
-   "change_pct": 0.02,
-   "volume": 407814,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6256,
-     "pivot_price": 111.28,
-     "stop_suggestion": 111.03,
-     "target_suggestion": 133.54,
-     "base_start_date": null,
-     "breakout_date": "2026-10-23"
-    },
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.6002,
-     "pivot_price": 112.71,
-     "stop_suggestion": 111.19,
-     "target_suggestion": 129.62,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "PETRONET",
-   "name": "Petronet LNG Limited",
-   "ltp": 296.0,
-   "change_pct": 1.46,
-   "volume": 2461969,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.6225,
-     "pivot_price": 300.6,
-     "stop_suggestion": 285.84,
-     "target_suggestion": 345.69,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "OAL",
-   "name": "Oriental Aromatics Limited",
-   "ltp": 625.7,
-   "change_pct": -0.37,
-   "volume": 71930,
-   "patterns": [
-    {
-     "code": "vcp",
-     "stage": "extended",
-     "confidence": 0.6102,
-     "pivot_price": 570.0,
-     "stop_suggestion": 522.15,
-     "target_suggestion": 712.5,
-     "base_start_date": "2026-08-10",
-     "breakout_date": null
-    },
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.45,
-     "pivot_price": 629.55,
-     "stop_suggestion": 500.0,
-     "target_suggestion": 755.46,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "LGBBROSLTD",
-   "name": "LG Balakrishnan & Bros Limited",
-   "ltp": 1747.7,
-   "change_pct": 5.0,
-   "volume": 18919,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.608,
-     "pivot_price": 1778.0,
-     "stop_suggestion": 1661.93,
-     "target_suggestion": 2044.7,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "COFORGE",
-   "name": "Coforge Limited",
-   "ltp": 1997.0,
-   "change_pct": 0.2,
-   "volume": 3797861,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.6002,
-     "pivot_price": 2021.2,
-     "stop_suggestion": 1891.1,
-     "target_suggestion": 2324.38,
-     "base_start_date": null,
-     "breakout_date": null
-    },
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.45,
-     "pivot_price": 2014.6,
-     "stop_suggestion": 1804.5,
-     "target_suggestion": 2417.52,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "ALGOQUANT",
-   "name": "Algoquant Fintech Limited",
-   "ltp": 76.32,
-   "change_pct": 3.68,
-   "volume": 1330266,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6,
-     "pivot_price": 74.48,
-     "stop_suggestion": 66.2,
-     "target_suggestion": 89.38,
-     "base_start_date": null,
-     "breakout_date": "2026-10-27"
-    }
-   ]
-  },
-  {
-   "symbol": "CASHIETF",
-   "name": "CASHIETF",
-   "ltp": 1085.84,
-   "change_pct": 0.01,
-   "volume": 87050,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6,
-     "pivot_price": 1085.03,
-     "stop_suggestion": 1078.0,
-     "target_suggestion": 1302.04,
-     "base_start_date": null,
-     "breakout_date": "2026-10-23"
-    },
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.5451,
-     "pivot_price": 1106.41,
-     "stop_suggestion": 1081.75,
-     "target_suggestion": 1272.37,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "INDHOTEL",
-   "name": "The Indian Hotels Company Limited",
-   "ltp": 812.85,
-   "change_pct": 2.18,
-   "volume": 9150697,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6,
-     "pivot_price": 782.3,
-     "stop_suggestion": 708.1,
-     "target_suggestion": 938.76,
-     "base_start_date": null,
-     "breakout_date": "2026-10-26"
-    }
-   ]
-  },
-  {
-   "symbol": "ITAXIS",
-   "name": "ITAXIS",
-   "ltp": 354.7,
-   "change_pct": 0.62,
-   "volume": 1944,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6,
-     "pivot_price": 354.44,
-     "stop_suggestion": 302.81,
-     "target_suggestion": 425.33,
-     "base_start_date": null,
-     "breakout_date": "2026-10-27"
-    },
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.4735,
-     "pivot_price": 364.61,
-     "stop_suggestion": 339.66,
-     "target_suggestion": 419.3,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "LIQUIDBEES",
-   "name": "LIQUIDBEES",
-   "ltp": 1000.0,
-   "change_pct": 0.0,
-   "volume": 5453866,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6,
-     "pivot_price": 1000.0,
-     "stop_suggestion": 995.0,
-     "target_suggestion": 1200.0,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "ORIENTHOT",
-   "name": "Oriental Hotels Limited",
-   "ltp": 157.93,
-   "change_pct": 2.21,
-   "volume": 1237729,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6,
-     "pivot_price": 154.3,
-     "stop_suggestion": 138.08,
-     "target_suggestion": 185.16,
-     "base_start_date": null,
-     "breakout_date": "2026-10-26"
-    }
-   ]
-  },
-  {
-   "symbol": "SBC",
-   "name": "SBC Exports Limited",
-   "ltp": 66.17,
-   "change_pct": 3.86,
-   "volume": 14627633,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6,
-     "pivot_price": 64.5,
-     "stop_suggestion": 60.4,
-     "target_suggestion": 77.4,
-     "base_start_date": null,
-     "breakout_date": "2026-10-27"
-    }
-   ]
-  },
-  {
-   "symbol": "SBILIQETF",
-   "name": "SBILIQETF",
-   "ltp": 1062.12,
-   "change_pct": 0.02,
-   "volume": 50452,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6,
-     "pivot_price": 1061.31,
-     "stop_suggestion": 1058.89,
-     "target_suggestion": 1273.57,
-     "base_start_date": null,
-     "breakout_date": "2026-10-23"
-    }
-   ]
-  },
-  {
-   "symbol": "UYFINCORP",
-   "name": "U. Y. Fincorp Limited",
-   "ltp": 26.51,
-   "change_pct": 4.99,
-   "volume": 196813,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6,
-     "pivot_price": 25.88,
-     "stop_suggestion": 21.81,
-     "target_suggestion": 31.06,
-     "base_start_date": null,
-     "breakout_date": "2026-10-27"
-    }
-   ]
-  },
-  {
-   "symbol": "WESTLIFE",
-   "name": "WESTLIFE FOODWORLD LIMITED",
-   "ltp": 600.7,
-   "change_pct": 2.23,
-   "volume": 276569,
-   "patterns": [
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.6,
-     "pivot_price": 600.7,
-     "stop_suggestion": 512.0,
-     "target_suggestion": 720.84,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "MRPL",
-   "name": "Mangalore Refinery and Petrochemicals Limited",
-   "ltp": 189.44,
-   "change_pct": 3.74,
-   "volume": 32392441,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.5932,
-     "pivot_price": 191.9,
-     "stop_suggestion": 175.38,
-     "target_suggestion": 220.69,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "IBULLSLTD",
-   "name": "Indiabulls Limited",
-   "ltp": 32.27,
-   "change_pct": 4.4,
-   "volume": 14095944,
-   "patterns": [
-    {
-     "code": "vcp",
-     "stage": "forming",
-     "confidence": 0.591,
-     "pivot_price": 31.9,
-     "stop_suggestion": 28.12,
-     "target_suggestion": 39.88,
-     "base_start_date": "2026-08-07",
-     "breakout_date": "2026-10-27"
-    }
-   ]
-  },
-  {
-   "symbol": "JAYKAY",
-   "name": "Jaykay Enterprises Limited",
-   "ltp": 202.39,
-   "change_pct": 2.36,
-   "volume": 254091,
-   "patterns": [
-    {
-     "code": "vcp",
-     "stage": "forming",
-     "confidence": 0.59,
-     "pivot_price": 219.35,
-     "stop_suggestion": 180.44,
-     "target_suggestion": 274.19,
-     "base_start_date": "2026-08-27",
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "GESHIP",
-   "name": "The Great Eastern Shipping Company Limited",
-   "ltp": 1550.9,
-   "change_pct": 1.21,
-   "volume": 1088726,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.581,
-     "pivot_price": 1583.0,
-     "stop_suggestion": 1483.17,
-     "target_suggestion": 1820.45,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "GSEC5IETF",
-   "name": "GSEC5IETF",
-   "ltp": 65.34,
-   "change_pct": 0.37,
-   "volume": 7154,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.5802,
-     "pivot_price": 67.11,
-     "stop_suggestion": 64.32,
-     "target_suggestion": 77.18,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "EBBETF0430",
-   "name": "EBBETF0430",
-   "ltp": 1594.09,
-   "change_pct": -0.09,
-   "volume": 29289,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.5697,
-     "pivot_price": 1639.4,
-     "stop_suggestion": 1574.95,
-     "target_suggestion": 1885.31,
-     "base_start_date": null,
-     "breakout_date": null
-    },
-    {
-     "code": "high_52w_breakout",
-     "stage": "forming",
-     "confidence": 0.45,
-     "pivot_price": 1616.61,
-     "stop_suggestion": 1587.0,
-     "target_suggestion": 1939.93,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "ISGEC",
-   "name": "Isgec Heavy Engineering Limited",
-   "ltp": 914.4,
-   "change_pct": 3.06,
-   "volume": 29673,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.5664,
-     "pivot_price": 935.0,
-     "stop_suggestion": 867.21,
-     "target_suggestion": 1075.25,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "DLF",
-   "name": "DLF Limited",
-   "ltp": 671.0,
-   "change_pct": 1.31,
-   "volume": 1288977,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.5582,
-     "pivot_price": 691.05,
-     "stop_suggestion": 645.91,
-     "target_suggestion": 794.71,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
    "symbol": "NYKAA",
    "name": "FSN E-Commerce Ventures Limited",
-   "ltp": 339.4,
-   "change_pct": 2.9,
-   "volume": 5190941,
+   "ltp": 342.5,
+   "change_pct": 0.91,
+   "volume": 5020992,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.558,
+     "confidence": 0.6319,
      "pivot_price": 349.55,
-     "stop_suggestion": 323.32,
+     "stop_suggestion": 326.39,
      "target_suggestion": 401.98,
      "base_start_date": null,
      "breakout_date": null
@@ -1554,85 +962,142 @@
    ]
   },
   {
-   "symbol": "DIVISLAB",
-   "name": "Divi's Laboratories Limited",
-   "ltp": 9505.5,
-   "change_pct": 5.03,
-   "volume": 802780,
+   "symbol": "EBBETF0431",
+   "name": "EBBETF0431",
+   "ltp": 1415.14,
+   "change_pct": 0.05,
+   "volume": 1106,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.5494,
-     "pivot_price": 9740.0,
-     "stop_suggestion": 9133.18,
-     "target_suggestion": 11201.0,
+     "confidence": 0.6312,
+     "pivot_price": 1444.39,
+     "stop_suggestion": 1400.0,
+     "target_suggestion": 1661.05,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "GESHIP",
+   "name": "The Great Eastern Shipping Company Limited",
+   "ltp": 1559.9,
+   "change_pct": 0.58,
+   "volume": 448806,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.6284,
+     "pivot_price": 1583.0,
+     "stop_suggestion": 1491.65,
+     "target_suggestion": 1820.45,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "PVRINOX",
+   "name": "PVR INOX Limited",
+   "ltp": 1445.3,
+   "change_pct": -1.28,
+   "volume": 2597009,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6256,
+     "pivot_price": 1419.9,
+     "stop_suggestion": 1276.0,
+     "target_suggestion": 1703.88,
+     "base_start_date": null,
+     "breakout_date": "2026-10-27"
+    }
+   ]
+  },
+  {
+   "symbol": "UNITEDPOLY",
+   "name": "United Polyfab Gujarat Limited",
+   "ltp": 55.13,
+   "change_pct": 3.26,
+   "volume": 2798171,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6212,
+     "pivot_price": 53.37,
+     "stop_suggestion": 44.81,
+     "target_suggestion": 64.04,
+     "base_start_date": null,
+     "breakout_date": "2026-10-27"
+    }
+   ]
+  },
+  {
+   "symbol": "LIQUIDCASE",
+   "name": "LIQUIDCASE",
+   "ltp": 116.61,
+   "change_pct": 0.02,
+   "volume": 21312473,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.619,
+     "pivot_price": 116.55,
+     "stop_suggestion": 116.25,
+     "target_suggestion": 139.86,
+     "base_start_date": null,
+     "breakout_date": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "symbol": "LIQUID1",
+   "name": "LIQUID1",
+   "ltp": 1129.16,
+   "change_pct": 0.02,
+   "volume": 1212117,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.6181,
+     "pivot_price": 1147.32,
+     "stop_suggestion": 1116.54,
+     "target_suggestion": 1319.42,
      "base_start_date": null,
      "breakout_date": null
     },
     {
      "code": "high_52w_breakout",
      "stage": "forming",
-     "confidence": 0.45,
-     "pivot_price": 9624.0,
-     "stop_suggestion": 8797.0,
-     "target_suggestion": 11548.8,
+     "confidence": 0.6,
+     "pivot_price": 1128.67,
+     "stop_suggestion": 1106.41,
+     "target_suggestion": 1354.4,
      "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "CANTABIL",
-   "name": "Cantabil Retail India Limited",
-   "ltp": 248.77,
-   "change_pct": 0.0,
-   "volume": 143588,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.5156,
-     "pivot_price": 254.4,
-     "stop_suggestion": 237.86,
-     "target_suggestion": 292.56,
-     "base_start_date": null,
-     "breakout_date": null
-    }
-   ]
-  },
-  {
-   "symbol": "GRWRHITECH",
-   "name": "Garware Hi-Tech Films Limited",
-   "ltp": 7160.0,
-   "change_pct": 2.62,
-   "volume": 46147,
-   "patterns": [
-    {
-     "code": "near_pivot",
-     "stage": "forming",
-     "confidence": 0.5145,
-     "pivot_price": 7323.0,
-     "stop_suggestion": 6628.28,
-     "target_suggestion": 8421.45,
-     "base_start_date": null,
-     "breakout_date": null
+     "breakout_date": "2026-10-26"
     }
    ]
   },
   {
    "symbol": "LOTUSDEV",
    "name": "Sri Lotus Developers and Realty Limited",
-   "ltp": 242.84,
-   "change_pct": 2.86,
-   "volume": 511025,
+   "ltp": 245.93,
+   "change_pct": 1.27,
+   "volume": 597751,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.5135,
+     "confidence": 0.6171,
      "pivot_price": 248.4,
-     "stop_suggestion": 223.61,
+     "stop_suggestion": 227.18,
      "target_suggestion": 285.66,
      "base_start_date": null,
      "breakout_date": null
@@ -1650,38 +1115,440 @@
    ]
   },
   {
-   "symbol": "APLAPOLLO",
-   "name": "APL Apollo Tubes Limited",
-   "ltp": 2213.9,
-   "change_pct": 6.55,
-   "volume": 2074071,
+   "symbol": "AKCAPIT",
+   "name": "AK Capital Services Limited",
+   "ltp": 1754.4,
+   "change_pct": 1.98,
+   "volume": 5068,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.5049,
-     "pivot_price": 2281.0,
-     "stop_suggestion": 2114.73,
-     "target_suggestion": 2623.15,
+     "confidence": 0.6165,
+     "pivot_price": 1793.9,
+     "stop_suggestion": 1653.85,
+     "target_suggestion": 2062.99,
      "base_start_date": null,
      "breakout_date": null
     }
    ]
   },
   {
-   "symbol": "SURAJLTD",
-   "name": "Suraj Limited",
-   "ltp": 214.7,
-   "change_pct": 4.81,
-   "volume": 2366,
+   "symbol": "63MOONS",
+   "name": "63 moons technologies limited",
+   "ltp": 932.5,
+   "change_pct": 2.47,
+   "volume": 492683,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6,
+     "pivot_price": 931.4,
+     "stop_suggestion": 759.15,
+     "target_suggestion": 1117.68,
+     "base_start_date": null,
+     "breakout_date": "2026-10-28"
+    },
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.5465,
+     "pivot_price": 950.0,
+     "stop_suggestion": 859.17,
+     "target_suggestion": 1092.5,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "ALGOQUANT",
+   "name": "Algoquant Fintech Limited",
+   "ltp": 75.89,
+   "change_pct": -0.56,
+   "volume": 1226021,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6,
+     "pivot_price": 74.73,
+     "stop_suggestion": 66.2,
+     "target_suggestion": 89.68,
+     "base_start_date": null,
+     "breakout_date": "2026-10-27"
+    }
+   ]
+  },
+  {
+   "symbol": "CASHIETF",
+   "name": "CASHIETF",
+   "ltp": 1086.01,
+   "change_pct": 0.02,
+   "volume": 94320,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6,
+     "pivot_price": 1085.53,
+     "stop_suggestion": 1078.0,
+     "target_suggestion": 1302.64,
+     "base_start_date": null,
+     "breakout_date": "2026-10-26"
+    },
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.5463,
+     "pivot_price": 1106.41,
+     "stop_suggestion": 1082.2,
+     "target_suggestion": 1272.37,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "INDHOTEL",
+   "name": "The Indian Hotels Company Limited",
+   "ltp": 805.2,
+   "change_pct": -0.94,
+   "volume": 4047672,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6,
+     "pivot_price": 782.3,
+     "stop_suggestion": 708.1,
+     "target_suggestion": 938.76,
+     "base_start_date": null,
+     "breakout_date": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "symbol": "LIQUIDADD",
+   "name": "LIQUIDADD",
+   "ltp": 1151.5,
+   "change_pct": 0.01,
+   "volume": 552475,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6,
+     "pivot_price": 1150.98,
+     "stop_suggestion": 1147.15,
+     "target_suggestion": 1381.18,
+     "base_start_date": null,
+     "breakout_date": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "symbol": "LIQUIDSHRI",
+   "name": "LIQUIDSHRI",
+   "ltp": 1127.83,
+   "change_pct": 0.01,
+   "volume": 2285,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6,
+     "pivot_price": 1127.35,
+     "stop_suggestion": 1124.54,
+     "target_suggestion": 1352.82,
+     "base_start_date": null,
+     "breakout_date": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "symbol": "MAHASTEEL",
+   "name": "Mahamaya Steel Industries Limited",
+   "ltp": 1534.1,
+   "change_pct": 0.7,
+   "volume": 10069,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6,
+     "pivot_price": 1473.5,
+     "stop_suggestion": 1045.7,
+     "target_suggestion": 1768.2,
+     "base_start_date": null,
+     "breakout_date": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "symbol": "ORIENTHOT",
+   "name": "Oriental Hotels Limited",
+   "ltp": 159.52,
+   "change_pct": 1.01,
+   "volume": 1061709,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6,
+     "pivot_price": 154.3,
+     "stop_suggestion": 138.08,
+     "target_suggestion": 185.16,
+     "base_start_date": null,
+     "breakout_date": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "symbol": "SBC",
+   "name": "SBC Exports Limited",
+   "ltp": 65.48,
+   "change_pct": -1.04,
+   "volume": 10897206,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6,
+     "pivot_price": 64.5,
+     "stop_suggestion": 60.62,
+     "target_suggestion": 77.4,
+     "base_start_date": null,
+     "breakout_date": "2026-10-27"
+    }
+   ]
+  },
+  {
+   "symbol": "SBILIQETF",
+   "name": "SBILIQETF",
+   "ltp": 1062.25,
+   "change_pct": 0.01,
+   "volume": 221826,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.6,
+     "pivot_price": 1061.78,
+     "stop_suggestion": 1057.0,
+     "target_suggestion": 1274.14,
+     "base_start_date": null,
+     "breakout_date": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "symbol": "SENSEXADD",
+   "name": "SENSEXADD",
+   "ltp": 75.7,
+   "change_pct": -0.18,
+   "volume": 4245,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.4996,
-     "pivot_price": 219.99,
-     "stop_suggestion": 197.82,
-     "target_suggestion": 252.99,
+     "confidence": 0.597,
+     "pivot_price": 77.59,
+     "stop_suggestion": 73.81,
+     "target_suggestion": 89.23,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "DIVISLAB",
+   "name": "Divi's Laboratories Limited",
+   "ltp": 9558.5,
+   "change_pct": 0.56,
+   "volume": 745043,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.5947,
+     "pivot_price": 9740.0,
+     "stop_suggestion": 9177.47,
+     "target_suggestion": 11201.0,
+     "base_start_date": null,
+     "breakout_date": null
+    },
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.45,
+     "pivot_price": 9624.0,
+     "stop_suggestion": 8797.0,
+     "target_suggestion": 11548.8,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "IBULLSLTD",
+   "name": "Indiabulls Limited",
+   "ltp": 31.88,
+   "change_pct": -1.21,
+   "volume": 12985811,
+   "patterns": [
+    {
+     "code": "vcp",
+     "stage": "forming",
+     "confidence": 0.591,
+     "pivot_price": 31.9,
+     "stop_suggestion": 28.12,
+     "target_suggestion": 39.88,
+     "base_start_date": "2026-08-07",
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "EBBETF0430",
+   "name": "EBBETF0430",
+   "ltp": 1595.95,
+   "change_pct": 0.12,
+   "volume": 34526,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.5791,
+     "pivot_price": 1639.4,
+     "stop_suggestion": 1567.47,
+     "target_suggestion": 1885.31,
+     "base_start_date": null,
+     "breakout_date": null
+    },
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.45,
+     "pivot_price": 1616.61,
+     "stop_suggestion": 1499.0,
+     "target_suggestion": 1939.93,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "EBGNG",
+   "name": "GNG Electronics Limited",
+   "ltp": 723.25,
+   "change_pct": 0.44,
+   "volume": 282728,
+   "patterns": [
+    {
+     "code": "vcp",
+     "stage": "forming",
+     "confidence": 0.5787,
+     "pivot_price": 740.4,
+     "stop_suggestion": 654.0,
+     "target_suggestion": 925.5,
+     "base_start_date": "2026-09-23",
+     "breakout_date": null
+    },
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.45,
+     "pivot_price": 731.35,
+     "stop_suggestion": 648.4,
+     "target_suggestion": 877.62,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "GSEC5IETF",
+   "name": "GSEC5IETF",
+   "ltp": 65.3,
+   "change_pct": -0.06,
+   "volume": 14379,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.5752,
+     "pivot_price": 67.11,
+     "stop_suggestion": 64.25,
+     "target_suggestion": 77.18,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "ITCHOTELS",
+   "name": "ITC Hotels Limited",
+   "ltp": 165.1,
+   "change_pct": -0.72,
+   "volume": 2948967,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.5664,
+     "pivot_price": 167.79,
+     "stop_suggestion": 156.62,
+     "target_suggestion": 192.96,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "GANECOS",
+   "name": "Ganesha Ecosphere Limited",
+   "ltp": 1031.9,
+   "change_pct": 0.92,
+   "volume": 55492,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.5108,
+     "pivot_price": 1062.4,
+     "stop_suggestion": 969.32,
+     "target_suggestion": 1221.76,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "SPECTRUM",
+   "name": "Spectrum Electrical Industries Limited",
+   "ltp": 3869.2,
+   "change_pct": 4.37,
+   "volume": 8545,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.5018,
+     "pivot_price": 3988.0,
+     "stop_suggestion": 3553.53,
+     "target_suggestion": 4586.2,
+     "base_start_date": null,
+     "breakout_date": null
+    },
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.45,
+     "pivot_price": 3915.9,
+     "stop_suggestion": 3450.0,
+     "target_suggestion": 4699.08,
      "base_start_date": null,
      "breakout_date": null
     }
@@ -1690,16 +1557,16 @@
   {
    "symbol": "EMKAY",
    "name": "Emkay Global Financial Services Limited",
-   "ltp": 287.2,
-   "change_pct": 6.06,
-   "volume": 476678,
+   "ltp": 287.4,
+   "change_pct": 0.07,
+   "volume": 280554,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.4783,
+     "confidence": 0.4839,
      "pivot_price": 295.05,
-     "stop_suggestion": 266.17,
+     "stop_suggestion": 266.65,
      "target_suggestion": 339.31,
      "base_start_date": null,
      "breakout_date": null
@@ -1707,29 +1574,95 @@
    ]
   },
   {
-   "symbol": "IPCALAB",
-   "name": "IPCA Laboratories Limited",
-   "ltp": 1980.8,
-   "change_pct": 2.18,
-   "volume": 189254,
+   "symbol": "GUJAPOLLO",
+   "name": "Gujarat Apollo Industries Limited",
+   "ltp": 357.45,
+   "change_pct": 2.41,
+   "volume": 11162,
    "patterns": [
     {
      "code": "near_pivot",
      "stage": "forming",
-     "confidence": 0.4661,
-     "pivot_price": 2038.0,
-     "stop_suggestion": 1878.56,
-     "target_suggestion": 2343.7,
+     "confidence": 0.4611,
+     "pivot_price": 368.0,
+     "stop_suggestion": 334.71,
+     "target_suggestion": 423.2,
      "base_start_date": null,
      "breakout_date": null
-    },
+    }
+   ]
+  },
+  {
+   "symbol": "COFORGE",
+   "name": "Coforge Limited",
+   "ltp": 1961.9,
+   "change_pct": -1.76,
+   "volume": 2200011,
+   "patterns": [
+    {
+     "code": "near_pivot",
+     "stage": "forming",
+     "confidence": 0.4555,
+     "pivot_price": 2021.2,
+     "stop_suggestion": 1853.58,
+     "target_suggestion": 2324.38,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "21STCENMGM",
+   "name": "21st Century Management Services Limited",
+   "ltp": 52.45,
+   "change_pct": 4.98,
+   "volume": 33152,
+   "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.45,
-     "pivot_price": 2009.6,
-     "stop_suggestion": 1797.0,
-     "target_suggestion": 2411.52,
+     "pivot_price": 52.74,
+     "stop_suggestion": 37.69,
+     "target_suggestion": 63.29,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "AAATECH",
+   "name": "AAA Technologies Limited",
+   "ltp": 123.24,
+   "change_pct": 6.48,
+   "volume": 386252,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.45,
+     "pivot_price": 124.76,
+     "stop_suggestion": 92.35,
+     "target_suggestion": 149.71,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "CORONA",
+   "name": "CORONA Remedies Limited",
+   "ltp": 2200.6,
+   "change_pct": 2.26,
+   "volume": 30811,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.45,
+     "pivot_price": 2236.1,
+     "stop_suggestion": 1941.5,
+     "target_suggestion": 2683.32,
      "base_start_date": null,
      "breakout_date": null
     }
@@ -1738,9 +1671,9 @@
   {
    "symbol": "GILT5YBEES",
    "name": "GILT5YBEES",
-   "ltp": 65.25,
-   "change_pct": 0.18,
-   "volume": 160284,
+   "ltp": 65.26,
+   "change_pct": 0.02,
+   "volume": 334328,
    "patterns": [
     {
      "code": "high_52w_breakout",
@@ -1757,9 +1690,9 @@
   {
    "symbol": "HITECHCORP",
    "name": "Hitech Corporation Limited",
-   "ltp": 412.15,
-   "change_pct": 0.23,
-   "volume": 4755,
+   "ltp": 410.5,
+   "change_pct": -0.4,
+   "volume": 16613,
    "patterns": [
     {
      "code": "high_52w_breakout",
@@ -1776,9 +1709,9 @@
   {
    "symbol": "ISFT",
    "name": "Intrasoft Technologies Limited",
-   "ltp": 105.49,
-   "change_pct": 2.85,
-   "volume": 56032,
+   "ltp": 107.47,
+   "change_pct": 1.88,
+   "volume": 49853,
    "patterns": [
     {
      "code": "high_52w_breakout",
@@ -1793,11 +1726,30 @@
    ]
   },
   {
+   "symbol": "ITAXIS",
+   "name": "ITAXIS",
+   "ltp": 348.96,
+   "change_pct": -1.62,
+   "volume": 1909,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.45,
+     "pivot_price": 354.44,
+     "stop_suggestion": 302.81,
+     "target_suggestion": 425.33,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
    "symbol": "KINGFA",
    "name": "Kingfa Science & Technology (India) Limited",
-   "ltp": 6820.5,
-   "change_pct": 3.84,
-   "volume": 11833,
+   "ltp": 6852.0,
+   "change_pct": 0.46,
+   "volume": 5547,
    "patterns": [
     {
      "code": "high_52w_breakout",
@@ -1812,19 +1764,19 @@
    ]
   },
   {
-   "symbol": "KROSS",
-   "name": "Kross Limited",
-   "ltp": 292.75,
-   "change_pct": 1.4,
-   "volume": 1819028,
+   "symbol": "LAURUSLABS",
+   "name": "Laurus Labs Limited",
+   "ltp": 2181.9,
+   "change_pct": 1.86,
+   "volume": 2200731,
    "patterns": [
     {
      "code": "high_52w_breakout",
-     "stage": "forming",
+     "stage": "extended",
      "confidence": 0.45,
-     "pivot_price": 297.55,
-     "stop_suggestion": 234.05,
-     "target_suggestion": 357.06,
+     "pivot_price": 2069.2,
+     "stop_suggestion": 1933.5,
+     "target_suggestion": 2483.04,
      "base_start_date": null,
      "breakout_date": null
     }
@@ -1835,7 +1787,7 @@
    "name": "LIQUID",
    "ltp": 999.99,
    "change_pct": 0.0,
-   "volume": 110234,
+   "volume": 60149,
    "patterns": [
     {
      "code": "high_52w_breakout",
@@ -1850,11 +1802,30 @@
    ]
   },
   {
+   "symbol": "LIQUIDBEES",
+   "name": "LIQUIDBEES",
+   "ltp": 999.99,
+   "change_pct": -0.0,
+   "volume": 3063738,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.45,
+     "pivot_price": 1000.0,
+     "stop_suggestion": 995.0,
+     "target_suggestion": 1200.0,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
    "symbol": "LIQUIDETF",
    "name": "LIQUIDETF",
    "ltp": 999.99,
    "change_pct": 0.0,
-   "volume": 153713,
+   "volume": 50195,
    "patterns": [
     {
      "code": "high_52w_breakout",
@@ -1873,14 +1844,14 @@
    "name": "LIQUIDIETF",
    "ltp": 999.99,
    "change_pct": 0.0,
-   "volume": 475127,
+   "volume": 304498,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.45,
      "pivot_price": 1000.01,
-     "stop_suggestion": 999.92,
+     "stop_suggestion": 999.24,
      "target_suggestion": 1200.01,
      "base_start_date": null,
      "breakout_date": null
@@ -1890,16 +1861,16 @@
   {
    "symbol": "LIQUIDSBI",
    "name": "LIQUIDSBI",
-   "ltp": 1000.0,
-   "change_pct": 0.0,
-   "volume": 9324,
+   "ltp": 999.99,
+   "change_pct": -0.0,
+   "volume": 4316,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.45,
      "pivot_price": 1000.01,
-     "stop_suggestion": 999.99,
+     "stop_suggestion": null,
      "target_suggestion": 1200.01,
      "base_start_date": null,
      "breakout_date": null
@@ -1907,38 +1878,57 @@
    ]
   },
   {
-   "symbol": "MAHASTEEL",
-   "name": "Mahamaya Steel Industries Limited",
-   "ltp": 1523.5,
-   "change_pct": 2.11,
-   "volume": 8258,
+   "symbol": "OAL",
+   "name": "Oriental Aromatics Limited",
+   "ltp": 622.7,
+   "change_pct": -0.48,
+   "volume": 33489,
    "patterns": [
     {
      "code": "high_52w_breakout",
-     "stage": "extended",
+     "stage": "forming",
      "confidence": 0.45,
-     "pivot_price": 1420.5,
-     "stop_suggestion": 1045.7,
-     "target_suggestion": 1704.6,
+     "pivot_price": 629.55,
+     "stop_suggestion": 500.0,
+     "target_suggestion": 755.46,
      "base_start_date": null,
      "breakout_date": null
     }
    ]
   },
   {
-   "symbol": "MAHLOG",
-   "name": "Mahindra Logistics Limited",
-   "ltp": 434.2,
-   "change_pct": 11.29,
-   "volume": 4748814,
+   "symbol": "OMNI",
+   "name": "Omnitech Engineering Limited",
+   "ltp": 719.25,
+   "change_pct": 5.48,
+   "volume": 1715245,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.45,
-     "pivot_price": 442.7,
-     "stop_suggestion": 361.5,
-     "target_suggestion": 531.24,
+     "pivot_price": 732.6,
+     "stop_suggestion": 582.2,
+     "target_suggestion": 879.12,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "PANACHE",
+   "name": "Panache Digilife Limited",
+   "ltp": 660.0,
+   "change_pct": 0.76,
+   "volume": 12919,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "forming",
+     "confidence": 0.45,
+     "pivot_price": 669.55,
+     "stop_suggestion": 570.0,
+     "target_suggestion": 803.46,
      "base_start_date": null,
      "breakout_date": null
     }
@@ -1947,17 +1937,17 @@
   {
    "symbol": "QUINTEGRA",
    "name": "QUINTEGRA",
-   "ltp": 2.82,
-   "change_pct": 4.83,
-   "volume": 15263,
+   "ltp": 2.96,
+   "change_pct": 4.96,
+   "volume": 1674,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "extended",
      "confidence": 0.45,
-     "pivot_price": 2.45,
-     "stop_suggestion": 1.47,
-     "target_suggestion": 2.94,
+     "pivot_price": 2.57,
+     "stop_suggestion": 1.54,
+     "target_suggestion": 3.08,
      "base_start_date": null,
      "breakout_date": null
     }
@@ -1966,9 +1956,9 @@
   {
    "symbol": "RATNAVEER",
    "name": "Ratnaveer Precision Engineering Limited",
-   "ltp": 347.25,
-   "change_pct": 4.4,
-   "volume": 2649406,
+   "ltp": 345.1,
+   "change_pct": -0.62,
+   "volume": 2424371,
    "patterns": [
     {
      "code": "high_52w_breakout",
@@ -1983,38 +1973,57 @@
    ]
   },
   {
-   "symbol": "SHADOWFAX",
-   "name": "Shadowfax Technologies Limited",
-   "ltp": 292.3,
-   "change_pct": 2.27,
-   "volume": 3354759,
+   "symbol": "SMSPHARMA",
+   "name": "SMS Pharmaceuticals Limited",
+   "ltp": 475.45,
+   "change_pct": 7.37,
+   "volume": 777214,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.45,
-     "pivot_price": 297.75,
-     "stop_suggestion": 262.95,
-     "target_suggestion": 357.3,
+     "pivot_price": 483.35,
+     "stop_suggestion": 405.0,
+     "target_suggestion": 580.02,
      "base_start_date": null,
      "breakout_date": null
     }
    ]
   },
   {
-   "symbol": "SHREEJISPG",
-   "name": "Shreeji Shipping Global Limited",
-   "ltp": 838.95,
-   "change_pct": 3.38,
-   "volume": 1257417,
+   "symbol": "SONACOMS",
+   "name": "Sona BLW Precision Forgings Limited",
+   "ltp": 879.45,
+   "change_pct": 3.24,
+   "volume": 6259436,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "extended",
+     "confidence": 0.45,
+     "pivot_price": 833.0,
+     "stop_suggestion": 741.3,
+     "target_suggestion": 999.6,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "SOUTHBANK",
+   "name": "The South Indian Bank Limited",
+   "ltp": 54.64,
+   "change_pct": 0.61,
+   "volume": 12534687,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.45,
-     "pivot_price": 840.0,
-     "stop_suggestion": 735.8,
-     "target_suggestion": 1008.0,
+     "pivot_price": 55.75,
+     "stop_suggestion": 46.11,
+     "target_suggestion": 66.9,
      "base_start_date": null,
      "breakout_date": null
     }
@@ -2023,55 +2032,74 @@
   {
    "symbol": "SSWL",
    "name": "Steel Strips Wheels Limited",
-   "ltp": 528.9,
-   "change_pct": -0.63,
-   "volume": 7383330,
+   "ltp": 526.6,
+   "change_pct": -0.43,
+   "volume": 1432716,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "extended",
      "confidence": 0.45,
-     "pivot_price": 424.7,
+     "pivot_price": 468.75,
      "stop_suggestion": 378.15,
-     "target_suggestion": 509.64,
+     "target_suggestion": 562.5,
      "base_start_date": null,
      "breakout_date": null
     }
    ]
   },
   {
-   "symbol": "STOVEKRAFT",
-   "name": "Stove Kraft Limited",
-   "ltp": 840.7,
-   "change_pct": 3.69,
-   "volume": 117927,
+   "symbol": "SUDARCOLOR",
+   "name": "Sudarshan Colorants India Limited",
+   "ltp": 427.9,
+   "change_pct": 18.17,
+   "volume": 179244,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.45,
-     "pivot_price": 851.35,
-     "stop_suggestion": 775.2,
-     "target_suggestion": 1021.62,
+     "pivot_price": 428.6,
+     "stop_suggestion": 320.2,
+     "target_suggestion": 514.32,
      "base_start_date": null,
      "breakout_date": null
     }
    ]
   },
   {
-   "symbol": "TECHM",
-   "name": "Tech Mahindra Limited",
-   "ltp": 1811.4,
-   "change_pct": 0.91,
-   "volume": 2042670,
+   "symbol": "UYFINCORP",
+   "name": "U. Y. Fincorp Limited",
+   "ltp": 27.83,
+   "change_pct": 4.98,
+   "volume": 721489,
+   "patterns": [
+    {
+     "code": "high_52w_breakout",
+     "stage": "extended",
+     "confidence": 0.45,
+     "pivot_price": 25.88,
+     "stop_suggestion": 21.81,
+     "target_suggestion": 31.06,
+     "base_start_date": null,
+     "breakout_date": null
+    }
+   ]
+  },
+  {
+   "symbol": "WESTLIFE",
+   "name": "WESTLIFE FOODWORLD LIMITED",
+   "ltp": 595.75,
+   "change_pct": -0.82,
+   "volume": 177153,
    "patterns": [
     {
      "code": "high_52w_breakout",
      "stage": "forming",
      "confidence": 0.45,
-     "pivot_price": 1834.7,
-     "stop_suggestion": 1442.5,
-     "target_suggestion": 2201.64,
+     "pivot_price": 600.7,
+     "stop_suggestion": 512.0,
+     "target_suggestion": 720.84,
      "base_start_date": null,
      "breakout_date": null
     }

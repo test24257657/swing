@@ -2,17 +2,8 @@
  "symbol": "SHREEPUSHK",
  "name": "Shree Pushkar Chemicals & Fertilisers Limited",
  "kind": "stock",
- "as_of": "2026-10-27",
+ "as_of": "2026-10-28",
  "bars": [
-  {
-   "time": "2025-10-17",
-   "open": 416.2,
-   "high": 416.2,
-   "low": 396.35,
-   "close": 401.5,
-   "volume": 116091,
-   "delivery_pct": 44.64
-  },
   {
    "time": "2025-10-20",
    "open": 403.8,
@@ -2271,14 +2262,19 @@
    "close": 503.5,
    "volume": 37262,
    "delivery_pct": 51.45
+  },
+  {
+   "time": "2026-10-28",
+   "open": 506.0,
+   "high": 549.0,
+   "low": 499.45,
+   "close": 542.7,
+   "volume": 235412,
+   "delivery_pct": 48.79
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-17",
-    "value": 404.79
-   },
    {
     "time": "2025-11-18",
     "value": 405.58
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-27",
     "value": 494.1
+   },
+   {
+    "time": "2026-10-28",
+    "value": 496.4
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-30",
-    "value": 396.74
-   },
    {
     "time": "2025-12-31",
     "value": 396.6
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-27",
     "value": 477.17
+   },
+   {
+    "time": "2026-10-28",
+    "value": 480.34
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-11",
-    "value": 369.29
-   },
    {
     "time": "2026-08-12",
     "value": 369.28
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-27",
     "value": 389.39
+   },
+   {
+    "time": "2026-10-28",
+    "value": 390.21
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.79,
-  "atr_pct": 5.56,
-  "rel_volume_20d": 0.62,
-  "dist_20dma_pct": 1.9,
-  "dist_50dma_pct": 5.52,
-  "dist_200dma_pct": 29.3
+  "rsi_14": 64.28,
+  "atr_pct": 5.44,
+  "rel_volume_20d": 4.35,
+  "dist_20dma_pct": 9.33,
+  "dist_50dma_pct": 12.98,
+  "dist_200dma_pct": 39.08
  }
 }

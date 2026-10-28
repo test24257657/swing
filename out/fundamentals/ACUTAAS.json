@@ -2,21 +2,12 @@
  "symbol": "ACUTAAS",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 207.2,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 44.3,
-   "net_income_qoq_pct": null,
-   "eps": 5.41
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 393.2,
-   "revenue_qoq_pct": 89.8,
+   "revenue_qoq_pct": null,
    "net_income_cr": 108.0,
-   "net_income_qoq_pct": 143.8,
+   "net_income_qoq_pct": null,
    "eps": 13.19
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 74.3,
    "net_income_qoq_pct": -43.6,
    "eps": 9.07
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 436.9,
+   "revenue_qoq_pct": 32.5,
+   "net_income_cr": 125.2,
+   "net_income_qoq_pct": 68.5,
+   "eps": 15.29
   }
  ],
  "verification": null
