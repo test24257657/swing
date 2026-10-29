@@ -2,21 +2,12 @@
  "symbol": "AEROFLEX",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 84.3,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 7.2,
-   "net_income_qoq_pct": null,
-   "eps": 0.55
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 120.9,
-   "revenue_qoq_pct": 43.4,
+   "revenue_qoq_pct": null,
    "net_income_cr": 16.5,
-   "net_income_qoq_pct": 129.2,
+   "net_income_qoq_pct": null,
    "eps": 1.28
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 18.8,
    "net_income_qoq_pct": 6.8,
    "eps": 1.42
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 207.4,
+   "revenue_qoq_pct": 42.6,
+   "net_income_cr": 36.6,
+   "net_income_qoq_pct": 94.7,
+   "eps": 2.76
   }
  ],
  "verification": null

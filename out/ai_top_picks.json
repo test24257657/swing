@@ -1,38 +1,9 @@
 {
  "as_of": "2026-10-29",
- "source": "ai",
+ "source": "rules",
  "universe": 131,
- "eligible": 25,
+ "eligible": 18,
  "picks": [
-  {
-   "symbol": "THELEELA",
-   "ltp": 639.9,
-   "technicals": {
-    "rsi_14": 66.22,
-    "rel_volume_20d": 1.79,
-    "dist_20dma_pct": 7.7,
-    "dist_50dma_pct": 13.26,
-    "dist_200dma_pct": 35.05
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 622.75,
-    "stop_suggestion": 561.8,
-    "target_suggestion": 747.3,
-    "gap_to_pivot_pct": 2.75
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 411.9,
-    "net_income_cr": 94.6,
-    "revenue_qoq_pct": 17.0,
-    "net_income_qoq_pct": 93.9
-   },
-   "reason": "Confirmed 52-week breakout with strong 1.79x average volume and 66.22 RSI, supported by robust fundamental growth of 17.0% QoQ revenue and 93.9% QoQ net profit.",
-   "rank": 1,
-   "name": "Leela Palaces Hotels & Resorts Limited"
-  },
   {
    "symbol": "PVRINOX",
    "ltp": 1490.3,
@@ -58,67 +29,31 @@
     "revenue_qoq_pct": 29.8,
     "net_income_qoq_pct": 365.7
    },
-   "reason": "Strong 52-week breakout setup with 1.76x volume surge and 69.03 RSI, backed by impressive fundamental expansion with quarterly revenue up 29.8% and net profit soaring 365.7% QoQ.",
-   "rank": 2,
+   "reason": null,
+   "rank": 1,
    "name": "PVR INOX Limited"
   },
   {
-   "symbol": "ETERNAL",
-   "ltp": 337.85,
+   "symbol": "AEROFLEX",
+   "ltp": 538.35,
    "technicals": {
-    "rsi_14": 59.36,
-    "rel_volume_20d": 1.06,
-    "dist_20dma_pct": 4.98,
-    "dist_50dma_pct": 4.01,
-    "dist_200dma_pct": 20.62
+    "rsi_14": 55.13,
+    "rel_volume_20d": 11.86,
+    "dist_20dma_pct": 3.63,
+    "dist_50dma_pct": 3.12,
+    "dist_200dma_pct": 43.92
    },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 342.65,
-    "stop_suggestion": 301.75,
-    "target_suggestion": 411.18,
-    "gap_to_pivot_pct": -1.4
-   },
+   "pattern": null,
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 24138.0,
-    "net_income_cr": 125.0,
-    "revenue_qoq_pct": 19.4,
-    "net_income_qoq_pct": 35.9
+    "revenue_cr": 207.4,
+    "net_income_cr": 36.6,
+    "revenue_qoq_pct": 42.6,
+    "net_income_qoq_pct": 94.7
    },
-   "reason": "Forming a 52-week breakout just 1.4% below pivot with healthy 1.06x volume and 59.36 RSI, reinforced by solid fundamental growth of 19.4% QoQ revenue and 35.9% QoQ net profit.",
-   "rank": 3,
-   "name": "ETERNAL LIMITED"
-  },
-  {
-   "symbol": "TCPLPACK",
-   "ltp": 4402.4,
-   "technicals": {
-    "rsi_14": 61.15,
-    "rel_volume_20d": 1.72,
-    "dist_20dma_pct": 6.57,
-    "dist_50dma_pct": 9.55,
-    "dist_200dma_pct": 41.87
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 4485.0,
-    "stop_suggestion": 3744.5,
-    "target_suggestion": 5382.0,
-    "gap_to_pivot_pct": -1.84
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 493.0,
-    "net_income_cr": 40.0,
-    "revenue_qoq_pct": 8.6,
-    "net_income_qoq_pct": 84.3
-   },
-   "reason": "Forming a breakout just 1.84% below pivot on strong 1.72x volume and healthy 61.15 RSI, backed by solid fundamentals with 8.6% QoQ revenue and 84.3% QoQ profit growth.",
-   "rank": 4,
-   "name": "TCPL Packaging Limited"
+   "reason": null,
+   "rank": 2,
+   "name": "Aeroflex Industries Limited"
   },
   {
    "symbol": "ISFT",
@@ -145,9 +80,67 @@
     "revenue_qoq_pct": 2.6,
     "net_income_qoq_pct": 45.2
    },
-   "reason": "Confirmed 52-week breakout 1.96% above pivot on strong 1.87x average volume and 65.96 RSI, supported by solid fundamental performance with net profit rising 45.2% QoQ.",
-   "rank": 5,
+   "reason": null,
+   "rank": 3,
    "name": "Intrasoft Technologies Limited"
+  },
+  {
+   "symbol": "TCPLPACK",
+   "ltp": 4402.4,
+   "technicals": {
+    "rsi_14": 61.15,
+    "rel_volume_20d": 1.72,
+    "dist_20dma_pct": 6.57,
+    "dist_50dma_pct": 9.55,
+    "dist_200dma_pct": 41.87
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 4485.0,
+    "stop_suggestion": 3744.5,
+    "target_suggestion": 5382.0,
+    "gap_to_pivot_pct": -1.84
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 493.0,
+    "net_income_cr": 40.0,
+    "revenue_qoq_pct": 8.6,
+    "net_income_qoq_pct": 84.3
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "TCPL Packaging Limited"
+  },
+  {
+   "symbol": "TFCILTD",
+   "ltp": 159.66,
+   "technicals": {
+    "rsi_14": 64.46,
+    "rel_volume_20d": 0.98,
+    "dist_20dma_pct": 5.66,
+    "dist_50dma_pct": 10.96,
+    "dist_200dma_pct": 71.54
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 160.8,
+    "stop_suggestion": 141.43,
+    "target_suggestion": 192.96,
+    "gap_to_pivot_pct": -0.71
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 77.4,
+    "net_income_cr": 61.2,
+    "revenue_qoq_pct": 7.4,
+    "net_income_qoq_pct": 91.3
+   },
+   "reason": null,
+   "rank": 5,
+   "name": "Tourism Finance Corporation of India Limited"
   }
  ]
 }
