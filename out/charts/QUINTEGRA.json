@@ -2,17 +2,8 @@
  "symbol": "QUINTEGRA",
  "name": "QUINTEGRA",
  "kind": "stock",
- "as_of": "2026-10-28",
+ "as_of": "2026-10-29",
  "bars": [
-  {
-   "time": "2025-10-20",
-   "open": 1.98,
-   "high": 2.05,
-   "low": 1.88,
-   "close": 1.89,
-   "volume": 8939,
-   "delivery_pct": null
-  },
   {
    "time": "2025-10-27",
    "open": 1.85,
@@ -633,14 +624,19 @@
    "close": 2.96,
    "volume": 1674,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-10-29",
+   "open": 3.1,
+   "high": 3.1,
+   "low": 3.1,
+   "close": 3.1,
+   "volume": 6258,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2026-03-02",
-    "value": 1.49
-   },
    {
     "time": "2026-03-09",
     "value": 1.45
@@ -840,13 +836,13 @@
    {
     "time": "2026-10-28",
     "value": 1.97
+   },
+   {
+    "time": "2026-10-29",
+    "value": 2.06
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-09-28",
-    "value": 1.37
-   },
    {
     "time": "2026-09-29",
     "value": 1.36
@@ -926,15 +922,19 @@
    {
     "time": "2026-10-28",
     "value": 1.56
+   },
+   {
+    "time": "2026-10-29",
+    "value": 1.6
    }
   ]
  },
  "technicals": {
-  "rsi_14": 93.31,
-  "atr_pct": 3.4,
-  "rel_volume_20d": 0.24,
-  "dist_20dma_pct": 50.52,
-  "dist_50dma_pct": 89.21,
+  "rsi_14": 94.09,
+  "atr_pct": 3.33,
+  "rel_volume_20d": 0.96,
+  "dist_20dma_pct": 50.45,
+  "dist_50dma_pct": 93.46,
   "dist_200dma_pct": null
  }
 }

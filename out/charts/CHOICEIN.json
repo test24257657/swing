@@ -2,17 +2,8 @@
  "symbol": "CHOICEIN",
  "name": "Choice International Limited",
  "kind": "stock",
- "as_of": "2026-10-28",
+ "as_of": "2026-10-29",
  "bars": [
-  {
-   "time": "2025-10-20",
-   "open": 822.8,
-   "high": 824.7,
-   "low": 816.0,
-   "close": 818.0,
-   "volume": 256716,
-   "delivery_pct": 38.03
-  },
   {
    "time": "2025-10-21",
    "open": 828.0,
@@ -2271,14 +2262,19 @@
    "close": 732.4,
    "volume": 576479,
    "delivery_pct": 49.89
+  },
+  {
+   "time": "2026-10-29",
+   "open": 732.6,
+   "high": 739.4,
+   "low": 725.35,
+   "close": 729.2,
+   "volume": 1159823,
+   "delivery_pct": 24.96
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-18",
-    "value": 805.88
-   },
    {
     "time": "2025-11-19",
     "value": 804.97
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-10-28",
     "value": 723.13
+   },
+   {
+    "time": "2026-10-29",
+    "value": 722.53
    }
   ],
   "sma_50": [
-   {
-    "time": "2025-12-31",
-    "value": 792.31
-   },
    {
     "time": "2026-01-01",
     "value": 792.71
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-10-28",
     "value": 751.53
+   },
+   {
+    "time": "2026-10-29",
+    "value": 750.04
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-12",
-    "value": 747.87
-   },
    {
     "time": "2026-08-13",
     "value": 747.83
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-10-28",
     "value": 737.31
+   },
+   {
+    "time": "2026-10-29",
+    "value": 736.74
    }
   ]
  },
  "technicals": {
-  "rsi_14": 50.36,
-  "atr_pct": 3.0,
-  "rel_volume_20d": 1.27,
-  "dist_20dma_pct": 1.28,
-  "dist_50dma_pct": -2.55,
-  "dist_200dma_pct": -0.67
+  "rsi_14": 49.21,
+  "atr_pct": 2.94,
+  "rel_volume_20d": 2.5,
+  "dist_20dma_pct": 0.92,
+  "dist_50dma_pct": -2.78,
+  "dist_200dma_pct": -1.02
  }
 }
