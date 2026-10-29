@@ -1,111 +1,111 @@
 {
- "generated_at": "2026-10-28T08:15:58+05:30",
- "for_session": "2026-10-28",
+ "generated_at": "2026-10-29T08:15:42+05:30",
+ "for_session": "2026-10-29",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7722.6,
-   "change_pct": 0.6,
-   "as_of": "2026-10-27"
+   "value": 7743.98,
+   "change_pct": 0.28,
+   "as_of": "2026-10-28"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 26477.81,
-   "change_pct": 1.18,
-   "as_of": "2026-10-27"
+   "value": 26549.85,
+   "change_pct": 0.27,
+   "as_of": "2026-10-28"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 52377.57,
-   "change_pct": 0.03,
-   "as_of": "2026-10-27"
+   "value": 52475.1,
+   "change_pct": 0.19,
+   "as_of": "2026-10-28"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 64067.1,
-   "change_pct": 1.26,
-   "as_of": "2026-10-28"
+   "value": 64131.28,
+   "change_pct": 0.28,
+   "as_of": "2026-10-29"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 23042.27,
-   "change_pct": 0.0,
-   "as_of": "2026-10-28"
+   "value": 23049.31,
+   "change_pct": -0.2,
+   "as_of": "2026-10-29"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5960.2,
-   "change_pct": 5.71,
-   "as_of": "2026-10-28"
+   "value": 5880.41,
+   "change_pct": -2.2,
+   "as_of": "2026-10-29"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 110.98,
-   "change_pct": -4.17,
-   "as_of": "2026-10-27"
+   "value": 110.57,
+   "change_pct": -2.91,
+   "as_of": "2026-10-28"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4060.9,
-   "change_pct": 0.56,
-   "as_of": "2026-10-27"
+   "value": 4053.1,
+   "change_pct": -0.53,
+   "as_of": "2026-10-28"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 95.11,
-   "change_pct": -0.09,
-   "as_of": "2026-10-28"
+   "value": 95.21,
+   "change_pct": 0.03,
+   "as_of": "2026-10-29"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 4.99,
-   "change_pct": 0.14,
-   "as_of": "2026-10-27"
+   "value": 5.05,
+   "change_pct": 1.04,
+   "as_of": "2026-10-28"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 102.39,
-   "change_pct": 0.43,
-   "as_of": "2026-10-27"
+   "value": 102.11,
+   "change_pct": -0.21,
+   "as_of": "2026-10-28"
   }
  ],
  "global_tone": {
-  "tone": "positive",
-  "avg_change_pct": 1.75,
+  "tone": "mixed",
+  "avg_change_pct": -0.31,
   "crude_alert": true
  },
  "nifty": {
-  "session": "2026-10-27",
-  "close": 22749.75,
-  "high": 22829.75,
-  "low": 22636.85,
-  "pivot": 22738.78,
-  "r1": 22840.72,
-  "s1": 22647.82,
-  "r2": 22931.68,
-  "s2": 22545.88,
-  "sma_20": 22678.42,
-  "sma_50": 23337.15,
-  "sma_200": 24083.98
+  "session": "2026-10-28",
+  "close": 22698.85,
+  "high": 22778.05,
+  "low": 22497.7,
+  "pivot": 22658.2,
+  "r1": 22818.7,
+  "s1": 22538.35,
+  "r2": 22938.55,
+  "s2": 22377.85,
+  "sma_20": 22674.35,
+  "sma_50": 23303.8,
+  "sma_200": 24066.22
  },
  "focus": [
   {
-   "symbol": "SHREEJISPG",
-   "name": "Shreeji Shipping Global Limited",
+   "symbol": "SPECTRUM",
+   "name": "Spectrum Electrical Industries Limited",
    "why": "Ready setup near its pivot",
-   "rs": 98
+   "rs": 99
   },
   {
    "symbol": "RATNAVEER",
@@ -114,44 +114,38 @@
    "rs": 98
   },
   {
+   "symbol": "OAL",
+   "name": "Oriental Aromatics Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 97
+  },
+  {
    "symbol": "EBGNG",
    "name": "GNG Electronics Limited",
    "why": "Ready setup near its pivot",
    "rs": 97
   },
   {
-   "symbol": "GRWRHITECH",
-   "name": "Garware Hi-Tech Films Limited",
+   "symbol": "LOTUSDEV",
+   "name": "Sri Lotus Developers and Realty Limited",
    "why": "Ready setup near its pivot",
-   "rs": 96
+   "rs": 93
   },
   {
-   "symbol": "KROSS",
-   "name": "Kross Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 95
-  },
-  {
-   "symbol": "GANDHAR",
-   "name": "Gandhar Oil Refinery (India) Limited",
+   "symbol": "SHREEPUSHK",
+   "name": "Shree Pushkar Chemicals & Fertilisers Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "LAURUSLABS",
-   "name": "Laurus Labs Limited",
+   "symbol": "VADILALIND",
+   "name": "Vadilal Industries Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "COFORGE",
-   "name": "Coforge Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "GESHIP",
-   "name": "The Great Eastern Shipping Company Limited",
+   "symbol": "SHREEJISPG",
+   "name": "Shreeji Shipping Global Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -162,104 +156,67 @@
    "rs": null
   },
   {
-   "symbol": "INDSWFTLAB",
-   "name": "Ind-Swift Laboratories Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 99
+   "symbol": "ISFT",
+   "name": "Intrasoft Technologies Limited",
+   "why": "AI top 5",
+   "rs": null
   },
   {
-   "symbol": "MARINE",
-   "name": "Marine Electricals (India) Limited",
+   "symbol": "SGMART",
+   "name": "SG Mart Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 97
+   "rs": 96
   },
   {
-   "symbol": "PANAMAPET",
-   "name": "Panama Petrochem Limited",
+   "symbol": "VALIANTORG",
+   "name": "Valiant Organics Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 96
+  },
+  {
+   "symbol": "NITINSPIN",
+   "name": "Nitin Spinners Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 95
+  },
+  {
+   "symbol": "PNGSREVA",
+   "name": "PNGS Reva Diamond Jewellery Limited",
    "why": "Pocket pivot yesterday",
    "rs": 94
   },
   {
-   "symbol": "NAZARA",
-   "name": "Nazara Technologies Limited",
+   "symbol": "CRAFTSMAN",
+   "name": "Craftsman Automation Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 93
+   "rs": 91
   }
  ],
  "overnight_news": [
   {
-   "symbol": "SBILIFE",
-   "time": "27 Oct 18:55",
-   "category": "Outcome of Board Meeting",
-   "text": "SBI Life Insurance Company Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/SBILIFE_27102026185210_SEBM27102026_signed.pdf"
+   "symbol": "ADANIENT",
+   "time": "28 Oct 18:42",
+   "category": "Statement of deviation(s) or variation(s) under Reg. 32",
+   "text": "Adani Enterprises Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026184213_qip.pdf"
   },
   {
-   "symbol": "GANDHAR",
-   "time": "27 Oct 18:33",
-   "category": "Appointment",
-   "text": "Gandhar Oil Refinery (India) Limited has informed the Exchange regarding Appointment of Mr Mr. Santosh Kumar Singh as Other of the company w.e.f. October 27, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/GANDHAROIL_27102026183229_Intimation_outcome.pdf"
+   "symbol": "ADANIENT",
+   "time": "28 Oct 16:46",
+   "category": "Press Release (Revised)",
+   "text": "Adani Enterprises Limited has informed the Exchange regarding a revised press release dated October 28, 2026, titled \"Revised Press Release\".",
+   "url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026164539_AELsubmissionofMediaRelease30092026.pdf"
   },
   {
-   "symbol": "AXISBANK",
-   "time": "27 Oct 18:20",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 165213  Shares.",
-   "url": "https://nsearchives.nseindia.com/corporate/Kapil_27102026182021_SE27102026.pdf"
-  },
-  {
-   "symbol": "GANDHAR",
-   "time": "27 Oct 18:20",
-   "category": "Outcome of Board Meeting",
-   "text": "Gandhar Oil Refinery (India) Limited has submitted to the Exchange Outcome of Board Meeting held today i.e., Tuesday, October 27th, 2026, considered and approved the financial results for the period ended September 30, 2",
-   "url": "https://nsearchives.nseindia.com/corporate/GANDHAROIL_27102026180934_Intimation_outcome.pdf"
-  },
-  {
-   "symbol": "LT",
-   "time": "27 Oct 17:13",
-   "category": "Outcome of Board Meeting",
-   "text": "Larsen & Toubro Limited has submitted to the Exchange, the consolidated and standalone un-audited financial results of the Company for the quarter and half-year ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/PAM_27102026171156_LTSep2026.pdf"
-  },
-  {
-   "symbol": "BAJAJ-AUTO",
-   "time": "27 Oct 15:45",
-   "category": "Change in Management",
-   "text": "Bajaj Auto Limited has informed the Exchange about intimation of change in designation of Senior Management Personnel",
-   "url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_27102026154542_Intimation_change_KZ_Oct_26.pdf"
-  },
-  {
-   "symbol": "BAJAJ-AUTO",
-   "time": "27 Oct 15:40",
-   "category": "Change in Management",
-   "text": "Bajaj Auto Limited has informed the Exchange about change in Management",
-   "url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_27102026154011_Intimation_appointment_Madhusudan_Oct_26.pdf"
-  },
-  {
-   "symbol": "BAJAJ-AUTO",
-   "time": "27 Oct 15:39",
-   "category": "Outcome of Board Meeting",
-   "text": "Bajaj Auto Limited has informed the Exchange regarding Outcome of Board Meeting - Change in Senior Management Personnel held on October 27, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_27102026153900_Intimation_appointment_Madhusudan_Oct_26.pdf"
-  },
-  {
-   "symbol": "BAJAJ-AUTO",
-   "time": "27 Oct 15:36",
-   "category": "Change in Director(s)",
-   "text": "Bajaj Auto Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_27102026153643_Independent_Director.pdf"
-  },
-  {
-   "symbol": "BAJAJ-AUTO",
-   "time": "27 Oct 15:33",
-   "category": "Outcome of Board Meeting",
-   "text": "Bajaj Auto Limited has informed the Exchange regarding Outcome of Board Meeting - Change in Directors held on October 27, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_27102026153318_Independent_Director.pdf"
+   "symbol": "POWERGRID",
+   "time": "28 Oct 15:43",
+   "category": "Record Date",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange that Record date for the purpose of Dividend  is 06-Nov-2026, if declared by the Board.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_28102026154132_BSENSEReg30dt28102026.pdf"
   }
  ],
  "events": [
-  "107 companies report results today."
+  "113 companies report results today."
  ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
@@ -268,12 +225,12 @@
  ],
  "community": null,
  "ai": {
-  "headline": "Positive global cues set optimistic tone while NIFTY faces cautious market light",
+  "headline": "Mixed global cues and red market light point to cautious open",
   "points": [
-   "Global markets show strong momentum with Kospi rising +5.71%, Nikkei gaining +1.26%, and Nasdaq up +1.18%.",
-   "NIFTY ended at 22749.75; key levels to track are support S1 at 22647.82 and resistance R1 at 22840.72.",
-   "Brent crude dropped -4.17% to 110.98, providing macro relief alongside USD/INR trading at 95.11 (-0.09%).",
-   "Trade carefully as our market light is red, while 107 companies are scheduled to report quarterly results today."
+   "Global cues are mixed as Kospi dropped -2.20% to 5880.41, while Brent crude fell -2.91% to 110.57.",
+   "Nifty closed at 22698.85 under a red market light; watch the 22658.2 pivot and R1 resistance at 22818.7.",
+   "Earnings activity intensifies with 113 companies reporting results today, while Power Grid set its dividend record date for November 6.",
+   "USD/INR edged up +0.03% to 95.21 while US 10Y yield rose +1.04% to 5.05."
   ]
  }
 }
