@@ -1,98 +1,134 @@
 {
- "as_of": "2026-10-29",
- "source": "rules",
- "universe": 131,
- "eligible": 18,
+ "as_of": "2026-10-30",
+ "source": "ai",
+ "universe": 123,
+ "eligible": 28,
  "picks": [
   {
-   "symbol": "PVRINOX",
-   "ltp": 1490.3,
+   "symbol": "VADILALIND",
+   "ltp": 7492.5,
    "technicals": {
-    "rsi_14": 69.03,
-    "rel_volume_20d": 1.76,
-    "dist_20dma_pct": 9.07,
-    "dist_50dma_pct": 15.57,
-    "dist_200dma_pct": 37.75
+    "rsi_14": 57.58,
+    "rel_volume_20d": 1.86,
+    "dist_20dma_pct": 4.04,
+    "dist_50dma_pct": 2.11,
+    "dist_200dma_pct": 28.49
    },
    "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 1419.9,
-    "stop_suggestion": 1301.0,
-    "target_suggestion": 1703.88,
-    "gap_to_pivot_pct": 4.96
+    "code": "trendline_breakout",
+    "stage": "confirmed",
+    "pivot_price": 7190.02,
+    "stop_suggestion": 6826.0,
+    "target_suggestion": 8628.02,
+    "gap_to_pivot_pct": 4.21
    },
    "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 2105.1,
-    "net_income_cr": 263.1,
-    "revenue_qoq_pct": 29.8,
-    "net_income_qoq_pct": 365.7
+    "quarter": "Q1 FY27",
+    "revenue_cr": 680.1,
+    "net_income_cr": 130.9,
+    "revenue_qoq_pct": 63.6,
+    "net_income_qoq_pct": 138.4
    },
-   "reason": null,
+   "reason": "Confirmed trendline breakout backed by 1.86x average volume and RSI of 57.58. Fundamental strength is exceptional, with QoQ revenue jumping 63.6% and net profit soaring 138.4%.",
    "rank": 1,
-   "name": "PVR INOX Limited"
+   "name": "Vadilal Industries Limited"
   },
   {
-   "symbol": "AEROFLEX",
-   "ltp": 538.35,
+   "symbol": "COFORGE",
+   "ltp": 2045.0,
    "technicals": {
-    "rsi_14": 55.13,
-    "rel_volume_20d": 11.86,
-    "dist_20dma_pct": 3.63,
-    "dist_50dma_pct": 3.12,
-    "dist_200dma_pct": 43.92
-   },
-   "pattern": null,
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 207.4,
-    "net_income_cr": 36.6,
-    "revenue_qoq_pct": 42.6,
-    "net_income_qoq_pct": 94.7
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "Aeroflex Industries Limited"
-  },
-  {
-   "symbol": "ISFT",
-   "ltp": 109.74,
-   "technicals": {
-    "rsi_14": 65.96,
-    "rel_volume_20d": 1.87,
-    "dist_20dma_pct": 7.76,
-    "dist_50dma_pct": 16.05,
-    "dist_200dma_pct": 32.73
+    "rsi_14": 66.74,
+    "rel_volume_20d": 2.33,
+    "dist_20dma_pct": 6.88,
+    "dist_50dma_pct": 8.66,
+    "dist_200dma_pct": 32.76
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 107.63,
-    "stop_suggestion": 93.55,
-    "target_suggestion": 129.16,
-    "gap_to_pivot_pct": 1.96
+    "pivot_price": 2014.6,
+    "stop_suggestion": 1812.2,
+    "target_suggestion": 2417.52,
+    "gap_to_pivot_pct": 1.51
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 6170.8,
+    "net_income_cr": 588.1,
+    "revenue_qoq_pct": 11.6,
+    "net_income_qoq_pct": 13.4
+   },
+   "reason": "Strong confirmed 52-week breakout with high volume at 2.33x average and healthy RSI of 66.74. Supported by solid earnings, delivering 11.6% QoQ revenue growth and 13.4% net profit expansion.",
+   "rank": 2,
+   "name": "Coforge Limited"
+  },
+  {
+   "symbol": "UNITEDPOLY",
+   "ltp": 54.27,
+   "technicals": {
+    "rsi_14": 66.44,
+    "rel_volume_20d": 2.66,
+    "dist_20dma_pct": 6.91,
+    "dist_50dma_pct": 19.64,
+    "dist_200dma_pct": 61.97
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 53.39,
+    "stop_suggestion": 44.81,
+    "target_suggestion": 64.07,
+    "gap_to_pivot_pct": 1.65
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 139.6,
-    "net_income_cr": 4.5,
-    "revenue_qoq_pct": 2.6,
-    "net_income_qoq_pct": 45.2
+    "revenue_cr": 179.9,
+    "net_income_cr": 7.8,
+    "revenue_qoq_pct": 4.6,
+    "net_income_qoq_pct": 9.9
    },
-   "reason": null,
+   "reason": "Confirmed 52-week breakout with powerful momentum shown by 2.66x average volume and RSI of 66.44. Backed by steady earnings growth, including 4.6% QoQ revenue and 9.9% net profit gains.",
    "rank": 3,
-   "name": "Intrasoft Technologies Limited"
+   "name": "United Polyfab Gujarat Limited"
+  },
+  {
+   "symbol": "ETERNAL",
+   "ltp": 343.65,
+   "technicals": {
+    "rsi_14": 62.19,
+    "rel_volume_20d": 1.38,
+    "dist_20dma_pct": 6.39,
+    "dist_50dma_pct": 5.62,
+    "dist_200dma_pct": 22.54
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 342.65,
+    "stop_suggestion": 301.75,
+    "target_suggestion": 411.18,
+    "gap_to_pivot_pct": 0.29
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 24138.0,
+    "net_income_cr": 125.0,
+    "revenue_qoq_pct": 19.4,
+    "net_income_qoq_pct": 35.9
+   },
+   "reason": "Forming a 52-week breakout with 1.38x average volume and ideal 62.19 RSI. Fundamental trend is robust, featuring 19.4% QoQ revenue growth alongside a 35.9% jump in net profit.",
+   "rank": 4,
+   "name": "ETERNAL LIMITED"
   },
   {
    "symbol": "TCPLPACK",
-   "ltp": 4402.4,
+   "ltp": 4401.4,
    "technicals": {
-    "rsi_14": 61.15,
-    "rel_volume_20d": 1.72,
-    "dist_20dma_pct": 6.57,
-    "dist_50dma_pct": 9.55,
-    "dist_200dma_pct": 41.87
+    "rsi_14": 61.11,
+    "rel_volume_20d": 1.3,
+    "dist_20dma_pct": 6.16,
+    "dist_50dma_pct": 9.43,
+    "dist_200dma_pct": 41.52
    },
    "pattern": {
     "code": "high_52w_breakout",
@@ -100,7 +136,7 @@
     "pivot_price": 4485.0,
     "stop_suggestion": 3744.5,
     "target_suggestion": 5382.0,
-    "gap_to_pivot_pct": -1.84
+    "gap_to_pivot_pct": -1.86
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
@@ -109,38 +145,9 @@
     "revenue_qoq_pct": 8.6,
     "net_income_qoq_pct": 84.3
    },
-   "reason": null,
-   "rank": 4,
-   "name": "TCPL Packaging Limited"
-  },
-  {
-   "symbol": "TFCILTD",
-   "ltp": 159.66,
-   "technicals": {
-    "rsi_14": 64.46,
-    "rel_volume_20d": 0.98,
-    "dist_20dma_pct": 5.66,
-    "dist_50dma_pct": 10.96,
-    "dist_200dma_pct": 71.54
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 160.8,
-    "stop_suggestion": 141.43,
-    "target_suggestion": 192.96,
-    "gap_to_pivot_pct": -0.71
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 77.4,
-    "net_income_cr": 61.2,
-    "revenue_qoq_pct": 7.4,
-    "net_income_qoq_pct": 91.3
-   },
-   "reason": null,
+   "reason": "Forming a 52-week breakout sitting 41.52% above its 200-day average with 1.3x volume and 61.11 RSI. Powered by strong fundamentals, including an 84.3% QoQ profit increase.",
    "rank": 5,
-   "name": "Tourism Finance Corporation of India Limited"
+   "name": "TCPL Packaging Limited"
   }
  ]
 }
