@@ -355,11 +355,6 @@
  "flows": {
   "series": [
    {
-    "date": "2026-10-15",
-    "fii_net": -5285.37,
-    "dii_net": 3319.39
-   },
-   {
     "date": "2026-10-16",
     "fii_net": 1165.92,
     "dii_net": -3661.28
@@ -403,10 +398,15 @@
     "date": "2026-10-30",
     "fii_net": 3598.54,
     "dii_net": -817.51
+   },
+   {
+    "date": "2026-11-02",
+    "fii_net": 3114.68,
+    "dii_net": -392.2
    }
   ],
-  "fii_10_session_net": -1534.5,
-  "dii_10_session_net": 12095.8
+  "fii_10_session_net": 6865.6,
+  "dii_10_session_net": 8384.2
  },
  "vix": {
   "value": 15.5,

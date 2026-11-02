@@ -1,153 +1,153 @@
 {
  "as_of": "2026-11-02",
- "source": "ai",
+ "source": "rules",
  "universe": 152,
- "eligible": 24,
+ "eligible": 6,
  "picks": [
   {
-   "symbol": "WELSPUNLIV",
-   "ltp": 242.34,
+   "symbol": "SBC",
+   "ltp": 65.34,
    "technicals": {
-    "rsi_14": 67.2,
-    "rel_volume_20d": 11.58,
-    "dist_20dma_pct": 9.22,
-    "dist_50dma_pct": 13.45,
-    "dist_200dma_pct": 53.09
+    "rsi_14": 66.75,
+    "rel_volume_20d": 1.05,
+    "dist_20dma_pct": 2.49,
+    "dist_50dma_pct": 21.94,
+    "dist_200dma_pct": 63.96
    },
    "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 239.17,
-    "stop_suggestion": 204.75,
-    "target_suggestion": 287.0,
-    "gap_to_pivot_pct": 1.33
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 2795.4,
-    "net_income_cr": 160.7,
-    "revenue_qoq_pct": 14.8,
-    "net_income_qoq_pct": 55.0
-   },
-   "reason": "Confirmed 52-week breakout with 11.58x average volume and 67.2 RSI. Revenue grew 14.8% QoQ alongside a 55.0% QoQ profit increase, providing strong fundamental momentum.",
-   "rank": 1,
-   "name": "Welspun Living Limited"
-  },
-  {
-   "symbol": "VADILALIND",
-   "ltp": 7431.0,
-   "technicals": {
-    "rsi_14": 55.42,
-    "rel_volume_20d": 2.36,
-    "dist_20dma_pct": 3.01,
-    "dist_50dma_pct": 1.26,
-    "dist_200dma_pct": 27.14
-   },
-   "pattern": {
-    "code": "trendline_breakout",
-    "stage": "confirmed",
-    "pivot_price": 7167.16,
-    "stop_suggestion": 6826.0,
-    "target_suggestion": 8600.6,
-    "gap_to_pivot_pct": 3.68
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 680.1,
-    "net_income_cr": 130.9,
-    "revenue_qoq_pct": 63.6,
-    "net_income_qoq_pct": 138.4
-   },
-   "reason": "Confirmed trendline breakout backed by 2.36x average volume and 55.42 RSI. Outstanding quarterly performance with revenue up 63.6% QoQ and net profit jumping 138.4% QoQ.",
-   "rank": 2,
-   "name": "Vadilal Industries Limited"
-  },
-  {
-   "symbol": "GAIL",
-   "ltp": 177.0,
-   "technicals": {
-    "rsi_14": 63.05,
-    "rel_volume_20d": 1.78,
-    "dist_20dma_pct": 5.36,
-    "dist_50dma_pct": 3.47,
-    "dist_200dma_pct": 6.63
-   },
-   "pattern": {
-    "code": "trendline_breakout",
-    "stage": "confirmed",
-    "pivot_price": 168.68,
-    "stop_suggestion": 160.7,
-    "target_suggestion": 202.41,
-    "gap_to_pivot_pct": 4.93
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 41197.6,
-    "net_income_cr": 4665.4,
-    "revenue_qoq_pct": 15.8,
-    "net_income_qoq_pct": 214.2
-   },
-   "reason": "Confirmed trendline breakout supported by 1.78x average volume and healthy 63.05 RSI. Fundamental strength is highlighted by massive net profit growth of 214.2% QoQ on 15.8% QoQ revenue expansion.",
-   "rank": 3,
-   "name": "GAIL (India) Limited"
-  },
-  {
-   "symbol": "NITINSPIN",
-   "ltp": 664.3,
-   "technicals": {
-    "rsi_14": 62.03,
-    "rel_volume_20d": 5.09,
-    "dist_20dma_pct": 6.26,
-    "dist_50dma_pct": 6.77,
-    "dist_200dma_pct": 34.31
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 655.1,
-    "stop_suggestion": 591.85,
-    "target_suggestion": 786.12,
-    "gap_to_pivot_pct": 1.4
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 875.0,
-    "net_income_cr": 75.3,
-    "revenue_qoq_pct": 1.8,
-    "net_income_qoq_pct": 31.2
-   },
-   "reason": "Confirmed 52-week breakout sitting 1.4% past pivot with massive 5.09x average volume and 62.03 RSI. Net profit grew 31.2% QoQ, showing solid earnings momentum.",
-   "rank": 4,
-   "name": "Nitin Spinners Limited"
-  },
-  {
-   "symbol": "ALIVUS",
-   "ltp": 1447.6,
-   "technicals": {
-    "rsi_14": 66.57,
-    "rel_volume_20d": 4.05,
-    "dist_20dma_pct": 8.06,
-    "dist_50dma_pct": 6.17,
-    "dist_200dma_pct": 28.58
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 1443.7,
-    "stop_suggestion": 1208.1,
-    "target_suggestion": 1732.44,
-    "gap_to_pivot_pct": 0.27
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 67.1,
+    "stop_suggestion": 62.01,
+    "target_suggestion": 77.16,
+    "gap_to_pivot_pct": -2.62
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 682.0,
-    "net_income_cr": 196.7,
-    "revenue_qoq_pct": 6.5,
-    "net_income_qoq_pct": 22.9
+    "revenue_cr": 164.3,
+    "net_income_cr": 11.4,
+    "revenue_qoq_pct": 35.7,
+    "net_income_qoq_pct": 18.8
    },
-   "reason": "Confirmed 52-week breakout just 0.27% above pivot with strong 4.05x volume and 66.57 RSI. Backed by solid fundamental growth with net profit rising 22.9% QoQ and revenue up 6.5% QoQ.",
+   "reason": null,
+   "rank": 1,
+   "name": "SBC Exports Limited"
+  },
+  {
+   "symbol": "ORIENTHOT",
+   "ltp": 163.59,
+   "technicals": {
+    "rsi_14": 73.38,
+    "rel_volume_20d": 0.67,
+    "dist_20dma_pct": 9.6,
+    "dist_50dma_pct": 13.65,
+    "dist_200dma_pct": 38.36
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 159.52,
+    "stop_suggestion": 138.15,
+    "target_suggestion": 191.42,
+    "gap_to_pivot_pct": 2.55
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 117.8,
+    "net_income_cr": 8.6,
+    "revenue_qoq_pct": 5.7,
+    "net_income_qoq_pct": 62.3
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "Oriental Hotels Limited"
+  },
+  {
+   "symbol": "HBLENGINE",
+   "ltp": 818.1,
+   "technicals": {
+    "rsi_14": 59.6,
+    "rel_volume_20d": 0.25,
+    "dist_20dma_pct": 6.34,
+    "dist_50dma_pct": 10.17,
+    "dist_200dma_pct": 9.29
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 842.0,
+    "stop_suggestion": 767.9,
+    "target_suggestion": 968.3,
+    "gap_to_pivot_pct": -2.84
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 638.0,
+    "net_income_cr": 109.1,
+    "revenue_qoq_pct": 5.6,
+    "net_income_qoq_pct": 71.0
+   },
+   "reason": null,
+   "rank": 3,
+   "name": "HBL Engineering Limited"
+  },
+  {
+   "symbol": "CIPLA",
+   "ltp": 1387.0,
+   "technicals": {
+    "rsi_14": 61.26,
+    "rel_volume_20d": 1.21,
+    "dist_20dma_pct": 3.81,
+    "dist_50dma_pct": 1.26,
+    "dist_200dma_pct": 1.63
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 1426.1,
+    "stop_suggestion": 1344.26,
+    "target_suggestion": 1640.01,
+    "gap_to_pivot_pct": -2.74
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 7368.1,
+    "net_income_cr": 877.5,
+    "revenue_qoq_pct": 4.1,
+    "net_income_qoq_pct": 11.2
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "Cipla Limited"
+  },
+  {
+   "symbol": "ADANIPORTS",
+   "ltp": 1854.0,
+   "technicals": {
+    "rsi_14": 61.69,
+    "rel_volume_20d": 0.43,
+    "dist_20dma_pct": 4.9,
+    "dist_50dma_pct": 6.14,
+    "dist_200dma_pct": 11.95
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 1883.2,
+    "stop_suggestion": 1687.9,
+    "target_suggestion": 2259.84,
+    "gap_to_pivot_pct": -1.55
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 11340.4,
+    "net_income_cr": 3621.9,
+    "revenue_qoq_pct": 4.8,
+    "net_income_qoq_pct": 0.0
+   },
+   "reason": null,
    "rank": 5,
-   "name": "Alivus Life Sciences Limited"
+   "name": "Adani Ports and Special Economic Zone Limited"
   }
  ]
 }
