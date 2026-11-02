@@ -2,7 +2,7 @@
  "symbol": "ALGOQUANT",
  "name": "Algoquant Fintech Limited",
  "kind": "stock",
- "as_of": "2026-10-30",
+ "as_of": "2026-11-02",
  "bars": [
   {
    "time": "2026-01-06",
@@ -1812,6 +1812,15 @@
    "close": 76.22,
    "volume": 1412174,
    "delivery_pct": 21.52
+  },
+  {
+   "time": "2026-11-02",
+   "open": 76.5,
+   "high": 80.19,
+   "low": 75.46,
+   "close": 78.36,
+   "volume": 1325319,
+   "delivery_pct": 26.05
   }
  ],
  "ma": {
@@ -2543,6 +2552,10 @@
    {
     "time": "2026-10-30",
     "value": 71.61
+   },
+   {
+    "time": "2026-11-02",
+    "value": 72.16
    }
   ],
   "sma_50": [
@@ -3153,6 +3166,10 @@
    {
     "time": "2026-10-30",
     "value": 68.63
+   },
+   {
+    "time": "2026-11-02",
+    "value": 68.89
    }
   ],
   "sma_200": [
@@ -3163,15 +3180,19 @@
    {
     "time": "2026-10-30",
     "value": 61.7
+   },
+   {
+    "time": "2026-11-02",
+    "value": 61.75
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.1,
-  "atr_pct": 4.53,
-  "rel_volume_20d": 1.02,
-  "dist_20dma_pct": 6.43,
-  "dist_50dma_pct": 11.05,
-  "dist_200dma_pct": 23.53
+  "rsi_14": 69.43,
+  "atr_pct": 4.52,
+  "rel_volume_20d": 0.95,
+  "dist_20dma_pct": 8.6,
+  "dist_50dma_pct": 13.75,
+  "dist_200dma_pct": 26.9
  }
 }

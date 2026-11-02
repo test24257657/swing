@@ -1,26 +1,55 @@
 {
- "as_of": "2026-10-30",
+ "as_of": "2026-11-02",
  "source": "ai",
- "universe": 123,
- "eligible": 28,
+ "universe": 152,
+ "eligible": 24,
  "picks": [
   {
-   "symbol": "VADILALIND",
-   "ltp": 7492.5,
+   "symbol": "WELSPUNLIV",
+   "ltp": 242.34,
    "technicals": {
-    "rsi_14": 57.58,
-    "rel_volume_20d": 1.86,
-    "dist_20dma_pct": 4.04,
-    "dist_50dma_pct": 2.11,
-    "dist_200dma_pct": 28.49
+    "rsi_14": 67.2,
+    "rel_volume_20d": 11.58,
+    "dist_20dma_pct": 9.22,
+    "dist_50dma_pct": 13.45,
+    "dist_200dma_pct": 53.09
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 239.17,
+    "stop_suggestion": 204.75,
+    "target_suggestion": 287.0,
+    "gap_to_pivot_pct": 1.33
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 2795.4,
+    "net_income_cr": 160.7,
+    "revenue_qoq_pct": 14.8,
+    "net_income_qoq_pct": 55.0
+   },
+   "reason": "Confirmed 52-week breakout with 11.58x average volume and 67.2 RSI. Revenue grew 14.8% QoQ alongside a 55.0% QoQ profit increase, providing strong fundamental momentum.",
+   "rank": 1,
+   "name": "Welspun Living Limited"
+  },
+  {
+   "symbol": "VADILALIND",
+   "ltp": 7431.0,
+   "technicals": {
+    "rsi_14": 55.42,
+    "rel_volume_20d": 2.36,
+    "dist_20dma_pct": 3.01,
+    "dist_50dma_pct": 1.26,
+    "dist_200dma_pct": 27.14
    },
    "pattern": {
     "code": "trendline_breakout",
     "stage": "confirmed",
-    "pivot_price": 7190.02,
+    "pivot_price": 7167.16,
     "stop_suggestion": 6826.0,
-    "target_suggestion": 8628.02,
-    "gap_to_pivot_pct": 4.21
+    "target_suggestion": 8600.6,
+    "gap_to_pivot_pct": 3.68
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
@@ -29,125 +58,96 @@
     "revenue_qoq_pct": 63.6,
     "net_income_qoq_pct": 138.4
    },
-   "reason": "Confirmed trendline breakout backed by 1.86x average volume and RSI of 57.58. Fundamental strength is exceptional, with QoQ revenue jumping 63.6% and net profit soaring 138.4%.",
-   "rank": 1,
+   "reason": "Confirmed trendline breakout backed by 2.36x average volume and 55.42 RSI. Outstanding quarterly performance with revenue up 63.6% QoQ and net profit jumping 138.4% QoQ.",
+   "rank": 2,
    "name": "Vadilal Industries Limited"
   },
   {
-   "symbol": "COFORGE",
-   "ltp": 2045.0,
+   "symbol": "GAIL",
+   "ltp": 177.0,
    "technicals": {
-    "rsi_14": 66.74,
-    "rel_volume_20d": 2.33,
-    "dist_20dma_pct": 6.88,
-    "dist_50dma_pct": 8.66,
-    "dist_200dma_pct": 32.76
+    "rsi_14": 63.05,
+    "rel_volume_20d": 1.78,
+    "dist_20dma_pct": 5.36,
+    "dist_50dma_pct": 3.47,
+    "dist_200dma_pct": 6.63
    },
    "pattern": {
-    "code": "high_52w_breakout",
+    "code": "trendline_breakout",
     "stage": "confirmed",
-    "pivot_price": 2014.6,
-    "stop_suggestion": 1812.2,
-    "target_suggestion": 2417.52,
-    "gap_to_pivot_pct": 1.51
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 6170.8,
-    "net_income_cr": 588.1,
-    "revenue_qoq_pct": 11.6,
-    "net_income_qoq_pct": 13.4
-   },
-   "reason": "Strong confirmed 52-week breakout with high volume at 2.33x average and healthy RSI of 66.74. Supported by solid earnings, delivering 11.6% QoQ revenue growth and 13.4% net profit expansion.",
-   "rank": 2,
-   "name": "Coforge Limited"
-  },
-  {
-   "symbol": "UNITEDPOLY",
-   "ltp": 54.27,
-   "technicals": {
-    "rsi_14": 66.44,
-    "rel_volume_20d": 2.66,
-    "dist_20dma_pct": 6.91,
-    "dist_50dma_pct": 19.64,
-    "dist_200dma_pct": 61.97
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 53.39,
-    "stop_suggestion": 44.81,
-    "target_suggestion": 64.07,
-    "gap_to_pivot_pct": 1.65
+    "pivot_price": 168.68,
+    "stop_suggestion": 160.7,
+    "target_suggestion": 202.41,
+    "gap_to_pivot_pct": 4.93
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 179.9,
-    "net_income_cr": 7.8,
-    "revenue_qoq_pct": 4.6,
-    "net_income_qoq_pct": 9.9
+    "revenue_cr": 41197.6,
+    "net_income_cr": 4665.4,
+    "revenue_qoq_pct": 15.8,
+    "net_income_qoq_pct": 214.2
    },
-   "reason": "Confirmed 52-week breakout with powerful momentum shown by 2.66x average volume and RSI of 66.44. Backed by steady earnings growth, including 4.6% QoQ revenue and 9.9% net profit gains.",
+   "reason": "Confirmed trendline breakout supported by 1.78x average volume and healthy 63.05 RSI. Fundamental strength is highlighted by massive net profit growth of 214.2% QoQ on 15.8% QoQ revenue expansion.",
    "rank": 3,
-   "name": "United Polyfab Gujarat Limited"
+   "name": "GAIL (India) Limited"
   },
   {
-   "symbol": "ETERNAL",
-   "ltp": 343.65,
+   "symbol": "NITINSPIN",
+   "ltp": 664.3,
    "technicals": {
-    "rsi_14": 62.19,
-    "rel_volume_20d": 1.38,
-    "dist_20dma_pct": 6.39,
-    "dist_50dma_pct": 5.62,
-    "dist_200dma_pct": 22.54
+    "rsi_14": 62.03,
+    "rel_volume_20d": 5.09,
+    "dist_20dma_pct": 6.26,
+    "dist_50dma_pct": 6.77,
+    "dist_200dma_pct": 34.31
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 342.65,
-    "stop_suggestion": 301.75,
-    "target_suggestion": 411.18,
-    "gap_to_pivot_pct": 0.29
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 24138.0,
-    "net_income_cr": 125.0,
-    "revenue_qoq_pct": 19.4,
-    "net_income_qoq_pct": 35.9
-   },
-   "reason": "Forming a 52-week breakout with 1.38x average volume and ideal 62.19 RSI. Fundamental trend is robust, featuring 19.4% QoQ revenue growth alongside a 35.9% jump in net profit.",
-   "rank": 4,
-   "name": "ETERNAL LIMITED"
-  },
-  {
-   "symbol": "TCPLPACK",
-   "ltp": 4401.4,
-   "technicals": {
-    "rsi_14": 61.11,
-    "rel_volume_20d": 1.3,
-    "dist_20dma_pct": 6.16,
-    "dist_50dma_pct": 9.43,
-    "dist_200dma_pct": 41.52
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 4485.0,
-    "stop_suggestion": 3744.5,
-    "target_suggestion": 5382.0,
-    "gap_to_pivot_pct": -1.86
+    "stage": "confirmed",
+    "pivot_price": 655.1,
+    "stop_suggestion": 591.85,
+    "target_suggestion": 786.12,
+    "gap_to_pivot_pct": 1.4
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 493.0,
-    "net_income_cr": 40.0,
-    "revenue_qoq_pct": 8.6,
-    "net_income_qoq_pct": 84.3
+    "revenue_cr": 875.0,
+    "net_income_cr": 75.3,
+    "revenue_qoq_pct": 1.8,
+    "net_income_qoq_pct": 31.2
    },
-   "reason": "Forming a 52-week breakout sitting 41.52% above its 200-day average with 1.3x volume and 61.11 RSI. Powered by strong fundamentals, including an 84.3% QoQ profit increase.",
+   "reason": "Confirmed 52-week breakout sitting 1.4% past pivot with massive 5.09x average volume and 62.03 RSI. Net profit grew 31.2% QoQ, showing solid earnings momentum.",
+   "rank": 4,
+   "name": "Nitin Spinners Limited"
+  },
+  {
+   "symbol": "ALIVUS",
+   "ltp": 1447.6,
+   "technicals": {
+    "rsi_14": 66.57,
+    "rel_volume_20d": 4.05,
+    "dist_20dma_pct": 8.06,
+    "dist_50dma_pct": 6.17,
+    "dist_200dma_pct": 28.58
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 1443.7,
+    "stop_suggestion": 1208.1,
+    "target_suggestion": 1732.44,
+    "gap_to_pivot_pct": 0.27
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 682.0,
+    "net_income_cr": 196.7,
+    "revenue_qoq_pct": 6.5,
+    "net_income_qoq_pct": 22.9
+   },
+   "reason": "Confirmed 52-week breakout just 0.27% above pivot with strong 4.05x volume and 66.57 RSI. Backed by solid fundamental growth with net profit rising 22.9% QoQ and revenue up 6.5% QoQ.",
    "rank": 5,
-   "name": "TCPL Packaging Limited"
+   "name": "Alivus Life Sciences Limited"
   }
  ]
 }

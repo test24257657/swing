@@ -2,21 +2,12 @@
  "symbol": "ALIVUS",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 601.8,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 121.5,
-   "net_income_qoq_pct": null,
-   "eps": 9.91
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 672.9,
-   "revenue_qoq_pct": 11.8,
+   "revenue_qoq_pct": null,
    "net_income_cr": 150.3,
-   "net_income_qoq_pct": 23.7,
+   "net_income_qoq_pct": null,
    "eps": 12.25
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 160.1,
    "net_income_qoq_pct": -1.6,
    "eps": 13.04
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 682.0,
+   "revenue_qoq_pct": 6.5,
+   "net_income_cr": 196.7,
+   "net_income_qoq_pct": 22.9,
+   "eps": 16.02
   }
  ],
  "verification": null
