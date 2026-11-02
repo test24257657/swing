@@ -1,111 +1,111 @@
 {
- "generated_at": "2026-10-30T08:15:57+05:30",
- "for_session": "2026-10-30",
+ "generated_at": "2026-11-02T08:15:54+05:30",
+ "for_session": "2026-11-02",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7720.39,
-   "change_pct": -0.3,
-   "as_of": "2026-10-29"
+   "value": 7580.07,
+   "change_pct": -1.82,
+   "as_of": "2026-10-30"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 26184.72,
-   "change_pct": -1.38,
-   "as_of": "2026-10-29"
+   "value": 25437.0,
+   "change_pct": -2.86,
+   "as_of": "2026-10-30"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 52342.56,
-   "change_pct": -0.25,
-   "as_of": "2026-10-29"
+   "value": 51770.31,
+   "change_pct": -1.09,
+   "as_of": "2026-10-30"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 63019.78,
-   "change_pct": -2.54,
-   "as_of": "2026-10-30"
+   "value": 63095.11,
+   "change_pct": -0.31,
+   "as_of": "2026-11-02"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 23199.72,
-   "change_pct": 1.05,
-   "as_of": "2026-10-30"
+   "value": 23341.23,
+   "change_pct": 0.2,
+   "as_of": "2026-11-02"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5627.31,
-   "change_pct": -5.23,
-   "as_of": "2026-10-30"
+   "value": 5794.22,
+   "change_pct": 1.11,
+   "as_of": "2026-11-02"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 112.31,
-   "change_pct": -2.61,
-   "as_of": "2026-10-29"
+   "value": 110.34,
+   "change_pct": -6.21,
+   "as_of": "2026-11-01"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4014.5,
-   "change_pct": -0.92,
-   "as_of": "2026-10-29"
+   "value": 3916.0,
+   "change_pct": 0.44,
+   "as_of": "2026-11-01"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 95.18,
-   "change_pct": -0.03,
-   "as_of": "2026-10-30"
+   "value": 94.94,
+   "change_pct": -0.22,
+   "as_of": "2026-11-01"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 4.99,
-   "change_pct": -1.11,
-   "as_of": "2026-10-29"
+   "value": 4.93,
+   "change_pct": -1.2,
+   "as_of": "2026-10-30"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 101.74,
-   "change_pct": -0.44,
-   "as_of": "2026-10-29"
+   "value": 101.98,
+   "change_pct": 0.09,
+   "as_of": "2026-11-01"
   }
  ],
  "global_tone": {
   "tone": "negative",
-  "avg_change_pct": -1.68,
+  "avg_change_pct": -0.74,
   "crude_alert": true
  },
  "nifty": {
-  "session": "2026-10-29",
-  "close": 22936.75,
-  "high": 22961.95,
-  "low": 22656.75,
-  "pivot": 22851.82,
-  "r1": 23046.88,
-  "s1": 22741.68,
-  "r2": 23157.02,
-  "s2": 22546.62,
-  "sma_20": 22685.38,
-  "sma_50": 23276.78,
-  "sma_200": 24050.01
+  "session": "2026-10-30",
+  "close": 23053.1,
+  "high": 23118.1,
+  "low": 22905.1,
+  "pivot": 23025.43,
+  "r1": 23145.77,
+  "s1": 22932.77,
+  "r2": 23238.43,
+  "s2": 22812.43,
+  "sma_20": 22707.01,
+  "sma_50": 23254.75,
+  "sma_200": 24034.58
  },
  "focus": [
   {
-   "symbol": "INDSWFTLAB",
-   "name": "Ind-Swift Laboratories Limited",
+   "symbol": "SBC",
+   "name": "SBC Exports Limited",
    "why": "Ready setup near its pivot",
-   "rs": 99
+   "rs": 98
   },
   {
    "symbol": "TFCILTD",
@@ -114,38 +114,44 @@
    "rs": 98
   },
   {
-   "symbol": "SBC",
-   "name": "SBC Exports Limited",
+   "symbol": "GLOBAL",
+   "name": "Global Education Limited",
    "why": "Ready setup near its pivot",
-   "rs": 98
+   "rs": 96
   },
   {
-   "symbol": "SHREEJISPG",
-   "name": "Shreeji Shipping Global Limited",
+   "symbol": "NITINSPIN",
+   "name": "Nitin Spinners Limited",
    "why": "Ready setup near its pivot",
-   "rs": 98
+   "rs": 95
   },
   {
-   "symbol": "SSWL",
-   "name": "Steel Strips Wheels Limited",
+   "symbol": "GLAND",
+   "name": "Gland Pharma Limited",
    "why": "Ready setup near its pivot",
-   "rs": 98
+   "rs": 94
   },
   {
-   "symbol": "PVRINOX",
-   "name": "PVR INOX Limited",
+   "symbol": "VADILALIND",
+   "name": "Vadilal Industries Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "AEROFLEX",
-   "name": "Aeroflex Industries Limited",
+   "symbol": "COFORGE",
+   "name": "Coforge Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "ISFT",
-   "name": "Intrasoft Technologies Limited",
+   "symbol": "UNITEDPOLY",
+   "name": "United Polyfab Gujarat Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "ETERNAL",
+   "name": "ETERNAL LIMITED",
    "why": "AI top 5",
    "rs": null
   },
@@ -156,124 +162,118 @@
    "rs": null
   },
   {
-   "symbol": "SHADOWFAX",
-   "name": "Shadowfax Technologies Limited",
+   "symbol": "WELSPUNLIV",
+   "name": "Welspun Living Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 94
+   "rs": 95
   },
   {
    "symbol": "YUKEN",
    "name": "Yuken India Limited",
    "why": "Pocket pivot yesterday",
+   "rs": 95
+  },
+  {
+   "symbol": "KMEW",
+   "name": "Knowledge Marine & Engineering Works Limited",
+   "why": "Pocket pivot yesterday",
    "rs": 94
   },
   {
-   "symbol": "ACMESOLAR",
-   "name": "Acme Solar Holdings Limited",
+   "symbol": "LOTUSDEV",
+   "name": "Sri Lotus Developers and Realty Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 92
-  },
-  {
-   "symbol": "NAZARA",
-   "name": "Nazara Technologies Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 92
-  },
-  {
-   "symbol": "ESAFSFB",
-   "name": "ESAF Small Finance Bank Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 91
+   "rs": 93
   }
  ],
  "overnight_news": [
   {
-   "symbol": "MAXHEALTH",
-   "time": "29 Oct 21:24",
-   "category": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
-   "text": "Max Healthcare Institute Limited has informed the Exchange about disclosure under regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "url": "https://nsearchives.nseindia.com/corporate/MAXHEALTH_29102026212151_SE_Disclosure.pdf"
+   "symbol": "POWERGRID",
+   "time": "01 Nov 20:20",
+   "category": "Dividend",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange that Board of Directors at its meeting held on November 01, 2026, declared Interim Dividend of Rs. 3 per equity share.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026201556_Dividend_Cover.pdf"
   },
   {
-   "symbol": "INDSWFTLAB",
-   "time": "29 Oct 20:39",
-   "category": "Statement of deviation(s) or variation(s) under Reg. 32",
-   "text": "Ind-Swift Laboratories Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "url": "https://nsearchives.nseindia.com/corporate/INDSWFTLAB_29102026203937_SDD_2_6cr.pdf"
+   "symbol": "POWERGRID",
+   "time": "01 Nov 20:11",
+   "category": "Outcome of Board Meeting",
+   "text": "Power Grid Corporation of India Limited has submitted to the Exchange, the unaudited financial results for the quarter and half year ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026200821_BSENSEReg30FileFinal.pdf"
   },
   {
-   "symbol": "CIPLA",
-   "time": "29 Oct 20:29",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Cipla Limited has informed the Exchange regarding Allotment of 17453  Shares.",
-   "url": "https://nsearchives.nseindia.com/corporate/CIPLA_29102026202841_SE_Intimation_Signed.pdf"
+   "symbol": "AXISBANK",
+   "time": "01 Nov 18:39",
+   "category": "Cessation",
+   "text": "Axis Bank Limited has informed the Exchange regarding Cessation of Mr Girish Paranjpe  as Non- Executive Independent Director of the company w.e.f. close of business hours November 01, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_01112026183859_SEIntimation_GPSigned.pdf"
   },
   {
-   "symbol": "COALINDIA",
-   "time": "29 Oct 18:18",
+   "symbol": "EICHERMOT",
+   "time": "01 Nov 17:28",
+   "category": "Monthly Business Updates",
+   "text": "Eicher Motors Limited has informed the Exchange regarding Monthly Business Updates for the month of October 2026",
+   "url": "https://nsearchives.nseindia.com/corporate/EICHERMOT_01112026172753_EMLMonthlyBusinessUpdate1stNovember2026Signed.pdf"
+  },
+  {
+   "symbol": "EICHERMOT",
+   "time": "01 Nov 11:11",
+   "category": "Monthly Business Updates",
+   "text": "Eicher Motors Limited has informed the Exchange regarding Monthly Business Updates for the month of October 2026 of VE Commercial Vehicles Limited, an unlisted material subsidiary of Eicher Motors Limited",
+   "url": "https://nsearchives.nseindia.com/corporate/Navneetnse_01112026111059_VECVOct26salesUpdate1stNov26UpdatedSigned.pdf"
+  },
+  {
+   "symbol": "M&M",
+   "time": "01 Nov 10:15",
+   "category": "Monthly Business Updates",
+   "text": "Mahindra & Mahindra Limited has informed the Exchange regarding Monthly Business Updates for the month of October 2026",
+   "url": "https://nsearchives.nseindia.com/corporate/ferozebaria_01112026101454_SEIntimationNovember2026PR.pdf"
+  },
+  {
+   "symbol": "JSWSTEEL",
+   "time": "01 Nov 02:05",
+   "category": "Amalgamation/Merger",
+   "text": "JSW Steel Limited has informed the Exchange about the Effectiveness of the Scheme of Amalgamation of Piombino Steel Limited with JSW Steel Limited and their respective shareholders",
+   "url": "https://nsearchives.nseindia.com/corporate/Supriya_01112026020456_SE_Intimation_PSL_Scheme.pdf"
+  },
+  {
+   "symbol": "HDFCBANK",
+   "time": "31 Oct 22:16",
+   "category": "Change in Management",
+   "text": "HDFC Bank Limited has informed the Exchange about change in Management",
+   "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_31102026221631_SE_INTIMATION-_Sanjay_Dsouza.pdf"
+  },
+  {
+   "symbol": "NTPC",
+   "time": "31 Oct 15:00",
    "category": "Record Date",
-   "text": "Coal India Limited has informed the Exchange that Record date for the purpose of Dividend  is 04-Nov-2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/COALINDIA_29102026181749_Dividend.pdf"
+   "text": "NTPC Limited has informed the Exchange that Record date for the purpose of Dividend  is 06-Nov-2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/NTPC_31102026145929_RECORDDATE_06112026_STEX.pdf"
   },
   {
-   "symbol": "COALINDIA",
-   "time": "29 Oct 18:14",
+   "symbol": "NTPC",
+   "time": "31 Oct 14:52",
+   "category": "Dividend",
+   "text": "NTPC Limited has informed the Exchange that Board of Directors at its meeting held on October 31, 2026, declared Interim Dividend of Rs. 3 per equity share.",
+   "url": "https://nsearchives.nseindia.com/corporate/9425178051_31102026145152_QFRQ2FY27_Final.pdf"
+  },
+  {
+   "symbol": "NTPC",
+   "time": "31 Oct 14:50",
    "category": "Outcome of Board Meeting",
-   "text": "Unaudited Financial Results of Coal India Limited (Standalone & Consolidated) for the 2nd Quarter and half year ended 30th Sep 26 and declaration of 2nd Interim Dividend for FY 2026-27",
-   "url": "https://nsearchives.nseindia.com/corporate/COALINDIA_29102026181236_Result.pdf"
+   "text": "NTPC Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/9425178051_31102026144738_QFRQ2FY27_Final.pdf"
   },
   {
-   "symbol": "ADANIPORTS",
-   "time": "29 Oct 16:50",
-   "category": "Credit Rating",
-   "text": "Adani Ports and Special Economic Zone Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.com/corporate/rkbhagia_29102026165003_SEINTIMATION.pdf"
-  },
-  {
-   "symbol": "SHADOWFAX",
-   "time": "29 Oct 16:44",
-   "category": "Monitoring Agency Report",
-   "text": "Monitoring Agency Report for the quarter and half year ended September 30, 2026",
-   "url": "https://nsearchives.nseindia.com/corporate/9900590024_29102026164407_Monitoring_Agency_report.pdf"
-  },
-  {
-   "symbol": "TRENT",
-   "time": "29 Oct 16:32",
-   "category": "Retirement",
-   "text": "Trent Limited has informed the Exchange about Retirement of Mr. Noel N Tata as the Chairman",
-   "url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026163122_AppointmentofDirector.pdf"
-  },
-  {
-   "symbol": "TRENT",
-   "time": "29 Oct 16:32",
-   "category": "Change in Director(s)",
-   "text": "Trent Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026163102_AppointmentofDirector.pdf"
-  },
-  {
-   "symbol": "TRENT",
-   "time": "29 Oct 16:32",
-   "category": "Appointment",
-   "text": "Trent Limited has informed the Exchange regarding Appointment of Mr Rajiv Dube as Non- Executive Director of the company w.e.f. October 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026163044_AppointmentofDirector.pdf"
-  },
-  {
-   "symbol": "TRENT",
-   "time": "29 Oct 16:32",
-   "category": "Appointment",
-   "text": "Trent Limited has informed the Exchange regarding Appointment of Mrs Kalpana Merchant as Non- Executive Independent Director of the company w.e.f. October 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026163140_AppointmentofDirector.pdf"
-  },
-  {
-   "symbol": "TRENT",
-   "time": "29 Oct 16:08",
+   "symbol": "NITINSPIN",
+   "time": "31 Oct 14:24",
    "category": "Outcome of Board Meeting",
-   "text": "Trent Limited has submitted to the Exchange about Outcome of Board Meeting held today i.e. 29th October 2026",
-   "url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026160446_DraftOutcomeofBM.pdf"
+   "text": "Nitin Spinners Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/NITINSPIN_31102026142230_RESULTS.pdf"
   }
  ],
  "events": [
-  "121 companies report results today."
+  "133 companies report results today."
  ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
@@ -283,12 +283,12 @@
  ],
  "community": null,
  "ai": {
-  "headline": "Weak Global Cues Suggest Soft Open Under Red Market Light",
+  "headline": "Weak global cues and red market light suggest a cautious opening",
   "points": [
-   "Global signals are negative with Kospi dropping 5.23% to 5627.31, setting a cautious opening tone for Indian equities today.",
-   "NIFTY closed at 22936.75 last session, above its pivot level of 22851.82, with support placed at S1 22741.68.",
-   "Brent crude declined 2.61% to 112.31, while traders monitor 121 corporate quarterly earnings announcements scheduled for today.",
-   "Asian markets are mixed as Nikkei fell 2.54% to 63019.78 while Hang Seng advanced 1.05% to 23199.72."
+   "Global signals lean negative at -0.74% overall, dragged down by US tech stocks like Nasdaq falling 2.86% to 25437.0.",
+   "NIFTY closed at 23053.1; watch key support S1 at 22932.77 and resistance R1 at 23145.77 under red market light rules.",
+   "In macro news, Brent crude dropped 6.21% to 110.34, while the US 10Y yield decreased 1.20% to 4.93.",
+   "Focus stays on 133 earnings reports today, plus POWERGRID and NTPC following their Rs. 3 per share interim dividend announcements."
   ]
  }
 }
