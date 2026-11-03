@@ -2,21 +2,12 @@
  "symbol": "DELHIVERY",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 2294.0,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 91.0,
-   "net_income_qoq_pct": null,
-   "eps": 1.22
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 2805.0,
-   "revenue_qoq_pct": 22.3,
+   "revenue_qoq_pct": null,
    "net_income_cr": 39.6,
-   "net_income_qoq_pct": -56.5,
+   "net_income_qoq_pct": null,
    "eps": 0.53
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 31.9,
    "net_income_qoq_pct": -55.9,
    "eps": 0.43
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 3066.4,
+   "revenue_qoq_pct": 4.6,
+   "net_income_cr": 40.6,
+   "net_income_qoq_pct": 27.3,
+   "eps": 0.54
   }
  ],
  "verification": null

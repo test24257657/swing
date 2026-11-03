@@ -2,7 +2,7 @@
  "symbol": "VEDPOWER",
  "name": "Vedanta Power Limited",
  "kind": "stock",
- "as_of": "2026-11-02",
+ "as_of": "2026-11-03",
  "bars": [
   {
    "time": "2026-06-15",
@@ -876,6 +876,15 @@
    "close": 34.53,
    "volume": 184456031,
    "delivery_pct": 12.96
+  },
+  {
+   "time": "2026-11-03",
+   "open": 34.53,
+   "high": 35.05,
+   "low": 33.72,
+   "close": 34.11,
+   "volume": 48641317,
+   "delivery_pct": 22.86
   }
  ],
  "ma": {
@@ -1191,6 +1200,10 @@
    {
     "time": "2026-11-02",
     "value": 31.14
+   },
+   {
+    "time": "2026-11-03",
+    "value": 31.26
    }
   ],
   "sma_50": [
@@ -1385,15 +1398,19 @@
    {
     "time": "2026-11-02",
     "value": 32.81
+   },
+   {
+    "time": "2026-11-03",
+    "value": 32.77
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.18,
-  "atr_pct": 5.45,
-  "rel_volume_20d": 4.54,
-  "dist_20dma_pct": 10.87,
-  "dist_50dma_pct": 5.25,
+  "rsi_14": 59.31,
+  "atr_pct": 5.4,
+  "rel_volume_20d": 0.99,
+  "dist_20dma_pct": 9.13,
+  "dist_50dma_pct": 4.1,
   "dist_200dma_pct": null
  }
 }

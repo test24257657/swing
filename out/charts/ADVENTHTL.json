@@ -2,7 +2,7 @@
  "symbol": "ADVENTHTL",
  "name": "Advent Hotels International Limited",
  "kind": "stock",
- "as_of": "2026-11-02",
+ "as_of": "2026-11-03",
  "bars": [
   {
    "time": "2025-11-13",
@@ -2154,6 +2154,15 @@
    "close": 125.79,
    "volume": 148259,
    "delivery_pct": 64.24
+  },
+  {
+   "time": "2026-11-03",
+   "open": 125.79,
+   "high": 126.5,
+   "low": 120.2,
+   "close": 122.27,
+   "volume": 100713,
+   "delivery_pct": 72.51
   }
  ],
  "ma": {
@@ -3037,6 +3046,10 @@
    {
     "time": "2026-11-02",
     "value": 121.29
+   },
+   {
+    "time": "2026-11-03",
+    "value": 121.25
    }
   ],
   "sma_50": [
@@ -3799,6 +3812,10 @@
    {
     "time": "2026-11-02",
     "value": 127.44
+   },
+   {
+    "time": "2026-11-03",
+    "value": 127.17
    }
   ],
   "sma_200": [
@@ -3961,15 +3978,19 @@
    {
     "time": "2026-11-02",
     "value": 153.65
+   },
+   {
+    "time": "2026-11-03",
+    "value": 153.12
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.18,
-  "atr_pct": 4.68,
-  "rel_volume_20d": 1.75,
-  "dist_20dma_pct": 3.71,
-  "dist_50dma_pct": -1.29,
-  "dist_200dma_pct": -18.13
+  "rsi_14": 48.69,
+  "atr_pct": 4.84,
+  "rel_volume_20d": 1.23,
+  "dist_20dma_pct": 0.84,
+  "dist_50dma_pct": -3.86,
+  "dist_200dma_pct": -20.15
  }
 }

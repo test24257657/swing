@@ -2,7 +2,7 @@
  "symbol": "MOSERVICE",
  "name": "MOSERVICE",
  "kind": "stock",
- "as_of": "2026-11-02",
+ "as_of": "2026-11-03",
  "bars": [
   {
    "time": "2025-11-27",
@@ -2064,6 +2064,15 @@
    "close": 31.12,
    "volume": 17376,
    "delivery_pct": 95.48
+  },
+  {
+   "time": "2026-11-03",
+   "open": 31.18,
+   "high": 31.5,
+   "low": 31.18,
+   "close": 31.49,
+   "volume": 11415,
+   "delivery_pct": 80.72
   }
  ],
  "ma": {
@@ -2907,6 +2916,10 @@
    {
     "time": "2026-11-02",
     "value": 29.97
+   },
+   {
+    "time": "2026-11-03",
+    "value": 30.09
    }
   ],
   "sma_50": [
@@ -3629,6 +3642,10 @@
    {
     "time": "2026-11-02",
     "value": 30.23
+   },
+   {
+    "time": "2026-11-03",
+    "value": 30.24
    }
   ],
   "sma_200": [
@@ -3751,15 +3768,19 @@
    {
     "time": "2026-11-02",
     "value": 30.98
+   },
+   {
+    "time": "2026-11-03",
+    "value": 30.96
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.64,
-  "atr_pct": 1.79,
-  "rel_volume_20d": 2.59,
-  "dist_20dma_pct": 3.83,
-  "dist_50dma_pct": 2.95,
-  "dist_200dma_pct": 0.47
+  "rsi_14": 64.97,
+  "atr_pct": 1.73,
+  "rel_volume_20d": 1.57,
+  "dist_20dma_pct": 4.67,
+  "dist_50dma_pct": 4.15,
+  "dist_200dma_pct": 1.7
  }
 }

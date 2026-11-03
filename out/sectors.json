@@ -1,1366 +1,1366 @@
 {
- "as_of": "2026-11-02",
+ "as_of": "2026-11-03",
  "benchmark": "NIFTY 500",
  "sectors": [
   {
    "name": "NIFTY IT",
    "slug": "NIFTY_IT",
    "rank": 1,
-   "rank_delta": 5,
-   "return_1w": 0.53,
-   "return_1m": 17.1,
-   "return_3m": 5.65,
+   "rank_delta": 2,
+   "return_1w": 1.13,
+   "return_1m": 15.0,
+   "return_3m": 2.64,
    "rs_tail": [
     {
-     "x": 94.5,
-     "y": 6.46
+     "x": 93.71,
+     "y": -0.8
     },
     {
-     "x": 99.51,
-     "y": 2.84
+     "x": 98.74,
+     "y": 1.16
     },
     {
-     "x": 101.54,
-     "y": -5.35
+     "x": 100.94,
+     "y": -5.79
     },
     {
-     "x": 107.03,
-     "y": -5.04
+     "x": 107.82,
+     "y": -1.96
     },
     {
-     "x": 118.59,
-     "y": -0.1
+     "x": 117.66,
+     "y": 2.57
     },
     {
-     "x": 113.34,
-     "y": 4.77
+     "x": 114.42,
+     "y": 4.39
     }
    ],
    "stock_count": 10,
-   "advancers": 4,
+   "advancers": 5,
    "constituents": [
     {
-     "symbol": "COFORGE",
-     "name": "Coforge Limited",
-     "ltp": 2099.0,
-     "change_pct": 2.64
-    },
-    {
-     "symbol": "MPHASIS",
-     "name": "MphasiS Limited",
-     "ltp": 2563.7,
-     "change_pct": 1.51
-    },
-    {
-     "symbol": "HCLTECH",
-     "name": "HCL Technologies Limited",
-     "ltp": 1434.0,
-     "change_pct": 0.41
-    },
-    {
-     "symbol": "PERSISTENT",
-     "name": "Persistent Systems Limited",
-     "ltp": 6051.0,
-     "change_pct": 0.05
-    },
-    {
-     "symbol": "LTM",
-     "name": "LTM Limited",
-     "ltp": 4233.5,
-     "change_pct": 0.0
-    },
-    {
-     "symbol": "TCS",
-     "name": "Tata Consultancy Services Limited",
-     "ltp": 2501.7,
-     "change_pct": -0.04
-    },
-    {
-     "symbol": "TECHM",
-     "name": "Tech Mahindra Limited",
-     "ltp": 1786.9,
-     "change_pct": -0.22
+     "symbol": "OFSS",
+     "name": "Oracle Financial Services Software Limited",
+     "ltp": 9910.0,
+     "change_pct": 1.7
     },
     {
      "symbol": "WIPRO",
      "name": "Wipro Limited",
-     "ltp": 196.4,
-     "change_pct": -0.96
+     "ltp": 198.0,
+     "change_pct": 0.81
+    },
+    {
+     "symbol": "PERSISTENT",
+     "name": "Persistent Systems Limited",
+     "ltp": 6097.0,
+     "change_pct": 0.76
+    },
+    {
+     "symbol": "HCLTECH",
+     "name": "HCL Technologies Limited",
+     "ltp": 1439.1,
+     "change_pct": 0.36
+    },
+    {
+     "symbol": "TECHM",
+     "name": "Tech Mahindra Limited",
+     "ltp": 1789.1,
+     "change_pct": 0.12
+    },
+    {
+     "symbol": "TCS",
+     "name": "Tata Consultancy Services Limited",
+     "ltp": 2499.1,
+     "change_pct": -0.1
+    },
+    {
+     "symbol": "LTM",
+     "name": "LTM Limited",
+     "ltp": 4213.0,
+     "change_pct": -0.48
     },
     {
      "symbol": "INFY",
      "name": "Infosys Limited",
-     "ltp": 1161.0,
-     "change_pct": -2.03
+     "ltp": 1148.1,
+     "change_pct": -1.11
     },
     {
-     "symbol": "OFSS",
-     "name": "Oracle Financial Services Software Limited",
-     "ltp": 9744.0,
-     "change_pct": -2.51
-    }
-   ]
-  },
-  {
-   "name": "NIFTY PSU BANK",
-   "slug": "NIFTY_PSU_BANK",
-   "rank": 2,
-   "rank_delta": 2,
-   "return_1w": 3.13,
-   "return_1m": 4.13,
-   "return_3m": -0.24,
-   "rs_tail": [
-    {
-     "x": 98.46,
-     "y": -2.39
+     "symbol": "MPHASIS",
+     "name": "MphasiS Limited",
+     "ltp": 2535.3,
+     "change_pct": -1.11
     },
     {
-     "x": 98.55,
-     "y": 3.36
-    },
-    {
-     "x": 100.99,
-     "y": 5.58
-    },
-    {
-     "x": 99.17,
-     "y": 2.89
-    },
-    {
-     "x": 102.75,
-     "y": 2.37
-    },
-    {
-     "x": 102.9,
-     "y": -1.6
-    }
-   ],
-   "stock_count": 12,
-   "advancers": 9,
-   "constituents": [
-    {
-     "symbol": "BANKBARODA",
-     "name": "Bank of Baroda",
-     "ltp": 245.16,
-     "change_pct": 2.75
-    },
-    {
-     "symbol": "CENTRALBK",
-     "name": "Central Bank of India",
-     "ltp": 29.5,
-     "change_pct": 2.68
-    },
-    {
-     "symbol": "SBIN",
-     "name": "State Bank of India",
-     "ltp": 987.0,
-     "change_pct": 2.61
-    },
-    {
-     "symbol": "PSB",
-     "name": "Punjab & Sind Bank",
-     "ltp": 19.04,
-     "change_pct": 2.04
-    },
-    {
-     "symbol": "UCOBANK",
-     "name": "UCO Bank",
-     "ltp": 22.49,
-     "change_pct": 1.95
-    },
-    {
-     "symbol": "IOB",
-     "name": "Indian Overseas Bank",
-     "ltp": 29.29,
-     "change_pct": 1.91
-    },
-    {
-     "symbol": "CANBK",
-     "name": "Canara Bank",
-     "ltp": 119.14,
-     "change_pct": 1.36
-    },
-    {
-     "symbol": "BANKINDIA",
-     "name": "Bank of India",
-     "ltp": 134.4,
-     "change_pct": 1.16
-    },
-    {
-     "symbol": "PNB",
-     "name": "Punjab National Bank",
-     "ltp": 123.06,
-     "change_pct": 0.17
-    },
-    {
-     "symbol": "UNIONBANK",
-     "name": "Union Bank of India",
-     "ltp": 186.0,
-     "change_pct": 0.0
-    },
-    {
-     "symbol": "INDIANB",
-     "name": "Indian Bank",
-     "ltp": 865.25,
-     "change_pct": -0.03
-    },
-    {
-     "symbol": "MAHABANK",
-     "name": "Bank of Maharashtra",
-     "ltp": 78.99,
-     "change_pct": -2.91
-    }
-   ]
-  },
-  {
-   "name": "NIFTY PHARMA",
-   "slug": "NIFTY_PHARMA",
-   "rank": 3,
-   "rank_delta": 2,
-   "return_1w": 5.16,
-   "return_1m": 2.52,
-   "return_3m": 2.15,
-   "rs_tail": [
-    {
-     "x": 106.01,
-     "y": 1.1
-    },
-    {
-     "x": 106.98,
-     "y": 4.41
-    },
-    {
-     "x": 105.05,
-     "y": -2.29
-    },
-    {
-     "x": 100.39,
-     "y": -2.58
-    },
-    {
-     "x": 102.6,
-     "y": -1.12
-    },
-    {
-     "x": 103.87,
-     "y": 2.48
-    }
-   ],
-   "stock_count": 20,
-   "advancers": 9,
-   "constituents": [
-    {
-     "symbol": "GLENMARK",
-     "name": "Glenmark Pharmaceuticals Limited",
-     "ltp": 2382.0,
-     "change_pct": 3.62
-    },
-    {
-     "symbol": "DIVISLAB",
-     "name": "Divi's Laboratories Limited",
-     "ltp": 9945.5,
-     "change_pct": 1.69
-    },
-    {
-     "symbol": "IPCALAB",
-     "name": "IPCA Laboratories Limited",
-     "ltp": 1949.9,
-     "change_pct": 1.15
-    },
-    {
-     "symbol": "BIOCON",
-     "name": "Biocon Limited",
-     "ltp": 354.7,
-     "change_pct": 0.82
-    },
-    {
-     "symbol": "ALKEM",
-     "name": "Alkem Laboratories Limited",
-     "ltp": 5155.0,
-     "change_pct": 0.81
-    },
-    {
-     "symbol": "ABBOTINDIA",
-     "name": "Abbott India Limited",
-     "ltp": 25820.0,
-     "change_pct": 0.72
-    },
-    {
-     "symbol": "CIPLA",
-     "name": "Cipla Limited",
-     "ltp": 1387.0,
-     "change_pct": 0.59
-    },
-    {
-     "symbol": "PPLPHARMA",
-     "name": "Piramal Pharma Limited",
-     "ltp": 239.92,
-     "change_pct": 0.42
-    },
-    {
-     "symbol": "AUROPHARMA",
-     "name": "Aurobindo Pharma Limited",
-     "ltp": 1683.8,
-     "change_pct": 0.14
-    },
-    {
-     "symbol": "WOCKPHARMA",
-     "name": "Wockhardt Limited",
-     "ltp": 1896.5,
-     "change_pct": -0.24
-    },
-    {
-     "symbol": "TORNTPHARM",
-     "name": "Torrent Pharmaceuticals Limited",
-     "ltp": 4595.0,
-     "change_pct": -0.4
-    },
-    {
-     "symbol": "ZYDUSLIFE",
-     "name": "Zydus Lifesciences Limited",
-     "ltp": 1240.5,
-     "change_pct": -0.4
-    },
-    {
-     "symbol": "SUNPHARMA",
-     "name": "Sun Pharmaceutical Industries Limited",
-     "ltp": 1770.0,
-     "change_pct": -0.43
-    },
-    {
-     "symbol": "MANKIND",
-     "name": "Mankind Pharma Limited",
-     "ltp": 2481.2,
-     "change_pct": -0.47
-    },
-    {
-     "symbol": "LUPIN",
-     "name": "Lupin Limited",
-     "ltp": 1996.5,
-     "change_pct": -0.72
-    },
-    {
-     "symbol": "DRREDDY",
-     "name": "Dr. Reddy's Laboratories Limited",
-     "ltp": 1342.0,
-     "change_pct": -0.74
-    },
-    {
-     "symbol": "GLAND",
-     "name": "Gland Pharma Limited",
-     "ltp": 3066.6,
-     "change_pct": -0.95
-    },
-    {
-     "symbol": "SAILIFE",
-     "name": "Sai Life Sciences Limited",
-     "ltp": 1542.3,
-     "change_pct": -0.98
-    },
-    {
-     "symbol": "LAURUSLABS",
-     "name": "Laurus Labs Limited",
-     "ltp": 2348.0,
-     "change_pct": -2.39
-    },
-    {
-     "symbol": "AJANTPHARM",
-     "name": "Ajanta Pharma Limited",
-     "ltp": 3396.3,
-     "change_pct": -3.21
+     "symbol": "COFORGE",
+     "name": "Coforge Limited",
+     "ltp": 2060.8,
+     "change_pct": -1.82
     }
    ]
   },
   {
    "name": "NIFTY MEDIA",
    "slug": "NIFTY_MEDIA",
-   "rank": 4,
-   "rank_delta": -3,
-   "return_1w": 3.9,
-   "return_1m": 2.25,
-   "return_3m": 0.02,
+   "rank": 2,
+   "rank_delta": -1,
+   "return_1w": 0.73,
+   "return_1m": 5.21,
+   "return_3m": 3.71,
    "rs_tail": [
     {
-     "x": 103.97,
-     "y": 2.08
+     "x": 103.05,
+     "y": -0.42
     },
     {
-     "x": 104.21,
-     "y": 6.26
+     "x": 103.0,
+     "y": 2.23
     },
     {
-     "x": 103.88,
-     "y": 0.51
+     "x": 109.5,
+     "y": 5.08
     },
     {
-     "x": 112.04,
-     "y": 11.11
+     "x": 111.12,
+     "y": 11.4
     },
     {
-     "x": 108.45,
-     "y": 6.83
+     "x": 111.12,
+     "y": 9.0
     },
     {
-     "x": 107.56,
-     "y": 0.45
-    }
-   ],
-   "stock_count": 10,
-   "advancers": 6,
-   "constituents": [
-    {
-     "symbol": "NETWORK18",
-     "name": "Network18 Media & Investments Limited",
-     "ltp": 24.9,
-     "change_pct": 4.84
-    },
-    {
-     "symbol": "DBCORP",
-     "name": "D.B.Corp Limited",
-     "ltp": 147.12,
-     "change_pct": 2.78
-    },
-    {
-     "symbol": "PVRINOX",
-     "name": "PVR INOX Limited",
-     "ltp": 1512.7,
-     "change_pct": 1.18
-    },
-    {
-     "symbol": "HATHWAY",
-     "name": "Hathway Cable & Datacom Limited",
-     "ltp": 9.14,
-     "change_pct": 0.99
-    },
-    {
-     "symbol": "NAZARA",
-     "name": "Nazara Technologies Limited",
-     "ltp": 401.65,
-     "change_pct": 0.71
-    },
-    {
-     "symbol": "TIPSMUSIC",
-     "name": "Tips Music Limited",
-     "ltp": 784.95,
-     "change_pct": 0.37
-    },
-    {
-     "symbol": "SAREGAMA",
-     "name": "Saregama India Limited",
-     "ltp": 545.9,
-     "change_pct": -0.5
-    },
-    {
-     "symbol": "PFOCUS",
-     "name": "Prime Focus Limited",
-     "ltp": 281.25,
-     "change_pct": -2.38
-    },
-    {
-     "symbol": "SUNTV",
-     "name": "Sun TV Network Limited",
-     "ltp": 591.4,
-     "change_pct": -2.66
-    },
-    {
-     "symbol": "ZEEL",
-     "name": "Zee Entertainment Enterprises Limited",
-     "ltp": 61.58,
-     "change_pct": -7.26
-    }
-   ]
-  },
-  {
-   "name": "NIFTY HEALTHCARE INDEX",
-   "slug": "NIFTY_HEALTHCARE_INDEX",
-   "rank": 5,
-   "rank_delta": 2,
-   "return_1w": 5.24,
-   "return_1m": 2.12,
-   "return_3m": -1.65,
-   "rs_tail": [
-    {
-     "x": 105.75,
-     "y": 0.51
-    },
-    {
-     "x": 104.92,
-     "y": 2.96
-    },
-    {
-     "x": 102.99,
-     "y": -3.33
-    },
-    {
-     "x": 98.35,
-     "y": -3.36
-    },
-    {
-     "x": 100.34,
-     "y": -0.76
-    },
-    {
-     "x": 101.55,
-     "y": 1.98
-    }
-   ],
-   "stock_count": 20,
-   "advancers": 12,
-   "constituents": [
-    {
-     "symbol": "GLENMARK",
-     "name": "Glenmark Pharmaceuticals Limited",
-     "ltp": 2382.0,
-     "change_pct": 3.62
-    },
-    {
-     "symbol": "MAXHEALTH",
-     "name": "Max Healthcare Institute Limited",
-     "ltp": 884.75,
-     "change_pct": 2.88
-    },
-    {
-     "symbol": "SYNGENE",
-     "name": "Syngene International Limited",
-     "ltp": 412.95,
-     "change_pct": 2.55
-    },
-    {
-     "symbol": "DIVISLAB",
-     "name": "Divi's Laboratories Limited",
-     "ltp": 9945.5,
-     "change_pct": 1.69
-    },
-    {
-     "symbol": "IPCALAB",
-     "name": "IPCA Laboratories Limited",
-     "ltp": 1949.9,
-     "change_pct": 1.15
-    },
-    {
-     "symbol": "BIOCON",
-     "name": "Biocon Limited",
-     "ltp": 354.7,
-     "change_pct": 0.82
-    },
-    {
-     "symbol": "ALKEM",
-     "name": "Alkem Laboratories Limited",
-     "ltp": 5155.0,
-     "change_pct": 0.81
-    },
-    {
-     "symbol": "ABBOTINDIA",
-     "name": "Abbott India Limited",
-     "ltp": 25820.0,
-     "change_pct": 0.72
-    },
-    {
-     "symbol": "CIPLA",
-     "name": "Cipla Limited",
-     "ltp": 1387.0,
-     "change_pct": 0.59
-    },
-    {
-     "symbol": "PPLPHARMA",
-     "name": "Piramal Pharma Limited",
-     "ltp": 239.92,
-     "change_pct": 0.42
-    },
-    {
-     "symbol": "AUROPHARMA",
-     "name": "Aurobindo Pharma Limited",
-     "ltp": 1683.8,
-     "change_pct": 0.14
-    },
-    {
-     "symbol": "APOLLOHOSP",
-     "name": "Apollo Hospitals Enterprise Limited",
-     "ltp": 8459.0,
-     "change_pct": 0.13
-    },
-    {
-     "symbol": "TORNTPHARM",
-     "name": "Torrent Pharmaceuticals Limited",
-     "ltp": 4595.0,
-     "change_pct": -0.4
-    },
-    {
-     "symbol": "ZYDUSLIFE",
-     "name": "Zydus Lifesciences Limited",
-     "ltp": 1240.5,
-     "change_pct": -0.4
-    },
-    {
-     "symbol": "SUNPHARMA",
-     "name": "Sun Pharmaceutical Industries Limited",
-     "ltp": 1770.0,
-     "change_pct": -0.43
-    },
-    {
-     "symbol": "MANKIND",
-     "name": "Mankind Pharma Limited",
-     "ltp": 2481.2,
-     "change_pct": -0.47
-    },
-    {
-     "symbol": "LUPIN",
-     "name": "Lupin Limited",
-     "ltp": 1996.5,
-     "change_pct": -0.72
-    },
-    {
-     "symbol": "DRREDDY",
-     "name": "Dr. Reddy's Laboratories Limited",
-     "ltp": 1342.0,
-     "change_pct": -0.74
-    },
-    {
-     "symbol": "FORTIS",
-     "name": "Fortis Healthcare Limited",
-     "ltp": 761.5,
-     "change_pct": -0.87
-    },
-    {
-     "symbol": "LAURUSLABS",
-     "name": "Laurus Labs Limited",
-     "ltp": 2348.0,
-     "change_pct": -2.39
-    }
-   ]
-  },
-  {
-   "name": "NIFTY PRIVATE BANK",
-   "slug": "NIFTY_PRIVATE_BANK",
-   "rank": 6,
-   "rank_delta": -4,
-   "return_1w": 0.71,
-   "return_1m": 1.2,
-   "return_3m": -1.84,
-   "rs_tail": [
-    {
-     "x": 102.5,
-     "y": -1.65
-    },
-    {
-     "x": 104.99,
-     "y": 4.89
-    },
-    {
-     "x": 105.76,
-     "y": 8.77
-    },
-    {
-     "x": 104.63,
-     "y": 8.0
-    },
-    {
-     "x": 104.73,
-     "y": 10.28
-    },
-    {
-     "x": 101.28,
-     "y": 4.86
-    }
-   ],
-   "stock_count": 10,
-   "advancers": 6,
-   "constituents": [
-    {
-     "symbol": "YESBANK",
-     "name": "Yes Bank Limited",
-     "ltp": 15.57,
-     "change_pct": 2.77
-    },
-    {
-     "symbol": "IDFCFIRSTB",
-     "name": "IDFC First Bank Limited",
-     "ltp": 73.63,
-     "change_pct": 2.26
-    },
-    {
-     "symbol": "HDFCBANK",
-     "name": "HDFC Bank Limited",
-     "ltp": 700.0,
-     "change_pct": 1.04
-    },
-    {
-     "symbol": "BANDHANBNK",
-     "name": "Bandhan Bank Limited",
-     "ltp": 155.25,
-     "change_pct": 0.6
-    },
-    {
-     "symbol": "RBLBANK",
-     "name": "RBL Bank Limited",
-     "ltp": 352.2,
-     "change_pct": 0.34
-    },
-    {
-     "symbol": "INDUSINDBK",
-     "name": "IndusInd Bank Limited",
-     "ltp": 838.5,
-     "change_pct": 0.06
-    },
-    {
-     "symbol": "FEDERALBNK",
-     "name": "The Federal Bank  Limited",
-     "ltp": 337.5,
-     "change_pct": -0.65
-    },
-    {
-     "symbol": "AXISBANK",
-     "name": "Axis Bank Limited",
-     "ltp": 1209.0,
-     "change_pct": -0.66
-    },
-    {
-     "symbol": "KOTAKBANK",
-     "name": "Kotak Mahindra Bank Limited",
-     "ltp": 458.35,
-     "change_pct": -0.7
-    },
-    {
-     "symbol": "ICICIBANK",
-     "name": "ICICI Bank Limited",
-     "ltp": 1387.4,
-     "change_pct": -0.76
-    }
-   ]
-  },
-  {
-   "name": "NIFTY ENERGY",
-   "slug": "NIFTY_ENERGY",
-   "rank": 7,
-   "rank_delta": 1,
-   "return_1w": 3.73,
-   "return_1m": -0.84,
-   "return_3m": -6.2,
-   "rs_tail": [
-    {
-     "x": 101.13,
-     "y": 6.61
-    },
-    {
-     "x": 102.12,
-     "y": 6.51
-    },
-    {
-     "x": 101.2,
-     "y": 7.43
-    },
-    {
-     "x": 99.24,
-     "y": 6.16
-    },
-    {
-     "x": 97.07,
-     "y": 1.96
-    },
-    {
-     "x": 98.99,
-     "y": 2.57
-    }
-   ],
-   "stock_count": 40,
-   "advancers": 38,
-   "constituents": [
-    {
-     "symbol": "RELIANCE",
-     "name": "Reliance Industries Limited",
-     "ltp": 1300.0,
-     "change_pct": 11.6
-    },
-    {
-     "symbol": "INOXWIND",
-     "name": "Inox Wind Limited",
-     "ltp": 59.78,
-     "change_pct": 8.3
-    },
-    {
-     "symbol": "JPPOWER",
-     "name": "Jaiprakash Power Ventures Limited",
-     "ltp": 13.54,
-     "change_pct": 6.45
-    },
-    {
-     "symbol": "SJVN",
-     "name": "SJVN Limited",
-     "ltp": 56.5,
-     "change_pct": 5.83
-    },
-    {
-     "symbol": "GAIL",
-     "name": "GAIL (India) Limited",
-     "ltp": 177.0,
-     "change_pct": 5.41
-    },
-    {
-     "symbol": "COALINDIA",
-     "name": "Coal India Limited",
-     "ltp": 408.0,
-     "change_pct": 4.88
-    },
-    {
-     "symbol": "ENRIN",
-     "name": "Siemens Energy India Limited",
-     "ltp": 2939.4,
-     "change_pct": 4.85
-    },
-    {
-     "symbol": "NLCINDIA",
-     "name": "NLC India Limited",
-     "ltp": 238.49,
-     "change_pct": 4.62
-    },
-    {
-     "symbol": "CASTROLIND",
-     "name": "Castrol India Limited",
-     "ltp": 196.49,
-     "change_pct": 4.52
-    },
-    {
-     "symbol": "ONGC",
-     "name": "Oil & Natural Gas Corporation Limited",
-     "ltp": 234.83,
-     "change_pct": 4.19
-    },
-    {
-     "symbol": "SUZLON",
-     "name": "Suzlon Energy Limited",
-     "ltp": 35.25,
-     "change_pct": 3.98
-    },
-    {
-     "symbol": "PETRONET",
-     "name": "Petronet LNG Limited",
-     "ltp": 300.95,
-     "change_pct": 3.96
-    },
-    {
-     "symbol": "TORNTPOWER",
-     "name": "Torrent Power Limited",
-     "ltp": 1218.7,
-     "change_pct": 3.9
-    },
-    {
-     "symbol": "GVT&D",
-     "name": "GE Vernova T&D India Limited",
-     "ltp": 4175.5,
-     "change_pct": 3.87
-    },
-    {
-     "symbol": "RPOWER",
-     "name": "Reliance Power Limited",
-     "ltp": 18.57,
-     "change_pct": 3.69
-    },
-    {
-     "symbol": "IOC",
-     "name": "Indian Oil Corporation Limited",
-     "ltp": 134.59,
-     "change_pct": 3.41
-    },
-    {
-     "symbol": "ADANIPOWER",
-     "name": "Adani Power Limited",
-     "ltp": 195.35,
-     "change_pct": 3.36
-    },
-    {
-     "symbol": "POWERINDIA",
-     "name": "Hitachi Energy India Limited",
-     "ltp": 28080.0,
-     "change_pct": 3.14
-    },
-    {
-     "symbol": "TATAPOWER",
-     "name": "Tata Power Company Limited",
-     "ltp": 355.9,
-     "change_pct": 3.14
-    },
-    {
-     "symbol": "SIEMENS",
-     "name": "Siemens Limited",
-     "ltp": 3404.9,
-     "change_pct": 3.09
-    },
-    {
-     "symbol": "ADANIGREEN",
-     "name": "Adani Green Energy Limited",
-     "ltp": 1337.0,
-     "change_pct": 2.95
-    },
-    {
-     "symbol": "ABB",
-     "name": "ABB India Limited",
-     "ltp": 6600.0,
-     "change_pct": 2.92
-    },
-    {
-     "symbol": "BPCL",
-     "name": "Bharat Petroleum Corporation Limited",
-     "ltp": 293.05,
-     "change_pct": 2.86
-    },
-    {
-     "symbol": "ATGL",
-     "name": "Adani Total Gas Limited",
-     "ltp": 549.6,
-     "change_pct": 2.83
-    },
-    {
-     "symbol": "HINDPETRO",
-     "name": "Hindustan Petroleum Corporation Limited",
-     "ltp": 348.0,
-     "change_pct": 2.19
-    },
-    {
-     "symbol": "NTPC",
-     "name": "NTPC Limited",
-     "ltp": 323.0,
-     "change_pct": 2.13
-    },
-    {
-     "symbol": "ADANIENSOL",
-     "name": "Adani Energy Solutions Limited",
-     "ltp": 1377.9,
-     "change_pct": 2.1
-    },
-    {
-     "symbol": "CGPOWER",
-     "name": "CG Power and Industrial Solutions Limited",
-     "ltp": 820.1,
-     "change_pct": 2.0
-    },
-    {
-     "symbol": "BHEL",
-     "name": "Bharat Heavy Electricals Limited",
-     "ltp": 394.95,
-     "change_pct": 1.9
-    },
-    {
-     "symbol": "OIL",
-     "name": "Oil India Limited",
-     "ltp": 461.9,
-     "change_pct": 1.74
-    },
-    {
-     "symbol": "NAVA",
-     "name": "NAVA LIMITED",
-     "ltp": 516.65,
-     "change_pct": 1.54
-    },
-    {
-     "symbol": "CESC",
-     "name": "CESC Limited",
-     "ltp": 126.47,
-     "change_pct": 1.48
-    },
-    {
-     "symbol": "NHPC",
-     "name": "NHPC Limited",
-     "ltp": 78.78,
-     "change_pct": 1.34
-    },
-    {
-     "symbol": "NTPCGREEN",
-     "name": "NTPC Green Energy Limited",
-     "ltp": 83.42,
-     "change_pct": 1.19
-    },
-    {
-     "symbol": "JSWENERGY",
-     "name": "JSW Energy Limited",
-     "ltp": 505.5,
-     "change_pct": 1.03
-    },
-    {
-     "symbol": "POWERGRID",
-     "name": "Power Grid Corporation of India Limited",
-     "ltp": 267.7,
-     "change_pct": 1.02
-    },
-    {
-     "symbol": "THERMAX",
-     "name": "Thermax Limited",
-     "ltp": 3134.9,
-     "change_pct": 0.73
-    },
-    {
-     "symbol": "AEGISLOG",
-     "name": "Aegis Logistics Limited",
-     "ltp": 1100.1,
-     "change_pct": 0.31
-    },
-    {
-     "symbol": "MGL",
-     "name": "Mahanagar Gas Limited",
-     "ltp": 1037.9,
-     "change_pct": -1.01
-    },
-    {
-     "symbol": "IGL",
-     "name": "Indraprastha Gas Limited",
-     "ltp": 132.92,
-     "change_pct": -4.5
-    }
-   ]
-  },
-  {
-   "name": "NIFTY FMCG",
-   "slug": "NIFTY_FMCG",
-   "rank": 8,
-   "rank_delta": -5,
-   "return_1w": 2.74,
-   "return_1m": -1.2,
-   "return_3m": -10.48,
-   "rs_tail": [
-    {
-     "x": 99.18,
-     "y": 3.14
-    },
-    {
-     "x": 98.69,
-     "y": 0.48
-    },
-    {
-     "x": 102.29,
-     "y": 3.77
-    },
-    {
-     "x": 100.61,
-     "y": 3.1
-    },
-    {
-     "x": 100.37,
-     "y": 5.72
-    },
-    {
-     "x": 98.29,
-     "y": 3.52
-    }
-   ],
-   "stock_count": 15,
-   "advancers": 11,
-   "constituents": [
-    {
-     "symbol": "EMAMILTD",
-     "name": "Emami Limited",
-     "ltp": 372.2,
-     "change_pct": 3.46
-    },
-    {
-     "symbol": "NESTLEIND",
-     "name": "Nestle India Limited",
-     "ltp": 1195.0,
-     "change_pct": 2.4
-    },
-    {
-     "symbol": "DABUR",
-     "name": "Dabur India Limited",
-     "ltp": 373.9,
-     "change_pct": 2.27
-    },
-    {
-     "symbol": "HINDUNILVR",
-     "name": "Hindustan Unilever Limited",
-     "ltp": 1898.3,
-     "change_pct": 1.81
-    },
-    {
-     "symbol": "VBL",
-     "name": "Varun Beverages Limited",
-     "ltp": 397.15,
-     "change_pct": 1.31
-    },
-    {
-     "symbol": "PATANJALI",
-     "name": "Patanjali Foods Limited",
-     "ltp": 369.0,
-     "change_pct": 1.14
-    },
-    {
-     "symbol": "UNITDSPR",
-     "name": "United Spirits Limited",
-     "ltp": 1346.2,
-     "change_pct": 0.94
-    },
-    {
-     "symbol": "GODREJCP",
-     "name": "Godrej Consumer Products Limited",
-     "ltp": 821.5,
-     "change_pct": 0.43
-    },
-    {
-     "symbol": "RADICO",
-     "name": "Radico Khaitan Limited",
-     "ltp": 4100.0,
-     "change_pct": 0.33
-    },
-    {
-     "symbol": "ITC",
-     "name": "ITC Limited",
-     "ltp": 266.4,
-     "change_pct": 0.3
-    },
-    {
-     "symbol": "TATACONSUM",
-     "name": "TATA CONSUMER PRODUCTS LIMITED",
-     "ltp": 1028.9,
-     "change_pct": 0.29
-    },
-    {
-     "symbol": "BRITANNIA",
-     "name": "Britannia Industries Limited",
-     "ltp": 4635.0,
-     "change_pct": -0.11
-    },
-    {
-     "symbol": "MARICO",
-     "name": "Marico Limited",
-     "ltp": 798.55,
-     "change_pct": -0.18
-    },
-    {
-     "symbol": "UBL",
-     "name": "United Breweries Limited",
-     "ltp": 1178.1,
-     "change_pct": -0.19
-    },
-    {
-     "symbol": "COLPAL",
-     "name": "Colgate Palmolive (India) Limited",
-     "ltp": 1575.0,
-     "change_pct": -1.35
-    }
-   ]
-  },
-  {
-   "name": "NIFTY AUTO",
-   "slug": "NIFTY_AUTO",
-   "rank": 9,
-   "rank_delta": 3,
-   "return_1w": 3.16,
-   "return_1m": -2.03,
-   "return_3m": -10.38,
-   "rs_tail": [
-    {
-     "x": 95.55,
-     "y": -3.39
-    },
-    {
-     "x": 93.06,
-     "y": -8.31
-    },
-    {
-     "x": 92.36,
-     "y": -9.36
-    },
-    {
-     "x": 96.03,
-     "y": -10.76
-    },
-    {
-     "x": 95.94,
-     "y": -10.37
-    },
-    {
-     "x": 96.61,
-     "y": -9.66
-    }
-   ],
-   "stock_count": 15,
-   "advancers": 13,
-   "constituents": [
-    {
-     "symbol": "UNOMINDA",
-     "name": "UNO Minda Limited",
-     "ltp": 1118.7,
-     "change_pct": 3.34
-    },
-    {
-     "symbol": "ASHOKLEY",
-     "name": "Ashok Leyland Limited",
-     "ltp": 149.2,
-     "change_pct": 3.02
-    },
-    {
-     "symbol": "TIINDIA",
-     "name": "Tube Investments of India Limited",
-     "ltp": 2179.0,
-     "change_pct": 2.78
-    },
-    {
-     "symbol": "TMPV",
-     "name": "Tata Motors Passenger Vehicles Limited",
-     "ltp": 272.4,
-     "change_pct": 2.64
-    },
-    {
-     "symbol": "MARUTI",
-     "name": "Maruti Suzuki India Limited",
-     "ltp": 11672.0,
-     "change_pct": 2.41
-    },
-    {
-     "symbol": "BHARATFORG",
-     "name": "Bharat Forge Limited",
-     "ltp": 1753.4,
-     "change_pct": 1.94
-    },
-    {
-     "symbol": "BOSCHLTD",
-     "name": "Bosch Limited",
-     "ltp": 48100.0,
-     "change_pct": 1.91
-    },
-    {
-     "symbol": "SONACOMS",
-     "name": "Sona BLW Precision Forgings Limited",
-     "ltp": 905.95,
-     "change_pct": 1.73
-    },
-    {
-     "symbol": "MOTHERSON",
-     "name": "Samvardhana Motherson International Limited",
-     "ltp": 159.0,
-     "change_pct": 1.6
-    },
-    {
-     "symbol": "M&M",
-     "name": "Mahindra & Mahindra Limited",
-     "ltp": 2868.8,
-     "change_pct": 1.0
-    },
-    {
-     "symbol": "EXIDEIND",
-     "name": "Exide Industries Limited",
-     "ltp": 338.2,
-     "change_pct": 0.8
-    },
-    {
-     "symbol": "HEROMOTOCO",
-     "name": "Hero MotoCorp Limited",
-     "ltp": 5193.0,
-     "change_pct": 0.5
-    },
-    {
-     "symbol": "TVSMOTOR",
-     "name": "TVS Motor Company Limited",
-     "ltp": 4213.0,
-     "change_pct": 0.42
-    },
-    {
-     "symbol": "EICHERMOT",
-     "name": "Eicher Motors Limited",
-     "ltp": 7213.0,
-     "change_pct": -0.1
-    },
-    {
-     "symbol": "BAJAJ-AUTO",
-     "name": "Bajaj Auto Limited",
-     "ltp": 10339.0,
-     "change_pct": -0.11
-    }
-   ]
-  },
-  {
-   "name": "NIFTY REALTY",
-   "slug": "NIFTY_REALTY",
-   "rank": 10,
-   "rank_delta": 1,
-   "return_1w": 4.12,
-   "return_1m": -2.96,
-   "return_3m": -8.79,
-   "rs_tail": [
-    {
-     "x": 101.62,
-     "y": -11.3
-    },
-    {
-     "x": 99.78,
-     "y": -12.95
-    },
-    {
-     "x": 95.17,
-     "y": -13.92
-    },
-    {
-     "x": 96.43,
-     "y": -10.79
-    },
-    {
-     "x": 96.2,
-     "y": -4.85
-    },
-    {
-     "x": 100.39,
-     "y": 0.27
+     "x": 106.19,
+     "y": -1.07
     }
    ],
    "stock_count": 10,
    "advancers": 7,
    "constituents": [
     {
-     "symbol": "GODREJPROP",
-     "name": "Godrej Properties Limited",
-     "ltp": 1631.5,
-     "change_pct": 4.05
+     "symbol": "SAREGAMA",
+     "name": "Saregama India Limited",
+     "ltp": 562.2,
+     "change_pct": 2.99
     },
     {
-     "symbol": "ABREL",
-     "name": "Aditya Birla Real Estate Limited",
-     "ltp": 1035.0,
-     "change_pct": 3.1
+     "symbol": "PFOCUS",
+     "name": "Prime Focus Limited",
+     "ltp": 289.55,
+     "change_pct": 2.95
     },
     {
-     "symbol": "PHOENIXLTD",
-     "name": "The Phoenix Mills Limited",
-     "ltp": 2016.6,
-     "change_pct": 3.03
+     "symbol": "NETWORK18",
+     "name": "Network18 Media & Investments Limited",
+     "ltp": 25.44,
+     "change_pct": 2.17
+    },
+    {
+     "symbol": "PVRINOX",
+     "name": "PVR INOX Limited",
+     "ltp": 1524.0,
+     "change_pct": 0.75
+    },
+    {
+     "symbol": "DBCORP",
+     "name": "D.B.Corp Limited",
+     "ltp": 147.89,
+     "change_pct": 0.52
+    },
+    {
+     "symbol": "TIPSMUSIC",
+     "name": "Tips Music Limited",
+     "ltp": 787.25,
+     "change_pct": 0.29
+    },
+    {
+     "symbol": "ZEEL",
+     "name": "Zee Entertainment Enterprises Limited",
+     "ltp": 61.67,
+     "change_pct": 0.15
+    },
+    {
+     "symbol": "HATHWAY",
+     "name": "Hathway Cable & Datacom Limited",
+     "ltp": 9.13,
+     "change_pct": -0.11
+    },
+    {
+     "symbol": "SUNTV",
+     "name": "Sun TV Network Limited",
+     "ltp": 588.5,
+     "change_pct": -0.49
+    },
+    {
+     "symbol": "NAZARA",
+     "name": "Nazara Technologies Limited",
+     "ltp": 399.2,
+     "change_pct": -0.61
+    }
+   ]
+  },
+  {
+   "name": "NIFTY FMCG",
+   "slug": "NIFTY_FMCG",
+   "rank": 3,
+   "rank_delta": 2,
+   "return_1w": 5.71,
+   "return_1m": 4.09,
+   "return_3m": -8.78,
+   "rs_tail": [
+    {
+     "x": 98.46,
+     "y": 1.29
+    },
+    {
+     "x": 99.67,
+     "y": 2.87
+    },
+    {
+     "x": 100.93,
+     "y": 1.82
+    },
+    {
+     "x": 100.95,
+     "y": 2.99
+    },
+    {
+     "x": 100.77,
+     "y": 5.09
+    },
+    {
+     "x": 101.67,
+     "y": 6.79
+    }
+   ],
+   "stock_count": 15,
+   "advancers": 15,
+   "constituents": [
+    {
+     "symbol": "MARICO",
+     "name": "Marico Limited",
+     "ltp": 878.4,
+     "change_pct": 10.0
+    },
+    {
+     "symbol": "BRITANNIA",
+     "name": "Britannia Industries Limited",
+     "ltp": 4930.0,
+     "change_pct": 6.36
+    },
+    {
+     "symbol": "NESTLEIND",
+     "name": "Nestle India Limited",
+     "ltp": 1248.4,
+     "change_pct": 4.47
+    },
+    {
+     "symbol": "TATACONSUM",
+     "name": "TATA CONSUMER PRODUCTS LIMITED",
+     "ltp": 1073.0,
+     "change_pct": 4.29
+    },
+    {
+     "symbol": "RADICO",
+     "name": "Radico Khaitan Limited",
+     "ltp": 4250.0,
+     "change_pct": 3.66
+    },
+    {
+     "symbol": "COLPAL",
+     "name": "Colgate Palmolive (India) Limited",
+     "ltp": 1631.7,
+     "change_pct": 3.6
+    },
+    {
+     "symbol": "HINDUNILVR",
+     "name": "Hindustan Unilever Limited",
+     "ltp": 1962.8,
+     "change_pct": 3.4
+    },
+    {
+     "symbol": "ITC",
+     "name": "ITC Limited",
+     "ltp": 273.9,
+     "change_pct": 2.82
+    },
+    {
+     "symbol": "VBL",
+     "name": "Varun Beverages Limited",
+     "ltp": 408.15,
+     "change_pct": 2.77
+    },
+    {
+     "symbol": "EMAMILTD",
+     "name": "Emami Limited",
+     "ltp": 382.0,
+     "change_pct": 2.63
+    },
+    {
+     "symbol": "UNITDSPR",
+     "name": "United Spirits Limited",
+     "ltp": 1380.9,
+     "change_pct": 2.58
+    },
+    {
+     "symbol": "DABUR",
+     "name": "Dabur India Limited",
+     "ltp": 381.65,
+     "change_pct": 2.07
+    },
+    {
+     "symbol": "PATANJALI",
+     "name": "Patanjali Foods Limited",
+     "ltp": 374.9,
+     "change_pct": 1.6
+    },
+    {
+     "symbol": "GODREJCP",
+     "name": "Godrej Consumer Products Limited",
+     "ltp": 830.0,
+     "change_pct": 1.03
+    },
+    {
+     "symbol": "UBL",
+     "name": "United Breweries Limited",
+     "ltp": 1189.8,
+     "change_pct": 0.99
+    }
+   ]
+  },
+  {
+   "name": "NIFTY PSU BANK",
+   "slug": "NIFTY_PSU_BANK",
+   "rank": 4,
+   "rank_delta": 2,
+   "return_1w": 1.41,
+   "return_1m": 3.82,
+   "return_3m": -2.89,
+   "rs_tail": [
+    {
+     "x": 98.78,
+     "y": 0.23
+    },
+    {
+     "x": 99.54,
+     "y": 3.9
+    },
+    {
+     "x": 100.62,
+     "y": 6.39
+    },
+    {
+     "x": 102.31,
+     "y": 3.77
+    },
+    {
+     "x": 102.14,
+     "y": 0.92
+    },
+    {
+     "x": 100.49,
+     "y": -2.54
+    }
+   ],
+   "stock_count": 12,
+   "advancers": 3,
+   "constituents": [
+    {
+     "symbol": "MAHABANK",
+     "name": "Bank of Maharashtra",
+     "ltp": 80.6,
+     "change_pct": 2.04
+    },
+    {
+     "symbol": "UCOBANK",
+     "name": "UCO Bank",
+     "ltp": 22.6,
+     "change_pct": 0.49
+    },
+    {
+     "symbol": "IOB",
+     "name": "Indian Overseas Bank",
+     "ltp": 29.32,
+     "change_pct": 0.1
+    },
+    {
+     "symbol": "PSB",
+     "name": "Punjab & Sind Bank",
+     "ltp": 19.01,
+     "change_pct": -0.16
+    },
+    {
+     "symbol": "CENTRALBK",
+     "name": "Central Bank of India",
+     "ltp": 29.39,
+     "change_pct": -0.37
+    },
+    {
+     "symbol": "BANKBARODA",
+     "name": "Bank of Baroda",
+     "ltp": 243.3,
+     "change_pct": -0.76
+    },
+    {
+     "symbol": "BANKINDIA",
+     "name": "Bank of India",
+     "ltp": 133.17,
+     "change_pct": -0.92
+    },
+    {
+     "symbol": "CANBK",
+     "name": "Canara Bank",
+     "ltp": 117.5,
+     "change_pct": -1.38
+    },
+    {
+     "symbol": "UNIONBANK",
+     "name": "Union Bank of India",
+     "ltp": 183.2,
+     "change_pct": -1.51
+    },
+    {
+     "symbol": "PNB",
+     "name": "Punjab National Bank",
+     "ltp": 120.97,
+     "change_pct": -1.7
+    },
+    {
+     "symbol": "SBIN",
+     "name": "State Bank of India",
+     "ltp": 970.25,
+     "change_pct": -1.7
+    },
+    {
+     "symbol": "INDIANB",
+     "name": "Indian Bank",
+     "ltp": 849.65,
+     "change_pct": -1.8
+    }
+   ]
+  },
+  {
+   "name": "NIFTY PHARMA",
+   "slug": "NIFTY_PHARMA",
+   "rank": 5,
+   "rank_delta": -1,
+   "return_1w": 3.62,
+   "return_1m": 3.45,
+   "return_3m": 2.08,
+   "rs_tail": [
+    {
+     "x": 105.91,
+     "y": 1.49
+    },
+    {
+     "x": 105.8,
+     "y": 3.0
+    },
+    {
+     "x": 104.52,
+     "y": -3.2
+    },
+    {
+     "x": 101.37,
+     "y": -2.04
+    },
+    {
+     "x": 104.45,
+     "y": 0.74
+    },
+    {
+     "x": 103.35,
+     "y": 2.26
+    }
+   ],
+   "stock_count": 20,
+   "advancers": 12,
+   "constituents": [
+    {
+     "symbol": "GLAND",
+     "name": "Gland Pharma Limited",
+     "ltp": 3158.9,
+     "change_pct": 3.01
+    },
+    {
+     "symbol": "DRREDDY",
+     "name": "Dr. Reddy's Laboratories Limited",
+     "ltp": 1368.3,
+     "change_pct": 1.96
+    },
+    {
+     "symbol": "ALKEM",
+     "name": "Alkem Laboratories Limited",
+     "ltp": 5236.0,
+     "change_pct": 1.57
+    },
+    {
+     "symbol": "TORNTPHARM",
+     "name": "Torrent Pharmaceuticals Limited",
+     "ltp": 4650.0,
+     "change_pct": 1.2
+    },
+    {
+     "symbol": "DIVISLAB",
+     "name": "Divi's Laboratories Limited",
+     "ltp": 10064.0,
+     "change_pct": 1.19
+    },
+    {
+     "symbol": "GLENMARK",
+     "name": "Glenmark Pharmaceuticals Limited",
+     "ltp": 2408.0,
+     "change_pct": 1.09
+    },
+    {
+     "symbol": "SAILIFE",
+     "name": "Sai Life Sciences Limited",
+     "ltp": 1558.2,
+     "change_pct": 1.03
+    },
+    {
+     "symbol": "LUPIN",
+     "name": "Lupin Limited",
+     "ltp": 2015.9,
+     "change_pct": 0.97
+    },
+    {
+     "symbol": "CIPLA",
+     "name": "Cipla Limited",
+     "ltp": 1396.9,
+     "change_pct": 0.71
+    },
+    {
+     "symbol": "AUROPHARMA",
+     "name": "Aurobindo Pharma Limited",
+     "ltp": 1694.5,
+     "change_pct": 0.64
+    },
+    {
+     "symbol": "IPCALAB",
+     "name": "IPCA Laboratories Limited",
+     "ltp": 1950.1,
+     "change_pct": 0.01
+    },
+    {
+     "symbol": "ZYDUSLIFE",
+     "name": "Zydus Lifesciences Limited",
+     "ltp": 1240.6,
+     "change_pct": 0.01
+    },
+    {
+     "symbol": "SUNPHARMA",
+     "name": "Sun Pharmaceutical Industries Limited",
+     "ltp": 1769.9,
+     "change_pct": -0.01
+    },
+    {
+     "symbol": "ABBOTINDIA",
+     "name": "Abbott India Limited",
+     "ltp": 25800.0,
+     "change_pct": -0.08
+    },
+    {
+     "symbol": "MANKIND",
+     "name": "Mankind Pharma Limited",
+     "ltp": 2475.0,
+     "change_pct": -0.25
+    },
+    {
+     "symbol": "LAURUSLABS",
+     "name": "Laurus Labs Limited",
+     "ltp": 2323.0,
+     "change_pct": -1.06
+    },
+    {
+     "symbol": "WOCKPHARMA",
+     "name": "Wockhardt Limited",
+     "ltp": 1868.0,
+     "change_pct": -1.5
+    },
+    {
+     "symbol": "AJANTPHARM",
+     "name": "Ajanta Pharma Limited",
+     "ltp": 3319.7,
+     "change_pct": -2.26
+    },
+    {
+     "symbol": "PPLPHARMA",
+     "name": "Piramal Pharma Limited",
+     "ltp": 233.69,
+     "change_pct": -2.6
+    },
+    {
+     "symbol": "BIOCON",
+     "name": "Biocon Limited",
+     "ltp": 343.0,
+     "change_pct": -3.3
+    }
+   ]
+  },
+  {
+   "name": "NIFTY AUTO",
+   "slug": "NIFTY_AUTO",
+   "rank": 6,
+   "rank_delta": 5,
+   "return_1w": 3.4,
+   "return_1m": 3.22,
+   "return_3m": -10.17,
+   "rs_tail": [
+    {
+     "x": 96.03,
+     "y": -3.13
+    },
+    {
+     "x": 92.85,
+     "y": -9.91
+    },
+    {
+     "x": 93.45,
+     "y": -10.76
+    },
+    {
+     "x": 96.99,
+     "y": -9.81
+    },
+    {
+     "x": 97.17,
+     "y": -8.87
+    },
+    {
+     "x": 97.96,
+     "y": -9.15
+    }
+   ],
+   "stock_count": 15,
+   "advancers": 14,
+   "constituents": [
+    {
+     "symbol": "BOSCHLTD",
+     "name": "Bosch Limited",
+     "ltp": 49645.0,
+     "change_pct": 3.21
+    },
+    {
+     "symbol": "EICHERMOT",
+     "name": "Eicher Motors Limited",
+     "ltp": 7440.0,
+     "change_pct": 3.15
+    },
+    {
+     "symbol": "EXIDEIND",
+     "name": "Exide Industries Limited",
+     "ltp": 346.25,
+     "change_pct": 2.38
+    },
+    {
+     "symbol": "ASHOKLEY",
+     "name": "Ashok Leyland Limited",
+     "ltp": 152.74,
+     "change_pct": 2.37
+    },
+    {
+     "symbol": "TVSMOTOR",
+     "name": "TVS Motor Company Limited",
+     "ltp": 4303.2,
+     "change_pct": 2.14
+    },
+    {
+     "symbol": "HEROMOTOCO",
+     "name": "Hero MotoCorp Limited",
+     "ltp": 5300.0,
+     "change_pct": 2.06
+    },
+    {
+     "symbol": "BAJAJ-AUTO",
+     "name": "Bajaj Auto Limited",
+     "ltp": 10540.0,
+     "change_pct": 1.94
+    },
+    {
+     "symbol": "MARUTI",
+     "name": "Maruti Suzuki India Limited",
+     "ltp": 11869.0,
+     "change_pct": 1.69
+    },
+    {
+     "symbol": "TMPV",
+     "name": "Tata Motors Passenger Vehicles Limited",
+     "ltp": 276.7,
+     "change_pct": 1.58
+    },
+    {
+     "symbol": "M&M",
+     "name": "Mahindra & Mahindra Limited",
+     "ltp": 2908.0,
+     "change_pct": 1.37
+    },
+    {
+     "symbol": "BHARATFORG",
+     "name": "Bharat Forge Limited",
+     "ltp": 1777.3,
+     "change_pct": 1.36
+    },
+    {
+     "symbol": "MOTHERSON",
+     "name": "Samvardhana Motherson International Limited",
+     "ltp": 160.0,
+     "change_pct": 0.63
+    },
+    {
+     "symbol": "UNOMINDA",
+     "name": "UNO Minda Limited",
+     "ltp": 1124.5,
+     "change_pct": 0.52
+    },
+    {
+     "symbol": "TIINDIA",
+     "name": "Tube Investments of India Limited",
+     "ltp": 2190.0,
+     "change_pct": 0.5
+    },
+    {
+     "symbol": "SONACOMS",
+     "name": "Sona BLW Precision Forgings Limited",
+     "ltp": 900.0,
+     "change_pct": -0.66
+    }
+   ]
+  },
+  {
+   "name": "NIFTY PRIVATE BANK",
+   "slug": "NIFTY_PRIVATE_BANK",
+   "rank": 7,
+   "rank_delta": -5,
+   "return_1w": 3.46,
+   "return_1m": 3.2,
+   "return_3m": -1.76,
+   "rs_tail": [
+    {
+     "x": 103.22,
+     "y": 0.22
+    },
+    {
+     "x": 104.16,
+     "y": 5.54
+    },
+    {
+     "x": 105.14,
+     "y": 7.71
+    },
+    {
+     "x": 103.38,
+     "y": 8.36
+    },
+    {
+     "x": 102.98,
+     "y": 8.39
+    },
+    {
+     "x": 102.39,
+     "y": 5.5
+    }
+   ],
+   "stock_count": 10,
+   "advancers": 6,
+   "constituents": [
+    {
+     "symbol": "HDFCBANK",
+     "name": "HDFC Bank Limited",
+     "ltp": 725.5,
+     "change_pct": 3.64
+    },
+    {
+     "symbol": "ICICIBANK",
+     "name": "ICICI Bank Limited",
+     "ltp": 1424.5,
+     "change_pct": 2.67
+    },
+    {
+     "symbol": "INDUSINDBK",
+     "name": "IndusInd Bank Limited",
+     "ltp": 856.75,
+     "change_pct": 2.18
+    },
+    {
+     "symbol": "AXISBANK",
+     "name": "Axis Bank Limited",
+     "ltp": 1232.7,
+     "change_pct": 1.96
+    },
+    {
+     "symbol": "KOTAKBANK",
+     "name": "Kotak Mahindra Bank Limited",
+     "ltp": 464.65,
+     "change_pct": 1.37
+    },
+    {
+     "symbol": "BANDHANBNK",
+     "name": "Bandhan Bank Limited",
+     "ltp": 156.8,
+     "change_pct": 1.0
+    },
+    {
+     "symbol": "RBLBANK",
+     "name": "RBL Bank Limited",
+     "ltp": 350.2,
+     "change_pct": -0.57
+    },
+    {
+     "symbol": "IDFCFIRSTB",
+     "name": "IDFC First Bank Limited",
+     "ltp": 73.2,
+     "change_pct": -0.58
+    },
+    {
+     "symbol": "FEDERALBNK",
+     "name": "The Federal Bank  Limited",
+     "ltp": 333.75,
+     "change_pct": -1.11
+    },
+    {
+     "symbol": "YESBANK",
+     "name": "Yes Bank Limited",
+     "ltp": 15.38,
+     "change_pct": -1.22
+    }
+   ]
+  },
+  {
+   "name": "NIFTY HEALTHCARE INDEX",
+   "slug": "NIFTY_HEALTHCARE_INDEX",
+   "rank": 8,
+   "rank_delta": -1,
+   "return_1w": 4.16,
+   "return_1m": 3.01,
+   "return_3m": -1.21,
+   "rs_tail": [
+    {
+     "x": 105.28,
+     "y": 0.86
+    },
+    {
+     "x": 103.57,
+     "y": 1.49
+    },
+    {
+     "x": 102.06,
+     "y": -4.87
+    },
+    {
+     "x": 99.16,
+     "y": -2.78
+    },
+    {
+     "x": 101.76,
+     "y": 0.79
+    },
+    {
+     "x": 101.22,
+     "y": 2.12
+    }
+   ],
+   "stock_count": 20,
+   "advancers": 12,
+   "constituents": [
+    {
+     "symbol": "FORTIS",
+     "name": "Fortis Healthcare Limited",
+     "ltp": 785.55,
+     "change_pct": 3.16
+    },
+    {
+     "symbol": "DRREDDY",
+     "name": "Dr. Reddy's Laboratories Limited",
+     "ltp": 1368.3,
+     "change_pct": 1.96
+    },
+    {
+     "symbol": "ALKEM",
+     "name": "Alkem Laboratories Limited",
+     "ltp": 5236.0,
+     "change_pct": 1.57
+    },
+    {
+     "symbol": "MAXHEALTH",
+     "name": "Max Healthcare Institute Limited",
+     "ltp": 895.5,
+     "change_pct": 1.22
+    },
+    {
+     "symbol": "TORNTPHARM",
+     "name": "Torrent Pharmaceuticals Limited",
+     "ltp": 4650.0,
+     "change_pct": 1.2
+    },
+    {
+     "symbol": "DIVISLAB",
+     "name": "Divi's Laboratories Limited",
+     "ltp": 10064.0,
+     "change_pct": 1.19
+    },
+    {
+     "symbol": "GLENMARK",
+     "name": "Glenmark Pharmaceuticals Limited",
+     "ltp": 2408.0,
+     "change_pct": 1.09
+    },
+    {
+     "symbol": "LUPIN",
+     "name": "Lupin Limited",
+     "ltp": 2015.9,
+     "change_pct": 0.97
+    },
+    {
+     "symbol": "CIPLA",
+     "name": "Cipla Limited",
+     "ltp": 1396.9,
+     "change_pct": 0.71
+    },
+    {
+     "symbol": "AUROPHARMA",
+     "name": "Aurobindo Pharma Limited",
+     "ltp": 1694.5,
+     "change_pct": 0.64
+    },
+    {
+     "symbol": "IPCALAB",
+     "name": "IPCA Laboratories Limited",
+     "ltp": 1950.1,
+     "change_pct": 0.01
+    },
+    {
+     "symbol": "ZYDUSLIFE",
+     "name": "Zydus Lifesciences Limited",
+     "ltp": 1240.6,
+     "change_pct": 0.01
+    },
+    {
+     "symbol": "SUNPHARMA",
+     "name": "Sun Pharmaceutical Industries Limited",
+     "ltp": 1769.9,
+     "change_pct": -0.01
+    },
+    {
+     "symbol": "ABBOTINDIA",
+     "name": "Abbott India Limited",
+     "ltp": 25800.0,
+     "change_pct": -0.08
+    },
+    {
+     "symbol": "APOLLOHOSP",
+     "name": "Apollo Hospitals Enterprise Limited",
+     "ltp": 8440.0,
+     "change_pct": -0.22
+    },
+    {
+     "symbol": "MANKIND",
+     "name": "Mankind Pharma Limited",
+     "ltp": 2475.0,
+     "change_pct": -0.25
+    },
+    {
+     "symbol": "LAURUSLABS",
+     "name": "Laurus Labs Limited",
+     "ltp": 2323.0,
+     "change_pct": -1.06
+    },
+    {
+     "symbol": "SYNGENE",
+     "name": "Syngene International Limited",
+     "ltp": 406.6,
+     "change_pct": -1.54
+    },
+    {
+     "symbol": "PPLPHARMA",
+     "name": "Piramal Pharma Limited",
+     "ltp": 233.69,
+     "change_pct": -2.6
+    },
+    {
+     "symbol": "BIOCON",
+     "name": "Biocon Limited",
+     "ltp": 343.0,
+     "change_pct": -3.3
+    }
+   ]
+  },
+  {
+   "name": "NIFTY REALTY",
+   "slug": "NIFTY_REALTY",
+   "rank": 9,
+   "rank_delta": 0,
+   "return_1w": 4.52,
+   "return_1m": 0.77,
+   "return_3m": -7.85,
+   "rs_tail": [
+    {
+     "x": 101.28,
+     "y": -11.8
+    },
+    {
+     "x": 98.97,
+     "y": -13.68
+    },
+    {
+     "x": 95.83,
+     "y": -12.3
+    },
+    {
+     "x": 93.97,
+     "y": -10.46
+    },
+    {
+     "x": 97.49,
+     "y": -3.81
+    },
+    {
+     "x": 101.09,
+     "y": 2.86
+    }
+   ],
+   "stock_count": 10,
+   "advancers": 9,
+   "constituents": [
+    {
+     "symbol": "LODHA",
+     "name": "Lodha Developers Limited",
+     "ltp": 1060.8,
+     "change_pct": 5.78
     },
     {
      "symbol": "PRESTIGE",
      "name": "Prestige Estates Projects Limited",
-     "ltp": 1479.5,
-     "change_pct": 1.8
-    },
-    {
-     "symbol": "DLF",
-     "name": "DLF Limited",
-     "ltp": 701.0,
-     "change_pct": 1.37
-    },
-    {
-     "symbol": "SOBHA",
-     "name": "Sobha Limited",
-     "ltp": 1135.3,
-     "change_pct": 0.91
-    },
-    {
-     "symbol": "ANANTRAJ",
-     "name": "Anant Raj Limited",
-     "ltp": 447.8,
-     "change_pct": 0.11
-    },
-    {
-     "symbol": "BRIGADE",
-     "name": "Brigade Enterprises Limited",
-     "ltp": 526.45,
-     "change_pct": -0.12
+     "ltp": 1537.0,
+     "change_pct": 3.89
     },
     {
      "symbol": "OBEROIRLTY",
      "name": "Oberoi Realty Limited",
-     "ltp": 1637.0,
-     "change_pct": -0.58
+     "ltp": 1677.0,
+     "change_pct": 2.44
     },
     {
-     "symbol": "LODHA",
-     "name": "Lodha Developers Limited",
-     "ltp": 1002.8,
-     "change_pct": -3.3
+     "symbol": "GODREJPROP",
+     "name": "Godrej Properties Limited",
+     "ltp": 1669.5,
+     "change_pct": 2.33
+    },
+    {
+     "symbol": "PHOENIXLTD",
+     "name": "The Phoenix Mills Limited",
+     "ltp": 2048.7,
+     "change_pct": 1.59
+    },
+    {
+     "symbol": "DLF",
+     "name": "DLF Limited",
+     "ltp": 709.0,
+     "change_pct": 1.14
+    },
+    {
+     "symbol": "SOBHA",
+     "name": "Sobha Limited",
+     "ltp": 1147.2,
+     "change_pct": 1.05
+    },
+    {
+     "symbol": "ABREL",
+     "name": "Aditya Birla Real Estate Limited",
+     "ltp": 1036.2,
+     "change_pct": 0.12
+    },
+    {
+     "symbol": "BRIGADE",
+     "name": "Brigade Enterprises Limited",
+     "ltp": 526.85,
+     "change_pct": 0.08
+    },
+    {
+     "symbol": "ANANTRAJ",
+     "name": "Anant Raj Limited",
+     "ltp": 443.65,
+     "change_pct": -0.93
+    }
+   ]
+  },
+  {
+   "name": "NIFTY ENERGY",
+   "slug": "NIFTY_ENERGY",
+   "rank": 10,
+   "rank_delta": -2,
+   "return_1w": 2.92,
+   "return_1m": -0.27,
+   "return_3m": -6.8,
+   "rs_tail": [
+    {
+     "x": 101.28,
+     "y": 7.07
+    },
+    {
+     "x": 102.65,
+     "y": 5.84
+    },
+    {
+     "x": 101.26,
+     "y": 7.47
+    },
+    {
+     "x": 99.51,
+     "y": 5.34
+    },
+    {
+     "x": 97.42,
+     "y": 1.67
+    },
+    {
+     "x": 97.44,
+     "y": 1.05
+    }
+   ],
+   "stock_count": 40,
+   "advancers": 19,
+   "constituents": [
+    {
+     "symbol": "AEGISLOG",
+     "name": "Aegis Logistics Limited",
+     "ltp": 1177.1,
+     "change_pct": 7.0
+    },
+    {
+     "symbol": "IOC",
+     "name": "Indian Oil Corporation Limited",
+     "ltp": 138.67,
+     "change_pct": 3.03
+    },
+    {
+     "symbol": "GAIL",
+     "name": "GAIL (India) Limited",
+     "ltp": 181.75,
+     "change_pct": 2.68
+    },
+    {
+     "symbol": "MGL",
+     "name": "Mahanagar Gas Limited",
+     "ltp": 1055.9,
+     "change_pct": 1.73
+    },
+    {
+     "symbol": "CESC",
+     "name": "CESC Limited",
+     "ltp": 128.52,
+     "change_pct": 1.62
+    },
+    {
+     "symbol": "SUZLON",
+     "name": "Suzlon Energy Limited",
+     "ltp": 35.75,
+     "change_pct": 1.42
+    },
+    {
+     "symbol": "BPCL",
+     "name": "Bharat Petroleum Corporation Limited",
+     "ltp": 296.9,
+     "change_pct": 1.31
+    },
+    {
+     "symbol": "HINDPETRO",
+     "name": "Hindustan Petroleum Corporation Limited",
+     "ltp": 352.5,
+     "change_pct": 1.29
+    },
+    {
+     "symbol": "BHEL",
+     "name": "Bharat Heavy Electricals Limited",
+     "ltp": 400.0,
+     "change_pct": 1.28
+    },
+    {
+     "symbol": "NHPC",
+     "name": "NHPC Limited",
+     "ltp": 79.4,
+     "change_pct": 0.79
+    },
+    {
+     "symbol": "PETRONET",
+     "name": "Petronet LNG Limited",
+     "ltp": 303.0,
+     "change_pct": 0.68
+    },
+    {
+     "symbol": "RELIANCE",
+     "name": "Reliance Industries Limited",
+     "ltp": 1307.9,
+     "change_pct": 0.61
+    },
+    {
+     "symbol": "THERMAX",
+     "name": "Thermax Limited",
+     "ltp": 3151.2,
+     "change_pct": 0.52
+    },
+    {
+     "symbol": "IGL",
+     "name": "Indraprastha Gas Limited",
+     "ltp": 133.28,
+     "change_pct": 0.27
+    },
+    {
+     "symbol": "TATAPOWER",
+     "name": "Tata Power Company Limited",
+     "ltp": 356.55,
+     "change_pct": 0.18
+    },
+    {
+     "symbol": "ADANIGREEN",
+     "name": "Adani Green Energy Limited",
+     "ltp": 1339.3,
+     "change_pct": 0.17
+    },
+    {
+     "symbol": "ABB",
+     "name": "ABB India Limited",
+     "ltp": 6605.0,
+     "change_pct": 0.08
+    },
+    {
+     "symbol": "ADANIPOWER",
+     "name": "Adani Power Limited",
+     "ltp": 195.5,
+     "change_pct": 0.08
+    },
+    {
+     "symbol": "ATGL",
+     "name": "Adani Total Gas Limited",
+     "ltp": 549.9,
+     "change_pct": 0.05
+    },
+    {
+     "symbol": "COALINDIA",
+     "name": "Coal India Limited",
+     "ltp": 408.0,
+     "change_pct": 0.0
+    },
+    {
+     "symbol": "NAVA",
+     "name": "NAVA LIMITED",
+     "ltp": 515.25,
+     "change_pct": -0.27
+    },
+    {
+     "symbol": "NTPC",
+     "name": "NTPC Limited",
+     "ltp": 321.55,
+     "change_pct": -0.45
+    },
+    {
+     "symbol": "SIEMENS",
+     "name": "Siemens Limited",
+     "ltp": 3387.2,
+     "change_pct": -0.52
+    },
+    {
+     "symbol": "JSWENERGY",
+     "name": "JSW Energy Limited",
+     "ltp": 502.6,
+     "change_pct": -0.57
+    },
+    {
+     "symbol": "ADANIENSOL",
+     "name": "Adani Energy Solutions Limited",
+     "ltp": 1369.6,
+     "change_pct": -0.6
+    },
+    {
+     "symbol": "INOXWIND",
+     "name": "Inox Wind Limited",
+     "ltp": 59.42,
+     "change_pct": -0.6
+    },
+    {
+     "symbol": "JPPOWER",
+     "name": "Jaiprakash Power Ventures Limited",
+     "ltp": 13.42,
+     "change_pct": -0.89
+    },
+    {
+     "symbol": "ONGC",
+     "name": "Oil & Natural Gas Corporation Limited",
+     "ltp": 232.17,
+     "change_pct": -1.13
+    },
+    {
+     "symbol": "CGPOWER",
+     "name": "CG Power and Industrial Solutions Limited",
+     "ltp": 810.0,
+     "change_pct": -1.23
+    },
+    {
+     "symbol": "CASTROLIND",
+     "name": "Castrol India Limited",
+     "ltp": 194.01,
+     "change_pct": -1.26
+    },
+    {
+     "symbol": "NTPCGREEN",
+     "name": "NTPC Green Energy Limited",
+     "ltp": 82.37,
+     "change_pct": -1.26
+    },
+    {
+     "symbol": "TORNTPOWER",
+     "name": "Torrent Power Limited",
+     "ltp": 1203.3,
+     "change_pct": -1.26
+    },
+    {
+     "symbol": "SJVN",
+     "name": "SJVN Limited",
+     "ltp": 55.76,
+     "change_pct": -1.31
+    },
+    {
+     "symbol": "OIL",
+     "name": "Oil India Limited",
+     "ltp": 455.5,
+     "change_pct": -1.39
+    },
+    {
+     "symbol": "RPOWER",
+     "name": "Reliance Power Limited",
+     "ltp": 18.28,
+     "change_pct": -1.56
+    },
+    {
+     "symbol": "POWERINDIA",
+     "name": "Hitachi Energy India Limited",
+     "ltp": 27280.0,
+     "change_pct": -2.85
+    },
+    {
+     "symbol": "GVT&D",
+     "name": "GE Vernova T&D India Limited",
+     "ltp": 4050.0,
+     "change_pct": -3.01
+    },
+    {
+     "symbol": "POWERGRID",
+     "name": "Power Grid Corporation of India Limited",
+     "ltp": 259.55,
+     "change_pct": -3.04
+    },
+    {
+     "symbol": "ENRIN",
+     "name": "Siemens Energy India Limited",
+     "ltp": 2846.6,
+     "change_pct": -3.16
+    },
+    {
+     "symbol": "NLCINDIA",
+     "name": "NLC India Limited",
+     "ltp": 230.31,
+     "change_pct": -3.43
     }
    ]
   },
@@ -1368,116 +1368,116 @@
    "name": "NIFTY CONSUMER DURABLES",
    "slug": "NIFTY_CONSUMER_DURABLES",
    "rank": 11,
-   "rank_delta": -2,
-   "return_1w": 4.75,
-   "return_1m": -3.2,
-   "return_3m": -11.52,
+   "rank_delta": -1,
+   "return_1w": 4.49,
+   "return_1m": -0.38,
+   "return_3m": -11.89,
    "rs_tail": [
     {
-     "x": 99.19,
-     "y": -8.03
+     "x": 99.4,
+     "y": -9.76
     },
     {
-     "x": 95.44,
-     "y": -11.87
+     "x": 96.38,
+     "y": -11.71
     },
     {
-     "x": 95.81,
-     "y": -11.59
+     "x": 94.92,
+     "y": -11.29
     },
     {
-     "x": 95.11,
-     "y": -11.11
+     "x": 95.36,
+     "y": -11.36
     },
     {
-     "x": 92.23,
-     "y": -14.19
+     "x": 92.71,
+     "y": -13.53
     },
     {
-     "x": 95.01,
-     "y": -10.39
+     "x": 95.91,
+     "y": -8.73
     }
    ],
    "stock_count": 13,
-   "advancers": 12,
+   "advancers": 10,
    "constituents": [
-    {
-     "symbol": "DIXON",
-     "name": "Dixon Technologies (India) Limited",
-     "ltp": 12319.0,
-     "change_pct": 11.99
-    },
-    {
-     "symbol": "AMBER",
-     "name": "Amber Enterprises India Limited",
-     "ltp": 6223.0,
-     "change_pct": 6.1
-    },
-    {
-     "symbol": "KAJARIACER",
-     "name": "Kajaria Ceramics Limited",
-     "ltp": 1134.0,
-     "change_pct": 2.24
-    },
-    {
-     "symbol": "CROMPTON",
-     "name": "Crompton Greaves Consumer Electricals Limited",
-     "ltp": 195.0,
-     "change_pct": 1.8
-    },
-    {
-     "symbol": "BATAINDIA",
-     "name": "Bata India Limited",
-     "ltp": 637.75,
-     "change_pct": 1.5
-    },
-    {
-     "symbol": "KALYANKJIL",
-     "name": "Kalyan Jewellers India Limited",
-     "ltp": 505.45,
-     "change_pct": 1.5
-    },
     {
      "symbol": "HAVELLS",
      "name": "Havells India Limited",
-     "ltp": 1028.6,
-     "change_pct": 1.46
-    },
-    {
-     "symbol": "LGEINDIA",
-     "name": "LG Electronics India Limited",
-     "ltp": 1682.0,
-     "change_pct": 1.24
+     "ltp": 1051.4,
+     "change_pct": 2.22
     },
     {
      "symbol": "TITAN",
      "name": "Titan Company Limited",
-     "ltp": 4476.3,
-     "change_pct": 0.9
+     "ltp": 4562.0,
+     "change_pct": 1.91
     },
     {
-     "symbol": "VOLTAS",
-     "name": "Voltas Limited",
-     "ltp": 1036.8,
-     "change_pct": 0.86
+     "symbol": "BATAINDIA",
+     "name": "Bata India Limited",
+     "ltp": 649.8,
+     "change_pct": 1.89
     },
     {
-     "symbol": "WHIRLPOOL",
-     "name": "Whirlpool of India Limited",
-     "ltp": 821.2,
-     "change_pct": 0.82
+     "symbol": "CROMPTON",
+     "name": "Crompton Greaves Consumer Electricals Limited",
+     "ltp": 198.0,
+     "change_pct": 1.54
     },
     {
      "symbol": "PGEL",
      "name": "PG Electroplast Limited",
-     "ltp": 533.05,
-     "change_pct": 0.57
+     "ltp": 541.0,
+     "change_pct": 1.49
+    },
+    {
+     "symbol": "KAJARIACER",
+     "name": "Kajaria Ceramics Limited",
+     "ltp": 1145.9,
+     "change_pct": 1.05
+    },
+    {
+     "symbol": "VOLTAS",
+     "name": "Voltas Limited",
+     "ltp": 1046.0,
+     "change_pct": 0.89
+    },
+    {
+     "symbol": "AMBER",
+     "name": "Amber Enterprises India Limited",
+     "ltp": 6260.5,
+     "change_pct": 0.6
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "name": "Kalyan Jewellers India Limited",
+     "ltp": 508.2,
+     "change_pct": 0.54
+    },
+    {
+     "symbol": "LGEINDIA",
+     "name": "LG Electronics India Limited",
+     "ltp": 1690.3,
+     "change_pct": 0.49
+    },
+    {
+     "symbol": "DIXON",
+     "name": "Dixon Technologies (India) Limited",
+     "ltp": 12270.0,
+     "change_pct": -0.4
+    },
+    {
+     "symbol": "WHIRLPOOL",
+     "name": "Whirlpool of India Limited",
+     "ltp": 815.0,
+     "change_pct": -0.75
     },
     {
      "symbol": "BLUESTARCO",
      "name": "Blue Star Limited",
-     "ltp": 1594.0,
-     "change_pct": -2.08
+     "ltp": 1572.5,
+     "change_pct": -1.35
     }
    ]
   },
@@ -1485,128 +1485,128 @@
    "name": "NIFTY METAL",
    "slug": "NIFTY_METAL",
    "rank": 12,
-   "rank_delta": -2,
-   "return_1w": 3.68,
-   "return_1m": -4.68,
-   "return_3m": -4.37,
+   "rank_delta": 0,
+   "return_1w": 2.88,
+   "return_1m": -2.52,
+   "return_3m": -5.95,
    "rs_tail": [
     {
-     "x": 103.93,
-     "y": 16.1
+     "x": 105.09,
+     "y": 17.79
     },
     {
-     "x": 102.37,
-     "y": 9.49
+     "x": 102.41,
+     "y": 8.38
     },
     {
-     "x": 95.48,
-     "y": -1.56
+     "x": 95.79,
+     "y": -0.84
     },
     {
-     "x": 96.16,
-     "y": -5.2
+     "x": 96.62,
+     "y": -4.69
     },
     {
-     "x": 93.08,
-     "y": -10.29
+     "x": 93.71,
+     "y": -8.58
     },
     {
-     "x": 96.35,
-     "y": -5.83
+     "x": 94.38,
+     "y": -7.96
     }
    ],
    "stock_count": 15,
-   "advancers": 12,
+   "advancers": 8,
    "constituents": [
     {
-     "symbol": "TATASTEEL",
-     "name": "Tata Steel Limited",
-     "ltp": 177.37,
-     "change_pct": 5.83
-    },
-    {
-     "symbol": "JSWSTEEL",
-     "name": "JSW Steel Limited",
-     "ltp": 1309.9,
-     "change_pct": 5.13
-    },
-    {
-     "symbol": "NATIONALUM",
-     "name": "National Aluminium Company Limited",
-     "ltp": 328.0,
-     "change_pct": 4.28
-    },
-    {
-     "symbol": "JINDALSTEL",
-     "name": "JINDAL STEEL LIMITED",
-     "ltp": 1102.0,
-     "change_pct": 3.84
-    },
-    {
-     "symbol": "VEDL",
-     "name": "Vedanta Limited",
-     "ltp": 246.0,
-     "change_pct": 3.4
-    },
-    {
-     "symbol": "HINDALCO",
-     "name": "Hindalco Industries Limited",
-     "ltp": 911.4,
-     "change_pct": 3.02
+     "symbol": "HINDZINC",
+     "name": "Hindustan Zinc Limited",
+     "ltp": 526.5,
+     "change_pct": 1.64
     },
     {
      "symbol": "SAIL",
      "name": "Steel Authority of India Limited",
-     "ltp": 165.3,
-     "change_pct": 2.67
+     "ltp": 167.5,
+     "change_pct": 1.33
     },
     {
-     "symbol": "HINDCOPPER",
-     "name": "Hindustan Copper Limited",
-     "ltp": 410.9,
-     "change_pct": 2.51
+     "symbol": "JSWSTEEL",
+     "name": "JSW Steel Limited",
+     "ltp": 1320.0,
+     "change_pct": 0.77
     },
     {
-     "symbol": "HINDZINC",
-     "name": "Hindustan Zinc Limited",
-     "ltp": 518.0,
-     "change_pct": 2.41
+     "symbol": "HINDALCO",
+     "name": "Hindalco Industries Limited",
+     "ltp": 915.75,
+     "change_pct": 0.48
     },
     {
-     "symbol": "NMDC",
-     "name": "NMDC Limited",
-     "ltp": 68.42,
-     "change_pct": 1.6
+     "symbol": "VEDL",
+     "name": "Vedanta Limited",
+     "ltp": 246.9,
+     "change_pct": 0.37
     },
     {
-     "symbol": "ADANIENT",
-     "name": "Adani Enterprises Limited",
-     "ltp": 2615.4,
-     "change_pct": 1.4
+     "symbol": "JINDALSTEL",
+     "name": "JINDAL STEEL LIMITED",
+     "ltp": 1105.0,
+     "change_pct": 0.27
     },
     {
      "symbol": "JSL",
      "name": "Jindal Stainless Limited",
-     "ltp": 677.7,
-     "change_pct": 0.55
-    },
-    {
-     "symbol": "LLOYDSME",
-     "name": "Lloyds Metals And Energy Limited",
-     "ltp": 1825.1,
-     "change_pct": -0.01
-    },
-    {
-     "symbol": "APLAPOLLO",
-     "name": "APL Apollo Tubes Limited",
-     "ltp": 2163.7,
-     "change_pct": -0.06
+     "ltp": 678.95,
+     "change_pct": 0.18
     },
     {
      "symbol": "WELCORP",
      "name": "Welspun Corp Limited",
-     "ltp": 2315.0,
-     "change_pct": -1.14
+     "ltp": 2315.5,
+     "change_pct": 0.02
+    },
+    {
+     "symbol": "NMDC",
+     "name": "NMDC Limited",
+     "ltp": 68.2,
+     "change_pct": -0.32
+    },
+    {
+     "symbol": "TATASTEEL",
+     "name": "Tata Steel Limited",
+     "ltp": 176.5,
+     "change_pct": -0.49
+    },
+    {
+     "symbol": "APLAPOLLO",
+     "name": "APL Apollo Tubes Limited",
+     "ltp": 2152.8,
+     "change_pct": -0.5
+    },
+    {
+     "symbol": "ADANIENT",
+     "name": "Adani Enterprises Limited",
+     "ltp": 2593.3,
+     "change_pct": -0.84
+    },
+    {
+     "symbol": "LLOYDSME",
+     "name": "Lloyds Metals And Energy Limited",
+     "ltp": 1780.3,
+     "change_pct": -2.45
+    },
+    {
+     "symbol": "HINDCOPPER",
+     "name": "Hindustan Copper Limited",
+     "ltp": 400.3,
+     "change_pct": -2.58
+    },
+    {
+     "symbol": "NATIONALUM",
+     "name": "National Aluminium Company Limited",
+     "ltp": 317.55,
+     "change_pct": -3.19
     }
    ]
   }
