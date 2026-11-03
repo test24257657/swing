@@ -2,21 +2,12 @@
  "symbol": "NTPC",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 47065.4,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 6010.6,
-   "net_income_qoq_pct": null,
-   "eps": 6.2
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 45845.7,
-   "revenue_qoq_pct": -2.6,
+   "revenue_qoq_pct": null,
    "net_income_cr": 5488.7,
-   "net_income_qoq_pct": -8.7,
+   "net_income_qoq_pct": null,
    "eps": 5.66
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 6721.1,
    "net_income_qoq_pct": -35.9,
    "eps": 6.93
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 54269.9,
+   "revenue_qoq_pct": 7.0,
+   "net_income_cr": 7029.6,
+   "net_income_qoq_pct": 4.6,
+   "eps": 7.25
   }
  ],
  "verification": null

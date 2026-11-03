@@ -1,96 +1,9 @@
 {
  "as_of": "2026-11-03",
- "source": "ai",
+ "source": "rules",
  "universe": 194,
- "eligible": 19,
+ "eligible": 10,
  "picks": [
-  {
-   "symbol": "NRL",
-   "ltp": 172.09,
-   "technicals": {
-    "rsi_14": 69.26,
-    "rel_volume_20d": 1.64,
-    "dist_20dma_pct": 6.83,
-    "dist_50dma_pct": 16.65,
-    "dist_200dma_pct": 93.05
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 168.85,
-    "stop_suggestion": 152.0,
-    "target_suggestion": 202.62,
-    "gap_to_pivot_pct": 1.92
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 79.3,
-    "net_income_cr": 6.5,
-    "revenue_qoq_pct": 38.4,
-    "net_income_qoq_pct": 132.1
-   },
-   "reason": "Confirmed breakout 1.92% above pivot with strong 1.64x volume and 69.26 RSI. Revenue grew 38.4% QoQ alongside a 132.1% QoQ net profit jump.",
-   "rank": 1,
-   "name": "Nupur Recyclers Limited"
-  },
-  {
-   "symbol": "TFCILTD",
-   "ltp": 161.89,
-   "technicals": {
-    "rsi_14": 65.65,
-    "rel_volume_20d": 1.72,
-    "dist_20dma_pct": 5.13,
-    "dist_50dma_pct": 11.12,
-    "dist_200dma_pct": 71.4
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 160.8,
-    "stop_suggestion": 141.43,
-    "target_suggestion": 192.96,
-    "gap_to_pivot_pct": 0.68
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 77.4,
-    "net_income_cr": 61.2,
-    "revenue_qoq_pct": 7.4,
-    "net_income_qoq_pct": 91.3
-   },
-   "reason": "Confirmed breakout just 0.68% above pivot backed by 1.72x volume and 65.65 RSI. Fundamentals are solid with revenue up 7.4% QoQ and net profit surging 91.3% QoQ.",
-   "rank": 2,
-   "name": "Tourism Finance Corporation of India Limited"
-  },
-  {
-   "symbol": "NITINSPIN",
-   "ltp": 658.8,
-   "technicals": {
-    "rsi_14": 59.98,
-    "rel_volume_20d": 3.44,
-    "dist_20dma_pct": 4.93,
-    "dist_50dma_pct": 5.64,
-    "dist_200dma_pct": 32.74
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 655.1,
-    "stop_suggestion": 591.85,
-    "target_suggestion": 786.12,
-    "gap_to_pivot_pct": 0.56
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 875.0,
-    "net_income_cr": 75.3,
-    "revenue_qoq_pct": 1.8,
-    "net_income_qoq_pct": 31.2
-   },
-   "reason": "Confirmed breakout 0.56% from pivot driven by huge 3.44x volume and healthy 59.98 RSI. Revenue grew 1.8% QoQ while net profit rose 31.2% QoQ.",
-   "rank": 3,
-   "name": "Nitin Spinners Limited"
-  },
   {
    "symbol": "PVRINOX",
    "ltp": 1524.0,
@@ -116,38 +29,125 @@
     "revenue_qoq_pct": 29.8,
     "net_income_qoq_pct": 365.7
    },
-   "reason": "Forming breakout 2.26% above pivot supported by 1.15x volume and strong momentum. Fundamentals excel with revenue up 29.8% QoQ and net profit soaring 365.7% QoQ.",
-   "rank": 4,
+   "reason": null,
+   "rank": 1,
    "name": "PVR INOX Limited"
   },
   {
-   "symbol": "ASAHIINDIA",
-   "ltp": 991.45,
+   "symbol": "ETERNAL",
+   "ltp": 349.45,
    "technicals": {
-    "rsi_14": 64.94,
-    "rel_volume_20d": 20.63,
-    "dist_20dma_pct": 6.66,
-    "dist_50dma_pct": 4.77,
-    "dist_200dma_pct": 9.97
+    "rsi_14": 65.01,
+    "rel_volume_20d": 0.74,
+    "dist_20dma_pct": 7.21,
+    "dist_50dma_pct": 7.1,
+    "dist_200dma_pct": 24.33
    },
    "pattern": {
-    "code": "near_pivot",
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 342.65,
+    "stop_suggestion": 301.75,
+    "target_suggestion": 411.18,
+    "gap_to_pivot_pct": 1.98
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 24138.0,
+    "net_income_cr": 125.0,
+    "revenue_qoq_pct": 19.4,
+    "net_income_qoq_pct": 35.9
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "ETERNAL LIMITED"
+  },
+  {
+   "symbol": "ORIENTHOT",
+   "ltp": 163.71,
+   "technicals": {
+    "rsi_14": 73.49,
+    "rel_volume_20d": 0.36,
+    "dist_20dma_pct": 8.85,
+    "dist_50dma_pct": 13.31,
+    "dist_200dma_pct": 38.19
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
     "stage": "forming",
-    "pivot_price": 995.0,
-    "stop_suggestion": 945.04,
-    "target_suggestion": 1144.25,
-    "gap_to_pivot_pct": -0.36
+    "pivot_price": 160.17,
+    "stop_suggestion": 138.5,
+    "target_suggestion": 192.2,
+    "gap_to_pivot_pct": 2.21
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 117.8,
+    "net_income_cr": 8.6,
+    "revenue_qoq_pct": 5.7,
+    "net_income_qoq_pct": 62.3
+   },
+   "reason": null,
+   "rank": 3,
+   "name": "Oriental Hotels Limited"
+  },
+  {
+   "symbol": "SONACOMS",
+   "ltp": 900.0,
+   "technicals": {
+    "rsi_14": 68.08,
+    "rel_volume_20d": 0.76,
+    "dist_20dma_pct": 9.91,
+    "dist_50dma_pct": 11.11,
+    "dist_200dma_pct": 38.96
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 879.45,
+    "stop_suggestion": 741.3,
+    "target_suggestion": 1055.34,
+    "gap_to_pivot_pct": 2.34
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 1535.8,
+    "net_income_cr": 223.4,
+    "revenue_qoq_pct": 18.0,
+    "net_income_qoq_pct": 23.8
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "Sona BLW Precision Forgings Limited"
+  },
+  {
+   "symbol": "NYKAA",
+   "ltp": 353.9,
+   "technicals": {
+    "rsi_14": 60.79,
+    "rel_volume_20d": 0.89,
+    "dist_20dma_pct": 4.37,
+    "dist_50dma_pct": 5.18,
+    "dist_200dma_pct": 20.88
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 352.9,
+    "stop_suggestion": 311.4,
+    "target_suggestion": 423.48,
+    "gap_to_pivot_pct": 0.28
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 1392.1,
-    "net_income_cr": 149.1,
-    "revenue_qoq_pct": 5.0,
-    "net_income_qoq_pct": 12.5
+    "revenue_cr": 2782.0,
+    "net_income_cr": 80.0,
+    "revenue_qoq_pct": 5.1,
+    "net_income_qoq_pct": 2.0
    },
-   "reason": "Forming setup -0.36% near pivot with massive 20.63x volume and 64.94 RSI. Supported by fundamental growth with revenue up 5.0% QoQ and net profit up 12.5% QoQ.",
+   "reason": null,
    "rank": 5,
-   "name": "Asahi India Glass Limited"
+   "name": "FSN E-Commerce Ventures Limited"
   }
  ]
 }
