@@ -2,17 +2,8 @@
  "symbol": "21STCENMGM",
  "name": "21st Century Management Services Limited",
  "kind": "stock",
- "as_of": "2026-11-03",
+ "as_of": "2026-11-04",
  "bars": [
-  {
-   "time": "2025-10-27",
-   "open": 46.98,
-   "high": 47.0,
-   "low": 45.94,
-   "close": 46.01,
-   "volume": 5221,
-   "delivery_pct": 90.96
-  },
   {
    "time": "2025-10-28",
    "open": 46.9,
@@ -2271,14 +2262,19 @@
    "close": 63.74,
    "volume": 53250,
    "delivery_pct": 73.53
+  },
+  {
+   "time": "2026-11-04",
+   "open": 63.51,
+   "high": 65.1,
+   "low": 60.56,
+   "close": 60.56,
+   "volume": 30509,
+   "delivery_pct": 73.63
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-24",
-    "value": 44.28
-   },
    {
     "time": "2025-11-25",
     "value": 43.86
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-11-03",
     "value": 48.28
+   },
+   {
+    "time": "2026-11-04",
+    "value": 49.39
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-06",
-    "value": 44.95
-   },
    {
     "time": "2026-01-07",
     "value": 44.98
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-11-03",
     "value": 43.14
+   },
+   {
+    "time": "2026-11-04",
+    "value": 43.48
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-18",
-    "value": 37.94
-   },
    {
     "time": "2026-08-19",
     "value": 37.93
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-11-03",
     "value": 37.46
+   },
+   {
+    "time": "2026-11-04",
+    "value": 37.53
    }
   ]
  },
  "technicals": {
-  "rsi_14": 85.51,
-  "atr_pct": 3.92,
-  "rel_volume_20d": 2.67,
-  "dist_20dma_pct": 32.02,
-  "dist_50dma_pct": 47.77,
-  "dist_200dma_pct": 70.18
+  "rsi_14": 74.54,
+  "atr_pct": 4.37,
+  "rel_volume_20d": 1.37,
+  "dist_20dma_pct": 22.61,
+  "dist_50dma_pct": 39.28,
+  "dist_200dma_pct": 61.38
  }
 }

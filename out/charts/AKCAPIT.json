@@ -2,7 +2,7 @@
  "symbol": "AKCAPIT",
  "name": "AK Capital Services Limited",
  "kind": "stock",
- "as_of": "2026-11-03",
+ "as_of": "2026-11-04",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1227,6 +1227,15 @@
    "close": 1753.0,
    "volume": 8454,
    "delivery_pct": 91.22
+  },
+  {
+   "time": "2026-11-04",
+   "open": 1750.0,
+   "high": 1780.0,
+   "low": 1750.0,
+   "close": 1775.6,
+   "volume": 2645,
+   "delivery_pct": 96.03
   }
  ],
  "ma": {
@@ -1698,6 +1707,10 @@
    {
     "time": "2026-11-03",
     "value": 1740.28
+   },
+   {
+    "time": "2026-11-04",
+    "value": 1743.61
    }
   ],
   "sma_50": [
@@ -2048,15 +2061,19 @@
    {
     "time": "2026-11-03",
     "value": 1734.9
+   },
+   {
+    "time": "2026-11-04",
+    "value": 1735.41
    }
   ]
  },
  "technicals": {
-  "rsi_14": 52.66,
-  "atr_pct": 3.36,
-  "rel_volume_20d": 6.54,
-  "dist_20dma_pct": 0.73,
-  "dist_50dma_pct": 1.04,
+  "rsi_14": 56.53,
+  "atr_pct": 3.2,
+  "rel_volume_20d": 1.57,
+  "dist_20dma_pct": 1.83,
+  "dist_50dma_pct": 2.32,
   "dist_200dma_pct": null
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "CORONA",
  "name": "CORONA Remedies Limited",
  "kind": "stock",
- "as_of": "2026-11-03",
+ "as_of": "2026-11-04",
  "bars": [
   {
    "time": "2025-12-15",
@@ -1965,6 +1965,15 @@
    "close": 2271.6,
    "volume": 104960,
    "delivery_pct": 60.54
+  },
+  {
+   "time": "2026-11-04",
+   "open": 2271.7,
+   "high": 2458.0,
+   "low": 2271.7,
+   "close": 2405.8,
+   "volume": 200640,
+   "delivery_pct": 29.19
   }
  ],
  "ma": {
@@ -2764,6 +2773,10 @@
    {
     "time": "2026-11-03",
     "value": 2078.81
+   },
+   {
+    "time": "2026-11-04",
+    "value": 2097.18
    }
   ],
   "sma_50": [
@@ -3442,6 +3455,10 @@
    {
     "time": "2026-11-03",
     "value": 2104.07
+   },
+   {
+    "time": "2026-11-04",
+    "value": 2109.33
    }
   ],
   "sma_200": [
@@ -3520,15 +3537,19 @@
    {
     "time": "2026-11-03",
     "value": 1830.71
+   },
+   {
+    "time": "2026-11-04",
+    "value": 1835.59
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.43,
-  "atr_pct": 3.4,
-  "rel_volume_20d": 4.08,
-  "dist_20dma_pct": 9.27,
-  "dist_50dma_pct": 7.96,
-  "dist_200dma_pct": 24.08
+  "rsi_14": 74.7,
+  "atr_pct": 3.53,
+  "rel_volume_20d": 6.63,
+  "dist_20dma_pct": 14.72,
+  "dist_50dma_pct": 14.06,
+  "dist_200dma_pct": 31.06
  }
 }

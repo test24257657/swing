@@ -2,7 +2,7 @@
  "symbol": "INNOVISION",
  "name": "Innovision Limited",
  "kind": "stock",
- "as_of": "2026-11-03",
+ "as_of": "2026-11-04",
  "bars": [
   {
    "time": "2026-03-23",
@@ -1371,6 +1371,15 @@
    "close": 250.43,
    "volume": 16748,
    "delivery_pct": 46.73
+  },
+  {
+   "time": "2026-11-04",
+   "open": 255.44,
+   "high": 271.0,
+   "low": 249.2,
+   "close": 263.22,
+   "volume": 20755,
+   "delivery_pct": 75.56
   }
  ],
  "ma": {
@@ -1906,6 +1915,10 @@
    {
     "time": "2026-11-03",
     "value": 232.42
+   },
+   {
+    "time": "2026-11-04",
+    "value": 232.76
    }
   ],
   "sma_50": [
@@ -2320,15 +2333,19 @@
    {
     "time": "2026-11-03",
     "value": 247.27
+   },
+   {
+    "time": "2026-11-04",
+    "value": 247.24
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.68,
-  "atr_pct": 5.81,
-  "rel_volume_20d": 0.74,
-  "dist_20dma_pct": 7.75,
-  "dist_50dma_pct": 1.28,
+  "rsi_14": 60.92,
+  "atr_pct": 5.72,
+  "rel_volume_20d": 0.92,
+  "dist_20dma_pct": 13.09,
+  "dist_50dma_pct": 6.46,
   "dist_200dma_pct": null
  }
 }

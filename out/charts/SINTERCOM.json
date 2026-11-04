@@ -2,17 +2,8 @@
  "symbol": "SINTERCOM",
  "name": "Sintercom India Limited",
  "kind": "stock",
- "as_of": "2026-11-03",
+ "as_of": "2026-11-04",
  "bars": [
-  {
-   "time": "2025-10-27",
-   "open": 120.79,
-   "high": 123.87,
-   "low": 119.0,
-   "close": 119.24,
-   "volume": 7889,
-   "delivery_pct": 90.09
-  },
   {
    "time": "2025-10-28",
    "open": 119.0,
@@ -2271,14 +2262,19 @@
    "close": 81.85,
    "volume": 5861,
    "delivery_pct": 85.75
+  },
+  {
+   "time": "2026-11-04",
+   "open": 82.0,
+   "high": 82.0,
+   "low": 76.0,
+   "close": 77.62,
+   "volume": 2392,
+   "delivery_pct": 66.26
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-24",
-    "value": 116.48
-   },
    {
     "time": "2025-11-25",
     "value": 116.4
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-11-03",
     "value": 76.11
+   },
+   {
+    "time": "2026-11-04",
+    "value": 76.14
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-06",
-    "value": 111.37
-   },
    {
     "time": "2026-01-07",
     "value": 110.97
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-11-03",
     "value": 77.45
+   },
+   {
+    "time": "2026-11-04",
+    "value": 77.42
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-18",
-    "value": 88.9
-   },
    {
     "time": "2026-08-19",
     "value": 88.73
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-11-03",
     "value": 80.24
+   },
+   {
+    "time": "2026-11-04",
+    "value": 80.13
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.61,
-  "atr_pct": 6.37,
-  "rel_volume_20d": 3.22,
-  "dist_20dma_pct": 7.54,
-  "dist_50dma_pct": 5.69,
-  "dist_200dma_pct": 2.0
+  "rsi_14": 50.77,
+  "atr_pct": 6.79,
+  "rel_volume_20d": 1.13,
+  "dist_20dma_pct": 1.94,
+  "dist_50dma_pct": 0.26,
+  "dist_200dma_pct": -3.13
  }
 }

@@ -2,17 +2,8 @@
  "symbol": "JAGRAN",
  "name": "Jagran Prakashan Limited",
  "kind": "stock",
- "as_of": "2026-11-03",
+ "as_of": "2026-11-04",
  "bars": [
-  {
-   "time": "2025-10-27",
-   "open": 72.0,
-   "high": 74.9,
-   "low": 71.99,
-   "close": 73.47,
-   "volume": 471355,
-   "delivery_pct": 39.51
-  },
   {
    "time": "2025-10-28",
    "open": 73.95,
@@ -2271,14 +2262,19 @@
    "close": 64.38,
    "volume": 168369,
    "delivery_pct": 59.94
+  },
+  {
+   "time": "2026-11-04",
+   "open": 64.68,
+   "high": 65.33,
+   "low": 63.71,
+   "close": 65.09,
+   "volume": 213780,
+   "delivery_pct": 66.51
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-24",
-    "value": 71.0
-   },
    {
     "time": "2025-11-25",
     "value": 70.8
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-11-03",
     "value": 61.5
+   },
+   {
+    "time": "2026-11-04",
+    "value": 61.67
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-06",
-    "value": 70.63
-   },
    {
     "time": "2026-01-07",
     "value": 70.58
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-11-03",
     "value": 61.74
+   },
+   {
+    "time": "2026-11-04",
+    "value": 61.8
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-18",
-    "value": 66.64
-   },
    {
     "time": "2026-08-19",
     "value": 66.58
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-11-03",
     "value": 64.33
+   },
+   {
+    "time": "2026-11-04",
+    "value": 64.3
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.92,
-  "atr_pct": 1.96,
-  "rel_volume_20d": 0.81,
-  "dist_20dma_pct": 4.69,
-  "dist_50dma_pct": 4.28,
-  "dist_200dma_pct": 0.08
+  "rsi_14": 73.93,
+  "atr_pct": 1.98,
+  "rel_volume_20d": 1.02,
+  "dist_20dma_pct": 5.55,
+  "dist_50dma_pct": 5.32,
+  "dist_200dma_pct": 1.22
  }
 }
