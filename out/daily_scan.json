@@ -213,6 +213,14 @@
  ],
  "rs_leaders": [
   {
+   "symbol": "TBZ",
+   "name": "Tribhovandas Bhimji Zaveri Limited",
+   "ltp": 606.65,
+   "change_pct": 4.99,
+   "rs": 99,
+   "rel_volume": 0.95
+  },
+  {
    "symbol": "SPECTRUM",
    "name": "Spectrum Electrical Industries Limited",
    "ltp": 4257.9,
@@ -229,52 +237,12 @@
    "rel_volume": 1.05
   },
   {
-   "symbol": "TBZ",
-   "name": "Tribhovandas Bhimji Zaveri Limited",
-   "ltp": 606.65,
-   "change_pct": 4.99,
-   "rs": 99,
-   "rel_volume": 0.95
-  },
-  {
-   "symbol": "MENONBE",
-   "name": "Menon Bearings Limited",
-   "ltp": 319.85,
-   "change_pct": -0.51,
+   "symbol": "SKYGOLD",
+   "name": "SKY GOLD AND DIAMONDS LIMITED",
+   "ltp": 927.2,
+   "change_pct": 6.54,
    "rs": 98,
-   "rel_volume": 0.83
-  },
-  {
-   "symbol": "WHEELS",
-   "name": "Wheels India Limited",
-   "ltp": 2374.8,
-   "change_pct": 5.82,
-   "rs": 98,
-   "rel_volume": 0.65
-  },
-  {
-   "symbol": "MACPOWER",
-   "name": "Macpower CNC Machines Limited",
-   "ltp": 2204.0,
-   "change_pct": 3.15,
-   "rs": 98,
-   "rel_volume": 0.96
-  },
-  {
-   "symbol": "SBC",
-   "name": "SBC Exports Limited",
-   "ltp": 67.16,
-   "change_pct": 0.67,
-   "rs": 98,
-   "rel_volume": 0.86
-  },
-  {
-   "symbol": "SSWL",
-   "name": "Steel Strips Wheels Limited",
-   "ltp": 536.9,
-   "change_pct": 4.75,
-   "rs": 98,
-   "rel_volume": 0.23
+   "rel_volume": 0.6
   },
   {
    "symbol": "RPEL",
@@ -285,6 +253,14 @@
    "rel_volume": 0.59
   },
   {
+   "symbol": "WHEELS",
+   "name": "Wheels India Limited",
+   "ltp": 2374.8,
+   "change_pct": 5.82,
+   "rs": 98,
+   "rel_volume": 0.65
+  },
+  {
    "symbol": "RAYMOND",
    "name": "Raymond Limited",
    "ltp": 1150.1,
@@ -293,28 +269,28 @@
    "rel_volume": 0.35
   },
   {
-   "symbol": "DIACABS",
-   "name": "Diamond Power Infrastructure Limited",
-   "ltp": 385.85,
-   "change_pct": 4.99,
+   "symbol": "MACPOWER",
+   "name": "Macpower CNC Machines Limited",
+   "ltp": 2204.0,
+   "change_pct": 3.15,
    "rs": 98,
-   "rel_volume": 2.92
+   "rel_volume": 0.96
   },
   {
-   "symbol": "ATHERENERG",
-   "name": "Ather Energy Limited",
-   "ltp": 1840.0,
-   "change_pct": 2.51,
+   "symbol": "SHREEJISPG",
+   "name": "Shreeji Shipping Global Limited",
+   "ltp": 871.15,
+   "change_pct": 2.37,
    "rs": 98,
-   "rel_volume": 0.52
+   "rel_volume": 1.36
   },
   {
-   "symbol": "AEROFLEX",
-   "name": "Aeroflex Industries Limited",
-   "ltp": 567.2,
-   "change_pct": 10.65,
+   "symbol": "SSWL",
+   "name": "Steel Strips Wheels Limited",
+   "ltp": 536.9,
+   "change_pct": 4.75,
    "rs": 98,
-   "rel_volume": 1.11
+   "rel_volume": 0.23
   },
   {
    "symbol": "SANSERA",
@@ -325,12 +301,36 @@
    "rel_volume": 1.37
   },
   {
-   "symbol": "SHREEJISPG",
-   "name": "Shreeji Shipping Global Limited",
-   "ltp": 871.15,
-   "change_pct": 2.37,
+   "symbol": "RATNAVEER",
+   "name": "Ratnaveer Precision Engineering Limited",
+   "ltp": 380.5,
+   "change_pct": 0.29,
    "rs": 98,
-   "rel_volume": 1.36
+   "rel_volume": 1.55
+  },
+  {
+   "symbol": "AEROFLEX",
+   "name": "Aeroflex Industries Limited",
+   "ltp": 567.2,
+   "change_pct": 10.65,
+   "rs": 98,
+   "rel_volume": 1.11
+  },
+  {
+   "symbol": "MENONBE",
+   "name": "Menon Bearings Limited",
+   "ltp": 319.85,
+   "change_pct": -0.51,
+   "rs": 98,
+   "rel_volume": 0.83
+  },
+  {
+   "symbol": "ATHERENERG",
+   "name": "Ather Energy Limited",
+   "ltp": 1840.0,
+   "change_pct": 2.51,
+   "rs": 98,
+   "rel_volume": 0.52
   }
  ],
  "delivery_spikes": [
