@@ -1,116 +1,123 @@
 {
- "generated_at": "2026-11-03T08:15:50+05:30",
- "for_session": "2026-11-03",
+ "generated_at": "2026-11-04T08:15:51+05:30",
+ "for_session": "2026-11-04",
  "market_light": "red",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7541.4,
-   "change_pct": -0.51,
-   "as_of": "2026-11-02"
+   "value": 7568.92,
+   "change_pct": 0.36,
+   "as_of": "2026-11-03"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 25164.36,
-   "change_pct": -1.07,
-   "as_of": "2026-11-02"
+   "value": 25372.01,
+   "change_pct": 0.83,
+   "as_of": "2026-11-03"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51983.98,
-   "change_pct": 0.41,
-   "as_of": "2026-11-02"
+   "value": 51786.72,
+   "change_pct": -0.38,
+   "as_of": "2026-11-03"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 63081.86,
-   "change_pct": -0.33,
-   "as_of": "2026-11-02"
+   "value": 60835.36,
+   "change_pct": -3.56,
+   "as_of": "2026-11-04"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 23513.27,
-   "change_pct": 0.51,
-   "as_of": "2026-11-03"
+   "value": 23455.15,
+   "change_pct": -0.3,
+   "as_of": "2026-11-04"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5722.54,
-   "change_pct": -2.33,
-   "as_of": "2026-11-03"
+   "value": 5503.58,
+   "change_pct": -2.57,
+   "as_of": "2026-11-04"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 104.95,
-   "change_pct": -10.79,
-   "as_of": "2026-11-02"
+   "value": 102.74,
+   "change_pct": -1.94,
+   "as_of": "2026-11-03"
   },
   {
    "label": "Gold",
    "group": "Macro",
    "value": 3952.5,
-   "change_pct": 1.37,
-   "as_of": "2026-11-02"
+   "change_pct": -0.43,
+   "as_of": "2026-11-03"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 94.9,
-   "change_pct": -0.26,
-   "as_of": "2026-11-02"
+   "value": 94.73,
+   "change_pct": 0.0,
+   "as_of": "2026-11-04"
+  },
+  {
+   "label": "US 10Y yield",
+   "group": "Macro",
+   "value": 4.95,
+   "change_pct": 1.19,
+   "as_of": "2026-11-03"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 101.87,
-   "change_pct": -0.01,
-   "as_of": "2026-11-02"
+   "value": 101.36,
+   "change_pct": -0.39,
+   "as_of": "2026-11-03"
   }
  ],
  "global_tone": {
   "tone": "negative",
-  "avg_change_pct": -0.75,
-  "crude_alert": true
+  "avg_change_pct": -1.05,
+  "crude_alert": false
  },
  "nifty": {
-  "session": "2026-11-02",
-  "close": 23440.8,
-  "high": 23440.8,
-  "low": 23207.05,
-  "pivot": 23362.88,
-  "r1": 23518.72,
-  "s1": 23284.97,
-  "r2": 23596.63,
-  "s2": 23129.13,
-  "sma_20": 22757.95,
-  "sma_50": 23242.0,
-  "sma_200": 24022.39
+  "session": "2026-11-03",
+  "close": 23810.85,
+  "high": 23810.85,
+  "low": 23482.8,
+  "pivot": 23701.5,
+  "r1": 23920.2,
+  "s1": 23592.15,
+  "r2": 24029.55,
+  "s2": 23373.45,
+  "sma_20": 22820.71,
+  "sma_50": 23233.58,
+  "sma_200": 24013.03
  },
  "focus": [
-  {
-   "symbol": "SPECTRUM",
-   "name": "Spectrum Electrical Industries Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 99
-  },
-  {
-   "symbol": "TFCILTD",
-   "name": "Tourism Finance Corporation of India Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 98
-  },
   {
    "symbol": "SBC",
    "name": "SBC Exports Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
+  },
+  {
+   "symbol": "UYFINCORP",
+   "name": "U. Y. Fincorp Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 97
+  },
+  {
+   "symbol": "GRWRHITECH",
+   "name": "Garware Hi-Tech Films Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 96
   },
   {
    "symbol": "GLOBAL",
@@ -119,10 +126,22 @@
    "rs": 96
   },
   {
-   "symbol": "TIPSMUSIC",
-   "name": "Tips Music Limited",
+   "symbol": "LOTUSDEV",
+   "name": "Sri Lotus Developers and Realty Limited",
    "why": "Ready setup near its pivot",
-   "rs": 89
+   "rs": 92
+  },
+  {
+   "symbol": "PVRINOX",
+   "name": "PVR INOX Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "ETERNAL",
+   "name": "ETERNAL LIMITED",
+   "why": "AI top 5",
+   "rs": null
   },
   {
    "symbol": "ORIENTHOT",
@@ -131,104 +150,110 @@
    "rs": null
   },
   {
-   "symbol": "HBLENGINE",
-   "name": "HBL Engineering Limited",
+   "symbol": "SONACOMS",
+   "name": "Sona BLW Precision Forgings Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "CIPLA",
-   "name": "Cipla Limited",
+   "symbol": "NYKAA",
+   "name": "FSN E-Commerce Ventures Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "ADANIPORTS",
-   "name": "Adani Ports and Special Economic Zone Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "CHENNPETRO",
-   "name": "Chennai Petroleum Corporation Limited",
+   "symbol": "TFCILTD",
+   "name": "Tourism Finance Corporation of India Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 94
+   "rs": 98
   },
   {
-   "symbol": "SHYAMMETL",
-   "name": "Shyam Metalics and Energy Limited",
+   "symbol": "AUROPHARMA",
+   "name": "Aurobindo Pharma Limited",
    "why": "Pocket pivot yesterday",
    "rs": 89
   },
   {
-   "symbol": "INDGN",
-   "name": "Indegene Limited",
+   "symbol": "CEIGALL",
+   "name": "Ceigall India Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 85
+   "rs": 89
   },
   {
-   "symbol": "MUFIN",
-   "name": "Mufin Green Finance Limited",
+   "symbol": "IPCALAB",
+   "name": "IPCA Laboratories Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 82
+   "rs": 88
   },
   {
-   "symbol": "MARKOLINES",
-   "name": "Markolines Pavement Technologies Limited",
+   "symbol": "IGPL",
+   "name": "IG Petrochemicals Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 78
+   "rs": 87
   }
  ],
  "overnight_news": [
   {
-   "symbol": "SUNPHARMA",
-   "time": "02 Nov 20:58",
-   "category": "Rumour Verification - Regulation 30(11)",
-   "text": "Clarification regarding news report relating to the Company s Assam facility",
-   "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_02112026205719_Reply_to_SEs_-_Rumour_Verification02112026.pdf"
+   "symbol": "MAXHEALTH",
+   "time": "03 Nov 22:14",
+   "category": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
+   "text": "Max Healthcare Institute Limited has informed the Exchange about disclosure under regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "url": "https://nsearchives.nseindia.com/corporate/MAXHEALTH_03112026221201_SE_Disclosure.pdf"
   },
   {
-   "symbol": "ITC",
-   "time": "02 Nov 18:45",
-   "category": "Amalgamation/Merger",
-   "text": "ITC Limited has informed the Exchange about Amalgamation/Merger",
-   "url": "https://nsearchives.nseindia.com/corporate/ITC_02112026184512_SE_Sproutlife_.pdf"
+   "symbol": "POWERGRID",
+   "time": "03 Nov 21:58",
+   "category": "Change in Director(s)",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026215753_BSENSEReg30_signed.pdf"
   },
   {
-   "symbol": "ITC",
-   "time": "02 Nov 18:20",
-   "category": "Outcome of Board Meeting",
-   "text": "ITC Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf"
+   "symbol": "POWERGRID",
+   "time": "03 Nov 21:56",
+   "category": "Cessation",
+   "text": "Power Grid Corporation of India Limited has informed the Exchange regarding Cessation of Mr Abhay Bakre as Govt. Nominee Director on the Board of the company w.e.f. November 03, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026215521_BSENSEReg30_signed.pdf"
   },
   {
-   "symbol": "ITC",
-   "time": "02 Nov 18:15",
-   "category": "Outcome of Board Meeting",
-   "text": "ITC Limited has informed the Exchange regarding  Board meeting held on November 02, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181547_SE_Results_.pdf"
+   "symbol": "AXISBANK",
+   "time": "03 Nov 18:54",
+   "category": "ESOP/ESOS/ESPS",
+   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 175962  Shares.",
+   "url": "https://nsearchives.nseindia.com/corporate/Kapil_03112026185425_SE03112026.pdf"
+  },
+  {
+   "symbol": "DRREDDY",
+   "time": "03 Nov 17:32",
+   "category": "News Verification",
+   "text": "The Exchange has sought clarification from Dr. Reddy's Laboratories Limited with respect to recent news item captioned Indias Dr Reddys gets US nod for $40 generic HIV prevention shot for 120 poorer countries.  The respo",
+   "url": "-"
+  },
+  {
+   "symbol": "LOTUSDEV",
+   "time": "03 Nov 16:58",
+   "category": "Offer for sale",
+   "text": "Anand Kamalnayan Pandit has informed the Exchange about his intention to exercise over-subscription option for 27,04,182 equity shares.",
+   "url": "https://nsearchives.nseindia.com/corporate/phonrao_03112026165433_LotusOFS_OversubscriptionIntimation.pdf"
   }
  ],
  "events": [
-  "Results today for stocks in focus: TFCILTD — avoid fresh buys before the numbers.",
-  "179 companies report results today.",
-  "NIFTY weekly options expiry today — expect sharper intraday swings."
+  "Results today for stocks in focus: AUROPHARMA, NYKAA — avoid fresh buys before the numbers.",
+  "214 companies report results today."
  ],
  "checklist": [
   "Market light is RED — no new buys; manage open trades only.",
   "Weak global cues — let the first 15-30 minutes settle before acting.",
-  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
   "Some focus stocks report today — wait for the result.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
  "ai": {
-  "headline": "Global Cues Indicate Weak Start As Nifty Faces Expiry Swings",
+  "headline": "Weak Asian signals and red market light suggest cautious NIFTY opening",
   "points": [
-   "Global cues point to a negative open with the S&P 500 down -0.51% and Kospi dropping -2.33%.",
-   "Nifty closed at 23440.8; watch support S1 at 23284.97 and resistance R1 at 23518.72 amid weekly options expiry.",
-   "Crude oil dropped sharply by -10.79% to 104.95, while USD/INR declined -0.26% to 94.9.",
-   "Avoid fresh buys in TFCILTD ahead of earnings as 179 companies report results today alongside key corporate updates."
+   "Asian markets point to a weak tone with Nikkei dropping -3.56% to 60835.36 and Kospi down -2.57% to 5503.58.",
+   "NIFTY closed at 23810.85 under a red market light; watch support S1 at 23592.15 and pivot at 23701.5.",
+   "Brent crude fell -1.94% to 102.74, while US 10Y yields rose +1.19% to 4.95 with S&P 500 up +0.36% at 7568.92.",
+   "214 companies report results today including AUROPHARMA and NYKAA; Axis Bank allotted 175962 shares via ESOP."
   ]
  }
 }
