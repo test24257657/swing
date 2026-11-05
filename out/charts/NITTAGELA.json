@@ -2,7 +2,7 @@
  "symbol": "NITTAGELA",
  "name": "Nitta Gelatin India Limited",
  "kind": "stock",
- "as_of": "2026-11-04",
+ "as_of": "2026-11-05",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1236,6 +1236,15 @@
    "close": 1759.5,
    "volume": 2844,
    "delivery_pct": 65.26
+  },
+  {
+   "time": "2026-11-05",
+   "open": 1784.0,
+   "high": 1870.0,
+   "low": 1780.0,
+   "close": 1799.9,
+   "volume": 13085,
+   "delivery_pct": 58.76
   }
  ],
  "ma": {
@@ -1711,6 +1720,10 @@
    {
     "time": "2026-11-04",
     "value": 1609.06
+   },
+   {
+    "time": "2026-11-05",
+    "value": 1615.63
    }
   ],
   "sma_50": [
@@ -2065,15 +2078,19 @@
    {
     "time": "2026-11-04",
     "value": 1643.21
+   },
+   {
+    "time": "2026-11-05",
+    "value": 1647.94
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.4,
-  "atr_pct": 4.18,
-  "rel_volume_20d": 0.73,
-  "dist_20dma_pct": 9.35,
-  "dist_50dma_pct": 7.08,
+  "rsi_14": 69.53,
+  "atr_pct": 4.24,
+  "rel_volume_20d": 3.33,
+  "dist_20dma_pct": 11.41,
+  "dist_50dma_pct": 9.22,
   "dist_200dma_pct": null
  }
 }

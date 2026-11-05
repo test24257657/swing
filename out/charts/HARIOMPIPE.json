@@ -2,17 +2,8 @@
  "symbol": "HARIOMPIPE",
  "name": "Hariom Pipe Industries Limited",
  "kind": "stock",
- "as_of": "2026-11-04",
+ "as_of": "2026-11-05",
  "bars": [
-  {
-   "time": "2025-10-28",
-   "open": 460.6,
-   "high": 464.55,
-   "low": 452.2,
-   "close": 454.75,
-   "volume": 94822,
-   "delivery_pct": 34.96
-  },
   {
    "time": "2025-10-29",
    "open": 460.95,
@@ -2271,14 +2262,19 @@
    "close": 338.1,
    "volume": 100389,
    "delivery_pct": 56.39
+  },
+  {
+   "time": "2026-11-05",
+   "open": 370.0,
+   "high": 396.0,
+   "low": 353.0,
+   "close": 376.5,
+   "volume": 6009022,
+   "delivery_pct": 8.4
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-25",
-    "value": 403.12
-   },
    {
     "time": "2025-11-26",
     "value": 397.69
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-11-04",
     "value": 323.43
+   },
+   {
+    "time": "2026-11-05",
+    "value": 325.34
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-07",
-    "value": 379.98
-   },
    {
     "time": "2026-01-08",
     "value": 378.95
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-11-04",
     "value": 339.8
+   },
+   {
+    "time": "2026-11-05",
+    "value": 340.37
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-19",
-    "value": 370.46
-   },
    {
     "time": "2026-08-20",
     "value": 369.92
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-11-04",
     "value": 359.87
+   },
+   {
+    "time": "2026-11-05",
+    "value": 359.76
    }
   ]
  },
  "technicals": {
-  "rsi_14": 55.61,
-  "atr_pct": 4.28,
-  "rel_volume_20d": 1.22,
-  "dist_20dma_pct": 4.54,
-  "dist_50dma_pct": -0.5,
-  "dist_200dma_pct": -6.05
+  "rsi_14": 69.11,
+  "atr_pct": 4.66,
+  "rel_volume_20d": 72.23,
+  "dist_20dma_pct": 15.72,
+  "dist_50dma_pct": 10.62,
+  "dist_200dma_pct": 4.65
  }
 }

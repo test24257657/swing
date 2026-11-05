@@ -2,17 +2,8 @@
  "symbol": "OMFREIGHT",
  "name": "Om Freight Forwarders Limited",
  "kind": "stock",
- "as_of": "2026-11-04",
+ "as_of": "2026-11-05",
  "bars": [
-  {
-   "time": "2025-10-28",
-   "open": 95.98,
-   "high": 96.5,
-   "low": 92.5,
-   "close": 93.75,
-   "volume": 119634,
-   "delivery_pct": 54.9
-  },
   {
    "time": "2025-10-29",
    "open": 91.95,
@@ -2271,14 +2262,19 @@
    "close": 110.34,
    "volume": 8923,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-11-05",
+   "open": 105.17,
+   "high": 113.95,
+   "low": 104.83,
+   "close": 112.29,
+   "volume": 83105,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-25",
-    "value": 91.65
-   },
    {
     "time": "2025-11-26",
     "value": 91.43
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-11-04",
     "value": 110.49
+   },
+   {
+    "time": "2026-11-05",
+    "value": 110.78
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-07",
-    "value": 92.12
-   },
    {
     "time": "2026-01-08",
     "value": 92.06
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-11-04",
     "value": 98.62
+   },
+   {
+    "time": "2026-11-05",
+    "value": 98.99
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-19",
-    "value": 87.85
-   },
    {
     "time": "2026-08-20",
     "value": 87.85
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-11-04",
     "value": 89.51
+   },
+   {
+    "time": "2026-11-05",
+    "value": 89.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.91,
-  "atr_pct": 6.31,
-  "rel_volume_20d": 0.12,
-  "dist_20dma_pct": -0.14,
-  "dist_50dma_pct": 11.89,
-  "dist_200dma_pct": 23.27
+  "rsi_14": 57.57,
+  "atr_pct": 6.33,
+  "rel_volume_20d": 1.15,
+  "dist_20dma_pct": 1.37,
+  "dist_50dma_pct": 13.44,
+  "dist_200dma_pct": 25.29
  }
 }

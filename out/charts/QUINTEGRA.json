@@ -2,7 +2,7 @@
  "symbol": "QUINTEGRA",
  "name": "QUINTEGRA",
  "kind": "stock",
- "as_of": "2026-11-04",
+ "as_of": "2026-11-05",
  "bars": [
   {
    "time": "2025-11-03",
@@ -660,6 +660,15 @@
    "close": 3.34,
    "volume": 5310,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-11-05",
+   "open": 3.4,
+   "high": 3.4,
+   "low": 3.4,
+   "close": 3.4,
+   "volume": 6027,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -879,6 +888,10 @@
    {
     "time": "2026-11-04",
     "value": 2.44
+   },
+   {
+    "time": "2026-11-05",
+    "value": 2.53
    }
   ],
   "sma_50": [
@@ -977,15 +990,19 @@
    {
     "time": "2026-11-04",
     "value": 1.76
+   },
+   {
+    "time": "2026-11-05",
+    "value": 1.81
    }
   ]
  },
  "technicals": {
-  "rsi_14": 95.27,
-  "atr_pct": 2.76,
-  "rel_volume_20d": 1.05,
-  "dist_20dma_pct": 37.11,
-  "dist_50dma_pct": 89.36,
+  "rsi_14": 95.52,
+  "atr_pct": 2.64,
+  "rel_volume_20d": 1.27,
+  "dist_20dma_pct": 34.44,
+  "dist_50dma_pct": 88.28,
   "dist_200dma_pct": null
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "CCAVENUE",
  "name": "AvenuesAI Limited",
  "kind": "stock",
- "as_of": "2026-11-04",
+ "as_of": "2026-11-05",
  "bars": [
   {
    "time": "2026-02-03",
@@ -1641,6 +1641,15 @@
    "close": 127.78,
    "volume": 1323151,
    "delivery_pct": 68.14
+  },
+  {
+   "time": "2026-11-05",
+   "open": 129.0,
+   "high": 134.9,
+   "low": 128.56,
+   "close": 134.27,
+   "volume": 1437455,
+   "delivery_pct": 54.71
   }
  ],
  "ma": {
@@ -2296,6 +2305,10 @@
    {
     "time": "2026-11-04",
     "value": 79.8
+   },
+   {
+    "time": "2026-11-05",
+    "value": 85.76
    }
   ],
   "sma_50": [
@@ -2830,15 +2843,19 @@
    {
     "time": "2026-11-04",
     "value": 41.23
+   },
+   {
+    "time": "2026-11-05",
+    "value": 43.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 84.26,
-  "atr_pct": 5.83,
-  "rel_volume_20d": 0.18,
-  "dist_20dma_pct": 60.12,
-  "dist_50dma_pct": 209.91,
+  "rsi_14": 85.57,
+  "atr_pct": 5.53,
+  "rel_volume_20d": 0.21,
+  "dist_20dma_pct": 56.56,
+  "dist_50dma_pct": 207.85,
   "dist_200dma_pct": null
  }
 }

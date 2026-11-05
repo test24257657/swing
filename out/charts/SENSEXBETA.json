@@ -2,7 +2,7 @@
  "symbol": "SENSEXBETA",
  "name": "SENSEXBETA",
  "kind": "stock",
- "as_of": "2026-11-04",
+ "as_of": "2026-11-05",
  "bars": [
   {
    "time": "2025-12-24",
@@ -1911,6 +1911,15 @@
    "close": 848.75,
    "volume": 2568,
    "delivery_pct": 82.59
+  },
+  {
+   "time": "2026-11-05",
+   "open": 842.0,
+   "high": 883.03,
+   "low": 842.0,
+   "close": 878.82,
+   "volume": 8398,
+   "delivery_pct": 90.81
   }
  ],
  "ma": {
@@ -2686,6 +2695,10 @@
    {
     "time": "2026-11-04",
     "value": 817.45
+   },
+   {
+    "time": "2026-11-05",
+    "value": 821.19
    }
   ],
   "sma_50": [
@@ -3340,6 +3353,10 @@
    {
     "time": "2026-11-04",
     "value": 827.22
+   },
+   {
+    "time": "2026-11-05",
+    "value": 827.63
    }
   ],
   "sma_200": [
@@ -3394,15 +3411,19 @@
    {
     "time": "2026-11-04",
     "value": 852.24
+   },
+   {
+    "time": "2026-11-05",
+    "value": 852.02
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.53,
-  "atr_pct": 1.82,
-  "rel_volume_20d": 0.74,
-  "dist_20dma_pct": 3.83,
-  "dist_50dma_pct": 2.6,
-  "dist_200dma_pct": -0.41
+  "rsi_14": 74.78,
+  "atr_pct": 1.97,
+  "rel_volume_20d": 2.41,
+  "dist_20dma_pct": 7.02,
+  "dist_50dma_pct": 6.18,
+  "dist_200dma_pct": 3.15
  }
 }
