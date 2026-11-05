@@ -2,21 +2,12 @@
  "symbol": "AIIL",
  "quarters": [
   {
-   "label": "Q2 FY26",
-   "period_end": "2025-09-30",
-   "revenue_cr": 604.9,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 766.9,
-   "net_income_qoq_pct": null,
-   "eps": 9.04
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 478.0,
-   "revenue_qoq_pct": -21.0,
+   "revenue_qoq_pct": null,
    "net_income_cr": 161.0,
-   "net_income_qoq_pct": -79.0,
+   "net_income_qoq_pct": null,
    "eps": 1.9
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 1110.5,
    "net_income_qoq_pct": 1757.0,
    "eps": 13.05
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 680.9,
+   "revenue_qoq_pct": -53.7,
+   "net_income_cr": 417.3,
+   "net_income_qoq_pct": -62.4,
+   "eps": 4.92
   }
  ],
  "verification": null

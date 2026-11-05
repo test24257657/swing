@@ -2,21 +2,12 @@
  "symbol": "NIRLON",
  "quarters": [
   {
-   "label": "Q2 FY26",
-   "period_end": "2025-09-30",
-   "revenue_cr": 165.3,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 147.7,
-   "net_income_qoq_pct": null,
-   "eps": 16.39
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 169.9,
-   "revenue_qoq_pct": 2.8,
+   "revenue_qoq_pct": null,
    "net_income_cr": 69.3,
-   "net_income_qoq_pct": -53.1,
+   "net_income_qoq_pct": null,
    "eps": 7.69
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 69.4,
    "net_income_qoq_pct": -1.7,
    "eps": 7.7
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 169.1,
+   "revenue_qoq_pct": 0.5,
+   "net_income_cr": 71.9,
+   "net_income_qoq_pct": 3.6,
+   "eps": 7.98
   }
  ],
  "verification": null

@@ -2,21 +2,12 @@
  "symbol": "PETRONET",
  "quarters": [
   {
-   "label": "Q2 FY26",
-   "period_end": "2025-09-30",
-   "revenue_cr": 11009.1,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 830.3,
-   "net_income_qoq_pct": null,
-   "eps": 5.54
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 11163.8,
-   "revenue_qoq_pct": 1.4,
+   "revenue_qoq_pct": null,
    "net_income_cr": 869.6,
-   "net_income_qoq_pct": 4.7,
+   "net_income_qoq_pct": null,
    "eps": 5.8
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 1137.1,
    "net_income_qoq_pct": -17.0,
    "eps": 7.58
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 7202.2,
+   "revenue_qoq_pct": 29.6,
+   "net_income_cr": 1256.4,
+   "net_income_qoq_pct": 10.5,
+   "eps": 8.38
   }
  ],
  "verification": null

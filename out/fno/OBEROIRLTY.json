@@ -1,0 +1,170 @@
+{
+ "symbol": "OBEROIRLTY",
+ "buildup": {
+  "label": "long_buildup",
+  "note": "Fresh longs \u2014 price and open interest are both rising together.",
+  "expiry": "2026-11-23",
+  "price_chg_pct": 2.33,
+  "oi_chg_pct": 1.67,
+  "open_interest": 4294850,
+  "close": 1752.6
+ },
+ "option_chain": {
+  "expiry": "23-Nov-2026",
+  "underlying_value": 1741.2,
+  "rows": [
+   {
+    "strike": 1540,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 33,
+    "put_oi_chg": -34
+   },
+   {
+    "strike": 1560,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 41,
+    "put_oi_chg": -7
+   },
+   {
+    "strike": 1580,
+    "call_oi": 7,
+    "call_oi_chg": 0,
+    "put_oi": 37,
+    "put_oi_chg": -5
+   },
+   {
+    "strike": 1600,
+    "call_oi": 198,
+    "call_oi_chg": -18,
+    "put_oi": 193,
+    "put_oi_chg": -100
+   },
+   {
+    "strike": 1620,
+    "call_oi": 95,
+    "call_oi_chg": -17,
+    "put_oi": 96,
+    "put_oi_chg": -70
+   },
+   {
+    "strike": 1640,
+    "call_oi": 188,
+    "call_oi_chg": -2,
+    "put_oi": 111,
+    "put_oi_chg": 22
+   },
+   {
+    "strike": 1660,
+    "call_oi": 163,
+    "call_oi_chg": 9,
+    "put_oi": 154,
+    "put_oi_chg": -224
+   },
+   {
+    "strike": 1680,
+    "call_oi": 120,
+    "call_oi_chg": -11,
+    "put_oi": 59,
+    "put_oi_chg": 16
+   },
+   {
+    "strike": 1700,
+    "call_oi": 209,
+    "call_oi_chg": -235,
+    "put_oi": 122,
+    "put_oi_chg": 34
+   },
+   {
+    "strike": 1720,
+    "call_oi": 74,
+    "call_oi_chg": 3,
+    "put_oi": 323,
+    "put_oi_chg": 309
+   },
+   {
+    "strike": 1740,
+    "call_oi": 391,
+    "call_oi_chg": 240,
+    "put_oi": 36,
+    "put_oi_chg": 32
+   },
+   {
+    "strike": 1760,
+    "call_oi": 187,
+    "call_oi_chg": 82,
+    "put_oi": 16,
+    "put_oi_chg": 15
+   },
+   {
+    "strike": 1780,
+    "call_oi": 84,
+    "call_oi_chg": 27,
+    "put_oi": 2,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 1800,
+    "call_oi": 298,
+    "call_oi_chg": -245,
+    "put_oi": 82,
+    "put_oi_chg": -1
+   },
+   {
+    "strike": 1820,
+    "call_oi": 57,
+    "call_oi_chg": 22,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 1840,
+    "call_oi": 27,
+    "call_oi_chg": -5,
+    "put_oi": 21,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 1860,
+    "call_oi": 70,
+    "call_oi_chg": 26,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 1880,
+    "call_oi": 22,
+    "call_oi_chg": 16,
+    "put_oi": 7,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 1900,
+    "call_oi": 178,
+    "call_oi_chg": 150,
+    "put_oi": 6,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 1920,
+    "call_oi": 11,
+    "call_oi_chg": 11,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 1960,
+    "call_oi": 20,
+    "call_oi_chg": 18,
+    "put_oi": 6,
+    "put_oi_chg": 0
+   }
+  ],
+  "pcr": 0.82,
+  "total_call_oi": 2432,
+  "total_put_oi": 1986,
+  "max_call_oi_strike": 1740,
+  "max_put_oi_strike": 1500
+ }
+}

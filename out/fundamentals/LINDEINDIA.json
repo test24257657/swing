@@ -2,21 +2,12 @@
  "symbol": "LINDEINDIA",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 571.1,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 107.2,
-   "net_income_qoq_pct": null,
-   "eps": 12.57
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 701.0,
-   "revenue_qoq_pct": 22.7,
+   "revenue_qoq_pct": null,
    "net_income_cr": 193.3,
-   "net_income_qoq_pct": 80.3,
+   "net_income_qoq_pct": null,
    "eps": 22.67
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 104.6,
    "net_income_qoq_pct": 35.1,
    "eps": 12.26
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 723.2,
+   "revenue_qoq_pct": 4.1,
+   "net_income_cr": 118.8,
+   "net_income_qoq_pct": 13.6,
+   "eps": 13.93
   }
  ],
  "verification": null

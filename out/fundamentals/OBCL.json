@@ -2,21 +2,12 @@
  "symbol": "OBCL",
  "quarters": [
   {
-   "label": "Q2 FY26",
-   "period_end": "2025-09-30",
-   "revenue_cr": 86.2,
-   "revenue_qoq_pct": null,
-   "net_income_cr": -2.2,
-   "net_income_qoq_pct": null,
-   "eps": -1.02
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 77.6,
-   "revenue_qoq_pct": -10.0,
+   "revenue_qoq_pct": null,
    "net_income_cr": -2.4,
-   "net_income_qoq_pct": 9.1,
+   "net_income_qoq_pct": null,
    "eps": -1.13
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 1.2,
    "net_income_qoq_pct": -123.1,
    "eps": 0.57
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 92.0,
+   "revenue_qoq_pct": 11.7,
+   "net_income_cr": 4.2,
+   "net_income_qoq_pct": 250.0,
+   "eps": 2.01
   }
  ],
  "verification": null

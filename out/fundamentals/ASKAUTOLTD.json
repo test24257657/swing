@@ -2,21 +2,12 @@
  "symbol": "ASKAUTOLTD",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 891.3,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 66.1,
-   "net_income_qoq_pct": null,
-   "eps": 3.35
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 1084.2,
-   "revenue_qoq_pct": 21.6,
+   "revenue_qoq_pct": null,
    "net_income_cr": 79.9,
-   "net_income_qoq_pct": 20.9,
+   "net_income_qoq_pct": null,
    "eps": 4.05
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 85.1,
    "net_income_qoq_pct": 19.0,
    "eps": 4.32
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 1555.2,
+   "revenue_qoq_pct": 14.5,
+   "net_income_cr": 101.6,
+   "net_income_qoq_pct": 19.4,
+   "eps": 5.15
   }
  ],
  "verification": null
