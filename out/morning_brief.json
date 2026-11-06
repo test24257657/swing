@@ -1,264 +1,241 @@
 {
- "generated_at": "2026-11-05T08:15:52+05:30",
- "for_session": "2026-11-05",
- "market_light": "red",
+ "generated_at": "2026-11-06T08:15:58+05:30",
+ "for_session": "2026-11-06",
+ "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7688.62,
-   "change_pct": 1.58,
-   "as_of": "2026-11-04"
+   "value": 7353.73,
+   "change_pct": -4.36,
+   "as_of": "2026-11-05"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 25736.51,
-   "change_pct": 1.44,
-   "as_of": "2026-11-04"
+   "value": 24315.0,
+   "change_pct": -5.52,
+   "as_of": "2026-11-05"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 53356.12,
-   "change_pct": 3.03,
-   "as_of": "2026-11-04"
+   "value": 51523.06,
+   "change_pct": -3.44,
+   "as_of": "2026-11-05"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 61913.51,
-   "change_pct": -0.44,
-   "as_of": "2026-11-05"
+   "value": 57858.61,
+   "change_pct": -5.27,
+   "as_of": "2026-11-06"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24664.4,
-   "change_pct": 3.11,
-   "as_of": "2026-11-05"
+   "value": 24677.54,
+   "change_pct": -0.48,
+   "as_of": "2026-11-06"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5520.15,
-   "change_pct": -2.88,
-   "as_of": "2026-11-05"
+   "value": 5139.2,
+   "change_pct": -4.54,
+   "as_of": "2026-11-06"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 94.2,
-   "change_pct": -9.07,
-   "as_of": "2026-11-04"
+   "value": 99.93,
+   "change_pct": 5.61,
+   "as_of": "2026-11-05"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4137.2,
-   "change_pct": 4.99,
-   "as_of": "2026-11-04"
+   "value": 4075.3,
+   "change_pct": 0.06,
+   "as_of": "2026-11-05"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 94.53,
-   "change_pct": -0.23,
-   "as_of": "2026-11-05"
+   "value": 94.46,
+   "change_pct": -0.05,
+   "as_of": "2026-11-06"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 4.89,
-   "change_pct": -1.17,
-   "as_of": "2026-11-04"
+   "value": 4.84,
+   "change_pct": -1.16,
+   "as_of": "2026-11-05"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 101.29,
-   "change_pct": -0.57,
-   "as_of": "2026-11-04"
+   "value": 101.66,
+   "change_pct": 0.14,
+   "as_of": "2026-11-05"
   }
  ],
  "global_tone": {
-  "tone": "positive",
-  "avg_change_pct": 0.56,
+  "tone": "negative",
+  "avg_change_pct": -4.03,
   "crude_alert": true
  },
  "nifty": {
-  "session": "2026-11-04",
-  "close": 23960.6,
-  "high": 23960.6,
-  "low": 23696.15,
-  "pivot": 23872.45,
-  "r1": 24048.75,
-  "s1": 23784.3,
-  "r2": 24136.9,
-  "s2": 23608.0,
-  "sma_20": 22879.93,
-  "sma_50": 23227.75,
-  "sma_200": 24003.88
+  "session": "2026-11-05",
+  "close": 24536.6,
+  "high": 24579.9,
+  "low": 24296.3,
+  "pivot": 24470.93,
+  "r1": 24645.57,
+  "s1": 24361.97,
+  "r2": 24754.53,
+  "s2": 24187.33,
+  "sma_20": 22976.61,
+  "sma_50": 23234.1,
+  "sma_200": 23997.91
  },
  "focus": [
   {
-   "symbol": "MENONBE",
-   "name": "Menon Bearings Limited",
+   "symbol": "SSWL",
+   "name": "Steel Strips Wheels Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
   {
-   "symbol": "AEROFLEX",
-   "name": "Aeroflex Industries Limited",
+   "symbol": "SBC",
+   "name": "SBC Exports Limited",
    "why": "Ready setup near its pivot",
    "rs": 98
   },
   {
-   "symbol": "EBGNG",
-   "name": "GNG Electronics Limited",
+   "symbol": "SHREEJISPG",
+   "name": "Shreeji Shipping Global Limited",
    "why": "Ready setup near its pivot",
-   "rs": 97
+   "rs": 98
   },
   {
-   "symbol": "GLOBAL",
-   "name": "Global Education Limited",
+   "symbol": "DIACABS",
+   "name": "Diamond Power Infrastructure Limited",
    "why": "Ready setup near its pivot",
-   "rs": 96
+   "rs": 98
+  },
+  {
+   "symbol": "RATNAVEER",
+   "name": "Ratnaveer Precision Engineering Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 98
   },
   {
    "symbol": "IBULLSLTD",
    "name": "Indiabulls Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 95
+   "why": "Pocket pivot yesterday",
+   "rs": 96
   },
   {
-   "symbol": "CPPLUS",
-   "name": "Aditya Infotech Limited",
+   "symbol": "SAMBHV",
+   "name": "Sambhv Steel Tubes Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 97
+   "rs": 94
   },
   {
-   "symbol": "NAZARA",
-   "name": "Nazara Technologies Limited",
+   "symbol": "NRAIL",
+   "name": "N R Agarwal Industries Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 92
+   "rs": 93
   },
   {
-   "symbol": "SHRINGARMS",
-   "name": "Shringar House of Mangalsutra Limited",
+   "symbol": "ZIMLAB",
+   "name": "Zim Laboratories Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 89
+   "rs": 93
   },
   {
-   "symbol": "CEIGALL",
-   "name": "Ceigall India Limited",
+   "symbol": "KESORAMIND",
+   "name": "Kesoram Industries Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 88
-  },
-  {
-   "symbol": "IPCALAB",
-   "name": "IPCA Laboratories Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 88
+   "rs": 90
   }
  ],
  "overnight_news": [
   {
-   "symbol": "RELIANCE",
-   "time": "04 Nov 20:47",
-   "category": "Credit Rating",
-   "text": "Reliance Industries Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_04112026204646_SE_RIL_041126.pdf"
-  },
-  {
-   "symbol": "M&M",
-   "time": "04 Nov 19:43",
-   "category": "Credit Rating",
-   "text": "Mahindra & Mahindra Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.com/corporate/ferozebaria_04112026194248_CARE04112026.pdf"
-  },
-  {
-   "symbol": "SHRINGARMS",
-   "time": "04 Nov 19:21",
-   "category": "Monitoring Agency Report",
-   "text": "Monitoring Agency Report for the Quarter ended 30th September, 2026",
-   "url": "https://nsearchives.nseindia.com/corporate/SHRINGAR_04112026192120_SHOM__Monitoring_agency_Report_final.pdf"
-  },
-  {
-   "symbol": "SHRINGARMS",
-   "time": "04 Nov 19:18",
-   "category": "Outcome of Board Meeting",
-   "text": "Shringar House of Mangalsutra Limited has informed the Exchange regarding Outcome of Board Meeting held on November 04, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/SHRINGAR_04112026191845_SHOML_Intimation_of_Incorporation_of_WOS.pdf"
-  },
-  {
-   "symbol": "SHRINGARMS",
-   "time": "04 Nov 19:07",
-   "category": "Integrated Filing- Financial",
-   "text": "Financial Results for the Quarter and half year ended September 30, 2026",
-   "url": "https://nsearchives.nseindia.com/corporate/SHRINGAR_04112026190620_SHOM_Outcome_of_BM_final.pdf"
-  },
-  {
-   "symbol": "SHRINGARMS",
-   "time": "04 Nov 18:54",
-   "category": "Outcome of Board Meeting",
-   "text": "Shringar House of Mangalsutra Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/SHRINGAR_04112026185053_SHOM_Outcome_of_BM_final.pdf"
-  },
-  {
-   "symbol": "APOLLOHOSP",
-   "time": "04 Nov 18:08",
-   "category": "Change in Management",
-   "text": "Apollo Hospitals Enterprise Limited has informed the Exchange about change in Management",
-   "url": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_04112026180759_SE_Communication_04112026_s.pdf"
-  },
-  {
-   "symbol": "BSE",
-   "time": "04 Nov 18:05",
-   "category": "Appointment",
-   "text": "BSE Limited has informed the Exchange regarding Appointment of Mr Ashutosh Singh as Executive Director   Business (Vertical 3) of the Company w.e.f. November 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/BSE1_04112026180514_NSEINTIMATION.pdf"
-  },
-  {
-   "symbol": "BSE",
-   "time": "04 Nov 18:01",
-   "category": "Outcome of Board Meeting",
-   "text": "BSE Limited has submitted to the Exchange, the financial results for the quarter and six months ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/BSE1_04112026175851_NSEINTIMATION.pdf"
-  },
-  {
-   "symbol": "APOLLOHOSP",
-   "time": "04 Nov 17:49",
-   "category": "Outcome of Board Meeting",
-   "text": "Apollo Hospitals Enterprise Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_04112026174756_SE_Communication_04112026_s.pdf"
+   "symbol": "BHARTIARTL",
+   "time": "05 Nov 19:35",
+   "category": "Statement of deviation(s) or variation(s) under Reg. 32",
+   "text": "Bharti Airtel Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193500_STX_IntimationMAReport.pdf"
   },
   {
    "symbol": "BHARTIARTL",
-   "time": "04 Nov 16:47",
-   "category": "Action(s) taken or orders passed",
-   "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-   "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026164737_BhartiAirtelSTXdisclosure.pdf"
+   "time": "05 Nov 19:33",
+   "category": "Monitoring Agency Report",
+   "text": "Monitoring Agency Report for the quarter ended September 30, 2026",
+   "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193332_STX_IntimationMAReport.pdf"
+  },
+  {
+   "symbol": "TITAN",
+   "time": "05 Nov 18:51",
+   "category": "Retirement",
+   "text": "Titan Company Limited has informed the Exchange about Retirement of Mr. Noel N. Tata as Director and Vice-Chairman",
+   "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026185140_SENNTata.pdf"
+  },
+  {
+   "symbol": "M&M",
+   "time": "05 Nov 18:37",
+   "category": "Related Party Transactions",
+   "text": "Mahindra & Mahindra Limited has informed the Exchange about Disclosure of Related Party Transactions for H1F27 under Regulation 23(9) of SEBI (LODR) Regulations, 2015",
+   "url": "https://nsearchives.nseindia.com/corporate/AmitDodani_05112026183350_SEIntimationRPT_H1F27_05112026.pdf"
+  },
+  {
+   "symbol": "TITAN",
+   "time": "05 Nov 18:36",
+   "category": "Change in Auditors",
+   "text": "Titan Company Limited has informed the Exchange regarding Change in Auditors of the company.",
+   "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026183608_SEappoinmentofstatutoryauditor.pdf"
+  },
+  {
+   "symbol": "ONGC",
+   "time": "05 Nov 17:32",
+   "category": "Dividend",
+   "text": "Oil & Natural Gas Corporation Limited has informed the Exchange that Board of Directors at its meeting held on November 05, 2026, declared Interim Dividend of Rs. 8 per equity share.",
+   "url": "https://nsearchives.nseindia.com/corporate/ONGC_05112026173147_FS30092026SD.pdf"
+  },
+  {
+   "symbol": "ONGC",
+   "time": "05 Nov 17:32",
+   "category": "Outcome of Board Meeting",
+   "text": "Oil & Natural Gas Corporation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/ONGC_05112026172811_FS30092026SD.pdf"
+  },
+  {
+   "symbol": "TITAN",
+   "time": "05 Nov 16:50",
+   "category": "Outcome of Board Meeting",
+   "text": "Titan Company Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf"
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "time": "05 Nov 16:20",
+   "category": "Outcome of Board Meeting",
+   "text": "Bharti Airtel Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162023_FR.pdf"
   }
  ],
  "events": [
-  "Results today for stocks in focus: CEIGALL, CPPLUS, IBULLSLTD, IPCALAB — avoid fresh buys before the numbers.",
-  "255 companies report results today."
+  "118 companies report results today."
  ],
  "checklist": [
-  "Market light is RED — no new buys; manage open trades only.",
+  "Market light is YELLOW — only A+ setups, half size.",
+  "Weak global cues — let the first 15-30 minutes settle before acting.",
   "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
-  "Some focus stocks report today — wait for the result.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
- "ai": {
-  "headline": "Positive Global Cues May Support Open Despite Red Market Light",
-  "points": [
-   "US markets ended higher with Dow up 3.03% to 53356.12 and Brent crude dropping 9.07% to 94.2, signaling a positive global tone.",
-   "NIFTY 50 closed at 23960.6; watch resistance at R1 24048.75 and support at S1 23784.3 around the pivot of 23872.45.",
-   "With the market light red and 255 companies reporting results today, avoid fresh buys in focused stocks before their announcements.",
-   "USD/INR fell 0.23% to 94.53 while Asia is mixed, with Hang Seng up 3.11% to 24664.4 and Kospi down 2.88% to 5520.15."
-  ]
- }
+ "ai": null
 }
