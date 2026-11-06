@@ -2,7 +2,7 @@
  "symbol": "ABSL10BANK",
  "name": "ABSL10BANK",
  "kind": "stock",
- "as_of": "2026-11-05",
+ "as_of": "2026-11-06",
  "bars": [
   {
    "time": "2026-03-04",
@@ -1488,6 +1488,15 @@
    "close": 174.54,
    "volume": 2395557,
    "delivery_pct": 99.29
+  },
+  {
+   "time": "2026-11-06",
+   "open": 174.04,
+   "high": 178.87,
+   "low": 173.72,
+   "close": 178.06,
+   "volume": 3607,
+   "delivery_pct": 87.03
   }
  ],
  "ma": {
@@ -2075,6 +2084,10 @@
    {
     "time": "2026-11-05",
     "value": 163.97
+   },
+   {
+    "time": "2026-11-06",
+    "value": 164.71
    }
   ],
   "sma_50": [
@@ -2541,15 +2554,19 @@
    {
     "time": "2026-11-05",
     "value": 165.36
+   },
+   {
+    "time": "2026-11-06",
+    "value": 165.54
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.98,
-  "atr_pct": 2.07,
-  "rel_volume_20d": 108.71,
-  "dist_20dma_pct": 6.45,
-  "dist_50dma_pct": 5.55,
+  "rsi_14": 73.7,
+  "atr_pct": 2.09,
+  "rel_volume_20d": 0.03,
+  "dist_20dma_pct": 8.1,
+  "dist_50dma_pct": 7.56,
   "dist_200dma_pct": null
  }
 }
