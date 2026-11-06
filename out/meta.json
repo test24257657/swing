@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T18:54:16+05:30",
+ "generated_at": "2026-11-07T01:26:11+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -7,23 +7,8 @@
   },
   "bhavcopy": {
    "ok": true,
-   "sessions_added": 1,
-   "failed": [
-    "2025-12-25",
-    "2026-01-15",
-    "2026-01-26",
-    "2026-03-03",
-    "2026-03-26",
-    "2026-03-31",
-    "2026-04-03",
-    "2026-04-14",
-    "2026-05-01",
-    "2026-05-28",
-    "2026-06-26",
-    "2026-09-14",
-    "2026-10-02",
-    "2026-10-20"
-   ],
+   "sessions_added": 0,
+   "failed": [],
    "phantom_sessions_dropped": [],
    "symbols": 3133,
    "sessions": 252,
@@ -69,11 +54,11 @@
    "pocket_pivots": 0
   },
   "ipos": {
-   "ok": true,
+   "ok": false,
    "issues": 284,
-   "charted": 123,
-   "sme_skipped": 151,
-   "with_base": 3
+   "charted": 0,
+   "sme_skipped": 284,
+   "with_base": 0
   },
   "indices": {
    "ok": true,
@@ -106,14 +91,15 @@
   },
   "institutional": {
    "ok": true,
-   "deals": 93,
+   "deals": 116,
    "participant_oi_sessions": 30,
    "ai_money_flow": true
   },
   "fno": {
-   "ok": false,
-   "symbols": 16,
-   "written": 0
+   "ok": true,
+   "eligible": 218,
+   "symbols": 7,
+   "written": 7
   },
   "depth": {
    "ok": false,
@@ -140,10 +126,10 @@
   },
   "results_calendar": {
    "ok": true,
-   "upcoming": 558,
+   "upcoming": 594,
    "past_candidates": 1739,
    "judged": 1154,
-   "good": 250
+   "good": 372
   }
  }
 }
