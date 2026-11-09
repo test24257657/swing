@@ -1,132 +1,153 @@
 {
- "as_of": "2026-11-06",
+ "as_of": "2026-11-09",
  "source": "ai",
- "universe": 16,
- "eligible": 5,
+ "universe": 364,
+ "eligible": 8,
  "picks": [
   {
-   "symbol": "ADANIPORTS",
-   "ltp": 1936.6,
+   "symbol": "MATRIMONY",
+   "ltp": 582.4,
    "technicals": {
-    "rsi_14": 67.53,
-    "rel_volume_20d": 1.06,
-    "dist_20dma_pct": 7.8,
-    "dist_50dma_pct": 9.83,
-    "dist_200dma_pct": 16.3
+    "rsi_14": 68.0,
+    "rel_volume_20d": 2.34,
+    "dist_20dma_pct": 9.14,
+    "dist_50dma_pct": 10.53,
+    "dist_200dma_pct": 24.29
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 1883.2,
-    "stop_suggestion": 1687.9,
-    "target_suggestion": 2259.84,
-    "gap_to_pivot_pct": 2.84
+    "stage": "confirmed",
+    "pivot_price": 569.45,
+    "stop_suggestion": 469.9,
+    "target_suggestion": 683.34,
+    "gap_to_pivot_pct": 2.27
    },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 11340.4,
-    "net_income_cr": 3621.9,
-    "revenue_qoq_pct": 4.8,
-    "net_income_qoq_pct": 0.0
-   },
-   "reason": "Forming a 52-week high breakout near pivot \u20b91883.2 with above-average 1.06x volume and healthy RSI 67.53, backed by revenue growth of 4.8% QoQ to \u20b911340.4 cr.",
-   "rank": 1,
-   "name": "Adani Ports and Special Economic Zone Limited"
-  },
-  {
-   "symbol": "ABCAPITAL",
-   "ltp": 398.8,
-   "technicals": {
-    "rsi_14": 64.3,
-    "rel_volume_20d": 0.55,
-    "dist_20dma_pct": 6.99,
-    "dist_50dma_pct": 3.64,
-    "dist_200dma_pct": 8.69
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 410.05,
-    "stop_suggestion": 380.92,
-    "target_suggestion": 471.56,
-    "gap_to_pivot_pct": -2.74
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 13603.0,
-    "net_income_cr": 1287.7,
-    "revenue_qoq_pct": 15.8,
-    "net_income_qoq_pct": 9.6
-   },
-   "reason": "Forming a pattern near pivot \u20b9410.05 with RSI at 64.3. Fundamentals show strong dual growth: revenue rose 15.8% QoQ to \u20b913603.0 cr while net profit grew 9.6% QoQ to \u20b91287.7 cr.",
-   "rank": 2,
-   "name": "Aditya Birla Capital Limited"
-  },
-  {
-   "symbol": "ADANIENSOL",
-   "ltp": 1457.4,
-   "technicals": {
-    "rsi_14": 62.54,
-    "rel_volume_20d": 0.81,
-    "dist_20dma_pct": 8.88,
-    "dist_50dma_pct": 6.56,
-    "dist_200dma_pct": 10.12
-   },
-   "pattern": null,
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 10075.5,
-    "net_income_cr": 1322.8,
-    "revenue_qoq_pct": 3.8,
-    "net_income_qoq_pct": 15.1
-   },
-   "reason": "Trades 10.12% above its 200-day average with healthy RSI of 62.54. Fundamentals are backed by net profit growing 15.1% QoQ to \u20b91322.8 cr and revenue increasing 3.8% QoQ.",
-   "rank": 3,
-   "name": "Adani Energy Solutions Limited"
-  },
-  {
-   "symbol": "ADANIPOWER",
-   "ltp": 204.29,
-   "technicals": {
-    "rsi_14": 59.88,
-    "rel_volume_20d": 0.46,
-    "dist_20dma_pct": 6.46,
-    "dist_50dma_pct": 2.48,
-    "dist_200dma_pct": 5.82
-   },
-   "pattern": null,
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 19438.7,
-    "net_income_cr": 6919.4,
-    "revenue_qoq_pct": 2.8,
-    "net_income_qoq_pct": 44.0
-   },
-   "reason": "Maintains steady momentum with RSI at 59.88. Backed by solid financials featuring a net profit jump of 44.0% QoQ to \u20b96919.4 cr and revenue reaching \u20b919438.7 cr.",
-   "rank": 4,
-   "name": "Adani Power Limited"
-  },
-  {
-   "symbol": "ACE",
-   "ltp": 1167.7,
-   "technicals": {
-    "rsi_14": 59.13,
-    "rel_volume_20d": 2.3,
-    "dist_20dma_pct": 6.83,
-    "dist_50dma_pct": 2.15,
-    "dist_200dma_pct": 18.74
-   },
-   "pattern": null,
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 785.7,
-    "net_income_cr": 119.5,
-    "revenue_qoq_pct": -23.7,
-    "net_income_qoq_pct": 7.8
+    "revenue_cr": 130.5,
+    "net_income_cr": 19.1,
+    "revenue_qoq_pct": 11.7,
+    "net_income_qoq_pct": 96.9
    },
-   "reason": "High volume at 2.3x average and trading 18.74% above its 200-day average indicate strong momentum, while quarterly net profit grew 7.8% QoQ to \u20b9119.5 cr despite revenue dropping -23.7% QoQ.",
+   "reason": "MATRIMONY features a confirmed 52-week breakout backed by 2.34x average volume and 68.0 RSI. Fundamentals excel with quarterly revenue rising 11.7% QoQ and net profit surging 96.9% QoQ.",
+   "rank": 1,
+   "name": "Matrimony.Com Limited"
+  },
+  {
+   "symbol": "RPEL",
+   "ltp": 1919.6,
+   "technicals": {
+    "rsi_14": 62.22,
+    "rel_volume_20d": 3.78,
+    "dist_20dma_pct": 9.65,
+    "dist_50dma_pct": 10.18,
+    "dist_200dma_pct": 67.13
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 1885.2,
+    "stop_suggestion": 1535.5,
+    "target_suggestion": 2262.24,
+    "gap_to_pivot_pct": 1.82
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 92.8,
+    "net_income_cr": 21.6,
+    "revenue_qoq_pct": 6.8,
+    "net_income_qoq_pct": 10.2
+   },
+   "reason": "RPEL offers a confirmed 52-week breakout with 3.78x average volume and RSI at 62.22. Fundamentals back the trend with revenue growing 6.8% QoQ and net profit up 10.2% QoQ.",
+   "rank": 2,
+   "name": "Raghav Productivity Enhancers Limited"
+  },
+  {
+   "symbol": "GAIL",
+   "ltp": 188.0,
+   "technicals": {
+    "rsi_14": 73.13,
+    "rel_volume_20d": 1.3,
+    "dist_20dma_pct": 9.81,
+    "dist_50dma_pct": 9.29,
+    "dist_200dma_pct": 12.97
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 185.3,
+    "stop_suggestion": 160.7,
+    "target_suggestion": 222.36,
+    "gap_to_pivot_pct": 1.46
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 47139.1,
+    "net_income_cr": 4719.7,
+    "revenue_qoq_pct": 14.4,
+    "net_income_qoq_pct": 1.2
+   },
+   "reason": "GAIL trades near a confirmed 52-week breakout with 1.3x average volume and 73.13 RSI. Quarterly revenue grew 14.4% QoQ alongside a 1.2% QoQ increase in net profit.",
+   "rank": 3,
+   "name": "GAIL (India) Limited"
+  },
+  {
+   "symbol": "MOTHERSON",
+   "ltp": 161.91,
+   "technicals": {
+    "rsi_14": 53.28,
+    "rel_volume_20d": 1.57,
+    "dist_20dma_pct": 2.18,
+    "dist_50dma_pct": 0.77,
+    "dist_200dma_pct": 15.11
+   },
+   "pattern": {
+    "code": "trendline_breakout",
+    "stage": "confirmed",
+    "pivot_price": 158.86,
+    "stop_suggestion": 147.27,
+    "target_suggestion": 190.64,
+    "gap_to_pivot_pct": 1.92
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 37880.0,
+    "net_income_cr": 1175.3,
+    "revenue_qoq_pct": 8.5,
+    "net_income_qoq_pct": 13.9
+   },
+   "reason": "MOTHERSON has a confirmed trendline breakout supported by 1.57x volume. Fundamentals show balanced growth with revenue up 8.5% QoQ and net profit increasing 13.9% QoQ.",
+   "rank": 4,
+   "name": "Samvardhana Motherson International Limited"
+  },
+  {
+   "symbol": "LENSKART",
+   "ltp": 718.8,
+   "technicals": {
+    "rsi_14": 65.03,
+    "rel_volume_20d": 0.7,
+    "dist_20dma_pct": 8.14,
+    "dist_50dma_pct": 6.94,
+    "dist_200dma_pct": 29.21
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 707.2,
+    "stop_suggestion": 615.2,
+    "target_suggestion": 848.64,
+    "gap_to_pivot_pct": 1.64
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 2845.0,
+    "net_income_cr": 227.1,
+    "revenue_qoq_pct": 4.8,
+    "net_income_qoq_pct": 2.4
+   },
+   "reason": "LENSKART holds a confirmed 52-week breakout with a healthy RSI of 65.03 while sitting 29.21% above its 200-day average. Revenue grew 4.8% QoQ and profit rose 2.4% QoQ.",
    "rank": 5,
-   "name": "Action Construction Equipment Limited"
+   "name": "Lenskart Solutions Limited"
   }
  ]
 }
