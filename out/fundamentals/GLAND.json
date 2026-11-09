@@ -2,21 +2,12 @@
  "symbol": "GLAND",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 1505.6,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 215.5,
-   "net_income_qoq_pct": null,
-   "eps": 13.08
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 1695.4,
-   "revenue_qoq_pct": 12.6,
+   "revenue_qoq_pct": null,
    "net_income_cr": 261.5,
-   "net_income_qoq_pct": 21.3,
+   "net_income_qoq_pct": null,
    "eps": 15.87
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 317.0,
    "net_income_qoq_pct": -13.6,
    "eps": 19.23
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 1833.6,
+   "revenue_qoq_pct": 1.8,
+   "net_income_cr": 290.8,
+   "net_income_qoq_pct": -8.3,
+   "eps": 17.62
   }
  ],
  "verification": null

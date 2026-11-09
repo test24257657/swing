@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-09",
- "source": "ai",
+ "source": "rules",
  "universe": 364,
  "eligible": 8,
  "picks": [
@@ -29,9 +29,38 @@
     "revenue_qoq_pct": 11.7,
     "net_income_qoq_pct": 96.9
    },
-   "reason": "MATRIMONY features a confirmed 52-week breakout backed by 2.34x average volume and 68.0 RSI. Fundamentals excel with quarterly revenue rising 11.7% QoQ and net profit surging 96.9% QoQ.",
+   "reason": null,
    "rank": 1,
    "name": "Matrimony.Com Limited"
+  },
+  {
+   "symbol": "ASKAUTOLTD",
+   "ltp": 613.45,
+   "technicals": {
+    "rsi_14": 55.19,
+    "rel_volume_20d": 0.46,
+    "dist_20dma_pct": 5.06,
+    "dist_50dma_pct": 0.49,
+    "dist_200dma_pct": 22.03
+   },
+   "pattern": {
+    "code": "trendline_breakout",
+    "stage": "confirmed",
+    "pivot_price": 587.66,
+    "stop_suggestion": 527.8,
+    "target_suggestion": 705.2,
+    "gap_to_pivot_pct": 4.39
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 1555.2,
+    "net_income_cr": 101.6,
+    "revenue_qoq_pct": 14.5,
+    "net_income_qoq_pct": 19.4
+   },
+   "reason": null,
+   "rank": 2,
+   "name": "ASK Automotive Limited"
   },
   {
    "symbol": "RPEL",
@@ -58,38 +87,9 @@
     "revenue_qoq_pct": 6.8,
     "net_income_qoq_pct": 10.2
    },
-   "reason": "RPEL offers a confirmed 52-week breakout with 3.78x average volume and RSI at 62.22. Fundamentals back the trend with revenue growing 6.8% QoQ and net profit up 10.2% QoQ.",
-   "rank": 2,
-   "name": "Raghav Productivity Enhancers Limited"
-  },
-  {
-   "symbol": "GAIL",
-   "ltp": 188.0,
-   "technicals": {
-    "rsi_14": 73.13,
-    "rel_volume_20d": 1.3,
-    "dist_20dma_pct": 9.81,
-    "dist_50dma_pct": 9.29,
-    "dist_200dma_pct": 12.97
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 185.3,
-    "stop_suggestion": 160.7,
-    "target_suggestion": 222.36,
-    "gap_to_pivot_pct": 1.46
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 47139.1,
-    "net_income_cr": 4719.7,
-    "revenue_qoq_pct": 14.4,
-    "net_income_qoq_pct": 1.2
-   },
-   "reason": "GAIL trades near a confirmed 52-week breakout with 1.3x average volume and 73.13 RSI. Quarterly revenue grew 14.4% QoQ alongside a 1.2% QoQ increase in net profit.",
+   "reason": null,
    "rank": 3,
-   "name": "GAIL (India) Limited"
+   "name": "Raghav Productivity Enhancers Limited"
   },
   {
    "symbol": "MOTHERSON",
@@ -116,38 +116,38 @@
     "revenue_qoq_pct": 8.5,
     "net_income_qoq_pct": 13.9
    },
-   "reason": "MOTHERSON has a confirmed trendline breakout supported by 1.57x volume. Fundamentals show balanced growth with revenue up 8.5% QoQ and net profit increasing 13.9% QoQ.",
+   "reason": null,
    "rank": 4,
    "name": "Samvardhana Motherson International Limited"
   },
   {
-   "symbol": "LENSKART",
-   "ltp": 718.8,
+   "symbol": "GLAND",
+   "ltp": 3302.4,
    "technicals": {
-    "rsi_14": 65.03,
-    "rel_volume_20d": 0.7,
-    "dist_20dma_pct": 8.14,
-    "dist_50dma_pct": 6.94,
-    "dist_200dma_pct": 29.21
+    "rsi_14": 69.94,
+    "rel_volume_20d": 6.73,
+    "dist_20dma_pct": 8.49,
+    "dist_50dma_pct": 10.95,
+    "dist_200dma_pct": 42.94
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 707.2,
-    "stop_suggestion": 615.2,
-    "target_suggestion": 848.64,
-    "gap_to_pivot_pct": 1.64
+    "pivot_price": 3158.9,
+    "stop_suggestion": 2769.8,
+    "target_suggestion": 3790.68,
+    "gap_to_pivot_pct": 4.54
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 2845.0,
-    "net_income_cr": 227.1,
-    "revenue_qoq_pct": 4.8,
-    "net_income_qoq_pct": 2.4
+    "revenue_cr": 1833.6,
+    "net_income_cr": 290.8,
+    "revenue_qoq_pct": 1.8,
+    "net_income_qoq_pct": -8.3
    },
-   "reason": "LENSKART holds a confirmed 52-week breakout with a healthy RSI of 65.03 while sitting 29.21% above its 200-day average. Revenue grew 4.8% QoQ and profit rose 2.4% QoQ.",
+   "reason": null,
    "rank": 5,
-   "name": "Lenskart Solutions Limited"
+   "name": "Gland Pharma Limited"
   }
  ]
 }

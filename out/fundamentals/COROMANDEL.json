@@ -2,21 +2,12 @@
  "symbol": "COROMANDEL",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 7042.3,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 505.0,
-   "net_income_qoq_pct": null,
-   "eps": 17.15
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 8779.5,
-   "revenue_qoq_pct": 24.7,
+   "revenue_qoq_pct": null,
    "net_income_cr": 505.9,
-   "net_income_qoq_pct": 0.2,
+   "net_income_qoq_pct": null,
    "eps": 17.17
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 380.8,
    "net_income_qoq_pct": 172.2,
    "eps": 12.93
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 10294.1,
+   "revenue_qoq_pct": 26.1,
+   "net_income_cr": 534.2,
+   "net_income_qoq_pct": 40.3,
+   "eps": 18.14
   }
  ],
  "verification": null

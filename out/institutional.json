@@ -1,59 +1,959 @@
 {
  "as_of": "2026-11-09",
  "deal_summary": {
-  "deals_today": 3,
-  "bulk_count": 3,
-  "block_count": 0,
-  "total_value": 37363296.0,
-  "repeat_count": 0
+  "deals_today": 78,
+  "bulk_count": 76,
+  "block_count": 2,
+  "total_value": 23834109636.7,
+  "repeat_count": 20
  },
  "deals": [
   {
    "date": "2026-11-09",
-   "symbol": "MOBILISE",
-   "client": "KULBHUSHAN PARASHAR",
+   "symbol": "DATAPATTNS",
+   "client": "GRAVITON RESEARCH CAPITAL LLP",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 403762,
+   "price": 3942.71,
+   "value": 1591916475.02,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "DATAPATTNS",
+   "client": "GRAVITON RESEARCH CAPITAL LLP",
    "side": "BUY",
    "kind": "Bulk",
-   "qty": 150400,
-   "price": 120.99,
-   "value": 18196896.0,
+   "qty": 400454,
+   "price": 3943.9,
+   "value": 1579350530.6,
    "repeat": false,
    "repeat_count": 0
   },
   {
    "date": "2026-11-09",
-   "symbol": "MOBILISE",
-   "client": "PRAMOD TRADERS",
-   "side": "SELL",
-   "kind": "Bulk",
-   "qty": 96000,
-   "price": 121.0,
-   "value": 11616000.0,
+   "symbol": "COHANCE",
+   "client": "JASUB PROPERTY HOLDINGS LLP",
+   "side": "BUY",
+   "kind": "Block",
+   "qty": 3000000,
+   "price": 430.0,
+   "value": 1290000000.0,
    "repeat": false,
    "repeat_count": 0
   },
   {
    "date": "2026-11-09",
-   "symbol": "MOBILISE",
-   "client": "MAAHIR CONSULTANTS",
+   "symbol": "COHANCE",
+   "client": "JASTI FAMILY TRUST",
    "side": "SELL",
    "kind": "Bulk",
-   "qty": 62400,
-   "price": 121.0,
-   "value": 7550400.0,
+   "qty": 3000000,
+   "price": 430.0,
+   "value": 1290000000.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "COHANCE",
+   "client": "JASTI FAMILY TRUST",
+   "side": "SELL",
+   "kind": "Block",
+   "qty": 3000000,
+   "price": 430.0,
+   "value": 1290000000.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "COHANCE",
+   "client": "JASUB PROPERTY HOLDINGS LLP",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 3000000,
+   "price": 430.0,
+   "value": 1290000000.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPIGREEN",
+   "client": "MICROCURVES TRADING PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 2225186,
+   "price": 345.94,
+   "value": 769780844.84,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPIGREEN",
+   "client": "MICROCURVES TRADING PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 2225186,
+   "price": 345.77,
+   "value": 769402563.22,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AARTIDRUGS",
+   "client": "MICROCURVES TRADING PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 1352619,
+   "price": 500.65,
+   "value": 677188702.35,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AARTIDRUGS",
+   "client": "MICROCURVES TRADING PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 1352619,
+   "price": 500.23,
+   "value": 676620602.37,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPIGREEN",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 1534815,
+   "price": 343.54,
+   "value": 527270345.1,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPIGREEN",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 1534815,
+   "price": 343.25,
+   "value": 526825248.75,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "V2RETAIL",
+   "client": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 3060305,
+   "price": 169.65,
+   "value": 519180743.25,
+   "repeat": true,
+   "repeat_count": 2
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "TONBO",
+   "client": "PLUTUS WEALTH MANAGEMENT LLP",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 323145,
+   "price": 1502.86,
+   "value": 485641694.7,
+   "repeat": true,
+   "repeat_count": 4
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "TONBO",
+   "client": "PLUTUS WEALTH MANAGEMENT LLP",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 323145,
+   "price": 1502.11,
+   "value": 485399335.95,
+   "repeat": true,
+   "repeat_count": 4
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "TONBO",
+   "client": "QE SECURITIES LLP",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 316487,
+   "price": 1501.12,
+   "value": 475084965.44,
+   "repeat": true,
+   "repeat_count": 2
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPIGREEN",
+   "client": "QE SECURITIES LLP",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 1385520,
+   "price": 342.7,
+   "value": 474817704.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPIGREEN",
+   "client": "QE SECURITIES LLP",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 1380834,
+   "price": 342.61,
+   "value": 473087536.74,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "TONBO",
+   "client": "QE SECURITIES LLP",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 313325,
+   "price": 1503.84,
+   "value": 471190668.0,
+   "repeat": true,
+   "repeat_count": 2
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AARTIDRUGS",
+   "client": "QE SECURITIES LLP",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 900829,
+   "price": 502.28,
+   "value": 452468390.12,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AARTIDRUGS",
+   "client": "QE SECURITIES LLP",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 885686,
+   "price": 497.86,
+   "value": 440947631.96,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AARTIDRUGS",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 868877,
+   "price": 500.6,
+   "value": 434959826.2,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AARTIDRUGS",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 868877,
+   "price": 499.83,
+   "value": 434290790.91,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AARTIDRUGS",
+   "client": "JUNOMONETA FINSOL PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 744831,
+   "price": 500.07,
+   "value": 372467638.17,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AARTIDRUGS",
+   "client": "JUNOMONETA FINSOL PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 742922,
+   "price": 500.38,
+   "value": 371743310.36,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPIGREEN",
+   "client": "IMC INDIA SECURITIES PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 1036165,
+   "price": 345.22,
+   "value": 357704881.3,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPIGREEN",
+   "client": "JUNOMONETA FINSOL PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 1019595,
+   "price": 344.94,
+   "value": 351699099.3,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPIGREEN",
+   "client": "JUNOMONETA FINSOL PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 1019692,
+   "price": 344.75,
+   "value": 351538817.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPIGREEN",
+   "client": "IMC INDIA SECURITIES PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 850419,
+   "price": 345.07,
+   "value": 293454084.33,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "V2RETAIL",
+   "client": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 1466570,
+   "price": 170.73,
+   "value": 250387496.1,
+   "repeat": true,
+   "repeat_count": 2
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AARTIDRUGS",
+   "client": "HRTI PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 472405,
+   "price": 495.08,
+   "value": 233878267.4,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "HUBTOWN",
+   "client": "ARIHANT CAPITAL MARKETS LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 1202881,
+   "price": 189.92,
+   "value": 228451159.52,
+   "repeat": true,
+   "repeat_count": 4
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AARTIDRUGS",
+   "client": "HRTI PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 431812,
+   "price": 499.01,
+   "value": 215478506.12,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "CHEMPLASTS",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 841733,
+   "price": 238.84,
+   "value": 201039509.72,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "CHEMPLASTS",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 841733,
+   "price": 238.72,
+   "value": 200938501.76,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "HUBTOWN",
+   "client": "ARIHANT CAPITAL MARKETS LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 1009481,
+   "price": 189.56,
+   "value": 191357218.36,
+   "repeat": true,
+   "repeat_count": 4
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "TECHNOCRAF",
+   "client": "ACME CAPITAL MARKET LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 360245,
+   "price": 513.84,
+   "value": 185108290.8,
+   "repeat": true,
+   "repeat_count": 32
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "TECHNOCRAF",
+   "client": "ACME CAPITAL MARKET LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 360245,
+   "price": 512.22,
+   "value": 184524693.9,
+   "repeat": true,
+   "repeat_count": 32
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "RATNAVEER",
+   "client": "UNITY ASSOCIATES",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 500000,
+   "price": 364.15,
+   "value": 182075000.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "ALEMBICLTD",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 1547974,
+   "price": 110.86,
+   "value": 171608397.64,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "ALEMBICLTD",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 1547974,
+   "price": 110.75,
+   "value": 171438120.5,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "REPCOHOME",
+   "client": "MICROCURVES TRADING PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 331957,
+   "price": 392.9,
+   "value": 130425905.3,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "REPCOHOME",
+   "client": "MICROCURVES TRADING PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 331957,
+   "price": 392.55,
+   "value": 130309720.35,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "TECHNOCRAF",
+   "client": "RICHA GUPTA",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 211640,
+   "price": 513.05,
+   "value": 108581902.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPEL",
+   "client": "JUNOMONETA FINSOL PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 518466,
+   "price": 194.71,
+   "value": 100950514.86,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPEL",
+   "client": "JUNOMONETA FINSOL PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 517826,
+   "price": 194.91,
+   "value": 100929465.66,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPEL",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 501085,
+   "price": 194.88,
+   "value": 97651444.8,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPEL",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 501085,
+   "price": 194.44,
+   "value": 97430967.4,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "BLSPOLY",
+   "client": "PLUTUS WEALTH MANAGEMENT LLP",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 366269,
+   "price": 238.25,
+   "value": 87263589.25,
+   "repeat": true,
+   "repeat_count": 4
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "BLSPOLY",
+   "client": "PLUTUS WEALTH MANAGEMENT LLP",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 366269,
+   "price": 238.15,
+   "value": 87226962.35,
+   "repeat": true,
+   "repeat_count": 4
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPEL",
+   "client": "QE SECURITIES LLP",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 394306,
+   "price": 196.87,
+   "value": 77627022.22,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "IRMENERGY",
+   "client": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 277103,
+   "price": 274.15,
+   "value": 75967787.45,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "IRMENERGY",
+   "client": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 277103,
+   "price": 273.96,
+   "value": 75915137.88,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "SUNSHINE",
+   "client": "ARIHANT CAPITAL MARKETS LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 181853,
+   "price": 415.91,
+   "value": 75634481.23,
+   "repeat": true,
+   "repeat_count": 20
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPEL",
+   "client": "QE SECURITIES LLP",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 384755,
+   "price": 195.05,
+   "value": 75046462.75,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPEL",
+   "client": "MICROCURVES TRADING PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 371039,
+   "price": 196.54,
+   "value": 72924005.06,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KPEL",
+   "client": "MICROCURVES TRADING PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 371039,
+   "price": 196.05,
+   "value": 72742195.95,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "SALZERELEC",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 112256,
+   "price": 549.58,
+   "value": 61693652.48,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "SALZERELEC",
+   "client": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 112256,
+   "price": 549.34,
+   "value": 61666711.04,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "SUNSHINE",
+   "client": "ARIHANT CAPITAL MARKETS LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 147763,
+   "price": 416.92,
+   "value": 61605349.96,
+   "repeat": true,
+   "repeat_count": 20
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "MKJEWELS",
+   "client": "GOLDMAN SACHS BANK EUROPE SE",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 304300,
+   "price": 153.51,
+   "value": 46713093.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "SOUTHWEST",
+   "client": "AJAY KUMAR AGGARWAL",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 220000,
+   "price": 162.56,
+   "value": 35763200.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "VPFL",
+   "client": "MAVERICK COMMODITY BROKERS PRIAVTE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 360000,
+   "price": 94.0,
+   "value": 33840000.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "VPFL",
+   "client": "MAVERICK FINANCIAL SERVICES PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 360000,
+   "price": 94.0,
+   "value": 33840000.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "VISHNUINFR",
+   "client": "NIRMALKUMAR PAREEK",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 200500,
+   "price": 139.0,
+   "value": 27869500.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AAATECH",
+   "client": "NOVA GLOBAL OPPORTUNITIES FUND PCC - TOUCHSTONE",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 135000,
+   "price": 91.94,
+   "value": 12411900.0,
+   "repeat": true,
+   "repeat_count": 1
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AAATECH",
+   "client": "VAIBHAV RAJENDRA DOSHI",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 101084,
+   "price": 94.61,
+   "value": 9563557.24,
+   "repeat": true,
+   "repeat_count": 4
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "AAATECH",
+   "client": "VAIBHAV RAJENDRA DOSHI",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 101084,
+   "price": 94.27,
+   "value": 9529188.68,
+   "repeat": true,
+   "repeat_count": 4
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "GSMFOILS",
+   "client": "HI GROWTH CORPORATE SERVICES PVT LTD",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 99000,
+   "price": 57.27,
+   "value": 5669730.0,
+   "repeat": true,
+   "repeat_count": 22
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "VINEETLAB",
+   "client": "KISHOR KHIMCHAND KALVANI",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 130818,
+   "price": 37.93,
+   "value": 4961926.74,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "GSMFOILS",
+   "client": "JAYESH MANNAR",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 73500,
+   "price": 57.1,
+   "value": 4196850.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "WOMANCART",
+   "client": "KHANDHAR JAYESH MANILAL",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 49200,
+   "price": 74.06,
+   "value": 3643752.0,
+   "repeat": true,
+   "repeat_count": 1
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "JAIPURKURT",
+   "client": "L7 HITECH PRIVATE LIMITED",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 108131,
+   "price": 29.75,
+   "value": 3216897.25,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "SAJHOTELS",
+   "client": "VICCO TRADING CORPORATION",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 124000,
+   "price": 25.5,
+   "value": 3162000.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "JAIPURKURT",
+   "client": "MERU INVESTMENT FUND PCC- CELL 1",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 100000,
+   "price": 29.75,
+   "value": 2975000.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "GSMFOILS",
+   "client": "HI GROWTH CORPORATE SERVICES PVT LTD",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 48000,
+   "price": 57.23,
+   "value": 2747040.0,
+   "repeat": true,
+   "repeat_count": 22
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "JAIPURKURT",
+   "client": "L7 HITECH PRIVATE LIMITED",
+   "side": "BUY",
+   "kind": "Bulk",
+   "qty": 62800,
+   "price": 31.69,
+   "value": 1990132.0,
+   "repeat": false,
+   "repeat_count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "JALAN",
+   "client": "SHASHANK BAHAD",
+   "side": "SELL",
+   "kind": "Bulk",
+   "qty": 75000,
+   "price": 1.4,
+   "value": 105000.0,
    "repeat": false,
    "repeat_count": 0
   }
  ],
  "participant_oi": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-09",
   "sections": [
    {
     "name": "Index Futures",
     "parts": [
      {
       "who": "FII",
-      "pct": 15.5,
+      "pct": 16.4,
       "side": "net short"
      },
      {
@@ -63,28 +963,28 @@
      },
      {
       "who": "Pro",
-      "pct": 9.4,
+      "pct": 9.0,
       "side": "net short"
      },
      {
       "who": "Client",
-      "pct": 57.8,
+      "pct": 57.3,
       "side": "net long"
      }
     ],
-    "note": "Client led \u00b7 57.8% of long OI"
+    "note": "Client led \u00b7 57.3% of long OI"
    },
    {
     "name": "Stock Futures",
     "parts": [
      {
       "who": "FII",
-      "pct": 46.5,
+      "pct": 46.0,
       "side": "net long"
      },
      {
       "who": "DII",
-      "pct": 4.3,
+      "pct": 4.4,
       "side": "net short"
      },
      {
@@ -94,44 +994,44 @@
      },
      {
       "who": "Client",
-      "pct": 40.5,
+      "pct": 40.9,
       "side": "net long"
      }
     ],
-    "note": "FII led \u00b7 46.5% of long OI"
+    "note": "FII led \u00b7 46.0% of long OI"
    },
    {
     "name": "Index Options",
     "parts": [
      {
       "who": "FII",
-      "pct": 17.5,
+      "pct": 17.1,
       "side": "net short"
      },
      {
       "who": "DII",
-      "pct": 0.2,
+      "pct": 0.4,
       "side": "net long"
      },
      {
       "who": "Pro",
-      "pct": 23.2,
+      "pct": 22.8,
       "side": "net long"
      },
      {
       "who": "Client",
-      "pct": 59.1,
+      "pct": 59.7,
       "side": "net long"
      }
     ],
-    "note": "Client led \u00b7 59.1% of long OI"
+    "note": "Client led \u00b7 59.7% of long OI"
    },
    {
     "name": "Stock Options",
     "parts": [
      {
       "who": "FII",
-      "pct": 9.7,
+      "pct": 9.3,
       "side": "net short"
      },
      {
@@ -141,23 +1041,19 @@
      },
      {
       "who": "Pro",
-      "pct": 38.6,
+      "pct": 36.8,
       "side": "net short"
      },
      {
       "who": "Client",
-      "pct": 51.6,
+      "pct": 53.7,
       "side": "net long"
      }
     ],
-    "note": "Client led \u00b7 51.6% of long OI"
+    "note": "Client led \u00b7 53.7% of long OI"
    }
   ],
   "fii_index_futures_ratio": [
-   {
-    "date": "2026-09-24",
-    "ratio": 0.12
-   },
    {
     "date": "2026-09-25",
     "ratio": 0.13
@@ -273,14 +1169,12 @@
    {
     "date": "2026-11-06",
     "ratio": 0.33
+   },
+   {
+    "date": "2026-11-09",
+    "ratio": 0.37
    }
   ]
  },
- "ai_money_flow": [
-  {
-   "symbol": "MOBILISE",
-   "rationale": "Kulbhushan Parashar accumulated a major net bulk position worth over \u20b91.82 crore, absorbing sell-side pressure from multiple exiting entities.",
-   "conviction": "medium"
-  }
- ]
+ "ai_money_flow": null
 }
