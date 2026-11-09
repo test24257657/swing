@@ -1,241 +1,161 @@
 {
- "generated_at": "2026-11-06T08:15:58+05:30",
- "for_session": "2026-11-06",
+ "generated_at": "2026-11-09T08:15:52+05:30",
+ "for_session": "2026-11-09",
  "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7353.73,
-   "change_pct": -4.36,
-   "as_of": "2026-11-05"
+   "value": 7376.86,
+   "change_pct": 0.31,
+   "as_of": "2026-11-06"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 24315.0,
-   "change_pct": -5.52,
-   "as_of": "2026-11-05"
+   "value": 24579.43,
+   "change_pct": 1.09,
+   "as_of": "2026-11-06"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51523.06,
-   "change_pct": -3.44,
-   "as_of": "2026-11-05"
+   "value": 51285.73,
+   "change_pct": -0.46,
+   "as_of": "2026-11-06"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 57858.61,
-   "change_pct": -5.27,
-   "as_of": "2026-11-06"
+   "value": 59411.34,
+   "change_pct": 3.44,
+   "as_of": "2026-11-09"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24677.54,
-   "change_pct": -0.48,
-   "as_of": "2026-11-06"
+   "value": 24561.96,
+   "change_pct": 0.33,
+   "as_of": "2026-11-09"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5139.2,
-   "change_pct": -4.54,
-   "as_of": "2026-11-06"
+   "value": 5154.13,
+   "change_pct": 1.87,
+   "as_of": "2026-11-09"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 99.93,
-   "change_pct": 5.61,
-   "as_of": "2026-11-05"
+   "value": 97.84,
+   "change_pct": -0.49,
+   "as_of": "2026-11-08"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4075.3,
-   "change_pct": 0.06,
-   "as_of": "2026-11-05"
+   "value": 4134.2,
+   "change_pct": 1.46,
+   "as_of": "2026-11-08"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 94.46,
-   "change_pct": -0.05,
-   "as_of": "2026-11-06"
+   "value": 93.89,
+   "change_pct": -0.6,
+   "as_of": "2026-11-08"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 4.84,
-   "change_pct": -1.16,
-   "as_of": "2026-11-05"
+   "value": 4.86,
+   "change_pct": 0.45,
+   "as_of": "2026-11-06"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 101.66,
-   "change_pct": 0.14,
-   "as_of": "2026-11-05"
+   "value": 102.17,
+   "change_pct": -0.13,
+   "as_of": "2026-11-08"
   }
  ],
  "global_tone": {
-  "tone": "negative",
-  "avg_change_pct": -4.03,
-  "crude_alert": true
+  "tone": "positive",
+  "avg_change_pct": 1.41,
+  "crude_alert": false
  },
  "nifty": {
-  "session": "2026-11-05",
-  "close": 24536.6,
-  "high": 24579.9,
-  "low": 24296.3,
-  "pivot": 24470.93,
-  "r1": 24645.57,
-  "s1": 24361.97,
-  "r2": 24754.53,
-  "s2": 24187.33,
-  "sma_20": 22976.61,
-  "sma_50": 23234.1,
-  "sma_200": 23997.91
+  "session": "2026-11-08",
+  "close": 24986.4,
+  "high": 25131.85,
+  "low": 24985.3,
+  "pivot": 25034.52,
+  "r1": 25083.73,
+  "s1": 24937.18,
+  "r2": 25181.07,
+  "s2": 24887.97,
+  "sma_20": 23239.83,
+  "sma_50": 23263.59,
+  "sma_200": 23991.19
  },
  "focus": [
   {
-   "symbol": "SSWL",
-   "name": "Steel Strips Wheels Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 98
+   "symbol": "ADANIPORTS",
+   "name": "Adani Ports and Special Economic Zone Limited",
+   "why": "AI top 5",
+   "rs": null
   },
   {
-   "symbol": "SBC",
-   "name": "SBC Exports Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 98
+   "symbol": "ABCAPITAL",
+   "name": "Aditya Birla Capital Limited",
+   "why": "AI top 5",
+   "rs": null
   },
   {
-   "symbol": "SHREEJISPG",
-   "name": "Shreeji Shipping Global Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 98
+   "symbol": "ADANIENSOL",
+   "name": "Adani Energy Solutions Limited",
+   "why": "AI top 5",
+   "rs": null
   },
   {
-   "symbol": "DIACABS",
-   "name": "Diamond Power Infrastructure Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 98
+   "symbol": "ADANIPOWER",
+   "name": "Adani Power Limited",
+   "why": "AI top 5",
+   "rs": null
   },
   {
-   "symbol": "RATNAVEER",
-   "name": "Ratnaveer Precision Engineering Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 98
-  },
-  {
-   "symbol": "IBULLSLTD",
-   "name": "Indiabulls Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 96
-  },
-  {
-   "symbol": "SAMBHV",
-   "name": "Sambhv Steel Tubes Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 94
-  },
-  {
-   "symbol": "NRAIL",
-   "name": "N R Agarwal Industries Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 93
-  },
-  {
-   "symbol": "ZIMLAB",
-   "name": "Zim Laboratories Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 93
-  },
-  {
-   "symbol": "KESORAMIND",
-   "name": "Kesoram Industries Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 90
+   "symbol": "ACE",
+   "name": "Action Construction Equipment Limited",
+   "why": "AI top 5",
+   "rs": null
   }
  ],
  "overnight_news": [
   {
-   "symbol": "BHARTIARTL",
-   "time": "05 Nov 19:35",
-   "category": "Statement of deviation(s) or variation(s) under Reg. 32",
-   "text": "Bharti Airtel Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193500_STX_IntimationMAReport.pdf"
-  },
-  {
-   "symbol": "BHARTIARTL",
-   "time": "05 Nov 19:33",
-   "category": "Monitoring Agency Report",
-   "text": "Monitoring Agency Report for the quarter ended September 30, 2026",
-   "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193332_STX_IntimationMAReport.pdf"
-  },
-  {
-   "symbol": "TITAN",
-   "time": "05 Nov 18:51",
-   "category": "Retirement",
-   "text": "Titan Company Limited has informed the Exchange about Retirement of Mr. Noel N. Tata as Director and Vice-Chairman",
-   "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026185140_SENNTata.pdf"
-  },
-  {
-   "symbol": "M&M",
-   "time": "05 Nov 18:37",
-   "category": "Related Party Transactions",
-   "text": "Mahindra & Mahindra Limited has informed the Exchange about Disclosure of Related Party Transactions for H1F27 under Regulation 23(9) of SEBI (LODR) Regulations, 2015",
-   "url": "https://nsearchives.nseindia.com/corporate/AmitDodani_05112026183350_SEIntimationRPT_H1F27_05112026.pdf"
-  },
-  {
-   "symbol": "TITAN",
-   "time": "05 Nov 18:36",
-   "category": "Change in Auditors",
-   "text": "Titan Company Limited has informed the Exchange regarding Change in Auditors of the company.",
-   "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026183608_SEappoinmentofstatutoryauditor.pdf"
-  },
-  {
-   "symbol": "ONGC",
-   "time": "05 Nov 17:32",
-   "category": "Dividend",
-   "text": "Oil & Natural Gas Corporation Limited has informed the Exchange that Board of Directors at its meeting held on November 05, 2026, declared Interim Dividend of Rs. 8 per equity share.",
-   "url": "https://nsearchives.nseindia.com/corporate/ONGC_05112026173147_FS30092026SD.pdf"
-  },
-  {
-   "symbol": "ONGC",
-   "time": "05 Nov 17:32",
-   "category": "Outcome of Board Meeting",
-   "text": "Oil & Natural Gas Corporation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/ONGC_05112026172811_FS30092026SD.pdf"
-  },
-  {
-   "symbol": "TITAN",
-   "time": "05 Nov 16:50",
-   "category": "Outcome of Board Meeting",
-   "text": "Titan Company Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf"
-  },
-  {
-   "symbol": "BHARTIARTL",
-   "time": "05 Nov 16:20",
-   "category": "Outcome of Board Meeting",
-   "text": "Bharti Airtel Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162023_FR.pdf"
+   "symbol": "ADANIENT",
+   "time": "08 Nov 17:32",
+   "category": "Acquisition",
+   "text": "Adani Enterprises Limited has informed the Exchange about completion of acquisition of 100% stake in Vizag Mega Data Center Park Limited by AdaniConneX Private Limited ( ACX ), a joint venture of the Company.",
+   "url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_08112026173159_AELIntimationofacquisitioncompletion08112026.pdf"
   }
  ],
  "events": [
-  "118 companies report results today."
+  "6 companies report results today."
  ],
  "checklist": [
   "Market light is YELLOW — only A+ setups, half size.",
-  "Weak global cues — let the first 15-30 minutes settle before acting.",
-  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
- "ai": null
+ "ai": {
+  "headline": "Positive Global Cues Suggest Upbeat Start with NIFTY Near 24986.4 Level",
+  "points": [
+   "Asian markets point to a positive opening tone, led by Nikkei rising 3.44% to 59411.34 and Kospi up 1.87% to 5154.13.",
+   "NIFTY closed at 24986.4; watch support S1 at 24937.18 and resistance R1 at 25083.73 with a yellow market light.",
+   "Brent crude dropped 0.49% to 97.84 while USD/INR fell 0.60% to 93.89, offering macro cues for today's trade.",
+   "ADANIENT is in focus after acquiring a 100% stake in Vizag Mega Data Center Park, alongside 6 company earnings today."
+  ]
+ }
 }
