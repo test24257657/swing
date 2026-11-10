@@ -2,7 +2,7 @@
  "as_of": "2026-11-10",
  "source": "rules",
  "universe": 364,
- "eligible": 7,
+ "eligible": 8,
  "picks": [
   {
    "symbol": "MATRIMONY",
@@ -92,6 +92,35 @@
    "name": "Raghav Productivity Enhancers Limited"
   },
   {
+   "symbol": "MOTHERSON",
+   "ltp": 161.91,
+   "technicals": {
+    "rsi_14": 53.28,
+    "rel_volume_20d": 1.57,
+    "dist_20dma_pct": 2.18,
+    "dist_50dma_pct": 0.77,
+    "dist_200dma_pct": 15.11
+   },
+   "pattern": {
+    "code": "trendline_breakout",
+    "stage": "confirmed",
+    "pivot_price": 158.86,
+    "stop_suggestion": 147.27,
+    "target_suggestion": 190.64,
+    "gap_to_pivot_pct": 1.92
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 37880.0,
+    "net_income_cr": 1175.3,
+    "revenue_qoq_pct": 8.5,
+    "net_income_qoq_pct": 13.9
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "Samvardhana Motherson International Limited"
+  },
+  {
    "symbol": "GLAND",
    "ltp": 3302.4,
    "technicals": {
@@ -117,37 +146,8 @@
     "net_income_qoq_pct": -8.3
    },
    "reason": null,
-   "rank": 4,
-   "name": "Gland Pharma Limited"
-  },
-  {
-   "symbol": "CREST",
-   "ltp": 365.6,
-   "technicals": {
-    "rsi_14": 55.86,
-    "rel_volume_20d": 1.05,
-    "dist_20dma_pct": 3.11,
-    "dist_50dma_pct": 1.6,
-    "dist_200dma_pct": 1.31
-   },
-   "pattern": {
-    "code": "trendline_breakout",
-    "stage": "confirmed",
-    "pivot_price": 350.76,
-    "stop_suggestion": 320.85,
-    "target_suggestion": 420.91,
-    "gap_to_pivot_pct": 4.23
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 27.3,
-    "net_income_cr": 11.3,
-    "revenue_qoq_pct": -12.8,
-    "net_income_qoq_pct": 34.5
-   },
-   "reason": null,
    "rank": 5,
-   "name": "Crest Ventures Limited"
+   "name": "Gland Pharma Limited"
   }
  ]
 }
