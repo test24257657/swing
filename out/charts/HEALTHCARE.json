@@ -2,7 +2,7 @@
  "symbol": "HEALTHCARE",
  "name": "HEALTHCARE",
  "kind": "stock",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-11",
  "bars": [
   {
    "time": "2026-02-16",
@@ -1614,6 +1614,15 @@
    "close": 22.65,
    "volume": 77866,
    "delivery_pct": 56.44
+  },
+  {
+   "time": "2026-11-11",
+   "open": 23.21,
+   "high": 23.65,
+   "low": 22.36,
+   "close": 22.56,
+   "volume": 104834,
+   "delivery_pct": 47.38
   }
  ],
  "ma": {
@@ -2257,6 +2266,10 @@
    {
     "time": "2026-11-09",
     "value": 20.89
+   },
+   {
+    "time": "2026-11-11",
+    "value": 20.98
    }
   ],
   "sma_50": [
@@ -2779,15 +2792,19 @@
    {
     "time": "2026-11-09",
     "value": 21.3
+   },
+   {
+    "time": "2026-11-11",
+    "value": 21.32
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.63,
-  "atr_pct": 2.8,
-  "rel_volume_20d": 1.72,
-  "dist_20dma_pct": 8.41,
-  "dist_50dma_pct": 6.33,
+  "rsi_14": 72.4,
+  "atr_pct": 3.02,
+  "rel_volume_20d": 2.25,
+  "dist_20dma_pct": 7.51,
+  "dist_50dma_pct": 5.82,
   "dist_200dma_pct": null
  }
 }

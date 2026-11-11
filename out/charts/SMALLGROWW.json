@@ -2,7 +2,7 @@
  "symbol": "SMALLGROWW",
  "name": "SMALLGROWW",
  "kind": "stock",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-11",
  "bars": [
   {
    "time": "2026-06-18",
@@ -885,6 +885,15 @@
    "close": 48.56,
    "volume": 21690,
    "delivery_pct": 82.64
+  },
+  {
+   "time": "2026-11-11",
+   "open": 49.53,
+   "high": 49.53,
+   "low": 47.92,
+   "close": 48.11,
+   "volume": 23446,
+   "delivery_pct": 80.8
   }
  ],
  "ma": {
@@ -1204,6 +1213,10 @@
    {
     "time": "2026-11-09",
     "value": 46.92
+   },
+   {
+    "time": "2026-11-11",
+    "value": 46.95
    }
   ],
   "sma_50": [
@@ -1402,15 +1415,19 @@
    {
     "time": "2026-11-09",
     "value": 48.01
+   },
+   {
+    "time": "2026-11-11",
+    "value": 48.0
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.27,
-  "atr_pct": 3.27,
-  "rel_volume_20d": 2.71,
-  "dist_20dma_pct": 3.5,
-  "dist_50dma_pct": 1.14,
+  "rsi_14": 55.18,
+  "atr_pct": 3.3,
+  "rel_volume_20d": 2.79,
+  "dist_20dma_pct": 2.48,
+  "dist_50dma_pct": 0.24,
   "dist_200dma_pct": null
  }
 }

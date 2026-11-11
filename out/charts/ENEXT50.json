@@ -2,7 +2,7 @@
  "symbol": "ENEXT50",
  "name": "ENEXT50",
  "kind": "stock",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-11",
  "bars": [
   {
    "time": "2026-05-25",
@@ -1020,6 +1020,15 @@
    "close": 72.02,
    "volume": 1639,
    "delivery_pct": 31.24
+  },
+  {
+   "time": "2026-11-11",
+   "open": 72.89,
+   "high": 74.0,
+   "low": 72.14,
+   "close": 73.37,
+   "volume": 3974,
+   "delivery_pct": 69.07
   }
  ],
  "ma": {
@@ -1399,6 +1408,10 @@
    {
     "time": "2026-11-09",
     "value": 68.54
+   },
+   {
+    "time": "2026-11-11",
+    "value": 68.73
    }
   ],
   "sma_50": [
@@ -1657,15 +1670,19 @@
    {
     "time": "2026-11-09",
     "value": 70.56
+   },
+   {
+    "time": "2026-11-11",
+    "value": 70.55
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.62,
+  "rsi_14": 66.91,
   "atr_pct": 2.13,
-  "rel_volume_20d": 4.34,
-  "dist_20dma_pct": 5.08,
-  "dist_50dma_pct": 2.07,
+  "rel_volume_20d": 9.24,
+  "dist_20dma_pct": 6.76,
+  "dist_50dma_pct": 4.0,
   "dist_200dma_pct": null
  }
 }

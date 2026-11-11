@@ -2,7 +2,7 @@
  "symbol": "DRAGARWQ",
  "name": "Dr Agarwals Eye Hospital Limited",
  "kind": "stock",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-11",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1254,6 +1254,15 @@
    "close": 5552.5,
    "volume": 1549,
    "delivery_pct": 79.15
+  },
+  {
+   "time": "2026-11-11",
+   "open": 5650.0,
+   "high": 5900.0,
+   "low": 5502.0,
+   "close": 5854.0,
+   "volume": 2338,
+   "delivery_pct": 67.19
   }
  ],
  "ma": {
@@ -1737,6 +1746,10 @@
    {
     "time": "2026-11-09",
     "value": 5208.93
+   },
+   {
+    "time": "2026-11-11",
+    "value": 5243.55
    }
   ],
   "sma_50": [
@@ -2099,15 +2112,19 @@
    {
     "time": "2026-11-09",
     "value": 5230.11
+   },
+   {
+    "time": "2026-11-11",
+    "value": 5242.27
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.53,
-  "atr_pct": 2.96,
-  "rel_volume_20d": 1.01,
-  "dist_20dma_pct": 6.6,
-  "dist_50dma_pct": 6.16,
+  "rsi_14": 72.49,
+  "atr_pct": 3.1,
+  "rel_volume_20d": 1.47,
+  "dist_20dma_pct": 11.64,
+  "dist_50dma_pct": 11.67,
   "dist_200dma_pct": null
  }
 }

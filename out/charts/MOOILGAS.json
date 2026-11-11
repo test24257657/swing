@@ -2,7 +2,7 @@
  "symbol": "MOOILGAS",
  "name": "MOOILGAS",
  "kind": "stock",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-11",
  "bars": [
   {
    "time": "2026-08-06",
@@ -579,6 +579,15 @@
    "close": 11.3,
    "volume": 7171,
    "delivery_pct": 86.81
+  },
+  {
+   "time": "2026-11-11",
+   "open": 11.52,
+   "high": 11.69,
+   "low": 11.43,
+   "close": 11.44,
+   "volume": 19018,
+   "delivery_pct": 78.03
   }
  ],
  "ma": {
@@ -762,6 +771,10 @@
    {
     "time": "2026-11-09",
     "value": 10.65
+   },
+   {
+    "time": "2026-11-11",
+    "value": 10.71
    }
   ],
   "sma_50": [
@@ -824,15 +837,19 @@
    {
     "time": "2026-11-09",
     "value": 10.86
+   },
+   {
+    "time": "2026-11-11",
+    "value": 10.87
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.32,
-  "atr_pct": 3.98,
-  "rel_volume_20d": 0.28,
-  "dist_20dma_pct": 6.08,
-  "dist_50dma_pct": 4.05,
+  "rsi_14": 64.7,
+  "atr_pct": 3.89,
+  "rel_volume_20d": 0.86,
+  "dist_20dma_pct": 6.86,
+  "dist_50dma_pct": 5.29,
   "dist_200dma_pct": null
  }
 }

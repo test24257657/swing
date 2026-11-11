@@ -2,7 +2,7 @@
  "symbol": "ENIFTY",
  "name": "ENIFTY",
  "kind": "stock",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-11",
  "bars": [
   {
    "time": "2025-11-27",
@@ -2100,6 +2100,15 @@
    "close": 25.2,
    "volume": 4513,
    "delivery_pct": 76.4
+  },
+  {
+   "time": "2026-11-11",
+   "open": 25.83,
+   "high": 25.83,
+   "low": 25.2,
+   "close": 25.46,
+   "volume": 13430,
+   "delivery_pct": 91.55
   }
  ],
  "ma": {
@@ -2959,6 +2968,10 @@
    {
     "time": "2026-11-09",
     "value": 23.35
+   },
+   {
+    "time": "2026-11-11",
+    "value": 23.49
    }
   ],
   "sma_50": [
@@ -3697,6 +3710,10 @@
    {
     "time": "2026-11-09",
     "value": 23.51
+   },
+   {
+    "time": "2026-11-11",
+    "value": 23.53
    }
   ],
   "sma_200": [
@@ -3835,15 +3852,19 @@
    {
     "time": "2026-11-09",
     "value": 24.13
+   },
+   {
+    "time": "2026-11-11",
+    "value": 24.13
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.78,
-  "atr_pct": 2.95,
-  "rel_volume_20d": 1.06,
-  "dist_20dma_pct": 7.93,
-  "dist_50dma_pct": 7.18,
-  "dist_200dma_pct": 4.43
+  "rsi_14": 76.62,
+  "atr_pct": 2.89,
+  "rel_volume_20d": 3.17,
+  "dist_20dma_pct": 8.4,
+  "dist_50dma_pct": 8.2,
+  "dist_200dma_pct": 5.51
  }
 }

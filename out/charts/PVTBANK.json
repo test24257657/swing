@@ -2,7 +2,7 @@
  "symbol": "PVTBANK",
  "name": "PVTBANK",
  "kind": "stock",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-11",
  "bars": [
   {
    "time": "2026-07-22",
@@ -678,6 +678,15 @@
    "close": 29.73,
    "volume": 56046,
    "delivery_pct": 41.55
+  },
+  {
+   "time": "2026-11-11",
+   "open": 29.73,
+   "high": 30.77,
+   "low": 29.73,
+   "close": 29.96,
+   "volume": 22039,
+   "delivery_pct": 87.52
   }
  ],
  "ma": {
@@ -905,6 +914,10 @@
    {
     "time": "2026-11-09",
     "value": 27.37
+   },
+   {
+    "time": "2026-11-11",
+    "value": 27.5
    }
   ],
   "sma_50": [
@@ -1011,15 +1024,19 @@
    {
     "time": "2026-11-09",
     "value": 27.37
+   },
+   {
+    "time": "2026-11-11",
+    "value": 27.41
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.33,
-  "atr_pct": 2.03,
-  "rel_volume_20d": 6.42,
-  "dist_20dma_pct": 8.64,
-  "dist_50dma_pct": 8.62,
+  "rsi_14": 76.54,
+  "atr_pct": 2.12,
+  "rel_volume_20d": 1.92,
+  "dist_20dma_pct": 8.96,
+  "dist_50dma_pct": 9.28,
   "dist_200dma_pct": null
  }
 }

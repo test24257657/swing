@@ -2,7 +2,7 @@
  "symbol": "MOMMIDCAP",
  "name": "MOMMIDCAP",
  "kind": "stock",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-11",
  "bars": [
   {
    "time": "2026-07-22",
@@ -678,6 +678,15 @@
    "close": 12.8,
    "volume": 722830,
    "delivery_pct": 69.98
+  },
+  {
+   "time": "2026-11-11",
+   "open": 13.08,
+   "high": 13.09,
+   "low": 12.74,
+   "close": 12.85,
+   "volume": 877103,
+   "delivery_pct": 62.75
   }
  ],
  "ma": {
@@ -905,6 +914,10 @@
    {
     "time": "2026-11-09",
     "value": 12.21
+   },
+   {
+    "time": "2026-11-11",
+    "value": 12.23
    }
   ],
   "sma_50": [
@@ -1011,15 +1024,19 @@
    {
     "time": "2026-11-09",
     "value": 12.58
+   },
+   {
+    "time": "2026-11-11",
+    "value": 12.57
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.82,
-  "atr_pct": 2.45,
-  "rel_volume_20d": 0.53,
-  "dist_20dma_pct": 4.83,
-  "dist_50dma_pct": 1.74,
+  "rsi_14": 63.85,
+  "atr_pct": 2.46,
+  "rel_volume_20d": 0.66,
+  "dist_20dma_pct": 5.04,
+  "dist_50dma_pct": 2.21,
   "dist_200dma_pct": null
  }
 }

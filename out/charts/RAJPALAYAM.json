@@ -2,7 +2,7 @@
  "symbol": "RAJPALAYAM",
  "name": "Rajapalayam Mills Limited",
  "kind": "stock",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-11",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1254,6 +1254,15 @@
    "close": 751.2,
    "volume": 232,
    "delivery_pct": 95.69
+  },
+  {
+   "time": "2026-11-11",
+   "open": 755.0,
+   "high": 764.0,
+   "low": 736.0,
+   "close": 755.0,
+   "volume": 3070,
+   "delivery_pct": 89.41
   }
  ],
  "ma": {
@@ -1737,6 +1746,10 @@
    {
     "time": "2026-11-09",
     "value": 723.2
+   },
+   {
+    "time": "2026-11-11",
+    "value": 724.95
    }
   ],
   "sma_50": [
@@ -2099,15 +2112,19 @@
    {
     "time": "2026-11-09",
     "value": 752.9
+   },
+   {
+    "time": "2026-11-11",
+    "value": 751.46
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.37,
-  "atr_pct": 4.55,
-  "rel_volume_20d": 0.14,
-  "dist_20dma_pct": 3.87,
-  "dist_50dma_pct": -0.23,
+  "rsi_14": 55.29,
+  "atr_pct": 4.47,
+  "rel_volume_20d": 1.95,
+  "dist_20dma_pct": 4.14,
+  "dist_50dma_pct": 0.47,
   "dist_200dma_pct": null
  }
 }

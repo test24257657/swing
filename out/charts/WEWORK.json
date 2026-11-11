@@ -2,17 +2,8 @@
  "symbol": "WEWORK",
  "name": "WeWork India Management Limited",
  "kind": "stock",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-11",
  "bars": [
-  {
-   "time": "2025-10-31",
-   "open": 645.0,
-   "high": 647.55,
-   "low": 636.15,
-   "close": 645.5,
-   "volume": 136622,
-   "delivery_pct": 45.39
-  },
   {
    "time": "2025-11-03",
    "open": 648.0,
@@ -2262,14 +2253,19 @@
    "close": 683.9,
    "volume": 102859,
    "delivery_pct": 52.26
+  },
+  {
+   "time": "2026-11-11",
+   "open": 696.0,
+   "high": 696.0,
+   "low": 675.8,
+   "close": 685.65,
+   "volume": 180338,
+   "delivery_pct": 60.65
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-11-28",
-    "value": 621.54
-   },
    {
     "time": "2025-12-01",
     "value": 618.71
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-09",
     "value": 657.28
+   },
+   {
+    "time": "2026-11-11",
+    "value": 658.09
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-12",
-    "value": 607.56
-   },
    {
     "time": "2026-01-13",
     "value": 606.62
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-09",
     "value": 664.39
+   },
+   {
+    "time": "2026-11-11",
+    "value": 664.53
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-24",
-    "value": 595.29
-   },
    {
     "time": "2026-08-25",
     "value": 595.44
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-09",
     "value": 609.88
+   },
+   {
+    "time": "2026-11-11",
+    "value": 610.31
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.51,
-  "atr_pct": 3.58,
-  "rel_volume_20d": 0.78,
-  "dist_20dma_pct": 4.05,
-  "dist_50dma_pct": 2.94,
-  "dist_200dma_pct": 12.14
+  "rsi_14": 61.12,
+  "atr_pct": 3.52,
+  "rel_volume_20d": 1.41,
+  "dist_20dma_pct": 4.19,
+  "dist_50dma_pct": 3.18,
+  "dist_200dma_pct": 12.35
  }
 }

@@ -1,8 +1,4563 @@
 {
- "as_of": "2026-11-10",
+ "as_of": "2026-11-11",
  "window": {
-  "from": "2026-10-11",
-  "to": "2026-12-10"
+  "from": "2026-10-12",
+  "to": "2026-12-11"
  },
- "entries": []
+ "entries": [
+  {
+   "symbol": "LATTEYS",
+   "name": "Latteys Industries Limited",
+   "date": "2026-12-05",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RNBDENIMS",
+   "name": "R&B Denims Limited",
+   "date": "2026-12-05",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GVPTECH",
+   "name": "GVP Infotech Limited",
+   "date": "2026-11-18",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SANDHAR",
+   "name": "Sandhar Technologies Limited",
+   "date": "2026-11-16",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AAREYDRUGS",
+   "name": "Aarey Drugs & Pharmaceuticals Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AARTECH",
+   "name": "Aartech Solonics Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AARTISURF",
+   "name": "Aarti Surfactants Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ABCIND",
+   "name": "ABC Industries India Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ABHISHEK",
+   "name": "Abhishek Corporation Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AFFORDABLE",
+   "name": "Affordable Robotic & Automation Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AGASTYAEN",
+   "name": "Agastya Energy and Infrastructure Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AGL",
+   "name": "Allcargo Global Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AHLADA",
+   "name": "Ahlada Engineers Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AIRAN",
+   "name": "Airan Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ALGOQUANT",
+   "name": "Algoquant Fintech Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ALPA",
+   "name": "Alpa Laboratories Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AMDIND",
+   "name": "AMD Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ANIKINDS",
+   "name": "Anik Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ANNAPURNA",
+   "name": "Annapurna Swadisht Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AQYLON",
+   "name": "Aqylon Nexus Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ARCHIES",
+   "name": "Archies Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ARCOTECH",
+   "name": "Arcotech Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ARENTERP",
+   "name": "Rajdarshan Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ARHAM",
+   "name": "Arham Technologies Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ASHOKLEY",
+   "name": "Ashok Leyland Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ASIL",
+   "name": "Amit Spinning Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ATALREAL",
+   "name": "Atal Realtech Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ATAM",
+   "name": "Atam Valves Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AVROIND",
+   "name": "AVRO INDIA LIMITED",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BALUFORGE",
+   "name": "Balu Forge Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BANG",
+   "name": "Bang Overseas Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BBTCL",
+   "name": "B&B Triplewall Containers Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BCG",
+   "name": "Brightcom Group Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BEARDSELL",
+   "name": "Beardsell Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BGRENERGY",
+   "name": "BGR Energy Systems Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BHANDARI",
+   "name": "Bhandari Hosiery Exports Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BILVYAPAR",
+   "name": "BIL VYAPAR LIMITED",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BIOFILCHEM",
+   "name": "Biofil Chemicals & Pharmaceuticals Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BLEL",
+   "name": "Behari Lal Engineering Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BONLON",
+   "name": "Bonlon Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BRIGHTOUTD",
+   "name": "Bright Outdoor Media Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BRNL",
+   "name": "Bharat Road Network Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BTML",
+   "name": "Bodhi Tree Multimedia Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CALSOFT",
+   "name": "California Software Company Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CAPTRUST",
+   "name": "Capital Trust Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CENTEXT",
+   "name": "Century Extrusions Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CHEVIOT",
+   "name": "Cheviot Company Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "COASTCORP",
+   "name": "Coastal Corporation Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "COMSYN",
+   "name": "Commercial Syn Bags Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DBOL",
+   "name": "Dhampur Bio Organics Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DCMSIL",
+   "name": "DCM Shriram International Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DCMSIL",
+   "name": "DCM Shriram International Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DEEDEV",
+   "name": "DEE Development Engineers Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DHAMPURSUG",
+   "name": "Dhampur Sugar Mills Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DOLATALGO",
+   "name": "Dolat Algotech Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DSFCL",
+   "name": "DCM Shriram Fine Chemicals Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DSSL",
+   "name": "Dynacons Systems & Solutions Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EASEMYTRIP",
+   "name": "Easy Trip Planners Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EUROBOND",
+   "name": "Euro Panel Products Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EXPLEOSOL",
+   "name": "Expleo Solutions Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "FILATFASH",
+   "name": "Filatex Fashions Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "FIRSTCRY",
+   "name": "Brainbees Solutions Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "FISCHER",
+   "name": "Fischer Medical Ventures Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GENCON",
+   "name": "Generic Engineering Construction and Projects Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GENUSPOWER",
+   "name": "Genus Power Infrastructures Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GFLLIMITED",
+   "name": "GFL Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GICL",
+   "name": "Globe International Carriers Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GLOBECIVIL",
+   "name": "Globe Civil Projects Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GLOSTERLTD",
+   "name": "Gloster Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GOENKA",
+   "name": "Goenka Diamond and Jewels Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GOKUL",
+   "name": "Gokul Refoils and Solvent Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GRMOVER",
+   "name": "GRM Overseas Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GSS",
+   "name": "GSS Infotech Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GUFICBIO",
+   "name": "Gufic Biosciences Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GUJAPOLLO",
+   "name": "Gujarat Apollo Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GUJTHEM",
+   "name": "Gujarat Themis Biosyn Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HEALTHX",
+   "name": "Health X Platform Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HEROMOTORS",
+   "name": "Hero Motors Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HEXAGON",
+   "name": "Hexagon Nutrition Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HILINFRA",
+   "name": "Highway Infrastructure Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HISARMETAL",
+   "name": "Hisar Metal Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ICSA",
+   "name": "ICSA (India) Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INNOVANA",
+   "name": "Innovana Thinklabs Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JAIPURKURT",
+   "name": "Nandani Creation Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JAMNAAUTO",
+   "name": "Jamna Auto Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JINDALPOLY",
+   "name": "Jindal Poly Films Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JSIPL",
+   "name": "Jindal Supreme (India) Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JSLL",
+   "name": "Jeena Sikho Lifecare Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KAVDEFENCE",
+   "name": "Kavveri Defence & Wireless Technologies Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KAYNES",
+   "name": "Kaynes Technology India Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KEEPLEARN",
+   "name": "DSJ Keep Learning Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KELLTONTEC",
+   "name": "Kellton Tech Solutions Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KERNEX",
+   "name": "Kernex Microsystems (India) Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KHAZANCHI",
+   "name": "Khazanchi Jewellers Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KNAGRI",
+   "name": "KN Agri Resources Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KRISHANA",
+   "name": "Krishana Phoschem Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LASA",
+   "name": "Lasa Supergenerics Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LAXMICOT",
+   "name": "Laxmi Cotspin Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LEXUS",
+   "name": "Lexus Granito (India) Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LIBAS",
+   "name": "Libas Consumer Products Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LOVABLE",
+   "name": "Lovable Lingerie Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MAANALU",
+   "name": "Maan Aluminium Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MADHAV",
+   "name": "Madhav Marbles and Granites Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MAGNUM",
+   "name": "Magnum Ventures Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MANAKSTEEL",
+   "name": "Manaksia Steels Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MANORG",
+   "name": "Mangalam Organics Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MBAPL",
+   "name": "Madhya Bharat Agro Products Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MCL",
+   "name": "M TEK COPPER LIMITED",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MCLEODRUSS",
+   "name": "Mcleod Russel India Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MODTHREAD",
+   "name": "Modern Threads (India) Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MOKSH",
+   "name": "Moksh Ornaments Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MOTISONS",
+   "name": "Motisons Jewellers Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NAHARINDUS",
+   "name": "Nahar Industrial Enterprises Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NATHBIOGEN",
+   "name": "Nath Bio-Genes (India) Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NECLIFE",
+   "name": "Nectar Lifesciences Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NIBE",
+   "name": "NIBE Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NITINFIRE",
+   "name": "Nitin Fire Protection Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NITIRAJ",
+   "name": "Nitiraj Engineers Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NOVAAGRI",
+   "name": "Nova Agritech Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "OMINFRAL",
+   "name": "OM INFRA LIMITED",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ORCHPHARMA",
+   "name": "Orchid Pharma Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "OSWALSEEDS",
+   "name": "ShreeOswal Seeds And Chemicals Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PANACEABIO",
+   "name": "Panacea Biotec Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PATANJALI",
+   "name": "Patanjali Foods Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PAVNAIND",
+   "name": "Pavna Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PRITI",
+   "name": "Priti International Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PRUDMOULI",
+   "name": "Prudential Sugar Corporation Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PTCIL",
+   "name": "PTC Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "QMSMEDI",
+   "name": "QMS Medical Allied Services Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RAJMET",
+   "name": "Rajnandini Metal Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RAMASTEEL",
+   "name": "Rama Steel Tubes Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RCOM",
+   "name": "Reliance Communications Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RKEC",
+   "name": "RKEC Projects Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RMC",
+   "name": "RMC Switchgears Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RVHL",
+   "name": "Ravinder Heights Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SAHLIBHFI",
+   "name": "Shalibhadra Finance Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SAKUMA",
+   "name": "Sakuma Exports Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SALASAR",
+   "name": "Salasar Techno Engineering Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SAMMAANCAP",
+   "name": "Sammaan Capital Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SANWARIA",
+   "name": "Sanwaria Consumer Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SGL",
+   "name": "STL Global Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHAH",
+   "name": "Shah Metacorp Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHAHINVEST",
+   "name": "Shah Investor's Home Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHANTI",
+   "name": "Shanti Overseas (India) Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHRADHA",
+   "name": "Shradha Realty Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHREEJISPG",
+   "name": "Shreeji Shipping Global Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SIGIND",
+   "name": "Signet Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SINDHUTRAD",
+   "name": "Sindhu Trade Links Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SKYWAYS",
+   "name": "Skyways Air Services Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SOMICONVEY",
+   "name": "Somi Conveyor Beltings Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SONA",
+   "name": "Sonaselection India Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SRHHYPOLTD",
+   "name": "Sree Rayalaseema Hi-Strength Hypo Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SRM",
+   "name": "SRM Contractors Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SSDL",
+   "name": "Saraswati Saree Depot Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "STARPAPER",
+   "name": "Star Paper Mills Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "STYLEBAAZA",
+   "name": "Baazar Style Retail Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SUPERHOUSE",
+   "name": "Superhouse Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SWARAJ",
+   "name": "Swaraj Suiting Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TARMAT",
+   "name": "Tarmat Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TECHNOCRAF",
+   "name": "Technocraft Ventures Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "THEMISMED",
+   "name": "Themis Medicare Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TIL",
+   "name": "TIL Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TOLINS",
+   "name": "Tolins Tyres Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TVSELECT",
+   "name": "TVS Electronics Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TVSSRICHAK",
+   "name": "TVS Srichakra Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TVVISION",
+   "name": "TV Vision Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "UDAYJEW",
+   "name": "Uday Jewellery Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "UMAEXPORTS",
+   "name": "Uma Exports Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "UNIDT",
+   "name": "United Drilling Tools Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "UNIINFO",
+   "name": "Uniinfo Telecom Services Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "URAVIDEF",
+   "name": "Uravi Defence and Technology Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "USK",
+   "name": "Udayshivakumar Infra Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VAISHALI",
+   "name": "Vaishali Pharma Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VASWANI",
+   "name": "Vaswani Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VIKASECO",
+   "name": "Vikas EcoTech Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VIKRAMSOLR",
+   "name": "Vikram Solar Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VISHWARAJ",
+   "name": "Vishwaraj Sugar Industries Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VNL",
+   "name": "Vishal Nirmiti Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VPRPL",
+   "name": "Vishnu Prakash R Punglia Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VRAJ",
+   "name": "Vraj Iron and Steel Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "WCIL",
+   "name": "Western Carriers (India) Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "XLENERGY",
+   "name": "XL Energy Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ZEEMEDIA",
+   "name": "Zee Media Corporation Limited",
+   "date": "2026-11-14",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "A2ZINFRA",
+   "name": "A2Z Infra Engineering Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AAATECH",
+   "name": "Aaa Technologies Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AARVI",
+   "name": "Aarvi Encon Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ABB",
+   "name": "ABB India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ABMINTLLTD",
+   "name": "ABM International Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ADL",
+   "name": "Archidply Decor Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AEPL",
+   "name": "Artemis Electricals and Projects Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AGARIND",
+   "name": "Agarwal Industrial Corporation Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AHLEAST",
+   "name": "Asian Hotels (East) Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AJOONI",
+   "name": "Ajooni Biotech Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AKG",
+   "name": "Akg Exim Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AKSHOPTFBR",
+   "name": "Aksh Optifibre Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ALPSINDUS",
+   "name": "Alps Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ANMOL",
+   "name": "Anmol India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ANNU",
+   "name": "Annu Projects Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AONESTEELS",
+   "name": "A-One Steels India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ARIES",
+   "name": "Aries Agro Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AVG",
+   "name": "AVG Logistics Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AXISCADES",
+   "name": "AXISCADES Technologies Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BALAJEE",
+   "name": "Shree Tirupati Balajee Agro Trading Company Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BALAJITELE",
+   "name": "Balaji Telefilms Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BALLARPUR",
+   "name": "Ballarpur Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BBOX",
+   "name": "Black Box Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BBTC",
+   "name": "The Bombay Burmah Trading Corporation Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BELRISE",
+   "name": "Belrise Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BFINVEST",
+   "name": "BF Investment Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BHAGYANGR",
+   "name": "Bhagyanagar India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BHARATRAS",
+   "name": "Bharat Rasayan Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BLUECHIP",
+   "name": "Blue Chip India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BOHRAIND",
+   "name": "Bohra Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BSL",
+   "name": "BSL Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BVCL",
+   "name": "Barak Valley Cements Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CANTABIL",
+   "name": "Cantabil Retail India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CAPINVIT",
+   "name": "Capital Infra Trust",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CELEBRITY",
+   "name": "Celebrity Fashions Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CENTRUM",
+   "name": "Centrum Capital Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CMLL",
+   "name": "Caliber Mining and Logistics Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CMSINFO",
+   "name": "CMS Info Systems Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "COMPUSOFT",
+   "name": "Compucom Software Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CONFIPET",
+   "name": "Confidence Petroleum India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CREATIVEYE",
+   "name": "Creative Eye Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CSM",
+   "name": "CSM Technologies Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DCAL",
+   "name": "Dishman Carbogen Amcis Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DCM",
+   "name": "DCM  Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DEEPAKFERT",
+   "name": "Deepak Fertilizers and Petrochemicals Corporation Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DHARSUGAR",
+   "name": "Dharani Sugars & Chemicals Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DJML",
+   "name": "DJ Mediaprint & Logistics Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DONEAR",
+   "name": "Donear Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DPSCLTD",
+   "name": "DPSC Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EDELWEISS",
+   "name": "Edelweiss Financial Services Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EICHERMOT",
+   "name": "Eicher Motors Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EIDPARRY",
+   "name": "EID Parry India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EKC",
+   "name": "Everest Kanto Cylinder Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ELECTCAST",
+   "name": "Electrosteel Castings Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EQUIPPP",
+   "name": "Equippp Social Impact Technologies Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EROSMEDIA",
+   "name": "Eros International Media Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "FACT",
+   "name": "Fertilizers and Chemicals Travancore Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "FCL",
+   "name": "Fineotex Chemical Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "FILATEX",
+   "name": "Filatex India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "FUSIONCX",
+   "name": "Fusion CX Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GANESHBE",
+   "name": "Ganesh Benzoplast Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GATECH",
+   "name": "GACM Technologies Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GATECHDVR",
+   "name": "GACM Technologies Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GBGLOBAL",
+   "name": "GB Global Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GENESYS",
+   "name": "Genesys International Corporation Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GILLANDERS",
+   "name": "Gillanders Arbuthnot & Company Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GILLETTE",
+   "name": "Gillette India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GLOBALVECT",
+   "name": "Global Vectra Helicorp Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GODREJIND",
+   "name": "Godrej Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GPIL",
+   "name": "Godawari Power And Ispat limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GRASIM",
+   "name": "Grasim Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GROBTEA",
+   "name": "The Grob Tea Company Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GSPCROP",
+   "name": "GSP Crop Science Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GTECJAINX",
+   "name": "G-TEC JAINX EDUCATION LIMITED",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GVKPIL",
+   "name": "GVK Power & Infrastructure Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GVPIL",
+   "name": "GE Power India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GYFTR",
+   "name": "Gyftr Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HARDWYN",
+   "name": "Hardwyn India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HARRMALAYA",
+   "name": "Harrisons  Malayalam Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HGM",
+   "name": "HandsOn Global Management (HGM) Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HILTON",
+   "name": "Hilton Metal Forging Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HINDWAREAP",
+   "name": "Hindware Home Innovation Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HITECHCORP",
+   "name": "Hitech Corporation Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "IFGLEXPOR",
+   "name": "IFGL Refractories Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "IMAGICAA",
+   "name": "Imagicaaworld Entertainment Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INA",
+   "name": "Insolation Energy Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INCREDIBLE",
+   "name": "INCREDIBLE INDUSTRIES LIMITED",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INDIAGLYCO",
+   "name": "India Glycols Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INDOFARM",
+   "name": "Indo Farm Equipment Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INDOMIM",
+   "name": "INDO-MIM Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INNOVACAP",
+   "name": "Innova Captab Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INNOVISION",
+   "name": "Innovision Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INOXGREEN",
+   "name": "Inox Green Energy Services Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INOXWIND",
+   "name": "Inox Wind Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INTLCONV",
+   "name": "International Conveyors Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ITI",
+   "name": "ITI Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "IZMO",
+   "name": "IZMO Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JAGRAN",
+   "name": "Jagran Prakashan Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JAICORPLTD",
+   "name": "Jai Corp Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JAYKAY",
+   "name": "Jaykay Enterprises Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JAYSREETEA",
+   "name": "Jayshree Tea & Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JINDALPHOT",
+   "name": "Jindal Photo Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JINDRILL",
+   "name": "Jindal Drilling And Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JKIL",
+   "name": "J.Kumar Infraprojects Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JUBLPHARMA",
+   "name": "Jubilant Pharmova Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JWL",
+   "name": "Jupiter Wagons Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KALYANI",
+   "name": "Kalyani Commercials Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KANORICHEM",
+   "name": "Kanoria Chemicals & Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KAUSHALYA",
+   "name": "Kaushalya Infrastructure Development Corporation Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KDDL",
+   "name": "KDDL Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KEYFINSERV",
+   "name": "Keynote Financial Services Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KHAICHEM",
+   "name": "Khaitan Chemicals & Fertilizers Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KNRCON",
+   "name": "KNR Constructions Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KOHINOOR",
+   "name": "Kohinoor Foods Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KOTHARIPRO",
+   "name": "Kothari Products Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KPEL",
+   "name": "K.P. Energy Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KPIGREEN",
+   "name": "KPI Green Energy Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KRIDHANINF",
+   "name": "Kridhan Infra Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KSOILS",
+   "name": "K S Oils Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KSR",
+   "name": "KSR Footwear Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LAOPALA",
+   "name": "La Opala RG Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LAXMIINDIA",
+   "name": "Laxmi India Finance Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LPDC",
+   "name": "Landmark Property Development Company Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MADHUCON",
+   "name": "Madhucon Projects Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MAHASTEEL",
+   "name": "Mahamaya Steel Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MAHSEAMLES",
+   "name": "Maharashtra Seamless Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MANAKSIA",
+   "name": "Manaksia Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MANIPALHOS",
+   "name": "Manipal Health Enterprises Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MANOMAY",
+   "name": "Manomay Tex India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MARSONS",
+   "name": "Marsons Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MCLOUD",
+   "name": "Magellanic Cloud Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MEDICAMEQ",
+   "name": "Medicamen Biotech Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MIRZAINT",
+   "name": "Mirza International Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MKPL",
+   "name": "M K Proteins Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MODIRUBBER",
+   "name": "Modi Rubber Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MOTOGENFIN",
+   "name": "The Motor & General Finance Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MSPL",
+   "name": "MSP Steel & Power Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MTNL",
+   "name": "Mahanagar Telephone Nigam Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MUNJALAU",
+   "name": "Munjal Auto Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MUNJALSHOW",
+   "name": "Munjal Showa Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MVGJL",
+   "name": "Manoj Vaibhav Gems N Jewellers Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NATCAPSUQ",
+   "name": "Natural Capsules Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NATCOPHARM",
+   "name": "Natco Pharma Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NDGL",
+   "name": "Naga Dhunseri Group Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NDLVENTURE",
+   "name": "NDL Ventures Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NIRAJ",
+   "name": "Niraj Cement Structurals Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "OMFREIGHT",
+   "name": "Om Freight Forwarders Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "OMKARCHEM",
+   "name": "Omkar Speciality Chemicals Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ONELIFECAP",
+   "name": "Onelife Capital Advisors Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ORIENTBELL",
+   "name": "Orient Bell Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PALASHSECU",
+   "name": "Palash Securities Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PALREDTEC",
+   "name": "Palred Technologies Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PARKHOSPS",
+   "name": "Park Medi World Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PARKHOTELS",
+   "name": "Apeejay Surrendra Park Hotels Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PEARLPOLY",
+   "name": "Pearl Polymers Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PENIND",
+   "name": "Pennar Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PENINLAND",
+   "name": "Peninsula Land Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PFOCUS",
+   "name": "Prime Focus Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PLAZACABLE",
+   "name": "Plaza Wires Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "POLYPLEX",
+   "name": "Polyplex Corporation Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PRECOT",
+   "name": "Precot Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PVP",
+   "name": "PVP Ventures Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RACE",
+   "name": "Race Eco Chain Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RACLGEAR",
+   "name": "RACL Geartech Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RAJSREESUG",
+   "name": "Rajshree Sugars & Chemicals Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RAMAPHO",
+   "name": "Rama Phosphates Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RANASUG",
+   "name": "Rana Sugars Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "REGAAL",
+   "name": "Regaal Resources Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RELAXO",
+   "name": "Relaxo Footwears Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RELINFRA",
+   "name": "Reliance Infrastructure Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RHIM",
+   "name": "RHI MAGNESITA INDIA LIMITED",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RISHABH",
+   "name": "Rishabh Instruments Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RITCO",
+   "name": "Ritco Logistics Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ROHLTD",
+   "name": "Royal Orchid Hotels Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ROLLT",
+   "name": "Rollatainers Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RPPINFRA",
+   "name": "R.P.P. Infra Projects Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RUCHIRA",
+   "name": "Ruchira Papers Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RUNWALENTR",
+   "name": "Runwal Enterprises Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RVNL",
+   "name": "Rail Vikas Nigam Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "S&SPOWER",
+   "name": "S&S Power Switchgears Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SARVESHWAR",
+   "name": "Sarveshwar Foods Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SATIA",
+   "name": "Satia Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SDBL",
+   "name": "Som Distilleries & Breweries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SEMAC",
+   "name": "Semac Construction Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SENCO",
+   "name": "Senco Gold Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHIVALIK",
+   "name": "Shivalik Rasayan Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHIVAUM",
+   "name": "Shiv Aum Steels Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHREYANIND",
+   "name": "Shreyans Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHRIRAMPPS",
+   "name": "Shriram Properties Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SINTERCOM",
+   "name": "Sintercom India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SMLT",
+   "name": "Sarthak Metals Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SOLARWORLD",
+   "name": "Solarworld Energy Solutions Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SOLEX",
+   "name": "Solex Energy Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SPCENET",
+   "name": "Spacenet Enterprises India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SPLIL",
+   "name": "SPL Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SREEL",
+   "name": "Sreeleathers Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SSRETAIL",
+   "name": "SS Retail Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "STALLION",
+   "name": "Stallion India Fluorochemicals Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "STARTECK",
+   "name": "Starteck Finance Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "STCINDIA",
+   "name": "The State Trading Corporation of India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "STEELCAS",
+   "name": "Steelcast Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "STYLEBAAZA",
+   "name": "Baazar Style Retail Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SUNDARAM",
+   "name": "Sundaram Multi Pap Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SUNDRMBRAK",
+   "name": "Sundaram Brake Linings Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SUNFLAG",
+   "name": "Sunflag Iron And Steel Company Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SUPREME",
+   "name": "Supreme Holdings & Hospitality (India) Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SUPREMEINF",
+   "name": "Supreme Infrastructure India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SUTLEJTEX",
+   "name": "Sutlej Textiles and Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SWELECTES",
+   "name": "Swelect Energy Systems Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SYNCOMF",
+   "name": "Syncom Formulations (India) Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TAKE",
+   "name": "TAKE Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TEAMGTY",
+   "name": "Team India Guaranty Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TEMBO",
+   "name": "Tembo Global Industries Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TEXMOPIPES",
+   "name": "Texmo Pipes and Products Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TICL",
+   "name": "Twamev Construction and Infrastructure Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TIIL",
+   "name": "Technocraft Industries (India) Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TMPV",
+   "name": "Tata Motors Passenger Vehicles Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TNPL",
+   "name": "Tamil Nadu Newsprint & Papers Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TNTELE",
+   "name": "Tamilnadu Telecommunication Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TOUCHWOOD",
+   "name": "Touchwood Entertainment Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TVSSCS",
+   "name": "TVS Supply Chain Solutions Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "UMESLTD",
+   "name": "Usha Martin Education & Solutions Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "UNIVPHOTO",
+   "name": "Universus Photo Imagings Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "USHAMART",
+   "name": "Usha Martin Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VALECHAENG",
+   "name": "Valecha Engineering Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VCL",
+   "name": "Vaxtex Cotfab Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VCL",
+   "name": "Vaxtex Cotfab Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VENKEYS",
+   "name": "Venky's (India) Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VERANDA",
+   "name": "Veranda Learning Solutions Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VERTOZ",
+   "name": "Vertoz Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VIVIDHA",
+   "name": "Visagar Polytex Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VIYASH",
+   "name": "Viyash Scientific Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VLSFINANCE",
+   "name": "VLS Finance Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VSTL",
+   "name": "Vibhor Steel Tubes Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "XELPMOC",
+   "name": "Xelpmoc Design And Tech Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "XTGLOBAL",
+   "name": "Xtglobal Infotech Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "YUKEN",
+   "name": "Yuken India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ZAGGLE",
+   "name": "Zaggle Prepaid Ocean Services Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ZENITHEXPO",
+   "name": "Zenith Exports Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ZETWERK",
+   "name": "Zetwerk Manufacturing Businesses Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ZFCVINDIA",
+   "name": "ZF Commercial Vehicle Control Systems India Limited",
+   "date": "2026-11-13",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ACE",
+   "name": "Action Construction Equipment Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ACEINTEG",
+   "name": "Ace Integrated Solutions Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ADVANIHOTR",
+   "name": "Advani Hotels & Resorts (India) Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ALBERTDAVD",
+   "name": "Albert David Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ALICON",
+   "name": "Alicon Castalloy Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ALKEM",
+   "name": "Alkem Laboratories Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ALPHAGEO",
+   "name": "Alphageo (India) Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AMBER",
+   "name": "Amber Enterprises India Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ANTGRAPHIC",
+   "name": "Antarctica Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "APCL",
+   "name": "Anjani Portland Cement Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "APEX",
+   "name": "Apex Frozen Foods Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "APOLSINHOT",
+   "name": "Apollo Sindoori Hotels Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ARDEE",
+   "name": "Ardee Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AROGRANITE",
+   "name": "Aro Granite Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ASAHISONG",
+   "name": "Asahi Songwon Colors Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ASALCBR",
+   "name": "Associated Alcohols & Breweries Ltd.",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ASIANHOTNR",
+   "name": "Asian Hotels (North) Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ASTRAMICRO",
+   "name": "Astra Microwave Products Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AUTOAXLES",
+   "name": "Automotive Axles Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AVALON",
+   "name": "Avalon Technologies Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BALAXI",
+   "name": "BALAXI PHARMACEUTICALS LIMITED",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BANKA",
+   "name": "Banka BioLoo Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BDL",
+   "name": "Bharat Dynamics Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BLKASHYAP",
+   "name": "B. L. Kashyap and Sons Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BONDADA",
+   "name": "Bondada Engineering Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "BONFIG",
+   "name": "Bonfiglioli Transmissions Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CANTABIL",
+   "name": "Cantabil Retail India Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CAPLIPOINT",
+   "name": "Caplin Point Laboratories Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CCHHL",
+   "name": "Country Club Hospitality & Holidays Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CEINSYS",
+   "name": "Ceinsys Tech Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CEREBRAINT",
+   "name": "Cerebra Integrated Technologies Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CLSEL",
+   "name": "Chaman Lal Setia Exports Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CONSOFINVT",
+   "name": "Consolidated Finvest & Holdings Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "COUNCODOS",
+   "name": "Country Condo's Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CROWN",
+   "name": "Crown Lifters Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CTE",
+   "name": "Cambridge Technology Enterprises Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "CURAA",
+   "name": "Cura Technologies Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DAVANGERE",
+   "name": "Davangere Sugar Company Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DBEIL",
+   "name": "Deepak Builders & Engineers India Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DBL",
+   "name": "Dilip Buildcon Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DDEVPLSTIK",
+   "name": "Ddev Plastiks Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DECCANCE",
+   "name": "Deccan Cements Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DHUNINV",
+   "name": "Dhunseri Investments Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DISHTV",
+   "name": "Dish TV India Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DOLLAR",
+   "name": "Dollar Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "DSKULKARNI",
+   "name": "DS Kulkarni Developers Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EIHOTEL",
+   "name": "EIH Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ELEVATE",
+   "name": "Elevate Campuses Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ELGIRUBCO",
+   "name": "Elgi Rubber Company Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EMAMIREAL",
+   "name": "Emami Realty Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "EMSLIMITED",
+   "name": "EMS Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ENERGYDEV",
+   "name": "Energy Development Company Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ENNATURE",
+   "name": "Ennature Bio Pharma Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ERAINFRA",
+   "name": "Era Infra Engineering Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ETHOSLTD",
+   "name": "Ethos Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "FIEMIND",
+   "name": "Fiem Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "FMGOETZE",
+   "name": "Federal-Mogul Goetze (India) Limited.",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GANGESSECU",
+   "name": "Ganges Securities Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GAUDIUMIVF",
+   "name": "Gaudium IVF and Women Health Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GAYAHWS",
+   "name": "Gayatri Highways Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GICHSGFIN",
+   "name": "GIC Housing Finance Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GLOBAL",
+   "name": "Global Education Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GOLDTECH",
+   "name": "AION-TECH SOLUTIONS LIMITED",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GUJRAFFIA",
+   "name": "Gujarat Raffia Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "GULPOLY",
+   "name": "Gulshan Polyols Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HAL",
+   "name": "Hindustan Aeronautics Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HAVISHA",
+   "name": "Sri Havisha Hospitality and Infrastructure Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HDFIRE",
+   "name": "HD Fire Protect Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "HGS",
+   "name": "Hinduja Global Solutions Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "IDEA",
+   "name": "Vodafone Idea Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "IFCI",
+   "name": "IFCI Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "IGLSPIRITS",
+   "name": "IGL Spirits Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "IIRM",
+   "name": "IIRM Holdings India Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INDNIPPON",
+   "name": "India Nippon Electricals Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INDOFARM",
+   "name": "Indo Farm Equipment Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INDOTECH",
+   "name": "Indo Tech Transformers Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INDTERRAIN",
+   "name": "Indian Terrain Fashions Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "INDUSFILA",
+   "name": "Indus Fila Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "IRCTC",
+   "name": "Indian Railway Catering And Tourism Corporation Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ITDC",
+   "name": "India Tourism Development Corporation Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JBFIND",
+   "name": "JBF Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JKIPL",
+   "name": "Jinkushal Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JMA",
+   "name": "Jullundur Motor Agency (Delhi) Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "JPOLYINVST",
+   "name": "Jindal Poly Investment and Finance Company Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KARMAENG",
+   "name": "Karma Energy Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KCPSUGIND",
+   "name": "KCP Sugar and Industries Corporation Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KESORAMIND",
+   "name": "Kesoram Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "KUNDANMM",
+   "name": "Kundan Minerals and Metals Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LAL",
+   "name": "Lorenzini Apparels Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LANCORHOL",
+   "name": "Lancor Holdings Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LANDMARK",
+   "name": "Landmark Cars Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LASERPOWER",
+   "name": "Laser Power & Infra Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LEEL",
+   "name": "LEEL Electricals Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LIBERTSHOE",
+   "name": "Liberty Shoes Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LOKESHMACH",
+   "name": "Lokesh Machines Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "LOYALTEX",
+   "name": "Loyal Textile Mills Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MADRASFERT",
+   "name": "Madras Fertilizers Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MAHAPEXLTD",
+   "name": "Maha Rashtra Apex Corporation Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MALLCOM",
+   "name": "Mallcom (India) Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MANAKALUCO",
+   "name": "Manaksia Aluminium Company Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MANAPPURAM",
+   "name": "Manappuram Finance Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MANINDS",
+   "name": "Man Industries (India) Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MANORAMA",
+   "name": "Manorama Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MARKOLINES",
+   "name": "Markolines Pavement Technologies Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MBECL",
+   "name": "Mcnally Bharat Engineering Company Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MBLINFRA",
+   "name": "MBL Infrastructure Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MOMSBELIEF",
+   "name": "Rays of Belief Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MSTCLTD",
+   "name": "Mstc Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MUKANDLTD",
+   "name": "Mukand Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MURUDCERA",
+   "name": "Murudeshwar Ceramics Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "MVELECTRO",
+   "name": "MV Electrosystems Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NAVA",
+   "name": "NAVA LIMITED",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NCLIND",
+   "name": "NCL Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NIPPOBATRY",
+   "name": "Indo-National Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NIRAJISPAT",
+   "name": "Niraj Ispat Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NMDC",
+   "name": "NMDC Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NOIDATOLL",
+   "name": "Noida Toll Bridge Company Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NRL",
+   "name": "Nupur Recyclers Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NSIL",
+   "name": "Nalwa Sons Investments Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "NSLNISP",
+   "name": "NMDC Steel Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "OIL",
+   "name": "Oil India Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "OLAELEC",
+   "name": "Ola Electric Mobility Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ORIENTCABL",
+   "name": "Orient Cables (India) Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "OSWALPUMPS",
+   "name": "Oswal Pumps Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PAGEIND",
+   "name": "Page Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PGHH",
+   "name": "Procter & Gamble Hygiene and Health Care Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PGINVIT",
+   "name": "POWERGRID Infrastructure Investment Trust",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PICCADIL",
+   "name": "Piccadily Agro Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "POCL",
+   "name": "Pondy Oxides & Chemicals Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "POWERINDIA",
+   "name": "Hitachi Energy India Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PPL",
+   "name": "Prakash Pipes Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PRAENG",
+   "name": "Prajay Engineers Syndicate Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PRAKASH",
+   "name": "Prakash Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PREMEXPLN",
+   "name": "Premier Explosives Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "PRIMESECU",
+   "name": "Prime Securities Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RADAAN",
+   "name": "Radaan Mediaworks India Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RADIANTCMS",
+   "name": "Radiant Cash Management Services Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RAJTV",
+   "name": "Raj Television Network Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RANEHOLDIN",
+   "name": "Rane Holdings Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RCF",
+   "name": "Rashtriya Chemicals and Fertilizers Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "REGENCERAM",
+   "name": "Regency Ceramics Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RELIABLE",
+   "name": "Reliable Data Services Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RELIGARE",
+   "name": "Religare Enterprises Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RKDL",
+   "name": "Ravi Kumar Distilleries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RKSWAMY",
+   "name": "R K Swamy Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RPOWER",
+   "name": "Reliance Power Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RUBFILA",
+   "name": "Rubfila International Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RUBYMILLS",
+   "name": "The Ruby Mills Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "RVNL",
+   "name": "Rail Vikas Nigam Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SALZERELEC",
+   "name": "Salzer Electronics Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHARDAMOTR",
+   "name": "Sharda Motor Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHIVAMILLS",
+   "name": "Shiva Mills Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SHIVATEX",
+   "name": "Shiva Texyarn Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SINGERIND",
+   "name": "Singer India Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SPAL",
+   "name": "S. P. Apparels Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SPMLINFRA",
+   "name": "SPML Infra Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SRIT",
+   "name": "SRIT India Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SRIT",
+   "name": "SRIT India Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "STANLEY",
+   "name": "Stanley Lifestyles Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SUNSHINE",
+   "name": "Sunshine Pictures Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SURYALAXMI",
+   "name": "Suryalakshmi Cotton Mills Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "SYSTMTXC",
+   "name": "Systematix Corporate Services Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TAJGVK",
+   "name": "Taj GVK Hotels & Resorts Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TARC",
+   "name": "TARC Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TARSONS",
+   "name": "Tarsons Products Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TDPOWERSYS",
+   "name": "TD Power Systems Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TECHNOE",
+   "name": "Techno Electric & Engineering Company Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TECILCHEM",
+   "name": "TECIL Chemicals and Hydro Power Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "THOMASCOTT",
+   "name": "Thomas Scott (India) Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TRAVELFOOD",
+   "name": "Travel Food Services Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "TURTLEMINT",
+   "name": "Turtlemint Fintech Solutions Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "UFLEX",
+   "name": "UFLEX Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "UNITECH",
+   "name": "Unitech Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VARDMNPOLY",
+   "name": "Vardhman Polytex Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VHLTD",
+   "name": "Viceroy Hotels Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VINEETLAB",
+   "name": "Vineet Laboratories Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VIPIND",
+   "name": "VIP Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VISACHROME",
+   "name": "VISA Chrome Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "VISAKAIND",
+   "name": "Visaka Industries Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "WAKEFIT",
+   "name": "Wakefit Innovations Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "WEIZMANIND",
+   "name": "Weizmann Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "WEL",
+   "name": "Wonder Electricals Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "WEL",
+   "name": "Wonder Electricals Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "WILLAMAGOR",
+   "name": "Williamson Magor & Company Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "WINSOME",
+   "name": "Winsome Yarns Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "WSI",
+   "name": "W S Industries (I) Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "YATRA",
+   "name": "Yatra Online Limited",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "ZUARIIND",
+   "name": "ZUARI INDUSTRIES LIMITED",
+   "date": "2026-11-12",
+   "status": "upcoming"
+  },
+  {
+   "symbol": "AIRAN",
+   "name": "Airan Limited",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Both revenue and net profit demonstrated healthy quarter-on-quarter growth."
+  },
+  {
+   "symbol": "BALPHARMA",
+   "name": "Bal Pharma Limited",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Delivered strong sequential growth in both top-line revenue and net profit."
+  },
+  {
+   "symbol": "CUPID",
+   "name": "Cupid Limited",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Showed strong quarter-on-quarter expansion in both revenue and net profit."
+  },
+  {
+   "symbol": "HALEOSLABS",
+   "name": "HALEOS LABS LIMITED",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Achieved robust growth in both revenue and net profit over the previous quarter."
+  },
+  {
+   "symbol": "ICDSLTD",
+   "name": "ICDS Limited",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Revenue grew and net profit turned positive from a loss in the prior quarter."
+  },
+  {
+   "symbol": "PIONEEREMB",
+   "name": "Pioneer Embroideries Limited",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Delivered solid sequential growth across both revenue and net profit."
+  },
+  {
+   "symbol": "POWERMECH",
+   "name": "Power Mech Projects Limited",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Posted steady quarter-on-quarter increases in both revenue and net profit."
+  },
+  {
+   "symbol": "ROTO",
+   "name": "Roto Pumps Limited",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Both revenue and net profit grew sequentially quarter-over-quarter."
+  },
+  {
+   "symbol": "SEPC",
+   "name": "SEPC Limited",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Revenue grew sequentially and the company successfully turned profitable from a net loss."
+  },
+  {
+   "symbol": "TALBROAUTO",
+   "name": "Talbros Automotive Components Limited",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Delivered strong sequential growth across both revenue and net profit."
+  },
+  {
+   "symbol": "TRITURBINE",
+   "name": "Triveni Turbine Limited",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Achieved solid quarter-over-quarter growth in both top-line revenue and bottom-line profit."
+  },
+  {
+   "symbol": "TSFINV",
+   "name": "TSF INVESTMENTS LIMITED",
+   "date": "2026-11-11",
+   "status": "good",
+   "rationale": "Showed massive sequential growth in both revenue and net profit."
+  },
+  {
+   "symbol": "AVANTIFEED",
+   "name": "Avanti Feeds Limited",
+   "date": "2026-11-10",
+   "status": "good",
+   "rationale": "Demonstrated healthy sequential growth in both revenue and profit."
+  },
+  {
+   "symbol": "COCHINSHIP",
+   "name": "Cochin Shipyard Limited",
+   "date": "2026-11-10",
+   "status": "good",
+   "rationale": "Delivered outstanding quarter-over-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "KALYANKJIL",
+   "name": "Kalyan Jewellers India Limited",
+   "date": "2026-11-10",
+   "status": "good",
+   "rationale": "Recorded strong sequential expansion in both revenue and net profit."
+  },
+  {
+   "symbol": "MATRIMONY",
+   "name": "Matrimony.Com Limited",
+   "date": "2026-11-10",
+   "status": "good",
+   "rationale": "Achieved steady quarter-over-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "MRF",
+   "name": "MRF Limited",
+   "date": "2026-11-10",
+   "status": "good",
+   "rationale": "Both revenue and net profit grew quarter-on-quarter."
+  },
+  {
+   "symbol": "PILANIINVS",
+   "name": "Pilani Investment and Industries Corporation Limited",
+   "date": "2026-11-10",
+   "status": "good",
+   "rationale": "Demonstrated healthy quarter-on-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "TITAGARH",
+   "name": "TITAGARH RAIL SYSTEMS LIMITED",
+   "date": "2026-10-29",
+   "status": "good",
+   "rationale": "Revenue more than doubled quarter-on-quarter and the company turned profitable."
+  },
+  {
+   "symbol": "WHIRLPOOL",
+   "name": "Whirlpool of India Limited",
+   "date": "2026-11-09",
+   "status": "good",
+   "rationale": "Delivered solid growth in both revenue and net profit over the previous quarter."
+  },
+  {
+   "symbol": "BROOKS",
+   "name": "Brooks Laboratories Limited",
+   "date": "2026-11-07",
+   "status": "good",
+   "rationale": "Revenue grew significantly and net profit turned positive from a loss in the previous quarter."
+  },
+  {
+   "symbol": "DIVISLAB",
+   "name": "Divi's Laboratories Limited",
+   "date": "2026-11-07",
+   "status": "good",
+   "rationale": "Achieved strong quarter-on-quarter expansion in both revenue and net profit."
+  },
+  {
+   "symbol": "FINCABLES",
+   "name": "Finolex Cables Limited",
+   "date": "2026-11-07",
+   "status": "good",
+   "rationale": "Posted solid quarter-on-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "GOLDIAM",
+   "name": "Goldiam International Limited",
+   "date": "2026-11-07",
+   "status": "good",
+   "rationale": "Showed steady quarter-on-quarter improvement in both top line and bottom line."
+  },
+  {
+   "symbol": "HBLENGINE",
+   "name": "HBL Engineering Limited",
+   "date": "2026-11-07",
+   "status": "good",
+   "rationale": "Both revenue and net profit grew significantly quarter-over-quarter."
+  },
+  {
+   "symbol": "MAMATA",
+   "name": "Mamata Machinery Limited",
+   "date": "2026-11-07",
+   "status": "good",
+   "rationale": "Strong quarter-over-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "REMSONSIND",
+   "name": "Remsons Industries Limited",
+   "date": "2026-11-07",
+   "status": "good",
+   "rationale": "Revenue increased and net profit doubled quarter-over-quarter."
+  },
+  {
+   "symbol": "SUPRAJIT",
+   "name": "Suprajit Engineering Limited",
+   "date": "2026-11-07",
+   "status": "good",
+   "rationale": "Solid quarter-over-quarter gains in both revenue and net profit."
+  },
+  {
+   "symbol": "3MINDIA",
+   "name": "3M India Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Consistent quarter-over-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "AGIIL",
+   "name": "Agi Infra Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both top-line revenue and bottom-line net profit expanded quarter-over-quarter."
+  },
+  {
+   "symbol": "AKASH",
+   "name": "Akash Infra Projects Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Revenue grew quarter-over-quarter and net profit saw a strong uptick."
+  },
+  {
+   "symbol": "ALEMBICLTD",
+   "name": "Alembic Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both revenue and net profit demonstrated robust quarter-over-quarter growth."
+  },
+  {
+   "symbol": "AUTOIND",
+   "name": "Autoline Industries Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Revenue grew quarter-on-quarter and net profit turned positive from a loss."
+  },
+  {
+   "symbol": "BANCOINDIA",
+   "name": "Banco Products (I) Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Delivered solid sequential growth in both revenue and net profit."
+  },
+  {
+   "symbol": "BEDMUTHA",
+   "name": "Bedmutha Industries Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Achieved healthy quarter-on-quarter increases in both revenue and net profit."
+  },
+  {
+   "symbol": "BFUTILITIE",
+   "name": "BF Utilities Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Showed good sequential expansion across both top-line revenue and net profit."
+  },
+  {
+   "symbol": "BLUEDART",
+   "name": "Blue Dart Express Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Posted steady quarter-on-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "BOSCHLTD",
+   "name": "Bosch Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Demonstrated robust quarter-on-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "CCAVENUE",
+   "name": "AvenuesAI Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Demonstrated solid sequential growth in both revenue and net profit."
+  },
+  {
+   "symbol": "CHOLAHLDNG",
+   "name": "Cholamandalam Financial Holdings Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Delivered strong quarter-on-quarter expansion in both revenue and net profit."
+  },
+  {
+   "symbol": "COHANCE",
+   "name": "Cohance Lifesciences Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Achieved sequential growth in both top-line revenue and net profit."
+  },
+  {
+   "symbol": "CRESTO",
+   "name": "CRESTO TECHNO LIMITED",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Turnaround performance with revenue growth and a return to net profitability."
+  },
+  {
+   "symbol": "DENTA",
+   "name": "Denta Water and Infra Solutions Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Demonstrates strong standalone financial health with a net profit margin near 29%."
+  },
+  {
+   "symbol": "DYNAMATECH",
+   "name": "Dynamatic Technologies Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both revenue and net profit grew quarter-on-quarter, with profit showing strong expansion."
+  },
+  {
+   "symbol": "GAMMONIND",
+   "name": "Gammon India Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Revenue surged significantly and net profit swung sharply into positive territory from a massive loss."
+  },
+  {
+   "symbol": "GESHIP",
+   "name": "The Great Eastern Shipping Company Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both revenue and net profit posted solid quarter-on-quarter growth."
+  },
+  {
+   "symbol": "GLAND",
+   "name": "Gland Pharma Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Revenue nearly doubled and net profit grew dramatically compared to the previous quarter."
+  },
+  {
+   "symbol": "GODREJAGRO",
+   "name": "Godrej Agrovet Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Revenue increased while net profit quadrupled quarter-on-quarter."
+  },
+  {
+   "symbol": "HINDALCO",
+   "name": "Hindalco Industries Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Net profit saw a strong gain alongside a slight uptick in revenue."
+  },
+  {
+   "symbol": "JUBLFOOD",
+   "name": "Jubilant Foodworks Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both revenue and net profit surged sharply quarter-on-quarter."
+  },
+  {
+   "symbol": "KCP",
+   "name": "KCP Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both revenue and net profit demonstrated strong quarter-on-quarter growth."
+  },
+  {
+   "symbol": "LIKHITHA",
+   "name": "Likhitha Infrastructure Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both revenue and net profit demonstrated solid growth compared to the previous quarter."
+  },
+  {
+   "symbol": "MITCON",
+   "name": "MITCON Consultancy & Engineering Services Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both revenue and net profit expanded significantly quarter-on-quarter."
+  },
+  {
+   "symbol": "NGLFINE",
+   "name": "NGL Fine-Chem Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both revenue and net profit showed strong sequential quarter-on-quarter growth."
+  },
+  {
+   "symbol": "RGL",
+   "name": "Renaissance Global Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both revenue and net profit showed solid quarter-on-quarter growth."
+  },
+  {
+   "symbol": "SIEMENS",
+   "name": "Siemens Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both revenue and net profit saw massive surge quarter-on-quarter."
+  },
+  {
+   "symbol": "SIRCA",
+   "name": "Sirca Paints India Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Both revenue and net profit grew strongly quarter-over-quarter."
+  },
+  {
+   "symbol": "SUDARSCHEM",
+   "name": "Sudarshan Chemical Industries Limited",
+   "date": "2026-11-06",
+   "status": "good",
+   "rationale": "Showed significant sequential growth in both revenue and net profit."
+  },
+  {
+   "symbol": "ADFFOODS",
+   "name": "ADF Foods Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Delivered robust quarter-over-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "ARVSMART",
+   "name": "Arvind SmartSpaces Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Achieved strong quarter-over-quarter expansion in both revenue and net profit."
+  },
+  {
+   "symbol": "DUCON",
+   "name": "Ducon Infratechnologies Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Both revenue and net profit showed solid quarter-on-quarter growth, with profit jumping from 0.2 cr to 3.1 cr."
+  },
+  {
+   "symbol": "EIEL",
+   "name": "Enviro Infra Engineers Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Demonstrated sequential growth in both revenue (from 213.0 cr to 247.5 cr) and net profit."
+  },
+  {
+   "symbol": "ELIN",
+   "name": "Elin Electronics Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Achieved quarter-on-quarter growth in both revenue and net profit, with profit more than doubling."
+  },
+  {
+   "symbol": "EMAMILTD",
+   "name": "Emami Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Delivered steady quarter-on-quarter growth in both top-line revenue and bottom-line profit."
+  },
+  {
+   "symbol": "EMIL",
+   "name": "Electronics Mart India Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Posted solid sequential growth in both revenue (up to 1524.2 cr) and net profit (up to 40.5 cr)."
+  },
+  {
+   "symbol": "FOCUS",
+   "name": "Focus Lighting and Fixtures Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Showed strong performance with both revenue and net profit doubling quarter-on-quarter."
+  },
+  {
+   "symbol": "FORTIS",
+   "name": "Fortis Healthcare Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Strong financial performance with significant quarter-on-quarter expansion in both revenue and net profit."
+  },
+  {
+   "symbol": "GALAPREC",
+   "name": "Gala Precision Engineering Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Maintained positive growth momentum with higher revenue and net profit compared to the previous quarter."
+  },
+  {
+   "symbol": "GLOSTERLTD",
+   "name": "Gloster Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Delivered growth in revenue along with a huge surge in net profit from 0.8 cr to 7.7 cr QoQ."
+  },
+  {
+   "symbol": "GODFRYPHLP",
+   "name": "Godfrey Phillips India Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Robust quarter-on-quarter growth across both revenue and net profit."
+  },
+  {
+   "symbol": "GTL",
+   "name": "GTL Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Revenue grew sequentially alongside a major turnaround from a deep net loss to a net profit of 15.4 cr."
+  },
+  {
+   "symbol": "GUJENERGY",
+   "name": "GUJARAT ENERGY LIMITED",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Both revenue and net profit delivered strong sequential growth quarter-over-quarter."
+  },
+  {
+   "symbol": "HBSL",
+   "name": "HB Stockholdings Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Revenue surged quarter-over-quarter and the company swung from a net loss to a sharp profit of 4.3 cr."
+  },
+  {
+   "symbol": "HCG",
+   "name": "Healthcare Global Enterprises Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Demonstrated strong quarter-over-quarter expansion in both revenue and net profit."
+  },
+  {
+   "symbol": "HESTERBIO",
+   "name": "Hester Biosciences Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Achieved steady quarter-over-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "HPL",
+   "name": "HPL Electric & Power Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Showed solid quarter-over-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "ICEMAKE",
+   "name": "Ice Make Refrigeration Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Delivered robust quarter-over-quarter growth across both revenue and net profit."
+  },
+  {
+   "symbol": "IKS",
+   "name": "Inventurus Knowledge Solutions Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Delivered strong quarterly earnings with a robust net profit margin of nearly 20%."
+  },
+  {
+   "symbol": "IRB",
+   "name": "IRB Infrastructure Developers Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Achieved strong quarter-on-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "IRIS",
+   "name": "IRIS RegTech Solutions Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Delivered solid sequential growth across both revenue and net profit."
+  },
+  {
+   "symbol": "JAIBALAJI",
+   "name": "Jai Balaji Industries Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Revenue increased sequentially alongside a massive profitability turnaround from a prior loss."
+  },
+  {
+   "symbol": "JINDWORLD",
+   "name": "Jindal Worldwide Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Demonstrated steady quarter-on-quarter growth in both revenue and profit."
+  },
+  {
+   "symbol": "JITFINFRA",
+   "name": "JITF Infralogistics Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Revenue grew significantly while net profit staged a strong turnaround from a previous loss."
+  },
+  {
+   "symbol": "JNKINDIA",
+   "name": "JNK India Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Posted exceptional sequential growth in both revenue and net profit."
+  },
+  {
+   "symbol": "JUBLCPL",
+   "name": "Jubilant Agri and Consumer Products Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Reported strong standalone quarterly profitability with healthy margins."
+  },
+  {
+   "symbol": "KMSUGAR",
+   "name": "K.M.Sugar Mills Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Delivered substantial quarter-on-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "KPIL",
+   "name": "Kalpataru Projects International Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Showed healthy and consistent sequential expansion in revenue and bottom-line profit."
+  },
+  {
+   "symbol": "PATELENG",
+   "name": "Patel Engineering Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Delivered robust sequential growth in both revenue to 1343.2 cr and net profit to 140.9 cr."
+  },
+  {
+   "symbol": "POLYMED",
+   "name": "Poly Medicure Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Achieved strong quarter-on-quarter growth in both revenue to 378.1 cr and net profit to 68.1 cr."
+  },
+  {
+   "symbol": "RATEGAIN",
+   "name": "Rategain Travel Technologies Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Posted impressive sequential expansion with revenue rising to 255.8 cr and net profit jumping to 50.0 cr."
+  },
+  {
+   "symbol": "REPCOHOME",
+   "name": "Repco Home Finance Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Delivered solid growth across both revenue up to 392.6 cr and net profit up to 108.1 cr quarter-on-quarter."
+  },
+  {
+   "symbol": "RPTECH",
+   "name": "Rashi Peripherals Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Showed strong sequential momentum with revenue climbing to 3002.2 cr and net profit expanding to 47.1 cr."
+  },
+  {
+   "symbol": "SAFARI",
+   "name": "Safari Industries (India) Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Delivered strong performance with quarter-on-quarter increases in revenue to 365.4 cr and net profit to 43.2 cr."
+  },
+  {
+   "symbol": "SAILIFE",
+   "name": "Sai Life Sciences Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Reported solid profitability with a net profit of 53.9 cr on revenue of 439.8 cr."
+  },
+  {
+   "symbol": "SAMPANN",
+   "name": "Sampann Utpadan India Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Achieved a sequential turnaround, increasing revenue to 19.1 cr and moving from a loss to a net profit of 0.4 cr."
+  },
+  {
+   "symbol": "SANDHAR",
+   "name": "Sandhar Technologies Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Demonstrated healthy sequential growth with revenue rising to 917.8 cr and net profit to 35.9 cr."
+  },
+  {
+   "symbol": "SANSERA",
+   "name": "Sansera Engineering Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Posted strong quarter-on-quarter growth in revenue to 745.8 cr and net profit to 46.0 cr."
+  },
+  {
+   "symbol": "SETL",
+   "name": "Standard Engineering Technology Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Maintained healthy profitability with a net profit of 15.9 cr on revenue of 140.1 cr."
+  },
+  {
+   "symbol": "SHAH",
+   "name": "Shah Metacorp Limited",
+   "date": "2026-11-05",
+   "status": "good",
+   "rationale": "Staged a strong turnaround, more than doubling revenue to 46.3 cr and turning a loss into a 1.5 cr net profit."
+  },
+  {
+   "symbol": "GODAVARIB",
+   "name": "Godavari Biorefineries Limited",
+   "date": "2026-11-04",
+   "status": "good",
+   "rationale": "Revenue grew significantly and net profit turned around sharply from a loss in the previous quarter."
+  },
+  {
+   "symbol": "GPTINFRA",
+   "name": "GPT Infraprojects Limited",
+   "date": "2026-11-04",
+   "status": "good",
+   "rationale": "Delivered solid quarter-over-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "GRINFRA",
+   "name": "G R Infraprojects Limited",
+   "date": "2026-11-04",
+   "status": "good",
+   "rationale": "Net profit increased significantly alongside a slight improvement in revenue."
+  },
+  {
+   "symbol": "HITECHGEAR",
+   "name": "The Hi-Tech Gears Limited",
+   "date": "2026-11-04",
+   "status": "good",
+   "rationale": "Achieved positive sequential growth across both revenue and net profit."
+  },
+  {
+   "symbol": "HUDCO",
+   "name": "Housing & Urban Development Corporation Limited",
+   "date": "2026-11-04",
+   "status": "good",
+   "rationale": "Demonstrated healthy quarter-over-quarter growth in both top line and bottom line."
+  },
+  {
+   "symbol": "JASH",
+   "name": "Jash Engineering Limited",
+   "date": "2026-11-04",
+   "status": "good",
+   "rationale": "Reported strong quarter-over-quarter expansion in both revenue and net profit."
+  },
+  {
+   "symbol": "JAYAGROGN",
+   "name": "Jayant Agro Organics Limited",
+   "date": "2026-11-04",
+   "status": "good",
+   "rationale": "Showed solid sequential improvements in both top-line revenue and bottom-line profit."
+  },
+  {
+   "symbol": "ABSLAMC",
+   "name": "Aditya Birla Sun Life AMC Limited",
+   "date": "2026-10-21",
+   "status": "good",
+   "rationale": "Both revenue and net profit grew significantly compared to the previous quarter."
+  },
+  {
+   "symbol": "ADOR",
+   "name": "Ador Welding Limited",
+   "date": "2026-10-21",
+   "status": "good",
+   "rationale": "Delivered sequential revenue growth and turned profitable from a loss in the previous quarter."
+  },
+  {
+   "symbol": "DBSTOCKBRO",
+   "name": "DB (International) Stock Brokers Limited",
+   "date": "2026-10-21",
+   "status": "good",
+   "rationale": "Showed strong sequential growth in both revenue and net profit."
+  },
+  {
+   "symbol": "ETERNAL",
+   "name": "ETERNAL LIMITED",
+   "date": "2026-10-21",
+   "status": "good",
+   "rationale": "Achieved substantial revenue expansion and staged a sharp turnaround to profitability."
+  },
+  {
+   "symbol": "IGIL",
+   "name": "International Gemological Institute Limited",
+   "date": "2026-10-21",
+   "status": "good",
+   "rationale": "Demonstrated high profitability with strong absolute profit and healthy margins."
+  },
+  {
+   "symbol": "INDHOTEL",
+   "name": "The Indian Hotels Company Limited",
+   "date": "2026-10-21",
+   "status": "good",
+   "rationale": "Posted solid sequential growth in both revenue and net profit."
+  },
+  {
+   "symbol": "KEI",
+   "name": "KEI Industries Limited",
+   "date": "2026-10-21",
+   "status": "good",
+   "rationale": "Delivered steady sequential growth across both revenue and net profit."
+  },
+  {
+   "symbol": "MHRIL",
+   "name": "Mahindra Holidays & Resorts India Limited",
+   "date": "2026-10-21",
+   "status": "good",
+   "rationale": "Achieved double-digit sequential growth in both revenue and net profit."
+  },
+  {
+   "symbol": "SRF",
+   "name": "SRF Limited",
+   "date": "2026-10-21",
+   "status": "good",
+   "rationale": "Delivered massive sequential increases in both revenue and net profit."
+  },
+  {
+   "symbol": "VMM",
+   "name": "Vishal Mega Mart Limited",
+   "date": "2026-10-21",
+   "status": "good",
+   "rationale": "Reported strong revenue scale and healthy net margins for the quarter."
+  },
+  {
+   "symbol": "WENDT",
+   "name": "Wendt (India) Limited",
+   "date": "2026-10-21",
+   "status": "good",
+   "rationale": "Demonstrated consistent sequential growth in both revenue and profit."
+  },
+  {
+   "symbol": "KAPSTON",
+   "name": "Kapston Services Limited",
+   "date": "2026-10-20",
+   "status": "good",
+   "rationale": "Showed steady quarter-on-quarter growth in both top line and bottom line."
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "name": "Bajaj Finance Limited",
+   "date": "2026-10-19",
+   "status": "good",
+   "rationale": "Posted robust quarter-on-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "GALLANTT",
+   "name": "Gallantt Ispat Limited",
+   "date": "2026-10-19",
+   "status": "good",
+   "rationale": "Exceptional quarter-on-quarter growth in both revenue and net profit."
+  },
+  {
+   "symbol": "JPPOWER",
+   "name": "Jaiprakash Power Ventures Limited",
+   "date": "2026-10-19",
+   "status": "good",
+   "rationale": "Strong revenue growth alongside a sharp turnaround from net loss to substantial net profit."
+  },
+  {
+   "symbol": "JUSTDIAL",
+   "name": "Just Dial Limited",
+   "date": "2026-10-19",
+   "status": "good",
+   "rationale": "Solid sequential growth delivered in both revenue and net profit."
+  },
+  {
+   "symbol": "LTTS",
+   "name": "L&T Technology Services Limited",
+   "date": "2026-10-19",
+   "status": "good",
+   "rationale": "Robust quarter-on-quarter growth across both top-line revenue and bottom-line profit."
+  },
+  {
+   "symbol": "MGEL",
+   "name": "Mangalam Global Enterprise Limited",
+   "date": "2026-10-19",
+   "status": "good",
+   "rationale": "Strong performance driven by notable growth in both revenue and net profit QoQ."
+  },
+  {
+   "symbol": "ULTRACEMCO",
+   "name": "UltraTech Cement Limited",
+   "date": "2026-10-19",
+   "status": "good",
+   "rationale": "Impressive double-digit growth in both revenue and net profit QoQ."
+  },
+  {
+   "symbol": "ROSSARI",
+   "name": "Rossari Biotech Limited",
+   "date": "2026-10-17",
+   "status": "good",
+   "rationale": "Healthy quarter-on-quarter expansion in both top-line revenue and bottom-line net profit."
+  }
+ ]
 }

@@ -2,7 +2,7 @@
  "symbol": "SRTL",
  "name": "Shree Ram Twistex Limited",
  "kind": "stock",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-11",
  "bars": [
   {
    "time": "2026-03-02",
@@ -1524,6 +1524,15 @@
    "close": 38.88,
    "volume": 61429,
    "delivery_pct": 88.14
+  },
+  {
+   "time": "2026-11-11",
+   "open": 38.79,
+   "high": 41.75,
+   "low": 37.01,
+   "close": 38.14,
+   "volume": 320064,
+   "delivery_pct": 38.48
   }
  ],
  "ma": {
@@ -2127,6 +2136,10 @@
    {
     "time": "2026-11-09",
     "value": 35.82
+   },
+   {
+    "time": "2026-11-11",
+    "value": 35.92
    }
   ],
   "sma_50": [
@@ -2609,15 +2622,19 @@
    {
     "time": "2026-11-09",
     "value": 36.95
+   },
+   {
+    "time": "2026-11-11",
+    "value": 36.91
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.54,
-  "atr_pct": 4.01,
-  "rel_volume_20d": 2.79,
-  "dist_20dma_pct": 8.53,
-  "dist_50dma_pct": 5.24,
+  "rsi_14": 59.1,
+  "atr_pct": 4.68,
+  "rel_volume_20d": 13.55,
+  "dist_20dma_pct": 6.18,
+  "dist_50dma_pct": 3.34,
   "dist_200dma_pct": null
  }
 }
