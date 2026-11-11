@@ -1,90 +1,90 @@
 {
- "generated_at": "2026-11-10T08:15:55+05:30",
+ "generated_at": "2026-11-11T08:15:49+05:30",
  "for_session": "2026-11-11",
  "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7549.94,
-   "change_pct": 2.35,
-   "as_of": "2026-11-09"
+   "value": 7520.93,
+   "change_pct": -0.38,
+   "as_of": "2026-11-10"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 25253.14,
-   "change_pct": 2.74,
-   "as_of": "2026-11-09"
+   "value": 25065.88,
+   "change_pct": -0.74,
+   "as_of": "2026-11-10"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 52389.75,
-   "change_pct": 2.15,
-   "as_of": "2026-11-09"
+   "value": 52231.89,
+   "change_pct": -0.3,
+   "as_of": "2026-11-10"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 60475.78,
-   "change_pct": 2.89,
-   "as_of": "2026-11-10"
+   "value": 60942.48,
+   "change_pct": 0.8,
+   "as_of": "2026-11-11"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24526.99,
-   "change_pct": 0.32,
-   "as_of": "2026-11-10"
+   "value": 24405.79,
+   "change_pct": -0.62,
+   "as_of": "2026-11-11"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5240.19,
-   "change_pct": 4.41,
-   "as_of": "2026-11-10"
+   "value": 5278.67,
+   "change_pct": 0.75,
+   "as_of": "2026-11-11"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 92.03,
-   "change_pct": -6.4,
-   "as_of": "2026-11-09"
+   "value": 92.4,
+   "change_pct": -0.18,
+   "as_of": "2026-11-10"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4125.8,
-   "change_pct": 1.25,
-   "as_of": "2026-11-09"
+   "value": 4054.9,
+   "change_pct": -1.45,
+   "as_of": "2026-11-10"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 93.9,
-   "change_pct": -0.59,
-   "as_of": "2026-11-09"
+   "value": 93.92,
+   "change_pct": -0.03,
+   "as_of": "2026-11-11"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 4.86,
-   "change_pct": 0.1,
-   "as_of": "2026-11-09"
+   "value": 4.98,
+   "change_pct": 2.45,
+   "as_of": "2026-11-10"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 101.71,
-   "change_pct": -0.58,
-   "as_of": "2026-11-09"
+   "value": 102.25,
+   "change_pct": 0.59,
+   "as_of": "2026-11-10"
   }
  ],
  "global_tone": {
-  "tone": "positive",
-  "avg_change_pct": 2.54,
-  "crude_alert": true
+  "tone": "mixed",
+  "avg_change_pct": -0.04,
+  "crude_alert": false
  },
  "nifty": {
   "session": "2026-11-09",
@@ -132,23 +132,42 @@
    "rs": null
   }
  ],
- "overnight_news": [],
- "events": [
-  "49 companies report results today."
+ "overnight_news": [
+  {
+   "symbol": "MATRIMONY",
+   "time": "10 Nov 15:48",
+   "category": "Outcome of Board Meeting",
+   "text": "Matrimony.Com Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/MATRIMONY_10112026154656_NSEQuickresults10Nov26final.pdf"
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "time": "10 Nov 12:58",
+   "category": "Allotment of Securities",
+   "text": "Bajaj Finance Limited has informed the Exchange regarding allotment of 5,74,25,740 securities pursuant to Preferential Issue at its meeting held on November 10, 2026",
+   "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_10112026125828_BFL_Reg_30__Allotment_of_warrants_Final_1.pdf"
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "time": "10 Nov 12:15",
+   "category": "Committee Meeting Updates",
+   "text": "Bajaj Finance Limited has informed the Exchange regarding Outcome of PI 2026 - Special Committee Meeting held on November 10, 2026.",
+   "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_10112026121523_BFL_Reg_30_Outcome_PricingofPIpostVRFinal.pdf"
+  }
  ],
+ "events": [],
  "checklist": [
   "Market light is YELLOW — only A+ setups, half size.",
-  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
  "ai": {
-  "headline": "Positive global cues and falling crude oil set a bullish pre-market tone",
+  "headline": "Mixed global cues signal cautious Nifty opening with key levels to watch",
   "points": [
-   "Strong global cues suggest a positive open, with Kospi gaining +4.41%, Nasdaq climbing +2.74%, and Nikkei rising +2.89%.",
-   "Brent crude fell -6.40% to 92.03 and USD/INR lowered to 93.9 (-0.59%), bringing macro relief.",
-   "NIFTY 50 closed at 25044.65; watch resistance R1 at 25139.55 and support S1 at 24894.25 today.",
-   "Market light is yellow; remain cautious as 49 companies present earnings while NIFTY holds above its 200-DMA of 23988.49."
+   "Global cues are mixed as the S&P 500 fell -0.38% to 7520.93 while US 10Y yield rose +2.45% to 4.98.",
+   "Nifty closed at 25044.65; watch support at S1 24894.25 and resistance at R1 25139.55 under a yellow market light.",
+   "Bajaj Finance is in focus after announcing the allotment of 5,74,25,740 securities pursuant to a preferential issue.",
+   "Matrimony.Com submitted financial results for September 30, 2026, while Brent crude dropped -0.18% to 92.4."
   ]
  }
 }
