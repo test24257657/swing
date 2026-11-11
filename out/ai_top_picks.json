@@ -2,7 +2,7 @@
  "as_of": "2026-11-11",
  "source": "ai",
  "universe": 382,
- "eligible": 14,
+ "eligible": 10,
  "picks": [
   {
    "symbol": "APOLLO",
@@ -29,7 +29,7 @@
     "revenue_qoq_pct": 54.4,
     "net_income_qoq_pct": 79.9
    },
-   "reason": "Confirmed 52-week breakout sitting 0.91% from pivot on strong 2.31x volume. Massive fundamental growth supports the move, with quarterly revenue up 54.4% and net profit jumping 79.9% QoQ.",
+   "reason": "APOLLO has a confirmed 52-week breakout 0.91% past pivot \u20b9450.05 with 2.31x average volume and RSI 61.2. Fundamentals excel with 54.4% QoQ revenue and 79.9% QoQ net profit growth.",
    "rank": 1,
    "name": "Apollo Micro Systems Limited"
   },
@@ -58,7 +58,7 @@
     "revenue_qoq_pct": 10.8,
     "net_income_qoq_pct": 11.0
    },
-   "reason": "Confirmed 52-week breakout sitting just 0.8% above pivot on 2.33x volume. Strong trend supported by steady earnings growth, with revenue rising 10.8% and net profit increasing 11.0% QoQ.",
+   "reason": "FLUOROCHEM shows a confirmed 52-week breakout 0.8% from pivot \u20b94786.3 on 2.33x volume, holding 23.41% above its 200-day average. Revenue grew 10.8% and net profit rose 11.0% QoQ.",
    "rank": 2,
    "name": "Gujarat Fluorochemicals Limited"
   },
@@ -87,38 +87,9 @@
     "revenue_qoq_pct": 7.6,
     "net_income_qoq_pct": 25.2
    },
-   "reason": "Confirmed 52-week breakout 1.61% above pivot with healthy RSI of 67.35. Fundamentals show solid momentum, backed by 7.6% revenue growth and a 25.2% QoQ jump in net profit.",
+   "reason": "MANKIND offers a confirmed 52-week breakout 1.61% above pivot \u20b92617.9 with RSI 67.35 and strong trend health. Fundamentals are solid with 7.6% QoQ revenue and 25.2% QoQ profit growth.",
    "rank": 3,
    "name": "Mankind Pharma Limited"
-  },
-  {
-   "symbol": "RPEL",
-   "ltp": 1890.4,
-   "technicals": {
-    "rsi_14": 59.81,
-    "rel_volume_20d": 1.25,
-    "dist_20dma_pct": 7.5,
-    "dist_50dma_pct": 8.31,
-    "dist_200dma_pct": 63.85
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 1885.2,
-    "stop_suggestion": 1535.5,
-    "target_suggestion": 2262.24,
-    "gap_to_pivot_pct": 0.28
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 92.8,
-    "net_income_cr": 21.6,
-    "revenue_qoq_pct": 6.8,
-    "net_income_qoq_pct": 10.2
-   },
-   "reason": "Confirmed 52-week breakout 0.28% from pivot trading 63.85% above its 200-day average. Solid 1.25x volume complements steady fundamental growth, with net profit expanding 10.2% QoQ.",
-   "rank": 4,
-   "name": "Raghav Productivity Enhancers Limited"
   },
   {
    "symbol": "JSWSTEEL",
@@ -145,9 +116,38 @@
     "revenue_qoq_pct": 15.1,
     "net_income_qoq_pct": 13.5
    },
-   "reason": "Confirmed 52-week breakout just 0.77% past pivot with strong RSI at 66.52. Backed by excellent dual growth, featuring revenue up 15.1% and net profit up 13.5% QoQ.",
-   "rank": 5,
+   "reason": "JSWSTEEL sits just 0.77% above its pivot \u20b91343.0 in a confirmed 52-week breakout with RSI 66.52. Both revenue and net profit grew strongly at 15.1% and 13.5% QoQ respectively.",
+   "rank": 4,
    "name": "JSW Steel Limited"
+  },
+  {
+   "symbol": "STEELCAS",
+   "ltp": 382.1,
+   "technicals": {
+    "rsi_14": 62.26,
+    "rel_volume_20d": 1.7,
+    "dist_20dma_pct": 7.83,
+    "dist_50dma_pct": 10.03,
+    "dist_200dma_pct": 30.46
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 377.2,
+    "stop_suggestion": 315.0,
+    "target_suggestion": 452.64,
+    "gap_to_pivot_pct": 1.3
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 124.8,
+    "net_income_cr": 23.7,
+    "revenue_qoq_pct": 11.0,
+    "net_income_qoq_pct": 2.2
+   },
+   "reason": "STEELCAS formed a confirmed 52-week breakout 1.3% past pivot \u20b9377.2 with 1.7x average volume, trading 30.46% above its 200-day average. Quarterly revenue grew 11.0% and profit rose 2.2% QoQ.",
+   "rank": 5,
+   "name": "Steelcast Limited"
   }
  ]
 }
