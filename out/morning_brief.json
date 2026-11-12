@@ -1,158 +1,156 @@
 {
- "generated_at": "2026-11-11T08:15:49+05:30",
- "for_session": "2026-11-11",
+ "generated_at": "2026-11-12T08:15:58+05:30",
+ "for_session": "2026-11-12",
  "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7520.93,
-   "change_pct": -0.38,
-   "as_of": "2026-11-10"
+   "value": 7619.38,
+   "change_pct": 1.31,
+   "as_of": "2026-11-11"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 25065.88,
-   "change_pct": -0.74,
-   "as_of": "2026-11-10"
+   "value": 25466.19,
+   "change_pct": 1.6,
+   "as_of": "2026-11-11"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 52231.89,
-   "change_pct": -0.3,
-   "as_of": "2026-11-10"
+   "value": 52486.49,
+   "change_pct": 0.49,
+   "as_of": "2026-11-11"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 60942.48,
-   "change_pct": 0.8,
-   "as_of": "2026-11-11"
+   "value": 61714.16,
+   "change_pct": 0.76,
+   "as_of": "2026-11-12"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24405.79,
-   "change_pct": -0.62,
-   "as_of": "2026-11-11"
+   "value": 24042.45,
+   "change_pct": -1.12,
+   "as_of": "2026-11-12"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5278.67,
-   "change_pct": 0.75,
-   "as_of": "2026-11-11"
-  },
-  {
-   "label": "Brent crude",
-   "group": "Macro",
-   "value": 92.4,
-   "change_pct": -0.18,
-   "as_of": "2026-11-10"
+   "value": 5438.73,
+   "change_pct": 1.18,
+   "as_of": "2026-11-12"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 4054.9,
-   "change_pct": -1.45,
-   "as_of": "2026-11-10"
+   "value": 3985.7,
+   "change_pct": -1.1,
+   "as_of": "2026-11-11"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 93.92,
-   "change_pct": -0.03,
-   "as_of": "2026-11-11"
+   "value": 93.68,
+   "change_pct": -0.26,
+   "as_of": "2026-11-12"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 4.98,
-   "change_pct": 2.45,
-   "as_of": "2026-11-10"
+   "value": 5.0,
+   "change_pct": 0.3,
+   "as_of": "2026-11-11"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 102.25,
-   "change_pct": 0.59,
-   "as_of": "2026-11-10"
+   "value": 102.95,
+   "change_pct": 0.71,
+   "as_of": "2026-11-11"
   }
  ],
  "global_tone": {
-  "tone": "mixed",
-  "avg_change_pct": -0.04,
+  "tone": "positive",
+  "avg_change_pct": 0.75,
   "crude_alert": false
  },
  "nifty": {
-  "session": "2026-11-09",
-  "close": 25044.65,
-  "high": 25084.05,
-  "low": 24838.75,
-  "pivot": 24989.15,
-  "r1": 25139.55,
-  "s1": 24894.25,
-  "r2": 25234.45,
-  "s2": 24743.85,
-  "sma_20": 23373.9,
-  "sma_50": 23282.67,
-  "sma_200": 23988.49
+  "session": "2026-11-11",
+  "close": 25255.05,
+  "high": 25424.35,
+  "low": 25095.35,
+  "pivot": 25258.25,
+  "r1": 25421.15,
+  "s1": 25092.15,
+  "r2": 25587.25,
+  "s2": 24929.25,
+  "sma_20": 23500.56,
+  "sma_50": 23304.25,
+  "sma_200": 23988.6
  },
  "focus": [
   {
-   "symbol": "MATRIMONY",
-   "name": "Matrimony.Com Limited",
+   "symbol": "ABDL",
+   "name": "Allied Blenders and Distillers Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 84
+  },
+  {
+   "symbol": "ADANIPORTS",
+   "name": "Adani Ports and Special Economic Zone Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 82
+  },
+  {
+   "symbol": "APOLLO",
+   "name": "Apollo Micro Systems Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "ASKAUTOLTD",
-   "name": "ASK Automotive Limited",
+   "symbol": "FLUOROCHEM",
+   "name": "Gujarat Fluorochemicals Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "RPEL",
-   "name": "Raghav Productivity Enhancers Limited",
+   "symbol": "MANKIND",
+   "name": "Mankind Pharma Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "MOTHERSON",
-   "name": "Samvardhana Motherson International Limited",
+   "symbol": "JSWSTEEL",
+   "name": "JSW Steel Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "GLAND",
-   "name": "Gland Pharma Limited",
+   "symbol": "STEELCAS",
+   "name": "Steelcast Limited",
    "why": "AI top 5",
    "rs": null
   }
  ],
  "overnight_news": [
   {
-   "symbol": "MATRIMONY",
-   "time": "10 Nov 15:48",
-   "category": "Outcome of Board Meeting",
-   "text": "Matrimony.Com Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/MATRIMONY_10112026154656_NSEQuickresults10Nov26final.pdf"
+   "symbol": "ADANIENT",
+   "time": "11 Nov 20:14",
+   "category": "Acquisition",
+   "text": "Adani Enterprises Limited has informed the Exchange about incorporation of Adani Rovuma Chemicals Limited by Adani Global Limited, a wholly owned subsidiary of the Company",
+   "url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_11112026201423_AELintimationIncorporation11112026.pdf"
   },
   {
-   "symbol": "BAJFINANCE",
-   "time": "10 Nov 12:58",
-   "category": "Allotment of Securities",
-   "text": "Bajaj Finance Limited has informed the Exchange regarding allotment of 5,74,25,740 securities pursuant to Preferential Issue at its meeting held on November 10, 2026",
-   "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_10112026125828_BFL_Reg_30__Allotment_of_warrants_Final_1.pdf"
-  },
-  {
-   "symbol": "BAJFINANCE",
-   "time": "10 Nov 12:15",
-   "category": "Committee Meeting Updates",
-   "text": "Bajaj Finance Limited has informed the Exchange regarding Outcome of PI 2026 - Special Committee Meeting held on November 10, 2026.",
-   "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_10112026121523_BFL_Reg_30_Outcome_PricingofPIpostVRFinal.pdf"
+   "symbol": "AXISBANK",
+   "time": "11 Nov 19:05",
+   "category": "ESOP/ESOS/ESPS",
+   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 220144  Shares.",
+   "url": "https://nsearchives.nseindia.com/corporate/Kapil_11112026190524_SE11112026.pdf"
   }
  ],
  "events": [],
@@ -162,12 +160,12 @@
  ],
  "community": null,
  "ai": {
-  "headline": "Mixed global cues signal cautious Nifty opening with key levels to watch",
+  "headline": "Positive Global Cues Point to a Bullish Open for NIFTY",
   "points": [
-   "Global cues are mixed as the S&P 500 fell -0.38% to 7520.93 while US 10Y yield rose +2.45% to 4.98.",
-   "Nifty closed at 25044.65; watch support at S1 24894.25 and resistance at R1 25139.55 under a yellow market light.",
-   "Bajaj Finance is in focus after announcing the allotment of 5,74,25,740 securities pursuant to a preferential issue.",
-   "Matrimony.Com submitted financial results for September 30, 2026, while Brent crude dropped -0.18% to 92.4."
+   "Global markets lean positive with S&P 500 up +1.31% to 7619.38, Nasdaq gaining +1.60%, and Nikkei rising +0.76% to 61714.16.",
+   "NIFTY 50 closed at 25255.05; watch key pivot level 25258.25, support S1 at 25092.15, and resistance R1 at 25421.15.",
+   "USD/INR dropped -0.26% to 93.68, while the US 10Y yield reached 5.0% and Dollar Index rose to 102.95 (+0.71%).",
+   "Watch ADANIENT following new subsidiary incorporation, and AXISBANK after its equity share allotment of 220144 shares."
   ]
  }
 }
