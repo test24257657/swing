@@ -2,17 +2,8 @@
  "symbol": "SUPREMEENG",
  "name": "Supreme Engineering Limited",
  "kind": "stock",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "bars": [
-  {
-   "time": "2025-11-03",
-   "open": 0.74,
-   "high": 0.74,
-   "low": 0.72,
-   "close": 0.72,
-   "volume": 366740,
-   "delivery_pct": null
-  },
   {
    "time": "2025-11-10",
    "open": 0.68,
@@ -2091,14 +2082,19 @@
    "close": 5.23,
    "volume": 2453443,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-11-12",
+   "open": 5.49,
+   "high": 5.49,
+   "low": 5.24,
+   "close": 5.49,
+   "volume": 1743925,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-04",
-    "value": 0.92
-   },
    {
     "time": "2025-12-05",
     "value": 0.94
@@ -2441,11 +2437,11 @@
    },
    {
     "time": "2026-05-08",
-    "value": 1.1
+    "value": 1.09
    },
    {
     "time": "2026-05-11",
-    "value": 1.1
+    "value": 1.09
    },
    {
     "time": "2026-05-12",
@@ -2497,7 +2493,7 @@
    },
    {
     "time": "2026-05-29",
-    "value": 1.0
+    "value": 0.99
    },
    {
     "time": "2026-06-01",
@@ -2946,13 +2942,13 @@
    {
     "time": "2026-11-11",
     "value": 4.88
+   },
+   {
+    "time": "2026-11-12",
+    "value": 4.92
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-02-11",
-    "value": 1.13
-   },
    {
     "time": "2026-02-12",
     "value": 1.14
@@ -3680,13 +3676,13 @@
    {
     "time": "2026-11-11",
     "value": 4.11
+   },
+   {
+    "time": "2026-11-12",
+    "value": 4.17
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-22",
-    "value": 1.47
-   },
    {
     "time": "2026-09-23",
     "value": 1.48
@@ -3814,15 +3810,19 @@
    {
     "time": "2026-11-11",
     "value": 2.04
+   },
+   {
+    "time": "2026-11-12",
+    "value": 2.06
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.41,
-  "atr_pct": 2.51,
-  "rel_volume_20d": 1.72,
-  "dist_20dma_pct": 7.14,
-  "dist_50dma_pct": 27.18,
-  "dist_200dma_pct": 156.38
+  "rsi_14": 73.6,
+  "atr_pct": 2.56,
+  "rel_volume_20d": 1.13,
+  "dist_20dma_pct": 11.61,
+  "dist_50dma_pct": 31.74,
+  "dist_200dma_pct": 166.31
  }
 }

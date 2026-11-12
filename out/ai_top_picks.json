@@ -1,47 +1,47 @@
 {
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "source": "ai",
- "universe": 382,
- "eligible": 10,
+ "universe": 380,
+ "eligible": 12,
  "picks": [
   {
-   "symbol": "APOLLO",
-   "ltp": 454.15,
+   "symbol": "AUROPHARMA",
+   "ltp": 1807.2,
    "technicals": {
-    "rsi_14": 61.2,
-    "rel_volume_20d": 2.31,
-    "dist_20dma_pct": 9.86,
-    "dist_50dma_pct": 12.66,
-    "dist_200dma_pct": 34.13
+    "rsi_14": 64.91,
+    "rel_volume_20d": 1.9,
+    "dist_20dma_pct": 7.45,
+    "dist_50dma_pct": 7.38,
+    "dist_200dma_pct": 22.29
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 450.05,
-    "stop_suggestion": 363.0,
-    "target_suggestion": 540.06,
-    "gap_to_pivot_pct": 0.91
+    "pivot_price": 1785.0,
+    "stop_suggestion": 1547.7,
+    "target_suggestion": 2142.0,
+    "gap_to_pivot_pct": 1.24
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 388.1,
-    "net_income_cr": 48.4,
-    "revenue_qoq_pct": 54.4,
-    "net_income_qoq_pct": 79.9
+    "revenue_cr": 10227.3,
+    "net_income_cr": 1126.1,
+    "revenue_qoq_pct": 12.3,
+    "net_income_qoq_pct": 9.1
    },
-   "reason": "APOLLO has a confirmed 52-week breakout 0.91% past pivot \u20b9450.05 with 2.31x average volume and RSI 61.2. Fundamentals excel with 54.4% QoQ revenue and 79.9% QoQ net profit growth.",
+   "reason": "Confirmed 52-week breakout supported by 1.9x average volume and strong RSI of 64.91, backed by balanced fundamental growth with revenue up 12.3% QoQ and net profit up 9.1% QoQ.",
    "rank": 1,
-   "name": "Apollo Micro Systems Limited"
+   "name": "Aurobindo Pharma Limited"
   },
   {
    "symbol": "FLUOROCHEM",
-   "ltp": 4824.4,
+   "ltp": 4814.0,
    "technicals": {
-    "rsi_14": 64.99,
-    "rel_volume_20d": 2.33,
-    "dist_20dma_pct": 8.65,
-    "dist_50dma_pct": 6.79,
-    "dist_200dma_pct": 23.41
+    "rsi_14": 64.41,
+    "rel_volume_20d": 1.49,
+    "dist_20dma_pct": 8.16,
+    "dist_50dma_pct": 6.49,
+    "dist_200dma_pct": 22.92
    },
    "pattern": {
     "code": "high_52w_breakout",
@@ -49,7 +49,7 @@
     "pivot_price": 4786.3,
     "stop_suggestion": 4086.7,
     "target_suggestion": 5743.56,
-    "gap_to_pivot_pct": 0.8
+    "gap_to_pivot_pct": 0.58
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
@@ -58,96 +58,96 @@
     "revenue_qoq_pct": 10.8,
     "net_income_qoq_pct": 11.0
    },
-   "reason": "FLUOROCHEM shows a confirmed 52-week breakout 0.8% from pivot \u20b94786.3 on 2.33x volume, holding 23.41% above its 200-day average. Revenue grew 10.8% and net profit rose 11.0% QoQ.",
+   "reason": "Confirmed 52-week breakout sitting just 0.58% above pivot, backed by 1.49x average volume and clean growth with revenue rising 10.8% QoQ and net profit up 11.0% QoQ.",
    "rank": 2,
    "name": "Gujarat Fluorochemicals Limited"
   },
   {
-   "symbol": "MANKIND",
-   "ltp": 2660.0,
+   "symbol": "ESAFSFB",
+   "ltp": 45.08,
    "technicals": {
-    "rsi_14": 67.35,
-    "rel_volume_20d": 1.06,
-    "dist_20dma_pct": 10.0,
-    "dist_50dma_pct": 10.68,
-    "dist_200dma_pct": 14.49
+    "rsi_14": 61.73,
+    "rel_volume_20d": 2.01,
+    "dist_20dma_pct": 7.39,
+    "dist_50dma_pct": 7.98,
+    "dist_200dma_pct": 36.08
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 2617.9,
-    "stop_suggestion": 2196.1,
-    "target_suggestion": 3141.48,
-    "gap_to_pivot_pct": 1.61
+    "pivot_price": 44.71,
+    "stop_suggestion": 36.88,
+    "target_suggestion": 53.65,
+    "gap_to_pivot_pct": 0.83
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 4337.9,
-    "net_income_cr": 711.5,
-    "revenue_qoq_pct": 7.6,
-    "net_income_qoq_pct": 25.2
+    "revenue_cr": 856.6,
+    "net_income_cr": 160.2,
+    "revenue_qoq_pct": 2.9,
+    "net_income_qoq_pct": 100.0
    },
-   "reason": "MANKIND offers a confirmed 52-week breakout 1.61% above pivot \u20b92617.9 with RSI 67.35 and strong trend health. Fundamentals are solid with 7.6% QoQ revenue and 25.2% QoQ profit growth.",
+   "reason": "Confirmed 52-week breakout backed by heavy 2.01x average volume while trading 36.08% above its 200-day moving average, supported by net profit doubling with 100.0% QoQ growth.",
    "rank": 3,
-   "name": "Mankind Pharma Limited"
+   "name": "ESAF Small Finance Bank Limited"
   },
   {
-   "symbol": "JSWSTEEL",
-   "ltp": 1353.3,
+   "symbol": "RPEL",
+   "ltp": 1900.6,
    "technicals": {
-    "rsi_14": 66.52,
-    "rel_volume_20d": 0.96,
-    "dist_20dma_pct": 7.85,
-    "dist_50dma_pct": 6.91,
-    "dist_200dma_pct": 8.29
+    "rsi_14": 60.38,
+    "rel_volume_20d": 0.95,
+    "dist_20dma_pct": 7.77,
+    "dist_50dma_pct": 8.7,
+    "dist_200dma_pct": 63.97
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 1343.0,
-    "stop_suggestion": 1181.9,
-    "target_suggestion": 1611.6,
-    "gap_to_pivot_pct": 0.77
+    "pivot_price": 1885.2,
+    "stop_suggestion": 1535.5,
+    "target_suggestion": 2262.24,
+    "gap_to_pivot_pct": 0.82
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 53697.0,
-    "net_income_cr": 5279.0,
-    "revenue_qoq_pct": 15.1,
-    "net_income_qoq_pct": 13.5
+    "revenue_cr": 92.8,
+    "net_income_cr": 21.6,
+    "revenue_qoq_pct": 6.8,
+    "net_income_qoq_pct": 10.2
    },
-   "reason": "JSWSTEEL sits just 0.77% above its pivot \u20b91343.0 in a confirmed 52-week breakout with RSI 66.52. Both revenue and net profit grew strongly at 15.1% and 13.5% QoQ respectively.",
+   "reason": "Confirmed 52-week breakout just 0.82% above pivot, trading 63.97% above its 200-day average with steady fundamental growth as revenue increased 6.8% QoQ and net profit grew 10.2% QoQ.",
    "rank": 4,
-   "name": "JSW Steel Limited"
+   "name": "Raghav Productivity Enhancers Limited"
   },
   {
-   "symbol": "STEELCAS",
-   "ltp": 382.1,
+   "symbol": "MOTHERSON",
+   "ltp": 165.83,
    "technicals": {
-    "rsi_14": 62.26,
-    "rel_volume_20d": 1.7,
-    "dist_20dma_pct": 7.83,
-    "dist_50dma_pct": 10.03,
-    "dist_200dma_pct": 30.46
+    "rsi_14": 56.22,
+    "rel_volume_20d": 1.21,
+    "dist_20dma_pct": 3.82,
+    "dist_50dma_pct": 3.16,
+    "dist_200dma_pct": 17.45
    },
    "pattern": {
-    "code": "high_52w_breakout",
+    "code": "trendline_breakout",
     "stage": "confirmed",
-    "pivot_price": 377.2,
-    "stop_suggestion": 315.0,
-    "target_suggestion": 452.64,
-    "gap_to_pivot_pct": 1.3
+    "pivot_price": 158.37,
+    "stop_suggestion": 147.27,
+    "target_suggestion": 190.05,
+    "gap_to_pivot_pct": 4.71
    },
    "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 124.8,
-    "net_income_cr": 23.7,
-    "revenue_qoq_pct": 11.0,
-    "net_income_qoq_pct": 2.2
+    "quarter": "Q2 FY27",
+    "revenue_cr": 37880.0,
+    "net_income_cr": 1175.3,
+    "revenue_qoq_pct": 8.5,
+    "net_income_qoq_pct": 13.9
    },
-   "reason": "STEELCAS formed a confirmed 52-week breakout 1.3% past pivot \u20b9377.2 with 1.7x average volume, trading 30.46% above its 200-day average. Quarterly revenue grew 11.0% and profit rose 2.2% QoQ.",
+   "reason": "Confirmed trendline breakout supported by 1.21x average volume and healthy 56.22 RSI, backed by solid dual fundamental expansion with revenue up 8.5% QoQ and net profit up 13.9% QoQ.",
    "rank": 5,
-   "name": "Steelcast Limited"
+   "name": "Samvardhana Motherson International Limited"
   }
  ]
 }

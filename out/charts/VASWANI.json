@@ -2,17 +2,8 @@
  "symbol": "VASWANI",
  "name": "Vaswani Industries Limited",
  "kind": "stock",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "bars": [
-  {
-   "time": "2025-11-03",
-   "open": 62.24,
-   "high": 62.84,
-   "low": 61.16,
-   "close": 62.26,
-   "volume": 43901,
-   "delivery_pct": 66.16
-  },
   {
    "time": "2025-11-04",
    "open": 61.65,
@@ -2262,14 +2253,19 @@
    "close": 46.85,
    "volume": 78291,
    "delivery_pct": 64.74
+  },
+  {
+   "time": "2026-11-12",
+   "open": 47.2,
+   "high": 48.95,
+   "low": 45.0,
+   "close": 46.42,
+   "volume": 22205,
+   "delivery_pct": 79.91
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-01",
-    "value": 59.63
-   },
    {
     "time": "2025-12-02",
     "value": 59.18
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-11",
     "value": 41.71
+   },
+   {
+    "time": "2026-11-12",
+    "value": 41.88
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-13",
-    "value": 58.8
-   },
    {
     "time": "2026-01-14",
     "value": 58.69
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-11",
     "value": 44.13
+   },
+   {
+    "time": "2026-11-12",
+    "value": 44.09
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-25",
-    "value": 55.89
-   },
    {
     "time": "2026-08-26",
     "value": 55.82
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-11",
     "value": 52.18
+   },
+   {
+    "time": "2026-11-12",
+    "value": 52.13
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.63,
-  "atr_pct": 5.28,
-  "rel_volume_20d": 2.0,
-  "dist_20dma_pct": 12.32,
-  "dist_50dma_pct": 6.16,
-  "dist_200dma_pct": -10.22
+  "rsi_14": 64.47,
+  "atr_pct": 5.55,
+  "rel_volume_20d": 0.52,
+  "dist_20dma_pct": 10.83,
+  "dist_50dma_pct": 5.29,
+  "dist_200dma_pct": -10.96
  }
 }

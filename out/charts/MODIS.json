@@ -2,7 +2,7 @@
  "symbol": "MODIS",
  "name": "Modis Navnirman Limited",
  "kind": "stock",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "bars": [
   {
    "time": "2025-11-14",
@@ -2190,6 +2190,15 @@
    "close": 430.25,
    "volume": 54715,
    "delivery_pct": 49.37
+  },
+  {
+   "time": "2026-11-12",
+   "open": 432.55,
+   "high": 442.0,
+   "low": 421.3,
+   "close": 433.65,
+   "volume": 37962,
+   "delivery_pct": 47.51
   }
  ],
  "ma": {
@@ -3089,6 +3098,10 @@
    {
     "time": "2026-11-11",
     "value": 401.77
+   },
+   {
+    "time": "2026-11-12",
+    "value": 402.59
    }
   ],
   "sma_50": [
@@ -3867,6 +3880,10 @@
    {
     "time": "2026-11-11",
     "value": 382.47
+   },
+   {
+    "time": "2026-11-12",
+    "value": 383.55
    }
   ],
   "sma_200": [
@@ -4045,15 +4062,19 @@
    {
     "time": "2026-11-11",
     "value": 354.54
+   },
+   {
+    "time": "2026-11-12",
+    "value": 355.16
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.41,
-  "atr_pct": 4.86,
-  "rel_volume_20d": 0.46,
-  "dist_20dma_pct": 7.09,
-  "dist_50dma_pct": 12.49,
-  "dist_200dma_pct": 21.35
+  "rsi_14": 64.39,
+  "atr_pct": 4.82,
+  "rel_volume_20d": 0.32,
+  "dist_20dma_pct": 7.72,
+  "dist_50dma_pct": 13.06,
+  "dist_200dma_pct": 22.1
  }
 }

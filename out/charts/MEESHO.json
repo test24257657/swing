@@ -2,7 +2,7 @@
  "symbol": "MEESHO",
  "name": "Meesho Limited",
  "kind": "stock",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "bars": [
   {
    "time": "2025-12-10",
@@ -2028,6 +2028,15 @@
    "close": 248.16,
    "volume": 31104684,
    "delivery_pct": 51.93
+  },
+  {
+   "time": "2026-11-12",
+   "open": 249.0,
+   "high": 259.0,
+   "low": 246.48,
+   "close": 254.11,
+   "volume": 25841561,
+   "delivery_pct": 49.44
   }
  ],
  "ma": {
@@ -2855,6 +2864,10 @@
    {
     "time": "2026-11-11",
     "value": 226.78
+   },
+   {
+    "time": "2026-11-12",
+    "value": 227.94
    }
   ],
   "sma_50": [
@@ -3561,6 +3574,10 @@
    {
     "time": "2026-11-11",
     "value": 222.23
+   },
+   {
+    "time": "2026-11-12",
+    "value": 223.16
    }
   ],
   "sma_200": [
@@ -3667,15 +3684,19 @@
    {
     "time": "2026-11-11",
     "value": 185.93
+   },
+   {
+    "time": "2026-11-12",
+    "value": 186.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.26,
-  "atr_pct": 3.93,
-  "rel_volume_20d": 1.93,
-  "dist_20dma_pct": 9.43,
-  "dist_50dma_pct": 11.67,
-  "dist_200dma_pct": 33.47
+  "rsi_14": 70.08,
+  "atr_pct": 3.92,
+  "rel_volume_20d": 1.49,
+  "dist_20dma_pct": 11.48,
+  "dist_50dma_pct": 13.87,
+  "dist_200dma_pct": 36.33
  }
 }

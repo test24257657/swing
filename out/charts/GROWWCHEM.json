@@ -2,7 +2,7 @@
  "symbol": "GROWWCHEM",
  "name": "GROWWCHEM",
  "kind": "stock",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "bars": [
   {
    "time": "2026-01-16",
@@ -1803,6 +1803,15 @@
    "close": 28.49,
    "volume": 133725,
    "delivery_pct": 87.19
+  },
+  {
+   "time": "2026-11-12",
+   "open": 28.5,
+   "high": 28.88,
+   "low": 28.29,
+   "close": 28.42,
+   "volume": 124928,
+   "delivery_pct": 40.44
   }
  ],
  "ma": {
@@ -2530,6 +2539,10 @@
    {
     "time": "2026-11-11",
     "value": 27.55
+   },
+   {
+    "time": "2026-11-12",
+    "value": 27.57
    }
   ],
   "sma_50": [
@@ -3136,21 +3149,29 @@
    {
     "time": "2026-11-11",
     "value": 28.64
+   },
+   {
+    "time": "2026-11-12",
+    "value": 28.6
    }
   ],
   "sma_200": [
    {
     "time": "2026-11-11",
     "value": 28.69
+   },
+   {
+    "time": "2026-11-12",
+    "value": 28.69
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.39,
-  "atr_pct": 2.61,
-  "rel_volume_20d": 4.0,
-  "dist_20dma_pct": 3.4,
-  "dist_50dma_pct": -0.53,
-  "dist_200dma_pct": -0.69
+  "rsi_14": 56.43,
+  "atr_pct": 2.58,
+  "rel_volume_20d": 3.15,
+  "dist_20dma_pct": 3.1,
+  "dist_50dma_pct": -0.64,
+  "dist_200dma_pct": -0.93
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "SNXT50BETA",
  "name": "SNXT50BETA",
  "kind": "stock",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "bars": [
   {
    "time": "2025-12-24",
@@ -1938,6 +1938,15 @@
    "close": 94.08,
    "volume": 4554,
    "delivery_pct": 87.75
+  },
+  {
+   "time": "2026-11-12",
+   "open": 94.88,
+   "high": 96.9,
+   "low": 94.18,
+   "close": 95.59,
+   "volume": 8334,
+   "delivery_pct": 74.86
   }
  ],
  "ma": {
@@ -2725,6 +2734,10 @@
    {
     "time": "2026-11-11",
     "value": 89.09
+   },
+   {
+    "time": "2026-11-12",
+    "value": 89.38
    }
   ],
   "sma_50": [
@@ -3391,6 +3404,10 @@
    {
     "time": "2026-11-11",
     "value": 91.22
+   },
+   {
+    "time": "2026-11-12",
+    "value": 91.19
    }
   ],
   "sma_200": [
@@ -3457,15 +3474,19 @@
    {
     "time": "2026-11-11",
     "value": 91.38
+   },
+   {
+    "time": "2026-11-12",
+    "value": 91.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.89,
-  "atr_pct": 2.34,
-  "rel_volume_20d": 1.58,
-  "dist_20dma_pct": 5.6,
-  "dist_50dma_pct": 3.14,
-  "dist_200dma_pct": 2.95
+  "rsi_14": 69.55,
+  "atr_pct": 2.35,
+  "rel_volume_20d": 2.76,
+  "dist_20dma_pct": 6.94,
+  "dist_50dma_pct": 4.82,
+  "dist_200dma_pct": 4.6
  }
 }

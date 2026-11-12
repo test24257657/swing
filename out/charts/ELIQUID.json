@@ -2,7 +2,7 @@
  "symbol": "ELIQUID",
  "name": "ELIQUID",
  "kind": "stock",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "bars": [
   {
    "time": "2025-11-04",
@@ -2181,6 +2181,15 @@
    "close": 1056.87,
    "volume": 28445,
    "delivery_pct": 56.06
+  },
+  {
+   "time": "2026-11-12",
+   "open": 1057.0,
+   "high": 1057.02,
+   "low": 1057.0,
+   "close": 1057.0,
+   "volume": 27677,
+   "delivery_pct": 62.98
   }
  ],
  "ma": {
@@ -3076,6 +3085,10 @@
    {
     "time": "2026-11-11",
     "value": 1054.14
+   },
+   {
+    "time": "2026-11-12",
+    "value": 1054.41
    }
   ],
   "sma_50": [
@@ -3850,6 +3863,10 @@
    {
     "time": "2026-11-11",
     "value": 1050.6
+   },
+   {
+    "time": "2026-11-12",
+    "value": 1050.84
    }
   ],
   "sma_200": [
@@ -4024,15 +4041,19 @@
    {
     "time": "2026-11-11",
     "value": 1035.24
+   },
+   {
+    "time": "2026-11-12",
+    "value": 1035.45
    }
   ]
  },
  "technicals": {
   "rsi_14": 99.99,
   "atr_pct": 0.05,
-  "rel_volume_20d": 0.8,
-  "dist_20dma_pct": 0.26,
-  "dist_50dma_pct": 0.6,
-  "dist_200dma_pct": 2.09
+  "rel_volume_20d": 0.76,
+  "dist_20dma_pct": 0.25,
+  "dist_50dma_pct": 0.59,
+  "dist_200dma_pct": 2.08
  }
 }

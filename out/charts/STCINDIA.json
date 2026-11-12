@@ -2,17 +2,8 @@
  "symbol": "STCINDIA",
  "name": "The State Trading Corporation of India Limited",
  "kind": "stock",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "bars": [
-  {
-   "time": "2025-11-03",
-   "open": 135.88,
-   "high": 139.9,
-   "low": 134.66,
-   "close": 134.96,
-   "volume": 204356,
-   "delivery_pct": 20.63
-  },
   {
    "time": "2025-11-04",
    "open": 135.4,
@@ -2262,14 +2253,19 @@
    "close": 110.22,
    "volume": 161623,
    "delivery_pct": 31.74
+  },
+  {
+   "time": "2026-11-12",
+   "open": 109.0,
+   "high": 110.99,
+   "low": 108.0,
+   "close": 108.43,
+   "volume": 13780,
+   "delivery_pct": 55.6
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-01",
-    "value": 125.32
-   },
    {
     "time": "2025-12-02",
     "value": 124.37
@@ -2632,7 +2628,7 @@
    },
    {
     "time": "2026-04-17",
-    "value": 108.06
+    "value": 108.07
    },
    {
     "time": "2026-04-20",
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-11",
     "value": 102.96
+   },
+   {
+    "time": "2026-11-12",
+    "value": 103.22
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-13",
-    "value": 123.2
-   },
    {
     "time": "2026-01-14",
     "value": 123.13
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-11",
     "value": 107.67
+   },
+   {
+    "time": "2026-11-12",
+    "value": 107.49
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-25",
-    "value": 119.4
-   },
    {
     "time": "2026-08-26",
     "value": 119.32
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-11",
     "value": 115.45
+   },
+   {
+    "time": "2026-11-12",
+    "value": 115.35
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.92,
-  "atr_pct": 4.0,
-  "rel_volume_20d": 7.04,
-  "dist_20dma_pct": 7.06,
-  "dist_50dma_pct": 2.37,
-  "dist_200dma_pct": -4.53
+  "rsi_14": 57.62,
+  "atr_pct": 3.97,
+  "rel_volume_20d": 0.47,
+  "dist_20dma_pct": 5.05,
+  "dist_50dma_pct": 0.88,
+  "dist_200dma_pct": -6.0
  }
 }

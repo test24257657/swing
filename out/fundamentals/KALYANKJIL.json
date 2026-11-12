@@ -2,21 +2,12 @@
  "symbol": "KALYANKJIL",
  "quarters": [
   {
-   "label": "Q2 FY26",
-   "period_end": "2025-09-30",
-   "revenue_cr": 7856.0,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 260.5,
-   "net_income_qoq_pct": null,
-   "eps": 2.52
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 10343.4,
-   "revenue_qoq_pct": 31.7,
+   "revenue_qoq_pct": null,
    "net_income_cr": 416.3,
-   "net_income_qoq_pct": 59.8,
+   "net_income_qoq_pct": null,
    "eps": 4.03
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 348.7,
    "net_income_qoq_pct": -14.8,
    "eps": 3.38
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 10322.6,
+   "revenue_qoq_pct": -2.5,
+   "net_income_cr": 427.1,
+   "net_income_qoq_pct": 22.5,
+   "eps": 4.14
   }
  ],
  "verification": null

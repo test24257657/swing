@@ -2,7 +2,7 @@
  "symbol": "MIDCAPBETA",
  "name": "MIDCAPBETA",
  "kind": "stock",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "bars": [
   {
    "time": "2025-12-24",
@@ -1938,6 +1938,15 @@
    "close": 227.63,
    "volume": 2853,
    "delivery_pct": 91.69
+  },
+  {
+   "time": "2026-11-12",
+   "open": 229.9,
+   "high": 231.6,
+   "low": 228.86,
+   "close": 230.63,
+   "volume": 3905,
+   "delivery_pct": 78.1
   }
  ],
  "ma": {
@@ -2725,6 +2734,10 @@
    {
     "time": "2026-11-11",
     "value": 217.94
+   },
+   {
+    "time": "2026-11-12",
+    "value": 218.54
    }
   ],
   "sma_50": [
@@ -3391,6 +3404,10 @@
    {
     "time": "2026-11-11",
     "value": 224.85
+   },
+   {
+    "time": "2026-11-12",
+    "value": 224.71
    }
   ],
   "sma_200": [
@@ -3457,15 +3474,19 @@
    {
     "time": "2026-11-11",
     "value": 223.95
+   },
+   {
+    "time": "2026-11-12",
+    "value": 223.99
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.85,
-  "atr_pct": 2.03,
-  "rel_volume_20d": 0.97,
-  "dist_20dma_pct": 4.45,
-  "dist_50dma_pct": 1.24,
-  "dist_200dma_pct": 1.65
+  "rsi_14": 64.24,
+  "atr_pct": 1.98,
+  "rel_volume_20d": 1.29,
+  "dist_20dma_pct": 5.53,
+  "dist_50dma_pct": 2.64,
+  "dist_200dma_pct": 2.96
  }
 }

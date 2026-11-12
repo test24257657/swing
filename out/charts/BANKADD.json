@@ -2,7 +2,7 @@
  "symbol": "BANKADD",
  "name": "BANKADD",
  "kind": "stock",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "bars": [
   {
    "time": "2025-12-15",
@@ -2001,6 +2001,15 @@
    "close": 62.16,
    "volume": 72282,
    "delivery_pct": 67.38
+  },
+  {
+   "time": "2026-11-12",
+   "open": 62.59,
+   "high": 63.0,
+   "low": 62.53,
+   "close": 62.87,
+   "volume": 74249,
+   "delivery_pct": 94.54
   }
  ],
  "ma": {
@@ -2816,6 +2825,10 @@
    {
     "time": "2026-11-11",
     "value": 57.06
+   },
+   {
+    "time": "2026-11-12",
+    "value": 57.41
    }
   ],
   "sma_50": [
@@ -3510,6 +3523,10 @@
    {
     "time": "2026-11-11",
     "value": 57.33
+   },
+   {
+    "time": "2026-11-12",
+    "value": 57.41
    }
   ],
   "sma_200": [
@@ -3604,15 +3621,19 @@
    {
     "time": "2026-11-11",
     "value": 57.91
+   },
+   {
+    "time": "2026-11-12",
+    "value": 57.92
    }
   ]
  },
  "technicals": {
-  "rsi_14": 78.1,
-  "atr_pct": 1.64,
-  "rel_volume_20d": 1.19,
-  "dist_20dma_pct": 8.93,
-  "dist_50dma_pct": 8.43,
-  "dist_200dma_pct": 7.34
+  "rsi_14": 79.81,
+  "atr_pct": 1.6,
+  "rel_volume_20d": 3.11,
+  "dist_20dma_pct": 9.52,
+  "dist_50dma_pct": 9.52,
+  "dist_200dma_pct": 8.55
  }
 }

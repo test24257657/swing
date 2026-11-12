@@ -2,7 +2,7 @@
  "symbol": "CHEMICAL",
  "name": "CHEMICAL",
  "kind": "stock",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "bars": [
   {
    "time": "2025-11-19",
@@ -2163,6 +2163,15 @@
    "close": 28.88,
    "volume": 503977,
    "delivery_pct": 73.18
+  },
+  {
+   "time": "2026-11-12",
+   "open": 28.88,
+   "high": 28.99,
+   "low": 28.7,
+   "close": 28.77,
+   "volume": 305784,
+   "delivery_pct": 69.35
   }
  ],
  "ma": {
@@ -3050,6 +3059,10 @@
    {
     "time": "2026-11-11",
     "value": 27.59
+   },
+   {
+    "time": "2026-11-12",
+    "value": 27.61
    }
   ],
   "sma_50": [
@@ -3816,6 +3829,10 @@
    {
     "time": "2026-11-11",
     "value": 28.63
+   },
+   {
+    "time": "2026-11-12",
+    "value": 28.59
    }
   ],
   "sma_200": [
@@ -3982,15 +3999,19 @@
    {
     "time": "2026-11-11",
     "value": 28.72
+   },
+   {
+    "time": "2026-11-12",
+    "value": 28.72
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.79,
-  "atr_pct": 2.37,
-  "rel_volume_20d": 1.61,
-  "dist_20dma_pct": 4.69,
-  "dist_50dma_pct": 0.89,
-  "dist_200dma_pct": 0.56
+  "rsi_14": 60.19,
+  "atr_pct": 2.28,
+  "rel_volume_20d": 0.92,
+  "dist_20dma_pct": 4.2,
+  "dist_50dma_pct": 0.62,
+  "dist_200dma_pct": 0.17
  }
 }
