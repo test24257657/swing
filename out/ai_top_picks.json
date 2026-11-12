@@ -1,37 +1,37 @@
 {
  "as_of": "2026-11-12",
- "source": "ai",
+ "source": "rules",
  "universe": 380,
- "eligible": 12,
+ "eligible": 8,
  "picks": [
   {
-   "symbol": "AUROPHARMA",
-   "ltp": 1807.2,
+   "symbol": "ESAFSFB",
+   "ltp": 45.08,
    "technicals": {
-    "rsi_14": 64.91,
-    "rel_volume_20d": 1.9,
-    "dist_20dma_pct": 7.45,
-    "dist_50dma_pct": 7.38,
-    "dist_200dma_pct": 22.29
+    "rsi_14": 61.73,
+    "rel_volume_20d": 2.01,
+    "dist_20dma_pct": 7.39,
+    "dist_50dma_pct": 7.98,
+    "dist_200dma_pct": 36.08
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 1785.0,
-    "stop_suggestion": 1547.7,
-    "target_suggestion": 2142.0,
-    "gap_to_pivot_pct": 1.24
+    "pivot_price": 44.71,
+    "stop_suggestion": 36.88,
+    "target_suggestion": 53.65,
+    "gap_to_pivot_pct": 0.83
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 10227.3,
-    "net_income_cr": 1126.1,
-    "revenue_qoq_pct": 12.3,
-    "net_income_qoq_pct": 9.1
+    "revenue_cr": 856.6,
+    "net_income_cr": 160.2,
+    "revenue_qoq_pct": 2.9,
+    "net_income_qoq_pct": 100.0
    },
-   "reason": "Confirmed 52-week breakout supported by 1.9x average volume and strong RSI of 64.91, backed by balanced fundamental growth with revenue up 12.3% QoQ and net profit up 9.1% QoQ.",
+   "reason": null,
    "rank": 1,
-   "name": "Aurobindo Pharma Limited"
+   "name": "ESAF Small Finance Bank Limited"
   },
   {
    "symbol": "FLUOROCHEM",
@@ -58,67 +58,9 @@
     "revenue_qoq_pct": 10.8,
     "net_income_qoq_pct": 11.0
    },
-   "reason": "Confirmed 52-week breakout sitting just 0.58% above pivot, backed by 1.49x average volume and clean growth with revenue rising 10.8% QoQ and net profit up 11.0% QoQ.",
+   "reason": null,
    "rank": 2,
    "name": "Gujarat Fluorochemicals Limited"
-  },
-  {
-   "symbol": "ESAFSFB",
-   "ltp": 45.08,
-   "technicals": {
-    "rsi_14": 61.73,
-    "rel_volume_20d": 2.01,
-    "dist_20dma_pct": 7.39,
-    "dist_50dma_pct": 7.98,
-    "dist_200dma_pct": 36.08
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 44.71,
-    "stop_suggestion": 36.88,
-    "target_suggestion": 53.65,
-    "gap_to_pivot_pct": 0.83
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 856.6,
-    "net_income_cr": 160.2,
-    "revenue_qoq_pct": 2.9,
-    "net_income_qoq_pct": 100.0
-   },
-   "reason": "Confirmed 52-week breakout backed by heavy 2.01x average volume while trading 36.08% above its 200-day moving average, supported by net profit doubling with 100.0% QoQ growth.",
-   "rank": 3,
-   "name": "ESAF Small Finance Bank Limited"
-  },
-  {
-   "symbol": "RPEL",
-   "ltp": 1900.6,
-   "technicals": {
-    "rsi_14": 60.38,
-    "rel_volume_20d": 0.95,
-    "dist_20dma_pct": 7.77,
-    "dist_50dma_pct": 8.7,
-    "dist_200dma_pct": 63.97
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 1885.2,
-    "stop_suggestion": 1535.5,
-    "target_suggestion": 2262.24,
-    "gap_to_pivot_pct": 0.82
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 92.8,
-    "net_income_cr": 21.6,
-    "revenue_qoq_pct": 6.8,
-    "net_income_qoq_pct": 10.2
-   },
-   "reason": "Confirmed 52-week breakout just 0.82% above pivot, trading 63.97% above its 200-day average with steady fundamental growth as revenue increased 6.8% QoQ and net profit grew 10.2% QoQ.",
-   "rank": 4,
-   "name": "Raghav Productivity Enhancers Limited"
   },
   {
    "symbol": "MOTHERSON",
@@ -145,9 +87,67 @@
     "revenue_qoq_pct": 8.5,
     "net_income_qoq_pct": 13.9
    },
-   "reason": "Confirmed trendline breakout supported by 1.21x average volume and healthy 56.22 RSI, backed by solid dual fundamental expansion with revenue up 8.5% QoQ and net profit up 13.9% QoQ.",
-   "rank": 5,
+   "reason": null,
+   "rank": 3,
    "name": "Samvardhana Motherson International Limited"
+  },
+  {
+   "symbol": "BEML",
+   "ltp": 2125.5,
+   "technicals": {
+    "rsi_14": 60.25,
+    "rel_volume_20d": 0.97,
+    "dist_20dma_pct": 7.19,
+    "dist_50dma_pct": 6.05,
+    "dist_200dma_pct": 17.34
+   },
+   "pattern": {
+    "code": "vcp",
+    "stage": "forming",
+    "pivot_price": 2205.0,
+    "stop_suggestion": 1809.0,
+    "target_suggestion": 2756.25,
+    "gap_to_pivot_pct": -3.61
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 1191.6,
+    "net_income_cr": 33.3,
+    "revenue_qoq_pct": 45.4,
+    "net_income_qoq_pct": -223.3
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "BEML Limited"
+  },
+  {
+   "symbol": "RPEL",
+   "ltp": 1900.6,
+   "technicals": {
+    "rsi_14": 60.38,
+    "rel_volume_20d": 0.95,
+    "dist_20dma_pct": 7.77,
+    "dist_50dma_pct": 8.7,
+    "dist_200dma_pct": 63.97
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 1885.2,
+    "stop_suggestion": 1535.5,
+    "target_suggestion": 2262.24,
+    "gap_to_pivot_pct": 0.82
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 92.8,
+    "net_income_cr": 21.6,
+    "revenue_qoq_pct": 6.8,
+    "net_income_qoq_pct": 10.2
+   },
+   "reason": null,
+   "rank": 5,
+   "name": "Raghav Productivity Enhancers Limited"
   }
  ]
 }
