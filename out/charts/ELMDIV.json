@@ -2,7 +2,7 @@
  "symbol": "ELMDIV",
  "name": "ELMDIV",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
   {
    "time": "2026-08-05",
@@ -588,6 +588,15 @@
    "close": 37.73,
    "volume": 812,
    "delivery_pct": 81.4
+  },
+  {
+   "time": "2026-11-13",
+   "open": 37.69,
+   "high": 37.75,
+   "low": 37.4,
+   "close": 37.4,
+   "volume": 1699,
+   "delivery_pct": 74.16
   }
  ],
  "ma": {
@@ -775,6 +784,10 @@
    {
     "time": "2026-11-12",
     "value": 34.92
+   },
+   {
+    "time": "2026-11-13",
+    "value": 35.09
    }
   ],
   "sma_50": [
@@ -841,15 +854,19 @@
    {
     "time": "2026-11-12",
     "value": 35.35
+   },
+   {
+    "time": "2026-11-13",
+    "value": 35.35
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.84,
-  "atr_pct": 1.54,
-  "rel_volume_20d": 1.01,
-  "dist_20dma_pct": 8.04,
-  "dist_50dma_pct": 6.74,
+  "rsi_14": 69.99,
+  "atr_pct": 1.51,
+  "rel_volume_20d": 2.04,
+  "dist_20dma_pct": 6.59,
+  "dist_50dma_pct": 5.79,
   "dist_200dma_pct": null
  }
 }

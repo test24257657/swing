@@ -2,7 +2,7 @@
  "symbol": "AHLWEST",
  "name": "Asian Hotels (West) Limited",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
   {
    "time": "2026-04-06",
@@ -1353,6 +1353,15 @@
    "close": 553.8,
    "volume": 618,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-11-13",
+   "open": 555.75,
+   "high": 557.0,
+   "low": 550.0,
+   "close": 555.55,
+   "volume": 557,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -1880,6 +1889,10 @@
    {
     "time": "2026-11-12",
     "value": 529.92
+   },
+   {
+    "time": "2026-11-13",
+    "value": 531.04
    }
   ],
   "sma_50": [
@@ -2286,15 +2299,19 @@
    {
     "time": "2026-11-12",
     "value": 531.45
+   },
+   {
+    "time": "2026-11-13",
+    "value": 532.08
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.33,
-  "atr_pct": 4.48,
-  "rel_volume_20d": 2.15,
-  "dist_20dma_pct": 4.51,
-  "dist_50dma_pct": 4.2,
+  "rsi_14": 57.8,
+  "atr_pct": 4.24,
+  "rel_volume_20d": 1.75,
+  "dist_20dma_pct": 4.62,
+  "dist_50dma_pct": 4.41,
   "dist_200dma_pct": null
  }
 }

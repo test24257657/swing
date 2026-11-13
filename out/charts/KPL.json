@@ -2,7 +2,7 @@
  "symbol": "KPL",
  "name": "Kwality Pharmaceuticals Limited",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1272,6 +1272,15 @@
    "close": 3948.7,
    "volume": 326979,
    "delivery_pct": 21.98
+  },
+  {
+   "time": "2026-11-13",
+   "open": 3960.0,
+   "high": 4100.0,
+   "low": 3783.1,
+   "close": 3822.6,
+   "volume": 95057,
+   "delivery_pct": 36.85
   }
  ],
  "ma": {
@@ -1763,6 +1772,10 @@
    {
     "time": "2026-11-12",
     "value": 3593.2
+   },
+   {
+    "time": "2026-11-13",
+    "value": 3607.66
    }
   ],
   "sma_50": [
@@ -2133,15 +2146,19 @@
    {
     "time": "2026-11-12",
     "value": 3563.31
+   },
+   {
+    "time": "2026-11-13",
+    "value": 3573.47
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.07,
-  "atr_pct": 5.51,
-  "rel_volume_20d": 9.33,
-  "dist_20dma_pct": 9.89,
-  "dist_50dma_pct": 10.82,
+  "rsi_14": 57.11,
+  "atr_pct": 5.88,
+  "rel_volume_20d": 1.87,
+  "dist_20dma_pct": 5.96,
+  "dist_50dma_pct": 6.97,
   "dist_200dma_pct": null
  }
 }

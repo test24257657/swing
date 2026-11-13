@@ -2,17 +2,8 @@
  "symbol": "PIGL",
  "name": "Power & Instrumentation (Gujarat) Limited",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
-  {
-   "time": "2025-11-04",
-   "open": 148.59,
-   "high": 149.69,
-   "low": 141.35,
-   "close": 146.97,
-   "volume": 90467,
-   "delivery_pct": null
-  },
   {
    "time": "2025-11-06",
    "open": 146.99,
@@ -2262,14 +2253,19 @@
    "close": 97.61,
    "volume": 28862,
    "delivery_pct": 47.29
+  },
+  {
+   "time": "2026-11-13",
+   "open": 99.0,
+   "high": 99.0,
+   "low": 95.69,
+   "close": 96.71,
+   "volume": 13722,
+   "delivery_pct": 56.2
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-02",
-    "value": 149.6
-   },
    {
     "time": "2025-12-03",
     "value": 149.62
@@ -2368,7 +2364,7 @@
    },
    {
     "time": "2026-01-07",
-    "value": 127.06
+    "value": 127.05
    },
    {
     "time": "2026-01-08",
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-12",
     "value": 93.1
+   },
+   {
+    "time": "2026-11-13",
+    "value": 93.27
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-14",
-    "value": 136.1
-   },
    {
     "time": "2026-01-16",
     "value": 135.33
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-12",
     "value": 96.62
+   },
+   {
+    "time": "2026-11-13",
+    "value": 96.52
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-26",
-    "value": 115.66
-   },
    {
     "time": "2026-08-27",
     "value": 115.43
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-12",
     "value": 105.75
+   },
+   {
+    "time": "2026-11-13",
+    "value": 105.69
    }
   ]
  },
  "technicals": {
-  "rsi_14": 55.61,
-  "atr_pct": 5.02,
-  "rel_volume_20d": 0.8,
-  "dist_20dma_pct": 4.84,
-  "dist_50dma_pct": 1.02,
-  "dist_200dma_pct": -7.7
+  "rsi_14": 53.78,
+  "atr_pct": 4.95,
+  "rel_volume_20d": 0.37,
+  "dist_20dma_pct": 3.69,
+  "dist_50dma_pct": 0.2,
+  "dist_200dma_pct": -8.5
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "PVTBKGROWW",
  "name": "PVTBKGROWW",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
   {
    "time": "2026-05-26",
@@ -1047,6 +1047,15 @@
    "close": 30.29,
    "volume": 8723,
    "delivery_pct": 65.77
+  },
+  {
+   "time": "2026-11-13",
+   "open": 30.69,
+   "high": 30.69,
+   "low": 29.73,
+   "close": 29.97,
+   "volume": 16308,
+   "delivery_pct": 43.44
   }
  ],
  "ma": {
@@ -1438,6 +1447,10 @@
    {
     "time": "2026-11-12",
     "value": 27.67
+   },
+   {
+    "time": "2026-11-13",
+    "value": 27.81
    }
   ],
   "sma_50": [
@@ -1708,15 +1721,19 @@
    {
     "time": "2026-11-12",
     "value": 27.48
+   },
+   {
+    "time": "2026-11-13",
+    "value": 27.52
    }
   ]
  },
  "technicals": {
-  "rsi_14": 76.56,
-  "atr_pct": 2.72,
-  "rel_volume_20d": 0.45,
-  "dist_20dma_pct": 9.47,
-  "dist_50dma_pct": 10.23,
+  "rsi_14": 71.61,
+  "atr_pct": 2.78,
+  "rel_volume_20d": 0.85,
+  "dist_20dma_pct": 7.78,
+  "dist_50dma_pct": 8.9,
   "dist_200dma_pct": null
  }
 }

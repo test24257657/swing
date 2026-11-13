@@ -2,21 +2,12 @@
  "symbol": "SANGAMIND",
  "quarters": [
   {
-   "label": "Q2 FY26",
-   "period_end": "2025-09-30",
-   "revenue_cr": 786.2,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 23.1,
-   "net_income_qoq_pct": null,
-   "eps": 4.6
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 774.7,
-   "revenue_qoq_pct": -1.5,
+   "revenue_qoq_pct": null,
    "net_income_cr": 24.5,
-   "net_income_qoq_pct": 6.1,
+   "net_income_qoq_pct": null,
    "eps": 4.87
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 41.0,
    "net_income_qoq_pct": 24.6,
    "eps": 8.16
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 1045.3,
+   "revenue_qoq_pct": 21.5,
+   "net_income_cr": 53.4,
+   "net_income_qoq_pct": 30.2,
+   "eps": 10.63
   }
  ],
  "verification": null

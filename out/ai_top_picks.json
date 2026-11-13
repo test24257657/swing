@@ -1,84 +1,142 @@
 {
- "as_of": "2026-11-12",
- "source": "rules",
- "universe": 380,
- "eligible": 8,
+ "as_of": "2026-11-13",
+ "source": "ai",
+ "universe": 385,
+ "eligible": 15,
  "picks": [
   {
-   "symbol": "ESAFSFB",
-   "ltp": 45.08,
+   "symbol": "PETRONET",
+   "ltp": 324.05,
    "technicals": {
-    "rsi_14": 61.73,
-    "rel_volume_20d": 2.01,
-    "dist_20dma_pct": 7.39,
-    "dist_50dma_pct": 7.98,
-    "dist_200dma_pct": 36.08
+    "rsi_14": 65.53,
+    "rel_volume_20d": 2.88,
+    "dist_20dma_pct": 7.32,
+    "dist_50dma_pct": 10.26,
+    "dist_200dma_pct": 14.19
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 44.71,
-    "stop_suggestion": 36.88,
-    "target_suggestion": 53.65,
-    "gap_to_pivot_pct": 0.83
+    "pivot_price": 323.4,
+    "stop_suggestion": 279.35,
+    "target_suggestion": 388.08,
+    "gap_to_pivot_pct": 0.2
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 856.6,
-    "net_income_cr": 160.2,
-    "revenue_qoq_pct": 2.9,
-    "net_income_qoq_pct": 100.0
+    "revenue_cr": 7202.2,
+    "net_income_cr": 1256.4,
+    "revenue_qoq_pct": 29.6,
+    "net_income_qoq_pct": 10.5
    },
-   "reason": null,
+   "reason": "Confirmed 52-week breakout 0.2% above pivot with strong 2.88x average volume and 65.53 RSI, backed by 29.6% QoQ revenue growth and \u20b91256.4 cr net profit.",
    "rank": 1,
-   "name": "ESAF Small Finance Bank Limited"
+   "name": "Petronet LNG Limited"
   },
   {
-   "symbol": "FLUOROCHEM",
-   "ltp": 4814.0,
+   "symbol": "ABDL",
+   "ltp": 757.7,
    "technicals": {
-    "rsi_14": 64.41,
-    "rel_volume_20d": 1.49,
-    "dist_20dma_pct": 8.16,
-    "dist_50dma_pct": 6.49,
-    "dist_200dma_pct": 22.92
+    "rsi_14": 66.12,
+    "rel_volume_20d": 1.34,
+    "dist_20dma_pct": 6.36,
+    "dist_50dma_pct": 10.73,
+    "dist_200dma_pct": 29.62
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 4786.3,
-    "stop_suggestion": 4086.7,
-    "target_suggestion": 5743.56,
-    "gap_to_pivot_pct": 0.58
+    "pivot_price": 748.65,
+    "stop_suggestion": 654.0,
+    "target_suggestion": 898.38,
+    "gap_to_pivot_pct": 1.21
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 1760.0,
-    "net_income_cr": 243.0,
-    "revenue_qoq_pct": 10.8,
-    "net_income_qoq_pct": 11.0
+    "revenue_cr": 1147.8,
+    "net_income_cr": 71.5,
+    "revenue_qoq_pct": 17.3,
+    "net_income_qoq_pct": 45.3
    },
-   "reason": null,
+   "reason": "Confirmed 52-week high breakout 1.21% past pivot supported by 1.34x volume and 66.12 RSI, alongside strong fundamental growth with 45.3% QoQ net profit increase.",
    "rank": 2,
-   "name": "Gujarat Fluorochemicals Limited"
+   "name": "Allied Blenders and Distillers Limited"
   },
   {
-   "symbol": "MOTHERSON",
-   "ltp": 165.83,
+   "symbol": "APLAPOLLO",
+   "ltp": 2251.6,
    "technicals": {
-    "rsi_14": 56.22,
-    "rel_volume_20d": 1.21,
-    "dist_20dma_pct": 3.82,
-    "dist_50dma_pct": 3.16,
-    "dist_200dma_pct": 17.45
+    "rsi_14": 60.64,
+    "rel_volume_20d": 0.81,
+    "dist_20dma_pct": 4.4,
+    "dist_50dma_pct": 3.92,
+    "dist_200dma_pct": 11.37
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 2270.1,
+    "stop_suggestion": 2164.09,
+    "target_suggestion": 2610.61,
+    "gap_to_pivot_pct": -0.81
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 6796.6,
+    "net_income_cr": 382.4,
+    "revenue_qoq_pct": 25.0,
+    "net_income_qoq_pct": 45.3
+   },
+   "reason": "Forming setup just -0.81% from pivot with a healthy 60.64 RSI, backed by stellar fundamentals featuring 25.0% QoQ revenue growth and 45.3% QoQ profit growth.",
+   "rank": 3,
+   "name": "APL Apollo Tubes Limited"
+  },
+  {
+   "symbol": "HLEGLAS",
+   "ltp": 438.6,
+   "technicals": {
+    "rsi_14": 56.56,
+    "rel_volume_20d": 0.88,
+    "dist_20dma_pct": 6.57,
+    "dist_50dma_pct": 7.96,
+    "dist_200dma_pct": 20.21
    },
    "pattern": {
     "code": "trendline_breakout",
     "stage": "confirmed",
-    "pivot_price": 158.37,
+    "pivot_price": 435.13,
+    "stop_suggestion": 364.8,
+    "target_suggestion": 522.16,
+    "gap_to_pivot_pct": 0.8
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 346.7,
+    "net_income_cr": 14.3,
+    "revenue_qoq_pct": 15.3,
+    "net_income_qoq_pct": 410.7
+   },
+   "reason": "Confirmed trendline breakout 0.8% from pivot with solid 56.56 RSI, driven by robust fundamentals with revenue up 15.3% QoQ and net profit surging 410.7% QoQ.",
+   "rank": 4,
+   "name": "HLE Glascoat Limited"
+  },
+  {
+   "symbol": "MOTHERSON",
+   "ltp": 164.8,
+   "technicals": {
+    "rsi_14": 54.86,
+    "rel_volume_20d": 0.55,
+    "dist_20dma_pct": 3.02,
+    "dist_50dma_pct": 2.53,
+    "dist_200dma_pct": 16.5
+   },
+   "pattern": {
+    "code": "trendline_breakout",
+    "stage": "confirmed",
+    "pivot_price": 158.12,
     "stop_suggestion": 147.27,
-    "target_suggestion": 190.05,
-    "gap_to_pivot_pct": 4.71
+    "target_suggestion": 189.75,
+    "gap_to_pivot_pct": 4.22
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
@@ -87,67 +145,9 @@
     "revenue_qoq_pct": 8.5,
     "net_income_qoq_pct": 13.9
    },
-   "reason": null,
-   "rank": 3,
-   "name": "Samvardhana Motherson International Limited"
-  },
-  {
-   "symbol": "BEML",
-   "ltp": 2125.5,
-   "technicals": {
-    "rsi_14": 60.25,
-    "rel_volume_20d": 0.97,
-    "dist_20dma_pct": 7.19,
-    "dist_50dma_pct": 6.05,
-    "dist_200dma_pct": 17.34
-   },
-   "pattern": {
-    "code": "vcp",
-    "stage": "forming",
-    "pivot_price": 2205.0,
-    "stop_suggestion": 1809.0,
-    "target_suggestion": 2756.25,
-    "gap_to_pivot_pct": -3.61
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 1191.6,
-    "net_income_cr": 33.3,
-    "revenue_qoq_pct": 45.4,
-    "net_income_qoq_pct": -223.3
-   },
-   "reason": null,
-   "rank": 4,
-   "name": "BEML Limited"
-  },
-  {
-   "symbol": "RPEL",
-   "ltp": 1900.6,
-   "technicals": {
-    "rsi_14": 60.38,
-    "rel_volume_20d": 0.95,
-    "dist_20dma_pct": 7.77,
-    "dist_50dma_pct": 8.7,
-    "dist_200dma_pct": 63.97
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 1885.2,
-    "stop_suggestion": 1535.5,
-    "target_suggestion": 2262.24,
-    "gap_to_pivot_pct": 0.82
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 92.8,
-    "net_income_cr": 21.6,
-    "revenue_qoq_pct": 6.8,
-    "net_income_qoq_pct": 10.2
-   },
-   "reason": null,
+   "reason": "Confirmed trendline breakout trading 16.5% above its 200-day average with a 54.86 RSI, supported by steady financial growth of 8.5% QoQ revenue and 13.9% QoQ net profit.",
    "rank": 5,
-   "name": "Raghav Productivity Enhancers Limited"
+   "name": "Samvardhana Motherson International Limited"
   }
  ]
 }

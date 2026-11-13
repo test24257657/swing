@@ -2,17 +2,8 @@
  "symbol": "JARO",
  "name": "Jaro Institute of Technology Management and Research Limited",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
-  {
-   "time": "2025-11-04",
-   "open": 630.0,
-   "high": 632.25,
-   "low": 618.4,
-   "close": 621.5,
-   "volume": 34178,
-   "delivery_pct": 38.13
-  },
   {
    "time": "2025-11-06",
    "open": 618.4,
@@ -2262,14 +2253,19 @@
    "close": 402.2,
    "volume": 9195943,
    "delivery_pct": 4.73
+  },
+  {
+   "time": "2026-11-13",
+   "open": 400.0,
+   "high": 424.9,
+   "low": 391.3,
+   "close": 411.35,
+   "volume": 3527028,
+   "delivery_pct": 5.11
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-02",
-    "value": 647.82
-   },
    {
     "time": "2025-12-03",
     "value": 647.09
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-12",
     "value": 367.56
+   },
+   {
+    "time": "2026-11-13",
+    "value": 367.66
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-14",
-    "value": 562.03
-   },
    {
     "time": "2026-01-16",
     "value": 559.58
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-12",
     "value": 412.25
+   },
+   {
+    "time": "2026-11-13",
+    "value": 411.08
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-26",
-    "value": 498.25
-   },
    {
     "time": "2026-08-27",
     "value": 497.46
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-12",
     "value": 460.63
+   },
+   {
+    "time": "2026-11-13",
+    "value": 460.38
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.93,
-  "atr_pct": 4.86,
-  "rel_volume_20d": 63.48,
-  "dist_20dma_pct": 9.43,
-  "dist_50dma_pct": -2.44,
-  "dist_200dma_pct": -12.68
+  "rsi_14": 62.57,
+  "atr_pct": 5.0,
+  "rel_volume_20d": 5.88,
+  "dist_20dma_pct": 11.88,
+  "dist_50dma_pct": 0.07,
+  "dist_200dma_pct": -10.65
  }
 }

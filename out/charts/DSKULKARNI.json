@@ -2,7 +2,7 @@
  "symbol": "DSKULKARNI",
  "name": "DS Kulkarni Developers Limited",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
   {
    "time": "2026-08-03",
@@ -543,6 +543,15 @@
    "close": 43.48,
    "volume": 1229,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-11-13",
+   "open": 44.34,
+   "high": 44.34,
+   "low": 44.34,
+   "close": 44.34,
+   "volume": 1928,
+   "delivery_pct": null
   }
  ],
  "ma": {
@@ -710,6 +719,10 @@
    {
     "time": "2026-11-12",
     "value": 35.15
+   },
+   {
+    "time": "2026-11-13",
+    "value": 35.93
    }
   ],
   "sma_50": [
@@ -756,15 +769,19 @@
    {
     "time": "2026-11-12",
     "value": 26.92
+   },
+   {
+    "time": "2026-11-13",
+    "value": 27.51
    }
   ]
  },
  "technicals": {
   "rsi_14": 100.0,
-  "atr_pct": 1.76,
-  "rel_volume_20d": 1.94,
-  "dist_20dma_pct": 23.71,
-  "dist_50dma_pct": 61.53,
+  "atr_pct": 1.74,
+  "rel_volume_20d": 2.81,
+  "dist_20dma_pct": 23.42,
+  "dist_50dma_pct": 61.17,
   "dist_200dma_pct": null
  }
 }

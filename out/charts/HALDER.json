@@ -2,7 +2,7 @@
  "symbol": "HALDER",
  "name": "Halder Venture Limited",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
   {
    "time": "2026-01-19",
@@ -1785,6 +1785,15 @@
    "close": 329.85,
    "volume": 24895,
    "delivery_pct": 24.79
+  },
+  {
+   "time": "2026-11-13",
+   "open": 333.25,
+   "high": 340.0,
+   "low": 324.95,
+   "close": 327.85,
+   "volume": 22696,
+   "delivery_pct": 28.6
   }
  ],
  "ma": {
@@ -2504,6 +2513,10 @@
    {
     "time": "2026-11-12",
     "value": 264.89
+   },
+   {
+    "time": "2026-11-13",
+    "value": 268.94
    }
   ],
   "sma_50": [
@@ -3102,15 +3115,19 @@
    {
     "time": "2026-11-12",
     "value": 269.24
+   },
+   {
+    "time": "2026-11-13",
+    "value": 269.84
    }
   ]
  },
  "technicals": {
-  "rsi_14": 76.41,
-  "atr_pct": 5.63,
-  "rel_volume_20d": 1.67,
-  "dist_20dma_pct": 24.52,
-  "dist_50dma_pct": 22.51,
+  "rsi_14": 75.0,
+  "atr_pct": 5.59,
+  "rel_volume_20d": 1.52,
+  "dist_20dma_pct": 21.9,
+  "dist_50dma_pct": 21.5,
   "dist_200dma_pct": null
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "CNL",
  "name": "Creative Newtech Limited",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
   {
    "time": "2025-12-10",
@@ -2037,6 +2037,15 @@
    "close": 1475.0,
    "volume": 91315,
    "delivery_pct": 42.08
+  },
+  {
+   "time": "2026-11-13",
+   "open": 1469.9,
+   "high": 1469.9,
+   "low": 1410.9,
+   "close": 1458.4,
+   "volume": 14339,
+   "delivery_pct": 42.6
   }
  ],
  "ma": {
@@ -2868,6 +2877,10 @@
    {
     "time": "2026-11-12",
     "value": 1188.73
+   },
+   {
+    "time": "2026-11-13",
+    "value": 1207.35
    }
   ],
   "sma_50": [
@@ -3578,6 +3591,10 @@
    {
     "time": "2026-11-12",
     "value": 1152.26
+   },
+   {
+    "time": "2026-11-13",
+    "value": 1156.58
    }
   ],
   "sma_200": [
@@ -3688,15 +3705,19 @@
    {
     "time": "2026-11-12",
     "value": 852.93
+   },
+   {
+    "time": "2026-11-13",
+    "value": 856.68
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.12,
-  "atr_pct": 6.28,
-  "rel_volume_20d": 1.88,
-  "dist_20dma_pct": 24.08,
-  "dist_50dma_pct": 28.01,
-  "dist_200dma_pct": 72.93
+  "rsi_14": 69.32,
+  "atr_pct": 6.21,
+  "rel_volume_20d": 0.27,
+  "dist_20dma_pct": 20.79,
+  "dist_50dma_pct": 26.1,
+  "dist_200dma_pct": 70.24
  }
 }

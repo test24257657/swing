@@ -2,7 +2,7 @@
  "symbol": "BANKBETA",
  "name": "BANKBETA",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
   {
    "time": "2025-12-24",
@@ -1947,6 +1947,15 @@
    "close": 63.57,
    "volume": 1637711,
    "delivery_pct": 92.7
+  },
+  {
+   "time": "2026-11-13",
+   "open": 63.57,
+   "high": 63.75,
+   "low": 62.9,
+   "close": 63.03,
+   "volume": 172181,
+   "delivery_pct": 67.97
   }
  ],
  "ma": {
@@ -2738,6 +2747,10 @@
    {
     "time": "2026-11-12",
     "value": 58.0
+   },
+   {
+    "time": "2026-11-13",
+    "value": 58.28
    }
   ],
   "sma_50": [
@@ -3408,6 +3421,10 @@
    {
     "time": "2026-11-12",
     "value": 58.0
+   },
+   {
+    "time": "2026-11-13",
+    "value": 58.07
    }
   ],
   "sma_200": [
@@ -3478,15 +3495,19 @@
    {
     "time": "2026-11-12",
     "value": 58.53
+   },
+   {
+    "time": "2026-11-13",
+    "value": 58.54
    }
   ]
  },
  "technicals": {
-  "rsi_14": 80.19,
-  "atr_pct": 2.06,
-  "rel_volume_20d": 2.21,
-  "dist_20dma_pct": 9.61,
-  "dist_50dma_pct": 9.61,
-  "dist_200dma_pct": 8.61
+  "rsi_14": 75.4,
+  "atr_pct": 2.03,
+  "rel_volume_20d": 0.21,
+  "dist_20dma_pct": 8.16,
+  "dist_50dma_pct": 8.55,
+  "dist_200dma_pct": 7.67
  }
 }

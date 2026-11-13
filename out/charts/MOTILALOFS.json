@@ -2,17 +2,8 @@
  "symbol": "MOTILALOFS",
  "name": "Motilal Oswal Financial Services Limited",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
-  {
-   "time": "2025-11-04",
-   "open": 1009.95,
-   "high": 1016.35,
-   "low": 982.65,
-   "close": 986.0,
-   "volume": 742536,
-   "delivery_pct": 48.64
-  },
   {
    "time": "2025-11-06",
    "open": 987.0,
@@ -2262,14 +2253,19 @@
    "close": 1216.8,
    "volume": 4901418,
    "delivery_pct": 32.08
+  },
+  {
+   "time": "2026-11-13",
+   "open": 1206.0,
+   "high": 1238.0,
+   "low": 1184.55,
+   "close": 1220.0,
+   "volume": 1386901,
+   "delivery_pct": 33.17
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-02",
-    "value": 970.66
-   },
    {
     "time": "2025-12-03",
     "value": 967.47
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-12",
     "value": 1026.96
+   },
+   {
+    "time": "2026-11-13",
+    "value": 1034.51
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-14",
-    "value": 901.33
-   },
    {
     "time": "2026-01-16",
     "value": 898.63
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-12",
     "value": 1023.63
+   },
+   {
+    "time": "2026-11-13",
+    "value": 1027.26
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-26",
-    "value": 850.3
-   },
    {
     "time": "2026-08-27",
     "value": 850.56
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-12",
     "value": 881.81
+   },
+   {
+    "time": "2026-11-13",
+    "value": 883.78
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.98,
-  "atr_pct": 3.95,
-  "rel_volume_20d": 4.21,
-  "dist_20dma_pct": 18.49,
-  "dist_50dma_pct": 18.87,
-  "dist_200dma_pct": 37.99
+  "rsi_14": 73.2,
+  "atr_pct": 3.97,
+  "rel_volume_20d": 1.02,
+  "dist_20dma_pct": 17.93,
+  "dist_50dma_pct": 18.76,
+  "dist_200dma_pct": 38.04
  }
 }

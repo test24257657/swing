@@ -2,17 +2,8 @@
  "symbol": "BALAJEE",
  "name": "Shree Tirupati Balajee Agro Trading Company Limited",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
-  {
-   "time": "2025-11-04",
-   "open": 44.39,
-   "high": 45.34,
-   "low": 43.5,
-   "close": 43.9,
-   "volume": 115319,
-   "delivery_pct": 59.71
-  },
   {
    "time": "2025-11-06",
    "open": 43.85,
@@ -2262,14 +2253,19 @@
    "close": 23.54,
    "volume": 47468,
    "delivery_pct": 70.64
+  },
+  {
+   "time": "2026-11-13",
+   "open": 23.54,
+   "high": 24.24,
+   "low": 22.16,
+   "close": 23.15,
+   "volume": 49392,
+   "delivery_pct": 55.61
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-02",
-    "value": 41.55
-   },
    {
     "time": "2025-12-03",
     "value": 41.4
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-12",
     "value": 20.79
+   },
+   {
+    "time": "2026-11-13",
+    "value": 20.83
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-14",
-    "value": 40.44
-   },
    {
     "time": "2026-01-16",
     "value": 40.32
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-12",
     "value": 23.43
+   },
+   {
+    "time": "2026-11-13",
+    "value": 23.37
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-26",
-    "value": 32.39
-   },
    {
     "time": "2026-08-27",
     "value": 32.3
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-12",
     "value": 28.08
+   },
+   {
+    "time": "2026-11-13",
+    "value": 28.01
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.48,
-  "atr_pct": 5.4,
-  "rel_volume_20d": 0.46,
-  "dist_20dma_pct": 13.22,
-  "dist_50dma_pct": 0.45,
-  "dist_200dma_pct": -16.16
+  "rsi_14": 60.05,
+  "atr_pct": 5.74,
+  "rel_volume_20d": 0.48,
+  "dist_20dma_pct": 11.12,
+  "dist_50dma_pct": -0.93,
+  "dist_200dma_pct": -17.34
  }
 }

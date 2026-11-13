@@ -2,7 +2,7 @@
  "symbol": "ACGL",
  "name": "Automobile Corporation of Goa Limited",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
   {
    "time": "2026-08-17",
@@ -543,6 +543,15 @@
    "close": 1870.1,
    "volume": 670,
    "delivery_pct": 70.15
+  },
+  {
+   "time": "2026-11-13",
+   "open": 1855.5,
+   "high": 1865.9,
+   "low": 1842.0,
+   "close": 1854.6,
+   "volume": 647,
+   "delivery_pct": 69.24
   }
  ],
  "ma": {
@@ -710,6 +719,10 @@
    {
     "time": "2026-11-12",
     "value": 1768.31
+   },
+   {
+    "time": "2026-11-13",
+    "value": 1776.53
    }
   ],
   "sma_50": [
@@ -756,15 +769,19 @@
    {
     "time": "2026-11-12",
     "value": 1746.13
+   },
+   {
+    "time": "2026-11-13",
+    "value": 1747.13
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.74,
-  "atr_pct": 3.51,
+  "rsi_14": 61.15,
+  "atr_pct": 3.4,
   "rel_volume_20d": 0.13,
-  "dist_20dma_pct": 5.76,
-  "dist_50dma_pct": 7.1,
+  "dist_20dma_pct": 4.39,
+  "dist_50dma_pct": 6.15,
   "dist_200dma_pct": null
  }
 }

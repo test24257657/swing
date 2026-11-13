@@ -2,17 +2,8 @@
  "symbol": "STYLEBAAZA",
  "name": "Baazar Style Retail Limited",
  "kind": "stock",
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "bars": [
-  {
-   "time": "2025-11-04",
-   "open": 325.0,
-   "high": 340.0,
-   "low": 325.0,
-   "close": 333.0,
-   "volume": 626001,
-   "delivery_pct": 48.54
-  },
   {
    "time": "2025-11-06",
    "open": 336.0,
@@ -2262,14 +2253,19 @@
    "close": 443.5,
    "volume": 2705855,
    "delivery_pct": 54.76
+  },
+  {
+   "time": "2026-11-13",
+   "open": 440.1,
+   "high": 477.0,
+   "low": 433.8,
+   "close": 468.75,
+   "volume": 5847095,
+   "delivery_pct": 42.08
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-02",
-    "value": 304.16
-   },
    {
     "time": "2025-12-03",
     "value": 301.81
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-12",
     "value": 381.73
+   },
+   {
+    "time": "2026-11-13",
+    "value": 386.16
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-14",
-    "value": 282.8
-   },
    {
     "time": "2026-01-16",
     "value": 281.89
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-12",
     "value": 384.18
+   },
+   {
+    "time": "2026-11-13",
+    "value": 385.34
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-26",
-    "value": 314.96
-   },
    {
     "time": "2026-08-27",
     "value": 315.3
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-12",
     "value": 340.87
+   },
+   {
+    "time": "2026-11-13",
+    "value": 341.58
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.51,
-  "atr_pct": 4.6,
-  "rel_volume_20d": 2.62,
-  "dist_20dma_pct": 16.18,
-  "dist_50dma_pct": 15.44,
-  "dist_200dma_pct": 30.11
+  "rsi_14": 73.87,
+  "atr_pct": 4.7,
+  "rel_volume_20d": 5.08,
+  "dist_20dma_pct": 21.39,
+  "dist_50dma_pct": 21.65,
+  "dist_200dma_pct": 37.23
  }
 }
