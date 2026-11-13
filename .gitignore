@@ -1,7 +1,7 @@
-# Node / Next
+# Next.js / Node
 node_modules/
 .next/
-apps/web/out/
+out/
 dist/
 *.tsbuildinfo
 .turbo/
@@ -16,29 +16,21 @@ venv/
 .pytest_cache/
 *.egg-info/
 
-# Env
+# Environment Variables
 .env
 .env.local
 *.env
 !.env.example
 !*.env.example
 
-# Data / caches
-apps/api/data/
+# Temporary runtime working data & raw cache
+/data/
 .cache/
 raw_cache/
 
-# OS / editor
+# OS / Editor
 .DS_Store
 .idea/
 .vscode/*
 !.vscode/settings.json
-!.vscode/extensions.json
 *.log
-
-# Claude
-.claude/worktrees/
-
-# Job working files — the rolling OHLC panel and raw NSE downloads.
-# Only out/*.json is committed; data/ lives in the GitHub Actions cache.
-/data/

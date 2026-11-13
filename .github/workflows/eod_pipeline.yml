@@ -1,0 +1,47 @@
+name: EOD Pipeline — Nightly Scan & AI Picks
+
+on:
+  schedule:
+    # 7:00 PM IST = 13:30 UTC, Mon–Fri
+    - cron: "30 13 * * 1-5"
+  workflow_dispatch:        # manual trigger for testing or missed runs
+
+jobs:
+  nightly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install Python dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Cache raw NSE/BSE responses
+        uses: actions/cache@v4
+        with:
+          path: data/raw_cache
+          key: nse-cache-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            nse-cache-${{ runner.os }}-
+
+      - name: Run nightly pipeline
+        env:
+          DATABASE_URL:       ${{ secrets.DATABASE_URL }}
+          DIRECT_URL:         ${{ secrets.DIRECT_URL }}
+          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_REPO:        ${{ github.repository }}
+          GITHUB_TOKEN:       ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          cd pipeline
+          python run_nightly.py

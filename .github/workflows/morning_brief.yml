@@ -1,0 +1,39 @@
+name: Morning Brief — Market Regime + Telegram
+
+on:
+  schedule:
+    # 8:30 AM IST = 03:00 UTC, Mon–Fri
+    - cron: "0 3 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  morning:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install Python dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run morning brief pipeline
+        env:
+          DATABASE_URL:       ${{ secrets.DATABASE_URL }}
+          DIRECT_URL:         ${{ secrets.DIRECT_URL }}
+          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_REPO:        ${{ github.repository }}
+          GITHUB_TOKEN:       ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          cd pipeline
+          python run_morning.py

@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Design tokens — V1 light theme.
+ * Light bg (#f5f5f6), violet accent (#7c3aed), Inter + JetBrains Mono fonts.
+ */
+:root {
+  /* Shell geometry */
+  --shell-rail-w: 240px;
+  --shell-topbar-h: 56px;
+  --canvas-w: 1440px;
+
+  /* Surface */
+  --color-bg: #f5f5f6;
+  --color-surface: #ffffff;
+  --color-surface-2: #efeff1;
+  --color-surface-3: #fafafa;
+  --color-surface-inset: #e4e4e7;
+
+  /* Text - High Contrast Light Theme */
+  --color-text: #09090b;
+  --color-text-secondary: #334155;
+  --color-text-muted: #64748b;
+  --color-text-faint: #94a3b8;
+
+  /* Borders */
+  --color-border: rgba(15, 23, 42, 0.12);
+  --color-border-strong: rgba(15, 23, 42, 0.25);
+
+  /* Accent — violet */
+  --color-accent: #7c3aed;
+  --color-accent-hover: #6d28d9;
+  --color-accent-tint: rgba(124, 58, 237, 0.12);
+  --color-accent-tint-2: rgba(139, 92, 246, 0.16);
+  --color-accent-border: rgba(139, 92, 246, 0.35);
+
+  /* Semantic */
+  --color-up: #16a34a;
+  --color-up-text: #15803d;
+  --color-down: #dc2626;
+  --color-down-text: #b91c1c;
+
+  --color-stale: #d97706;
+  --color-stale-text: #b45309;
+  --color-stale-bg: rgba(217, 119, 6, 0.08);
+
+  --color-info: #2563eb;
+  --color-info-text: #1d4ed8;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Price / metric values always use tabular figures */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+/* Custom scrollbars — subtle, light theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface-2);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-inset);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-faint);
+}
+
+/*
+ * V2 page content used slate-100/200/300 (near-white) expecting a dark background.
+ * These overrides remap those classes to readable dark values on the light theme.
+ * emerald/cyan/rose/amber accents are darkened for WCAG contrast on white.
+ */
+
+/* Slate near-white → high-contrast dark text remapping for light theme */
+.text-slate-100 { color: #09090b !important; font-weight: 600; }
+.text-slate-200 { color: #18181b !important; }
+.text-slate-300 { color: #27272a !important; }
+.text-slate-400 { color: #52525b !important; }
+
+/* Emerald — rich, clear green */
+.text-emerald-400  { color: #047857 !important; font-weight: 600; }
+.text-emerald-300  { color: #065f46 !important; font-weight: 600; }
+.bg-emerald-400    { background-color: #059669 !important; }
+
+/* Cyan / Sky — rich dark blue on light bg */
+.text-cyan-400     { color: #0369a1 !important; font-weight: 600; }
+.text-cyan-300     { color: #075985 !important; font-weight: 600; }
+
+/* Rose / Red */
+.text-rose-400     { color: #be123c !important; font-weight: 600; }
+.text-rose-300     { color: #9f1239 !important; font-weight: 600; }
+
+/* Amber */
+.text-amber-400    { color: #b45309 !important; font-weight: 600; }
+.text-amber-300    { color: #92400e !important; font-weight: 600; }
+
+/* Background tints — clean light theme cards */
+.bg-emerald-950\/40  { background-color: #f0fdf4 !important; }
+.from-emerald-950\/40 { --tw-gradient-from: #f0fdf4 !important; }
+
+/* Animations */
+@keyframes shimmer {
+  0% { opacity: 0.45; }
+  50% { opacity: 0.85; }
+  100% { opacity: 0.45; }
+}
+@keyframes progress-bar {
+  0% {
+    transform: translateX(-100%);
+    width: 30%;
+  }
+  50% {
+    transform: translateX(30%);
+    width: 60%;
+  }
+  100% {
+    transform: translateX(100%);
+    width: 30%;
+  }
+}
+@keyframes flash-up {
+  0% { background: rgba(22, 163, 74, 0.22); }
+  40% { background: rgba(22, 163, 74, 0.1); }
+  100% { background: transparent; }
+}
+@keyframes flash-down {
+  0% { background: rgba(220, 38, 38, 0.22); }
+  40% { background: rgba(220, 38, 38, 0.1); }
+  100% { background: transparent; }
+}

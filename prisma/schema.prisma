@@ -1,0 +1,230 @@
+// Swing Terminal v2 — Prisma Schema
+// Optimized for Neon Serverless PostgreSQL (< 65 MB footprint)
+// 8 lean models with auto-pruning retention policies
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// MODEL 1: PERMANENT UNIVERSE REGISTRY (~1.5 MB — ~1,700 rows)
+// ─────────────────────────────────────────────────────────────────────────────
+model Symbol {
+  symbol        String    @id // NSE symbol e.g., "RELIANCE", or BSE ticker if BSE-only
+  bseCode       String?   // e.g., "500325"
+  isin          String    @unique // Used to deduplicate NSE vs BSE
+  companyName   String
+  exchange      String    // "NSE" | "BSE"
+  series        String    // "EQ", "BE", "A", "B"
+  sector        String    // Normalized to 18 core sectors
+  industry      String
+  indices       String[]  // e.g., ["NIFTY 500", "NIFTY AUTO"]
+  marketCapCr   Float?
+  listingDate   DateTime?
+  isFno         Boolean   @default(false)
+  isActive      Boolean   @default(true)
+  updatedAt     DateTime  @updatedAt
+
+  latestTechnical       LatestTechnical?
+  fundamental           Fundamental?
+  patterns              PatternSignal[]
+  institutionalActivity InstitutionalActivity[]
+
+  @@map("symbols")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// MODEL 2: HOT STATE (~4 MB — 1 row per stock, OVERWRITTEN nightly)
+// ─────────────────────────────────────────────────────────────────────────────
+model LatestTechnical {
+  symbol              String   @id
+  symbolRel           Symbol   @relation(fields: [symbol], references: [symbol], onDelete: Cascade)
+  tradeDate           DateTime
+  open                Float
+  high                Float
+  low                 Float
+  close               Float
+  changePct           Float
+  volume              BigInt
+  turnoverCr          Float
+  rvol20d             Float    // Today's volume / 20-day SMA volume
+  deliveryPct         Float    // Official NSE/BSE delivery percentage
+  deliverySpike       Float    // Today's delivery % / 20-day average delivery %
+  ema10               Float
+  ema21               Float
+  sma50               Float
+  sma150              Float
+  sma200              Float
+  rsi14               Float
+  atr14               Float
+  adrPct20d           Float    // 20-day Average Daily Range % — measures swing speed
+  high52w             Float
+  low52w              Float
+  distFrom52wHighPct  Float
+  rsRating            Int      // 1 to 99 percentile weighted 3M/6M/9M/12M relative performance
+  mansfieldRs         Float?   // Relative strength vs Nifty 500 zero-line
+  weinsteinStage      String   // "1", "2A", "2B", "3", "4"
+  minerviniPass       Boolean  // Passes all 8 Mark Minervini Trend Template rules
+  upDownVolRatio      Float?   // 50-day Up-Volume / Down-Volume ratio
+  pocketPivotToday    Boolean  @default(false)
+  vcpContractions     Int      @default(0) // 0 if none, 2–4 if valid VCP tightness
+  baseTightnessPct    Float?   // 10-day high-low range %
+  sparkline60d        Float[]  // Array of last 60 closing prices, rounded to 2 decimals
+  technoFundaScore    Int      // 0 to 100 composite score
+
+  @@map("latest_technicals")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// MODEL 3: FUNDAMENTALS (~3 MB — 1 row per stock, updated weekly)
+// ─────────────────────────────────────────────────────────────────────────────
+model Fundamental {
+  symbol                      String    @id
+  symbolRel                   Symbol    @relation(fields: [symbol], references: [symbol], onDelete: Cascade)
+  pe                          Float?
+  industryPe                  Float?
+  pb                          Float?
+  roce                        Float?
+  roe                         Float?
+  debtToEquity                Float?
+  opmPct                      Float?
+  opmChangeYoY                Float?
+  salesGrowthQoQ              Float?
+  salesGrowthYoY              Float?
+  epsGrowthQoQ                Float?
+  epsGrowthYoY                Float?
+  promoterPct                 Float?
+  promoterChangeQoQ           Float?
+  promoterPledgePct           Float?
+  fiiPct                      Float?
+  fiiChangeQoQ                Float?
+  diiPct                      Float?
+  diiChangeQoQ                Float?
+  institutionalBoughtRecently Boolean   @default(false)
+  nextResultsDate             DateTime?
+  fundamentalScore            Int       // 0 to 40 points
+  updatedAt                   DateTime  @updatedAt
+
+  @@map("fundamentals")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// MODEL 4: PATTERN SIGNALS (~8 MB — 90-Day Rolling Retention)
+// ─────────────────────────────────────────────────────────────────────────────
+model PatternSignal {
+  id                String   @id @default(cuid())
+  symbol            String
+  symbolRel         Symbol   @relation(fields: [symbol], references: [symbol], onDelete: Cascade)
+  tradeDate         DateTime
+  setupType         String   // "VCP", "52W_BREAKOUT", "POCKET_PIVOT", "PULLBACK_21EMA", "IPO_BASE", "STAGE_2A_BREAKOUT"
+  pivotPrice        Float
+  stopLossPrice     Float
+  riskPct           Float
+  target1Price      Float    // 2R
+  target2Price      Float    // 3.5R
+  technoFundaScore  Int
+  rsRating          Int
+  rvol              Float
+  deliveryPct       Float
+  catalystSummary   String?  // Recent bulk deal or corporate filing headline
+  status            String   // "READY", "TRIGGERED", "EXTENDED", "INVALIDATED"
+
+  @@unique([symbol, tradeDate, setupType])
+  @@index([symbol])
+  @@index([tradeDate])
+  @@index([setupType, tradeDate])
+  @@map("pattern_signals")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// MODEL 5: MARKET BREADTH & SECTOR (~5 MB — 365-Day Rolling Retention)
+// ─────────────────────────────────────────────────────────────────────────────
+model MarketBreadthAndSector {
+  tradeDate        DateTime @id
+  nifty50Close     Float
+  nifty50ChangePct Float
+  nifty500Close    Float
+  nifty500ChangePct Float
+  indiaVix         Float
+  advances         Int
+  declines         Int
+  pctAbove20Ema    Float
+  pctAbove50Sma    Float
+  pctAbove200Sma   Float
+  new52wHighs      Int
+  new52wLows       Int
+  netHighLow       Int
+  fiiNetCr         Float?
+  diiNetCr         Float?
+  marketRegime     String   // "CONFIRMED_UPTREND", "UPTREND_UNDER_PRESSURE", "PULLBACK_SWING", "CORRECTION_CASH"
+  sectorRrgJson    Json     // Array of 18 sectors with rsRatio, rsMomentum, quadrant, tail5d, topLeaders[]
+
+  @@map("market_breadth_and_sector")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// MODEL 6: INSTITUTIONAL ACTIVITY (~4 MB — 90-Day Rolling Retention)
+// ─────────────────────────────────────────────────────────────────────────────
+model InstitutionalActivity {
+  id               String   @id @default(cuid())
+  symbol           String
+  symbolRel        Symbol   @relation(fields: [symbol], references: [symbol], onDelete: Cascade)
+  tradeDate        DateTime
+  dealType         String   // "BULK", "BLOCK", "INSIDER_SAST", "CORP_FILING"
+  clientOrCategory String   // e.g., "MITSUI SUMITOMO", "PROMOTER", "ORDER_WIN"
+  action           String   // "BUY", "SELL", "CATALYST"
+  quantity         BigInt?
+  price            Float?
+  valueCr          Float?
+  headline         String?
+
+  @@index([symbol])
+  @@index([tradeDate])
+  @@index([dealType, tradeDate])
+  @@map("institutional_activity")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// MODEL 7: AI INTELLIGENCE (~5 MB — 30-Day Retention / 7-Day Stock Cache)
+// ─────────────────────────────────────────────────────────────────────────────
+model AiIntelligence {
+  id         String   @id @default(cuid())
+  cacheKey   String   @unique // "MORNING_BRIEF_2026-10-20", "TOP_PICKS_2026-10-20", "STOCK_THESIS_RELIANCE"
+  category   String   // "MORNING_BRIEF", "TOP_PICKS", "STOCK_THESIS"
+  symbol     String?
+  payload    Json     // Structured JSON validated against schema
+  modelUsed  String
+  tokensUsed Int
+  expiresAt  DateTime // Indexed — 7 days for STOCK_THESIS, 30 days for briefs
+  createdAt  DateTime @default(now())
+
+  @@index([expiresAt])
+  @@index([category, expiresAt])
+  @@index([symbol, category])
+  @@map("ai_intelligence")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// MODEL 8: WATCHLIST & POSITIONS (< 1 MB — Permanent User Data)
+// ─────────────────────────────────────────────────────────────────────────────
+model WatchlistAndPosition {
+  id            String   @id @default(cuid())
+  symbol        String   @unique
+  listType      String   // "WATCHLIST", "READY_TRIGGER", "ACTIVE_POSITION"
+  triggerPrice  Float?
+  stopLossPrice Float?
+  entryPrice    Float?
+  quantity      Int?
+  setupTag      String?
+  notes         String?
+  alertSent     Boolean  @default(false)
+  createdAt     DateTime @default(now())
+
+  @@map("watchlist_and_positions")
+}
