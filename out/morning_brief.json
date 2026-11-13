@@ -1,104 +1,111 @@
 {
- "generated_at": "2026-11-12T08:15:58+05:30",
- "for_session": "2026-11-12",
+ "generated_at": "2026-11-13T08:15:55+05:30",
+ "for_session": "2026-11-13",
  "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7619.38,
-   "change_pct": 1.31,
-   "as_of": "2026-11-11"
+   "value": 7592.4,
+   "change_pct": -0.35,
+   "as_of": "2026-11-12"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 25466.19,
-   "change_pct": 1.6,
-   "as_of": "2026-11-11"
+   "value": 25366.09,
+   "change_pct": -0.39,
+   "as_of": "2026-11-12"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 52486.49,
-   "change_pct": 0.49,
-   "as_of": "2026-11-11"
+   "value": 52297.09,
+   "change_pct": -0.36,
+   "as_of": "2026-11-12"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 61714.16,
-   "change_pct": 0.76,
-   "as_of": "2026-11-12"
+   "value": 61816.72,
+   "change_pct": 1.64,
+   "as_of": "2026-11-13"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 24042.45,
-   "change_pct": -1.12,
-   "as_of": "2026-11-12"
+   "value": 23860.6,
+   "change_pct": -0.62,
+   "as_of": "2026-11-13"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5438.73,
-   "change_pct": 1.18,
+   "value": 5409.5,
+   "change_pct": 1.25,
+   "as_of": "2026-11-13"
+  },
+  {
+   "label": "Brent crude",
+   "group": "Macro",
+   "value": 96.0,
+   "change_pct": 3.49,
    "as_of": "2026-11-12"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 3985.7,
-   "change_pct": -1.1,
-   "as_of": "2026-11-11"
+   "value": 3915.2,
+   "change_pct": -2.13,
+   "as_of": "2026-11-12"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 93.68,
-   "change_pct": -0.26,
-   "as_of": "2026-11-12"
+   "value": 94.03,
+   "change_pct": 0.36,
+   "as_of": "2026-11-13"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.0,
-   "change_pct": 0.3,
-   "as_of": "2026-11-11"
+   "value": 5.1,
+   "change_pct": 2.1,
+   "as_of": "2026-11-12"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 102.95,
-   "change_pct": 0.71,
-   "as_of": "2026-11-11"
+   "value": 103.17,
+   "change_pct": 0.25,
+   "as_of": "2026-11-12"
   }
  ],
  "global_tone": {
-  "tone": "positive",
-  "avg_change_pct": 0.75,
-  "crude_alert": false
+  "tone": "mixed",
+  "avg_change_pct": 0.31,
+  "crude_alert": true
  },
  "nifty": {
-  "session": "2026-11-11",
-  "close": 25255.05,
-  "high": 25424.35,
-  "low": 25095.35,
-  "pivot": 25258.25,
-  "r1": 25421.15,
-  "s1": 25092.15,
-  "r2": 25587.25,
-  "s2": 24929.25,
-  "sma_20": 23500.56,
-  "sma_50": 23304.25,
-  "sma_200": 23988.6
+  "session": "2026-11-12",
+  "close": 25299.35,
+  "high": 25384.8,
+  "low": 25142.95,
+  "pivot": 25275.7,
+  "r1": 25408.45,
+  "s1": 25166.6,
+  "r2": 25517.55,
+  "s2": 25033.85,
+  "sma_20": 23634.39,
+  "sma_50": 23328.63,
+  "sma_200": 23989.31
  },
  "focus": [
   {
-   "symbol": "ABDL",
-   "name": "Allied Blenders and Distillers Limited",
+   "symbol": "ACUTAAS",
+   "name": "Acutaas Chemicals Limited",
    "why": "Ready setup near its pivot",
-   "rs": 84
+   "rs": 95
   },
   {
    "symbol": "ADANIPORTS",
@@ -107,8 +114,8 @@
    "rs": 82
   },
   {
-   "symbol": "APOLLO",
-   "name": "Apollo Micro Systems Limited",
+   "symbol": "ESAFSFB",
+   "name": "ESAF Small Finance Bank Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -119,53 +126,48 @@
    "rs": null
   },
   {
-   "symbol": "MANKIND",
-   "name": "Mankind Pharma Limited",
+   "symbol": "MOTHERSON",
+   "name": "Samvardhana Motherson International Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "JSWSTEEL",
-   "name": "JSW Steel Limited",
+   "symbol": "BEML",
+   "name": "BEML Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "STEELCAS",
-   "name": "Steelcast Limited",
+   "symbol": "RPEL",
+   "name": "Raghav Productivity Enhancers Limited",
    "why": "AI top 5",
    "rs": null
   }
  ],
  "overnight_news": [
   {
-   "symbol": "ADANIENT",
-   "time": "11 Nov 20:14",
-   "category": "Acquisition",
-   "text": "Adani Enterprises Limited has informed the Exchange about incorporation of Adani Rovuma Chemicals Limited by Adani Global Limited, a wholly owned subsidiary of the Company",
-   "url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_11112026201423_AELintimationIncorporation11112026.pdf"
+   "symbol": "TMPV",
+   "time": "12 Nov 17:01",
+   "category": "ESOP/ESOS/ESPS",
+   "text": "Tata Motors Passenger Vehicles Limited has informed the Exchange regarding Allotment of 52,771  Equity Shares.",
+   "url": "https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_12112026170143_NSEBSEESOP.pdf"
   },
   {
-   "symbol": "AXISBANK",
-   "time": "11 Nov 19:05",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 220144  Shares.",
-   "url": "https://nsearchives.nseindia.com/corporate/Kapil_11112026190524_SE11112026.pdf"
+   "symbol": "HDFCLIFE",
+   "time": "12 Nov 16:16",
+   "category": "Allotment of Securities",
+   "text": "HDFC Life Insurance Company Limited has informed the Exchange regarding allotment of 125977 securities pursuant to ESOP on November 12, 2026",
+   "url": "https://nsearchives.nseindia.com/corporate/HDFCLIFE2_12112026161453_SE_Intimation_-_ESOP_Allotment.pdf"
   }
  ],
- "events": [],
+ "events": [
+  "243 companies report results today."
+ ],
  "checklist": [
   "Market light is YELLOW — only A+ setups, half size.",
+  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
- "ai": {
-  "headline": "Positive Global Cues Point to a Bullish Open for NIFTY",
-  "points": [
-   "Global markets lean positive with S&P 500 up +1.31% to 7619.38, Nasdaq gaining +1.60%, and Nikkei rising +0.76% to 61714.16.",
-   "NIFTY 50 closed at 25255.05; watch key pivot level 25258.25, support S1 at 25092.15, and resistance R1 at 25421.15.",
-   "USD/INR dropped -0.26% to 93.68, while the US 10Y yield reached 5.0% and Dollar Index rose to 102.95 (+0.71%).",
-   "Watch ADANIENT following new subsidiary incorporation, and AXISBANK after its equity share allotment of 220144 shares."
-  ]
- }
+ "ai": null
 }
