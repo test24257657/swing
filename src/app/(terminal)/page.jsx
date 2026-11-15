@@ -395,14 +395,14 @@ export default function MarketBreadthDashboardPage() {
           </div>
 
           {/* Market Internals Grid (6 Analytics Cards) */}
-          <MarketInternals />
+          <MarketInternals breadth={breadth} breadthHistory={breadthHistory} />
         </div>
       )}
 
       {/* ── Tab 2: Market Internals Dedicated View ───────────────── */}
       {activeTab === "internals" && (
         <div className="space-y-4">
-          <MarketInternals />
+          <MarketInternals breadth={breadth} breadthHistory={breadthHistory} />
         </div>
       )}
 

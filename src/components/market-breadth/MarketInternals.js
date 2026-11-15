@@ -9,7 +9,7 @@ import LargeMidSmall from "./LargeMidSmall";
 import BreakoutsBreakdowns from "./BreakoutsBreakdowns";
 import ParticipationHistory from "./ParticipationHistory";
 
-export function MarketInternals() {
+export function MarketInternals({ breadth, breadthHistory = [] }) {
   return (
     <div className="space-y-3">
       {/* Section Header */}
@@ -29,16 +29,15 @@ export function MarketInternals() {
 
       {/* 6 Analytics Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-        <NewHighsLows />
-        <AdvanceDecline />
-        <FourPercentMovers />
-        <LargeMidSmall />
-        <BreakoutsBreakdowns />
-        <ParticipationHistory />
+        <NewHighsLows breadth={breadth} breadthHistory={breadthHistory} />
+        <AdvanceDecline breadth={breadth} breadthHistory={breadthHistory} />
+        <FourPercentMovers breadth={breadth} breadthHistory={breadthHistory} />
+        <LargeMidSmall breadth={breadth} breadthHistory={breadthHistory} />
+        <BreakoutsBreakdowns breadth={breadth} breadthHistory={breadthHistory} />
+        <ParticipationHistory breadth={breadth} breadthHistory={breadthHistory} />
       </div>
     </div>
   );
 }
 
 export default MarketInternals;
-
