@@ -20,14 +20,18 @@ export function SegmentedControl({
       className={`inline-flex items-center p-0.5 bg-[#F1F5F9] border border-[#E5EAF2] rounded-[6px] select-none ${className}`}
     >
       {options.map((opt) => {
-        const isSelected = value === (opt.id ?? opt);
-        const label = opt.label ?? opt;
         const id = opt.id ?? opt;
+        const label = opt.label ?? opt;
+        const isSelected = value === id;
         return (
           <button
             key={id}
-            onClick={() => onChange && onChange(id)}
-            className={`font-medium rounded-[4px] transition-all flex items-center justify-center ${sizeClasses} ${
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              if (onChange) onChange(id);
+            }}
+            className={`font-medium rounded-[4px] transition-all flex items-center justify-center cursor-pointer ${sizeClasses} ${
               isSelected
                 ? "bg-white text-[#3478F6] font-semibold shadow-xs"
                 : "text-[#64748B] hover:text-[#17233B]"
@@ -42,4 +46,3 @@ export function SegmentedControl({
 }
 
 export default SegmentedControl;
-

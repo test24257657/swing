@@ -1,15 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import BaseCard from "@/components/ui/card";
 import StageAnalysis from "./StageAnalysis";
 
 export function MarketRead({ data }) {
-  const [expanded, setExpanded] = useState(false);
   const { indicators = [], stageAnalysis } = data || {};
-
-  // Show first 3 by default, all 6 on expanded
-  const visibleIndicators = expanded ? indicators : indicators.slice(0, 3);
 
   const getToneDot = (tone) => {
     switch (tone) {
@@ -47,9 +43,9 @@ export function MarketRead({ data }) {
           </span>
         </div>
 
-        {/* Indicators List */}
-        <div className="space-y-3.5">
-          {visibleIndicators.map((item) => (
+        {/* Indicators List — All indicators shown without collapsed state */}
+        <div className="space-y-3">
+          {indicators.map((item) => (
             <div key={item.id} className="space-y-1">
               <div className="flex items-center justify-between text-xs">
                 <div className="flex items-center gap-2 font-medium text-[#17233B]">
@@ -66,16 +62,6 @@ export function MarketRead({ data }) {
             </div>
           ))}
         </div>
-
-        {/* Show more / Show less toggle */}
-        {indicators.length > 3 && (
-          <button
-            onClick={() => setExpanded(!expanded)}
-            className="text-[11px] font-semibold text-[#3478F6] hover:underline mt-3 pl-4 focus:outline-none"
-          >
-            {expanded ? "Show less" : "Show 3 more"}
-          </button>
-        )}
       </div>
 
       {/* Stage Analysis Section */}
@@ -85,4 +71,3 @@ export function MarketRead({ data }) {
 }
 
 export default MarketRead;
-
