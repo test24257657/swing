@@ -1,5 +1,5 @@
 import {
-  LayoutDashboard,
+  Activity,
   ScanLine,
   SlidersHorizontal,
   Compass,
@@ -16,7 +16,7 @@ export interface NavItem {
 }
 
 export const NAV: NavItem[] = [
-  { href: "/",             label: "Dashboard",      icon: LayoutDashboard },
+  { href: "/",             label: "Market Breadth", icon: Activity },
   { href: "/patterns",     label: "Chart Patterns", icon: Shapes },
   { href: "/scan",         label: "Scan Setups",    icon: ScanLine },
   { href: "/screener",     label: "Screener",       icon: SlidersHorizontal },
@@ -24,4 +24,3 @@ export const NAV: NavItem[] = [
   { href: "/institutional",label: "Smart Money",    icon: Landmark },
   { href: "/watchlist",    label: "Watchlist",      icon: BookmarkCheck },
 ];
-
