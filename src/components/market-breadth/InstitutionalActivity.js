@@ -13,9 +13,9 @@ export function InstitutionalActivity({
   const { fii, dii } = flows;
 
   return (
-    <BaseCard className="flex flex-col justify-between h-full space-y-4 w-full min-w-0" padding="p-4">
+    <BaseCard className="flex flex-col space-y-4 w-full min-w-0" padding="p-4">
       {/* ── FII / DII CASH SECTION ─────────────────────────────────── */}
-      <div className="space-y-3 w-full min-w-0">
+      <div className="space-y-3.5 w-full min-w-0">
         {/* Header */}
         <div className="flex items-center justify-between pb-2 border-b border-[#E5EAF2]">
           <span className="text-xs font-bold text-[#17233B] uppercase tracking-wider">
@@ -25,24 +25,24 @@ export function InstitutionalActivity({
         </div>
 
         {/* FII Section */}
-        <div className="space-y-1 w-full min-w-0">
+        <div className="space-y-1.5 w-full min-w-0">
           <div className="flex items-center justify-between text-xs font-semibold">
             <span className="text-[#17233B]">FII</span>
             <div className="flex items-center gap-2">
               <span className="text-[11px] text-[#64748B] font-normal">Fri 13 Nov</span>
-              <span className="text-[#3478F6] tabular-nums font-bold">
+              <span className={`tabular-nums font-bold ${fii.dailyNetCr >= 0 ? "text-[#3478F6]" : "text-[#F05283]"}`}>
                 {formatCrores(fii.dailyNetCr)}
               </span>
             </div>
           </div>
 
           {/* 22 Sessions Bar Chart */}
-          <div className="py-1 w-full min-w-0">
+          <div className="py-0.5 w-full min-w-0">
             <DivergingBarChart
               data={fii.sessions}
               xKey="session"
               dataKey="val"
-              height={48}
+              height={52}
               posColor="#3478F6"
               negColor="#F05283"
               tooltipFormatter={(val) => formatCrores(val)}
@@ -51,31 +51,31 @@ export function InstitutionalActivity({
 
           <div className="flex items-center justify-between text-[11px] text-[#64748B]">
             <span>1-month net</span>
-            <span className="font-semibold text-[#3478F6] tabular-nums">
+            <span className={`font-semibold tabular-nums ${fii.monthNetCr >= 0 ? "text-[#3478F6]" : "text-[#F05283]"}`}>
               {formatCrores(fii.monthNetCr)}
             </span>
           </div>
         </div>
 
         {/* DII Section */}
-        <div className="space-y-1 pt-2 border-t border-[#F1F5F9] w-full min-w-0">
+        <div className="space-y-1.5 pt-3 border-t border-[#F1F5F9] w-full min-w-0">
           <div className="flex items-center justify-between text-xs font-semibold">
             <span className="text-[#17233B]">DII</span>
             <div className="flex items-center gap-2">
               <span className="text-[11px] text-[#64748B] font-normal">Fri 13 Nov</span>
-              <span className="text-[#F05283] tabular-nums font-bold">
+              <span className={`tabular-nums font-bold ${dii.dailyNetCr >= 0 ? "text-[#3478F6]" : "text-[#F05283]"}`}>
                 {formatCrores(dii.dailyNetCr)}
               </span>
             </div>
           </div>
 
           {/* 22 Sessions Bar Chart */}
-          <div className="py-1 w-full min-w-0">
+          <div className="py-0.5 w-full min-w-0">
             <DivergingBarChart
               data={dii.sessions}
               xKey="session"
               dataKey="val"
-              height={48}
+              height={52}
               posColor="#3478F6"
               negColor="#F05283"
               tooltipFormatter={(val) => formatCrores(val)}
@@ -84,7 +84,7 @@ export function InstitutionalActivity({
 
           <div className="flex items-center justify-between text-[11px] text-[#64748B]">
             <span>1-month net</span>
-            <span className="font-semibold text-[#F05283] tabular-nums">
+            <span className={`font-semibold tabular-nums ${dii.monthNetCr >= 0 ? "text-[#3478F6]" : "text-[#F05283]"}`}>
               {formatCrores(dii.monthNetCr)}
             </span>
           </div>
@@ -105,19 +105,19 @@ export function InstitutionalActivity({
           <span className="text-xs font-semibold text-[#17233B]">Net highs − lows</span>
           <div className="flex items-center gap-2">
             <span className="text-[11px] text-[#64748B]">Fri 13 Nov</span>
-            <span className="text-xs font-bold text-[#3478F6] tabular-nums">
-              +{highsLows.latestNet}
+            <span className={`text-xs font-bold tabular-nums ${highsLows.latestNet >= 0 ? "text-[#3478F6]" : "text-[#F05283]"}`}>
+              {highsLows.latestNet > 0 ? "+" : ""}{highsLows.latestNet}
             </span>
           </div>
         </div>
 
         {/* Bar chart of 22 sessions */}
-        <div className="py-1 w-full min-w-0">
+        <div className="py-0.5 w-full min-w-0">
           <DivergingBarChart
             data={highsLows.sessions}
             xKey="session"
             dataKey="net"
-            height={48}
+            height={52}
             posColor="#3478F6"
             negColor="#F05283"
             tooltipFormatter={(val) => `${val > 0 ? "+" : ""}${val} net`}
