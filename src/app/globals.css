@@ -4,13 +4,17 @@
 
 /*
  * UNIFIED INSTITUTIONAL DESIGN SYSTEM
- * Centralized Design Tokens for Indian Equities Analytics
+ * Centralized Design Tokens & Typography for Indian Equities Analytics
  */
 :root {
   /* Layout & Geometry */
   --shell-rail-w: 240px;
   --shell-topbar-h: 56px;
-  --canvas-max-w: 1600px;
+  --canvas-max-w: 100%;
+
+  /* Typography Fonts */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
   /* Surfaces */
   --color-bg-page: #F8FAFC;
@@ -82,16 +86,46 @@ body {
   padding: 0;
   background-color: var(--color-bg-page);
   color: var(--color-text-primary);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-sans);
   font-size: 13px;
+  font-weight: 400;
   line-height: 1.5;
+  letter-spacing: -0.01em;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-/* Tabular figures for financial numerals */
+/* Typography Utility Classes */
+.font-display {
+  font-family: var(--font-sans);
+  letter-spacing: -0.02em;
+}
+
+.font-numeral {
+  font-family: var(--font-sans);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.font-code {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Tabular figures for all financial numerals & metrics */
 .tnum,
 .tabular-nums {
   font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "cv01" 1, "cv02" 1;
+}
+
+/* Uppercase card labels tracking */
+.label-caps {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 /* Custom Scrollbars */
@@ -110,7 +144,6 @@ body {
   background: #94A3B8;
 }
 
-/* Responsive helper to prevent horizontal page blowout */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

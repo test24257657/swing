@@ -26,11 +26,11 @@ export const TOKENS = {
     textInverse: "#FFFFFF",
 
     // Market status (Indian Equities Financial Conventions)
-    bullish: "#16A878", // Clean institutional green
+    bullish: "#16A878",
     bullishBg: "#E8F8F3",
     bullishBorder: "#B5ECD9",
 
-    bearish: "#F05283", // High-visibility financial pink/red (Marketsmith style)
+    bearish: "#F05283",
     bearishBg: "#FEF0F4",
     bearishBorder: "#FCCEDB",
 
@@ -60,27 +60,98 @@ export const TOKENS = {
   },
 
   typography: {
-    fontFamilySans: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-    fontFamilyMono: "'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace",
-
-    // Font Sizes
-    fontSize: {
-      xs: "11px",
-      sm: "12px",
-      base: "13px",
-      md: "14px",
-      lg: "16px",
-      xl: "18px",
-      "2xl": "22px",
-      "3xl": "26px",
+    fontFamily: {
+      sans: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      mono: "'JetBrains Mono', ui-monospace, Menlo, Monaco, Consolas, monospace",
     },
 
-    // Font Weights
-    fontWeight: {
-      normal: 400,
+    // Strict typography scale with line-height & letter-spacing
+    scale: {
+      "2xs": { fontSize: "10px", lineHeight: "14px", letterSpacing: "0em" },
+      xs: { fontSize: "11px", lineHeight: "16px", letterSpacing: "0.02em" },
+      sm: { fontSize: "12px", lineHeight: "16px", letterSpacing: "-0.01em" },
+      base: { fontSize: "13px", lineHeight: "18px", letterSpacing: "-0.01em" },
+      md: { fontSize: "14px", lineHeight: "20px", letterSpacing: "-0.015em" },
+      lg: { fontSize: "16px", lineHeight: "22px", letterSpacing: "-0.02em" },
+      xl: { fontSize: "18px", lineHeight: "24px", letterSpacing: "-0.02em" },
+      "2xl": { fontSize: "22px", lineHeight: "28px", letterSpacing: "-0.025em" },
+      "3xl": { fontSize: "26px", lineHeight: "32px", letterSpacing: "-0.03em" },
+    },
+
+    // Weights
+    weight: {
+      regular: 400,
       medium: 500,
       semibold: 600,
       bold: 700,
+    },
+
+    // Semantic text roles
+    roles: {
+      pageTitle: {
+        fontFamily: "sans",
+        fontSize: "15px",
+        fontWeight: 700,
+        lineHeight: "18px",
+        letterSpacing: "-0.02em",
+        color: "#17233B",
+      },
+      sectionTitle: {
+        fontFamily: "sans",
+        fontSize: "12px",
+        fontWeight: 700,
+        lineHeight: "16px",
+        letterSpacing: "0.04em",
+        textTransform: "uppercase",
+        color: "#17233B",
+      },
+      cardHeading: {
+        fontFamily: "sans",
+        fontSize: "13px",
+        fontWeight: 700,
+        lineHeight: "18px",
+        letterSpacing: "-0.01em",
+        color: "#17233B",
+      },
+      metricDisplay: {
+        fontFamily: "sans",
+        fontSize: "22px",
+        fontWeight: 700,
+        lineHeight: "26px",
+        letterSpacing: "-0.025em",
+        tabularNums: true,
+        color: "#17233B",
+      },
+      body: {
+        fontFamily: "sans",
+        fontSize: "12px",
+        fontWeight: 400,
+        lineHeight: "16px",
+        color: "#64748B",
+      },
+      labelCaps: {
+        fontFamily: "sans",
+        fontSize: "11px",
+        fontWeight: 600,
+        lineHeight: "14px",
+        letterSpacing: "0.05em",
+        textTransform: "uppercase",
+        color: "#64748B",
+      },
+      footnote: {
+        fontFamily: "sans",
+        fontSize: "10px",
+        fontWeight: 500,
+        lineHeight: "14px",
+        color: "#94A3B8",
+      },
+      tableNumeral: {
+        fontFamily: "sans",
+        fontSize: "12px",
+        fontWeight: 600,
+        tabularNums: true,
+        color: "#17233B",
+      },
     },
   },
 
@@ -110,9 +181,7 @@ export const TOKENS = {
     subtle: "0 1px 2px 0 rgba(15, 23, 42, 0.04)",
     sm: "0 1px 3px 0 rgba(15, 23, 42, 0.06), 0 1px 2px 0 rgba(15, 23, 42, 0.04)",
     md: "0 4px 6px -1px rgba(15, 23, 42, 0.07), 0 2px 4px -1px rgba(15, 23, 42, 0.04)",
-    dropdown: "0 10px 15px -3px rgba(15, 23, 42, 0.1), 0 4px 6px -2px rgba(15, 23, 42, 0.05)",
   },
 };
 
 export default TOKENS;
-

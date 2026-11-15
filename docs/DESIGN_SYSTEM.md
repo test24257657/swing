@@ -36,17 +36,42 @@ A centralized, production-grade design system for the Indian Equities Momentum &
 
 ---
 
-## 3. Typography & Numerals
+## 3. Typography & Font System
 
-- **Primary Font:** `Inter` (`font-sans`)
-- **Monospace Font:** `JetBrains Mono` (`font-mono`)
-- **Financial Numerals:** Always use tabular numerals (`tabular-nums` / `.tnum`) to ensure strict vertical alignment across columns.
-- **Type Scale:**
-  - Page Title: `15px` / `font-bold` / `#17233B`
-  - Section Title: `13px` / `font-bold` / uppercase / `#17233B`
-  - Card Metric: `18px` – `24px` / `font-bold` / `tabular-nums`
-  - Body Text: `12px` / `font-normal` / `#64748B`
-  - Footnote / Subtext: `10px` – `11px` / `font-medium` / `#94A3B8`
+### Font Families
+- **Primary Interface Font:** `Inter` (`--font-sans`)
+  - Used for all interface chrome, headings, badges, controls, tooltips, and body text.
+- **Monospace / Code Font:** `JetBrains Mono` (`--font-mono`)
+  - Used for code snippets, raw data inspect, and terminal badges.
+
+### Font Weights
+| Weight Name | Value | Usage |
+|-------------|-------|-------|
+| Regular | `400` | Explanatory paragraphs, subtitles, footnotes |
+| Medium | `500` | Secondary labels, table text, inactive controls |
+| Semibold | `600` | Status badges, indicator labels, active control states |
+| Bold | `700` | Page title, card headers, big financial numbers |
+
+### Typography Scale & Semantic Roles
+| Role | Font Family | Size | Weight | Tracking | Line Height | Usage |
+|------|-------------|------|--------|----------|-------------|-------|
+| **Page Title** | Inter | `15px` | `700` (Bold) | `-0.02em` | `18px` | Top dashboard header brand |
+| **Section Title** | Inter | `12px` | `700` (Bold) | `+0.04em` | `16px` | Uppercase section titles |
+| **Card Header** | Inter | `13px` | `700` (Bold) | `-0.01em` | `18px` | Metric & chart card titles |
+| **Metric Value** | Inter | `18px`–`24px` | `700` (Bold) | `-0.025em` | `24px` | Major numbers (`tabular-nums`) |
+| **Label Caps** | Inter | `11px` | `600` (Semibold) | `+0.05em` | `14px` | Uppercase category pills |
+| **Body / Note** | Inter | `11px`–`12px` | `400` (Regular) | `-0.01em` | `16px` | Indicator descriptions |
+| **Footnote** | Inter | `10px` | `500` (Medium) | `0em` | `14px` | Timestamps, axis ticks, benchmarks |
+
+### Tabular Figures Rule
+All financial figures, prices, percentages, points, and counts **must** use `tabular-nums` (`.tnum`):
+```css
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "cv01" 1, "cv02" 1;
+}
+```
+This guarantees vertical digit alignment across tables, cards, and tooltips.
 
 ---
 
@@ -122,39 +147,6 @@ import { CHART_THEME } from "@/lib/chart-theme";
 - `ChartTooltip`: Centralized financial tooltip formatter.
 
 ### Layout & Navigation (`src/components/shared/` & `src/components/layout/`)
-- `PageContainer`: Standardized 1600px responsive canvas.
+- `PageContainer`: Standardized 100% full-width responsive canvas.
 - `SectionHeader`: Section title with tooltip and action controls.
 - `DashboardHeader`: Product title, active tabs, universe selector, and period switch.
-
----
-
-## 8. Directory Architecture
-
-```text
-src/
-├── app/
-│   ├── (terminal)/
-│   │   ├── page.jsx              # Flagship Market Breadth Dashboard
-│   │   └── layout.tsx            # Terminal App Shell
-│   ├── market-breadth/
-│   │   └── page.jsx              # Standalone Market Breadth route
-│   └── globals.css               # Centralized CSS variables & design tokens
-├── components/
-│   ├── ui/                       # Foundation atoms (Button, Card, Badge, etc.)
-│   ├── data-display/             # Data visualization & metric formatters
-│   ├── charts/                   # Centralized Recharts visualization library
-│   ├── shared/                   # Layout containers & section headers
-│   └── market-breadth/           # Feature components for Market Breadth
-├── data/
-│   ├── mockMarketBreadth.js      # Column 1, 2, 3 EOD market breadth data
-│   ├── mockMarketInternals.js    # 6 Analytics cards internals data
-│   └── mockIndices.js            # Bottom 7 benchmark indices data
-├── lib/
-│   ├── design-tokens.js          # Centralized tokens (colors, font, spacing)
-│   ├── chart-theme.js            # Shared Recharts themes
-│   ├── formatters.js             # Financial formatting utilities
-│   └── constants.js              # Universes & period options
-└── docs/
-    └── DESIGN_SYSTEM.md          # This documentation
-```
-
