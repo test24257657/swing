@@ -23,6 +23,7 @@ import { BreadthDonut } from "@/components/charts/breadth-donut";
 import { FlowBars } from "@/components/charts/flow-bars";
 import { VixGauge } from "@/components/charts/vix-gauge";
 import { Loader } from "@/components/ui/loader";
+import { MarketBreadthSection } from "@/components/charts/market-breadth-section";
 
 // Breadth Verdict logic from V1
 function getBreadthVerdict(advances: number, declines: number) {
@@ -691,6 +692,11 @@ export default function DashboardPage() {
           </div>
         </div>
       </div>
+
+      {/* ───────────────────────────────────────────────────────────── */}
+      {/* MARKET BREADTH SECTION (Participation, Internals, Sentiment)  */}
+      {/* ───────────────────────────────────────────────────────────── */}
+      <MarketBreadthSection breadth={breadth} breadthHistory={breadthHistory} />
 
       {/* ───────────────────────────────────────────────────────────── */}
       {/* STEP 3: WHERE MONEY IS FLOWING (LEADING SECTORS & STOCKS)     */}
