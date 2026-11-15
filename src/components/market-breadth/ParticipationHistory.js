@@ -16,7 +16,7 @@ export function ParticipationHistory({ data = mockMarketInternals.participationH
   ];
 
   return (
-    <BaseCard padding="p-3.5" className="flex flex-col justify-between space-y-2">
+    <BaseCard padding="p-3.5" className="flex flex-col justify-between space-y-2 w-full min-w-0">
       {/* Header */}
       <div className="flex items-start justify-between">
         <div>
@@ -58,7 +58,7 @@ export function ParticipationHistory({ data = mockMarketInternals.participationH
           { key: "above50", name: ">50 SMA", color: "#F97316", strokeWidth: 1.5 },
           { key: "above200", name: ">200 SMA", color: "#94A3B8", strokeWidth: 1.25 },
         ]}
-        height={75}
+        height={115}
         yUnit="%"
       />
     </BaseCard>
@@ -66,4 +66,3 @@ export function ParticipationHistory({ data = mockMarketInternals.participationH
 }
 
 export default ParticipationHistory;
-

@@ -7,7 +7,7 @@ import { mockMarketInternals } from "@/data/mockMarketInternals";
 
 export function BreakoutsBreakdowns({ data = mockMarketInternals.breakoutsBreakdowns }) {
   return (
-    <BaseCard padding="p-3.5" className="flex flex-col justify-between space-y-2">
+    <BaseCard padding="p-3.5" className="flex flex-col justify-between space-y-2 w-full min-w-0">
       {/* Header */}
       <div>
         <div className="text-xs font-bold text-[#17233B]">Breakouts − breakdowns</div>
@@ -40,7 +40,7 @@ export function BreakoutsBreakdowns({ data = mockMarketInternals.breakoutsBreakd
             strokeWidth: 1.5,
           },
         ]}
-        height={75}
+        height={115}
         yDomain={[-40, 30]}
         referenceLines={[{ y: 0, color: "#E2E8F0" }]}
       />
@@ -49,4 +49,3 @@ export function BreakoutsBreakdowns({ data = mockMarketInternals.breakoutsBreakd
 }
 
 export default BreakoutsBreakdowns;
-

@@ -7,9 +7,9 @@ export function StageComparisonChart({ data = [] }) {
   const latest = data[data.length - 1] || { stage2: 38.7, stage4: 46.1 };
 
   return (
-    <div className="space-y-2 pt-3 border-t border-[#E5EAF2]">
+    <div className="space-y-2 pt-3 border-t border-[#E5EAF2] w-full min-w-0">
       {/* Title & Legend */}
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap gap-2">
         <div>
           <div className="text-[13px] font-bold text-[#17233B] tracking-tight">
             Stage 2 vs Stage 4
@@ -50,7 +50,7 @@ export function StageComparisonChart({ data = [] }) {
             strokeWidth: 1.75,
           },
         ]}
-        height={130}
+        height={150}
         yDomain={[0, 70]}
         yUnit="%"
         referenceLines={[{ y: 35, color: "#E2E8F0", strokeDasharray: "2 2" }]}
@@ -60,4 +60,3 @@ export function StageComparisonChart({ data = [] }) {
 }
 
 export default StageComparisonChart;
-

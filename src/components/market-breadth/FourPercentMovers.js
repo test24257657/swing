@@ -16,7 +16,7 @@ export function FourPercentMovers({ data = mockMarketInternals.fourPercentMovers
   ];
 
   return (
-    <BaseCard padding="p-3.5" className="flex flex-col justify-between space-y-2">
+    <BaseCard padding="p-3.5" className="flex flex-col justify-between space-y-2 w-full min-w-0">
       {/* Header */}
       <div className="flex items-start justify-between">
         <div>
@@ -55,7 +55,7 @@ export function FourPercentMovers({ data = mockMarketInternals.fourPercentMovers
             strokeWidth: 1.5,
           },
         ]}
-        height={75}
+        height={115}
         yDomain={[-80, 80]}
         referenceLines={[{ y: 0, color: "#E2E8F0" }]}
       />
@@ -64,4 +64,3 @@ export function FourPercentMovers({ data = mockMarketInternals.fourPercentMovers
 }
 
 export default FourPercentMovers;
-

@@ -22,10 +22,10 @@ export function IndexCard({ item }) {
   const sparkColor = isPos ? "#16A878" : "#F05283";
 
   return (
-    <BaseCard padding="p-3" className="flex flex-col justify-between space-y-2">
+    <BaseCard padding="p-3" className="flex flex-col justify-between space-y-2 w-full min-w-0">
       {/* Top: Name & % Change */}
       <div className="flex items-center justify-between text-xs">
-        <span className="font-semibold text-[#17233B]">{name}</span>
+        <span className="font-semibold text-[#17233B] truncate">{name}</span>
         <PercentageChange value={changePct} showBg={false} />
       </div>
 
@@ -35,12 +35,12 @@ export function IndexCard({ item }) {
       </div>
 
       {/* Mini Sparkline Chart */}
-      <div className="h-7 w-full py-0.5">
+      <div className="h-8 w-full py-0.5 min-w-0">
         <SparklineChart
           data={sparkline}
           dataKey="val"
           color={sparkColor}
-          height={24}
+          height={30}
         />
       </div>
 
@@ -54,7 +54,7 @@ export function IndexCard({ item }) {
             )}
           </>
         ) : (
-          <span className="text-[#94A3B8]">{subtext}</span>
+          <span className="text-[#94A3B8] truncate">{subtext}</span>
         )}
       </div>
     </BaseCard>
@@ -62,4 +62,3 @@ export function IndexCard({ item }) {
 }
 
 export default IndexCard;
-

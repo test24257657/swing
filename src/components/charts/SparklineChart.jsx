@@ -26,18 +26,32 @@ export function SparklineChart({
   }, []);
 
   if (!mounted) {
-    return <div style={{ height, width }} className="bg-[#F8FAFC] rounded-[2px]" />;
+    return (
+      <div
+        style={{ height, width }}
+        className="w-full bg-[#F8FAFC] rounded-[2px] animate-pulse"
+      />
+    );
   }
 
   if (!data || data.length < 2) return null;
 
   return (
-    <div style={{ height, width }} className={className}>
+    <div
+      style={{ height, width, minHeight: height }}
+      className={`w-full min-w-0 relative ${className}`}
+    >
       <ResponsiveContainer width="100%" height="100%">
         {fill ? (
           <AreaChart data={data} margin={{ top: 2, right: 1, left: 1, bottom: 2 }}>
             <defs>
-              <linearGradient id={`spark-${color.replace("#", "")}`} x1="0" y1="0" x2="0" y2="1">
+              <linearGradient
+                id={`spark-${color.replace("#", "")}`}
+                x1="0"
+                y1="0"
+                x2="0"
+                y2="1"
+              >
                 <stop offset="0%" stopColor={color} stopOpacity={0.25} />
                 <stop offset="100%" stopColor={color} stopOpacity="0.02" />
               </linearGradient>
@@ -72,4 +86,3 @@ export function SparklineChart({
 }
 
 export default SparklineChart;
-

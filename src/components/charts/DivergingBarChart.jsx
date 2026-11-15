@@ -33,13 +33,18 @@ export function DivergingBarChart({
   }, []);
 
   if (!mounted) {
-    return <div style={{ height }} className="w-full bg-[#F8FAFC] rounded-[4px]" />;
+    return (
+      <div
+        style={{ width: "100%", height, minHeight: height }}
+        className="w-full bg-[#F8FAFC] rounded-[4px] animate-pulse"
+      />
+    );
   }
 
   if (!data || !data.length) {
     return (
       <div
-        style={{ height }}
+        style={{ width: "100%", height, minHeight: height }}
         className="w-full flex items-center justify-center text-xs text-[#94A3B8]"
       >
         No session data
@@ -48,11 +53,14 @@ export function DivergingBarChart({
   }
 
   return (
-    <div style={{ width: "100%", height }} className={className}>
+    <div
+      style={{ width: "100%", height, minHeight: height }}
+      className={`w-full min-w-0 relative ${className}`}
+    >
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           data={data}
-          margin={{ top: 2, right: 0, left: 0, bottom: 0 }}
+          margin={{ top: 4, right: 2, left: 2, bottom: 4 }}
           barCategoryGap={1.5}
         >
           {showAxis && <CartesianGrid {...CHART_THEME.grid} />}
@@ -68,7 +76,7 @@ export function DivergingBarChart({
             cursor={{ fill: "rgba(148, 163, 184, 0.08)" }}
           />
 
-          <Bar dataKey={dataKey} maxBarSize={14} radius={[1.5, 1.5, 1.5, 1.5]}>
+          <Bar dataKey={dataKey} maxBarSize={16} radius={[1.5, 1.5, 1.5, 1.5]}>
             {data.map((entry, index) => {
               const val = entry[dataKey];
               const isPositive = val >= 0;
@@ -87,4 +95,3 @@ export function DivergingBarChart({
 }
 
 export default DivergingBarChart;
-

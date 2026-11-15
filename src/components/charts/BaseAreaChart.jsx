@@ -18,9 +18,9 @@ import ChartTooltip from "./ChartTooltip";
 export function BaseAreaChart({
   data = [],
   xKey = "date",
-  series = [], // [{ key: 'participation', name: 'Participation', color: '#3478F6', fill: true }]
+  series = [],
   height = 160,
-  referenceLines = [], // [{ y: 50, color: '#E2E8F0', label: '' }]
+  referenceLines = [],
   yDomain = [0, 100],
   yUnit = "%",
   tooltipFormatter,
@@ -33,13 +33,18 @@ export function BaseAreaChart({
   }, []);
 
   if (!mounted) {
-    return <div style={{ height }} className="w-full bg-[#F8FAFC] rounded-[6px]" />;
+    return (
+      <div
+        style={{ width: "100%", height, minHeight: height }}
+        className="w-full bg-[#F8FAFC] rounded-[6px] animate-pulse"
+      />
+    );
   }
 
   if (!data || !data.length) {
     return (
       <div
-        style={{ height }}
+        style={{ width: "100%", height, minHeight: height }}
         className="w-full flex items-center justify-center text-xs text-[#94A3B8]"
       >
         No chart data available
@@ -48,11 +53,17 @@ export function BaseAreaChart({
   }
 
   return (
-    <div style={{ width: "100%", height }} className={className}>
+    <div
+      style={{ width: "100%", height, minHeight: height }}
+      className={`w-full min-w-0 relative ${className}`}
+    >
       <ResponsiveContainer width="100%" height="100%">
-        <AreaChart data={data} margin={{ top: 8, right: 8, left: -24, bottom: 0 }}>
+        <AreaChart
+          data={data}
+          margin={{ top: 6, right: 8, left: -16, bottom: 0 }}
+        >
           <defs>
-            {series.map((s, idx) => (
+            {series.map((s) => (
               <linearGradient
                 key={s.key}
                 id={`gradient-${s.key}`}
@@ -149,13 +160,24 @@ export function BaseLineChart({
   }, []);
 
   if (!mounted) {
-    return <div style={{ height }} className="w-full bg-[#F8FAFC] rounded-[6px]" />;
+    return (
+      <div
+        style={{ width: "100%", height, minHeight: height }}
+        className="w-full bg-[#F8FAFC] rounded-[6px] animate-pulse"
+      />
+    );
   }
 
   return (
-    <div style={{ width: "100%", height }} className={className}>
+    <div
+      style={{ width: "100%", height, minHeight: height }}
+      className={`w-full min-w-0 relative ${className}`}
+    >
       <ResponsiveContainer width="100%" height="100%">
-        <AreaChart data={data} margin={{ top: 8, right: 8, left: -24, bottom: 0 }}>
+        <AreaChart
+          data={data}
+          margin={{ top: 6, right: 8, left: -16, bottom: 0 }}
+        >
           <CartesianGrid {...CHART_THEME.grid} />
           <XAxis dataKey={xKey} {...CHART_THEME.axis} interval="preserveStartEnd" />
           <YAxis
@@ -193,4 +215,3 @@ export function BaseLineChart({
 }
 
 export default BaseAreaChart;
-

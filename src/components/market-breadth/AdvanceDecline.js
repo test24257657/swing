@@ -16,7 +16,7 @@ export function AdvanceDecline({ data = mockMarketInternals.advanceDecline }) {
   ];
 
   return (
-    <BaseCard padding="p-3.5" className="flex flex-col justify-between space-y-2">
+    <BaseCard padding="p-3.5" className="flex flex-col justify-between space-y-2 w-full min-w-0">
       {/* Header */}
       <div className="flex items-start justify-between">
         <div>
@@ -63,7 +63,7 @@ export function AdvanceDecline({ data = mockMarketInternals.advanceDecline }) {
             strokeWidth: 1,
           },
         ]}
-        height={75}
+        height={115}
         yDomain={[0.5, 1.2]}
         referenceLines={[{ y: 1.0, color: "#E2E8F0" }]}
       />
@@ -72,4 +72,3 @@ export function AdvanceDecline({ data = mockMarketInternals.advanceDecline }) {
 }
 
 export default AdvanceDecline;
-

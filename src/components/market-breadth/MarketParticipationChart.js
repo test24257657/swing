@@ -21,9 +21,9 @@ export function MarketParticipationChart({ data = [], stats = {} }) {
   ];
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-3 w-full min-w-0">
       {/* Top Header & Controls */}
-      <div className="flex items-start justify-between gap-2">
+      <div className="flex items-start justify-between gap-2 flex-wrap">
         <div>
           <div className="text-[13px] font-bold text-[#17233B] tracking-tight">
             Market participation
@@ -42,7 +42,7 @@ export function MarketParticipationChart({ data = [], stats = {} }) {
       </div>
 
       {/* Numerical Stats Row */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 flex-wrap">
         <span className="text-[24px] font-bold text-[#17233B] tabular-nums tracking-tight">
           {currentPct.toFixed(1)}%
         </span>
@@ -84,7 +84,7 @@ export function MarketParticipationChart({ data = [], stats = {} }) {
             strokeWidth: 1.5,
           },
         ]}
-        height={130}
+        height={165}
         yDomain={[0, 100]}
         yUnit="%"
         referenceLines={[
@@ -98,4 +98,3 @@ export function MarketParticipationChart({ data = [], stats = {} }) {
 }
 
 export default MarketParticipationChart;
-

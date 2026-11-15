@@ -17,7 +17,7 @@ import ChartTooltip from "./ChartTooltip";
 export function ComparisonChart({
   data = [],
   xKey = "date",
-  lines = [], // [{ key: 'large', name: 'Large', color: '#3478F6' }]
+  lines = [],
   height = 120,
   referenceLines = [{ y: 0, color: "#E2E8F0" }],
   yUnit = "%",
@@ -31,13 +31,24 @@ export function ComparisonChart({
   }, []);
 
   if (!mounted) {
-    return <div style={{ height }} className="w-full bg-[#F8FAFC] rounded-[4px]" />;
+    return (
+      <div
+        style={{ width: "100%", height, minHeight: height }}
+        className="w-full bg-[#F8FAFC] rounded-[4px] animate-pulse"
+      />
+    );
   }
 
   return (
-    <div style={{ width: "100%", height }} className={className}>
+    <div
+      style={{ width: "100%", height, minHeight: height }}
+      className={`w-full min-w-0 relative ${className}`}
+    >
       <ResponsiveContainer width="100%" height="100%">
-        <LineChart data={data} margin={{ top: 8, right: 8, left: -24, bottom: 0 }}>
+        <LineChart
+          data={data}
+          margin={{ top: 6, right: 8, left: -16, bottom: 0 }}
+        >
           <CartesianGrid {...CHART_THEME.grid} />
           <XAxis dataKey={xKey} {...CHART_THEME.axis} interval="preserveStartEnd" />
           <YAxis
@@ -75,4 +86,3 @@ export function ComparisonChart({
 }
 
 export default ComparisonChart;
-

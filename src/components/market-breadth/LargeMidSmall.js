@@ -7,7 +7,7 @@ import { mockMarketInternals } from "@/data/mockMarketInternals";
 
 export function LargeMidSmall({ data = mockMarketInternals.largeMidSmall }) {
   return (
-    <BaseCard padding="p-3.5" className="flex flex-col justify-between space-y-2">
+    <BaseCard padding="p-3.5" className="flex flex-col justify-between space-y-2 w-full min-w-0">
       {/* Header */}
       <div>
         <div className="text-xs font-bold text-[#17233B]">Large vs Mid vs Small</div>
@@ -49,7 +49,7 @@ export function LargeMidSmall({ data = mockMarketInternals.largeMidSmall }) {
           { key: "mid", name: "Midcap 150 (Mid)", color: "#F97316", strokeWidth: 1.5 },
           { key: "small", name: "Smallcap 250 (Small)", color: "#16A878", strokeWidth: 1.5 },
         ]}
-        height={75}
+        height={115}
         yUnit="%"
       />
     </BaseCard>
@@ -57,4 +57,3 @@ export function LargeMidSmall({ data = mockMarketInternals.largeMidSmall }) {
 }
 
 export default LargeMidSmall;
-
