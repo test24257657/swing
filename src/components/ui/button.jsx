@@ -82,3 +82,4 @@ export function IconButton({ icon: Icon, size = "icon", ...props }) {
 }
 
 export default Button;
+

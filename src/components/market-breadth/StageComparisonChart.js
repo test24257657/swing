@@ -60,3 +60,4 @@ export function StageComparisonChart({ data = [] }) {
 }
 
 export default StageComparisonChart;
+

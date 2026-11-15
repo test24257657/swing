@@ -53,3 +53,4 @@ export function EmptyState({ title = "No data available", message, action, class
     </div>
   );
 }
+

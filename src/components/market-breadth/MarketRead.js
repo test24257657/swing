@@ -85,3 +85,4 @@ export function MarketRead({ data }) {
 }
 
 export default MarketRead;
+

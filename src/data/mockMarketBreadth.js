@@ -230,3 +230,4 @@ export const mockHighsLows22 = {
     { session: 22, net: 180, highs: 213, lows: 33 },
   ],
 };
+

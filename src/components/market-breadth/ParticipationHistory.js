@@ -66,3 +66,4 @@ export function ParticipationHistory({ data = mockMarketInternals.participationH
 }
 
 export default ParticipationHistory;
+

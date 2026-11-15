@@ -31,3 +31,4 @@ export function MetricValue({
 }
 
 export default MetricValue;
+

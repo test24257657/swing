@@ -64,3 +64,4 @@ export function FourPercentMovers({ data = mockMarketInternals.fourPercentMovers
 }
 
 export default FourPercentMovers;
+

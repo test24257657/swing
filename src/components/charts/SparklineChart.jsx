@@ -72,3 +72,4 @@ export function SparklineChart({
 }
 
 export default SparklineChart;
+

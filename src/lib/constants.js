@@ -36,3 +36,4 @@ export const PERIOD_OPTIONS = [
   { id: "3M", label: "3M" },
   { id: "1Y", label: "1Y" },
 ];
+

@@ -29,3 +29,4 @@ export function IndicesSection({ indices = mockIndices }) {
 }
 
 export default IndicesSection;
+

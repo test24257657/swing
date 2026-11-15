@@ -98,3 +98,4 @@ export function MarketParticipationChart({ data = [], stats = {} }) {
 }
 
 export default MarketParticipationChart;
+

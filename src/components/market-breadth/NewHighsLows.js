@@ -80,3 +80,4 @@ export function NewHighsLows({ data = mockMarketInternals.newHighsLows }) {
 }
 
 export default NewHighsLows;
+

@@ -87,3 +87,4 @@ export function DivergingBarChart({
 }
 
 export default DivergingBarChart;
+

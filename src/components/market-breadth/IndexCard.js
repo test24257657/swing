@@ -62,3 +62,4 @@ export function IndexCard({ item }) {
 }
 
 export default IndexCard;
+

@@ -83,7 +83,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       {/* Main column — fluid responsive */}
       <div className="flex min-h-screen min-w-0 flex-1 flex-col overflow-x-hidden">
         <TopBar onOpenMobileMenu={() => setMobileMenuOpen(true)} />
-        <main className="flex-1 p-3 sm:p-5 md:p-6 w-full max-w-7xl mx-auto">
+        <main className="flex-1 p-3 sm:p-4 md:p-5 w-full">
           {children}
         </main>
       </div>

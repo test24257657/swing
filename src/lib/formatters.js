@@ -34,3 +34,4 @@ export function formatPoints(val) {
   const sign = val > 0 ? "+" : val < 0 ? "−" : "";
   return `${sign}${Math.abs(val).toFixed(1)} pts`;
 }
+

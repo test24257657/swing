@@ -18,7 +18,7 @@ export function DashboardHeader({
 
   return (
     <div className="bg-white border-b border-[#E5EAF2] px-4 py-3 -mx-3 sm:-mx-5 md:-mx-6 -mt-3 sm:-mt-5 md:-mt-6 mb-4">
-      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3 max-w-[1600px] mx-auto">
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3 w-full">
         {/* Left: Product title, date & navigation tabs */}
         <div className="flex items-center gap-6 flex-wrap">
           <div className="flex items-center gap-2.5">
@@ -95,3 +95,4 @@ export function DashboardHeader({
 }
 
 export default DashboardHeader;
+

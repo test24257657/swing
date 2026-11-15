@@ -72,3 +72,4 @@ export function Input({
 export function SearchInput(props) {
   return <Input icon={Search} placeholder="Search..." {...props} />;
 }
+

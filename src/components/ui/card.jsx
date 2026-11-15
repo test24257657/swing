@@ -158,3 +158,4 @@ export function InformationCard({ title, message, tone = "info", className = "" 
 }
 
 export default BaseCard;
+

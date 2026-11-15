@@ -72,3 +72,4 @@ export function AdvanceDecline({ data = mockMarketInternals.advanceDecline }) {
 }
 
 export default AdvanceDecline;
+
