@@ -2,17 +2,8 @@
  "symbol": "FLUOROCHEM",
  "name": "Gujarat Fluorochemicals Limited",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
-  {
-   "time": "2025-11-06",
-   "open": 3674.5,
-   "high": 3720.0,
-   "low": 3616.1,
-   "close": 3646.5,
-   "volume": 65192,
-   "delivery_pct": 46.8
-  },
   {
    "time": "2025-11-07",
    "open": 3638.8,
@@ -2262,14 +2253,19 @@
    "close": 4712.1,
    "volume": 44421,
    "delivery_pct": 50.88
+  },
+  {
+   "time": "2026-11-16",
+   "open": 4716.0,
+   "high": 4860.0,
+   "low": 4587.4,
+   "close": 4824.1,
+   "volume": 132528,
+   "delivery_pct": 47.86
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-03",
-    "value": 3507.59
-   },
    {
     "time": "2025-12-04",
     "value": 3492.68
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-13",
     "value": 4458.7
+   },
+   {
+    "time": "2026-11-16",
+    "value": 4468.31
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-16",
-    "value": 3519.26
-   },
    {
     "time": "2026-01-19",
     "value": 3513.32
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-13",
     "value": 4519.43
+   },
+   {
+    "time": "2026-11-16",
+    "value": 4522.04
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-27",
-    "value": 3665.97
-   },
    {
     "time": "2026-08-28",
     "value": 3671.6
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-13",
     "value": 3923.12
+   },
+   {
+    "time": "2026-11-16",
+    "value": 3930.95
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.92,
-  "atr_pct": 3.54,
-  "rel_volume_20d": 0.41,
-  "dist_20dma_pct": 5.68,
-  "dist_50dma_pct": 4.26,
-  "dist_200dma_pct": 20.11
+  "rsi_14": 62.68,
+  "atr_pct": 3.61,
+  "rel_volume_20d": 1.24,
+  "dist_20dma_pct": 7.96,
+  "dist_50dma_pct": 6.68,
+  "dist_200dma_pct": 22.72
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "LENSKART",
  "name": "Lenskart Solutions Limited",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
   {
    "time": "2025-11-10",
@@ -2244,6 +2244,15 @@
    "close": 727.0,
    "volume": 2473367,
    "delivery_pct": 53.66
+  },
+  {
+   "time": "2026-11-16",
+   "open": 734.3,
+   "high": 746.0,
+   "low": 729.25,
+   "close": 734.7,
+   "volume": 6513544,
+   "delivery_pct": 63.1
   }
  ],
  "ma": {
@@ -3167,6 +3176,10 @@
    {
     "time": "2026-11-13",
     "value": 674.42
+   },
+   {
+    "time": "2026-11-16",
+    "value": 678.31
    }
   ],
   "sma_50": [
@@ -3969,6 +3982,10 @@
    {
     "time": "2026-11-13",
     "value": 677.25
+   },
+   {
+    "time": "2026-11-16",
+    "value": 678.69
    }
   ],
   "sma_200": [
@@ -4171,15 +4188,19 @@
    {
     "time": "2026-11-13",
     "value": 560.44
+   },
+   {
+    "time": "2026-11-16",
+    "value": 561.96
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.73,
-  "atr_pct": 3.41,
-  "rel_volume_20d": 0.5,
-  "dist_20dma_pct": 7.8,
-  "dist_50dma_pct": 7.35,
-  "dist_200dma_pct": 29.72
+  "rsi_14": 68.57,
+  "atr_pct": 3.31,
+  "rel_volume_20d": 1.33,
+  "dist_20dma_pct": 8.31,
+  "dist_50dma_pct": 8.25,
+  "dist_200dma_pct": 30.74
  }
 }

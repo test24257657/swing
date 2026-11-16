@@ -2,7 +2,7 @@
  "symbol": "GYFTR",
  "name": "Gyftr Limited",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
   {
    "time": "2026-07-10",
@@ -777,6 +777,15 @@
    "close": 220.47,
    "volume": 391200,
    "delivery_pct": 30.56
+  },
+  {
+   "time": "2026-11-16",
+   "open": 220.0,
+   "high": 228.0,
+   "low": 216.31,
+   "close": 224.17,
+   "volume": 533914,
+   "delivery_pct": 32.4
   }
  ],
  "ma": {
@@ -1048,6 +1057,10 @@
    {
     "time": "2026-11-13",
     "value": 178.74
+   },
+   {
+    "time": "2026-11-16",
+    "value": 181.51
    }
   ],
   "sma_50": [
@@ -1198,15 +1211,19 @@
    {
     "time": "2026-11-13",
     "value": 174.97
+   },
+   {
+    "time": "2026-11-16",
+    "value": 175.96
    }
   ]
  },
  "technicals": {
-  "rsi_14": 78.92,
-  "atr_pct": 4.76,
-  "rel_volume_20d": 0.78,
-  "dist_20dma_pct": 23.34,
-  "dist_50dma_pct": 26.01,
+  "rsi_14": 80.04,
+  "atr_pct": 4.72,
+  "rel_volume_20d": 1.02,
+  "dist_20dma_pct": 23.5,
+  "dist_50dma_pct": 27.4,
   "dist_200dma_pct": null
  }
 }

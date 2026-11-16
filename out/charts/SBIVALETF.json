@@ -2,7 +2,7 @@
  "symbol": "SBIVALETF",
  "name": "SBIVALETF",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
   {
    "time": "2026-05-25",
@@ -1065,6 +1065,15 @@
    "close": 14.82,
    "volume": 7683,
    "delivery_pct": 81.44
+  },
+  {
+   "time": "2026-11-16",
+   "open": 15.1,
+   "high": 15.1,
+   "low": 14.62,
+   "close": 14.66,
+   "volume": 2935,
+   "delivery_pct": 66.61
   }
  ],
  "ma": {
@@ -1464,6 +1473,10 @@
    {
     "time": "2026-11-13",
     "value": 13.98
+   },
+   {
+    "time": "2026-11-16",
+    "value": 14.03
    }
   ],
   "sma_50": [
@@ -1742,15 +1755,19 @@
    {
     "time": "2026-11-13",
     "value": 14.18
+   },
+   {
+    "time": "2026-11-16",
+    "value": 14.18
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.51,
-  "atr_pct": 2.06,
-  "rel_volume_20d": 0.09,
-  "dist_20dma_pct": 5.98,
-  "dist_50dma_pct": 4.49,
+  "rsi_14": 62.84,
+  "atr_pct": 2.17,
+  "rel_volume_20d": 0.04,
+  "dist_20dma_pct": 4.51,
+  "dist_50dma_pct": 3.42,
   "dist_200dma_pct": null
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "GROWWPSUBK",
  "name": "GROWWPSUBK",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
   {
    "time": "2026-03-27",
@@ -1398,6 +1398,15 @@
    "close": 92.12,
    "volume": 17285,
    "delivery_pct": 43.12
+  },
+  {
+   "time": "2026-11-16",
+   "open": 93.9,
+   "high": 94.28,
+   "low": 91.04,
+   "close": 91.67,
+   "volume": 48268,
+   "delivery_pct": 36.46
   }
  ],
  "ma": {
@@ -1945,6 +1954,10 @@
    {
     "time": "2026-11-13",
     "value": 84.19
+   },
+   {
+    "time": "2026-11-16",
+    "value": 84.69
    }
   ],
   "sma_50": [
@@ -2371,15 +2384,19 @@
    {
     "time": "2026-11-13",
     "value": 83.47
+   },
+   {
+    "time": "2026-11-16",
+    "value": 83.58
    }
   ]
  },
  "technicals": {
-  "rsi_14": 73.45,
-  "atr_pct": 3.34,
-  "rel_volume_20d": 1.34,
-  "dist_20dma_pct": 9.42,
-  "dist_50dma_pct": 10.37,
+  "rsi_14": 71.36,
+  "atr_pct": 3.37,
+  "rel_volume_20d": 3.54,
+  "dist_20dma_pct": 8.24,
+  "dist_50dma_pct": 9.68,
   "dist_200dma_pct": null
  }
 }

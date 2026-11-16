@@ -2,7 +2,7 @@
  "symbol": "BNALTD",
  "name": "B & A Limited",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1020,6 +1020,15 @@
    "close": 415.0,
    "volume": 274,
    "delivery_pct": 99.64
+  },
+  {
+   "time": "2026-11-16",
+   "open": 426.95,
+   "high": 429.8,
+   "low": 420.0,
+   "close": 420.0,
+   "volume": 1619,
+   "delivery_pct": 99.2
   }
  ],
  "ma": {
@@ -1399,6 +1408,10 @@
    {
     "time": "2026-11-13",
     "value": 379.56
+   },
+   {
+    "time": "2026-11-16",
+    "value": 382.97
    }
   ],
   "sma_50": [
@@ -1657,15 +1670,19 @@
    {
     "time": "2026-11-13",
     "value": 381.56
+   },
+   {
+    "time": "2026-11-16",
+    "value": 381.9
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.81,
-  "atr_pct": 2.92,
-  "rel_volume_20d": 1.51,
-  "dist_20dma_pct": 9.34,
-  "dist_50dma_pct": 8.76,
+  "rsi_14": 63.21,
+  "atr_pct": 2.94,
+  "rel_volume_20d": 10.6,
+  "dist_20dma_pct": 9.67,
+  "dist_50dma_pct": 9.98,
   "dist_200dma_pct": null
  }
 }

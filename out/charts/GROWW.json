@@ -2,7 +2,7 @@
  "symbol": "GROWW",
  "name": "Billionbrains Garage Ventures Limited",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
   {
    "time": "2025-11-12",
@@ -2226,6 +2226,15 @@
    "close": 224.95,
    "volume": 38206011,
    "delivery_pct": 44.47
+  },
+  {
+   "time": "2026-11-16",
+   "open": 226.0,
+   "high": 227.3,
+   "low": 222.34,
+   "close": 224.92,
+   "volume": 14985636,
+   "delivery_pct": 53.17
   }
  ],
  "ma": {
@@ -3141,6 +3150,10 @@
    {
     "time": "2026-11-13",
     "value": 200.79
+   },
+   {
+    "time": "2026-11-16",
+    "value": 202.41
    }
   ],
   "sma_50": [
@@ -3935,6 +3948,10 @@
    {
     "time": "2026-11-13",
     "value": 194.82
+   },
+   {
+    "time": "2026-11-16",
+    "value": 195.48
    }
   ],
   "sma_200": [
@@ -4129,15 +4146,19 @@
    {
     "time": "2026-11-13",
     "value": 188.88
+   },
+   {
+    "time": "2026-11-16",
+    "value": 189.22
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.15,
-  "atr_pct": 3.29,
-  "rel_volume_20d": 1.3,
-  "dist_20dma_pct": 12.03,
-  "dist_50dma_pct": 15.47,
-  "dist_200dma_pct": 19.1
+  "rsi_14": 74.1,
+  "atr_pct": 3.21,
+  "rel_volume_20d": 0.49,
+  "dist_20dma_pct": 11.12,
+  "dist_50dma_pct": 15.06,
+  "dist_200dma_pct": 18.87
  }
 }

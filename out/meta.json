@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T18:18:50+05:30",
+ "generated_at": "2026-11-16T19:42:16+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -28,7 +28,7 @@
    "phantom_sessions_dropped": [],
    "symbols": 3136,
    "sessions": 252,
-   "rows": 674076
+   "rows": 674607
   },
   "tiles": {
    "ok": 4,
@@ -52,8 +52,8 @@
   },
   "screener": {
    "ok": true,
-   "symbols_scanned": 2825,
-   "symbols_matched": 379
+   "symbols_scanned": 2838,
+   "symbols_matched": 305
   },
   "sectors": {
    "ok": true,
@@ -63,17 +63,17 @@
   },
   "daily_scan": {
    "ok": true,
-   "rated": 2336,
+   "rated": 2338,
    "trend_template": 12,
    "ready": 1,
-   "delivery_spikes": 3,
-   "pocket_pivots": 2
+   "delivery_spikes": 0,
+   "pocket_pivots": 0
   },
   "ipos": {
    "ok": false,
-   "issues": 281,
+   "issues": 277,
    "charted": 0,
-   "sme_skipped": 281,
+   "sme_skipped": 277,
    "with_base": 0
   },
   "indices": {
@@ -83,16 +83,16 @@
   },
   "charts": {
    "ok": true,
-   "count": 408
+   "count": 335
   },
   "fundamentals": {
    "ok": true,
-   "symbols": 385,
-   "written": 256
+   "symbols": 312,
+   "written": 207
   },
   "quotes": {
    "ok": true,
-   "count": 2984
+   "count": 2998
   },
   "alerts": {
    "ok": false,
@@ -101,50 +101,46 @@
   },
   "news": {
    "ok": true,
-   "fetched": 115,
-   "classified": 55,
+   "fetched": 73,
+   "classified": 73,
    "gemini_configured": true
   },
   "institutional": {
    "ok": true,
-   "deals": 136,
+   "deals": 162,
    "participant_oi_sessions": 30,
    "ai_money_flow": true
   },
   "fno": {
    "ok": false,
-   "symbols": 385,
+   "symbols": 312,
    "written": 0
   },
   "depth": {
    "ok": false,
-   "symbols": 385,
+   "symbols": 312,
    "written": 0
   },
   "ai_insights": {
    "ok": true,
-   "universe": 385,
+   "universe": 312,
    "scoped": 150,
-   "eligible": 149,
-   "written": 149,
+   "eligible": 150,
+   "written": 150,
    "gemini_calls": 10
   },
   "ai_top_picks": {
    "ok": true,
    "source": "ai",
-   "eligible": 15,
+   "eligible": 17,
    "picks": 5
-  },
-  "weekly_outlook": {
-   "ok": true,
-   "memory_used": true
   },
   "results_calendar": {
    "ok": true,
-   "upcoming": 0,
-   "past_candidates": 0,
-   "judged": 0,
-   "good": 0
+   "upcoming": 10,
+   "past_candidates": 2350,
+   "judged": 1553,
+   "good": 197
   }
  }
 }

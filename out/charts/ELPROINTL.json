@@ -2,7 +2,7 @@
  "symbol": "ELPROINTL",
  "name": "Elpro International Limited",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1281,6 +1281,15 @@
    "close": 178.16,
    "volume": 129046,
    "delivery_pct": 57.32
+  },
+  {
+   "time": "2026-11-16",
+   "open": 178.05,
+   "high": 180.0,
+   "low": 175.0,
+   "close": 178.04,
+   "volume": 124486,
+   "delivery_pct": 53.7
   }
  ],
  "ma": {
@@ -1776,6 +1785,10 @@
    {
     "time": "2026-11-13",
     "value": 169.47
+   },
+   {
+    "time": "2026-11-16",
+    "value": 169.72
    }
   ],
   "sma_50": [
@@ -2150,15 +2163,19 @@
    {
     "time": "2026-11-13",
     "value": 171.83
+   },
+   {
+    "time": "2026-11-16",
+    "value": 171.91
    }
   ]
  },
  "technicals": {
-  "rsi_14": 63.49,
-  "atr_pct": 2.66,
-  "rel_volume_20d": 9.43,
-  "dist_20dma_pct": 5.13,
-  "dist_50dma_pct": 3.68,
+  "rsi_14": 63.2,
+  "atr_pct": 2.67,
+  "rel_volume_20d": 6.31,
+  "dist_20dma_pct": 4.9,
+  "dist_50dma_pct": 3.56,
   "dist_200dma_pct": null
  }
 }

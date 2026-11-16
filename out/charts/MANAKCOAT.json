@@ -2,17 +2,8 @@
  "symbol": "MANAKCOAT",
  "name": "Manaksia Coated Metals & Industries Limited",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
-  {
-   "time": "2025-11-06",
-   "open": 156.89,
-   "high": 156.89,
-   "low": 143.2,
-   "close": 144.25,
-   "volume": 1470524,
-   "delivery_pct": 41.16
-  },
   {
    "time": "2025-11-07",
    "open": 144.25,
@@ -2262,14 +2253,19 @@
    "close": 171.76,
    "volume": 4570564,
    "delivery_pct": 45.99
+  },
+  {
+   "time": "2026-11-16",
+   "open": 171.1,
+   "high": 175.5,
+   "low": 169.57,
+   "close": 170.95,
+   "volume": 2637614,
+   "delivery_pct": 30.47
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-03",
-    "value": 140.91
-   },
    {
     "time": "2025-12-04",
     "value": 140.71
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-13",
     "value": 141.62
+   },
+   {
+    "time": "2026-11-16",
+    "value": 143.68
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-16",
-    "value": 136.08
-   },
    {
     "time": "2026-01-19",
     "value": 135.82
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-13",
     "value": 132.63
+   },
+   {
+    "time": "2026-11-16",
+    "value": 133.6
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-27",
-    "value": 119.85
-   },
    {
     "time": "2026-08-28",
     "value": 119.74
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-13",
     "value": 118.94
+   },
+   {
+    "time": "2026-11-16",
+    "value": 119.16
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.09,
-  "atr_pct": 5.32,
-  "rel_volume_20d": 3.73,
-  "dist_20dma_pct": 21.29,
-  "dist_50dma_pct": 29.5,
-  "dist_200dma_pct": 44.41
+  "rsi_14": 71.18,
+  "atr_pct": 5.21,
+  "rel_volume_20d": 1.82,
+  "dist_20dma_pct": 18.98,
+  "dist_50dma_pct": 27.95,
+  "dist_200dma_pct": 43.46
  }
 }

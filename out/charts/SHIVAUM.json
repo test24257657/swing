@@ -2,7 +2,7 @@
  "symbol": "SHIVAUM",
  "name": "Shiv Aum Steels Limited",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
   {
    "time": "2025-11-14",
@@ -2046,6 +2046,15 @@
    "close": 552.7,
    "volume": 896,
    "delivery_pct": 56.92
+  },
+  {
+   "time": "2026-11-16",
+   "open": 563.75,
+   "high": 564.2,
+   "low": 552.0,
+   "close": 554.5,
+   "volume": 98025,
+   "delivery_pct": 74.97
   }
  ],
  "ma": {
@@ -2881,6 +2890,10 @@
    {
     "time": "2026-11-13",
     "value": 546.29
+   },
+   {
+    "time": "2026-11-16",
+    "value": 546.47
    }
   ],
   "sma_50": [
@@ -3595,6 +3608,10 @@
    {
     "time": "2026-11-13",
     "value": 518.87
+   },
+   {
+    "time": "2026-11-16",
+    "value": 521.04
    }
   ],
   "sma_200": [
@@ -3709,15 +3726,19 @@
    {
     "time": "2026-11-13",
     "value": 395.37
+   },
+   {
+    "time": "2026-11-16",
+    "value": 396.65
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.74,
-  "atr_pct": 3.41,
-  "rel_volume_20d": 0.02,
-  "dist_20dma_pct": 1.17,
-  "dist_50dma_pct": 6.52,
-  "dist_200dma_pct": 39.79
+  "rsi_14": 63.99,
+  "atr_pct": 3.31,
+  "rel_volume_20d": 1.66,
+  "dist_20dma_pct": 1.47,
+  "dist_50dma_pct": 6.42,
+  "dist_200dma_pct": 39.8
  }
 }

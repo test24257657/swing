@@ -2,7 +2,7 @@
  "symbol": "BNKETFAXIS",
  "name": "BNKETFAXIS",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
   {
    "time": "2026-07-03",
@@ -813,6 +813,15 @@
    "close": 627.6,
    "volume": 1555,
    "delivery_pct": 80.32
+  },
+  {
+   "time": "2026-11-16",
+   "open": 627.25,
+   "high": 637.22,
+   "low": 627.25,
+   "close": 633.15,
+   "volume": 3390,
+   "delivery_pct": 93.07
   }
  ],
  "ma": {
@@ -1100,6 +1109,10 @@
    {
     "time": "2026-11-13",
     "value": 580.59
+   },
+   {
+    "time": "2026-11-16",
+    "value": 583.64
    }
   ],
   "sma_50": [
@@ -1266,15 +1279,19 @@
    {
     "time": "2026-11-13",
     "value": 578.98
+   },
+   {
+    "time": "2026-11-16",
+    "value": 579.76
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.77,
-  "atr_pct": 1.54,
-  "rel_volume_20d": 0.52,
-  "dist_20dma_pct": 8.1,
-  "dist_50dma_pct": 8.4,
+  "rsi_14": 76.32,
+  "atr_pct": 1.53,
+  "rel_volume_20d": 1.12,
+  "dist_20dma_pct": 8.48,
+  "dist_50dma_pct": 9.21,
   "dist_200dma_pct": null
  }
 }

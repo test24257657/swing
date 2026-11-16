@@ -2,7 +2,7 @@
  "symbol": "BPLPHARMA",
  "name": "Bharat Parenterals Limited",
  "kind": "stock",
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "bars": [
   {
    "time": "2026-08-17",
@@ -543,6 +543,15 @@
    "close": 2120.7,
    "volume": 52762,
    "delivery_pct": 31.95
+  },
+  {
+   "time": "2026-11-16",
+   "open": 2189.0,
+   "high": 2275.0,
+   "low": 2059.2,
+   "close": 2213.6,
+   "volume": 24292,
+   "delivery_pct": 44.14
   }
  ],
  "ma": {
@@ -710,6 +719,10 @@
    {
     "time": "2026-11-13",
     "value": 1859.29
+   },
+   {
+    "time": "2026-11-16",
+    "value": 1874.99
    }
   ],
   "sma_50": [
@@ -756,15 +769,19 @@
    {
     "time": "2026-11-13",
     "value": 1745.1
+   },
+   {
+    "time": "2026-11-16",
+    "value": 1758.77
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.1,
-  "atr_pct": 6.41,
-  "rel_volume_20d": 3.66,
-  "dist_20dma_pct": 14.06,
-  "dist_50dma_pct": 21.52,
+  "rsi_14": 69.34,
+  "atr_pct": 6.4,
+  "rel_volume_20d": 1.44,
+  "dist_20dma_pct": 18.06,
+  "dist_50dma_pct": 25.86,
   "dist_200dma_pct": null
  }
 }
