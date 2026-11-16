@@ -1,127 +1,133 @@
 {
- "generated_at": "2026-11-13T08:15:55+05:30",
- "for_session": "2026-11-13",
+ "generated_at": "2026-11-16T08:15:59+05:30",
+ "for_session": "2026-11-16",
  "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7592.4,
-   "change_pct": -0.35,
-   "as_of": "2026-11-12"
+   "value": 7561.67,
+   "change_pct": -0.4,
+   "as_of": "2026-11-13"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 25366.09,
-   "change_pct": -0.39,
-   "as_of": "2026-11-12"
+   "value": 25136.27,
+   "change_pct": -0.91,
+   "as_of": "2026-11-13"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 52297.09,
-   "change_pct": -0.36,
-   "as_of": "2026-11-12"
+   "value": 52347.55,
+   "change_pct": 0.1,
+   "as_of": "2026-11-13"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 61816.72,
-   "change_pct": 1.64,
-   "as_of": "2026-11-13"
+   "value": 60182.5,
+   "change_pct": -1.57,
+   "as_of": "2026-11-16"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 23860.6,
-   "change_pct": -0.62,
-   "as_of": "2026-11-13"
+   "value": 23832.11,
+   "change_pct": 0.82,
+   "as_of": "2026-11-16"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5409.5,
-   "change_pct": 1.25,
-   "as_of": "2026-11-13"
+   "value": 5188.41,
+   "change_pct": -1.93,
+   "as_of": "2026-11-16"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 96.0,
-   "change_pct": 3.49,
-   "as_of": "2026-11-12"
+   "value": 95.12,
+   "change_pct": -0.75,
+   "as_of": "2026-11-15"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 3915.2,
-   "change_pct": -2.13,
-   "as_of": "2026-11-12"
+   "value": 3882.5,
+   "change_pct": -0.1,
+   "as_of": "2026-11-15"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 94.03,
-   "change_pct": 0.36,
-   "as_of": "2026-11-13"
+   "value": 94.23,
+   "change_pct": 0.21,
+   "as_of": "2026-11-16"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.1,
-   "change_pct": 2.1,
-   "as_of": "2026-11-12"
+   "value": 5.15,
+   "change_pct": 1.0,
+   "as_of": "2026-11-13"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 103.17,
-   "change_pct": 0.25,
-   "as_of": "2026-11-12"
+   "value": 103.43,
+   "change_pct": 0.02,
+   "as_of": "2026-11-15"
   }
  ],
  "global_tone": {
-  "tone": "mixed",
-  "avg_change_pct": 0.31,
-  "crude_alert": true
+  "tone": "negative",
+  "avg_change_pct": -0.8,
+  "crude_alert": false
  },
  "nifty": {
-  "session": "2026-11-12",
-  "close": 25299.35,
-  "high": 25384.8,
-  "low": 25142.95,
-  "pivot": 25275.7,
-  "r1": 25408.45,
-  "s1": 25166.6,
-  "r2": 25517.55,
-  "s2": 25033.85,
-  "sma_20": 23634.39,
-  "sma_50": 23328.63,
-  "sma_200": 23989.31
+  "session": "2026-11-13",
+  "close": 25144.3,
+  "high": 25246.35,
+  "low": 25054.4,
+  "pivot": 25148.35,
+  "r1": 25242.3,
+  "s1": 25050.35,
+  "r2": 25340.3,
+  "s2": 24956.4,
+  "sma_20": 23741.73,
+  "sma_50": 23350.4,
+  "sma_200": 23988.58
  },
  "focus": [
   {
    "symbol": "ACUTAAS",
    "name": "Acutaas Chemicals Limited",
    "why": "Ready setup near its pivot",
-   "rs": 95
+   "rs": 96
   },
   {
-   "symbol": "ADANIPORTS",
-   "name": "Adani Ports and Special Economic Zone Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 82
-  },
-  {
-   "symbol": "ESAFSFB",
-   "name": "ESAF Small Finance Bank Limited",
+   "symbol": "PETRONET",
+   "name": "Petronet LNG Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "FLUOROCHEM",
-   "name": "Gujarat Fluorochemicals Limited",
+   "symbol": "ABDL",
+   "name": "Allied Blenders and Distillers Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "APLAPOLLO",
+   "name": "APL Apollo Tubes Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "HLEGLAS",
+   "name": "HLE Glascoat Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -132,42 +138,84 @@
    "rs": null
   },
   {
-   "symbol": "BEML",
-   "name": "BEML Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "RPEL",
-   "name": "Raghav Productivity Enhancers Limited",
-   "why": "AI top 5",
-   "rs": null
+   "symbol": "ABB",
+   "name": "ABB India Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 74
   }
  ],
  "overnight_news": [
   {
-   "symbol": "TMPV",
-   "time": "12 Nov 17:01",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Tata Motors Passenger Vehicles Limited has informed the Exchange regarding Allotment of 52,771  Equity Shares.",
-   "url": "https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_12112026170143_NSEBSEESOP.pdf"
+   "symbol": "HINDALCO",
+   "time": "15 Nov 10:20",
+   "category": "Sale or disposal",
+   "text": "Intimation regarding cessation of Novelis (China) Aluminum Products Co. Ltd. and Novelis (Shanghai) Aluminum Trading Co. Ltd, wholly-owned subsidiaries of Novelis Inc. a subsidiary of Hindalco Industries Limited [\"Compan",
+   "url": "https://nsearchives.nseindia.in/corporate/HINDALCOIND_15112026101130_Cessation_of_WOS_signed.pdf"
   },
   {
-   "symbol": "HDFCLIFE",
-   "time": "12 Nov 16:16",
+   "symbol": "BEL",
+   "time": "13 Nov 18:31",
+   "category": "Bagging/Receiving of orders/contracts",
+   "text": "Bharat Electronics Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "url": "https://nsearchives.nseindia.in/corporate/BEL_13112026182841_Lettersigned.pdf"
+  },
+  {
+   "symbol": "ABB",
+   "time": "13 Nov 17:56",
+   "category": "Appointment",
+   "text": "ABB India Limited has informed the Exchange regarding Appointment of Mr. N V Sivakumar as Independent Director of the company w.e.f. January 01, 2027.",
+   "url": "https://nsearchives.nseindia.in/corporate/ABB_13112026175554_Reg30disclosure13112026signed.pdf"
+  },
+  {
+   "symbol": "ABB",
+   "time": "13 Nov 17:50",
+   "category": "Outcome of Board Meeting",
+   "text": "ABB India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.in/corporate/ABB_13112026174803_Reg33QuartelryResultsQ32026signed.pdf"
+  },
+  {
+   "symbol": "EICHERMOT",
+   "time": "13 Nov 17:35",
    "category": "Allotment of Securities",
-   "text": "HDFC Life Insurance Company Limited has informed the Exchange regarding allotment of 125977 securities pursuant to ESOP on November 12, 2026",
-   "url": "https://nsearchives.nseindia.com/corporate/HDFCLIFE2_12112026161453_SE_Intimation_-_ESOP_Allotment.pdf"
+   "text": "Eicher Motors Limited has informed the Exchange regarding allotment of 25910 securities pursuant to ESOP/ESPS at its meeting held on November 13, 2026",
+   "url": "https://nsearchives.nseindia.in/corporate/EICHERMOT_13112026173547_EMLIntimation_of_AllotmentNovember_132026Signed.pdf"
+  },
+  {
+   "symbol": "EICHERMOT",
+   "time": "13 Nov 16:51",
+   "category": "Outcome of Board Meeting",
+   "text": "Eicher Motors Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.in/corporate/EICHERMOT_13112026165043_EMLOutcomeofBM13112026SignedResults.pdf"
+  },
+  {
+   "symbol": "HDFCBANK",
+   "time": "13 Nov 16:35",
+   "category": "Change in Director(s)",
+   "text": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_13112026163422_SE_Intimation-_VSR.pdf"
+  },
+  {
+   "symbol": "TMPV",
+   "time": "13 Nov 16:12",
+   "category": "Outcome of Board Meeting",
+   "text": "Tata Motors Passenger Vehicles Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "url": "https://nsearchives.nseindia.in/corporate/TATAMOTORSSJS_13112026161123_NSEBSEOutcome.pdf"
   }
  ],
- "events": [
-  "243 companies report results today."
- ],
+ "events": [],
  "checklist": [
   "Market light is YELLOW — only A+ setups, half size.",
-  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
+  "Weak global cues — let the first 15-30 minutes settle before acting.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
- "ai": null
+ "ai": {
+  "headline": "Weak Global Tone Signals Cautious Indian Market Opening Today",
+  "points": [
+   "Global sentiment is weak as Nikkei fell -1.57% and the US 10Y yield reached 5.15.",
+   "Nifty closed at 25144.3, with immediate support at 25050.35 and resistance at 25242.3.",
+   "In macro indicators, USD/INR rose +0.21% to 94.23, while Brent crude dropped -0.75% to 95.12.",
+   "Track stock-specific news like EICHERMOT after its allotment of 25910 securities."
+  ]
+ }
 }
