@@ -1,0 +1,142 @@
+{
+ "symbol": "CUB",
+ "buildup": {
+  "label": "neutral",
+  "note": "No clear buildup \u2014 price and open interest are both roughly flat.",
+  "expiry": "2026-11-23",
+  "price_chg_pct": 0.03,
+  "oi_chg_pct": 1.03,
+  "open_interest": 6582075,
+  "close": 232.59
+ },
+ "option_chain": {
+  "expiry": "23-Nov-2026",
+  "underlying_value": 233.2,
+  "rows": [
+   {
+    "strike": 185,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 2,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 190,
+    "call_oi": 3,
+    "call_oi_chg": 0,
+    "put_oi": 15,
+    "put_oi_chg": 1
+   },
+   {
+    "strike": 195,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 11,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 200,
+    "call_oi": 12,
+    "call_oi_chg": 0,
+    "put_oi": 113,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 205,
+    "call_oi": 3,
+    "call_oi_chg": 0,
+    "put_oi": 69,
+    "put_oi_chg": -3
+   },
+   {
+    "strike": 210,
+    "call_oi": 24,
+    "call_oi_chg": 0,
+    "put_oi": 129,
+    "put_oi_chg": -5
+   },
+   {
+    "strike": 215,
+    "call_oi": 39,
+    "call_oi_chg": 0,
+    "put_oi": 79,
+    "put_oi_chg": -1
+   },
+   {
+    "strike": 220,
+    "call_oi": 107,
+    "call_oi_chg": -1,
+    "put_oi": 106,
+    "put_oi_chg": -12
+   },
+   {
+    "strike": 225,
+    "call_oi": 60,
+    "call_oi_chg": -4,
+    "put_oi": 95,
+    "put_oi_chg": 9
+   },
+   {
+    "strike": 230,
+    "call_oi": 187,
+    "call_oi_chg": -20,
+    "put_oi": 129,
+    "put_oi_chg": 13
+   },
+   {
+    "strike": 235,
+    "call_oi": 231,
+    "call_oi_chg": 14,
+    "put_oi": 65,
+    "put_oi_chg": 13
+   },
+   {
+    "strike": 240,
+    "call_oi": 406,
+    "call_oi_chg": 61,
+    "put_oi": 45,
+    "put_oi_chg": -2
+   },
+   {
+    "strike": 245,
+    "call_oi": 77,
+    "call_oi_chg": 13,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 250,
+    "call_oi": 251,
+    "call_oi_chg": 20,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 255,
+    "call_oi": 65,
+    "call_oi_chg": -11,
+    "put_oi": 3,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 260,
+    "call_oi": 185,
+    "call_oi_chg": 27,
+    "put_oi": 7,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 270,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   }
+  ],
+  "pcr": 0.54,
+  "total_call_oi": 1650,
+  "total_put_oi": 886,
+  "max_call_oi_strike": 240,
+  "max_put_oi_strike": 210
+ }
+}

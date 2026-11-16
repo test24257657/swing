@@ -2,21 +2,12 @@
  "symbol": "PTL",
  "quarters": [
   {
-   "label": "Q2 FY26",
-   "period_end": "2025-09-30",
-   "revenue_cr": 16.1,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 14.8,
-   "net_income_qoq_pct": null,
-   "eps": 1.12
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 16.1,
-   "revenue_qoq_pct": 0.0,
+   "revenue_qoq_pct": null,
    "net_income_cr": 8.9,
-   "net_income_qoq_pct": -39.9,
+   "net_income_qoq_pct": null,
    "eps": 0.67
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 8.8,
    "net_income_qoq_pct": -33.3,
    "eps": 0.66
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 16.1,
+   "revenue_qoq_pct": 0.0,
+   "net_income_cr": 10.8,
+   "net_income_qoq_pct": 22.7,
+   "eps": 0.82
   }
  ],
  "verification": null
