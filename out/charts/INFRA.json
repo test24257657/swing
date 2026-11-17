@@ -2,7 +2,7 @@
  "symbol": "INFRA",
  "name": "INFRA",
  "kind": "stock",
- "as_of": "2026-11-16",
+ "as_of": "2026-11-17",
  "bars": [
   {
    "time": "2026-02-18",
@@ -1632,6 +1632,15 @@
    "close": 11.85,
    "volume": 31520,
    "delivery_pct": 88.46
+  },
+  {
+   "time": "2026-11-17",
+   "open": 11.9,
+   "high": 11.94,
+   "low": 11.85,
+   "close": 11.88,
+   "volume": 35148,
+   "delivery_pct": 55.69
   }
  ],
  "ma": {
@@ -2283,6 +2292,10 @@
    {
     "time": "2026-11-16",
     "value": 11.39
+   },
+   {
+    "time": "2026-11-17",
+    "value": 11.42
    }
   ],
   "sma_50": [
@@ -2813,15 +2826,19 @@
    {
     "time": "2026-11-16",
     "value": 11.56
+   },
+   {
+    "time": "2026-11-17",
+    "value": 11.56
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.25,
-  "atr_pct": 1.75,
-  "rel_volume_20d": 0.87,
-  "dist_20dma_pct": 4.05,
-  "dist_50dma_pct": 2.54,
+  "rsi_14": 63.12,
+  "atr_pct": 1.68,
+  "rel_volume_20d": 0.96,
+  "dist_20dma_pct": 4.06,
+  "dist_50dma_pct": 2.81,
   "dist_200dma_pct": null
  }
 }

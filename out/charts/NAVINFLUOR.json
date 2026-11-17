@@ -2,17 +2,8 @@
  "symbol": "NAVINFLUOR",
  "name": "Navin Fluorine International Limited",
  "kind": "stock",
- "as_of": "2026-11-16",
+ "as_of": "2026-11-17",
  "bars": [
-  {
-   "time": "2025-11-07",
-   "open": 6039.5,
-   "high": 6120.0,
-   "low": 5952.0,
-   "close": 5969.0,
-   "volume": 324340,
-   "delivery_pct": 57.73
-  },
   {
    "time": "2025-11-10",
    "open": 5950.0,
@@ -2262,14 +2253,19 @@
    "close": 9890.0,
    "volume": 228096,
    "delivery_pct": 53.65
+  },
+  {
+   "time": "2026-11-17",
+   "open": 9819.0,
+   "high": 9950.0,
+   "low": 9756.0,
+   "close": 9815.0,
+   "volume": 101531,
+   "delivery_pct": 49.12
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-04",
-    "value": 5906.35
-   },
    {
     "time": "2025-12-05",
     "value": 5896.5
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-16",
     "value": 8637.75
+   },
+   {
+    "time": "2026-11-17",
+    "value": 8716.12
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-19",
-    "value": 5909.31
-   },
    {
     "time": "2026-01-20",
     "value": 5908.7
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-16",
     "value": 8535.41
+   },
+   {
+    "time": "2026-11-17",
+    "value": 8558.99
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-28",
-    "value": 6706.52
-   },
    {
     "time": "2026-08-31",
     "value": 6720.05
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-16",
     "value": 7376.73
+   },
+   {
+    "time": "2026-11-17",
+    "value": 7396.79
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.35,
-  "atr_pct": 3.23,
-  "rel_volume_20d": 1.04,
-  "dist_20dma_pct": 14.5,
-  "dist_50dma_pct": 15.87,
-  "dist_200dma_pct": 34.07
+  "rsi_14": 69.31,
+  "atr_pct": 3.17,
+  "rel_volume_20d": 0.45,
+  "dist_20dma_pct": 12.61,
+  "dist_50dma_pct": 14.67,
+  "dist_200dma_pct": 32.69
  }
 }

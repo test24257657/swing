@@ -2,7 +2,7 @@
  "symbol": "SHRADDHA",
  "name": "Shraddha Prime Projects Limited",
  "kind": "stock",
- "as_of": "2026-11-16",
+ "as_of": "2026-11-17",
  "bars": [
   {
    "time": "2026-08-17",
@@ -552,6 +552,15 @@
    "close": 168.8,
    "volume": 94674,
    "delivery_pct": 76.78
+  },
+  {
+   "time": "2026-11-17",
+   "open": 171.5,
+   "high": 171.5,
+   "low": 165.0,
+   "close": 168.2,
+   "volume": 105167,
+   "delivery_pct": 57.26
   }
  ],
  "ma": {
@@ -723,6 +732,10 @@
    {
     "time": "2026-11-16",
     "value": 161.83
+   },
+   {
+    "time": "2026-11-17",
+    "value": 161.97
    }
   ],
   "sma_50": [
@@ -773,15 +786,19 @@
    {
     "time": "2026-11-16",
     "value": 157.71
+   },
+   {
+    "time": "2026-11-17",
+    "value": 157.86
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.17,
-  "atr_pct": 4.8,
-  "rel_volume_20d": 4.94,
-  "dist_20dma_pct": 4.31,
-  "dist_50dma_pct": 7.03,
+  "rsi_14": 59.22,
+  "atr_pct": 4.74,
+  "rel_volume_20d": 4.82,
+  "dist_20dma_pct": 3.85,
+  "dist_50dma_pct": 6.55,
   "dist_200dma_pct": null
  }
 }

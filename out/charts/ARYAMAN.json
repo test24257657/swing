@@ -2,7 +2,7 @@
  "symbol": "ARYAMAN",
  "name": "Aryaman Financial Services Limited",
  "kind": "stock",
- "as_of": "2026-11-16",
+ "as_of": "2026-11-17",
  "bars": [
   {
    "time": "2026-08-17",
@@ -543,6 +543,15 @@
    "close": 874.25,
    "volume": 24770,
    "delivery_pct": 30.49
+  },
+  {
+   "time": "2026-11-17",
+   "open": 879.85,
+   "high": 921.0,
+   "low": 850.0,
+   "close": 852.45,
+   "volume": 50053,
+   "delivery_pct": 93.71
   }
  ],
  "ma": {
@@ -710,6 +719,10 @@
    {
     "time": "2026-11-16",
     "value": 670.46
+   },
+   {
+    "time": "2026-11-17",
+    "value": 681.71
    }
   ],
   "sma_50": [
@@ -756,15 +769,19 @@
    {
     "time": "2026-11-16",
     "value": 642.63
+   },
+   {
+    "time": "2026-11-17",
+    "value": 646.68
    }
   ]
  },
  "technicals": {
-  "rsi_14": 88.26,
-  "atr_pct": 3.84,
-  "rel_volume_20d": 5.91,
-  "dist_20dma_pct": 30.4,
-  "dist_50dma_pct": 36.04,
+  "rsi_14": 81.38,
+  "atr_pct": 4.25,
+  "rel_volume_20d": 9.22,
+  "dist_20dma_pct": 25.05,
+  "dist_50dma_pct": 31.82,
   "dist_200dma_pct": null
  }
 }

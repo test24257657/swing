@@ -2,7 +2,7 @@
  "symbol": "PML",
  "name": "Paul Merchants Limited",
  "kind": "stock",
- "as_of": "2026-11-16",
+ "as_of": "2026-11-17",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1290,6 +1290,15 @@
    "close": 505.4,
    "volume": 4765,
    "delivery_pct": 92.34
+  },
+  {
+   "time": "2026-11-17",
+   "open": 511.95,
+   "high": 511.95,
+   "low": 486.4,
+   "close": 498.3,
+   "volume": 140,
+   "delivery_pct": 85.0
   }
  ],
  "ma": {
@@ -1789,6 +1798,10 @@
    {
     "time": "2026-11-16",
     "value": 466.09
+   },
+   {
+    "time": "2026-11-17",
+    "value": 467.77
    }
   ],
   "sma_50": [
@@ -2167,15 +2180,19 @@
    {
     "time": "2026-11-16",
     "value": 477.06
+   },
+   {
+    "time": "2026-11-17",
+    "value": 477.19
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.64,
-  "atr_pct": 6.44,
-  "rel_volume_20d": 11.83,
-  "dist_20dma_pct": 8.43,
-  "dist_50dma_pct": 5.94,
+  "rsi_14": 55.8,
+  "atr_pct": 6.43,
+  "rel_volume_20d": 0.22,
+  "dist_20dma_pct": 6.53,
+  "dist_50dma_pct": 4.42,
   "dist_200dma_pct": null
  }
 }

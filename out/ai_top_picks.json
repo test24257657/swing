@@ -1,153 +1,37 @@
 {
- "as_of": "2026-11-16",
- "source": "ai",
- "universe": 312,
- "eligible": 16,
+ "as_of": "2026-11-17",
+ "source": "rules",
+ "universe": 313,
+ "eligible": 1,
  "picks": [
   {
-   "symbol": "NRL",
-   "ltp": 176.43,
+   "symbol": "APOLLO",
+   "ltp": 458.35,
    "technicals": {
-    "rsi_14": 69.5,
-    "rel_volume_20d": 3.97,
-    "dist_20dma_pct": 6.59,
-    "dist_50dma_pct": 14.27,
-    "dist_200dma_pct": 89.24
+    "rsi_14": 58.64,
+    "rel_volume_20d": 0.65,
+    "dist_20dma_pct": 8.29,
+    "dist_50dma_pct": 12.01,
+    "dist_200dma_pct": 33.58
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 172.09,
-    "stop_suggestion": 152.0,
-    "target_suggestion": 206.51,
-    "gap_to_pivot_pct": 2.52
+    "stage": "confirmed",
+    "pivot_price": 454.15,
+    "stop_suggestion": 389.0,
+    "target_suggestion": 544.98,
+    "gap_to_pivot_pct": 0.92
    },
    "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 79.3,
-    "net_income_cr": 6.5,
-    "revenue_qoq_pct": 38.4,
-    "net_income_qoq_pct": 132.1
+    "quarter": "Q2 FY27",
+    "revenue_cr": 388.1,
+    "net_income_cr": 48.4,
+    "revenue_qoq_pct": 54.4,
+    "net_income_qoq_pct": 79.9
    },
-   "reason": "Forming a 52-week breakout with strong 3.97x average volume and RSI 69.5. Fundamentals back the move with net profit surging 132.1% QoQ to \u20b96.5 cr.",
+   "reason": null,
    "rank": 1,
-   "name": "Nupur Recyclers Limited"
-  },
-  {
-   "symbol": "ESAFSFB",
-   "ltp": 46.16,
-   "technicals": {
-    "rsi_14": 63.98,
-    "rel_volume_20d": 2.7,
-    "dist_20dma_pct": 9.38,
-    "dist_50dma_pct": 10.3,
-    "dist_200dma_pct": 38.6
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 44.71,
-    "stop_suggestion": 36.88,
-    "target_suggestion": 53.65,
-    "gap_to_pivot_pct": 3.24
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 856.6,
-    "net_income_cr": 160.2,
-    "revenue_qoq_pct": 2.9,
-    "net_income_qoq_pct": 100.0
-   },
-   "reason": "Confirmed a 52-week breakout with 2.7x average volume and RSI 63.98. Fundamental strength is solid with quarterly net profit growing 100.0% QoQ to \u20b9160.2 cr.",
-   "rank": 2,
-   "name": "ESAF Small Finance Bank Limited"
-  },
-  {
-   "symbol": "SGFIN",
-   "ltp": 740.25,
-   "technicals": {
-    "rsi_14": 63.14,
-    "rel_volume_20d": 3.22,
-    "dist_20dma_pct": 9.03,
-    "dist_50dma_pct": 12.03,
-    "dist_200dma_pct": 30.39
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 734.95,
-    "stop_suggestion": 600.55,
-    "target_suggestion": 881.94,
-    "gap_to_pivot_pct": 0.72
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 160.2,
-    "net_income_cr": 58.5,
-    "revenue_qoq_pct": 18.2,
-    "net_income_qoq_pct": 8.9
-   },
-   "reason": "Confirmed 52-week breakout holding 0.72% above pivot with strong 3.22x volume and RSI 63.14. Business growth supports the trade with revenue up 18.2% QoQ to \u20b9160.2 cr.",
-   "rank": 3,
-   "name": "SG Finserve Limited"
-  },
-  {
-   "symbol": "APLAPOLLO",
-   "ltp": 2250.2,
-   "technicals": {
-    "rsi_14": 60.43,
-    "rel_volume_20d": 2.49,
-    "dist_20dma_pct": 4.12,
-    "dist_50dma_pct": 3.83,
-    "dist_200dma_pct": 11.2
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 2270.1,
-    "stop_suggestion": 2160.47,
-    "target_suggestion": 2610.61,
-    "gap_to_pivot_pct": -0.88
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 6796.6,
-    "net_income_cr": 382.4,
-    "revenue_qoq_pct": 25.0,
-    "net_income_qoq_pct": 45.3
-   },
-   "reason": "Forming setup just -0.88% from pivot with heavy 2.49x average volume and RSI 60.43. Fundamentals are strong with net profit rising 45.3% QoQ to \u20b9382.4 cr.",
-   "rank": 4,
-   "name": "APL Apollo Tubes Limited"
-  },
-  {
-   "symbol": "ABDL",
-   "ltp": 784.25,
-   "technicals": {
-    "rsi_14": 71.13,
-    "rel_volume_20d": 1.72,
-    "dist_20dma_pct": 9.74,
-    "dist_50dma_pct": 14.05,
-    "dist_200dma_pct": 33.76
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 748.65,
-    "stop_suggestion": 654.0,
-    "target_suggestion": 898.38,
-    "gap_to_pivot_pct": 4.76
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 1147.8,
-    "net_income_cr": 71.5,
-    "revenue_qoq_pct": 17.3,
-    "net_income_qoq_pct": 45.3
-   },
-   "reason": "Confirmed 52-week breakout with healthy 1.72x volume and RSI 71.13. Earnings back the setup with quarterly revenue rising 17.3% QoQ to \u20b91147.8 cr.",
-   "rank": 5,
-   "name": "Allied Blenders and Distillers Limited"
+   "name": "Apollo Micro Systems Limited"
   }
  ]
 }

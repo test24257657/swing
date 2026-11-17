@@ -2,7 +2,7 @@
  "symbol": "NIFTYAXIS",
  "name": "NIFTYAXIS",
  "kind": "stock",
- "as_of": "2026-11-16",
+ "as_of": "2026-11-17",
  "bars": [
   {
    "time": "2026-07-03",
@@ -831,6 +831,15 @@
    "close": 279.48,
    "volume": 93468,
    "delivery_pct": 95.61
+  },
+  {
+   "time": "2026-11-17",
+   "open": 286.46,
+   "high": 286.46,
+   "low": 280.06,
+   "close": 281.03,
+   "volume": 121155,
+   "delivery_pct": 69.64
   }
  ],
  "ma": {
@@ -1126,6 +1135,10 @@
    {
     "time": "2026-11-16",
     "value": 262.14
+   },
+   {
+    "time": "2026-11-17",
+    "value": 263.47
    }
   ],
   "sma_50": [
@@ -1300,15 +1313,19 @@
    {
     "time": "2026-11-16",
     "value": 258.89
+   },
+   {
+    "time": "2026-11-17",
+    "value": 259.19
    }
   ]
  },
  "technicals": {
-  "rsi_14": 76.09,
-  "atr_pct": 2.67,
-  "rel_volume_20d": 1.06,
-  "dist_20dma_pct": 6.61,
-  "dist_50dma_pct": 7.95,
+  "rsi_14": 77.27,
+  "atr_pct": 2.64,
+  "rel_volume_20d": 1.37,
+  "dist_20dma_pct": 6.67,
+  "dist_50dma_pct": 8.43,
   "dist_200dma_pct": null
  }
 }

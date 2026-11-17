@@ -2,7 +2,7 @@
  "symbol": "MOBANK10",
  "name": "MOBANK10",
  "kind": "stock",
- "as_of": "2026-11-16",
+ "as_of": "2026-11-17",
  "bars": [
   {
    "time": "2026-04-10",
@@ -1335,6 +1335,15 @@
    "close": 18.48,
    "volume": 12205,
    "delivery_pct": 65.88
+  },
+  {
+   "time": "2026-11-17",
+   "open": 18.9,
+   "high": 18.9,
+   "low": 18.25,
+   "close": 18.77,
+   "volume": 113602,
+   "delivery_pct": 98.86
   }
  ],
  "ma": {
@@ -1854,6 +1863,10 @@
    {
     "time": "2026-11-16",
     "value": 16.96
+   },
+   {
+    "time": "2026-11-17",
+    "value": 17.06
    }
   ],
   "sma_50": [
@@ -2252,15 +2265,19 @@
    {
     "time": "2026-11-16",
     "value": 16.7
+   },
+   {
+    "time": "2026-11-17",
+    "value": 16.74
    }
   ]
  },
  "technicals": {
-  "rsi_14": 76.14,
-  "atr_pct": 2.13,
-  "rel_volume_20d": 0.8,
-  "dist_20dma_pct": 8.99,
-  "dist_50dma_pct": 10.64,
+  "rsi_14": 78.49,
+  "atr_pct": 2.19,
+  "rel_volume_20d": 7.5,
+  "dist_20dma_pct": 10.01,
+  "dist_50dma_pct": 12.12,
   "dist_200dma_pct": null
  }
 }

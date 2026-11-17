@@ -2,7 +2,7 @@
  "symbol": "JYOTIRES",
  "name": "Jyoti Resins & Adhesives Limited",
  "kind": "stock",
- "as_of": "2026-11-16",
+ "as_of": "2026-11-17",
  "bars": [
   {
    "time": "2026-08-17",
@@ -552,6 +552,15 @@
    "close": 901.85,
    "volume": 6043,
    "delivery_pct": 76.44
+  },
+  {
+   "time": "2026-11-17",
+   "open": 901.85,
+   "high": 974.95,
+   "low": 890.4,
+   "close": 954.65,
+   "volume": 51735,
+   "delivery_pct": 50.02
   }
  ],
  "ma": {
@@ -723,6 +732,10 @@
    {
     "time": "2026-11-16",
     "value": 861.31
+   },
+   {
+    "time": "2026-11-17",
+    "value": 866.77
    }
   ],
   "sma_50": [
@@ -773,15 +786,19 @@
    {
     "time": "2026-11-16",
     "value": 854.27
+   },
+   {
+    "time": "2026-11-17",
+    "value": 855.94
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.74,
-  "atr_pct": 3.65,
-  "rel_volume_20d": 0.69,
-  "dist_20dma_pct": 4.71,
-  "dist_50dma_pct": 5.57,
+  "rsi_14": 67.37,
+  "atr_pct": 3.84,
+  "rel_volume_20d": 5.89,
+  "dist_20dma_pct": 10.14,
+  "dist_50dma_pct": 11.53,
   "dist_200dma_pct": null
  }
 }
