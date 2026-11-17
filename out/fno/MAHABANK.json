@@ -1,0 +1,142 @@
+{
+ "symbol": "MAHABANK",
+ "buildup": {
+  "label": "long_buildup",
+  "note": "Fresh longs \u2014 price and open interest are both rising together.",
+  "expiry": "2026-11-23",
+  "price_chg_pct": 4.54,
+  "oi_chg_pct": 1.12,
+  "open_interest": 40371500,
+  "close": 96.03
+ },
+ "option_chain": {
+  "expiry": "23-Nov-2026",
+  "underlying_value": 95.99,
+  "rows": [
+   {
+    "strike": 86,
+    "call_oi": 73,
+    "call_oi_chg": 0,
+    "put_oi": 97,
+    "put_oi_chg": -27
+   },
+   {
+    "strike": 87,
+    "call_oi": 73,
+    "call_oi_chg": -15,
+    "put_oi": 135,
+    "put_oi_chg": 4
+   },
+   {
+    "strike": 88,
+    "call_oi": 636,
+    "call_oi_chg": 391,
+    "put_oi": 169,
+    "put_oi_chg": 62
+   },
+   {
+    "strike": 89,
+    "call_oi": 47,
+    "call_oi_chg": -5,
+    "put_oi": 64,
+    "put_oi_chg": 21
+   },
+   {
+    "strike": 90,
+    "call_oi": 304,
+    "call_oi_chg": -50,
+    "put_oi": 228,
+    "put_oi_chg": -9
+   },
+   {
+    "strike": 91,
+    "call_oi": 46,
+    "call_oi_chg": -12,
+    "put_oi": 58,
+    "put_oi_chg": 24
+   },
+   {
+    "strike": 92,
+    "call_oi": 132,
+    "call_oi_chg": -72,
+    "put_oi": 145,
+    "put_oi_chg": 104
+   },
+   {
+    "strike": 93,
+    "call_oi": 81,
+    "call_oi_chg": -14,
+    "put_oi": 126,
+    "put_oi_chg": 122
+   },
+   {
+    "strike": 94,
+    "call_oi": 76,
+    "call_oi_chg": 6,
+    "put_oi": 102,
+    "put_oi_chg": 102
+   },
+   {
+    "strike": 95,
+    "call_oi": 352,
+    "call_oi_chg": 120,
+    "put_oi": 186,
+    "put_oi_chg": 180
+   },
+   {
+    "strike": 96,
+    "call_oi": 376,
+    "call_oi_chg": 159,
+    "put_oi": 56,
+    "put_oi_chg": 44
+   },
+   {
+    "strike": 97,
+    "call_oi": 109,
+    "call_oi_chg": 78,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 98,
+    "call_oi": 288,
+    "call_oi_chg": 85,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 99,
+    "call_oi": 32,
+    "call_oi_chg": 32,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 100,
+    "call_oi": 338,
+    "call_oi_chg": 203,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 102,
+    "call_oi": 88,
+    "call_oi_chg": -7,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 104,
+    "call_oi": 137,
+    "call_oi_chg": 137,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   }
+  ],
+  "pcr": 0.71,
+  "total_call_oi": 4197,
+  "total_put_oi": 2987,
+  "max_call_oi_strike": 88,
+  "max_put_oi_strike": 80
+ }
+}
