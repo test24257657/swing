@@ -1,104 +1,104 @@
 {
- "generated_at": "2026-11-16T08:15:59+05:30",
- "for_session": "2026-11-16",
+ "generated_at": "2026-11-17T08:15:56+05:30",
+ "for_session": "2026-11-17",
  "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7561.67,
-   "change_pct": -0.4,
-   "as_of": "2026-11-13"
+   "value": 7416.59,
+   "change_pct": -1.92,
+   "as_of": "2026-11-16"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 25136.27,
-   "change_pct": -0.91,
-   "as_of": "2026-11-13"
+   "value": 24509.76,
+   "change_pct": -2.49,
+   "as_of": "2026-11-16"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 52347.55,
-   "change_pct": 0.1,
-   "as_of": "2026-11-13"
+   "value": 51608.17,
+   "change_pct": -1.41,
+   "as_of": "2026-11-16"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 60182.5,
-   "change_pct": -1.57,
-   "as_of": "2026-11-16"
+   "value": 58956.67,
+   "change_pct": -1.18,
+   "as_of": "2026-11-17"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 23832.11,
-   "change_pct": 0.82,
-   "as_of": "2026-11-16"
+   "value": 23493.87,
+   "change_pct": -1.09,
+   "as_of": "2026-11-17"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5188.41,
-   "change_pct": -1.93,
-   "as_of": "2026-11-16"
+   "value": 5023.7,
+   "change_pct": -1.51,
+   "as_of": "2026-11-17"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 95.12,
-   "change_pct": -0.75,
-   "as_of": "2026-11-15"
+   "value": 91.37,
+   "change_pct": -4.66,
+   "as_of": "2026-11-16"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 3882.5,
-   "change_pct": -0.1,
-   "as_of": "2026-11-15"
+   "value": 3865.1,
+   "change_pct": -0.55,
+   "as_of": "2026-11-16"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 94.23,
-   "change_pct": 0.21,
-   "as_of": "2026-11-16"
+   "value": 93.91,
+   "change_pct": -0.35,
+   "as_of": "2026-11-17"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.15,
-   "change_pct": 1.0,
-   "as_of": "2026-11-13"
+   "value": 5.12,
+   "change_pct": -0.64,
+   "as_of": "2026-11-16"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 103.43,
-   "change_pct": 0.02,
-   "as_of": "2026-11-15"
+   "value": 103.6,
+   "change_pct": 0.18,
+   "as_of": "2026-11-16"
   }
  ],
  "global_tone": {
   "tone": "negative",
-  "avg_change_pct": -0.8,
-  "crude_alert": false
+  "avg_change_pct": -1.64,
+  "crude_alert": true
  },
  "nifty": {
-  "session": "2026-11-13",
-  "close": 25144.3,
-  "high": 25246.35,
-  "low": 25054.4,
-  "pivot": 25148.35,
-  "r1": 25242.3,
-  "s1": 25050.35,
-  "r2": 25340.3,
-  "s2": 24956.4,
-  "sma_20": 23741.73,
-  "sma_50": 23350.4,
-  "sma_200": 23988.58
+  "session": "2026-11-16",
+  "close": 25291.1,
+  "high": 25337.6,
+  "low": 25172.1,
+  "pivot": 25266.93,
+  "r1": 25361.77,
+  "s1": 25196.27,
+  "r2": 25432.43,
+  "s2": 25101.43,
+  "sma_20": 23848.98,
+  "sma_50": 23377.94,
+  "sma_200": 23989.79
  },
  "focus": [
   {
@@ -108,14 +108,20 @@
    "rs": 96
   },
   {
-   "symbol": "PETRONET",
-   "name": "Petronet LNG Limited",
+   "symbol": "NRL",
+   "name": "Nupur Recyclers Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "ABDL",
-   "name": "Allied Blenders and Distillers Limited",
+   "symbol": "ESAFSFB",
+   "name": "ESAF Small Finance Bank Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "SGFIN",
+   "name": "SG Finserve Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -126,96 +132,60 @@
    "rs": null
   },
   {
-   "symbol": "HLEGLAS",
-   "name": "HLE Glascoat Limited",
+   "symbol": "ABDL",
+   "name": "Allied Blenders and Distillers Limited",
    "why": "AI top 5",
    "rs": null
-  },
-  {
-   "symbol": "MOTHERSON",
-   "name": "Samvardhana Motherson International Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "ABB",
-   "name": "ABB India Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 74
   }
  ],
  "overnight_news": [
   {
-   "symbol": "HINDALCO",
-   "time": "15 Nov 10:20",
-   "category": "Sale or disposal",
-   "text": "Intimation regarding cessation of Novelis (China) Aluminum Products Co. Ltd. and Novelis (Shanghai) Aluminum Trading Co. Ltd, wholly-owned subsidiaries of Novelis Inc. a subsidiary of Hindalco Industries Limited [\"Compan",
-   "url": "https://nsearchives.nseindia.in/corporate/HINDALCOIND_15112026101130_Cessation_of_WOS_signed.pdf"
+   "symbol": "CIPLA",
+   "time": "16 Nov 23:55",
+   "category": "Action(s) initiated or orders passed",
+   "text": "Cipla Limited has informed the Exchange about Action(s) initiated or orders passed",
+   "url": "https://nsearchives.nseindia.in/corporate/CIPLA_16112026235449_Action_by_Authority_SE_20261116_Customs_v2_Signed.pdf"
   },
   {
-   "symbol": "BEL",
-   "time": "13 Nov 18:31",
-   "category": "Bagging/Receiving of orders/contracts",
-   "text": "Bharat Electronics Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "url": "https://nsearchives.nseindia.in/corporate/BEL_13112026182841_Lettersigned.pdf"
+   "symbol": "TATACONSUM",
+   "time": "16 Nov 19:40",
+   "category": "ESOP/ESOS/ESPS",
+   "text": "TATA CONSUMER PRODUCTS LIMITED has informed the Exchange regarding Allotment of 12996  Shares.",
+   "url": "https://nsearchives.nseindia.in/corporate/Sukhvinder_16112026193943_SE_ESOP_Intimation_sd.pdf"
   },
   {
-   "symbol": "ABB",
-   "time": "13 Nov 17:56",
-   "category": "Appointment",
-   "text": "ABB India Limited has informed the Exchange regarding Appointment of Mr. N V Sivakumar as Independent Director of the company w.e.f. January 01, 2027.",
-   "url": "https://nsearchives.nseindia.in/corporate/ABB_13112026175554_Reg30disclosure13112026signed.pdf"
+   "symbol": "BHARTIARTL",
+   "time": "16 Nov 19:07",
+   "category": "Action(s) taken or orders passed",
+   "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+   "url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_16112026190520_BhartiAirtelSTXdisclosure.pdf"
   },
   {
-   "symbol": "ABB",
-   "time": "13 Nov 17:50",
-   "category": "Outcome of Board Meeting",
-   "text": "ABB India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.in/corporate/ABB_13112026174803_Reg33QuartelryResultsQ32026signed.pdf"
-  },
-  {
-   "symbol": "EICHERMOT",
-   "time": "13 Nov 17:35",
-   "category": "Allotment of Securities",
-   "text": "Eicher Motors Limited has informed the Exchange regarding allotment of 25910 securities pursuant to ESOP/ESPS at its meeting held on November 13, 2026",
-   "url": "https://nsearchives.nseindia.in/corporate/EICHERMOT_13112026173547_EMLIntimation_of_AllotmentNovember_132026Signed.pdf"
-  },
-  {
-   "symbol": "EICHERMOT",
-   "time": "13 Nov 16:51",
-   "category": "Outcome of Board Meeting",
-   "text": "Eicher Motors Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.in/corporate/EICHERMOT_13112026165043_EMLOutcomeofBM13112026SignedResults.pdf"
-  },
-  {
-   "symbol": "HDFCBANK",
-   "time": "13 Nov 16:35",
-   "category": "Change in Director(s)",
-   "text": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_13112026163422_SE_Intimation-_VSR.pdf"
-  },
-  {
-   "symbol": "TMPV",
-   "time": "13 Nov 16:12",
-   "category": "Outcome of Board Meeting",
-   "text": "Tata Motors Passenger Vehicles Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "url": "https://nsearchives.nseindia.in/corporate/TATAMOTORSSJS_13112026161123_NSEBSEOutcome.pdf"
+   "symbol": "TRENT",
+   "time": "16 Nov 17:02",
+   "category": "Credit Rating",
+   "text": "Trent Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.in/corporate/TRENT_16112026170133_BSENSECARERATING161120260signed.pdf"
   }
  ],
- "events": [],
+ "events": [
+  "1 company report results today.",
+  "NIFTY weekly options expiry today — expect sharper intraday swings."
+ ],
  "checklist": [
   "Market light is YELLOW — only A+ setups, half size.",
   "Weak global cues — let the first 15-30 minutes settle before acting.",
+  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
  "ai": {
-  "headline": "Weak Global Tone Signals Cautious Indian Market Opening Today",
+  "headline": "Weak global signals point to a cautious open on NIFTY expiry day.",
   "points": [
-   "Global sentiment is weak as Nikkei fell -1.57% and the US 10Y yield reached 5.15.",
-   "Nifty closed at 25144.3, with immediate support at 25050.35 and resistance at 25242.3.",
-   "In macro indicators, USD/INR rose +0.21% to 94.23, while Brent crude dropped -0.75% to 95.12.",
-   "Track stock-specific news like EICHERMOT after its allotment of 25910 securities."
+   "Weak global cues, with S&P 500 down 1.92% to 7416.59 and Nikkei falling 1.18% to 58956.67, signal a negative market open.",
+   "NIFTY closed at 25291.1; watch support S1 at 25196.27 and resistance R1 at 25361.77 amidst volatility from weekly options expiry today.",
+   "Brent crude fell 4.66% to 91.37, while the USD/INR dropped 0.35% to 93.91, giving mixed macroeconomic context.",
+   "NIFTY remains well above its 20-day average of 23848.98, while Tata Consumer allotted 12996 shares under ESOP."
   ]
  }
 }
