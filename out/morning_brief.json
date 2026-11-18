@@ -1,104 +1,97 @@
 {
- "generated_at": "2026-11-17T08:15:56+05:30",
- "for_session": "2026-11-17",
+ "generated_at": "2026-11-18T08:15:51+05:30",
+ "for_session": "2026-11-18",
  "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7416.59,
-   "change_pct": -1.92,
-   "as_of": "2026-11-16"
+   "value": 7340.53,
+   "change_pct": -1.03,
+   "as_of": "2026-11-17"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 24509.76,
-   "change_pct": -2.49,
-   "as_of": "2026-11-16"
+   "value": 24328.38,
+   "change_pct": -0.74,
+   "as_of": "2026-11-17"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 51608.17,
-   "change_pct": -1.41,
-   "as_of": "2026-11-16"
+   "value": 50759.42,
+   "change_pct": -1.64,
+   "as_of": "2026-11-17"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 58956.67,
-   "change_pct": -1.18,
-   "as_of": "2026-11-17"
-  },
-  {
-   "label": "Hang Seng",
-   "group": "Asia",
-   "value": 23493.87,
-   "change_pct": -1.09,
-   "as_of": "2026-11-17"
+   "value": 58696.54,
+   "change_pct": -0.28,
+   "as_of": "2026-11-18"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5023.7,
-   "change_pct": -1.51,
-   "as_of": "2026-11-17"
+   "value": 4978.04,
+   "change_pct": 0.19,
+   "as_of": "2026-11-18"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 91.37,
-   "change_pct": -4.66,
-   "as_of": "2026-11-16"
+   "value": 92.68,
+   "change_pct": 0.26,
+   "as_of": "2026-11-17"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 3865.1,
-   "change_pct": -0.55,
-   "as_of": "2026-11-16"
+   "value": 3804.1,
+   "change_pct": -1.27,
+   "as_of": "2026-11-17"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 93.91,
-   "change_pct": -0.35,
-   "as_of": "2026-11-17"
+   "value": 93.46,
+   "change_pct": -0.54,
+   "as_of": "2026-11-18"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.12,
-   "change_pct": -0.64,
-   "as_of": "2026-11-16"
+   "value": 5.1,
+   "change_pct": -0.35,
+   "as_of": "2026-11-17"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 103.6,
-   "change_pct": 0.18,
-   "as_of": "2026-11-16"
+   "value": 103.61,
+   "change_pct": 0.06,
+   "as_of": "2026-11-17"
   }
  ],
  "global_tone": {
-  "tone": "negative",
-  "avg_change_pct": -1.64,
-  "crude_alert": true
+  "tone": "mixed",
+  "avg_change_pct": -0.47,
+  "crude_alert": false
  },
  "nifty": {
-  "session": "2026-11-16",
-  "close": 25291.1,
-  "high": 25337.6,
-  "low": 25172.1,
-  "pivot": 25266.93,
-  "r1": 25361.77,
-  "s1": 25196.27,
-  "r2": 25432.43,
-  "s2": 25101.43,
-  "sma_20": 23848.98,
-  "sma_50": 23377.94,
-  "sma_200": 23989.79
+  "session": "2026-11-17",
+  "close": 25387.4,
+  "high": 25501.35,
+  "low": 25267.3,
+  "pivot": 25385.35,
+  "r1": 25503.4,
+  "s1": 25269.35,
+  "r2": 25619.4,
+  "s2": 25151.3,
+  "sma_20": 23973.9,
+  "sma_50": 23408.22,
+  "sma_200": 23990.85
  },
  "focus": [
   {
@@ -108,84 +101,79 @@
    "rs": 96
   },
   {
-   "symbol": "NRL",
-   "name": "Nupur Recyclers Limited",
+   "symbol": "63MOONS",
+   "name": "63 moons technologies limited",
+   "why": "Ready setup near its pivot",
+   "rs": 89
+  },
+  {
+   "symbol": "ADANIPORTS",
+   "name": "Adani Ports and Special Economic Zone Limited",
+   "why": "Ready setup near its pivot",
+   "rs": 81
+  },
+  {
+   "symbol": "TIPSMUSIC",
+   "name": "Tips Music Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "ESAFSFB",
-   "name": "ESAF Small Finance Bank Limited",
-   "why": "AI top 5",
-   "rs": null
+   "symbol": "ADANIPOWER",
+   "name": "Adani Power Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 79
   },
   {
-   "symbol": "SGFIN",
-   "name": "SG Finserve Limited",
-   "why": "AI top 5",
-   "rs": null
+   "symbol": "360ONE",
+   "name": "360 ONE WAM LIMITED",
+   "why": "Pocket pivot yesterday",
+   "rs": 72
   },
   {
-   "symbol": "APLAPOLLO",
-   "name": "APL Apollo Tubes Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "ABDL",
-   "name": "Allied Blenders and Distillers Limited",
-   "why": "AI top 5",
-   "rs": null
+   "symbol": "ACC",
+   "name": "ACC Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 29
   }
  ],
  "overnight_news": [
   {
-   "symbol": "CIPLA",
-   "time": "16 Nov 23:55",
-   "category": "Action(s) initiated or orders passed",
-   "text": "Cipla Limited has informed the Exchange about Action(s) initiated or orders passed",
-   "url": "https://nsearchives.nseindia.in/corporate/CIPLA_16112026235449_Action_by_Authority_SE_20261116_Customs_v2_Signed.pdf"
-  },
-  {
-   "symbol": "TATACONSUM",
-   "time": "16 Nov 19:40",
+   "symbol": "AXISBANK",
+   "time": "17 Nov 19:28",
    "category": "ESOP/ESOS/ESPS",
-   "text": "TATA CONSUMER PRODUCTS LIMITED has informed the Exchange regarding Allotment of 12996  Shares.",
-   "url": "https://nsearchives.nseindia.in/corporate/Sukhvinder_16112026193943_SE_ESOP_Intimation_sd.pdf"
+   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 340722  Shares.",
+   "url": "https://nsearchives.nseindia.in/corporate/Kapil_17112026192806_SE17112026.pdf"
   },
   {
-   "symbol": "BHARTIARTL",
-   "time": "16 Nov 19:07",
-   "category": "Action(s) taken or orders passed",
-   "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-   "url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_16112026190520_BhartiAirtelSTXdisclosure.pdf"
-  },
-  {
-   "symbol": "TRENT",
-   "time": "16 Nov 17:02",
+   "symbol": "ULTRACEMCO",
+   "time": "17 Nov 18:44",
    "category": "Credit Rating",
-   "text": "Trent Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.in/corporate/TRENT_16112026170133_BSENSECARERATING161120260signed.pdf"
+   "text": "UltraTech Cement Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.in/corporate/ULTRACEMCO1_17112026184410_Credit_Rating_SE_Letter.pdf"
+  },
+  {
+   "symbol": "ADANIENT",
+   "time": "17 Nov 17:57",
+   "category": "Credit Rating",
+   "text": "Adani Enterprises Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.in/corporate/nishant_joshi_adani_com_17112026175723_AELIntimationCreditRatingICRA.pdf"
+  },
+  {
+   "symbol": "ADANIPORTS",
+   "time": "17 Nov 16:44",
+   "category": "Credit Rating",
+   "text": "Adani Ports and Special Economic Zone Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.in/corporate/rkbhagia_17112026164408_SEINTIMATION.pdf"
   }
  ],
  "events": [
-  "1 company report results today.",
-  "NIFTY weekly options expiry today — expect sharper intraday swings."
+  "3 companies report results today."
  ],
  "checklist": [
   "Market light is YELLOW — only A+ setups, half size.",
-  "Weak global cues — let the first 15-30 minutes settle before acting.",
-  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
- "ai": {
-  "headline": "Weak global signals point to a cautious open on NIFTY expiry day.",
-  "points": [
-   "Weak global cues, with S&P 500 down 1.92% to 7416.59 and Nikkei falling 1.18% to 58956.67, signal a negative market open.",
-   "NIFTY closed at 25291.1; watch support S1 at 25196.27 and resistance R1 at 25361.77 amidst volatility from weekly options expiry today.",
-   "Brent crude fell 4.66% to 91.37, while the USD/INR dropped 0.35% to 93.91, giving mixed macroeconomic context.",
-   "NIFTY remains well above its 20-day average of 23848.98, while Tata Consumer allotted 12996 shares under ESOP."
-  ]
- }
+ "ai": null
 }
