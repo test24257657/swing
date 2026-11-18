@@ -2,7 +2,7 @@
  "symbol": "SHUKRAPHAR",
  "name": "Shukra Pharmaceuticals Limited",
  "kind": "stock",
- "as_of": "2026-11-17",
+ "as_of": "2026-11-18",
  "bars": [
   {
    "time": "2026-08-14",
@@ -570,6 +570,15 @@
    "close": 82.25,
    "volume": 3136682,
    "delivery_pct": 34.7
+  },
+  {
+   "time": "2026-11-18",
+   "open": 82.4,
+   "high": 83.39,
+   "low": 82.16,
+   "close": 82.2,
+   "volume": 4212134,
+   "delivery_pct": 65.22
   }
  ],
  "ma": {
@@ -749,6 +758,10 @@
    {
     "time": "2026-11-17",
     "value": 75.32
+   },
+   {
+    "time": "2026-11-18",
+    "value": 75.98
    }
   ],
   "sma_50": [
@@ -807,15 +820,19 @@
    {
     "time": "2026-11-17",
     "value": 65.73
+   },
+   {
+    "time": "2026-11-18",
+    "value": 66.43
    }
   ]
  },
  "technicals": {
-  "rsi_14": 78.36,
-  "atr_pct": 4.77,
-  "rel_volume_20d": 0.4,
-  "dist_20dma_pct": 9.2,
-  "dist_50dma_pct": 25.14,
+  "rsi_14": 78.1,
+  "atr_pct": 4.54,
+  "rel_volume_20d": 0.53,
+  "dist_20dma_pct": 8.18,
+  "dist_50dma_pct": 23.73,
   "dist_200dma_pct": null
  }
 }

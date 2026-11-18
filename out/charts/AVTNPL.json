@@ -2,17 +2,8 @@
  "symbol": "AVTNPL",
  "name": "AVT Natural Products Limited",
  "kind": "stock",
- "as_of": "2026-11-17",
+ "as_of": "2026-11-18",
  "bars": [
-  {
-   "time": "2025-11-10",
-   "open": 72.2,
-   "high": 72.2,
-   "low": 69.31,
-   "close": 69.75,
-   "volume": 211252,
-   "delivery_pct": 65.38
-  },
   {
    "time": "2025-11-11",
    "open": 69.81,
@@ -2262,14 +2253,19 @@
    "close": 101.22,
    "volume": 6885691,
    "delivery_pct": 14.04
+  },
+  {
+   "time": "2026-11-18",
+   "open": 101.22,
+   "high": 105.8,
+   "low": 99.1,
+   "close": 103.43,
+   "volume": 1001806,
+   "delivery_pct": 32.0
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-05",
-    "value": 69.16
-   },
    {
     "time": "2025-12-08",
     "value": 68.94
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-17",
     "value": 94.66
+   },
+   {
+    "time": "2026-11-18",
+    "value": 94.78
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-20",
-    "value": 67.45
-   },
    {
     "time": "2026-01-21",
     "value": 67.32
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-17",
     "value": 92.59
+   },
+   {
+    "time": "2026-11-18",
+    "value": 92.92
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-31",
-    "value": 68.29
-   },
    {
     "time": "2026-09-01",
     "value": 68.38
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-17",
     "value": 74.7
+   },
+   {
+    "time": "2026-11-18",
+    "value": 74.89
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.63,
-  "atr_pct": 5.77,
-  "rel_volume_20d": 8.74,
-  "dist_20dma_pct": 6.93,
-  "dist_50dma_pct": 9.32,
-  "dist_200dma_pct": 35.51
+  "rsi_14": 62.09,
+  "atr_pct": 5.7,
+  "rel_volume_20d": 0.96,
+  "dist_20dma_pct": 9.12,
+  "dist_50dma_pct": 11.32,
+  "dist_200dma_pct": 38.11
  }
 }

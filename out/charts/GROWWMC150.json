@@ -2,7 +2,7 @@
  "symbol": "GROWWMC150",
  "name": "GROWWMC150",
  "kind": "stock",
- "as_of": "2026-11-17",
+ "as_of": "2026-11-18",
  "bars": [
   {
    "time": "2025-11-17",
@@ -2217,6 +2217,15 @@
    "close": 226.21,
    "volume": 989,
    "delivery_pct": 44.99
+  },
+  {
+   "time": "2026-11-18",
+   "open": 226.21,
+   "high": 227.09,
+   "low": 223.87,
+   "close": 225.59,
+   "volume": 682,
+   "delivery_pct": 41.06
   }
  ],
  "ma": {
@@ -3128,6 +3137,10 @@
    {
     "time": "2026-11-17",
     "value": 216.42
+   },
+   {
+    "time": "2026-11-18",
+    "value": 216.84
    }
   ],
   "sma_50": [
@@ -3918,6 +3931,10 @@
    {
     "time": "2026-11-17",
     "value": 221.48
+   },
+   {
+    "time": "2026-11-18",
+    "value": 221.35
    }
   ],
   "sma_200": [
@@ -4108,15 +4125,19 @@
    {
     "time": "2026-11-17",
     "value": 222.04
+   },
+   {
+    "time": "2026-11-18",
+    "value": 222.1
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.49,
-  "atr_pct": 2.46,
-  "rel_volume_20d": 0.69,
-  "dist_20dma_pct": 4.52,
-  "dist_50dma_pct": 2.13,
-  "dist_200dma_pct": 1.88
+  "rsi_14": 60.14,
+  "atr_pct": 2.39,
+  "rel_volume_20d": 0.47,
+  "dist_20dma_pct": 4.03,
+  "dist_50dma_pct": 1.91,
+  "dist_200dma_pct": 1.57
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "HYBRIDETF",
  "name": "HYBRIDETF",
  "kind": "stock",
- "as_of": "2026-11-17",
+ "as_of": "2026-11-18",
  "bars": [
   {
    "time": "2026-07-31",
@@ -660,6 +660,15 @@
    "close": 9.97,
    "volume": 3044,
    "delivery_pct": 72.04
+  },
+  {
+   "time": "2026-11-18",
+   "open": 9.98,
+   "high": 9.98,
+   "low": 9.85,
+   "close": 9.86,
+   "volume": 2500791,
+   "delivery_pct": 26.04
   }
  ],
  "ma": {
@@ -879,6 +888,10 @@
    {
     "time": "2026-11-17",
     "value": 9.73
+   },
+   {
+    "time": "2026-11-18",
+    "value": 9.74
    }
   ],
   "sma_50": [
@@ -977,15 +990,19 @@
    {
     "time": "2026-11-17",
     "value": 9.83
+   },
+   {
+    "time": "2026-11-18",
+    "value": 9.83
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.32,
-  "atr_pct": 1.44,
-  "rel_volume_20d": 0.02,
-  "dist_20dma_pct": 2.44,
-  "dist_50dma_pct": 1.4,
+  "rsi_14": 52.36,
+  "atr_pct": 1.45,
+  "rel_volume_20d": 14.34,
+  "dist_20dma_pct": 1.23,
+  "dist_50dma_pct": 0.31,
   "dist_200dma_pct": null
  }
 }

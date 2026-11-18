@@ -1,37 +1,153 @@
 {
- "as_of": "2026-11-17",
+ "as_of": "2026-11-18",
  "source": "rules",
- "universe": 313,
- "eligible": 1,
+ "universe": 258,
+ "eligible": 55,
  "picks": [
   {
-   "symbol": "TIPSMUSIC",
-   "ltp": 833.15,
+   "symbol": "ACUTAAS",
+   "ltp": 3991.3,
    "technicals": {
-    "rsi_14": 67.56,
-    "rel_volume_20d": 0.52,
-    "dist_20dma_pct": 7.77,
-    "dist_50dma_pct": 18.38,
-    "dist_200dma_pct": 30.99
+    "rsi_14": 65.09,
+    "rel_volume_20d": 0.26,
+    "dist_20dma_pct": 6.17,
+    "dist_50dma_pct": 15.78,
+    "dist_200dma_pct": 35.21
+   },
+   "pattern": {
+    "code": "vcp",
+    "stage": "forming",
+    "pivot_price": 4045.3,
+    "stop_suggestion": 3704.9,
+    "target_suggestion": 5056.62,
+    "gap_to_pivot_pct": -1.33
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 436.9,
+    "net_income_cr": 125.2,
+    "revenue_qoq_pct": 32.5,
+    "net_income_qoq_pct": 68.5
+   },
+   "reason": null,
+   "rank": 1,
+   "name": "Acutaas Chemicals Limited"
+  },
+  {
+   "symbol": "SANATHAN",
+   "ltp": 589.7,
+   "technicals": {
+    "rsi_14": 64.04,
+    "rel_volume_20d": 0.25,
+    "dist_20dma_pct": 9.19,
+    "dist_50dma_pct": 14.41,
+    "dist_200dma_pct": 29.97
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "forming",
-    "pivot_price": 793.9,
-    "stop_suggestion": 709.2,
-    "target_suggestion": 952.68,
-    "gap_to_pivot_pct": 4.94
+    "pivot_price": 593.4,
+    "stop_suggestion": 483.05,
+    "target_suggestion": 712.08,
+    "gap_to_pivot_pct": -0.62
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 120.1,
-    "net_income_cr": 65.7,
-    "revenue_qoq_pct": 12.8,
-    "net_income_qoq_pct": 50.3
+    "revenue_cr": 1804.0,
+    "net_income_cr": 61.2,
+    "revenue_qoq_pct": 35.2,
+    "net_income_qoq_pct": 157.1
    },
    "reason": null,
-   "rank": 1,
-   "name": "Tips Music Limited"
+   "rank": 2,
+   "name": "Sanathan Textiles Limited"
+  },
+  {
+   "symbol": "THELEELA",
+   "ltp": 689.35,
+   "technicals": {
+    "rsi_14": 66.46,
+    "rel_volume_20d": 0.49,
+    "dist_20dma_pct": 7.72,
+    "dist_50dma_pct": 16.4,
+    "dist_200dma_pct": 41.21
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 689.75,
+    "stop_suggestion": 580.0,
+    "target_suggestion": 827.7,
+    "gap_to_pivot_pct": -0.06
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 411.9,
+    "net_income_cr": 94.6,
+    "revenue_qoq_pct": 17.0,
+    "net_income_qoq_pct": 93.9
+   },
+   "reason": null,
+   "rank": 3,
+   "name": "Leela Palaces Hotels & Resorts Limited"
+  },
+  {
+   "symbol": "TCPLPACK",
+   "ltp": 4517.8,
+   "technicals": {
+    "rsi_14": 58.28,
+    "rel_volume_20d": 2.04,
+    "dist_20dma_pct": 5.84,
+    "dist_50dma_pct": 9.56,
+    "dist_200dma_pct": 41.2
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 4558.6,
+    "stop_suggestion": 3960.0,
+    "target_suggestion": 5470.32,
+    "gap_to_pivot_pct": -0.9
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 493.0,
+    "net_income_cr": 40.0,
+    "revenue_qoq_pct": 8.6,
+    "net_income_qoq_pct": 84.3
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "TCPL Packaging Limited"
+  },
+  {
+   "symbol": "AVTNPL",
+   "ltp": 103.43,
+   "technicals": {
+    "rsi_14": 62.09,
+    "rel_volume_20d": 0.96,
+    "dist_20dma_pct": 9.12,
+    "dist_50dma_pct": 11.32,
+    "dist_200dma_pct": 38.11
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 101.0,
+    "stop_suggestion": 87.06,
+    "target_suggestion": 121.2,
+    "gap_to_pivot_pct": 2.41
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 241.2,
+    "net_income_cr": 31.1,
+    "revenue_qoq_pct": 6.5,
+    "net_income_qoq_pct": 41.4
+   },
+   "reason": null,
+   "rank": 5,
+   "name": "AVT Natural Products Limited"
   }
  ]
 }

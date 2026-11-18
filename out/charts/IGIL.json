@@ -2,17 +2,8 @@
  "symbol": "IGIL",
  "name": "International Gemological Institute Limited",
  "kind": "stock",
- "as_of": "2026-11-17",
+ "as_of": "2026-11-18",
  "bars": [
-  {
-   "time": "2025-11-10",
-   "open": 360.0,
-   "high": 360.65,
-   "low": 344.6,
-   "close": 346.0,
-   "volume": 1000587,
-   "delivery_pct": 55.55
-  },
   {
    "time": "2025-11-11",
    "open": 345.6,
@@ -2262,14 +2253,19 @@
    "close": 450.6,
    "volume": 1209763,
    "delivery_pct": 55.17
+  },
+  {
+   "time": "2026-11-18",
+   "open": 452.0,
+   "high": 452.85,
+   "low": 441.0,
+   "close": 444.1,
+   "volume": 559928,
+   "delivery_pct": 48.49
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-05",
-    "value": 331.06
-   },
    {
     "time": "2025-12-08",
     "value": 329.53
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-17",
     "value": 395.39
+   },
+   {
+    "time": "2026-11-18",
+    "value": 401.26
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-20",
-    "value": 325.2
-   },
    {
     "time": "2026-01-21",
     "value": 324.21
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-17",
     "value": 349.55
+   },
+   {
+    "time": "2026-11-18",
+    "value": 351.88
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-31",
-    "value": 338.12
-   },
    {
     "time": "2026-09-01",
     "value": 338.09
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-17",
     "value": 344.42
+   },
+   {
+    "time": "2026-11-18",
+    "value": 345.13
    }
   ]
  },
  "technicals": {
-  "rsi_14": 79.97,
-  "atr_pct": 4.1,
-  "rel_volume_20d": 0.41,
-  "dist_20dma_pct": 13.96,
-  "dist_50dma_pct": 28.91,
-  "dist_200dma_pct": 30.83
+  "rsi_14": 75.21,
+  "atr_pct": 4.06,
+  "rel_volume_20d": 0.19,
+  "dist_20dma_pct": 10.68,
+  "dist_50dma_pct": 26.21,
+  "dist_200dma_pct": 28.67
  }
 }

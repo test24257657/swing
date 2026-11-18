@@ -2,17 +2,8 @@
  "symbol": "UFO",
  "name": "UFO Moviez India Limited",
  "kind": "stock",
- "as_of": "2026-11-17",
+ "as_of": "2026-11-18",
  "bars": [
-  {
-   "time": "2025-11-10",
-   "open": 84.9,
-   "high": 88.94,
-   "low": 82.99,
-   "close": 83.5,
-   "volume": 434024,
-   "delivery_pct": 40.56
-  },
   {
    "time": "2025-11-11",
    "open": 83.96,
@@ -2262,14 +2253,19 @@
    "close": 62.75,
    "volume": 28256,
    "delivery_pct": 59.87
+  },
+  {
+   "time": "2026-11-18",
+   "open": 63.8,
+   "high": 63.8,
+   "low": 62.75,
+   "close": 63.23,
+   "volume": 45829,
+   "delivery_pct": 67.56
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-05",
-    "value": 80.89
-   },
    {
     "time": "2025-12-08",
     "value": 80.45
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-17",
     "value": 60.94
+   },
+   {
+    "time": "2026-11-18",
+    "value": 61.11
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-20",
-    "value": 80.91
-   },
    {
     "time": "2026-01-21",
     "value": 80.77
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-17",
     "value": 60.45
+   },
+   {
+    "time": "2026-11-18",
+    "value": 60.41
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-08-31",
-    "value": 73.1
-   },
    {
     "time": "2026-09-01",
     "value": 73.01
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-17",
     "value": 67.93
+   },
+   {
+    "time": "2026-11-18",
+    "value": 67.84
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.74,
-  "atr_pct": 4.1,
-  "rel_volume_20d": 0.57,
-  "dist_20dma_pct": 2.97,
-  "dist_50dma_pct": 3.81,
-  "dist_200dma_pct": -7.63
+  "rsi_14": 59.43,
+  "atr_pct": 3.9,
+  "rel_volume_20d": 0.96,
+  "dist_20dma_pct": 3.47,
+  "dist_50dma_pct": 4.67,
+  "dist_200dma_pct": -6.8
  }
 }

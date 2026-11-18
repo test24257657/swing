@@ -2,7 +2,7 @@
  "symbol": "FREDUN",
  "name": "Fredun Pharmaceuticals Limited",
  "kind": "stock",
- "as_of": "2026-11-17",
+ "as_of": "2026-11-18",
  "bars": [
   {
    "time": "2026-08-17",
@@ -561,6 +561,15 @@
    "close": 1572.0,
    "volume": 142860,
    "delivery_pct": 39.41
+  },
+  {
+   "time": "2026-11-18",
+   "open": 1599.0,
+   "high": 1641.0,
+   "low": 1585.0,
+   "close": 1636.4,
+   "volume": 197066,
+   "delivery_pct": 36.4
   }
  ],
  "ma": {
@@ -736,6 +745,10 @@
    {
     "time": "2026-11-17",
     "value": 1456.06
+   },
+   {
+    "time": "2026-11-18",
+    "value": 1464.0
    }
   ],
   "sma_50": [
@@ -790,15 +803,19 @@
    {
     "time": "2026-11-17",
     "value": 1429.22
+   },
+   {
+    "time": "2026-11-18",
+    "value": 1431.83
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.85,
-  "atr_pct": 5.08,
-  "rel_volume_20d": 1.62,
-  "dist_20dma_pct": 7.96,
-  "dist_50dma_pct": 9.99,
+  "rsi_14": 65.42,
+  "atr_pct": 4.84,
+  "rel_volume_20d": 2.21,
+  "dist_20dma_pct": 11.78,
+  "dist_50dma_pct": 14.29,
   "dist_200dma_pct": null
  }
 }
