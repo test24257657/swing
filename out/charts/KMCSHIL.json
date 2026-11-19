@@ -2,7 +2,7 @@
  "symbol": "KMCSHIL",
  "name": "K M C Speciality Hospitals (India) Limited",
  "kind": "stock",
- "as_of": "2026-11-18",
+ "as_of": "2026-11-19",
  "bars": [
   {
    "time": "2026-08-17",
@@ -570,6 +570,15 @@
    "close": 197.42,
    "volume": 3284540,
    "delivery_pct": 10.44
+  },
+  {
+   "time": "2026-11-19",
+   "open": 197.42,
+   "high": 203.5,
+   "low": 194.38,
+   "close": 201.64,
+   "volume": 1373856,
+   "delivery_pct": 13.53
   }
  ],
  "ma": {
@@ -749,6 +758,10 @@
    {
     "time": "2026-11-18",
     "value": 159.52
+   },
+   {
+    "time": "2026-11-19",
+    "value": 161.75
    }
   ],
   "sma_50": [
@@ -807,15 +820,19 @@
    {
     "time": "2026-11-18",
     "value": 157.45
+   },
+   {
+    "time": "2026-11-19",
+    "value": 158.72
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.53,
-  "atr_pct": 5.32,
-  "rel_volume_20d": 2.96,
-  "dist_20dma_pct": 23.76,
-  "dist_50dma_pct": 25.39,
+  "rsi_14": 72.98,
+  "atr_pct": 5.16,
+  "rel_volume_20d": 1.09,
+  "dist_20dma_pct": 24.66,
+  "dist_50dma_pct": 27.04,
   "dist_200dma_pct": null
  }
 }

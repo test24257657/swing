@@ -2,17 +2,8 @@
  "symbol": "SHIVAMILLS",
  "name": "Shiva Mills Limited",
  "kind": "stock",
- "as_of": "2026-11-18",
+ "as_of": "2026-11-19",
  "bars": [
-  {
-   "time": "2025-11-11",
-   "open": 65.0,
-   "high": 66.79,
-   "low": 65.0,
-   "close": 65.97,
-   "volume": 2281,
-   "delivery_pct": 82.33
-  },
   {
    "time": "2025-11-12",
    "open": 66.01,
@@ -2253,14 +2244,19 @@
    "close": 68.58,
    "volume": 9124,
    "delivery_pct": 70.17
+  },
+  {
+   "time": "2026-11-19",
+   "open": 69.6,
+   "high": 69.6,
+   "low": 67.0,
+   "close": 67.99,
+   "volume": 3871,
+   "delivery_pct": 91.99
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-08",
-    "value": 63.87
-   },
    {
     "time": "2025-12-09",
     "value": 63.69
@@ -3180,13 +3176,13 @@
    {
     "time": "2026-11-18",
     "value": 59.52
+   },
+   {
+    "time": "2026-11-19",
+    "value": 59.97
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-21",
-    "value": 61.02
-   },
    {
     "time": "2026-01-22",
     "value": 60.76
@@ -3986,13 +3982,13 @@
    {
     "time": "2026-11-18",
     "value": 59.66
+   },
+   {
+    "time": "2026-11-19",
+    "value": 59.79
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-02",
-    "value": 59.65
-   },
    {
     "time": "2026-09-03",
     "value": 59.63
@@ -4192,15 +4188,19 @@
    {
     "time": "2026-11-18",
     "value": 59.31
+   },
+   {
+    "time": "2026-11-19",
+    "value": 59.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.51,
-  "atr_pct": 4.87,
-  "rel_volume_20d": 1.56,
-  "dist_20dma_pct": 15.23,
-  "dist_50dma_pct": 14.95,
-  "dist_200dma_pct": 15.62
+  "rsi_14": 66.73,
+  "atr_pct": 4.84,
+  "rel_volume_20d": 0.62,
+  "dist_20dma_pct": 13.37,
+  "dist_50dma_pct": 13.72,
+  "dist_200dma_pct": 14.48
  }
 }

@@ -2,17 +2,8 @@
  "symbol": "INDHOTEL",
  "name": "The Indian Hotels Company Limited",
  "kind": "stock",
- "as_of": "2026-11-18",
+ "as_of": "2026-11-19",
  "bars": [
-  {
-   "time": "2025-11-11",
-   "open": 703.8,
-   "high": 703.8,
-   "low": 692.65,
-   "close": 697.75,
-   "volume": 3758087,
-   "delivery_pct": 68.81
-  },
   {
    "time": "2025-11-12",
    "open": 700.0,
@@ -2262,14 +2253,19 @@
    "close": 875.05,
    "volume": 3032607,
    "delivery_pct": 63.76
+  },
+  {
+   "time": "2026-11-19",
+   "open": 875.05,
+   "high": 896.5,
+   "low": 875.05,
+   "close": 889.65,
+   "volume": 2595139,
+   "delivery_pct": 62.58
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-08",
-    "value": 726.37
-   },
    {
     "time": "2025-12-09",
     "value": 727.87
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-18",
     "value": 834.72
+   },
+   {
+    "time": "2026-11-19",
+    "value": 841.2
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-21",
-    "value": 720.19
-   },
    {
     "time": "2026-01-22",
     "value": 719.37
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-18",
     "value": 769.48
+   },
+   {
+    "time": "2026-11-19",
+    "value": 772.63
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-01",
-    "value": 689.31
-   },
    {
     "time": "2026-09-02",
     "value": 689.46
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-18",
     "value": 701.99
+   },
+   {
+    "time": "2026-11-19",
+    "value": 703.21
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.31,
-  "atr_pct": 2.5,
-  "rel_volume_20d": 0.46,
-  "dist_20dma_pct": 4.83,
-  "dist_50dma_pct": 13.72,
-  "dist_200dma_pct": 24.65
+  "rsi_14": 68.12,
+  "atr_pct": 2.46,
+  "rel_volume_20d": 0.41,
+  "dist_20dma_pct": 5.76,
+  "dist_50dma_pct": 15.14,
+  "dist_200dma_pct": 26.51
  }
 }

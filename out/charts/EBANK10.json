@@ -2,7 +2,7 @@
  "symbol": "EBANK10",
  "name": "EBANK10",
  "kind": "stock",
- "as_of": "2026-11-18",
+ "as_of": "2026-11-19",
  "bars": [
   {
    "time": "2026-08-05",
@@ -642,6 +642,15 @@
    "close": 18.56,
    "volume": 2833139,
    "delivery_pct": 99.97
+  },
+  {
+   "time": "2026-11-19",
+   "open": 18.56,
+   "high": 18.7,
+   "low": 18.38,
+   "close": 18.7,
+   "volume": 7533,
+   "delivery_pct": 63.95
   }
  ],
  "ma": {
@@ -853,6 +862,10 @@
    {
     "time": "2026-11-18",
     "value": 17.05
+   },
+   {
+    "time": "2026-11-19",
+    "value": 17.16
    }
   ],
   "sma_50": [
@@ -943,15 +956,19 @@
    {
     "time": "2026-11-18",
     "value": 16.64
+   },
+   {
+    "time": "2026-11-19",
+    "value": 16.68
    }
   ]
  },
  "technicals": {
-  "rsi_14": 77.98,
-  "atr_pct": 2.1,
-  "rel_volume_20d": 5.83,
-  "dist_20dma_pct": 8.88,
-  "dist_50dma_pct": 11.55,
+  "rsi_14": 79.16,
+  "atr_pct": 2.05,
+  "rel_volume_20d": 0.01,
+  "dist_20dma_pct": 8.99,
+  "dist_50dma_pct": 12.14,
   "dist_200dma_pct": null
  }
 }

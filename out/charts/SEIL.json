@@ -2,7 +2,7 @@
  "symbol": "SEIL",
  "name": "Shanti Educational Initiatives Limited",
  "kind": "stock",
- "as_of": "2026-11-18",
+ "as_of": "2026-11-19",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1308,6 +1308,15 @@
    "close": 195.25,
    "volume": 556371,
    "delivery_pct": 53.58
+  },
+  {
+   "time": "2026-11-19",
+   "open": 193.0,
+   "high": 201.0,
+   "low": 192.65,
+   "close": 198.81,
+   "volume": 820948,
+   "delivery_pct": 62.78
   }
  ],
  "ma": {
@@ -1815,6 +1824,10 @@
    {
     "time": "2026-11-18",
     "value": 172.74
+   },
+   {
+    "time": "2026-11-19",
+    "value": 173.75
    }
   ],
   "sma_50": [
@@ -2201,15 +2214,19 @@
    {
     "time": "2026-11-18",
     "value": 182.75
+   },
+   {
+    "time": "2026-11-19",
+    "value": 182.68
    }
   ]
  },
  "technicals": {
-  "rsi_14": 62.88,
-  "atr_pct": 4.91,
-  "rel_volume_20d": 2.53,
-  "dist_20dma_pct": 13.03,
-  "dist_50dma_pct": 6.84,
+  "rsi_14": 64.94,
+  "atr_pct": 4.78,
+  "rel_volume_20d": 3.42,
+  "dist_20dma_pct": 14.42,
+  "dist_50dma_pct": 8.83,
   "dist_200dma_pct": null
  }
 }

@@ -1,84 +1,55 @@
 {
- "as_of": "2026-11-18",
+ "as_of": "2026-11-19",
  "source": "rules",
- "universe": 258,
- "eligible": 55,
+ "universe": 337,
+ "eligible": 6,
  "picks": [
   {
-   "symbol": "ACUTAAS",
-   "ltp": 3991.3,
+   "symbol": "SANGAMIND",
+   "ltp": 676.95,
    "technicals": {
-    "rsi_14": 65.09,
-    "rel_volume_20d": 0.26,
-    "dist_20dma_pct": 6.17,
-    "dist_50dma_pct": 15.78,
-    "dist_200dma_pct": 35.21
-   },
-   "pattern": {
-    "code": "vcp",
-    "stage": "forming",
-    "pivot_price": 4045.3,
-    "stop_suggestion": 3704.9,
-    "target_suggestion": 5056.62,
-    "gap_to_pivot_pct": -1.33
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 436.9,
-    "net_income_cr": 125.2,
-    "revenue_qoq_pct": 32.5,
-    "net_income_qoq_pct": 68.5
-   },
-   "reason": null,
-   "rank": 1,
-   "name": "Acutaas Chemicals Limited"
-  },
-  {
-   "symbol": "SANATHAN",
-   "ltp": 589.7,
-   "technicals": {
-    "rsi_14": 64.04,
-    "rel_volume_20d": 0.25,
-    "dist_20dma_pct": 9.19,
-    "dist_50dma_pct": 14.41,
-    "dist_200dma_pct": 29.97
+    "rsi_14": 69.47,
+    "rel_volume_20d": 2.38,
+    "dist_20dma_pct": 9.52,
+    "dist_50dma_pct": 11.68,
+    "dist_200dma_pct": 25.45
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 593.4,
-    "stop_suggestion": 483.05,
-    "target_suggestion": 712.08,
-    "gap_to_pivot_pct": -0.62
+    "stage": "confirmed",
+    "pivot_price": 645.55,
+    "stop_suggestion": 584.55,
+    "target_suggestion": 774.66,
+    "gap_to_pivot_pct": 4.86
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 1804.0,
-    "net_income_cr": 61.2,
-    "revenue_qoq_pct": 35.2,
-    "net_income_qoq_pct": 157.1
+    "revenue_cr": 1045.3,
+    "net_income_cr": 53.4,
+    "revenue_qoq_pct": 21.5,
+    "net_income_qoq_pct": 30.2
    },
    "reason": null,
-   "rank": 2,
-   "name": "Sanathan Textiles Limited"
+   "rank": 1,
+   "name": "Sangam (India) Limited"
   },
   {
    "symbol": "THELEELA",
-   "ltp": 689.35,
+   "ltp": 695.65,
    "technicals": {
-    "rsi_14": 66.46,
-    "rel_volume_20d": 0.49,
-    "dist_20dma_pct": 7.72,
-    "dist_50dma_pct": 16.4,
-    "dist_200dma_pct": 41.21
+    "rsi_14": 67.67,
+    "rel_volume_20d": 0.99,
+    "dist_20dma_pct": 8.08,
+    "dist_50dma_pct": 16.95,
+    "dist_200dma_pct": 42.09
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "forming",
     "pivot_price": 689.75,
-    "stop_suggestion": 580.0,
+    "stop_suggestion": 589.1,
     "target_suggestion": 827.7,
-    "gap_to_pivot_pct": -0.06
+    "gap_to_pivot_pct": 0.86
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
@@ -88,66 +59,95 @@
     "net_income_qoq_pct": 93.9
    },
    "reason": null,
-   "rank": 3,
+   "rank": 2,
    "name": "Leela Palaces Hotels & Resorts Limited"
   },
   {
-   "symbol": "TCPLPACK",
-   "ltp": 4517.8,
+   "symbol": "LT",
+   "ltp": 4211.0,
    "technicals": {
-    "rsi_14": 58.28,
-    "rel_volume_20d": 2.04,
-    "dist_20dma_pct": 5.84,
-    "dist_50dma_pct": 9.56,
-    "dist_200dma_pct": 41.2
+    "rsi_14": 73.84,
+    "rel_volume_20d": 0.9,
+    "dist_20dma_pct": 6.57,
+    "dist_50dma_pct": 9.13,
+    "dist_200dma_pct": 6.73
    },
    "pattern": {
-    "code": "high_52w_breakout",
+    "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 4558.6,
-    "stop_suggestion": 3960.0,
-    "target_suggestion": 5470.32,
-    "gap_to_pivot_pct": -0.9
+    "pivot_price": 4259.0,
+    "stop_suggestion": 4090.25,
+    "target_suggestion": 4897.85,
+    "gap_to_pivot_pct": -1.13
    },
    "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 493.0,
-    "net_income_cr": 40.0,
-    "revenue_qoq_pct": 8.6,
-    "net_income_qoq_pct": 84.3
+    "quarter": "Q2 FY27",
+    "revenue_cr": 78749.9,
+    "net_income_cr": 5202.1,
+    "revenue_qoq_pct": 15.9,
+    "net_income_qoq_pct": 26.2
    },
    "reason": null,
-   "rank": 4,
-   "name": "TCPL Packaging Limited"
+   "rank": 3,
+   "name": "Larsen & Toubro Limited"
   },
   {
-   "symbol": "AVTNPL",
-   "ltp": 103.43,
+   "symbol": "MANOMAY",
+   "ltp": 269.08,
    "technicals": {
-    "rsi_14": 62.09,
-    "rel_volume_20d": 0.96,
-    "dist_20dma_pct": 9.12,
-    "dist_50dma_pct": 11.32,
-    "dist_200dma_pct": 38.11
+    "rsi_14": 71.83,
+    "rel_volume_20d": 1.17,
+    "dist_20dma_pct": 6.35,
+    "dist_50dma_pct": 11.22,
+    "dist_200dma_pct": 25.07
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 101.0,
-    "stop_suggestion": 87.06,
-    "target_suggestion": 121.2,
-    "gap_to_pivot_pct": 2.41
+    "pivot_price": 262.36,
+    "stop_suggestion": 240.0,
+    "target_suggestion": 314.83,
+    "gap_to_pivot_pct": 2.56
    },
    "fundamentals": {
     "quarter": "Q1 FY27",
-    "revenue_cr": 241.2,
-    "net_income_cr": 31.1,
-    "revenue_qoq_pct": 6.5,
-    "net_income_qoq_pct": 41.4
+    "revenue_cr": 197.5,
+    "net_income_cr": 5.0,
+    "revenue_qoq_pct": -3.2,
+    "net_income_qoq_pct": 0.0
+   },
+   "reason": null,
+   "rank": 4,
+   "name": "Manomay Tex India Limited"
+  },
+  {
+   "symbol": "PTL",
+   "ltp": 39.88,
+   "technicals": {
+    "rsi_14": 64.79,
+    "rel_volume_20d": 1.57,
+    "dist_20dma_pct": 2.57,
+    "dist_50dma_pct": 3.59,
+    "dist_200dma_pct": 1.76
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 40.05,
+    "stop_suggestion": 38.7,
+    "target_suggestion": 46.06,
+    "gap_to_pivot_pct": -0.42
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 16.1,
+    "net_income_cr": 10.8,
+    "revenue_qoq_pct": 0.0,
+    "net_income_qoq_pct": 22.7
    },
    "reason": null,
    "rank": 5,
-   "name": "AVT Natural Products Limited"
+   "name": "PTL Enterprises Limited"
   }
  ]
 }

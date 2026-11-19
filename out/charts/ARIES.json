@@ -2,17 +2,8 @@
  "symbol": "ARIES",
  "name": "Aries Agro Limited",
  "kind": "stock",
- "as_of": "2026-11-18",
+ "as_of": "2026-11-19",
  "bars": [
-  {
-   "time": "2025-11-11",
-   "open": 363.0,
-   "high": 376.0,
-   "low": 363.0,
-   "close": 372.25,
-   "volume": 30288,
-   "delivery_pct": 61.24
-  },
   {
    "time": "2025-11-12",
    "open": 370.0,
@@ -2262,14 +2253,19 @@
    "close": 540.05,
    "volume": 14933,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-11-19",
+   "open": 532.0,
+   "high": 550.0,
+   "low": 524.0,
+   "close": 527.35,
+   "volume": 15368,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-08",
-    "value": 349.98
-   },
    {
     "time": "2025-12-09",
     "value": 347.62
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-18",
     "value": 474.53
+   },
+   {
+    "time": "2026-11-19",
+    "value": 477.22
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-21",
-    "value": 332.05
-   },
    {
     "time": "2026-01-22",
     "value": 330.73
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-18",
     "value": 477.17
+   },
+   {
+    "time": "2026-11-19",
+    "value": 477.78
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-01",
-    "value": 349.36
-   },
    {
     "time": "2026-09-02",
     "value": 349.98
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-18",
     "value": 386.59
+   },
+   {
+    "time": "2026-11-19",
+    "value": 387.72
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.9,
-  "atr_pct": 4.46,
-  "rel_volume_20d": 1.15,
-  "dist_20dma_pct": 13.81,
-  "dist_50dma_pct": 13.18,
-  "dist_200dma_pct": 39.7
+  "rsi_14": 62.76,
+  "atr_pct": 4.6,
+  "rel_volume_20d": 1.16,
+  "dist_20dma_pct": 10.51,
+  "dist_50dma_pct": 10.38,
+  "dist_200dma_pct": 36.01
  }
 }
