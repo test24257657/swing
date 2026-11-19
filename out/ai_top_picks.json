@@ -1,9 +1,38 @@
 {
  "as_of": "2026-11-19",
- "source": "rules",
+ "source": "ai",
  "universe": 337,
- "eligible": 6,
+ "eligible": 24,
  "picks": [
+  {
+   "symbol": "TVSMOTOR",
+   "ltp": 4601.4,
+   "technicals": {
+    "rsi_14": 67.53,
+    "rel_volume_20d": 1.97,
+    "dist_20dma_pct": 7.02,
+    "dist_50dma_pct": 10.67,
+    "dist_200dma_pct": 19.88
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 4560.0,
+    "stop_suggestion": 4070.0,
+    "target_suggestion": 5472.0,
+    "gap_to_pivot_pct": 0.91
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 19474.4,
+    "net_income_cr": 1194.5,
+    "revenue_qoq_pct": 19.5,
+    "net_income_qoq_pct": 17.2
+   },
+   "reason": "Confirmed 52-week high breakout with volume at 1.97x average and RSI of 67.53. Fundamentals are robust with revenue up 19.5% QoQ and net profit growing 17.2% QoQ.",
+   "rank": 1,
+   "name": "TVS Motor Company Limited"
+  },
   {
    "symbol": "SANGAMIND",
    "ltp": 676.95,
@@ -29,9 +58,38 @@
     "revenue_qoq_pct": 21.5,
     "net_income_qoq_pct": 30.2
    },
-   "reason": null,
-   "rank": 1,
+   "reason": "Confirmed 52-week high breakout supported by strong 2.38x average volume and 69.47 RSI. Financials show impressive balanced growth, with revenue rising 21.5% QoQ and net profit jumping 30.2% QoQ.",
+   "rank": 2,
    "name": "Sangam (India) Limited"
+  },
+  {
+   "symbol": "FLUOROCHEM",
+   "ltp": 4978.6,
+   "technicals": {
+    "rsi_14": 66.15,
+    "rel_volume_20d": 2.72,
+    "dist_20dma_pct": 9.97,
+    "dist_50dma_pct": 9.91,
+    "dist_200dma_pct": 25.86
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 4824.4,
+    "stop_suggestion": 4175.0,
+    "target_suggestion": 5789.28,
+    "gap_to_pivot_pct": 3.2
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 1760.0,
+    "net_income_cr": 243.0,
+    "revenue_qoq_pct": 10.8,
+    "net_income_qoq_pct": 11.0
+   },
+   "reason": "Confirmed 52-week breakout with heavy volume at 2.72x average and healthy RSI of 66.15. Solid fundamental expansion backing the move, as revenue grew 10.8% QoQ alongside 11.0% QoQ net profit growth.",
+   "rank": 3,
+   "name": "Gujarat Fluorochemicals Limited"
   },
   {
    "symbol": "THELEELA",
@@ -58,96 +116,38 @@
     "revenue_qoq_pct": 17.0,
     "net_income_qoq_pct": 93.9
    },
-   "reason": null,
-   "rank": 2,
+   "reason": "Strong 52-week high setup just 0.86% from pivot, sitting 42.09% above its 200-day average with RSI 67.67. Fundamentals are exceptional, featuring 17.0% QoQ revenue growth and a 93.9% QoQ profit surge.",
+   "rank": 4,
    "name": "Leela Palaces Hotels & Resorts Limited"
   },
   {
-   "symbol": "LT",
-   "ltp": 4211.0,
+   "symbol": "CRAFTSMAN",
+   "ltp": 11930.0,
    "technicals": {
-    "rsi_14": 73.84,
-    "rel_volume_20d": 0.9,
-    "dist_20dma_pct": 6.57,
-    "dist_50dma_pct": 9.13,
-    "dist_200dma_pct": 6.73
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 4259.0,
-    "stop_suggestion": 4090.25,
-    "target_suggestion": 4897.85,
-    "gap_to_pivot_pct": -1.13
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 78749.9,
-    "net_income_cr": 5202.1,
-    "revenue_qoq_pct": 15.9,
-    "net_income_qoq_pct": 26.2
-   },
-   "reason": null,
-   "rank": 3,
-   "name": "Larsen & Toubro Limited"
-  },
-  {
-   "symbol": "MANOMAY",
-   "ltp": 269.08,
-   "technicals": {
-    "rsi_14": 71.83,
-    "rel_volume_20d": 1.17,
-    "dist_20dma_pct": 6.35,
-    "dist_50dma_pct": 11.22,
-    "dist_200dma_pct": 25.07
+    "rsi_14": 69.23,
+    "rel_volume_20d": 1.89,
+    "dist_20dma_pct": 9.74,
+    "dist_50dma_pct": 9.79,
+    "dist_200dma_pct": 29.75
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 262.36,
-    "stop_suggestion": 240.0,
-    "target_suggestion": 314.83,
-    "gap_to_pivot_pct": 2.56
-   },
-   "fundamentals": {
-    "quarter": "Q1 FY27",
-    "revenue_cr": 197.5,
-    "net_income_cr": 5.0,
-    "revenue_qoq_pct": -3.2,
-    "net_income_qoq_pct": 0.0
-   },
-   "reason": null,
-   "rank": 4,
-   "name": "Manomay Tex India Limited"
-  },
-  {
-   "symbol": "PTL",
-   "ltp": 39.88,
-   "technicals": {
-    "rsi_14": 64.79,
-    "rel_volume_20d": 1.57,
-    "dist_20dma_pct": 2.57,
-    "dist_50dma_pct": 3.59,
-    "dist_200dma_pct": 1.76
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 40.05,
-    "stop_suggestion": 38.7,
-    "target_suggestion": 46.06,
-    "gap_to_pivot_pct": -0.42
+    "pivot_price": 11851.0,
+    "stop_suggestion": 10075.0,
+    "target_suggestion": 14221.2,
+    "gap_to_pivot_pct": 0.67
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 16.1,
-    "net_income_cr": 10.8,
-    "revenue_qoq_pct": 0.0,
-    "net_income_qoq_pct": 22.7
+    "revenue_cr": 2945.2,
+    "net_income_cr": 153.2,
+    "revenue_qoq_pct": 21.1,
+    "net_income_qoq_pct": 1.7
    },
-   "reason": null,
+   "reason": "Confirmed 52-week breakout just 0.67% above pivot with strong 1.89x volume and RSI of 69.23. Supported by robust quarterly top-line expansion with revenue surging 21.1% QoQ and net profit reaching \u20b9153.2 cr.",
    "rank": 5,
-   "name": "PTL Enterprises Limited"
+   "name": "Craftsman Automation Limited"
   }
  ]
 }
