@@ -1,97 +1,104 @@
 {
- "generated_at": "2026-11-18T08:15:51+05:30",
- "for_session": "2026-11-18",
+ "generated_at": "2026-11-19T08:15:50+05:30",
+ "for_session": "2026-11-19",
  "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7340.53,
-   "change_pct": -1.03,
-   "as_of": "2026-11-17"
+   "value": 7323.63,
+   "change_pct": -0.23,
+   "as_of": "2026-11-18"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 24328.38,
-   "change_pct": -0.74,
-   "as_of": "2026-11-17"
+   "value": 24429.88,
+   "change_pct": 0.42,
+   "as_of": "2026-11-18"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 50759.42,
-   "change_pct": -1.64,
-   "as_of": "2026-11-17"
+   "value": 50198.17,
+   "change_pct": -1.11,
+   "as_of": "2026-11-18"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 58696.54,
-   "change_pct": -0.28,
-   "as_of": "2026-11-18"
+   "value": 59140.87,
+   "change_pct": 0.2,
+   "as_of": "2026-11-19"
+  },
+  {
+   "label": "Hang Seng",
+   "group": "Asia",
+   "value": 22898.84,
+   "change_pct": -1.7,
+   "as_of": "2026-11-19"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 4978.04,
-   "change_pct": 0.19,
-   "as_of": "2026-11-18"
+   "value": 5015.16,
+   "change_pct": -1.03,
+   "as_of": "2026-11-19"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 92.68,
-   "change_pct": 0.26,
-   "as_of": "2026-11-17"
+   "value": 89.28,
+   "change_pct": -4.14,
+   "as_of": "2026-11-18"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 3804.1,
-   "change_pct": -1.27,
-   "as_of": "2026-11-17"
+   "value": 3741.4,
+   "change_pct": -3.18,
+   "as_of": "2026-11-18"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 93.46,
-   "change_pct": -0.54,
-   "as_of": "2026-11-18"
+   "value": 93.44,
+   "change_pct": -0.04,
+   "as_of": "2026-11-19"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.1,
-   "change_pct": -0.35,
-   "as_of": "2026-11-17"
+   "value": 5.07,
+   "change_pct": -0.73,
+   "as_of": "2026-11-18"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 103.61,
-   "change_pct": 0.06,
-   "as_of": "2026-11-17"
+   "value": 103.88,
+   "change_pct": 0.37,
+   "as_of": "2026-11-18"
   }
  ],
  "global_tone": {
   "tone": "mixed",
   "avg_change_pct": -0.47,
-  "crude_alert": false
+  "crude_alert": true
  },
  "nifty": {
-  "session": "2026-11-17",
-  "close": 25387.4,
-  "high": 25501.35,
-  "low": 25267.3,
-  "pivot": 25385.35,
-  "r1": 25503.4,
-  "s1": 25269.35,
-  "r2": 25619.4,
-  "s2": 25151.3,
-  "sma_20": 23973.9,
-  "sma_50": 23408.22,
-  "sma_200": 23990.85
+  "session": "2026-11-18",
+  "close": 25227.95,
+  "high": 25390.8,
+  "low": 25141.8,
+  "pivot": 25253.52,
+  "r1": 25365.23,
+  "s1": 25116.23,
+  "r2": 25502.52,
+  "s2": 25004.52,
+  "sma_20": 24094.73,
+  "sma_50": 23434.82,
+  "sma_200": 23990.28
  },
  "focus": [
   {
@@ -101,79 +108,83 @@
    "rs": 96
   },
   {
-   "symbol": "63MOONS",
-   "name": "63 moons technologies limited",
+   "symbol": "AARTIDRUGS",
+   "name": "Aarti Drugs Limited",
    "why": "Ready setup near its pivot",
-   "rs": 89
+   "rs": 87
   },
   {
-   "symbol": "ADANIPORTS",
-   "name": "Adani Ports and Special Economic Zone Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 81
-  },
-  {
-   "symbol": "TIPSMUSIC",
-   "name": "Tips Music Limited",
+   "symbol": "SANATHAN",
+   "name": "Sanathan Textiles Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "ADANIPOWER",
-   "name": "Adani Power Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 79
+   "symbol": "THELEELA",
+   "name": "Leela Palaces Hotels & Resorts Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "TCPLPACK",
+   "name": "TCPL Packaging Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "AVTNPL",
+   "name": "AVT Natural Products Limited",
+   "why": "AI top 5",
+   "rs": null
   },
   {
    "symbol": "360ONE",
    "name": "360 ONE WAM LIMITED",
    "why": "Pocket pivot yesterday",
-   "rs": 72
-  },
-  {
-   "symbol": "ACC",
-   "name": "ACC Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 29
+   "rs": 73
   }
  ],
  "overnight_news": [
   {
-   "symbol": "AXISBANK",
-   "time": "17 Nov 19:28",
+   "symbol": "SBILIFE",
+   "time": "18 Nov 21:12",
    "category": "ESOP/ESOS/ESPS",
-   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 340722  Shares.",
-   "url": "https://nsearchives.nseindia.in/corporate/Kapil_17112026192806_SE17112026.pdf"
+   "text": "The Board Stakeholders'' Relationship and Sustainability Committee vide its resolution dated November 18, 2026 has allotted 43,430 equity shares towards exercise of vested options.",
+   "url": "https://nsearchives.nseindia.in/corporate/SBILIFE_18112026210924_SE_18112026signed.pdf"
   },
   {
-   "symbol": "ULTRACEMCO",
-   "time": "17 Nov 18:44",
-   "category": "Credit Rating",
-   "text": "UltraTech Cement Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.in/corporate/ULTRACEMCO1_17112026184410_Credit_Rating_SE_Letter.pdf"
-  },
-  {
-   "symbol": "ADANIENT",
-   "time": "17 Nov 17:57",
-   "category": "Credit Rating",
-   "text": "Adani Enterprises Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.in/corporate/nishant_joshi_adani_com_17112026175723_AELIntimationCreditRatingICRA.pdf"
-  },
-  {
-   "symbol": "ADANIPORTS",
-   "time": "17 Nov 16:44",
-   "category": "Credit Rating",
-   "text": "Adani Ports and Special Economic Zone Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.in/corporate/rkbhagia_17112026164408_SEINTIMATION.pdf"
+   "symbol": "JIOFIN",
+   "time": "18 Nov 18:21",
+   "category": "Acquisition",
+   "text": "Investment in Jio BlackRock Asset Management Private Limited, Joint Venture between the Company and BlackRock",
+   "url": "https://nsearchives.nseindia.in/corporate/JIOFIN_18112026181924_JFSL.pdf"
   }
  ],
  "events": [
-  "3 companies report results today."
+  "2 companies report results today."
  ],
  "checklist": [
   "Market light is YELLOW — only A+ setups, half size.",
+  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
- "community": null,
+ "community": {
+  "items": [
+   {
+    "title": "US Market is Crazy",
+    "url": "https://www.reddit.com/r/IndianStreetBets/comments/1xzeme6/us_market_is_crazy/",
+    "where": "r/IndianStreetBets",
+    "date": "2026-11-18",
+    "views": null,
+    "upvotes": 74,
+    "comments": 18
+   }
+  ],
+  "sources": {
+   "reddit": "ok",
+   "youtube": "no-results"
+  },
+  "window_days": 3
+ },
  "ai": null
 }
