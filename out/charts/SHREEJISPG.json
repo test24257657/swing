@@ -2,17 +2,8 @@
  "symbol": "SHREEJISPG",
  "name": "Shreeji Shipping Global Limited",
  "kind": "stock",
- "as_of": "2026-11-19",
+ "as_of": "2026-11-20",
  "bars": [
-  {
-   "time": "2025-11-12",
-   "open": 273.0,
-   "high": 293.65,
-   "low": 269.55,
-   "close": 290.25,
-   "volume": 3360097,
-   "delivery_pct": 44.88
-  },
   {
    "time": "2025-11-13",
    "open": 295.1,
@@ -2262,14 +2253,19 @@
    "close": 906.3,
    "volume": 903188,
    "delivery_pct": 49.42
+  },
+  {
+   "time": "2026-11-20",
+   "open": 904.0,
+   "high": 916.5,
+   "low": 902.65,
+   "close": 913.8,
+   "volume": 335854,
+   "delivery_pct": 36.33
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-09",
-    "value": 317.37
-   },
    {
     "time": "2025-12-10",
     "value": 319.69
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-19",
     "value": 858.2
+   },
+   {
+    "time": "2026-11-20",
+    "value": 864.92
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-22",
-    "value": 338.1
-   },
    {
     "time": "2026-01-23",
     "value": 338.71
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-19",
     "value": 795.6
+   },
+   {
+    "time": "2026-11-20",
+    "value": 800.27
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-02",
-    "value": 434.92
-   },
    {
     "time": "2026-09-03",
     "value": 436.79
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-19",
     "value": 551.01
+   },
+   {
+    "time": "2026-11-20",
+    "value": 554.02
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.49,
-  "atr_pct": 2.79,
-  "rel_volume_20d": 0.83,
-  "dist_20dma_pct": 5.61,
-  "dist_50dma_pct": 13.91,
-  "dist_200dma_pct": 64.48
+  "rsi_14": 69.98,
+  "atr_pct": 2.68,
+  "rel_volume_20d": 0.31,
+  "dist_20dma_pct": 5.65,
+  "dist_50dma_pct": 14.19,
+  "dist_200dma_pct": 64.94
  }
 }

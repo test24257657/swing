@@ -2,21 +2,12 @@
  "symbol": "AVTNPL",
  "quarters": [
   {
-   "label": "Q2 FY26",
-   "period_end": "2025-09-30",
-   "revenue_cr": 160.3,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 13.3,
-   "net_income_qoq_pct": null,
-   "eps": 0.87
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 194.0,
-   "revenue_qoq_pct": 21.0,
+   "revenue_qoq_pct": null,
    "net_income_cr": 17.4,
-   "net_income_qoq_pct": 30.8,
+   "net_income_qoq_pct": null,
    "eps": 1.14
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 31.1,
    "net_income_qoq_pct": 41.4,
    "eps": 2.04
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 217.4,
+   "revenue_qoq_pct": -9.9,
+   "net_income_cr": 30.9,
+   "net_income_qoq_pct": -0.6,
+   "eps": 2.03
   }
  ],
  "verification": null

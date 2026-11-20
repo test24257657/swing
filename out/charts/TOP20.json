@@ -2,7 +2,7 @@
  "symbol": "TOP20",
  "name": "TOP20",
  "kind": "stock",
- "as_of": "2026-11-19",
+ "as_of": "2026-11-20",
  "bars": [
   {
    "time": "2025-12-19",
@@ -2019,6 +2019,15 @@
    "close": 9.5,
    "volume": 87242,
    "delivery_pct": 67.26
+  },
+  {
+   "time": "2026-11-20",
+   "open": 9.5,
+   "high": 9.6,
+   "low": 9.45,
+   "close": 9.59,
+   "volume": 160636,
+   "delivery_pct": 67.42
   }
  ],
  "ma": {
@@ -2842,6 +2851,10 @@
    {
     "time": "2026-11-19",
     "value": 8.97
+   },
+   {
+    "time": "2026-11-20",
+    "value": 9.02
    }
   ],
   "sma_50": [
@@ -3544,6 +3557,10 @@
    {
     "time": "2026-11-19",
     "value": 8.71
+   },
+   {
+    "time": "2026-11-20",
+    "value": 8.72
    }
   ],
   "sma_200": [
@@ -3646,15 +3663,19 @@
    {
     "time": "2026-11-19",
     "value": 8.81
+   },
+   {
+    "time": "2026-11-20",
+    "value": 8.81
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.33,
-  "atr_pct": 1.91,
-  "rel_volume_20d": 0.3,
-  "dist_20dma_pct": 5.92,
-  "dist_50dma_pct": 9.06,
-  "dist_200dma_pct": 7.87
+  "rsi_14": 77.36,
+  "atr_pct": 1.87,
+  "rel_volume_20d": 0.54,
+  "dist_20dma_pct": 6.28,
+  "dist_50dma_pct": 9.91,
+  "dist_200dma_pct": 8.87
  }
 }

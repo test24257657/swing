@@ -2,17 +2,8 @@
  "symbol": "HDFCAMC",
  "name": "HDFC Asset Management Company Limited",
  "kind": "stock",
- "as_of": "2026-11-19",
+ "as_of": "2026-11-20",
  "bars": [
-  {
-   "time": "2025-11-12",
-   "open": 5505.0,
-   "high": 5523.5,
-   "low": 5451.5,
-   "close": 5485.5,
-   "volume": 326699,
-   "delivery_pct": 66.98
-  },
   {
    "time": "2025-11-13",
    "open": 5500.0,
@@ -2262,14 +2253,19 @@
    "close": 2689.3,
    "volume": 635379,
    "delivery_pct": 52.82
+  },
+  {
+   "time": "2026-11-20",
+   "open": 2667.3,
+   "high": 2730.0,
+   "low": 2651.0,
+   "close": 2697.0,
+   "volume": 791930,
+   "delivery_pct": 59.62
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-09",
-    "value": 4013.14
-   },
    {
     "time": "2025-12-10",
     "value": 3869.34
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-19",
     "value": 2483.32
+   },
+   {
+    "time": "2026-11-20",
+    "value": 2502.6
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-22",
-    "value": 3169.76
-   },
    {
     "time": "2026-01-23",
     "value": 3108.64
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-19",
     "value": 2413.35
+   },
+   {
+    "time": "2026-11-20",
+    "value": 2418.13
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-02",
-    "value": 2753.27
-   },
    {
     "time": "2026-09-03",
     "value": 2738.4
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-19",
     "value": 2564.57
+   },
+   {
+    "time": "2026-11-20",
+    "value": 2565.88
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.54,
-  "atr_pct": 2.78,
-  "rel_volume_20d": 0.73,
-  "dist_20dma_pct": 8.29,
-  "dist_50dma_pct": 11.43,
-  "dist_200dma_pct": 4.86
+  "rsi_14": 66.0,
+  "atr_pct": 2.79,
+  "rel_volume_20d": 0.9,
+  "dist_20dma_pct": 7.77,
+  "dist_50dma_pct": 11.53,
+  "dist_200dma_pct": 5.11
  }
 }

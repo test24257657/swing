@@ -2,17 +2,8 @@
  "symbol": "MEP",
  "name": "MEP Infrastructure Developers Limited",
  "kind": "stock",
- "as_of": "2026-11-19",
+ "as_of": "2026-11-20",
  "bars": [
-  {
-   "time": "2025-11-12",
-   "open": 2.64,
-   "high": 2.64,
-   "low": 2.64,
-   "close": 2.64,
-   "volume": 15989,
-   "delivery_pct": null
-  },
   {
    "time": "2025-11-13",
    "open": 2.58,
@@ -2262,14 +2253,19 @@
    "close": 0.69,
    "volume": 23546,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-11-20",
+   "open": 0.68,
+   "high": 0.7,
+   "low": 0.68,
+   "close": 0.68,
+   "volume": 37067,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-09",
-    "value": 2.28
-   },
    {
     "time": "2025-12-10",
     "value": 2.25
@@ -2856,7 +2852,7 @@
    },
    {
     "time": "2026-07-17",
-    "value": 0.69
+    "value": 0.68
    },
    {
     "time": "2026-07-20",
@@ -2952,7 +2948,7 @@
    },
    {
     "time": "2026-08-20",
-    "value": 0.57
+    "value": 0.58
    },
    {
     "time": "2026-08-21",
@@ -3000,7 +2996,7 @@
    },
    {
     "time": "2026-09-07",
-    "value": 0.68
+    "value": 0.67
    },
    {
     "time": "2026-09-08",
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-19",
     "value": 0.65
+   },
+   {
+    "time": "2026-11-20",
+    "value": 0.65
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-22",
-    "value": 2.04
-   },
    {
     "time": "2026-01-23",
     "value": 2.02
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-19",
     "value": 0.66
+   },
+   {
+    "time": "2026-11-20",
+    "value": 0.66
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-02",
-    "value": 1.17
-   },
    {
     "time": "2026-09-03",
     "value": 1.16
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-19",
     "value": 0.82
+   },
+   {
+    "time": "2026-11-20",
+    "value": 0.82
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.8,
-  "atr_pct": 2.22,
-  "rel_volume_20d": 0.43,
-  "dist_20dma_pct": 6.89,
-  "dist_50dma_pct": 4.77,
-  "dist_200dma_pct": -15.87
+  "rsi_14": 60.42,
+  "atr_pct": 2.3,
+  "rel_volume_20d": 0.78,
+  "dist_20dma_pct": 5.18,
+  "dist_50dma_pct": 3.34,
+  "dist_200dma_pct": -16.69
  }
 }

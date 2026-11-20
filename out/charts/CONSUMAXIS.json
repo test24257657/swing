@@ -2,7 +2,7 @@
  "symbol": "CONSUMAXIS",
  "name": "CONSUMAXIS",
  "kind": "stock",
- "as_of": "2026-11-19",
+ "as_of": "2026-11-20",
  "bars": [
   {
    "time": "2026-07-03",
@@ -858,6 +858,15 @@
    "close": 126.08,
    "volume": 920,
    "delivery_pct": 86.63
+  },
+  {
+   "time": "2026-11-20",
+   "open": 126.13,
+   "high": 127.28,
+   "low": 125.86,
+   "close": 127.16,
+   "volume": 1320,
+   "delivery_pct": 84.77
   }
  ],
  "ma": {
@@ -1165,6 +1174,10 @@
    {
     "time": "2026-11-19",
     "value": 117.89
+   },
+   {
+    "time": "2026-11-20",
+    "value": 118.7
    }
   ],
   "sma_50": [
@@ -1351,15 +1364,19 @@
    {
     "time": "2026-11-19",
     "value": 116.58
+   },
+   {
+    "time": "2026-11-20",
+    "value": 116.74
    }
   ]
  },
  "technicals": {
-  "rsi_14": 73.07,
-  "atr_pct": 1.82,
-  "rel_volume_20d": 0.53,
-  "dist_20dma_pct": 6.94,
-  "dist_50dma_pct": 8.15,
+  "rsi_14": 74.83,
+  "atr_pct": 1.76,
+  "rel_volume_20d": 1.09,
+  "dist_20dma_pct": 7.13,
+  "dist_50dma_pct": 8.92,
   "dist_200dma_pct": null
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "VALUE",
  "name": "VALUE",
  "kind": "stock",
- "as_of": "2026-11-19",
+ "as_of": "2026-11-20",
  "bars": [
   {
    "time": "2026-03-27",
@@ -1434,6 +1434,15 @@
    "close": 16.08,
    "volume": 32725,
    "delivery_pct": 54.1
+  },
+  {
+   "time": "2026-11-20",
+   "open": 16.04,
+   "high": 16.04,
+   "low": 15.72,
+   "close": 15.98,
+   "volume": 24980,
+   "delivery_pct": 74.8
   }
  ],
  "ma": {
@@ -1997,6 +2006,10 @@
    {
     "time": "2026-11-19",
     "value": 15.3
+   },
+   {
+    "time": "2026-11-20",
+    "value": 15.35
    }
   ],
   "sma_50": [
@@ -2439,15 +2452,19 @@
    {
     "time": "2026-11-19",
     "value": 15.43
+   },
+   {
+    "time": "2026-11-20",
+    "value": 15.42
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.11,
-  "atr_pct": 2.35,
-  "rel_volume_20d": 0.99,
-  "dist_20dma_pct": 5.11,
-  "dist_50dma_pct": 4.23,
+  "rsi_14": 62.06,
+  "atr_pct": 2.36,
+  "rel_volume_20d": 0.75,
+  "dist_20dma_pct": 4.07,
+  "dist_50dma_pct": 3.61,
   "dist_200dma_pct": null
  }
 }

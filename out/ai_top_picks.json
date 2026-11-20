@@ -1,76 +1,134 @@
 {
- "as_of": "2026-11-19",
+ "as_of": "2026-11-20",
  "source": "ai",
- "universe": 337,
- "eligible": 24,
+ "universe": 341,
+ "eligible": 9,
  "picks": [
   {
-   "symbol": "TVSMOTOR",
-   "ltp": 4601.4,
+   "symbol": "NITINSPIN",
+   "ltp": 704.7,
    "technicals": {
-    "rsi_14": 67.53,
-    "rel_volume_20d": 1.97,
-    "dist_20dma_pct": 7.02,
-    "dist_50dma_pct": 10.67,
-    "dist_200dma_pct": 19.88
+    "rsi_14": 67.26,
+    "rel_volume_20d": 5.45,
+    "dist_20dma_pct": 7.07,
+    "dist_50dma_pct": 10.78,
+    "dist_200dma_pct": 36.55
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 4560.0,
-    "stop_suggestion": 4070.0,
-    "target_suggestion": 5472.0,
-    "gap_to_pivot_pct": 0.91
+    "stage": "forming",
+    "pivot_price": 687.6,
+    "stop_suggestion": 616.05,
+    "target_suggestion": 825.12,
+    "gap_to_pivot_pct": 2.49
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 19474.4,
-    "net_income_cr": 1194.5,
-    "revenue_qoq_pct": 19.5,
-    "net_income_qoq_pct": 17.2
+    "revenue_cr": 985.2,
+    "net_income_cr": 88.7,
+    "revenue_qoq_pct": 12.6,
+    "net_income_qoq_pct": 17.8
    },
-   "reason": "Confirmed 52-week high breakout with volume at 1.97x average and RSI of 67.53. Fundamentals are robust with revenue up 19.5% QoQ and net profit growing 17.2% QoQ.",
+   "reason": "Forms a 52-week breakout backed by massive 5.45x average volume and a healthy 67.26 RSI. Fundamentals support the move with 12.6% revenue growth and 17.8% profit growth QoQ.",
    "rank": 1,
-   "name": "TVS Motor Company Limited"
+   "name": "Nitin Spinners Limited"
   },
   {
-   "symbol": "SANGAMIND",
-   "ltp": 676.95,
+   "symbol": "VIJAYA",
+   "ltp": 1572.3,
    "technicals": {
-    "rsi_14": 69.47,
-    "rel_volume_20d": 2.38,
-    "dist_20dma_pct": 9.52,
-    "dist_50dma_pct": 11.68,
-    "dist_200dma_pct": 25.45
+    "rsi_14": 64.81,
+    "rel_volume_20d": 3.0,
+    "dist_20dma_pct": 8.29,
+    "dist_50dma_pct": 7.72,
+    "dist_200dma_pct": 24.4
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 645.55,
-    "stop_suggestion": 584.55,
-    "target_suggestion": 774.66,
-    "gap_to_pivot_pct": 4.86
+    "pivot_price": 1570.7,
+    "stop_suggestion": 1381.4,
+    "target_suggestion": 1884.84,
+    "gap_to_pivot_pct": 0.1
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 1045.3,
-    "net_income_cr": 53.4,
-    "revenue_qoq_pct": 21.5,
-    "net_income_qoq_pct": 30.2
+    "revenue_cr": 255.4,
+    "net_income_cr": 59.5,
+    "revenue_qoq_pct": 10.6,
+    "net_income_qoq_pct": 12.1
    },
-   "reason": "Confirmed 52-week high breakout supported by strong 2.38x average volume and 69.47 RSI. Financials show impressive balanced growth, with revenue rising 21.5% QoQ and net profit jumping 30.2% QoQ.",
+   "reason": "Confirmed 52-week high breakout with volume at 3.0x average and RSI at 64.81 showing strong momentum. Steady fundamentals reinforce strength, with revenue up 10.6% and net profit growing 12.1% QoQ.",
    "rank": 2,
-   "name": "Sangam (India) Limited"
+   "name": "Vijaya Diagnostic Centre Limited"
+  },
+  {
+   "symbol": "COFORGE",
+   "ltp": 2086.7,
+   "technicals": {
+    "rsi_14": 63.51,
+    "rel_volume_20d": 3.53,
+    "dist_20dma_pct": 3.25,
+    "dist_50dma_pct": 9.0,
+    "dist_200dma_pct": 33.42
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 2119.0,
+    "stop_suggestion": 1980.91,
+    "target_suggestion": 2436.85,
+    "gap_to_pivot_pct": -1.52
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 6170.8,
+    "net_income_cr": 588.1,
+    "revenue_qoq_pct": 11.6,
+    "net_income_qoq_pct": 13.4
+   },
+   "reason": "Trading near pivot with strong 3.53x average volume and RSI of 63.51. Solid double-digit growth backs the setup, as revenue rose 11.6% and net profit grew 13.4% QoQ.",
+   "rank": 3,
+   "name": "Coforge Limited"
+  },
+  {
+   "symbol": "APOLLOHOSP",
+   "ltp": 9200.0,
+   "technicals": {
+    "rsi_14": 69.99,
+    "rel_volume_20d": 2.72,
+    "dist_20dma_pct": 9.48,
+    "dist_50dma_pct": 9.54,
+    "dist_200dma_pct": 12.24
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 9069.0,
+    "stop_suggestion": 8100.0,
+    "target_suggestion": 10882.8,
+    "gap_to_pivot_pct": 1.44
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 7614.9,
+    "net_income_cr": 629.9,
+    "revenue_qoq_pct": 8.1,
+    "net_income_qoq_pct": 8.5
+   },
+   "reason": "Confirmed 52-week high breakout supported by strong 2.72x average volume and RSI of 69.99. Fundamental growth is steady and clean, with revenue increasing 8.1% and net profit rising 8.5% QoQ.",
+   "rank": 4,
+   "name": "Apollo Hospitals Enterprise Limited"
   },
   {
    "symbol": "FLUOROCHEM",
-   "ltp": 4978.6,
+   "ltp": 4932.7,
    "technicals": {
-    "rsi_14": 66.15,
-    "rel_volume_20d": 2.72,
-    "dist_20dma_pct": 9.97,
-    "dist_50dma_pct": 9.91,
-    "dist_200dma_pct": 25.86
+    "rsi_14": 63.66,
+    "rel_volume_20d": 0.93,
+    "dist_20dma_pct": 8.28,
+    "dist_50dma_pct": 8.71,
+    "dist_200dma_pct": 24.4
    },
    "pattern": {
     "code": "high_52w_breakout",
@@ -78,7 +136,7 @@
     "pivot_price": 4824.4,
     "stop_suggestion": 4175.0,
     "target_suggestion": 5789.28,
-    "gap_to_pivot_pct": 3.2
+    "gap_to_pivot_pct": 2.24
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
@@ -87,67 +145,9 @@
     "revenue_qoq_pct": 10.8,
     "net_income_qoq_pct": 11.0
    },
-   "reason": "Confirmed 52-week breakout with heavy volume at 2.72x average and healthy RSI of 66.15. Solid fundamental expansion backing the move, as revenue grew 10.8% QoQ alongside 11.0% QoQ net profit growth.",
-   "rank": 3,
-   "name": "Gujarat Fluorochemicals Limited"
-  },
-  {
-   "symbol": "THELEELA",
-   "ltp": 695.65,
-   "technicals": {
-    "rsi_14": 67.67,
-    "rel_volume_20d": 0.99,
-    "dist_20dma_pct": 8.08,
-    "dist_50dma_pct": 16.95,
-    "dist_200dma_pct": 42.09
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 689.75,
-    "stop_suggestion": 589.1,
-    "target_suggestion": 827.7,
-    "gap_to_pivot_pct": 0.86
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 411.9,
-    "net_income_cr": 94.6,
-    "revenue_qoq_pct": 17.0,
-    "net_income_qoq_pct": 93.9
-   },
-   "reason": "Strong 52-week high setup just 0.86% from pivot, sitting 42.09% above its 200-day average with RSI 67.67. Fundamentals are exceptional, featuring 17.0% QoQ revenue growth and a 93.9% QoQ profit surge.",
-   "rank": 4,
-   "name": "Leela Palaces Hotels & Resorts Limited"
-  },
-  {
-   "symbol": "CRAFTSMAN",
-   "ltp": 11930.0,
-   "technicals": {
-    "rsi_14": 69.23,
-    "rel_volume_20d": 1.89,
-    "dist_20dma_pct": 9.74,
-    "dist_50dma_pct": 9.79,
-    "dist_200dma_pct": 29.75
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 11851.0,
-    "stop_suggestion": 10075.0,
-    "target_suggestion": 14221.2,
-    "gap_to_pivot_pct": 0.67
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 2945.2,
-    "net_income_cr": 153.2,
-    "revenue_qoq_pct": 21.1,
-    "net_income_qoq_pct": 1.7
-   },
-   "reason": "Confirmed 52-week breakout just 0.67% above pivot with strong 1.89x volume and RSI of 69.23. Supported by robust quarterly top-line expansion with revenue surging 21.1% QoQ and net profit reaching \u20b9153.2 cr.",
+   "reason": "Confirmed 52-week high breakout staying 24.4% above its 200-day average with a healthy 63.66 RSI. Backed by balanced double-digit growth, with revenue up 10.8% and profit up 11.0% QoQ.",
    "rank": 5,
-   "name": "Craftsman Automation Limited"
+   "name": "Gujarat Fluorochemicals Limited"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "symbol": "ITL",
  "name": "ITL Industries Limited",
  "kind": "stock",
- "as_of": "2026-11-19",
+ "as_of": "2026-11-20",
  "bars": [
   {
    "time": "2026-08-17",
@@ -579,6 +579,15 @@
    "close": 394.85,
    "volume": 6917,
    "delivery_pct": 69.91
+  },
+  {
+   "time": "2026-11-20",
+   "open": 406.0,
+   "high": 407.05,
+   "low": 385.1,
+   "close": 399.2,
+   "volume": 3765,
+   "delivery_pct": 77.05
   }
  ],
  "ma": {
@@ -762,6 +771,10 @@
    {
     "time": "2026-11-19",
     "value": 358.25
+   },
+   {
+    "time": "2026-11-20",
+    "value": 360.96
    }
   ],
   "sma_50": [
@@ -824,15 +837,19 @@
    {
     "time": "2026-11-19",
     "value": 361.22
+   },
+   {
+    "time": "2026-11-20",
+    "value": 361.92
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.25,
-  "atr_pct": 5.56,
-  "rel_volume_20d": 2.2,
-  "dist_20dma_pct": 10.22,
-  "dist_50dma_pct": 9.31,
+  "rsi_14": 68.75,
+  "atr_pct": 5.5,
+  "rel_volume_20d": 1.09,
+  "dist_20dma_pct": 10.59,
+  "dist_50dma_pct": 10.3,
   "dist_200dma_pct": null
  }
 }
