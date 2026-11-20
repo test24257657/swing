@@ -2,7 +2,7 @@
  "as_of": "2026-11-20",
  "source": "ai",
  "universe": 341,
- "eligible": 9,
+ "eligible": 20,
  "picks": [
   {
    "symbol": "NITINSPIN",
@@ -29,7 +29,7 @@
     "revenue_qoq_pct": 12.6,
     "net_income_qoq_pct": 17.8
    },
-   "reason": "Forms a 52-week breakout backed by massive 5.45x average volume and a healthy 67.26 RSI. Fundamentals support the move with 12.6% revenue growth and 17.8% profit growth QoQ.",
+   "reason": "Forms a 52-week breakout with strong 5.45x average volume and a healthy 67.26 RSI. Fundamental growth is solid with revenue up 12.6% and net profit rising 17.8% QoQ.",
    "rank": 1,
    "name": "Nitin Spinners Limited"
   },
@@ -58,9 +58,38 @@
     "revenue_qoq_pct": 10.6,
     "net_income_qoq_pct": 12.1
    },
-   "reason": "Confirmed 52-week high breakout with volume at 3.0x average and RSI at 64.81 showing strong momentum. Steady fundamentals reinforce strength, with revenue up 10.6% and net profit growing 12.1% QoQ.",
+   "reason": "Confirmed 52-week breakout right at pivot \u20b91570.7 backed by 3.0x volume and 64.81 RSI. Fundamentals are steady with revenue growing 10.6% and net profit increasing 12.1% QoQ.",
    "rank": 2,
    "name": "Vijaya Diagnostic Centre Limited"
+  },
+  {
+   "symbol": "TVSMOTOR",
+   "ltp": 4590.0,
+   "technicals": {
+    "rsi_14": 66.65,
+    "rel_volume_20d": 1.28,
+    "dist_20dma_pct": 6.02,
+    "dist_50dma_pct": 10.15,
+    "dist_200dma_pct": 19.42
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 4560.0,
+    "stop_suggestion": 4126.2,
+    "target_suggestion": 5472.0,
+    "gap_to_pivot_pct": 0.66
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 19474.4,
+    "net_income_cr": 1194.5,
+    "revenue_qoq_pct": 19.5,
+    "net_income_qoq_pct": 17.2
+   },
+   "reason": "Confirmed 52-week breakout near pivot \u20b94560.0 on solid 1.28x volume with RSI at 66.65. Balanced financial growth supports the move, as revenue increased 19.5% and net profit rose 17.2% QoQ.",
+   "rank": 3,
+   "name": "TVS Motor Company Limited"
   },
   {
    "symbol": "COFORGE",
@@ -87,67 +116,38 @@
     "revenue_qoq_pct": 11.6,
     "net_income_qoq_pct": 13.4
    },
-   "reason": "Trading near pivot with strong 3.53x average volume and RSI of 63.51. Solid double-digit growth backs the setup, as revenue rose 11.6% and net profit grew 13.4% QoQ.",
-   "rank": 3,
+   "reason": "Forming near pivot \u20b92119.0 with strong buyer interest shown by 3.53x average volume and 63.51 RSI. Solid financials reinforce the setup, with revenue rising 11.6% and net profit up 13.4% QoQ.",
+   "rank": 4,
    "name": "Coforge Limited"
   },
   {
-   "symbol": "APOLLOHOSP",
-   "ltp": 9200.0,
+   "symbol": "FEDERALBNK",
+   "ltp": 373.5,
    "technicals": {
-    "rsi_14": 69.99,
-    "rel_volume_20d": 2.72,
-    "dist_20dma_pct": 9.48,
-    "dist_50dma_pct": 9.54,
-    "dist_200dma_pct": 12.24
+    "rsi_14": 69.73,
+    "rel_volume_20d": 1.32,
+    "dist_20dma_pct": 6.59,
+    "dist_50dma_pct": 9.99,
+    "dist_200dma_pct": 18.02
    },
    "pattern": {
     "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 9069.0,
-    "stop_suggestion": 8100.0,
-    "target_suggestion": 10882.8,
-    "gap_to_pivot_pct": 1.44
+    "stage": "forming",
+    "pivot_price": 371.7,
+    "stop_suggestion": 329.5,
+    "target_suggestion": 446.04,
+    "gap_to_pivot_pct": 0.48
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 7614.9,
-    "net_income_cr": 629.9,
-    "revenue_qoq_pct": 8.1,
-    "net_income_qoq_pct": 8.5
+    "revenue_cr": 5120.0,
+    "net_income_cr": 1498.7,
+    "revenue_qoq_pct": 16.2,
+    "net_income_qoq_pct": 19.3
    },
-   "reason": "Confirmed 52-week high breakout supported by strong 2.72x average volume and RSI of 69.99. Fundamental growth is steady and clean, with revenue increasing 8.1% and net profit rising 8.5% QoQ.",
-   "rank": 4,
-   "name": "Apollo Hospitals Enterprise Limited"
-  },
-  {
-   "symbol": "FLUOROCHEM",
-   "ltp": 4932.7,
-   "technicals": {
-    "rsi_14": 63.66,
-    "rel_volume_20d": 0.93,
-    "dist_20dma_pct": 8.28,
-    "dist_50dma_pct": 8.71,
-    "dist_200dma_pct": 24.4
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 4824.4,
-    "stop_suggestion": 4175.0,
-    "target_suggestion": 5789.28,
-    "gap_to_pivot_pct": 2.24
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 1760.0,
-    "net_income_cr": 243.0,
-    "revenue_qoq_pct": 10.8,
-    "net_income_qoq_pct": 11.0
-   },
-   "reason": "Confirmed 52-week high breakout staying 24.4% above its 200-day average with a healthy 63.66 RSI. Backed by balanced double-digit growth, with revenue up 10.8% and profit up 11.0% QoQ.",
+   "reason": "Forming a 52-week breakout near pivot \u20b9371.7 with good 1.32x volume and RSI 69.73. Double-digit fundamental growth drives the trend, with revenue expanding 16.2% and net profit up 19.3% QoQ.",
    "rank": 5,
-   "name": "Gujarat Fluorochemicals Limited"
+   "name": "The Federal Bank  Limited"
   }
  ]
 }
