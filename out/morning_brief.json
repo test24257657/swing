@@ -1,129 +1,129 @@
 {
- "generated_at": "2026-11-20T08:15:59+05:30",
- "for_session": "2026-11-20",
+ "generated_at": "2026-11-23T08:15:59+05:30",
+ "for_session": "2026-11-23",
  "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7175.83,
-   "change_pct": -2.02,
-   "as_of": "2026-11-19"
+   "value": 6910.39,
+   "change_pct": -3.7,
+   "as_of": "2026-11-20"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 23879.2,
-   "change_pct": -2.25,
-   "as_of": "2026-11-19"
+   "value": 22617.73,
+   "change_pct": -5.28,
+   "as_of": "2026-11-20"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 49097.06,
-   "change_pct": -2.19,
-   "as_of": "2026-11-19"
+   "value": 48147.33,
+   "change_pct": -1.93,
+   "as_of": "2026-11-20"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 56775.04,
-   "change_pct": -4.49,
+   "value": 56436.65,
+   "change_pct": -5.06,
    "as_of": "2026-11-20"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 22395.44,
-   "change_pct": -1.95,
-   "as_of": "2026-11-20"
+   "value": 22076.2,
+   "change_pct": -1.49,
+   "as_of": "2026-11-23"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 4908.85,
-   "change_pct": -4.46,
-   "as_of": "2026-11-20"
+   "value": 4635.09,
+   "change_pct": -4.82,
+   "as_of": "2026-11-23"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 90.01,
-   "change_pct": -2.11,
-   "as_of": "2026-11-19"
+   "value": 89.62,
+   "change_pct": -3.19,
+   "as_of": "2026-11-22"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 3534.7,
-   "change_pct": -5.54,
-   "as_of": "2026-11-19"
+   "value": 3579.4,
+   "change_pct": 1.82,
+   "as_of": "2026-11-22"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 93.28,
-   "change_pct": -0.2,
-   "as_of": "2026-11-20"
+   "value": 92.66,
+   "change_pct": -0.68,
+   "as_of": "2026-11-23"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 5.05,
-   "change_pct": -0.28,
-   "as_of": "2026-11-19"
+   "value": 4.91,
+   "change_pct": -2.77,
+   "as_of": "2026-11-20"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 103.87,
-   "change_pct": 0.01,
-   "as_of": "2026-11-19"
+   "value": 103.73,
+   "change_pct": -0.08,
+   "as_of": "2026-11-22"
   }
  ],
  "global_tone": {
   "tone": "negative",
-  "avg_change_pct": -3.03,
+  "avg_change_pct": -4.07,
   "crude_alert": true
  },
  "nifty": {
-  "session": "2026-11-19",
-  "close": 25514.3,
-  "high": 25514.3,
-  "low": 25104.8,
-  "pivot": 25377.8,
-  "r1": 25650.8,
-  "s1": 25241.3,
-  "r2": 25787.3,
-  "s2": 24968.3,
-  "sma_20": 24236.07,
-  "sma_50": 23469.52,
-  "sma_200": 23990.75
+  "session": "2026-11-20",
+  "close": 25800.6,
+  "high": 25808.8,
+  "low": 25345.2,
+  "pivot": 25651.53,
+  "r1": 25957.87,
+  "s1": 25494.27,
+  "r2": 26115.13,
+  "s2": 25187.93,
+  "sma_20": 24396.1,
+  "sma_50": 23512.83,
+  "sma_200": 23997.93
  },
  "focus": [
-  {
-   "symbol": "ACUTAAS",
-   "name": "Acutaas Chemicals Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 96
-  },
-  {
-   "symbol": "63MOONS",
-   "name": "63 moons technologies limited",
-   "why": "Ready setup near its pivot",
-   "rs": 89
-  },
-  {
-   "symbol": "AARTIDRUGS",
-   "name": "Aarti Drugs Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 86
-  },
   {
    "symbol": "ADANIPORTS",
    "name": "Adani Ports and Special Economic Zone Limited",
    "why": "Ready setup near its pivot",
+   "rs": 83
+  },
+  {
+   "symbol": "ABCAPITAL",
+   "name": "Aditya Birla Capital Limited",
+   "why": "Ready setup near its pivot",
    "rs": 82
+  },
+  {
+   "symbol": "NITINSPIN",
+   "name": "Nitin Spinners Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "VIJAYA",
+   "name": "Vijaya Diagnostic Centre Limited",
+   "why": "AI top 5",
+   "rs": null
   },
   {
    "symbol": "TVSMOTOR",
@@ -132,26 +132,14 @@
    "rs": null
   },
   {
-   "symbol": "SANGAMIND",
-   "name": "Sangam (India) Limited",
+   "symbol": "COFORGE",
+   "name": "Coforge Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "FLUOROCHEM",
-   "name": "Gujarat Fluorochemicals Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "THELEELA",
-   "name": "Leela Palaces Hotels & Resorts Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "CRAFTSMAN",
-   "name": "Craftsman Automation Limited",
+   "symbol": "FEDERALBNK",
+   "name": "The Federal Bank  Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -159,36 +147,84 @@
    "symbol": "ADANIPOWER",
    "name": "Adani Power Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 80
+   "rs": 82
+  },
+  {
+   "symbol": "360ONE",
+   "name": "360 ONE WAM LIMITED",
+   "why": "Pocket pivot yesterday",
+   "rs": 72
   },
   {
    "symbol": "ACC",
    "name": "ACC Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 35
+   "rs": 39
   }
  ],
  "overnight_news": [
   {
-   "symbol": "TECHM",
-   "time": "19 Nov 19:51",
-   "category": "Allotment of Securities",
-   "text": "Tech Mahindra Limited has informed the Exchange regarding allotment of 190000 securities to Tech Mahindra ESOP Trust  at its meeting held on November 19, 2026",
-   "url": "https://nsearchives.nseindia.in/corporate/Apekshakhemka_19112026195054_ESOP_allotment_Intimation.pdf"
+   "symbol": "TATASTEEL",
+   "time": "23 Nov 07:35",
+   "category": "Acquisition",
+   "text": "Tata Steel Limited has informed the Exchange about acquisition of equity stake in APL Apollo Tubes Limited",
+   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_23112026073427_BSENSE.pdf"
   },
   {
-   "symbol": "ICICIBANK",
-   "time": "19 Nov 17:29",
-   "category": "Credit Rating",
-   "text": "ICICI Bank Limited has informed the Exchange about Credit Rating",
-   "url": "https://nsearchives.nseindia.in/corporate/ICICI2022_19112026172914_NSEBSE19112026.pdf"
+   "symbol": "TATASTEEL",
+   "time": "23 Nov 07:31",
+   "category": "Outcome of Board Meeting",
+   "text": "Tata Steel Limited has informed the Exchange regarding Outcome of Board Meeting held on November 23, 2026.",
+   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_23112026073027_BSENSE.pdf"
+  },
+  {
+   "symbol": "TATASTEEL",
+   "time": "22 Nov 19:11",
+   "category": "Sale or disposal",
+   "text": "Tata Steel Limited has informed the Exchange about transfer of Tubes Business of the Company and entering into Business Transfer Agreement between the Company and APL Apollo Tubes Limited",
+   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_22112026191002_Board_Outcome_signed.pdf"
+  },
+  {
+   "symbol": "TATASTEEL",
+   "time": "22 Nov 19:08",
+   "category": "Diversification/Disinvestment",
+   "text": "Tata Steel Limited has informed the Exchange about Divestment of entire equity stake in Tata Steel Colors Private Limited",
+   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_22112026190635_Board_Outcome_signed.pdf"
+  },
+  {
+   "symbol": "TATASTEEL",
+   "time": "22 Nov 18:59",
+   "category": "Outcome of Board Meeting",
+   "text": "Tata Steel Limited has informed the Exchange regarding Outcome of Board Meeting held on November 22, 2026.",
+   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_22112026185630_Board_Outcome_signed.pdf"
+  },
+  {
+   "symbol": "COFORGE",
+   "time": "21 Nov 21:23",
+   "category": "ESOP/ESOS/ESPS",
+   "text": "Coforge Limited has informed the Exchange regarding Allotment of 47824  Shares.",
+   "url": "https://nsearchives.nseindia.in/corporate/COFORGE_21112026212247_SignedExchangeIntimationESOPAllotment.pdf"
+  },
+  {
+   "symbol": "TECHM",
+   "time": "21 Nov 21:01",
+   "category": "Amendment to AOA/MOA",
+   "text": "Tech Mahindra Limited has informed the Exchange regarding the Amendment to AOA/MOA of the company.",
+   "url": "https://nsearchives.nseindia.in/corporate/Apekshakhemka_21112026210056_SE_Intimation_-_Postal_Ballot_results_S.pdf"
+  },
+  {
+   "symbol": "TECHM",
+   "time": "21 Nov 14:01",
+   "category": "ESOP/ESOS/ESPS",
+   "text": "Tech Mahindra Limited has informed the Exchange regarding Allotment of 260316  Shares.",
+   "url": "https://nsearchives.nseindia.in/corporate/Apekshakhemka_21112026140113_ESOP_allotment_Intimation_S.pdf"
   },
   {
    "symbol": "COALINDIA",
-   "time": "19 Nov 16:37",
-   "category": "Bagging/Receiving of orders/contracts",
-   "text": "Bagging/Receiving of orders/contracts - Sintered Rare Earth Permanent Magnet",
-   "url": "https://nsearchives.nseindia.in/corporate/COALINDIA_19112026163735_magnet.pdf"
+   "time": "21 Nov 12:49",
+   "category": "Change in Management",
+   "text": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements), Regulations 2015-Change in Senior Management",
+   "url": "https://nsearchives.nseindia.in/corporate/COALINDIA_21112026124901_CISM.pdf"
   }
  ],
  "events": [
@@ -202,12 +238,12 @@
  ],
  "community": null,
  "ai": {
-  "headline": "Weak open expected for NIFTY as global markets tumble sharply overnight",
+  "headline": "Weak Global Signals Point to Negative Open; Watch Key Support Levels",
   "points": [
-   "Global markets face heavy selling with Nikkei dropping 4.49%, Kospi down 4.46%, and S&P 500 declining 2.02%, signaling a negative open.",
-   "NIFTY 50 closed at 25514.3; watch key support level S1 at 25241.3 and pivot point at 25377.8 during morning trade.",
-   "In commodities, Brent crude slipped to 90.01 (-2.11%) while Gold dropped to 3534.7 (-5.54%), alongside US 10Y yields at 5.05.",
-   "Watch Tech Mahindra after it allotted 190000 securities, and note 2 companies are scheduled to report quarterly results today."
+   "Expect a weak start as Nasdaq dropped 5.28% and Nikkei fell 5.06%, reflecting a negative global tone averaging -4.07%.",
+   "NIFTY 50 closed at 25800.6; watch pivot level 25651.53 and support S1 at 25494.27 during today's session.",
+   "In commodities, Brent crude declined 3.19% to 89.62, while Gold rose 1.82% to 3579.4.",
+   "Keep an eye on stock triggers as 2 companies announce results and Tech Mahindra allotted 260316 ESOP shares."
   ]
  }
 }
