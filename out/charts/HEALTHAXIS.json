@@ -2,7 +2,7 @@
  "symbol": "HEALTHAXIS",
  "name": "HEALTHAXIS",
  "kind": "stock",
- "as_of": "2026-11-20",
+ "as_of": "2026-11-23",
  "bars": [
   {
    "time": "2026-07-03",
@@ -867,6 +867,15 @@
    "close": 177.23,
    "volume": 9992,
    "delivery_pct": 39.94
+  },
+  {
+   "time": "2026-11-23",
+   "open": 178.16,
+   "high": 179.5,
+   "low": 176.2,
+   "close": 177.76,
+   "volume": 3574,
+   "delivery_pct": 76.8
   }
  ],
  "ma": {
@@ -1178,6 +1187,10 @@
    {
     "time": "2026-11-20",
     "value": 169.14
+   },
+   {
+    "time": "2026-11-23",
+    "value": 170.17
    }
   ],
   "sma_50": [
@@ -1368,15 +1381,19 @@
    {
     "time": "2026-11-20",
     "value": 166.87
+   },
+   {
+    "time": "2026-11-23",
+    "value": 167.06
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.17,
-  "atr_pct": 1.93,
-  "rel_volume_20d": 1.57,
-  "dist_20dma_pct": 4.78,
-  "dist_50dma_pct": 6.21,
+  "rsi_14": 71.01,
+  "atr_pct": 1.92,
+  "rel_volume_20d": 0.56,
+  "dist_20dma_pct": 4.46,
+  "dist_50dma_pct": 6.41,
   "dist_200dma_pct": null
  }
 }

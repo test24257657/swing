@@ -2,17 +2,8 @@
  "symbol": "ADANIPORTS",
  "name": "Adani Ports and Special Economic Zone Limited",
  "kind": "stock",
- "as_of": "2026-11-20",
+ "as_of": "2026-11-23",
  "bars": [
-  {
-   "time": "2025-11-13",
-   "open": 1515.0,
-   "high": 1515.0,
-   "low": 1487.8,
-   "close": 1499.0,
-   "volume": 2304918,
-   "delivery_pct": 41.28
-  },
   {
    "time": "2025-11-14",
    "open": 1500.0,
@@ -2271,14 +2262,19 @@
    "close": 1917.0,
    "volume": 2280536,
    "delivery_pct": 58.48
+  },
+  {
+   "time": "2026-11-23",
+   "open": 1936.0,
+   "high": 1952.9,
+   "low": 1906.6,
+   "close": 1919.0,
+   "volume": 1961952,
+   "delivery_pct": 51.0
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-10",
-    "value": 1500.42
-   },
    {
     "time": "2025-12-11",
     "value": 1500.67
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-11-20",
     "value": 1868.74
+   },
+   {
+    "time": "2026-11-23",
+    "value": 1879.55
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-23",
-    "value": 1475.87
-   },
    {
     "time": "2026-01-27",
     "value": 1473.17
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-11-20",
     "value": 1805.16
+   },
+   {
+    "time": "2026-11-23",
+    "value": 1809.34
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-03",
-    "value": 1603.4
-   },
    {
     "time": "2026-09-04",
     "value": 1604.44
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-11-20",
     "value": 1689.0
+   },
+   {
+    "time": "2026-11-23",
+    "value": 1691.51
    }
   ]
  },
  "technicals": {
-  "rsi_14": 60.0,
+  "rsi_14": 60.27,
   "atr_pct": 2.34,
-  "rel_volume_20d": 0.84,
-  "dist_20dma_pct": 2.58,
-  "dist_50dma_pct": 6.2,
-  "dist_200dma_pct": 13.5
+  "rel_volume_20d": 0.71,
+  "dist_20dma_pct": 2.1,
+  "dist_50dma_pct": 6.06,
+  "dist_200dma_pct": 13.45
  }
 }

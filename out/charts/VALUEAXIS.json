@@ -2,7 +2,7 @@
  "symbol": "VALUEAXIS",
  "name": "VALUEAXIS",
  "kind": "stock",
- "as_of": "2026-11-20",
+ "as_of": "2026-11-23",
  "bars": [
   {
    "time": "2026-07-03",
@@ -867,6 +867,15 @@
    "close": 32.34,
    "volume": 44340,
    "delivery_pct": 66.31
+  },
+  {
+   "time": "2026-11-23",
+   "open": 32.48,
+   "high": 32.64,
+   "low": 31.93,
+   "close": 31.97,
+   "volume": 40159,
+   "delivery_pct": 65.7
   }
  ],
  "ma": {
@@ -1178,6 +1187,10 @@
    {
     "time": "2026-11-20",
     "value": 31.21
+   },
+   {
+    "time": "2026-11-23",
+    "value": 31.3
    }
   ],
   "sma_50": [
@@ -1368,15 +1381,19 @@
    {
     "time": "2026-11-20",
     "value": 31.39
+   },
+   {
+    "time": "2026-11-23",
+    "value": 31.38
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.48,
-  "atr_pct": 2.24,
-  "rel_volume_20d": 0.71,
-  "dist_20dma_pct": 3.63,
-  "dist_50dma_pct": 3.01,
+  "rsi_14": 55.81,
+  "atr_pct": 2.26,
+  "rel_volume_20d": 0.68,
+  "dist_20dma_pct": 2.14,
+  "dist_50dma_pct": 1.89,
   "dist_200dma_pct": null
  }
 }

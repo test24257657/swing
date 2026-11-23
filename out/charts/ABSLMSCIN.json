@@ -2,7 +2,7 @@
  "symbol": "ABSLMSCIN",
  "name": "ABSLMSCIN",
  "kind": "stock",
- "as_of": "2026-11-20",
+ "as_of": "2026-11-23",
  "bars": [
   {
    "time": "2026-02-20",
@@ -1632,6 +1632,15 @@
    "close": 30.72,
    "volume": 8404,
    "delivery_pct": 100.0
+  },
+  {
+   "time": "2026-11-23",
+   "open": 30.66,
+   "high": 30.78,
+   "low": 30.3,
+   "close": 30.3,
+   "volume": 1131,
+   "delivery_pct": 97.44
   }
  ],
  "ma": {
@@ -2283,6 +2292,10 @@
    {
     "time": "2026-11-20",
     "value": 29.24
+   },
+   {
+    "time": "2026-11-23",
+    "value": 29.32
    }
   ],
   "sma_50": [
@@ -2813,15 +2826,19 @@
    {
     "time": "2026-11-20",
     "value": 28.73
+   },
+   {
+    "time": "2026-11-23",
+    "value": 28.75
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.11,
+  "rsi_14": 58.99,
   "atr_pct": 2.02,
-  "rel_volume_20d": 5.01,
-  "dist_20dma_pct": 5.07,
-  "dist_50dma_pct": 6.93,
+  "rel_volume_20d": 0.59,
+  "dist_20dma_pct": 3.36,
+  "dist_50dma_pct": 5.41,
   "dist_200dma_pct": null
  }
 }

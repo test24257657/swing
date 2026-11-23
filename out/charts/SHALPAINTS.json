@@ -2,17 +2,8 @@
  "symbol": "SHALPAINTS",
  "name": "Shalimar Paints Limited",
  "kind": "stock",
- "as_of": "2026-11-20",
+ "as_of": "2026-11-23",
  "bars": [
-  {
-   "time": "2025-11-13",
-   "open": 77.99,
-   "high": 77.99,
-   "low": 72.94,
-   "close": 73.24,
-   "volume": 240641,
-   "delivery_pct": 58.24
-  },
   {
    "time": "2025-11-14",
    "open": 73.24,
@@ -2262,14 +2253,19 @@
    "close": 97.42,
    "volume": 121054,
    "delivery_pct": 69.02
+  },
+  {
+   "time": "2026-11-23",
+   "open": 107.0,
+   "high": 116.8,
+   "low": 102.94,
+   "close": 103.97,
+   "volume": 8956197,
+   "delivery_pct": 25.45
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-10",
-    "value": 66.42
-   },
    {
     "time": "2025-12-11",
     "value": 65.79
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-20",
     "value": 86.09
+   },
+   {
+    "time": "2026-11-23",
+    "value": 87.22
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-23",
-    "value": 64.77
-   },
    {
     "time": "2026-01-27",
     "value": 64.59
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-20",
     "value": 82.46
+   },
+   {
+    "time": "2026-11-23",
+    "value": 82.86
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-03",
-    "value": 59.98
-   },
    {
     "time": "2026-09-04",
     "value": 60.04
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-20",
     "value": 64.51
+   },
+   {
+    "time": "2026-11-23",
+    "value": 64.7
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.54,
-  "atr_pct": 5.36,
-  "rel_volume_20d": 0.36,
-  "dist_20dma_pct": 13.16,
-  "dist_50dma_pct": 18.14,
-  "dist_200dma_pct": 51.02
+  "rsi_14": 75.53,
+  "atr_pct": 5.99,
+  "rel_volume_20d": 26.31,
+  "dist_20dma_pct": 19.2,
+  "dist_50dma_pct": 25.47,
+  "dist_200dma_pct": 60.69
  }
 }

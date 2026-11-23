@@ -2,21 +2,12 @@
  "symbol": "ALICON",
  "quarters": [
   {
-   "label": "Q2 FY26",
-   "period_end": "2025-09-30",
-   "revenue_cr": 428.2,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 13.9,
-   "net_income_qoq_pct": null,
-   "eps": 8.5
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 430.1,
-   "revenue_qoq_pct": 0.4,
+   "revenue_qoq_pct": null,
    "net_income_cr": 3.3,
-   "net_income_qoq_pct": -76.3,
+   "net_income_qoq_pct": null,
    "eps": 2.02
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 11.4,
    "net_income_qoq_pct": 44.3,
    "eps": 7.02
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 649.8,
+   "revenue_qoq_pct": 12.4,
+   "net_income_cr": 17.6,
+   "net_income_qoq_pct": 54.4,
+   "eps": null
   }
  ],
  "verification": null

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T02:38:54+05:30",
+ "generated_at": "2026-11-23T19:34:10+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -7,12 +7,28 @@
   },
   "bhavcopy": {
    "ok": true,
-   "sessions_added": 0,
-   "failed": [],
+   "sessions_added": 1,
+   "failed": [
+    "2025-12-25",
+    "2026-01-15",
+    "2026-01-26",
+    "2026-03-03",
+    "2026-03-26",
+    "2026-03-31",
+    "2026-04-03",
+    "2026-04-14",
+    "2026-05-01",
+    "2026-05-28",
+    "2026-06-26",
+    "2026-09-14",
+    "2026-10-02",
+    "2026-10-20",
+    "2026-11-10"
+   ],
    "phantom_sessions_dropped": [],
    "symbols": 3137,
    "sessions": 252,
-   "rows": 676634
+   "rows": 677154
   },
   "tiles": {
    "ok": 4,
@@ -36,8 +52,8 @@
   },
   "screener": {
    "ok": true,
-   "symbols_scanned": 2851,
-   "symbols_matched": 334
+   "symbols_scanned": 2858,
+   "symbols_matched": 289
   },
   "sectors": {
    "ok": true,
@@ -47,17 +63,17 @@
   },
   "daily_scan": {
    "ok": true,
-   "rated": 2336,
+   "rated": 2339,
    "trend_template": 11,
-   "ready": 2,
-   "delivery_spikes": 3,
-   "pocket_pivots": 3
+   "ready": 0,
+   "delivery_spikes": 1,
+   "pocket_pivots": 1
   },
   "ipos": {
    "ok": false,
-   "issues": 274,
+   "issues": 273,
    "charted": 0,
-   "sme_skipped": 274,
+   "sme_skipped": 273,
    "with_base": 0
   },
   "indices": {
@@ -67,16 +83,16 @@
   },
   "charts": {
    "ok": true,
-   "count": 364
+   "count": 320
   },
   "fundamentals": {
    "ok": true,
-   "symbols": 341,
-   "written": 174
+   "symbols": 297,
+   "written": 166
   },
   "quotes": {
    "ok": true,
-   "count": 2980
+   "count": 2992
   },
   "alerts": {
    "ok": false,
@@ -85,51 +101,46 @@
   },
   "news": {
    "ok": true,
-   "fetched": 66,
-   "classified": 66,
+   "fetched": 28,
+   "classified": 0,
    "gemini_configured": true
   },
   "institutional": {
    "ok": true,
    "deals": 113,
    "participant_oi_sessions": 30,
-   "ai_money_flow": true
+   "ai_money_flow": false
   },
   "fno": {
-   "ok": true,
-   "eligible": 218,
-   "symbols": 55,
-   "written": 55
+   "ok": false,
+   "symbols": 297,
+   "written": 0
   },
   "depth": {
    "ok": false,
-   "symbols": 341,
+   "symbols": 297,
    "written": 0
   },
   "ai_insights": {
    "ok": true,
-   "universe": 341,
+   "universe": 297,
    "scoped": 150,
    "eligible": 150,
-   "written": 150,
+   "written": 15,
    "gemini_calls": 10
   },
   "ai_top_picks": {
-   "ok": true,
-   "source": "ai",
-   "eligible": 20,
-   "picks": 5
-  },
-  "weekly_outlook": {
    "ok": false,
-   "reason": "gemini_unavailable"
+   "source": "rules",
+   "eligible": 0,
+   "picks": 0
   },
   "results_calendar": {
    "ok": true,
-   "upcoming": 11,
-   "past_candidates": 2315,
-   "judged": 1534,
-   "good": 485
+   "upcoming": 10,
+   "past_candidates": 2197,
+   "judged": 1453,
+   "good": 51
   }
  }
 }

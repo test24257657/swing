@@ -2,17 +2,8 @@
  "symbol": "ABDL",
  "name": "Allied Blenders and Distillers Limited",
  "kind": "stock",
- "as_of": "2026-11-20",
+ "as_of": "2026-11-23",
  "bars": [
-  {
-   "time": "2025-11-13",
-   "open": 639.95,
-   "high": 645.05,
-   "low": 624.5,
-   "close": 625.5,
-   "volume": 549918,
-   "delivery_pct": 58.32
-  },
   {
    "time": "2025-11-14",
    "open": 624.85,
@@ -2271,14 +2262,19 @@
    "close": 794.3,
    "volume": 834519,
    "delivery_pct": 50.9
+  },
+  {
+   "time": "2026-11-23",
+   "open": 798.25,
+   "high": 806.8,
+   "low": 783.0,
+   "close": 802.85,
+   "volume": 413151,
+   "delivery_pct": 55.0
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-10",
-    "value": 639.08
-   },
    {
     "time": "2025-12-11",
     "value": 638.54
@@ -3206,13 +3202,13 @@
    {
     "time": "2026-11-20",
     "value": 730.13
+   },
+   {
+    "time": "2026-11-23",
+    "value": 736.64
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-23",
-    "value": 588.25
-   },
    {
     "time": "2026-01-27",
     "value": 584.82
@@ -4020,13 +4016,13 @@
    {
     "time": "2026-11-20",
     "value": 703.02
+   },
+   {
+    "time": "2026-11-23",
+    "value": 707.18
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-03",
-    "value": 563.05
-   },
    {
     "time": "2026-09-04",
     "value": 562.97
@@ -4234,15 +4230,19 @@
    {
     "time": "2026-11-20",
     "value": 593.21
+   },
+   {
+    "time": "2026-11-23",
+    "value": 594.94
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.84,
-  "atr_pct": 3.96,
-  "rel_volume_20d": 1.33,
-  "dist_20dma_pct": 8.79,
-  "dist_50dma_pct": 12.98,
-  "dist_200dma_pct": 33.9
+  "rsi_14": 70.45,
+  "atr_pct": 3.85,
+  "rel_volume_20d": 0.64,
+  "dist_20dma_pct": 8.99,
+  "dist_50dma_pct": 13.53,
+  "dist_200dma_pct": 34.95
  }
 }

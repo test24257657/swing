@@ -2,17 +2,8 @@
  "symbol": "REGAAL",
  "name": "Regaal Resources Limited",
  "kind": "stock",
- "as_of": "2026-11-20",
+ "as_of": "2026-11-23",
  "bars": [
-  {
-   "time": "2025-11-13",
-   "open": 93.22,
-   "high": 94.88,
-   "low": 89.11,
-   "close": 90.25,
-   "volume": 1588629,
-   "delivery_pct": 25.62
-  },
   {
    "time": "2025-11-14",
    "open": 89.7,
@@ -2262,14 +2253,19 @@
    "close": 98.74,
    "volume": 726480,
    "delivery_pct": 35.6
+  },
+  {
+   "time": "2026-11-23",
+   "open": 100.71,
+   "high": 101.36,
+   "low": 96.11,
+   "close": 99.75,
+   "volume": 712793,
+   "delivery_pct": 39.32
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-10",
-    "value": 80.24
-   },
    {
     "time": "2025-12-11",
     "value": 79.29
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-20",
     "value": 90.65
+   },
+   {
+    "time": "2026-11-23",
+    "value": 91.33
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-23",
-    "value": 74.12
-   },
    {
     "time": "2026-01-27",
     "value": 73.54
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-20",
     "value": 88.34
+   },
+   {
+    "time": "2026-11-23",
+    "value": 88.57
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-03",
-    "value": 77.38
-   },
    {
     "time": "2026-09-04",
     "value": 77.37
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-20",
     "value": 81.07
+   },
+   {
+    "time": "2026-11-23",
+    "value": 81.26
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.14,
-  "atr_pct": 4.9,
-  "rel_volume_20d": 1.67,
-  "dist_20dma_pct": 8.93,
-  "dist_50dma_pct": 11.78,
-  "dist_200dma_pct": 21.79
+  "rsi_14": 67.52,
+  "atr_pct": 4.88,
+  "rel_volume_20d": 1.55,
+  "dist_20dma_pct": 9.21,
+  "dist_50dma_pct": 12.62,
+  "dist_200dma_pct": 22.75
  }
 }

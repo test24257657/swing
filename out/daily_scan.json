@@ -1,279 +1,216 @@
 {
- "as_of": "2026-11-20",
+ "as_of": "2026-11-23",
  "market": {
   "light": "yellow",
   "label": "Be selective",
   "advice": "Only the strongest setups, smaller size, quicker profits.",
   "reasons": [
-   "NIFTY 50 is above its 50-day average (+9.7%)",
-   "above its 200-day average (+7.5%)",
-   "2 distribution days in the last 25 sessions",
-   "40% of stocks are above their 50-day average"
+   "NIFTY 50 is above its 50-day average (+7.6%)",
+   "above its 200-day average (+5.6%)",
+   "3 distribution days in the last 25 sessions",
+   "38% of stocks are above their 50-day average"
   ],
-  "nifty_close": 25800.6,
-  "distribution_days": 2,
-  "pct_above_50dma": 40.0
+  "nifty_close": 25349.65,
+  "distribution_days": 3,
+  "pct_above_50dma": 37.5
  },
- "ready": [
-  {
-   "symbol": "ADANIPORTS",
-   "name": "Adani Ports and Special Economic Zone Limited",
-   "ltp": 1917.0,
-   "change_pct": -0.01,
-   "rs": 83,
-   "rel_volume": 0.84,
-   "pattern": "high_52w_breakout",
-   "pivot": 1942.7,
-   "gap_to_pivot_pct": -1.32,
-   "stop": 1813.7,
-   "dry_up": true
-  },
-  {
-   "symbol": "ABCAPITAL",
-   "name": "Aditya Birla Capital Limited",
-   "ltp": 423.0,
-   "change_pct": 1.43,
-   "rs": 82,
-   "rel_volume": 0.81,
-   "pattern": "high_52w_breakout",
-   "pivot": 424.7,
-   "gap_to_pivot_pct": -0.4,
-   "stop": 353.5,
-   "dry_up": false
-  }
- ],
+ "ready": [],
  "rs_leaders": [
   {
    "symbol": "ACUTAAS",
    "name": "Acutaas Chemicals Limited",
-   "ltp": 3833.5,
-   "change_pct": -3.61,
-   "rs": 95,
-   "rel_volume": 0.53
-  },
-  {
-   "symbol": "AAREYDRUGS",
-   "name": "Aarey Drugs & Pharmaceuticals Limited",
-   "ltp": 116.03,
-   "change_pct": 3.41,
-   "rs": 93,
-   "rel_volume": 1.1
+   "ltp": 3875.0,
+   "change_pct": 1.08,
+   "rs": 96,
+   "rel_volume": 0.5
   },
   {
    "symbol": "ABDL",
    "name": "Allied Blenders and Distillers Limited",
-   "ltp": 794.3,
-   "change_pct": -1.72,
-   "rs": 92,
-   "rel_volume": 1.33
+   "ltp": 802.85,
+   "change_pct": 1.08,
+   "rs": 93,
+   "rel_volume": 0.64
   },
   {
    "symbol": "AARTIPHARM",
    "name": "Aarti Pharmalabs Limited",
-   "ltp": 990.7,
-   "change_pct": -3.31,
-   "rs": 90,
-   "rel_volume": 0.47
+   "ltp": 1020.65,
+   "change_pct": 3.02,
+   "rs": 92,
+   "rel_volume": 1.1
+  },
+  {
+   "symbol": "AAREYDRUGS",
+   "name": "Aarey Drugs & Pharmaceuticals Limited",
+   "ltp": 110.23,
+   "change_pct": -5.0,
+   "rs": 92,
+   "rel_volume": 0.21
   },
   {
    "symbol": "63MOONS",
    "name": "63 moons technologies limited",
-   "ltp": 925.7,
-   "change_pct": -2.81,
+   "ltp": 912.6,
+   "change_pct": -1.42,
    "rs": 88,
-   "rel_volume": 0.72
+   "rel_volume": 4.44
   },
   {
    "symbol": "AARTIDRUGS",
    "name": "Aarti Drugs Limited",
-   "ltp": 484.5,
-   "change_pct": -2.89,
-   "rs": 84,
-   "rel_volume": 0.12
-  },
-  {
-   "symbol": "ADANIPORTS",
-   "name": "Adani Ports and Special Economic Zone Limited",
-   "ltp": 1917.0,
-   "change_pct": -0.01,
-   "rs": 83,
-   "rel_volume": 0.84
-  },
-  {
-   "symbol": "ABCAPITAL",
-   "name": "Aditya Birla Capital Limited",
-   "ltp": 423.0,
-   "change_pct": 1.43,
-   "rs": 82,
-   "rel_volume": 0.81
+   "ltp": 483.8,
+   "change_pct": -0.14,
+   "rs": 85,
+   "rel_volume": 0.08
   },
   {
    "symbol": "ACE",
    "name": "Action Construction Equipment Limited",
-   "ltp": 1170.35,
-   "change_pct": -1.31,
+   "ltp": 1187.45,
+   "change_pct": 1.46,
+   "rs": 84,
+   "rel_volume": 0.65
+  },
+  {
+   "symbol": "ADANIPORTS",
+   "name": "Adani Ports and Special Economic Zone Limited",
+   "ltp": 1919.0,
+   "change_pct": 0.1,
+   "rs": 83,
+   "rel_volume": 0.71
+  },
+  {
+   "symbol": "ABCAPITAL",
+   "name": "Aditya Birla Capital Limited",
+   "ltp": 415.8,
+   "change_pct": -1.7,
    "rs": 80,
-   "rel_volume": 0.37
+   "rel_volume": 0.72
   }
  ],
  "delivery_spikes": [
   {
-   "symbol": "SAFARI",
-   "name": "Safari Industries (India) Limited",
-   "ltp": 1435.8,
-   "change_pct": 2.19,
+   "symbol": "FLAIR",
+   "name": "Flair Writing Industries Limited",
+   "ltp": 245.95,
+   "change_pct": 2.3,
    "rs": 35,
-   "rel_volume": 2.61,
-   "delivery_pct": 81.8,
-   "delivery_avg_pct": 51.7
-  },
-  {
-   "symbol": "PSPPROJECT",
-   "name": "PSP Projects Limited",
-   "ltp": 780.9,
-   "change_pct": 2.56,
-   "rs": 43,
-   "rel_volume": 2.04,
-   "delivery_pct": 77.6,
-   "delivery_avg_pct": 49.3
-  },
-  {
-   "symbol": "SHREECEM",
-   "name": "SHREE CEMENT LIMITED",
-   "ltp": 25475.0,
-   "change_pct": 1.43,
-   "rs": 65,
-   "rel_volume": 3.81,
-   "delivery_pct": 74.9,
-   "delivery_avg_pct": 47.7
+   "rel_volume": 2.51,
+   "delivery_pct": 85.5,
+   "delivery_avg_pct": 43.4
   }
  ],
  "pocket_pivots": [
   {
-   "symbol": "ADANIPOWER",
-   "name": "Adani Power Limited",
-   "ltp": 211.95,
-   "change_pct": 0.69,
-   "rs": 82,
-   "rel_volume": 1.73
-  },
-  {
-   "symbol": "360ONE",
-   "name": "360 ONE WAM LIMITED",
-   "ltp": 1208.1,
-   "change_pct": 0.85,
-   "rs": 72,
-   "rel_volume": 1.17
-  },
-  {
-   "symbol": "ACC",
-   "name": "ACC Limited",
-   "ltp": 1277.0,
-   "change_pct": 0.66,
-   "rs": 39,
-   "rel_volume": 1.68
+   "symbol": "ABLBL",
+   "name": "Aditya Birla Lifestyle Brands Limited",
+   "ltp": 78.52,
+   "change_pct": 3.89,
+   "rs": 18,
+   "rel_volume": 2.32
   }
  ],
  "sector_leaders": [
   {
-   "sector": "NIFTY PSU BANK",
+   "sector": "NIFTY REALTY",
    "rank": 1,
-   "return_1m": 19.66,
+   "return_1m": 20.08,
+   "stocks": [
+    {
+     "symbol": "PHOENIXLTD",
+     "name": "The Phoenix Mills Limited",
+     "ltp": 2276.2,
+     "change_pct": -0.4,
+     "rs": 88,
+     "rel_volume": 1.53
+    },
+    {
+     "symbol": "DLF",
+     "name": "DLF Limited",
+     "ltp": 794.1,
+     "change_pct": 1.16,
+     "rs": 85,
+     "rel_volume": 1.05
+    },
+    {
+     "symbol": "LODHA",
+     "name": "Lodha Developers Limited",
+     "ltp": 1219.0,
+     "change_pct": 0.02,
+     "rs": 77,
+     "rel_volume": 0.72
+    }
+   ]
+  },
+  {
+   "sector": "NIFTY PSU BANK",
+   "rank": 2,
+   "return_1m": 18.45,
    "stocks": [
     {
      "symbol": "MAHABANK",
      "name": "Bank of Maharashtra",
-     "ltp": 99.45,
-     "change_pct": 1.5,
-     "rs": 93,
-     "rel_volume": 1.4
+     "ltp": 97.56,
+     "change_pct": -1.9,
+     "rs": 92,
+     "rel_volume": 1.54
     },
     {
      "symbol": "PNB",
      "name": "Punjab National Bank",
-     "ltp": 155.33,
-     "change_pct": 0.31,
-     "rs": 91,
-     "rel_volume": 1.06
+     "ltp": 149.75,
+     "change_pct": -3.59,
+     "rs": 90,
+     "rel_volume": 0.81
     },
     {
      "symbol": "UNIONBANK",
      "name": "Union Bank of India",
-     "ltp": 218.85,
-     "change_pct": 4.21,
-     "rs": 89,
-     "rel_volume": 1.49
+     "ltp": 208.2,
+     "change_pct": -4.87,
+     "rs": 86,
+     "rel_volume": 1.26
     }
    ]
   },
   {
    "sector": "NIFTY PRIVATE BANK",
-   "rank": 2,
-   "return_1m": 17.89,
+   "rank": 3,
+   "return_1m": 15.02,
    "stocks": [
     {
      "symbol": "FEDERALBNK",
      "name": "The Federal Bank  Limited",
-     "ltp": 373.5,
-     "change_pct": 2.47,
-     "rs": 88,
-     "rel_volume": 1.32
+     "ltp": 359.8,
+     "change_pct": -3.67,
+     "rs": 86,
+     "rel_volume": 2.31
     },
     {
      "symbol": "ICICIBANK",
      "name": "ICICI Bank Limited",
-     "ltp": 1640.0,
-     "change_pct": 1.93,
-     "rs": 85,
-     "rel_volume": 1.17
+     "ltp": 1585.5,
+     "change_pct": -3.32,
+     "rs": 82,
+     "rel_volume": 1.44
     },
     {
      "symbol": "RBLBANK",
      "name": "RBL Bank Limited",
-     "ltp": 398.3,
-     "change_pct": 2.42,
-     "rs": 81,
-     "rel_volume": 1.2
-    }
-   ]
-  },
-  {
-   "sector": "NIFTY REALTY",
-   "rank": 3,
-   "return_1m": 16.86,
-   "stocks": [
-    {
-     "symbol": "PHOENIXLTD",
-     "name": "The Phoenix Mills Limited",
-     "ltp": 2285.3,
-     "change_pct": 2.14,
-     "rs": 88,
-     "rel_volume": 1.8
-    },
-    {
-     "symbol": "DLF",
-     "name": "DLF Limited",
-     "ltp": 785.0,
-     "change_pct": 2.21,
-     "rs": 83,
+     "ltp": 393.5,
+     "change_pct": -1.21,
+     "rs": 80,
      "rel_volume": 1.6
-    },
-    {
-     "symbol": "LODHA",
-     "name": "Lodha Developers Limited",
-     "ltp": 1218.7,
-     "change_pct": 1.33,
-     "rs": 76,
-     "rel_volume": 0.62
     }
    ]
   }
  ],
  "counts": {
-  "rated": 2336,
+  "rated": 2339,
   "trend_template": 11,
-  "ready": 2,
-  "delivery_spikes": 3,
-  "pocket_pivots": 3
+  "ready": 0,
+  "delivery_spikes": 1,
+  "pocket_pivots": 1
  }
 }

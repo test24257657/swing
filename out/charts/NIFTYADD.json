@@ -2,7 +2,7 @@
  "symbol": "NIFTYADD",
  "name": "NIFTYADD",
  "kind": "stock",
- "as_of": "2026-11-20",
+ "as_of": "2026-11-23",
  "bars": [
   {
    "time": "2025-12-15",
@@ -2064,6 +2064,15 @@
    "close": 272.01,
    "volume": 25014,
    "delivery_pct": 91.32
+  },
+  {
+   "time": "2026-11-23",
+   "open": 270.02,
+   "high": 275.68,
+   "low": 267.34,
+   "close": 268.15,
+   "volume": 12218,
+   "delivery_pct": 74.3
   }
  ],
  "ma": {
@@ -2907,6 +2916,10 @@
    {
     "time": "2026-11-20",
     "value": 254.56
+   },
+   {
+    "time": "2026-11-23",
+    "value": 256.0
    }
   ],
   "sma_50": [
@@ -3629,6 +3642,10 @@
    {
     "time": "2026-11-20",
     "value": 247.46
+   },
+   {
+    "time": "2026-11-23",
+    "value": 247.81
    }
   ],
   "sma_200": [
@@ -3751,15 +3768,19 @@
    {
     "time": "2026-11-20",
     "value": 252.19
+   },
+   {
+    "time": "2026-11-23",
+    "value": 252.2
    }
   ]
  },
  "technicals": {
-  "rsi_14": 78.13,
-  "atr_pct": 1.42,
-  "rel_volume_20d": 0.67,
-  "dist_20dma_pct": 6.86,
-  "dist_50dma_pct": 9.92,
-  "dist_200dma_pct": 7.86
+  "rsi_14": 69.04,
+  "atr_pct": 1.56,
+  "rel_volume_20d": 0.32,
+  "dist_20dma_pct": 4.75,
+  "dist_50dma_pct": 8.21,
+  "dist_200dma_pct": 6.32
  }
 }

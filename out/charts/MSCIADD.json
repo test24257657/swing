@@ -2,7 +2,7 @@
  "symbol": "MSCIADD",
  "name": "MSCIADD",
  "kind": "stock",
- "as_of": "2026-11-20",
+ "as_of": "2026-11-23",
  "bars": [
   {
    "time": "2025-12-01",
@@ -2118,6 +2118,15 @@
    "close": 30.77,
    "volume": 3786,
    "delivery_pct": 70.76
+  },
+  {
+   "time": "2026-11-23",
+   "open": 30.22,
+   "high": 30.79,
+   "low": 30.22,
+   "close": 30.51,
+   "volume": 2171,
+   "delivery_pct": 47.95
   }
  ],
  "ma": {
@@ -2985,6 +2994,10 @@
    {
     "time": "2026-11-20",
     "value": 29.12
+   },
+   {
+    "time": "2026-11-23",
+    "value": 29.27
    }
   ],
   "sma_50": [
@@ -3731,6 +3744,10 @@
    {
     "time": "2026-11-20",
     "value": 28.73
+   },
+   {
+    "time": "2026-11-23",
+    "value": 28.76
    }
   ],
   "sma_200": [
@@ -3877,15 +3894,19 @@
    {
     "time": "2026-11-20",
     "value": 29.15
+   },
+   {
+    "time": "2026-11-23",
+    "value": 29.15
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.27,
-  "atr_pct": 1.38,
-  "rel_volume_20d": 0.22,
-  "dist_20dma_pct": 5.66,
-  "dist_50dma_pct": 7.09,
-  "dist_200dma_pct": 5.57
+  "rsi_14": 66.16,
+  "atr_pct": 1.42,
+  "rel_volume_20d": 0.13,
+  "dist_20dma_pct": 4.25,
+  "dist_50dma_pct": 6.1,
+  "dist_200dma_pct": 4.66
  }
 }
