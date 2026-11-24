@@ -2,21 +2,12 @@
  "symbol": "JKIL",
  "quarters": [
   {
-   "label": "Q1 FY26",
-   "period_end": "2025-06-30",
-   "revenue_cr": 1483.9,
-   "revenue_qoq_pct": null,
-   "net_income_cr": 103.3,
-   "net_income_qoq_pct": null,
-   "eps": 13.67
-  },
-  {
    "label": "Q3 FY26",
    "period_end": "2025-12-31",
    "revenue_cr": 1311.2,
-   "revenue_qoq_pct": -11.6,
+   "revenue_qoq_pct": null,
    "net_income_cr": 82.8,
-   "net_income_qoq_pct": -19.8,
+   "net_income_qoq_pct": null,
    "eps": 10.92
   },
   {
@@ -36,6 +27,15 @@
    "net_income_cr": 97.5,
    "net_income_qoq_pct": -11.0,
    "eps": 12.88
+  },
+  {
+   "label": "Q2 FY27",
+   "period_end": "2026-09-30",
+   "revenue_cr": 1539.2,
+   "revenue_qoq_pct": 1.9,
+   "net_income_cr": 113.4,
+   "net_income_qoq_pct": 16.3,
+   "eps": 14.97
   }
  ],
  "verification": null

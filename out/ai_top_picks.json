@@ -1,124 +1,37 @@
 {
  "as_of": "2026-11-24",
- "source": "rules",
+ "source": "ai",
  "universe": 297,
- "eligible": 15,
+ "eligible": 17,
  "picks": [
   {
-   "symbol": "PDSL",
-   "ltp": 413.25,
+   "symbol": "REGAAL",
+   "ltp": 99.75,
    "technicals": {
-    "rsi_14": 66.85,
-    "rel_volume_20d": 0.61,
-    "dist_20dma_pct": 8.93,
-    "dist_50dma_pct": 15.26,
-    "dist_200dma_pct": 24.53
-   },
-   "pattern": {
-    "code": "vcp",
-    "stage": "forming",
-    "pivot_price": 424.9,
-    "stop_suggestion": 388.99,
-    "target_suggestion": 531.12,
-    "gap_to_pivot_pct": -2.74
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 4432.5,
-    "net_income_cr": 42.4,
-    "revenue_qoq_pct": 28.7,
-    "net_income_qoq_pct": 125.5
-   },
-   "reason": null,
-   "rank": 1,
-   "name": "PDS Limited"
-  },
-  {
-   "symbol": "SUDEEPPHRM",
-   "ltp": 1250.0,
-   "technicals": {
-    "rsi_14": 63.72,
+    "rsi_14": 67.52,
     "rel_volume_20d": 1.55,
-    "dist_20dma_pct": 9.32,
-    "dist_50dma_pct": 10.22,
-    "dist_200dma_pct": 44.43
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 1257.3,
-    "stop_suggestion": 1153.64,
-    "target_suggestion": 1445.89,
-    "gap_to_pivot_pct": -0.58
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 196.7,
-    "net_income_cr": 51.5,
-    "revenue_qoq_pct": 24.3,
-    "net_income_qoq_pct": 27.2
-   },
-   "reason": null,
-   "rank": 2,
-   "name": "Sudeep Pharma Limited"
-  },
-  {
-   "symbol": "ABDL",
-   "ltp": 802.85,
-   "technicals": {
-    "rsi_14": 70.45,
-    "rel_volume_20d": 0.64,
-    "dist_20dma_pct": 8.99,
-    "dist_50dma_pct": 13.53,
-    "dist_200dma_pct": 34.95
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "forming",
-    "pivot_price": 798.05,
-    "stop_suggestion": 676.0,
-    "target_suggestion": 957.66,
-    "gap_to_pivot_pct": 0.6
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 1147.8,
-    "net_income_cr": 71.5,
-    "revenue_qoq_pct": 17.3,
-    "net_income_qoq_pct": 45.3
-   },
-   "reason": null,
-   "rank": 3,
-   "name": "Allied Blenders and Distillers Limited"
-  },
-  {
-   "symbol": "SAMBHV",
-   "ltp": 176.9,
-   "technicals": {
-    "rsi_14": 62.26,
-    "rel_volume_20d": 11.06,
-    "dist_20dma_pct": 8.28,
-    "dist_50dma_pct": 12.53,
-    "dist_200dma_pct": 44.85
+    "dist_20dma_pct": 9.21,
+    "dist_50dma_pct": 12.62,
+    "dist_200dma_pct": 22.75
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "confirmed",
-    "pivot_price": 172.47,
-    "stop_suggestion": 150.25,
-    "target_suggestion": 206.96,
-    "gap_to_pivot_pct": 2.57
+    "pivot_price": 99.53,
+    "stop_suggestion": 83.82,
+    "target_suggestion": 119.44,
+    "gap_to_pivot_pct": 0.22
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 836.0,
-    "net_income_cr": 60.9,
-    "revenue_qoq_pct": 14.2,
-    "net_income_qoq_pct": 7.8
+    "revenue_cr": 316.6,
+    "net_income_cr": 23.2,
+    "revenue_qoq_pct": 56.7,
+    "net_income_qoq_pct": 74.4
    },
-   "reason": null,
-   "rank": 4,
-   "name": "Sambhv Steel Tubes Limited"
+   "reason": "Confirmed 52-week breakout sitting 0.22% above pivot, backed by massive revenue (+56.7% QoQ) and profit (+74.4% QoQ) growth, 1.55x average volume, and a healthy 67.52 RSI.",
+   "rank": 1,
+   "name": "Regaal Resources Limited"
   },
   {
    "symbol": "COFORGE",
@@ -145,9 +58,96 @@
     "revenue_qoq_pct": 11.6,
     "net_income_qoq_pct": 13.4
    },
-   "reason": null,
-   "rank": 5,
+   "reason": "Confirmed 52-week breakout 2.06% from pivot with a tight stop at \u20b91972.0, supported by solid revenue (+11.6% QoQ) and profit (+13.4% QoQ) growth, 1.48x volume, and 68.64 RSI.",
+   "rank": 2,
    "name": "Coforge Limited"
+  },
+  {
+   "symbol": "SUDEEPPHRM",
+   "ltp": 1250.0,
+   "technicals": {
+    "rsi_14": 63.72,
+    "rel_volume_20d": 1.55,
+    "dist_20dma_pct": 9.32,
+    "dist_50dma_pct": 10.22,
+    "dist_200dma_pct": 44.43
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 1257.3,
+    "stop_suggestion": 1153.64,
+    "target_suggestion": 1445.89,
+    "gap_to_pivot_pct": -0.58
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 196.7,
+    "net_income_cr": 51.5,
+    "revenue_qoq_pct": 24.3,
+    "net_income_qoq_pct": 27.2
+   },
+   "reason": "Forming pattern just -0.58% below pivot with strong 44.43% 200-day trend, paired with robust revenue (+24.3% QoQ) and profit (+27.2% QoQ) growth, 1.55x volume, and 63.72 RSI.",
+   "rank": 3,
+   "name": "Sudeep Pharma Limited"
+  },
+  {
+   "symbol": "TOTAL",
+   "ltp": 82.47,
+   "technicals": {
+    "rsi_14": 63.26,
+    "rel_volume_20d": 2.51,
+    "dist_20dma_pct": 6.77,
+    "dist_50dma_pct": 11.57,
+    "dist_200dma_pct": 33.4
+   },
+   "pattern": {
+    "code": "vcp",
+    "stage": "forming",
+    "pivot_price": 79.0,
+    "stop_suggestion": 67.2,
+    "target_suggestion": 98.75,
+    "gap_to_pivot_pct": 4.39
+   },
+   "fundamentals": {
+    "quarter": "Q1 FY27",
+    "revenue_cr": 193.6,
+    "net_income_cr": 4.1,
+    "revenue_qoq_pct": 25.1,
+    "net_income_qoq_pct": 1266.7
+   },
+   "reason": "VCP setup with strong buying at 2.51x average volume, backed by solid revenue (+25.1% QoQ) and surging profit (+1266.7% QoQ) growth, along with a healthy 63.26 RSI.",
+   "rank": 4,
+   "name": "Total Transport Systems Limited"
+  },
+  {
+   "symbol": "VIJAYA",
+   "ltp": 1572.6,
+   "technicals": {
+    "rsi_14": 64.84,
+    "rel_volume_20d": 2.14,
+    "dist_20dma_pct": 7.64,
+    "dist_50dma_pct": 7.63,
+    "dist_200dma_pct": 24.12
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 1570.7,
+    "stop_suggestion": 1381.4,
+    "target_suggestion": 1884.84,
+    "gap_to_pivot_pct": 0.12
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 255.4,
+    "net_income_cr": 59.5,
+    "revenue_qoq_pct": 10.6,
+    "net_income_qoq_pct": 12.1
+   },
+   "reason": "Confirmed 52-week breakout 0.12% above pivot on strong 2.14x average volume, supported by steady QoQ revenue (+10.6%) and net profit (+12.1%) growth with a 64.84 RSI.",
+   "rank": 5,
+   "name": "Vijaya Diagnostic Centre Limited"
   }
  ]
 }
