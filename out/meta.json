@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T18:56:04+05:30",
+ "generated_at": "2026-11-25T04:33:20+05:30",
  "sources": {
   "holidays": {
    "ok": true,
@@ -9,21 +9,6 @@
    "ok": true,
    "sessions_added": 0,
    "failed": [
-    "2025-12-25",
-    "2026-01-15",
-    "2026-01-26",
-    "2026-03-03",
-    "2026-03-26",
-    "2026-03-31",
-    "2026-04-03",
-    "2026-04-14",
-    "2026-05-01",
-    "2026-05-28",
-    "2026-06-26",
-    "2026-09-14",
-    "2026-10-02",
-    "2026-10-20",
-    "2026-11-10",
     "2026-11-24"
    ],
    "phantom_sessions_dropped": [],
@@ -102,8 +87,8 @@
   },
   "news": {
    "ok": true,
-   "fetched": 22,
-   "classified": 20,
+   "fetched": 27,
+   "classified": 27,
    "gemini_configured": true
   },
   "institutional": {
@@ -127,13 +112,13 @@
    "universe": 297,
    "scoped": 150,
    "eligible": 150,
-   "written": 105,
+   "written": 150,
    "gemini_calls": 10
   },
   "ai_top_picks": {
    "ok": true,
    "source": "ai",
-   "eligible": 17,
+   "eligible": 30,
    "picks": 5
   },
   "results_calendar": {
@@ -141,7 +126,7 @@
    "upcoming": 6,
    "past_candidates": 2180,
    "judged": 1446,
-   "good": 375
+   "good": 410
   }
  }
 }
