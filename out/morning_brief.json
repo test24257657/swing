@@ -1,133 +1,127 @@
 {
- "generated_at": "2026-11-23T08:15:59+05:30",
- "for_session": "2026-11-23",
+ "generated_at": "2026-11-24T08:15:59+05:30",
+ "for_session": "2026-11-25",
  "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 6910.39,
-   "change_pct": -3.7,
-   "as_of": "2026-11-20"
+   "value": 7237.17,
+   "change_pct": 4.73,
+   "as_of": "2026-11-23"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 22617.73,
-   "change_pct": -5.28,
-   "as_of": "2026-11-20"
+   "value": 24089.56,
+   "change_pct": 6.51,
+   "as_of": "2026-11-23"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 48147.33,
-   "change_pct": -1.93,
-   "as_of": "2026-11-20"
+   "value": 49595.31,
+   "change_pct": 3.01,
+   "as_of": "2026-11-23"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 56436.65,
-   "change_pct": -5.06,
-   "as_of": "2026-11-20"
+   "value": 58675.79,
+   "change_pct": 3.97,
+   "as_of": "2026-11-24"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 22076.2,
-   "change_pct": -1.49,
-   "as_of": "2026-11-23"
+   "value": 22434.14,
+   "change_pct": 0.23,
+   "as_of": "2026-11-24"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 4635.09,
-   "change_pct": -4.82,
-   "as_of": "2026-11-23"
+   "value": 5022.59,
+   "change_pct": 6.67,
+   "as_of": "2026-11-24"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 89.62,
-   "change_pct": -3.19,
-   "as_of": "2026-11-22"
+   "value": 86.2,
+   "change_pct": -6.88,
+   "as_of": "2026-11-23"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 3579.4,
-   "change_pct": 1.82,
-   "as_of": "2026-11-22"
+   "value": 3650.5,
+   "change_pct": 3.84,
+   "as_of": "2026-11-23"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 92.66,
-   "change_pct": -0.68,
-   "as_of": "2026-11-23"
+   "value": 92.9,
+   "change_pct": 0.24,
+   "as_of": "2026-11-24"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 4.91,
-   "change_pct": -2.77,
-   "as_of": "2026-11-20"
+   "value": 4.92,
+   "change_pct": 0.12,
+   "as_of": "2026-11-23"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 103.73,
-   "change_pct": -0.08,
-   "as_of": "2026-11-22"
+   "value": 104.23,
+   "change_pct": 0.41,
+   "as_of": "2026-11-23"
   }
  ],
  "global_tone": {
-  "tone": "negative",
-  "avg_change_pct": -4.07,
+  "tone": "positive",
+  "avg_change_pct": 4.42,
   "crude_alert": true
  },
  "nifty": {
-  "session": "2026-11-20",
-  "close": 25800.6,
-  "high": 25808.8,
-  "low": 25345.2,
-  "pivot": 25651.53,
-  "r1": 25957.87,
-  "s1": 25494.27,
-  "r2": 26115.13,
-  "s2": 25187.93,
-  "sma_20": 24396.1,
-  "sma_50": 23512.83,
-  "sma_200": 23997.93
+  "session": "2026-11-23",
+  "close": 25349.65,
+  "high": 25992.6,
+  "low": 25343.85,
+  "pivot": 25562.03,
+  "r1": 25780.22,
+  "s1": 25131.47,
+  "r2": 26210.78,
+  "s2": 24913.28,
+  "sma_20": 24525.92,
+  "sma_50": 23551.2,
+  "sma_200": 23995.78
  },
  "focus": [
   {
-   "symbol": "ADANIPORTS",
-   "name": "Adani Ports and Special Economic Zone Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 83
-  },
-  {
-   "symbol": "ABCAPITAL",
-   "name": "Aditya Birla Capital Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 82
-  },
-  {
-   "symbol": "NITINSPIN",
-   "name": "Nitin Spinners Limited",
+   "symbol": "PDSL",
+   "name": "PDS Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "VIJAYA",
-   "name": "Vijaya Diagnostic Centre Limited",
+   "symbol": "SUDEEPPHRM",
+   "name": "Sudeep Pharma Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "TVSMOTOR",
-   "name": "TVS Motor Company Limited",
+   "symbol": "ABDL",
+   "name": "Allied Blenders and Distillers Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "SAMBHV",
+   "name": "Sambhv Steel Tubes Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -138,93 +132,68 @@
    "rs": null
   },
   {
-   "symbol": "FEDERALBNK",
-   "name": "The Federal Bank  Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "ADANIPOWER",
-   "name": "Adani Power Limited",
+   "symbol": "ABLBL",
+   "name": "Aditya Birla Lifestyle Brands Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 82
-  },
-  {
-   "symbol": "360ONE",
-   "name": "360 ONE WAM LIMITED",
-   "why": "Pocket pivot yesterday",
-   "rs": 72
-  },
-  {
-   "symbol": "ACC",
-   "name": "ACC Limited",
-   "why": "Pocket pivot yesterday",
-   "rs": 39
+   "rs": 18
   }
  ],
  "overnight_news": [
   {
-   "symbol": "TATASTEEL",
-   "time": "23 Nov 07:35",
+   "symbol": "ADANIENT",
+   "time": "23 Nov 22:12",
    "category": "Acquisition",
-   "text": "Tata Steel Limited has informed the Exchange about acquisition of equity stake in APL Apollo Tubes Limited",
-   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_23112026073427_BSENSE.pdf"
+   "text": "Adani Enterprises Limited has informed the Exchange about incorporation of Wholly Owned Subsidiary \"Nashik  Phata Road Limited\".",
+   "url": "https://nsearchives.nseindia.in/corporate/nishant_joshi_adani_com_23112026221158_AELintimationNashikPhataRoadLimited.pdf"
+  },
+  {
+   "symbol": "SUNPHARMA",
+   "time": "23 Nov 20:35",
+   "category": "Credit Rating",
+   "text": "Sun Pharmaceutical Industries Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.in/corporate/SUNSEC_23112026203508_Intimation_to_SE_-_GTC_SP_Credit_Rating.pdf"
   },
   {
    "symbol": "TATASTEEL",
-   "time": "23 Nov 07:31",
-   "category": "Outcome of Board Meeting",
-   "text": "Tata Steel Limited has informed the Exchange regarding Outcome of Board Meeting held on November 23, 2026.",
-   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_23112026073027_BSENSE.pdf"
+   "time": "23 Nov 20:14",
+   "category": "Acquisition",
+   "text": "Tata Steel Limited has informed the Exchange about Acquisition of equity stake in APL Apollo Tubes Limited",
+   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_23112026201346_BSENSE_Reg30.pdf"
   },
   {
-   "symbol": "TATASTEEL",
-   "time": "22 Nov 19:11",
-   "category": "Sale or disposal",
-   "text": "Tata Steel Limited has informed the Exchange about transfer of Tubes Business of the Company and entering into Business Transfer Agreement between the Company and APL Apollo Tubes Limited",
-   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_22112026191002_Board_Outcome_signed.pdf"
+   "symbol": "MAXHEALTH",
+   "time": "23 Nov 19:03",
+   "category": "Resignation of Director/KMP/SMP",
+   "text": "Max Healthcare Institute Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "url": "https://nsearchives.nseindia.in/corporate/MAXHEALTH_ROID_105167_KMP_Doc.zip"
   },
   {
-   "symbol": "TATASTEEL",
-   "time": "22 Nov 19:08",
-   "category": "Diversification/Disinvestment",
-   "text": "Tata Steel Limited has informed the Exchange about Divestment of entire equity stake in Tata Steel Colors Private Limited",
-   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_22112026190635_Board_Outcome_signed.pdf"
+   "symbol": "HINDALCO",
+   "time": "23 Nov 18:57",
+   "category": "Appointment",
+   "text": "Hindalco Industries Limited has informed the Exchange regarding re-appointment of Mr Satish Pai as Managing Director of the company w.e.f. January 1, 2028.",
+   "url": "https://nsearchives.nseindia.in/corporate/HINDALCOIND_23112026185220_Reg_30_SE_231126_final_signed.pdf"
   },
   {
-   "symbol": "TATASTEEL",
-   "time": "22 Nov 18:59",
-   "category": "Outcome of Board Meeting",
-   "text": "Tata Steel Limited has informed the Exchange regarding Outcome of Board Meeting held on November 22, 2026.",
-   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_22112026185630_Board_Outcome_signed.pdf"
+   "symbol": "HINDALCO",
+   "time": "23 Nov 18:57",
+   "category": "Appointment",
+   "text": "Hindalco Industries Limited has informed the Exchange regarding Appointment of Mr. Hemant Sikka as the Deputy Managing Director and Key Managerial Personnel of the Company w.e.f. January 4, 2027.",
+   "url": "https://nsearchives.nseindia.in/corporate/HINDALCOIND_23112026185253_Reg_30_SE_231126_final_signed.pdf"
   },
   {
-   "symbol": "COFORGE",
-   "time": "21 Nov 21:23",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Coforge Limited has informed the Exchange regarding Allotment of 47824  Shares.",
-   "url": "https://nsearchives.nseindia.in/corporate/COFORGE_21112026212247_SignedExchangeIntimationESOPAllotment.pdf"
-  },
-  {
-   "symbol": "TECHM",
-   "time": "21 Nov 21:01",
-   "category": "Amendment to AOA/MOA",
-   "text": "Tech Mahindra Limited has informed the Exchange regarding the Amendment to AOA/MOA of the company.",
-   "url": "https://nsearchives.nseindia.in/corporate/Apekshakhemka_21112026210056_SE_Intimation_-_Postal_Ballot_results_S.pdf"
-  },
-  {
-   "symbol": "TECHM",
-   "time": "21 Nov 14:01",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Tech Mahindra Limited has informed the Exchange regarding Allotment of 260316  Shares.",
-   "url": "https://nsearchives.nseindia.in/corporate/Apekshakhemka_21112026140113_ESOP_allotment_Intimation_S.pdf"
-  },
-  {
-   "symbol": "COALINDIA",
-   "time": "21 Nov 12:49",
+   "symbol": "MAXHEALTH",
+   "time": "23 Nov 18:38",
    "category": "Change in Management",
-   "text": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements), Regulations 2015-Change in Senior Management",
-   "url": "https://nsearchives.nseindia.in/corporate/COALINDIA_21112026124901_CISM.pdf"
+   "text": "Max Healthcare Institute Limited has informed the Exchange about change in Senior Management Personnel",
+   "url": "https://nsearchives.nseindia.in/corporate/MAXHEALTH_23112026183702_SE_Intimation_SMP_Resignation.pdf"
+  },
+  {
+   "symbol": "TITAN",
+   "time": "23 Nov 16:56",
+   "category": "Credit Rating",
+   "text": "Titan Company Limited has informed the Exchange about Credit Rating",
+   "url": "https://nsearchives.nseindia.in/corporate/TITAN_23112026164341_SEcreditrating23112026.pdf"
   }
  ],
  "events": [
@@ -232,18 +201,17 @@
  ],
  "checklist": [
   "Market light is YELLOW — only A+ setups, half size.",
-  "Weak global cues — let the first 15-30 minutes settle before acting.",
   "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
  "ai": {
-  "headline": "Weak Global Signals Point to Negative Open; Watch Key Support Levels",
+  "headline": "Strong Global Cues Signal Positive Start for Nifty",
   "points": [
-   "Expect a weak start as Nasdaq dropped 5.28% and Nikkei fell 5.06%, reflecting a negative global tone averaging -4.07%.",
-   "NIFTY 50 closed at 25800.6; watch pivot level 25651.53 and support S1 at 25494.27 during today's session.",
-   "In commodities, Brent crude declined 3.19% to 89.62, while Gold rose 1.82% to 3579.4.",
-   "Keep an eye on stock triggers as 2 companies announce results and Tech Mahindra allotted 260316 ESOP shares."
+   "Global markets trade strongly positive, led by Nasdaq jumping 6.51% and S&P 500 rising 4.73%, setting an encouraging pre-market tone.",
+   "Brent crude dropped 6.88% to 86.2, while the US 10Y yield rose to 4.92 and USD/INR hit 92.9.",
+   "Nifty 50 closed at 25349.65, with key levels to watch at pivot 25562.03 and support S1 at 25131.47.",
+   "Traders should watch 2 companies reporting results today alongside corporate actions in Tata Steel, Hindalco, and Adani Enterprises."
   ]
  }
 }
