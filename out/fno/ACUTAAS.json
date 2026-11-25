@@ -1,0 +1,99 @@
+{
+ "symbol": "ACUTAAS",
+ "buildup": null,
+ "option_chain": {
+  "expiry": "29-Dec-2026",
+  "underlying_value": 3993,
+  "rows": [
+   {
+    "strike": 3200,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 16,
+    "put_oi_chg": 16
+   },
+   {
+    "strike": 3400,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 2,
+    "put_oi_chg": 2
+   },
+   {
+    "strike": 3500,
+    "call_oi": 1,
+    "call_oi_chg": 1,
+    "put_oi": 12,
+    "put_oi_chg": 12
+   },
+   {
+    "strike": 3600,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 3700,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 11,
+    "put_oi_chg": 11
+   },
+   {
+    "strike": 3800,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 28,
+    "put_oi_chg": 28
+   },
+   {
+    "strike": 3900,
+    "call_oi": 7,
+    "call_oi_chg": 7,
+    "put_oi": 5,
+    "put_oi_chg": 5
+   },
+   {
+    "strike": 4000,
+    "call_oi": 47,
+    "call_oi_chg": 47,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 4100,
+    "call_oi": 7,
+    "call_oi_chg": 7,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 4200,
+    "call_oi": 8,
+    "call_oi_chg": 8,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 4300,
+    "call_oi": 11,
+    "call_oi_chg": 11,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 4400,
+    "call_oi": 22,
+    "call_oi_chg": 22,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   }
+  ],
+  "pcr": 0.72,
+  "total_call_oi": 103,
+  "total_put_oi": 74,
+  "max_call_oi_strike": 4000,
+  "max_put_oi_strike": 3800
+ }
+}
