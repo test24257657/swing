@@ -1,90 +1,90 @@
 {
- "generated_at": "2026-11-24T08:15:59+05:30",
+ "generated_at": "2026-11-25T08:15:54+05:30",
  "for_session": "2026-11-25",
  "market_light": "yellow",
  "global_cues": [
   {
    "label": "S&P 500",
    "group": "US",
-   "value": 7237.17,
-   "change_pct": 4.73,
-   "as_of": "2026-11-23"
+   "value": 7201.09,
+   "change_pct": -0.5,
+   "as_of": "2026-11-24"
   },
   {
    "label": "Nasdaq",
    "group": "US",
-   "value": 24089.56,
-   "change_pct": 6.51,
-   "as_of": "2026-11-23"
+   "value": 23733.54,
+   "change_pct": -1.48,
+   "as_of": "2026-11-24"
   },
   {
    "label": "Dow",
    "group": "US",
-   "value": 49595.31,
-   "change_pct": 3.01,
-   "as_of": "2026-11-23"
+   "value": 50018.7,
+   "change_pct": 0.85,
+   "as_of": "2026-11-24"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 58675.79,
-   "change_pct": 3.97,
-   "as_of": "2026-11-24"
+   "value": 56710.43,
+   "change_pct": -3.3,
+   "as_of": "2026-11-25"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 22434.14,
-   "change_pct": 0.23,
-   "as_of": "2026-11-24"
+   "value": 22468.0,
+   "change_pct": 1.12,
+   "as_of": "2026-11-25"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 5022.59,
-   "change_pct": 6.67,
-   "as_of": "2026-11-24"
+   "value": 4732.0,
+   "change_pct": -5.47,
+   "as_of": "2026-11-25"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 86.2,
-   "change_pct": -6.88,
-   "as_of": "2026-11-23"
+   "value": 87.62,
+   "change_pct": -1.96,
+   "as_of": "2026-11-24"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 3650.5,
-   "change_pct": 3.84,
-   "as_of": "2026-11-23"
+   "value": 3565.0,
+   "change_pct": -2.37,
+   "as_of": "2026-11-24"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
    "value": 92.9,
-   "change_pct": 0.24,
-   "as_of": "2026-11-24"
+   "change_pct": -0.02,
+   "as_of": "2026-11-25"
   },
   {
    "label": "US 10Y yield",
    "group": "Macro",
-   "value": 4.92,
-   "change_pct": 0.12,
-   "as_of": "2026-11-23"
+   "value": 4.9,
+   "change_pct": -0.28,
+   "as_of": "2026-11-24"
   },
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 104.23,
-   "change_pct": 0.41,
-   "as_of": "2026-11-23"
+   "value": 103.85,
+   "change_pct": -0.45,
+   "as_of": "2026-11-24"
   }
  ],
  "global_tone": {
-  "tone": "positive",
-  "avg_change_pct": 4.42,
-  "crude_alert": true
+  "tone": "negative",
+  "avg_change_pct": -1.93,
+  "crude_alert": false
  },
  "nifty": {
   "session": "2026-11-23",
@@ -102,20 +102,14 @@
  },
  "focus": [
   {
-   "symbol": "PDSL",
-   "name": "PDS Limited",
+   "symbol": "REGAAL",
+   "name": "Regaal Resources Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "SUDEEPPHRM",
-   "name": "Sudeep Pharma Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "ABDL",
-   "name": "Allied Blenders and Distillers Limited",
+   "symbol": "VIJAYA",
+   "name": "Vijaya Diagnostic Centre Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -126,8 +120,14 @@
    "rs": null
   },
   {
-   "symbol": "COFORGE",
-   "name": "Coforge Limited",
+   "symbol": "SUDEEPPHRM",
+   "name": "Sudeep Pharma Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "FLUOROCHEM",
+   "name": "Gujarat Fluorochemicals Limited",
    "why": "AI top 5",
    "rs": null
   },
@@ -139,6 +139,27 @@
   }
  ],
  "overnight_news": [
+  {
+   "symbol": "FLUOROCHEM",
+   "time": "24 Nov 18:24",
+   "category": "Acquisition",
+   "text": "Gujarat Fluorochemicals Limited has informed the Exchange about Acquisition",
+   "url": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_24112026182411_GFCL_Intimation.pdf"
+  },
+  {
+   "symbol": "KOTAKBANK",
+   "time": "24 Nov 14:37",
+   "category": "ESOP/ESOS/ESPS",
+   "text": "Kotak Mahindra Bank Limited has informed the Exchange regarding allotment of 557122 Equity  Shares.",
+   "url": "https://nsearchives.nseindia.in/corporate/KMBLOMKAR_24112026143648_AllotmentSEInt.pdf"
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "time": "24 Nov 13:13",
+   "category": "Action(s) taken or orders passed",
+   "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+   "url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_24112026131238_BhartiAirtelSTXdisclosure.pdf"
+  },
   {
    "symbol": "ADANIENT",
    "time": "23 Nov 22:12",
@@ -201,17 +222,16 @@
  ],
  "checklist": [
   "Market light is YELLOW — only A+ setups, half size.",
-  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
+  "Weak global cues — let the first 15-30 minutes settle before acting.",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
  "ai": {
-  "headline": "Strong Global Cues Signal Positive Start for Nifty",
+  "headline": "Nifty Likely to Open Soft Amid Negative Global Cues",
   "points": [
-   "Global markets trade strongly positive, led by Nasdaq jumping 6.51% and S&P 500 rising 4.73%, setting an encouraging pre-market tone.",
-   "Brent crude dropped 6.88% to 86.2, while the US 10Y yield rose to 4.92 and USD/INR hit 92.9.",
-   "Nifty 50 closed at 25349.65, with key levels to watch at pivot 25562.03 and support S1 at 25131.47.",
-   "Traders should watch 2 companies reporting results today alongside corporate actions in Tata Steel, Hindalco, and Adani Enterprises."
+   "Asian markets reflect a weak tone with Kospi dropping -5.47% and Nikkei down -3.30%, pushing global sentiment negative at avg -1.93%.",
+   "NIFTY 50 closed at 25349.65; watch the pivot at 25562.03, key support S1 at 25131.47, and resistance R1 at 25780.22.",
+   "Brent crude slipped to 87.62 (-1.96%), and Kotak Mahindra Bank allotted 557122 equity shares; 2 companies report earnings today."
   ]
  }
 }
