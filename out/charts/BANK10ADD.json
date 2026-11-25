@@ -2,7 +2,7 @@
  "symbol": "BANK10ADD",
  "name": "BANK10ADD",
  "kind": "stock",
- "as_of": "2026-11-23",
+ "as_of": "2026-11-25",
  "bars": [
   {
    "time": "2026-03-12",
@@ -1542,6 +1542,15 @@
    "close": 18.74,
    "volume": 160802,
    "delivery_pct": 49.06
+  },
+  {
+   "time": "2026-11-25",
+   "open": 18.72,
+   "high": 19.29,
+   "low": 18.72,
+   "close": 19.2,
+   "volume": 132054,
+   "delivery_pct": 52.42
   }
  ],
  "ma": {
@@ -2153,6 +2162,10 @@
    {
     "time": "2026-11-23",
     "value": 17.51
+   },
+   {
+    "time": "2026-11-25",
+    "value": 17.67
    }
   ],
   "sma_50": [
@@ -2643,15 +2656,19 @@
    {
     "time": "2026-11-23",
     "value": 16.86
+   },
+   {
+    "time": "2026-11-25",
+    "value": 16.91
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.62,
-  "atr_pct": 2.35,
-  "rel_volume_20d": 0.26,
-  "dist_20dma_pct": 7.01,
-  "dist_50dma_pct": 11.13,
+  "rsi_14": 70.6,
+  "atr_pct": 2.34,
+  "rel_volume_20d": 0.21,
+  "dist_20dma_pct": 8.68,
+  "dist_50dma_pct": 13.52,
   "dist_200dma_pct": null
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "SUNSHINE",
  "name": "Sunshine Pictures Limited",
  "kind": "stock",
- "as_of": "2026-11-23",
+ "as_of": "2026-11-25",
  "bars": [
   {
    "time": "2026-08-25",
@@ -543,6 +543,15 @@
    "close": 536.5,
    "volume": 828630,
    "delivery_pct": 35.61
+  },
+  {
+   "time": "2026-11-25",
+   "open": 538.0,
+   "high": 550.0,
+   "low": 495.0,
+   "close": 522.15,
+   "volume": 1373915,
+   "delivery_pct": 39.03
   }
  ],
  "ma": {
@@ -710,6 +719,10 @@
    {
     "time": "2026-11-23",
     "value": 434.57
+   },
+   {
+    "time": "2026-11-25",
+    "value": 441.15
    }
   ],
   "sma_50": [
@@ -756,15 +769,19 @@
    {
     "time": "2026-11-23",
     "value": 435.29
+   },
+   {
+    "time": "2026-11-25",
+    "value": 435.95
    }
   ]
  },
  "technicals": {
-  "rsi_14": 76.81,
-  "atr_pct": 5.22,
-  "rel_volume_20d": 1.91,
-  "dist_20dma_pct": 23.45,
-  "dist_50dma_pct": 23.25,
+  "rsi_14": 70.68,
+  "atr_pct": 5.74,
+  "rel_volume_20d": 2.98,
+  "dist_20dma_pct": 18.36,
+  "dist_50dma_pct": 19.77,
   "dist_200dma_pct": null
  }
 }

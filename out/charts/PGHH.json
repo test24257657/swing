@@ -2,17 +2,8 @@
  "symbol": "PGHH",
  "name": "Procter & Gamble Hygiene and Health Care Limited",
  "kind": "stock",
- "as_of": "2026-11-23",
+ "as_of": "2026-11-25",
  "bars": [
-  {
-   "time": "2025-11-14",
-   "open": 12905.0,
-   "high": 13077.0,
-   "low": 12905.0,
-   "close": 13036.0,
-   "volume": 15294,
-   "delivery_pct": 83.74
-  },
   {
    "time": "2025-11-17",
    "open": 12951.0,
@@ -2262,14 +2253,19 @@
    "close": 7206.0,
    "volume": 12807,
    "delivery_pct": 46.14
+  },
+  {
+   "time": "2026-11-25",
+   "open": 7206.0,
+   "high": 7312.0,
+   "low": 7070.5,
+   "close": 7097.5,
+   "volume": 15996,
+   "delivery_pct": 42.88
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-11",
-    "value": 12775.9
-   },
    {
     "time": "2025-12-12",
     "value": 12762.8
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-23",
     "value": 6968.82
+   },
+   {
+    "time": "2026-11-25",
+    "value": 6982.45
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-27",
-    "value": 12701.42
-   },
    {
     "time": "2026-01-28",
     "value": 12680.48
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-23",
     "value": 7075.86
+   },
+   {
+    "time": "2026-11-25",
+    "value": 7063.09
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-04",
-    "value": 10433.22
-   },
    {
     "time": "2026-09-07",
     "value": 10406.22
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-23",
     "value": 9005.06
+   },
+   {
+    "time": "2026-11-25",
+    "value": 8981.78
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.64,
-  "atr_pct": 2.77,
-  "rel_volume_20d": 0.8,
-  "dist_20dma_pct": 3.4,
-  "dist_50dma_pct": 1.84,
-  "dist_200dma_pct": -19.98
+  "rsi_14": 52.32,
+  "atr_pct": 2.86,
+  "rel_volume_20d": 1.0,
+  "dist_20dma_pct": 1.65,
+  "dist_50dma_pct": 0.49,
+  "dist_200dma_pct": -20.98
  }
 }

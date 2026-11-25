@@ -2,7 +2,7 @@
  "symbol": "PERMAGN",
  "name": "Permanent Magnets Limited",
  "kind": "stock",
- "as_of": "2026-11-23",
+ "as_of": "2026-11-25",
  "bars": [
   {
    "time": "2026-08-17",
@@ -597,6 +597,15 @@
    "close": 1335.9,
    "volume": 235962,
    "delivery_pct": 20.5
+  },
+  {
+   "time": "2026-11-25",
+   "open": 1311.0,
+   "high": 1563.0,
+   "low": 1268.1,
+   "close": 1325.7,
+   "volume": 633273,
+   "delivery_pct": 8.81
   }
  ],
  "ma": {
@@ -788,6 +797,10 @@
    {
     "time": "2026-11-23",
     "value": 1089.97
+   },
+   {
+    "time": "2026-11-25",
+    "value": 1113.41
    }
   ],
   "sma_50": [
@@ -858,15 +871,19 @@
    {
     "time": "2026-11-23",
     "value": 948.37
+   },
+   {
+    "time": "2026-11-25",
+    "value": 957.62
    }
   ]
  },
  "technicals": {
-  "rsi_14": 67.89,
-  "atr_pct": 6.43,
-  "rel_volume_20d": 5.17,
-  "dist_20dma_pct": 22.56,
-  "dist_50dma_pct": 40.86,
+  "rsi_14": 66.98,
+  "atr_pct": 7.61,
+  "rel_volume_20d": 11.17,
+  "dist_20dma_pct": 19.07,
+  "dist_50dma_pct": 38.44,
   "dist_200dma_pct": null
  }
 }

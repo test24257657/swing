@@ -1,13 +1,12 @@
 {
- "as_of": "2026-11-23",
+ "as_of": "2026-11-25",
  "tiles": [
   {
    "symbol": "NIFTY 50",
-   "value": 25349.65,
-   "change": -450.95,
-   "change_pct": -1.75,
+   "value": 25819.25,
+   "change": 469.6,
+   "change_pct": 1.85,
    "spark": [
-    22363.35,
     22721.95,
     22622.7,
     22997.35,
@@ -36,17 +35,17 @@
     25227.95,
     25514.3,
     25800.6,
-    25349.65
+    25349.65,
+    25819.25
    ],
-   "as_of": "2026-11-23"
+   "as_of": "2026-11-25"
   },
   {
    "symbol": "NIFTY BANK",
-   "value": 62585.35,
-   "change": -2049.85,
-   "change_pct": -3.17,
+   "value": 63703.25,
+   "change": 1117.9,
+   "change_pct": 1.79,
    "spark": [
-    54918.0,
     55481.05,
     55316.0,
     55810.5,
@@ -75,17 +74,17 @@
     62038.65,
     63063.0,
     64635.2,
-    62585.35
+    62585.35,
+    63703.25
    ],
-   "as_of": "2026-11-23"
+   "as_of": "2026-11-25"
   },
   {
    "symbol": "NIFTY 500",
-   "value": 23748.15,
-   "change": -340.65,
-   "change_pct": -1.41,
+   "value": 24025.4,
+   "change": 277.25,
+   "change_pct": 1.17,
    "spark": [
-    21822.75,
     22090.0,
     22038.0,
     22180.8,
@@ -114,17 +113,17 @@
     23630.25,
     23897.15,
     24088.8,
-    23748.15
+    23748.15,
+    24025.4
    ],
-   "as_of": "2026-11-23"
+   "as_of": "2026-11-25"
   },
   {
    "symbol": "INDIA VIX",
-   "value": 17.7,
-   "change": 0.38,
-   "change_pct": 2.19,
+   "value": 17.67,
+   "change": -0.03,
+   "change_pct": -0.17,
    "spark": [
-    15.25,
     14.12,
     14.63,
     14.03,
@@ -153,29 +152,24 @@
     15.57,
     16.11,
     17.32,
-    17.7
+    17.7,
+    17.67
    ],
-   "as_of": "2026-11-23"
+   "as_of": "2026-11-25"
   }
  ],
  "breadth": {
-  "date": "2026-11-23",
-  "advances": 813,
-  "declines": 2143,
-  "unchanged": 36,
-  "traded": 2992,
-  "ad_ratio": 0.38,
-  "pct_above_50dma": 37.53,
-  "pct_above_200dma": 40.53,
-  "new_52w_highs": 4,
-  "new_52w_lows": 8,
+  "date": "2026-11-25",
+  "advances": 1258,
+  "declines": 1681,
+  "unchanged": 43,
+  "traded": 2982,
+  "ad_ratio": 0.75,
+  "pct_above_50dma": 36.86,
+  "pct_above_200dma": 40.74,
+  "new_52w_highs": 6,
+  "new_52w_lows": 4,
   "series": [
-   {
-    "date": "2026-10-09",
-    "pct_advancing": 60.17,
-    "pct_above_50dma": 23.54,
-    "traded": 2935
-   },
    {
     "date": "2026-10-12",
     "pct_advancing": 48.07,
@@ -349,6 +343,12 @@
     "pct_advancing": 27.17,
     "pct_above_50dma": 46.67,
     "traded": 2974
+   },
+   {
+    "date": "2026-11-25",
+    "pct_advancing": 42.18,
+    "pct_above_50dma": 48.33,
+    "traded": 2975
    }
   ]
  },
@@ -409,10 +409,10 @@
   "dii_10_session_net": -39650.3
  },
  "vix": {
-  "value": 17.7,
-  "change": 0.38,
-  "change_pct": 2.19,
-  "percentile_250d": 80.4,
+  "value": 17.67,
+  "change": -0.03,
+  "change_pct": -0.17,
+  "percentile_250d": 80.0,
   "band": "moderate",
   "verdict": "Normal market",
   "advice": "Typical day-to-day ups and downs. Nothing unusual \u2014 trade as you normally would."
@@ -421,144 +421,144 @@
   {
    "symbol": "APLAPOLLO",
    "name": "APL Apollo Tubes Limited",
-   "ltp": 1670.0,
-   "change_pct": -21.29,
-   "turnover_cr": 4625.5
+   "ltp": 1476.0,
+   "change_pct": -11.62,
+   "turnover_cr": 6638.4
   },
   {
    "symbol": "HDFCBANK",
    "name": "HDFC Bank Limited",
-   "ltp": 817.8,
-   "change_pct": -3.33,
-   "turnover_cr": 4624.4
+   "ltp": 846.2,
+   "change_pct": 3.47,
+   "turnover_cr": 4068.4
   },
   {
    "symbol": "ICICIBANK",
    "name": "ICICI Bank Limited",
-   "ltp": 1585.5,
-   "change_pct": -3.32,
-   "turnover_cr": 3569.6
-  },
-  {
-   "symbol": "TATASTEEL",
-   "name": "Tata Steel Limited",
-   "ltp": 163.0,
-   "change_pct": -8.43,
-   "turnover_cr": 2793.9
+   "ltp": 1640.0,
+   "change_pct": 3.44,
+   "turnover_cr": 3107.2
   },
   {
    "symbol": "RELIANCE",
    "name": "Reliance Industries Limited",
-   "ltp": 1351.0,
-   "change_pct": -1.92,
-   "turnover_cr": 2094.4
+   "ltp": 1373.9,
+   "change_pct": 1.7,
+   "turnover_cr": 2583.8
   },
   {
-   "symbol": "TCS",
-   "name": "Tata Consultancy Services Limited",
-   "ltp": 2460.0,
-   "change_pct": 3.53,
-   "turnover_cr": 1818.9
+   "symbol": "TATASTEEL",
+   "name": "Tata Steel Limited",
+   "ltp": 159.3,
+   "change_pct": -2.27,
+   "turnover_cr": 2165.2
   },
   {
-   "symbol": "MARUTI",
-   "name": "Maruti Suzuki India Limited",
-   "ltp": 14010.0,
-   "change_pct": -0.01,
-   "turnover_cr": 1777.8
-  },
-  {
-   "symbol": "SBIN",
-   "name": "State Bank of India",
-   "ltp": 1132.65,
-   "change_pct": -2.79,
-   "turnover_cr": 1712.2
+   "symbol": "THOMASCOOK",
+   "name": "Thomas Cook  (India)  Limited",
+   "ltp": 149.6,
+   "change_pct": 15.62,
+   "turnover_cr": 1815.2
   },
   {
    "symbol": "SILVERBEES",
    "name": "SILVERBEES",
-   "ltp": 146.38,
-   "change_pct": -0.27,
-   "turnover_cr": 1536.4
+   "ltp": 138.4,
+   "change_pct": -5.45,
+   "turnover_cr": 1729.1
+  },
+  {
+   "symbol": "INFY",
+   "name": "Infosys Limited",
+   "ltp": 1130.0,
+   "change_pct": 2.41,
+   "turnover_cr": 1646.6
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "name": "Bharti Airtel Limited",
+   "ltp": 2117.5,
+   "change_pct": -0.52,
+   "turnover_cr": 1486.3
   },
   {
    "symbol": "AXISBANK",
    "name": "Axis Bank Limited",
-   "ltp": 1388.6,
-   "change_pct": -3.97,
-   "turnover_cr": 1530.8
+   "ltp": 1418.1,
+   "change_pct": 2.12,
+   "turnover_cr": 1378.7
   }
  ],
  "breakouts_52w": [
   {
-   "symbol": "WINDMACHIN",
-   "name": "Windsor Machines Limited",
-   "ltp": 354.7,
-   "change_pct": 10.43,
-   "vol_ratio": 14.0
-  },
-  {
    "symbol": "SHALPAINTS",
    "name": "Shalimar Paints Limited",
-   "ltp": 103.97,
-   "change_pct": 6.72,
-   "vol_ratio": 11.0
+   "ltp": 107.61,
+   "change_pct": 3.5,
+   "vol_ratio": 6.0
   },
   {
-   "symbol": "SCPL",
-   "name": "Sheetal Cool Products Limited",
-   "ltp": 707.8,
-   "change_pct": 11.38,
-   "vol_ratio": 9.1
+   "symbol": "ARIS",
+   "name": "Arisinfra Solutions Limited",
+   "ltp": 190.3,
+   "change_pct": 14.09,
+   "vol_ratio": 5.3
+  },
+  {
+   "symbol": "GREAVESCOT",
+   "name": "Greaves Cotton Limited",
+   "ltp": 309.44,
+   "change_pct": 14.98,
+   "vol_ratio": 4.7
+  },
+  {
+   "symbol": "MON50EQUAL",
+   "name": "MON50EQUAL",
+   "ltp": 34.57,
+   "change_pct": 1.29,
+   "vol_ratio": 4.4
+  },
+  {
+   "symbol": "EQUAL50",
+   "name": "EQUAL50",
+   "ltp": 345.06,
+   "change_pct": 1.48,
+   "vol_ratio": 3.6
   },
   {
    "symbol": "HMAAGRO",
    "name": "HMA Agro Industries Limited",
-   "ltp": 40.03,
-   "change_pct": 18.05,
-   "vol_ratio": 8.2
+   "ltp": 43.35,
+   "change_pct": 8.29,
+   "vol_ratio": 3.4
   },
   {
-   "symbol": "SAMBHV",
-   "name": "Sambhv Steel Tubes Limited",
-   "ltp": 176.9,
-   "change_pct": 11.92,
-   "vol_ratio": 7.2
+   "symbol": "NECCLTD",
+   "name": "North Eastern Carrying Corporation Limited",
+   "ltp": 25.78,
+   "change_pct": 3.66,
+   "vol_ratio": 3.3
   },
   {
-   "symbol": "LIQUIDBETF",
-   "name": "LIQUIDBETF",
-   "ltp": 1109.35,
-   "change_pct": 0.03,
-   "vol_ratio": 3.1
+   "symbol": "VIJAYA",
+   "name": "Vijaya Diagnostic Centre Limited",
+   "ltp": 1627.7,
+   "change_pct": 3.5,
+   "vol_ratio": 3.3
   },
   {
-   "symbol": "RATNAVEER",
-   "name": "Ratnaveer Precision Engineering Limited",
-   "ltp": 403.3,
-   "change_pct": 8.93,
-   "vol_ratio": 2.9
+   "symbol": "BAFNAPH",
+   "name": "Bafna Pharmaceuticals Limited",
+   "ltp": 507.25,
+   "change_pct": 5.0,
+   "vol_ratio": 2.7
   },
   {
-   "symbol": "CASHIETF",
-   "name": "CASHIETF",
-   "ltp": 1090.31,
-   "change_pct": 0.03,
-   "vol_ratio": 2.3
-  },
-  {
-   "symbol": "SPORTKING",
-   "name": "Sportking India Limited",
-   "ltp": 239.18,
-   "change_pct": 8.09,
-   "vol_ratio": 2.3
-  },
-  {
-   "symbol": "AKCAPIT",
-   "name": "AK Capital Services Limited",
-   "ltp": 2085.4,
-   "change_pct": 4.1,
-   "vol_ratio": 2.1
+   "symbol": "HDFCLIQUID",
+   "name": "HDFCLIQUID",
+   "ltp": 1088.84,
+   "change_pct": 0.01,
+   "vol_ratio": 2.7
   }
  ]
 }

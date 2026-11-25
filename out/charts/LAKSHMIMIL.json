@@ -2,7 +2,7 @@
  "symbol": "LAKSHMIMIL",
  "name": "Lakshmi Mills Company Limited",
  "kind": "stock",
- "as_of": "2026-11-23",
+ "as_of": "2026-11-25",
  "bars": [
   {
    "time": "2026-08-18",
@@ -579,6 +579,15 @@
    "close": 8999.5,
    "volume": 28,
    "delivery_pct": 53.57
+  },
+  {
+   "time": "2026-11-25",
+   "open": 8801.5,
+   "high": 9190.0,
+   "low": 8801.5,
+   "close": 9004.0,
+   "volume": 172,
+   "delivery_pct": 73.84
   }
  ],
  "ma": {
@@ -762,6 +771,10 @@
    {
     "time": "2026-11-23",
     "value": 8309.12
+   },
+   {
+    "time": "2026-11-25",
+    "value": 8374.33
    }
   ],
   "sma_50": [
@@ -824,15 +837,19 @@
    {
     "time": "2026-11-23",
     "value": 7999.89
+   },
+   {
+    "time": "2026-11-25",
+    "value": 8025.29
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.05,
-  "atr_pct": 3.95,
-  "rel_volume_20d": 0.22,
-  "dist_20dma_pct": 8.31,
-  "dist_50dma_pct": 12.5,
+  "rsi_14": 69.13,
+  "atr_pct": 3.97,
+  "rel_volume_20d": 1.37,
+  "dist_20dma_pct": 7.52,
+  "dist_50dma_pct": 12.2,
   "dist_200dma_pct": null
  }
 }

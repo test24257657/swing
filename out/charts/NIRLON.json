@@ -2,7 +2,7 @@
  "symbol": "NIRLON",
  "name": "Nirlon Limited",
  "kind": "stock",
- "as_of": "2026-11-23",
+ "as_of": "2026-11-25",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1335,6 +1335,15 @@
    "close": 640.3,
    "volume": 2783,
    "delivery_pct": 77.25
+  },
+  {
+   "time": "2026-11-25",
+   "open": 637.55,
+   "high": 642.95,
+   "low": 635.2,
+   "close": 640.05,
+   "volume": 3678,
+   "delivery_pct": 87.19
   }
  ],
  "ma": {
@@ -1854,6 +1863,10 @@
    {
     "time": "2026-11-23",
     "value": 637.37
+   },
+   {
+    "time": "2026-11-25",
+    "value": 638.11
    }
   ],
   "sma_50": [
@@ -2252,15 +2265,19 @@
    {
     "time": "2026-11-23",
     "value": 622.88
+   },
+   {
+    "time": "2026-11-25",
+    "value": 623.29
    }
   ]
  },
  "technicals": {
-  "rsi_14": 57.99,
-  "atr_pct": 2.0,
-  "rel_volume_20d": 0.46,
-  "dist_20dma_pct": 0.46,
-  "dist_50dma_pct": 2.8,
+  "rsi_14": 57.59,
+  "atr_pct": 1.94,
+  "rel_volume_20d": 0.62,
+  "dist_20dma_pct": 0.3,
+  "dist_50dma_pct": 2.69,
   "dist_200dma_pct": null
  }
 }

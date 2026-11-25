@@ -1,153 +1,153 @@
 {
- "as_of": "2026-11-24",
+ "as_of": "2026-11-25",
  "source": "ai",
- "universe": 297,
- "eligible": 30,
+ "universe": 328,
+ "eligible": 26,
  "picks": [
   {
-   "symbol": "REGAAL",
-   "ltp": 99.75,
+   "symbol": "DRREDDY",
+   "ltp": 1398.0,
    "technicals": {
-    "rsi_14": 67.52,
-    "rel_volume_20d": 1.55,
-    "dist_20dma_pct": 9.21,
-    "dist_50dma_pct": 12.62,
-    "dist_200dma_pct": 22.75
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 99.53,
-    "stop_suggestion": 83.82,
-    "target_suggestion": 119.44,
-    "gap_to_pivot_pct": 0.22
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 316.6,
-    "net_income_cr": 23.2,
-    "revenue_qoq_pct": 56.7,
-    "net_income_qoq_pct": 74.4
-   },
-   "reason": "Confirmed breakout just 0.22% above pivot with strong 1.55x average volume and RSI 67.52. High-quality growth backed by 56.7% revenue and 74.4% net profit QoQ increases.",
-   "rank": 1,
-   "name": "Regaal Resources Limited"
-  },
-  {
-   "symbol": "VIJAYA",
-   "ltp": 1572.6,
-   "technicals": {
-    "rsi_14": 64.84,
-    "rel_volume_20d": 2.14,
-    "dist_20dma_pct": 7.64,
-    "dist_50dma_pct": 7.63,
-    "dist_200dma_pct": 24.12
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 1570.7,
-    "stop_suggestion": 1381.4,
-    "target_suggestion": 1884.84,
-    "gap_to_pivot_pct": 0.12
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 255.4,
-    "net_income_cr": 59.5,
-    "revenue_qoq_pct": 10.6,
-    "net_income_qoq_pct": 12.1
-   },
-   "reason": "Confirmed 52-week breakout sitting just 0.12% from pivot on high 2.14x average volume. Fundamentals show balanced growth with revenue up 10.6% and net profit up 12.1% QoQ.",
-   "rank": 2,
-   "name": "Vijaya Diagnostic Centre Limited"
-  },
-  {
-   "symbol": "SAMBHV",
-   "ltp": 176.9,
-   "technicals": {
-    "rsi_14": 62.26,
-    "rel_volume_20d": 11.06,
-    "dist_20dma_pct": 8.28,
-    "dist_50dma_pct": 12.53,
-    "dist_200dma_pct": 44.85
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 172.47,
-    "stop_suggestion": 150.25,
-    "target_suggestion": 206.96,
-    "gap_to_pivot_pct": 2.57
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 836.0,
-    "net_income_cr": 60.9,
-    "revenue_qoq_pct": 14.2,
-    "net_income_qoq_pct": 7.8
-   },
-   "reason": "Confirmed breakout backed by massive 11.06x average volume surge, trading 2.57% past pivot. Steady growth with revenue up 14.2% and profit rising 7.8% QoQ supports momentum.",
-   "rank": 3,
-   "name": "Sambhv Steel Tubes Limited"
-  },
-  {
-   "symbol": "SUDEEPPHRM",
-   "ltp": 1250.0,
-   "technicals": {
-    "rsi_14": 63.72,
-    "rel_volume_20d": 1.55,
-    "dist_20dma_pct": 9.32,
-    "dist_50dma_pct": 10.22,
-    "dist_200dma_pct": 44.43
+    "rsi_14": 68.61,
+    "rel_volume_20d": 1.24,
+    "dist_20dma_pct": 2.17,
+    "dist_50dma_pct": 10.11,
+    "dist_200dma_pct": 11.05
    },
    "pattern": {
     "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 1257.3,
-    "stop_suggestion": 1153.64,
-    "target_suggestion": 1445.89,
+    "pivot_price": 1406.1,
+    "stop_suggestion": 1358.74,
+    "target_suggestion": 1617.01,
     "gap_to_pivot_pct": -0.58
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 196.7,
-    "net_income_cr": 51.5,
-    "revenue_qoq_pct": 24.3,
-    "net_income_qoq_pct": 27.2
+    "revenue_cr": 8670.8,
+    "net_income_cr": 925.0,
+    "revenue_qoq_pct": 7.4,
+    "net_income_qoq_pct": 108.6
    },
-   "reason": "Tight setup forming just -0.58% from pivot with above-average 1.55x volume and RSI 63.72. Double-digit growth with revenue up 24.3% and net profit up 27.2% QoQ.",
-   "rank": 4,
-   "name": "Sudeep Pharma Limited"
+   "reason": "DRREDDY sits near its \u20b91406.1 pivot with a tight stop, backed by 1.24x average volume and solid earnings growth with \u20b9925.0 cr net profit up 108.6% QoQ.",
+   "rank": 1,
+   "name": "Dr. Reddy's Laboratories Limited"
   },
   {
-   "symbol": "FLUOROCHEM",
-   "ltp": 4895.0,
+   "symbol": "AUROPHARMA",
+   "ltp": 1843.0,
    "technicals": {
-    "rsi_14": 61.6,
-    "rel_volume_20d": 1.43,
-    "dist_20dma_pct": 6.76,
-    "dist_50dma_pct": 7.71,
-    "dist_200dma_pct": 23.16
+    "rsi_14": 66.72,
+    "rel_volume_20d": 1.17,
+    "dist_20dma_pct": 5.27,
+    "dist_50dma_pct": 8.08,
+    "dist_200dma_pct": 22.51
    },
    "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 4824.4,
-    "stop_suggestion": 4175.0,
-    "target_suggestion": 5789.28,
-    "gap_to_pivot_pct": 1.46
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 1859.9,
+    "stop_suggestion": 1779.17,
+    "target_suggestion": 2138.88,
+    "gap_to_pivot_pct": -0.91
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 1760.0,
-    "net_income_cr": 243.0,
-    "revenue_qoq_pct": 10.8,
-    "net_income_qoq_pct": 11.0
+    "revenue_cr": 10227.3,
+    "net_income_cr": 1126.1,
+    "revenue_qoq_pct": 12.3,
+    "net_income_qoq_pct": 9.1
    },
-   "reason": "Confirmed 52-week breakout trading 1.46% above pivot with 1.43x volume and RSI 61.6. Solid dual expansion with revenue growing 10.8% and net profit up 11.0% QoQ.",
+   "reason": "AUROPHARMA consolidates near its \u20b91859.9 pivot with healthy 1.17x volume, 22.51% above its 200-day average, while revenue grew 12.3% QoQ to \u20b910227.3 cr.",
+   "rank": 2,
+   "name": "Aurobindo Pharma Limited"
+  },
+  {
+   "symbol": "ANTHEM",
+   "ltp": 968.2,
+   "technicals": {
+    "rsi_14": 69.03,
+    "rel_volume_20d": 1.04,
+    "dist_20dma_pct": 7.48,
+    "dist_50dma_pct": 9.29,
+    "dist_200dma_pct": 22.56
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "forming",
+    "pivot_price": 958.15,
+    "stop_suggestion": 823.05,
+    "target_suggestion": 1149.78,
+    "gap_to_pivot_pct": 1.05
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 594.0,
+    "net_income_cr": 211.5,
+    "revenue_qoq_pct": 42.0,
+    "net_income_qoq_pct": 76.4
+   },
+   "reason": "ANTHEM forms a 52-week breakout 1.05% above pivot \u20b9958.15 with 1.04x volume support, backed by strong quarterly revenue growth of 42.0% QoQ to \u20b9594.0 cr.",
+   "rank": 3,
+   "name": "Anthem Biosciences Limited"
+  },
+  {
+   "symbol": "CEATLTD",
+   "ltp": 3579.4,
+   "technicals": {
+    "rsi_14": 63.32,
+    "rel_volume_20d": 5.53,
+    "dist_20dma_pct": 5.46,
+    "dist_50dma_pct": 7.26,
+    "dist_200dma_pct": 2.86
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 3595.0,
+    "stop_suggestion": 3430.79,
+    "target_suggestion": 4134.25,
+    "gap_to_pivot_pct": -0.43
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 4762.0,
+    "net_income_cr": 112.0,
+    "revenue_qoq_pct": 10.3,
+    "net_income_qoq_pct": 2700.0
+   },
+   "reason": "CEATLTD is forming near pivot \u20b93595.0 with massive 5.53x average volume confirmation and healthy RSI of 63.32, supported by revenue growing 10.3% QoQ to \u20b94762.0 cr.",
+   "rank": 4,
+   "name": "CEAT Limited"
+  },
+  {
+   "symbol": "ASTERDM",
+   "ltp": 774.7,
+   "technicals": {
+    "rsi_14": 63.78,
+    "rel_volume_20d": 1.37,
+    "dist_20dma_pct": 7.95,
+    "dist_50dma_pct": 8.21,
+    "dist_200dma_pct": 6.83
+   },
+   "pattern": {
+    "code": "near_pivot",
+    "stage": "forming",
+    "pivot_price": 780.0,
+    "stop_suggestion": 735.8,
+    "target_suggestion": 897.0,
+    "gap_to_pivot_pct": -0.68
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 2829.2,
+    "net_income_cr": 262.0,
+    "revenue_qoq_pct": 115.9,
+    "net_income_qoq_pct": 1527.3
+   },
+   "reason": "ASTERDM trades near pivot \u20b9780.0 with positive 1.37x volume and RSI of 63.78, reinforced by stellar quarterly revenue growth of 115.9% QoQ to \u20b92829.2 cr.",
    "rank": 5,
-   "name": "Gujarat Fluorochemicals Limited"
+   "name": "Aster DM Quality Care Limited"
   }
  ]
 }

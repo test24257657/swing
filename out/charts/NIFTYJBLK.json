@@ -2,7 +2,7 @@
  "symbol": "NIFTYJBLK",
  "name": "NIFTYJBLK",
  "kind": "stock",
- "as_of": "2026-11-23",
+ "as_of": "2026-11-25",
  "bars": [
   {
    "time": "2026-08-20",
@@ -570,6 +570,15 @@
    "close": 13.04,
    "volume": 359314,
    "delivery_pct": 86.63
+  },
+  {
+   "time": "2026-11-25",
+   "open": 12.71,
+   "high": 13.45,
+   "low": 12.4,
+   "close": 13.22,
+   "volume": 334196,
+   "delivery_pct": 51.43
   }
  ],
  "ma": {
@@ -749,6 +758,10 @@
    {
     "time": "2026-11-23",
     "value": 12.46
+   },
+   {
+    "time": "2026-11-25",
+    "value": 12.54
    }
   ],
   "sma_50": [
@@ -807,15 +820,19 @@
    {
     "time": "2026-11-23",
     "value": 12.06
+   },
+   {
+    "time": "2026-11-25",
+    "value": 12.08
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.13,
-  "atr_pct": 4.09,
-  "rel_volume_20d": 1.26,
-  "dist_20dma_pct": 4.68,
-  "dist_50dma_pct": 8.16,
+  "rsi_14": 72.52,
+  "atr_pct": 4.31,
+  "rel_volume_20d": 1.13,
+  "dist_20dma_pct": 5.44,
+  "dist_50dma_pct": 9.45,
   "dist_200dma_pct": null
  }
 }

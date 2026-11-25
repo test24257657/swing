@@ -2,7 +2,7 @@
  "symbol": "SENSEXAXIS",
  "name": "SENSEXAXIS",
  "kind": "stock",
- "as_of": "2026-11-23",
+ "as_of": "2026-11-25",
  "bars": [
   {
    "time": "2026-07-03",
@@ -876,6 +876,15 @@
    "close": 85.9,
    "volume": 5779,
    "delivery_pct": 78.96
+  },
+  {
+   "time": "2026-11-25",
+   "open": 87.87,
+   "high": 87.87,
+   "low": 86.54,
+   "close": 87.19,
+   "volume": 16071,
+   "delivery_pct": 17.45
   }
  ],
  "ma": {
@@ -1191,6 +1200,10 @@
    {
     "time": "2026-11-23",
     "value": 81.64
+   },
+   {
+    "time": "2026-11-25",
+    "value": 82.23
    }
   ],
   "sma_50": [
@@ -1385,15 +1398,19 @@
    {
     "time": "2026-11-23",
     "value": 78.5
+   },
+   {
+    "time": "2026-11-25",
+    "value": 78.67
    }
   ]
  },
  "technicals": {
-  "rsi_14": 69.64,
-  "atr_pct": 2.09,
-  "rel_volume_20d": 0.43,
-  "dist_20dma_pct": 5.21,
-  "dist_50dma_pct": 9.42,
+  "rsi_14": 72.9,
+  "atr_pct": 2.07,
+  "rel_volume_20d": 1.18,
+  "dist_20dma_pct": 6.03,
+  "dist_50dma_pct": 10.82,
   "dist_200dma_pct": null
  }
 }

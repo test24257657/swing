@@ -1,216 +1,277 @@
 {
- "as_of": "2026-11-23",
+ "as_of": "2026-11-25",
  "market": {
   "light": "yellow",
   "label": "Be selective",
   "advice": "Only the strongest setups, smaller size, quicker profits.",
   "reasons": [
-   "NIFTY 50 is above its 50-day average (+7.6%)",
-   "above its 200-day average (+5.6%)",
+   "NIFTY 50 is above its 50-day average (+9.4%)",
+   "above its 200-day average (+7.6%)",
    "3 distribution days in the last 25 sessions",
-   "38% of stocks are above their 50-day average"
+   "37% of stocks are above their 50-day average"
   ],
-  "nifty_close": 25349.65,
+  "nifty_close": 25819.25,
   "distribution_days": 3,
-  "pct_above_50dma": 37.5
+  "pct_above_50dma": 36.9
  },
- "ready": [],
- "rs_leaders": [
+ "ready": [
   {
    "symbol": "ACUTAAS",
    "name": "Acutaas Chemicals Limited",
-   "ltp": 3875.0,
-   "change_pct": 1.08,
+   "ltp": 3993.0,
+   "change_pct": 3.05,
    "rs": 96,
-   "rel_volume": 0.5
+   "rel_volume": 0.43,
+   "pattern": "vcp",
+   "pivot": 4045.3,
+   "gap_to_pivot_pct": -1.29,
+   "stop": 3704.9,
+   "dry_up": false
   },
   {
    "symbol": "ABDL",
    "name": "Allied Blenders and Distillers Limited",
-   "ltp": 802.85,
-   "change_pct": 1.08,
+   "ltp": 807.2,
+   "change_pct": 0.54,
    "rs": 93,
-   "rel_volume": 0.64
-  },
-  {
-   "symbol": "AARTIPHARM",
-   "name": "Aarti Pharmalabs Limited",
-   "ltp": 1020.65,
-   "change_pct": 3.02,
-   "rs": 92,
-   "rel_volume": 1.1
-  },
-  {
-   "symbol": "AAREYDRUGS",
-   "name": "Aarey Drugs & Pharmaceuticals Limited",
-   "ltp": 110.23,
-   "change_pct": -5.0,
-   "rs": 92,
-   "rel_volume": 0.21
-  },
-  {
-   "symbol": "63MOONS",
-   "name": "63 moons technologies limited",
-   "ltp": 912.6,
-   "change_pct": -1.42,
-   "rs": 88,
-   "rel_volume": 4.44
-  },
-  {
-   "symbol": "AARTIDRUGS",
-   "name": "Aarti Drugs Limited",
-   "ltp": 483.8,
-   "change_pct": -0.14,
-   "rs": 85,
-   "rel_volume": 0.08
-  },
-  {
-   "symbol": "ACE",
-   "name": "Action Construction Equipment Limited",
-   "ltp": 1187.45,
-   "change_pct": 1.46,
-   "rs": 84,
-   "rel_volume": 0.65
+   "rel_volume": 0.8,
+   "pattern": "high_52w_breakout",
+   "pivot": 808.2,
+   "gap_to_pivot_pct": -0.12,
+   "stop": 676.0,
+   "dry_up": false
   },
   {
    "symbol": "ADANIPORTS",
    "name": "Adani Ports and Special Economic Zone Limited",
-   "ltp": 1919.0,
-   "change_pct": 0.1,
-   "rs": 83,
-   "rel_volume": 0.71
+   "ltp": 1926.3,
+   "change_pct": 0.38,
+   "rs": 84,
+   "rel_volume": 1.56,
+   "pattern": "vcp",
+   "pivot": 1979.0,
+   "gap_to_pivot_pct": -2.66,
+   "stop": 1860.48,
+   "dry_up": false
   },
   {
    "symbol": "ABCAPITAL",
    "name": "Aditya Birla Capital Limited",
-   "ltp": 415.8,
-   "change_pct": -1.7,
-   "rs": 80,
-   "rel_volume": 0.72
+   "ltp": 422.0,
+   "change_pct": 1.49,
+   "rs": 81,
+   "rel_volume": 0.75,
+   "pattern": "high_52w_breakout",
+   "pivot": 424.7,
+   "gap_to_pivot_pct": -0.64,
+   "stop": 377.9,
+   "dry_up": false
+  }
+ ],
+ "rs_leaders": [
+  {
+   "symbol": "ACUTAAS",
+   "name": "Acutaas Chemicals Limited",
+   "ltp": 3993.0,
+   "change_pct": 3.05,
+   "rs": 96,
+   "rel_volume": 0.43
+  },
+  {
+   "symbol": "AAREYDRUGS",
+   "name": "Aarey Drugs & Pharmaceuticals Limited",
+   "ltp": 112.16,
+   "change_pct": 1.75,
+   "rs": 93,
+   "rel_volume": 1.55
+  },
+  {
+   "symbol": "ABDL",
+   "name": "Allied Blenders and Distillers Limited",
+   "ltp": 807.2,
+   "change_pct": 0.54,
+   "rs": 93,
+   "rel_volume": 0.8
+  },
+  {
+   "symbol": "AARTIPHARM",
+   "name": "Aarti Pharmalabs Limited",
+   "ltp": 1025.45,
+   "change_pct": 0.47,
+   "rs": 92,
+   "rel_volume": 0.6
+  },
+  {
+   "symbol": "AARTIDRUGS",
+   "name": "Aarti Drugs Limited",
+   "ltp": 487.9,
+   "change_pct": 0.85,
+   "rs": 85,
+   "rel_volume": 0.08
+  },
+  {
+   "symbol": "ADANIPORTS",
+   "name": "Adani Ports and Special Economic Zone Limited",
+   "ltp": 1926.3,
+   "change_pct": 0.38,
+   "rs": 84,
+   "rel_volume": 1.56
+  },
+  {
+   "symbol": "ACE",
+   "name": "Action Construction Equipment Limited",
+   "ltp": 1190.35,
+   "change_pct": 0.24,
+   "rs": 84,
+   "rel_volume": 1.07
+  },
+  {
+   "symbol": "ABCAPITAL",
+   "name": "Aditya Birla Capital Limited",
+   "ltp": 422.0,
+   "change_pct": 1.49,
+   "rs": 81,
+   "rel_volume": 0.75
   }
  ],
  "delivery_spikes": [
   {
-   "symbol": "FLAIR",
-   "name": "Flair Writing Industries Limited",
-   "ltp": 245.95,
-   "change_pct": 2.3,
-   "rs": 35,
-   "rel_volume": 2.51,
-   "delivery_pct": 85.5,
-   "delivery_avg_pct": 43.4
+   "symbol": "DIGITIDE",
+   "name": "Digitide Solutions Limited",
+   "ltp": 59.97,
+   "change_pct": 1.44,
+   "rs": 4,
+   "rel_volume": 1.51,
+   "delivery_pct": 79.0,
+   "delivery_avg_pct": 51.7
   }
  ],
  "pocket_pivots": [
   {
-   "symbol": "ABLBL",
-   "name": "Aditya Birla Lifestyle Brands Limited",
-   "ltp": 78.52,
-   "change_pct": 3.89,
-   "rs": 18,
-   "rel_volume": 2.32
+   "symbol": "ACE",
+   "name": "Action Construction Equipment Limited",
+   "ltp": 1190.35,
+   "change_pct": 0.24,
+   "rs": 84,
+   "rel_volume": 1.07
+  },
+  {
+   "symbol": "ADANIPORTS",
+   "name": "Adani Ports and Special Economic Zone Limited",
+   "ltp": 1926.3,
+   "change_pct": 0.38,
+   "rs": 84,
+   "rel_volume": 1.56
+  },
+  {
+   "symbol": "ABSLAMC",
+   "name": "Aditya Birla Sun Life AMC Limited",
+   "ltp": 958.7,
+   "change_pct": 3.21,
+   "rs": 72,
+   "rel_volume": 2.31
   }
  ],
  "sector_leaders": [
   {
    "sector": "NIFTY REALTY",
    "rank": 1,
-   "return_1m": 20.08,
+   "return_1m": 19.29,
    "stocks": [
     {
      "symbol": "PHOENIXLTD",
      "name": "The Phoenix Mills Limited",
-     "ltp": 2276.2,
-     "change_pct": -0.4,
-     "rs": 88,
-     "rel_volume": 1.53
+     "ltp": 2285.5,
+     "change_pct": 0.41,
+     "rs": 89,
+     "rel_volume": 1.33
     },
     {
      "symbol": "DLF",
      "name": "DLF Limited",
-     "ltp": 794.1,
-     "change_pct": 1.16,
+     "ltp": 795.0,
+     "change_pct": 0.11,
      "rs": 85,
-     "rel_volume": 1.05
+     "rel_volume": 1.12
     },
     {
-     "symbol": "LODHA",
-     "name": "Lodha Developers Limited",
-     "ltp": 1219.0,
-     "change_pct": 0.02,
-     "rs": 77,
-     "rel_volume": 0.72
+     "symbol": "OBEROIRLTY",
+     "name": "Oberoi Realty Limited",
+     "ltp": 1868.5,
+     "change_pct": 0.46,
+     "rs": 75,
+     "rel_volume": 1.12
     }
    ]
   },
   {
    "sector": "NIFTY PSU BANK",
    "rank": 2,
-   "return_1m": 18.45,
+   "return_1m": 18.55,
    "stocks": [
     {
      "symbol": "MAHABANK",
      "name": "Bank of Maharashtra",
-     "ltp": 97.56,
-     "change_pct": -1.9,
-     "rs": 92,
-     "rel_volume": 1.54
+     "ltp": 98.71,
+     "change_pct": 1.18,
+     "rs": 93,
+     "rel_volume": 0.94
     },
     {
      "symbol": "PNB",
      "name": "Punjab National Bank",
-     "ltp": 149.75,
-     "change_pct": -3.59,
+     "ltp": 148.61,
+     "change_pct": -0.76,
      "rs": 90,
-     "rel_volume": 0.81
+     "rel_volume": 0.83
     },
     {
      "symbol": "UNIONBANK",
      "name": "Union Bank of India",
-     "ltp": 208.2,
-     "change_pct": -4.87,
-     "rs": 86,
-     "rel_volume": 1.26
+     "ltp": 213.5,
+     "change_pct": 2.55,
+     "rs": 88,
+     "rel_volume": 0.89
     }
    ]
   },
   {
-   "sector": "NIFTY PRIVATE BANK",
+   "sector": "NIFTY FMCG",
    "rank": 3,
-   "return_1m": 15.02,
+   "return_1m": 17.16,
    "stocks": [
     {
-     "symbol": "FEDERALBNK",
-     "name": "The Federal Bank  Limited",
-     "ltp": 359.8,
-     "change_pct": -3.67,
-     "rs": 86,
-     "rel_volume": 2.31
+     "symbol": "RADICO",
+     "name": "Radico Khaitan Limited",
+     "ltp": 4699.0,
+     "change_pct": 1.35,
+     "rs": 90,
+     "rel_volume": 0.74
     },
     {
-     "symbol": "ICICIBANK",
-     "name": "ICICI Bank Limited",
-     "ltp": 1585.5,
-     "change_pct": -3.32,
+     "symbol": "MARICO",
+     "name": "Marico Limited",
+     "ltp": 935.2,
+     "change_pct": 1.71,
      "rs": 82,
-     "rel_volume": 1.44
+     "rel_volume": 0.8
     },
     {
-     "symbol": "RBLBANK",
-     "name": "RBL Bank Limited",
-     "ltp": 393.5,
-     "change_pct": -1.21,
-     "rs": 80,
-     "rel_volume": 1.6
+     "symbol": "TATACONSUM",
+     "name": "TATA CONSUMER PRODUCTS LIMITED",
+     "ltp": 1185.8,
+     "change_pct": 4.66,
+     "rs": 74,
+     "rel_volume": 1.77
     }
    ]
   }
  ],
  "counts": {
-  "rated": 2339,
+  "rated": 2337,
   "trend_template": 11,
-  "ready": 0,
+  "ready": 4,
   "delivery_spikes": 1,
-  "pocket_pivots": 1
+  "pocket_pivots": 3
  }
 }
