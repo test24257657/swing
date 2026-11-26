@@ -2,7 +2,7 @@
  "symbol": "MILKYMIST",
  "name": "Milky Mist Dairy Food Limited",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
   {
    "time": "2026-08-18",
@@ -597,6 +597,15 @@
    "close": 345.4,
    "volume": 3263034,
    "delivery_pct": 56.6
+  },
+  {
+   "time": "2026-11-26",
+   "open": 349.5,
+   "high": 360.0,
+   "low": 349.45,
+   "close": 357.35,
+   "volume": 1273167,
+   "delivery_pct": 49.05
   }
  ],
  "ma": {
@@ -788,6 +797,10 @@
    {
     "time": "2026-11-25",
     "value": 306.46
+   },
+   {
+    "time": "2026-11-26",
+    "value": 310.06
    }
   ],
   "sma_50": [
@@ -858,15 +871,19 @@
    {
     "time": "2026-11-25",
     "value": 302.52
+   },
+   {
+    "time": "2026-11-26",
+    "value": 304.36
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.77,
-  "atr_pct": 4.6,
-  "rel_volume_20d": 4.0,
-  "dist_20dma_pct": 12.71,
-  "dist_50dma_pct": 14.17,
+  "rsi_14": 74.05,
+  "atr_pct": 4.42,
+  "rel_volume_20d": 1.38,
+  "dist_20dma_pct": 15.25,
+  "dist_50dma_pct": 17.41,
   "dist_200dma_pct": null
  }
 }

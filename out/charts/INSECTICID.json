@@ -2,17 +2,8 @@
  "symbol": "INSECTICID",
  "name": "Insecticides (India) Limited",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
-  {
-   "time": "2025-11-17",
-   "open": 668.0,
-   "high": 678.95,
-   "low": 666.95,
-   "close": 675.5,
-   "volume": 29558,
-   "delivery_pct": 60.94
-  },
   {
    "time": "2025-11-18",
    "open": 680.0,
@@ -2262,14 +2253,19 @@
    "close": 562.8,
    "volume": 92929,
    "delivery_pct": 77.24
+  },
+  {
+   "time": "2026-11-26",
+   "open": 564.75,
+   "high": 568.9,
+   "low": 546.0,
+   "close": 553.7,
+   "volume": 68587,
+   "delivery_pct": 88.21
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-12",
-    "value": 709.24
-   },
    {
     "time": "2025-12-15",
     "value": 710.58
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-25",
     "value": 539.77
+   },
+   {
+    "time": "2026-11-26",
+    "value": 541.31
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-28",
-    "value": 689.23
-   },
    {
     "time": "2026-01-29",
     "value": 688.61
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-25",
     "value": 567.57
+   },
+   {
+    "time": "2026-11-26",
+    "value": 566.17
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-07",
-    "value": 660.21
-   },
    {
     "time": "2026-09-08",
     "value": 659.88
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-25",
     "value": 629.62
+   },
+   {
+    "time": "2026-11-26",
+    "value": 629.43
    }
   ]
  },
  "technicals": {
-  "rsi_14": 55.35,
-  "atr_pct": 3.37,
-  "rel_volume_20d": 3.2,
-  "dist_20dma_pct": 4.27,
-  "dist_50dma_pct": -0.84,
-  "dist_200dma_pct": -10.61
+  "rsi_14": 50.83,
+  "atr_pct": 3.48,
+  "rel_volume_20d": 2.08,
+  "dist_20dma_pct": 2.29,
+  "dist_50dma_pct": -2.2,
+  "dist_200dma_pct": -12.03
  }
 }

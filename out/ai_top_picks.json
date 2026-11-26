@@ -1,153 +1,153 @@
 {
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "source": "ai",
- "universe": 328,
- "eligible": 26,
+ "universe": 359,
+ "eligible": 14,
  "picks": [
   {
-   "symbol": "DRREDDY",
-   "ltp": 1398.0,
+   "symbol": "RACLGEAR",
+   "ltp": 1608.2,
    "technicals": {
-    "rsi_14": 68.61,
-    "rel_volume_20d": 1.24,
-    "dist_20dma_pct": 2.17,
-    "dist_50dma_pct": 10.11,
-    "dist_200dma_pct": 11.05
+    "rsi_14": 62.43,
+    "rel_volume_20d": 2.39,
+    "dist_20dma_pct": 8.06,
+    "dist_50dma_pct": 4.04,
+    "dist_200dma_pct": 16.05
    },
    "pattern": {
     "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 1406.1,
-    "stop_suggestion": 1358.74,
-    "target_suggestion": 1617.01,
-    "gap_to_pivot_pct": -0.58
+    "pivot_price": 1618.0,
+    "stop_suggestion": 1507.07,
+    "target_suggestion": 1860.7,
+    "gap_to_pivot_pct": -0.61
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 8670.8,
-    "net_income_cr": 925.0,
-    "revenue_qoq_pct": 7.4,
-    "net_income_qoq_pct": 108.6
+    "revenue_cr": 136.8,
+    "net_income_cr": 17.6,
+    "revenue_qoq_pct": 3.4,
+    "net_income_qoq_pct": 97.8
    },
-   "reason": "DRREDDY sits near its \u20b91406.1 pivot with a tight stop, backed by 1.24x average volume and solid earnings growth with \u20b9925.0 cr net profit up 108.6% QoQ.",
+   "reason": "Trading just -0.61% from its \u20b91618.0 pivot with strong 2.39x average volume and 62.43 RSI, backed by 97.8% QoQ net profit growth and 3.4% QoQ revenue growth.",
    "rank": 1,
-   "name": "Dr. Reddy's Laboratories Limited"
+   "name": "RACL Geartech Limited"
   },
   {
-   "symbol": "AUROPHARMA",
-   "ltp": 1843.0,
+   "symbol": "ETERNAL",
+   "ltp": 367.7,
    "technicals": {
-    "rsi_14": 66.72,
-    "rel_volume_20d": 1.17,
-    "dist_20dma_pct": 5.27,
-    "dist_50dma_pct": 8.08,
-    "dist_200dma_pct": 22.51
+    "rsi_14": 61.81,
+    "rel_volume_20d": 1.03,
+    "dist_20dma_pct": 3.12,
+    "dist_50dma_pct": 9.11,
+    "dist_200dma_pct": 28.06
    },
    "pattern": {
-    "code": "near_pivot",
+    "code": "vcp",
     "stage": "forming",
-    "pivot_price": 1859.9,
-    "stop_suggestion": 1779.17,
-    "target_suggestion": 2138.88,
-    "gap_to_pivot_pct": -0.91
+    "pivot_price": 378.0,
+    "stop_suggestion": 352.4,
+    "target_suggestion": 472.5,
+    "gap_to_pivot_pct": -2.72
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 10227.3,
-    "net_income_cr": 1126.1,
-    "revenue_qoq_pct": 12.3,
-    "net_income_qoq_pct": 9.1
+    "revenue_cr": 24138.0,
+    "net_income_cr": 125.0,
+    "revenue_qoq_pct": 19.4,
+    "net_income_qoq_pct": 35.9
    },
-   "reason": "AUROPHARMA consolidates near its \u20b91859.9 pivot with healthy 1.17x volume, 22.51% above its 200-day average, while revenue grew 12.3% QoQ to \u20b910227.3 cr.",
+   "reason": "Forming a VCP pattern -2.72% below \u20b9378.0 pivot with healthy 61.81 RSI and 1.03x volume, supported by 19.4% QoQ revenue growth and 35.9% QoQ net profit expansion.",
    "rank": 2,
-   "name": "Aurobindo Pharma Limited"
+   "name": "ETERNAL LIMITED"
   },
   {
-   "symbol": "ANTHEM",
-   "ltp": 968.2,
+   "symbol": "AGARWALEYE",
+   "ltp": 572.6,
    "technicals": {
-    "rsi_14": 69.03,
-    "rel_volume_20d": 1.04,
-    "dist_20dma_pct": 7.48,
-    "dist_50dma_pct": 9.29,
-    "dist_200dma_pct": 22.56
+    "rsi_14": 72.21,
+    "rel_volume_20d": 1.28,
+    "dist_20dma_pct": 7.52,
+    "dist_50dma_pct": 13.47,
+    "dist_200dma_pct": 20.37
+   },
+   "pattern": {
+    "code": "high_52w_breakout",
+    "stage": "confirmed",
+    "pivot_price": 560.7,
+    "stop_suggestion": 505.25,
+    "target_suggestion": 672.84,
+    "gap_to_pivot_pct": 2.12
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 655.5,
+    "net_income_cr": 54.7,
+    "revenue_qoq_pct": 6.8,
+    "net_income_qoq_pct": 21.0
+   },
+   "reason": "Confirmed 52-week breakout 2.12% above \u20b9560.7 pivot with 1.28x volume, supported by solid fundamentals as revenue grew 6.8% QoQ and net profit rose 21.0% QoQ.",
+   "rank": 3,
+   "name": "Dr. Agarwal's Health Care Limited"
+  },
+  {
+   "symbol": "ABDL",
+   "ltp": 820.3,
+   "technicals": {
+    "rsi_14": 73.63,
+    "rel_volume_20d": 1.31,
+    "dist_20dma_pct": 9.4,
+    "dist_50dma_pct": 14.66,
+    "dist_200dma_pct": 37.14
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "forming",
-    "pivot_price": 958.15,
-    "stop_suggestion": 823.05,
-    "target_suggestion": 1149.78,
-    "gap_to_pivot_pct": 1.05
+    "pivot_price": 808.2,
+    "stop_suggestion": 676.0,
+    "target_suggestion": 969.84,
+    "gap_to_pivot_pct": 1.5
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 594.0,
-    "net_income_cr": 211.5,
-    "revenue_qoq_pct": 42.0,
-    "net_income_qoq_pct": 76.4
+    "revenue_cr": 1147.8,
+    "net_income_cr": 71.5,
+    "revenue_qoq_pct": 17.3,
+    "net_income_qoq_pct": 45.3
    },
-   "reason": "ANTHEM forms a 52-week breakout 1.05% above pivot \u20b9958.15 with 1.04x volume support, backed by strong quarterly revenue growth of 42.0% QoQ to \u20b9594.0 cr.",
-   "rank": 3,
-   "name": "Anthem Biosciences Limited"
-  },
-  {
-   "symbol": "CEATLTD",
-   "ltp": 3579.4,
-   "technicals": {
-    "rsi_14": 63.32,
-    "rel_volume_20d": 5.53,
-    "dist_20dma_pct": 5.46,
-    "dist_50dma_pct": 7.26,
-    "dist_200dma_pct": 2.86
-   },
-   "pattern": {
-    "code": "near_pivot",
-    "stage": "forming",
-    "pivot_price": 3595.0,
-    "stop_suggestion": 3430.79,
-    "target_suggestion": 4134.25,
-    "gap_to_pivot_pct": -0.43
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 4762.0,
-    "net_income_cr": 112.0,
-    "revenue_qoq_pct": 10.3,
-    "net_income_qoq_pct": 2700.0
-   },
-   "reason": "CEATLTD is forming near pivot \u20b93595.0 with massive 5.53x average volume confirmation and healthy RSI of 63.32, supported by revenue growing 10.3% QoQ to \u20b94762.0 cr.",
+   "reason": "Forming a 52-week breakout 1.5% past \u20b9808.2 pivot with strong 1.31x volume, backed by robust fundamental growth with revenue up 17.3% QoQ and net profit up 45.3% QoQ.",
    "rank": 4,
-   "name": "CEAT Limited"
+   "name": "Allied Blenders and Distillers Limited"
   },
   {
-   "symbol": "ASTERDM",
-   "ltp": 774.7,
+   "symbol": "ICICIBANK",
+   "ltp": 1611.0,
    "technicals": {
-    "rsi_14": 63.78,
-    "rel_volume_20d": 1.37,
-    "dist_20dma_pct": 7.95,
-    "dist_50dma_pct": 8.21,
-    "dist_200dma_pct": 6.83
+    "rsi_14": 65.33,
+    "rel_volume_20d": 0.96,
+    "dist_20dma_pct": 5.68,
+    "dist_50dma_pct": 13.32,
+    "dist_200dma_pct": 17.71
    },
    "pattern": {
-    "code": "near_pivot",
+    "code": "vcp",
     "stage": "forming",
-    "pivot_price": 780.0,
-    "stop_suggestion": 735.8,
-    "target_suggestion": 897.0,
-    "gap_to_pivot_pct": -0.68
+    "pivot_price": 1616.0,
+    "stop_suggestion": 1555.13,
+    "target_suggestion": 2020.0,
+    "gap_to_pivot_pct": -0.31
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 2829.2,
-    "net_income_cr": 262.0,
-    "revenue_qoq_pct": 115.9,
-    "net_income_qoq_pct": 1527.3
+    "revenue_cr": 40153.2,
+    "net_income_cr": 16333.2,
+    "revenue_qoq_pct": 4.7,
+    "net_income_qoq_pct": 5.8
    },
-   "reason": "ASTERDM trades near pivot \u20b9780.0 with positive 1.37x volume and RSI of 63.78, reinforced by stellar quarterly revenue growth of 115.9% QoQ to \u20b92829.2 cr.",
+   "reason": "Tight VCP setup sitting just -0.31% below \u20b91616.0 pivot with balanced 65.33 RSI, supported by consistent fundamentals with revenue growing 4.7% QoQ and net profit rising 5.8% QoQ.",
    "rank": 5,
-   "name": "Aster DM Quality Care Limited"
+   "name": "ICICI Bank Limited"
   }
  ]
 }

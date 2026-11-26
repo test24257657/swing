@@ -2,17 +2,8 @@
  "symbol": "MEGASTAR",
  "name": "Megastar Foods Limited",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
-  {
-   "time": "2025-11-17",
-   "open": 265.0,
-   "high": 270.95,
-   "low": 256.25,
-   "close": 263.0,
-   "volume": 2585,
-   "delivery_pct": null
-  },
   {
    "time": "2025-11-18",
    "open": 265.5,
@@ -2262,14 +2253,19 @@
    "close": 299.65,
    "volume": 25526,
    "delivery_pct": 26.2
+  },
+  {
+   "time": "2026-11-26",
+   "open": 305.6,
+   "high": 307.3,
+   "low": 300.7,
+   "close": 304.8,
+   "volume": 22518,
+   "delivery_pct": 13.24
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-12",
-    "value": 252.83
-   },
    {
     "time": "2025-12-15",
     "value": 252.04
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-25",
     "value": 287.48
+   },
+   {
+    "time": "2026-11-26",
+    "value": 290.29
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-28",
-    "value": 238.48
-   },
    {
     "time": "2026-01-29",
     "value": 237.67
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-25",
     "value": 280.03
+   },
+   {
+    "time": "2026-11-26",
+    "value": 280.43
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-07",
-    "value": 279.49
-   },
    {
     "time": "2026-09-08",
     "value": 279.62
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-25",
     "value": 290.21
+   },
+   {
+    "time": "2026-11-26",
+    "value": 290.59
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.28,
-  "atr_pct": 5.11,
-  "rel_volume_20d": 2.31,
-  "dist_20dma_pct": 4.23,
-  "dist_50dma_pct": 7.0,
-  "dist_200dma_pct": 3.25
+  "rsi_14": 61.06,
+  "atr_pct": 4.85,
+  "rel_volume_20d": 1.85,
+  "dist_20dma_pct": 5.0,
+  "dist_50dma_pct": 8.69,
+  "dist_200dma_pct": 4.89
  }
 }

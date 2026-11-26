@@ -2,7 +2,7 @@
  "symbol": "ARIS",
  "name": "Arisinfra Solutions Limited",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
   {
    "time": "2026-02-09",
@@ -1749,6 +1749,15 @@
    "close": 190.3,
    "volume": 15892758,
    "delivery_pct": 15.83
+  },
+  {
+   "time": "2026-11-26",
+   "open": 191.0,
+   "high": 202.0,
+   "low": 184.94,
+   "close": 185.94,
+   "volume": 4595220,
+   "delivery_pct": 23.78
   }
  ],
  "ma": {
@@ -2452,6 +2461,10 @@
    {
     "time": "2026-11-25",
     "value": 149.45
+   },
+   {
+    "time": "2026-11-26",
+    "value": 152.01
    }
   ],
   "sma_50": [
@@ -3034,15 +3047,19 @@
    {
     "time": "2026-11-25",
     "value": 141.5
+   },
+   {
+    "time": "2026-11-26",
+    "value": 142.66
    }
   ]
  },
  "technicals": {
-  "rsi_14": 79.43,
-  "atr_pct": 4.97,
-  "rel_volume_20d": 7.5,
-  "dist_20dma_pct": 27.33,
-  "dist_50dma_pct": 34.49,
+  "rsi_14": 74.67,
+  "atr_pct": 5.37,
+  "rel_volume_20d": 1.59,
+  "dist_20dma_pct": 22.32,
+  "dist_50dma_pct": 30.33,
   "dist_200dma_pct": null
  }
 }

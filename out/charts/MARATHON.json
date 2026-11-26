@@ -2,17 +2,8 @@
  "symbol": "MARATHON",
  "name": "Marathon Nextgen Realty Limited",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
-  {
-   "time": "2025-11-17",
-   "open": 565.65,
-   "high": 567.0,
-   "low": 552.05,
-   "close": 561.0,
-   "volume": 344618,
-   "delivery_pct": 94.06
-  },
   {
    "time": "2025-11-18",
    "open": 564.0,
@@ -2262,14 +2253,19 @@
    "close": 438.0,
    "volume": 73534,
    "delivery_pct": 59.25
+  },
+  {
+   "time": "2026-11-26",
+   "open": 434.0,
+   "high": 445.0,
+   "low": 431.55,
+   "close": 437.9,
+   "volume": 115438,
+   "delivery_pct": 52.12
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-12",
-    "value": 555.07
-   },
    {
     "time": "2025-12-15",
     "value": 554.56
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-25",
     "value": 407.7
+   },
+   {
+    "time": "2026-11-26",
+    "value": 410.99
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-28",
-    "value": 531.57
-   },
    {
     "time": "2026-01-29",
     "value": 530.43
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-25",
     "value": 397.97
+   },
+   {
+    "time": "2026-11-26",
+    "value": 397.99
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-07",
-    "value": 457.06
-   },
    {
     "time": "2026-09-08",
     "value": 456.49
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-25",
     "value": 423.37
+   },
+   {
+    "time": "2026-11-26",
+    "value": 422.97
    }
   ]
  },
  "technicals": {
-  "rsi_14": 65.14,
-  "atr_pct": 4.17,
-  "rel_volume_20d": 0.54,
-  "dist_20dma_pct": 7.43,
-  "dist_50dma_pct": 10.06,
-  "dist_200dma_pct": 3.45
+  "rsi_14": 65.07,
+  "atr_pct": 4.09,
+  "rel_volume_20d": 0.89,
+  "dist_20dma_pct": 6.55,
+  "dist_50dma_pct": 10.03,
+  "dist_200dma_pct": 3.53
  }
 }

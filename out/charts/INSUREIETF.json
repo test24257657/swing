@@ -2,7 +2,7 @@
  "symbol": "INSUREIETF",
  "name": "INSUREIETF",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
   {
    "time": "2026-08-05",
@@ -678,6 +678,15 @@
    "close": 15.83,
    "volume": 741396,
    "delivery_pct": 46.7
+  },
+  {
+   "time": "2026-11-26",
+   "open": 15.8,
+   "high": 15.81,
+   "low": 15.48,
+   "close": 15.56,
+   "volume": 1057324,
+   "delivery_pct": 84.2
   }
  ],
  "ma": {
@@ -905,6 +914,10 @@
    {
     "time": "2026-11-25",
     "value": 14.8
+   },
+   {
+    "time": "2026-11-26",
+    "value": 14.87
    }
   ],
   "sma_50": [
@@ -1011,15 +1024,19 @@
    {
     "time": "2026-11-25",
     "value": 14.76
+   },
+   {
+    "time": "2026-11-26",
+    "value": 14.78
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.76,
-  "atr_pct": 3.13,
-  "rel_volume_20d": 0.41,
-  "dist_20dma_pct": 6.97,
-  "dist_50dma_pct": 7.26,
+  "rsi_14": 60.49,
+  "atr_pct": 3.12,
+  "rel_volume_20d": 0.59,
+  "dist_20dma_pct": 4.62,
+  "dist_50dma_pct": 5.31,
   "dist_200dma_pct": null
  }
 }

@@ -2,17 +2,8 @@
  "symbol": "TOTAL",
  "name": "Total Transport Systems Limited",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
-  {
-   "time": "2025-11-17",
-   "open": 67.45,
-   "high": 68.99,
-   "low": 66.1,
-   "close": 66.57,
-   "volume": 4701,
-   "delivery_pct": 72.05
-  },
   {
    "time": "2025-11-18",
    "open": 66.57,
@@ -2262,14 +2253,19 @@
    "close": 79.71,
    "volume": 10733,
    "delivery_pct": null
+  },
+  {
+   "time": "2026-11-26",
+   "open": 79.72,
+   "high": 83.68,
+   "low": 79.72,
+   "close": 82.95,
+   "volume": 40905,
+   "delivery_pct": null
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-12",
-    "value": 71.09
-   },
    {
     "time": "2025-12-15",
     "value": 71.64
@@ -2960,7 +2956,7 @@
    },
    {
     "time": "2026-08-27",
-    "value": 66.11
+    "value": 66.1
    },
    {
     "time": "2026-08-28",
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-25",
     "value": 77.8
+   },
+   {
+    "time": "2026-11-26",
+    "value": 78.43
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-28",
-    "value": 72.67
-   },
    {
     "time": "2026-01-29",
     "value": 72.71
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-25",
     "value": 74.04
+   },
+   {
+    "time": "2026-11-26",
+    "value": 74.19
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-07",
-    "value": 61.51
-   },
    {
     "time": "2026-09-08",
     "value": 61.54
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-25",
     "value": 61.88
+   },
+   {
+    "time": "2026-11-26",
+    "value": 61.96
    }
   ]
  },
  "technicals": {
-  "rsi_14": 55.33,
-  "atr_pct": 4.31,
-  "rel_volume_20d": 1.29,
-  "dist_20dma_pct": 2.45,
-  "dist_50dma_pct": 7.66,
-  "dist_200dma_pct": 28.82
+  "rsi_14": 61.44,
+  "atr_pct": 4.19,
+  "rel_volume_20d": 4.66,
+  "dist_20dma_pct": 5.76,
+  "dist_50dma_pct": 11.8,
+  "dist_200dma_pct": 33.88
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "KNAGRI",
  "name": "KN Agri Resources Limited",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
   {
    "time": "2025-12-09",
@@ -2118,6 +2118,15 @@
    "close": 234.39,
    "volume": 48317,
    "delivery_pct": 77.16
+  },
+  {
+   "time": "2026-11-26",
+   "open": 237.0,
+   "high": 242.0,
+   "low": 234.01,
+   "close": 239.41,
+   "volume": 49825,
+   "delivery_pct": 66.05
   }
  ],
  "ma": {
@@ -2985,6 +2994,10 @@
    {
     "time": "2026-11-25",
     "value": 202.61
+   },
+   {
+    "time": "2026-11-26",
+    "value": 205.08
    }
   ],
   "sma_50": [
@@ -3731,6 +3744,10 @@
    {
     "time": "2026-11-25",
     "value": 200.52
+   },
+   {
+    "time": "2026-11-26",
+    "value": 201.35
    }
   ],
   "sma_200": [
@@ -3877,15 +3894,19 @@
    {
     "time": "2026-11-25",
     "value": 197.14
+   },
+   {
+    "time": "2026-11-26",
+    "value": 197.54
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.1,
-  "atr_pct": 4.91,
-  "rel_volume_20d": 1.75,
-  "dist_20dma_pct": 15.68,
-  "dist_50dma_pct": 16.89,
-  "dist_200dma_pct": 18.89
+  "rsi_14": 72.1,
+  "atr_pct": 4.7,
+  "rel_volume_20d": 1.8,
+  "dist_20dma_pct": 16.74,
+  "dist_50dma_pct": 18.9,
+  "dist_200dma_pct": 21.2
  }
 }

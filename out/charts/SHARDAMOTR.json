@@ -2,17 +2,8 @@
  "symbol": "SHARDAMOTR",
  "name": "Sharda Motor Industries Limited",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
-  {
-   "time": "2025-11-17",
-   "open": 1034.0,
-   "high": 1038.3,
-   "low": 1015.0,
-   "close": 1018.0,
-   "volume": 45455,
-   "delivery_pct": 48.1
-  },
   {
    "time": "2025-11-18",
    "open": 1020.0,
@@ -2262,14 +2253,19 @@
    "close": 998.05,
    "volume": 112998,
    "delivery_pct": 44.11
+  },
+  {
+   "time": "2026-11-26",
+   "open": 998.05,
+   "high": 1009.4,
+   "low": 967.0,
+   "close": 974.45,
+   "volume": 68191,
+   "delivery_pct": 44.82
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-12",
-    "value": 954.23
-   },
    {
     "time": "2025-12-15",
     "value": 950.83
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-25",
     "value": 895.55
+   },
+   {
+    "time": "2026-11-26",
+    "value": 904.47
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-28",
-    "value": 928.11
-   },
    {
     "time": "2026-01-29",
     "value": 924.46
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-25",
     "value": 909.33
+   },
+   {
+    "time": "2026-11-26",
+    "value": 910.63
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-07",
-    "value": 877.99
-   },
    {
     "time": "2026-09-08",
     "value": 877.36
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-25",
     "value": 873.57
+   },
+   {
+    "time": "2026-11-26",
+    "value": 874.19
    }
   ]
  },
  "technicals": {
-  "rsi_14": 66.64,
-  "atr_pct": 4.43,
-  "rel_volume_20d": 0.3,
-  "dist_20dma_pct": 11.45,
-  "dist_50dma_pct": 9.76,
-  "dist_200dma_pct": 14.25
+  "rsi_14": 60.86,
+  "atr_pct": 4.53,
+  "rel_volume_20d": 0.18,
+  "dist_20dma_pct": 7.74,
+  "dist_50dma_pct": 7.01,
+  "dist_200dma_pct": 11.47
  }
 }

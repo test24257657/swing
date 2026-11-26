@@ -2,7 +2,7 @@
  "symbol": "GUJENERGY",
  "name": "GUJARAT ENERGY LIMITED",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
   {
    "time": "2026-07-01",
@@ -903,6 +903,15 @@
    "close": 235.22,
    "volume": 1013913,
    "delivery_pct": 59.54
+  },
+  {
+   "time": "2026-11-26",
+   "open": 235.48,
+   "high": 239.84,
+   "low": 234.51,
+   "close": 238.3,
+   "volume": 1013217,
+   "delivery_pct": 58.91
   }
  ],
  "ma": {
@@ -1230,6 +1239,10 @@
    {
     "time": "2026-11-25",
     "value": 223.12
+   },
+   {
+    "time": "2026-11-26",
+    "value": 224.27
    }
   ],
   "sma_50": [
@@ -1436,15 +1449,19 @@
    {
     "time": "2026-11-25",
     "value": 228.61
+   },
+   {
+    "time": "2026-11-26",
+    "value": 228.2
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.81,
-  "atr_pct": 2.88,
-  "rel_volume_20d": 0.74,
-  "dist_20dma_pct": 5.42,
-  "dist_50dma_pct": 2.89,
+  "rsi_14": 62.51,
+  "atr_pct": 2.8,
+  "rel_volume_20d": 0.73,
+  "dist_20dma_pct": 6.26,
+  "dist_50dma_pct": 4.43,
   "dist_200dma_pct": null
  }
 }

@@ -2,7 +2,7 @@
  "symbol": "IVZBANKNF",
  "name": "IVZBANKNF",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
   {
    "time": "2026-08-21",
@@ -561,6 +561,15 @@
    "close": 63.35,
    "volume": 885,
    "delivery_pct": 47.8
+  },
+  {
+   "time": "2026-11-26",
+   "open": 63.61,
+   "high": 63.97,
+   "low": 63.25,
+   "close": 63.57,
+   "volume": 2524,
+   "delivery_pct": 91.16
   }
  ],
  "ma": {
@@ -736,6 +745,10 @@
    {
     "time": "2026-11-25",
     "value": 58.85
+   },
+   {
+    "time": "2026-11-26",
+    "value": 59.31
    }
   ],
   "sma_50": [
@@ -790,15 +803,19 @@
    {
     "time": "2026-11-25",
     "value": 56.77
+   },
+   {
+    "time": "2026-11-26",
+    "value": 56.91
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.62,
-  "atr_pct": 1.78,
-  "rel_volume_20d": 0.06,
-  "dist_20dma_pct": 7.65,
-  "dist_50dma_pct": 11.58,
+  "rsi_14": 72.24,
+  "atr_pct": 1.73,
+  "rel_volume_20d": 0.17,
+  "dist_20dma_pct": 7.18,
+  "dist_50dma_pct": 11.7,
   "dist_200dma_pct": null
  }
 }

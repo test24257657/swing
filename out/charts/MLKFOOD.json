@@ -2,7 +2,7 @@
  "symbol": "MLKFOOD",
  "name": "Milkfood Limited",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
   {
    "time": "2026-08-17",
@@ -606,6 +606,15 @@
    "close": 102.63,
    "volume": 27722,
    "delivery_pct": 40.37
+  },
+  {
+   "time": "2026-11-26",
+   "open": 102.63,
+   "high": 104.0,
+   "low": 100.14,
+   "close": 102.0,
+   "volume": 15971,
+   "delivery_pct": 66.63
   }
  ],
  "ma": {
@@ -801,6 +810,10 @@
    {
     "time": "2026-11-25",
     "value": 96.77
+   },
+   {
+    "time": "2026-11-26",
+    "value": 97.33
    }
   ],
   "sma_50": [
@@ -875,15 +888,19 @@
    {
     "time": "2026-11-25",
     "value": 88.94
+   },
+   {
+    "time": "2026-11-26",
+    "value": 89.28
    }
   ]
  },
  "technicals": {
-  "rsi_14": 70.29,
-  "atr_pct": 4.75,
-  "rel_volume_20d": 2.64,
-  "dist_20dma_pct": 6.06,
-  "dist_50dma_pct": 15.39,
+  "rsi_14": 67.97,
+  "atr_pct": 4.71,
+  "rel_volume_20d": 1.39,
+  "dist_20dma_pct": 4.8,
+  "dist_50dma_pct": 14.24,
   "dist_200dma_pct": null
  }
 }

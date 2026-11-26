@@ -2,7 +2,7 @@
  "symbol": "GILT5BETA",
  "name": "GILT5BETA",
  "kind": "stock",
- "as_of": "2026-11-25",
+ "as_of": "2026-11-26",
  "bars": [
   {
    "time": "2025-12-24",
@@ -1920,6 +1920,15 @@
    "close": 66.86,
    "volume": 2133,
    "delivery_pct": 83.26
+  },
+  {
+   "time": "2026-11-26",
+   "open": 66.93,
+   "high": 66.93,
+   "low": 65.5,
+   "close": 66.89,
+   "volume": 426,
+   "delivery_pct": 99.53
   }
  ],
  "ma": {
@@ -2699,6 +2708,10 @@
    {
     "time": "2026-11-25",
     "value": 65.81
+   },
+   {
+    "time": "2026-11-26",
+    "value": 65.91
    }
   ],
   "sma_50": [
@@ -3357,6 +3370,10 @@
    {
     "time": "2026-11-25",
     "value": 65.97
+   },
+   {
+    "time": "2026-11-26",
+    "value": 65.97
    }
   ],
   "sma_200": [
@@ -3415,15 +3432,19 @@
    {
     "time": "2026-11-25",
     "value": 65.39
+   },
+   {
+    "time": "2026-11-26",
+    "value": 65.41
    }
   ]
  },
  "technicals": {
-  "rsi_14": 56.33,
-  "atr_pct": 1.89,
-  "rel_volume_20d": 1.66,
-  "dist_20dma_pct": 1.59,
-  "dist_50dma_pct": 1.35,
-  "dist_200dma_pct": 2.25
+  "rsi_14": 56.52,
+  "atr_pct": 1.91,
+  "rel_volume_20d": 0.32,
+  "dist_20dma_pct": 1.49,
+  "dist_50dma_pct": 1.39,
+  "dist_200dma_pct": 2.27
  }
 }
