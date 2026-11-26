@@ -1,0 +1,170 @@
+{
+ "symbol": "GLENMARK",
+ "buildup": {
+  "label": "neutral",
+  "note": "No clear buildup \u2014 price and open interest are both roughly flat.",
+  "expiry": "2026-12-29",
+  "price_chg_pct": 0.49,
+  "oi_chg_pct": 0.47,
+  "open_interest": 9286500,
+  "close": 2752.0
+ },
+ "option_chain": {
+  "expiry": "29-Dec-2026",
+  "underlying_value": 2740.2,
+  "rows": [
+   {
+    "strike": 2540,
+    "call_oi": 1,
+    "call_oi_chg": 0,
+    "put_oi": 58,
+    "put_oi_chg": 20
+   },
+   {
+    "strike": 2560,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 59,
+    "put_oi_chg": 4
+   },
+   {
+    "strike": 2580,
+    "call_oi": 0,
+    "call_oi_chg": 0,
+    "put_oi": 28,
+    "put_oi_chg": 3
+   },
+   {
+    "strike": 2600,
+    "call_oi": 566,
+    "call_oi_chg": -3,
+    "put_oi": 286,
+    "put_oi_chg": 4
+   },
+   {
+    "strike": 2620,
+    "call_oi": 18,
+    "call_oi_chg": 0,
+    "put_oi": 24,
+    "put_oi_chg": -8
+   },
+   {
+    "strike": 2640,
+    "call_oi": 78,
+    "call_oi_chg": -2,
+    "put_oi": 110,
+    "put_oi_chg": 25
+   },
+   {
+    "strike": 2660,
+    "call_oi": 62,
+    "call_oi_chg": 2,
+    "put_oi": 137,
+    "put_oi_chg": 3
+   },
+   {
+    "strike": 2680,
+    "call_oi": 98,
+    "call_oi_chg": 3,
+    "put_oi": 130,
+    "put_oi_chg": 31
+   },
+   {
+    "strike": 2700,
+    "call_oi": 509,
+    "call_oi_chg": -3,
+    "put_oi": 323,
+    "put_oi_chg": 42
+   },
+   {
+    "strike": 2720,
+    "call_oi": 103,
+    "call_oi_chg": -23,
+    "put_oi": 108,
+    "put_oi_chg": 43
+   },
+   {
+    "strike": 2740,
+    "call_oi": 368,
+    "call_oi_chg": 179,
+    "put_oi": 80,
+    "put_oi_chg": 19
+   },
+   {
+    "strike": 2760,
+    "call_oi": 115,
+    "call_oi_chg": 9,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 2780,
+    "call_oi": 59,
+    "call_oi_chg": 14,
+    "put_oi": 14,
+    "put_oi_chg": -4
+   },
+   {
+    "strike": 2800,
+    "call_oi": 531,
+    "call_oi_chg": 16,
+    "put_oi": 23,
+    "put_oi_chg": 13
+   },
+   {
+    "strike": 2820,
+    "call_oi": 28,
+    "call_oi_chg": 2,
+    "put_oi": 12,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 2840,
+    "call_oi": 81,
+    "call_oi_chg": 42,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 2860,
+    "call_oi": 37,
+    "call_oi_chg": 11,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 2880,
+    "call_oi": 22,
+    "call_oi_chg": -5,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 2900,
+    "call_oi": 354,
+    "call_oi_chg": 59,
+    "put_oi": 3,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 2920,
+    "call_oi": 56,
+    "call_oi_chg": -2,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   },
+   {
+    "strike": 2940,
+    "call_oi": 27,
+    "call_oi_chg": -1,
+    "put_oi": 0,
+    "put_oi_chg": 0
+   }
+  ],
+  "pcr": 0.47,
+  "total_call_oi": 4066,
+  "total_put_oi": 1907,
+  "max_call_oi_strike": 2600,
+  "max_put_oi_strike": 2700
+ }
+}
