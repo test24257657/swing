@@ -2,7 +2,7 @@
  "symbol": "IVZSENSEX",
  "name": "IVZSENSEX",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
   {
    "time": "2026-08-21",
@@ -579,6 +579,15 @@
    "close": 83.9,
    "volume": 2700,
    "delivery_pct": 96.0
+  },
+  {
+   "time": "2026-11-27",
+   "open": 83.77,
+   "high": 84.4,
+   "low": 83.58,
+   "close": 83.73,
+   "volume": 130,
+   "delivery_pct": 63.85
   }
  ],
  "ma": {
@@ -762,6 +771,10 @@
    {
     "time": "2026-11-26",
     "value": 79.72
+   },
+   {
+    "time": "2026-11-27",
+    "value": 80.22
    }
   ],
   "sma_50": [
@@ -824,15 +837,19 @@
    {
     "time": "2026-11-26",
     "value": 76.1
+   },
+   {
+    "time": "2026-11-27",
+    "value": 76.28
    }
   ]
  },
  "technicals": {
-  "rsi_14": 75.96,
-  "atr_pct": 1.94,
-  "rel_volume_20d": 0.32,
-  "dist_20dma_pct": 5.24,
-  "dist_50dma_pct": 10.25,
+  "rsi_14": 74.47,
+  "atr_pct": 1.87,
+  "rel_volume_20d": 0.02,
+  "dist_20dma_pct": 4.38,
+  "dist_50dma_pct": 9.77,
   "dist_200dma_pct": null
  }
 }

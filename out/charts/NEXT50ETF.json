@@ -2,7 +2,7 @@
  "symbol": "NEXT50ETF",
  "name": "NEXT50ETF",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
   {
    "time": "2026-01-14",
@@ -1902,6 +1902,15 @@
    "close": 73.53,
    "volume": 111483,
    "delivery_pct": 87.17
+  },
+  {
+   "time": "2026-11-27",
+   "open": 74.0,
+   "high": 74.01,
+   "low": 73.32,
+   "close": 73.49,
+   "volume": 3338,
+   "delivery_pct": 47.87
   }
  ],
  "ma": {
@@ -2673,6 +2682,10 @@
    {
     "time": "2026-11-26",
     "value": 71.91
+   },
+   {
+    "time": "2026-11-27",
+    "value": 72.19
    }
   ],
   "sma_50": [
@@ -3323,6 +3336,10 @@
    {
     "time": "2026-11-26",
     "value": 71.04
+   },
+   {
+    "time": "2026-11-27",
+    "value": 71.04
    }
   ],
   "sma_200": [
@@ -3373,15 +3390,19 @@
    {
     "time": "2026-11-26",
     "value": 70.83
+   },
+   {
+    "time": "2026-11-27",
+    "value": 70.86
    }
   ]
  },
  "technicals": {
-  "rsi_14": 58.41,
-  "atr_pct": 2.52,
-  "rel_volume_20d": 4.57,
-  "dist_20dma_pct": 2.25,
-  "dist_50dma_pct": 3.51,
-  "dist_200dma_pct": 3.82
+  "rsi_14": 58.15,
+  "atr_pct": 2.41,
+  "rel_volume_20d": 0.12,
+  "dist_20dma_pct": 1.8,
+  "dist_50dma_pct": 3.44,
+  "dist_200dma_pct": 3.71
  }
 }

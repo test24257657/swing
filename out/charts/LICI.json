@@ -2,17 +2,8 @@
  "symbol": "LICI",
  "name": "Life Insurance Corporation Of India",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
-  {
-   "time": "2025-11-18",
-   "open": 915.35,
-   "high": 920.6,
-   "low": 906.6,
-   "close": 915.5,
-   "volume": 1288703,
-   "delivery_pct": 67.12
-  },
   {
    "time": "2025-11-19",
    "open": 915.5,
@@ -2262,14 +2253,19 @@
    "close": 410.0,
    "volume": 12801772,
    "delivery_pct": 61.3
+  },
+  {
+   "time": "2026-11-27",
+   "open": 410.0,
+   "high": 412.05,
+   "low": 404.15,
+   "close": 405.4,
+   "volume": 6420245,
+   "delivery_pct": 61.41
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-15",
-    "value": 883.17
-   },
    {
     "time": "2025-12-16",
     "value": 880.12
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-26",
     "value": 399.97
+   },
+   {
+    "time": "2026-11-27",
+    "value": 400.85
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-29",
-    "value": 855.31
-   },
    {
     "time": "2026-01-30",
     "value": 853.49
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-26",
     "value": 397.07
+   },
+   {
+    "time": "2026-11-27",
+    "value": 397.07
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-08",
-    "value": 682.94
-   },
    {
     "time": "2026-09-09",
     "value": 680.4
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-26",
     "value": 566.3
+   },
+   {
+    "time": "2026-11-27",
+    "value": 564.32
    }
   ]
  },
  "technicals": {
-  "rsi_14": 59.05,
-  "atr_pct": 2.18,
-  "rel_volume_20d": 1.36,
-  "dist_20dma_pct": 2.51,
-  "dist_50dma_pct": 3.26,
-  "dist_200dma_pct": -27.6
+  "rsi_14": 54.26,
+  "atr_pct": 2.19,
+  "rel_volume_20d": 0.67,
+  "dist_20dma_pct": 1.13,
+  "dist_50dma_pct": 2.1,
+  "dist_200dma_pct": -28.16
  }
 }

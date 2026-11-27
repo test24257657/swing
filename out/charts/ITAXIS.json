@@ -2,7 +2,7 @@
  "symbol": "ITAXIS",
  "name": "ITAXIS",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
   {
    "time": "2026-07-03",
@@ -894,6 +894,15 @@
    "close": 366.59,
    "volume": 7805,
    "delivery_pct": 75.89
+  },
+  {
+   "time": "2026-11-27",
+   "open": 363.49,
+   "high": 366.0,
+   "low": 361.9,
+   "close": 365.9,
+   "volume": 1665,
+   "delivery_pct": 78.92
   }
  ],
  "ma": {
@@ -1217,6 +1226,10 @@
    {
     "time": "2026-11-26",
     "value": 353.54
+   },
+   {
+    "time": "2026-11-27",
+    "value": 354.1
    }
   ],
   "sma_50": [
@@ -1419,15 +1432,19 @@
    {
     "time": "2026-11-26",
     "value": 335.31
+   },
+   {
+    "time": "2026-11-27",
+    "value": 336.27
    }
   ]
  },
  "technicals": {
-  "rsi_14": 64.34,
-  "atr_pct": 2.82,
-  "rel_volume_20d": 2.01,
-  "dist_20dma_pct": 3.69,
-  "dist_50dma_pct": 9.33,
+  "rsi_14": 63.65,
+  "atr_pct": 2.71,
+  "rel_volume_20d": 0.4,
+  "dist_20dma_pct": 3.33,
+  "dist_50dma_pct": 8.81,
   "dist_200dma_pct": null
  }
 }

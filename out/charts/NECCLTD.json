@@ -2,17 +2,8 @@
  "symbol": "NECCLTD",
  "name": "North Eastern Carrying Corporation Limited",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
-  {
-   "time": "2025-11-18",
-   "open": 20.67,
-   "high": 21.7,
-   "low": 20.67,
-   "close": 21.03,
-   "volume": 76537,
-   "delivery_pct": 45.81
-  },
   {
    "time": "2025-11-19",
    "open": 21.35,
@@ -2262,14 +2253,19 @@
    "close": 26.11,
    "volume": 1762538,
    "delivery_pct": 70.21
+  },
+  {
+   "time": "2026-11-27",
+   "open": 26.25,
+   "high": 26.35,
+   "low": 26.0,
+   "close": 26.26,
+   "volume": 2137916,
+   "delivery_pct": 55.88
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-15",
-    "value": 19.8
-   },
    {
     "time": "2025-12-16",
     "value": 19.7
@@ -2536,7 +2532,7 @@
    },
    {
     "time": "2026-03-24",
-    "value": 13.44
+    "value": 13.43
    },
    {
     "time": "2026-03-25",
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-26",
     "value": 20.61
+   },
+   {
+    "time": "2026-11-27",
+    "value": 21.08
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-29",
-    "value": 18.38
-   },
    {
     "time": "2026-01-30",
     "value": 18.26
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-26",
     "value": 19.63
+   },
+   {
+    "time": "2026-11-27",
+    "value": 19.77
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-08",
-    "value": 16.08
-   },
    {
     "time": "2026-09-09",
     "value": 16.07
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-26",
     "value": 16.42
+   },
+   {
+    "time": "2026-11-27",
+    "value": 16.48
    }
   ]
  },
  "technicals": {
-  "rsi_14": 76.77,
-  "atr_pct": 5.33,
-  "rel_volume_20d": 1.93,
-  "dist_20dma_pct": 26.68,
-  "dist_50dma_pct": 32.99,
-  "dist_200dma_pct": 59.03
+  "rsi_14": 77.15,
+  "atr_pct": 5.02,
+  "rel_volume_20d": 2.14,
+  "dist_20dma_pct": 24.56,
+  "dist_50dma_pct": 32.81,
+  "dist_200dma_pct": 59.33
  }
 }

@@ -2,17 +2,8 @@
  "symbol": "MAGADSUGAR",
  "name": "Magadh Sugar & Energy Limited",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
-  {
-   "time": "2025-11-18",
-   "open": 500.05,
-   "high": 509.0,
-   "low": 498.0,
-   "close": 505.5,
-   "volume": 2439,
-   "delivery_pct": 56.46
-  },
   {
    "time": "2025-11-19",
    "open": 505.5,
@@ -2262,14 +2253,19 @@
    "close": 552.6,
    "volume": 88412,
    "delivery_pct": 18.37
+  },
+  {
+   "time": "2026-11-27",
+   "open": 556.2,
+   "high": 571.7,
+   "low": 535.0,
+   "close": 568.55,
+   "volume": 29224,
+   "delivery_pct": 45.01
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-15",
-    "value": 492.62
-   },
    {
     "time": "2025-12-16",
     "value": 492.99
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-26",
     "value": 534.58
+   },
+   {
+    "time": "2026-11-27",
+    "value": 537.68
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-29",
-    "value": 481.77
-   },
    {
     "time": "2026-01-30",
     "value": 480.34
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-26",
     "value": 537.84
+   },
+   {
+    "time": "2026-11-27",
+    "value": 538.12
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-08",
-    "value": 486.91
-   },
    {
     "time": "2026-09-09",
     "value": 487.2
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-26",
     "value": 501.57
+   },
+   {
+    "time": "2026-11-27",
+    "value": 502.28
    }
   ]
  },
  "technicals": {
-  "rsi_14": 54.24,
-  "atr_pct": 4.81,
-  "rel_volume_20d": 4.25,
-  "dist_20dma_pct": 3.37,
-  "dist_50dma_pct": 2.74,
-  "dist_200dma_pct": 10.17
+  "rsi_14": 58.38,
+  "atr_pct": 4.8,
+  "rel_volume_20d": 1.29,
+  "dist_20dma_pct": 5.74,
+  "dist_50dma_pct": 5.66,
+  "dist_200dma_pct": 13.19
  }
 }

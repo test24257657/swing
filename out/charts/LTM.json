@@ -2,7 +2,7 @@
  "symbol": "LTM",
  "name": "LTM Limited",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
   {
    "time": "2026-02-27",
@@ -1632,6 +1632,15 @@
    "close": 4406.7,
    "volume": 366181,
    "delivery_pct": 37.73
+  },
+  {
+   "time": "2026-11-27",
+   "open": 4410.9,
+   "high": 4421.2,
+   "low": 4303.0,
+   "close": 4320.0,
+   "volume": 373543,
+   "delivery_pct": 30.31
   }
  ],
  "ma": {
@@ -2283,6 +2292,10 @@
    {
     "time": "2026-11-26",
     "value": 4208.52
+   },
+   {
+    "time": "2026-11-27",
+    "value": 4221.53
    }
   ],
   "sma_50": [
@@ -2813,15 +2826,19 @@
    {
     "time": "2026-11-26",
     "value": 4173.8
+   },
+   {
+    "time": "2026-11-27",
+    "value": 4172.72
    }
   ]
  },
  "technicals": {
-  "rsi_14": 61.21,
-  "atr_pct": 3.14,
-  "rel_volume_20d": 1.09,
-  "dist_20dma_pct": 4.71,
-  "dist_50dma_pct": 5.58,
+  "rsi_14": 55.66,
+  "atr_pct": 3.17,
+  "rel_volume_20d": 1.12,
+  "dist_20dma_pct": 2.33,
+  "dist_50dma_pct": 3.53,
   "dist_200dma_pct": null
  }
 }

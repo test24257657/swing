@@ -2,17 +2,8 @@
  "symbol": "AGARWALEYE",
  "name": "Dr. Agarwal's Health Care Limited",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
-  {
-   "time": "2025-11-18",
-   "open": 516.7,
-   "high": 517.0,
-   "low": 504.8,
-   "close": 506.5,
-   "volume": 97213,
-   "delivery_pct": 57.57
-  },
   {
    "time": "2025-11-19",
    "open": 506.5,
@@ -2262,14 +2253,19 @@
    "close": 572.6,
    "volume": 334061,
    "delivery_pct": 37.66
+  },
+  {
+   "time": "2026-11-27",
+   "open": 571.0,
+   "high": 587.95,
+   "low": 570.95,
+   "close": 581.35,
+   "volume": 474363,
+   "delivery_pct": 62.7
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-15",
-    "value": 506.88
-   },
    {
     "time": "2025-12-16",
     "value": 506.12
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-26",
     "value": 532.55
+   },
+   {
+    "time": "2026-11-27",
+    "value": 537.79
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-29",
-    "value": 496.49
-   },
    {
     "time": "2026-01-30",
     "value": 495.02
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-26",
     "value": 504.63
+   },
+   {
+    "time": "2026-11-27",
+    "value": 506.09
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-08",
-    "value": 473.25
-   },
    {
     "time": "2026-09-09",
     "value": 473.28
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-26",
     "value": 475.69
+   },
+   {
+    "time": "2026-11-27",
+    "value": 476.39
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.21,
-  "atr_pct": 3.38,
-  "rel_volume_20d": 1.28,
-  "dist_20dma_pct": 7.52,
-  "dist_50dma_pct": 13.47,
-  "dist_200dma_pct": 20.37
+  "rsi_14": 74.49,
+  "atr_pct": 3.3,
+  "rel_volume_20d": 1.72,
+  "dist_20dma_pct": 8.1,
+  "dist_50dma_pct": 14.87,
+  "dist_200dma_pct": 22.03
  }
 }

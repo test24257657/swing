@@ -2,7 +2,7 @@
  "symbol": "MADHAVIPL",
  "name": "Madhav Infra Projects Limited",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
   {
    "time": "2026-04-20",
@@ -1353,6 +1353,15 @@
    "close": 7.06,
    "volume": 293453,
    "delivery_pct": 78.09
+  },
+  {
+   "time": "2026-11-27",
+   "open": 7.12,
+   "high": 7.45,
+   "low": 7.0,
+   "close": 7.38,
+   "volume": 269757,
+   "delivery_pct": 74.29
   }
  ],
  "ma": {
@@ -1880,6 +1889,10 @@
    {
     "time": "2026-11-26",
     "value": 6.85
+   },
+   {
+    "time": "2026-11-27",
+    "value": 6.86
    }
   ],
   "sma_50": [
@@ -2286,15 +2299,19 @@
    {
     "time": "2026-11-26",
     "value": 7.17
+   },
+   {
+    "time": "2026-11-27",
+    "value": 7.16
    }
   ]
  },
  "technicals": {
-  "rsi_14": 55.45,
-  "atr_pct": 5.25,
-  "rel_volume_20d": 2.69,
-  "dist_20dma_pct": 3.1,
-  "dist_50dma_pct": -1.56,
+  "rsi_14": 65.72,
+  "atr_pct": 5.1,
+  "rel_volume_20d": 2.31,
+  "dist_20dma_pct": 7.53,
+  "dist_50dma_pct": 3.05,
   "dist_200dma_pct": null
  }
 }

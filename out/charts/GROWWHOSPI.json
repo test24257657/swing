@@ -2,7 +2,7 @@
  "symbol": "GROWWHOSPI",
  "name": "GROWWHOSPI",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
   {
    "time": "2026-03-05",
@@ -1605,6 +1605,15 @@
    "close": 52.65,
    "volume": 138212,
    "delivery_pct": 48.35
+  },
+  {
+   "time": "2026-11-27",
+   "open": 52.7,
+   "high": 53.17,
+   "low": 52.31,
+   "close": 52.47,
+   "volume": 207789,
+   "delivery_pct": 56.32
   }
  ],
  "ma": {
@@ -2244,6 +2253,10 @@
    {
     "time": "2026-11-26",
     "value": 49.09
+   },
+   {
+    "time": "2026-11-27",
+    "value": 49.45
    }
   ],
   "sma_50": [
@@ -2762,15 +2775,19 @@
    {
     "time": "2026-11-26",
     "value": 48.74
+   },
+   {
+    "time": "2026-11-27",
+    "value": 48.74
    }
   ]
  },
  "technicals": {
-  "rsi_14": 74.24,
-  "atr_pct": 2.24,
-  "rel_volume_20d": 0.23,
-  "dist_20dma_pct": 7.25,
-  "dist_50dma_pct": 8.01,
+  "rsi_14": 72.28,
+  "atr_pct": 2.21,
+  "rel_volume_20d": 0.35,
+  "dist_20dma_pct": 6.11,
+  "dist_50dma_pct": 7.65,
   "dist_200dma_pct": null
  }
 }

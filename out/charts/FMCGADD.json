@@ -2,7 +2,7 @@
  "symbol": "FMCGADD",
  "name": "FMCGADD",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
   {
    "time": "2026-05-22",
@@ -1146,6 +1146,15 @@
    "close": 50.07,
    "volume": 40907,
    "delivery_pct": 67.84
+  },
+  {
+   "time": "2026-11-27",
+   "open": 51.07,
+   "high": 51.07,
+   "low": 49.5,
+   "close": 49.55,
+   "volume": 14692,
+   "delivery_pct": 71.13
   }
  ],
  "ma": {
@@ -1581,6 +1590,10 @@
    {
     "time": "2026-11-26",
     "value": 46.75
+   },
+   {
+    "time": "2026-11-27",
+    "value": 47.08
    }
   ],
   "sma_50": [
@@ -1895,15 +1908,19 @@
    {
     "time": "2026-11-26",
     "value": 45.7
+   },
+   {
+    "time": "2026-11-27",
+    "value": 45.78
    }
   ]
  },
  "technicals": {
-  "rsi_14": 72.45,
-  "atr_pct": 2.18,
-  "rel_volume_20d": 1.48,
-  "dist_20dma_pct": 7.11,
-  "dist_50dma_pct": 9.56,
+  "rsi_14": 67.42,
+  "atr_pct": 2.27,
+  "rel_volume_20d": 0.51,
+  "dist_20dma_pct": 5.25,
+  "dist_50dma_pct": 8.23,
   "dist_200dma_pct": null
  }
 }

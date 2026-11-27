@@ -2,17 +2,8 @@
  "symbol": "RATNAVEER",
  "name": "Ratnaveer Precision Engineering Limited",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
-  {
-   "time": "2025-11-18",
-   "open": 155.0,
-   "high": 156.26,
-   "low": 151.25,
-   "close": 152.02,
-   "volume": 210027,
-   "delivery_pct": 50.49
-  },
   {
    "time": "2025-11-19",
    "open": 153.24,
@@ -2262,14 +2253,19 @@
    "close": 405.0,
    "volume": 3837749,
    "delivery_pct": 36.87
+  },
+  {
+   "time": "2026-11-27",
+   "open": 420.0,
+   "high": 447.85,
+   "low": 393.7,
+   "close": 398.3,
+   "volume": 10448623,
+   "delivery_pct": 23.77
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-15",
-    "value": 155.26
-   },
    {
     "time": "2025-12-16",
     "value": 155.76
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-26",
     "value": 371.62
+   },
+   {
+    "time": "2026-11-27",
+    "value": 374.17
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-29",
-    "value": 152.91
-   },
    {
     "time": "2026-01-30",
     "value": 152.94
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-26",
     "value": 344.78
+   },
+   {
+    "time": "2026-11-27",
+    "value": 346.53
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-08",
-    "value": 172.85
-   },
    {
     "time": "2026-09-09",
     "value": 173.59
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-26",
     "value": 221.55
+   },
+   {
+    "time": "2026-11-27",
+    "value": 222.81
    }
   ]
  },
  "technicals": {
-  "rsi_14": 71.3,
-  "atr_pct": 4.09,
-  "rel_volume_20d": 1.16,
-  "dist_20dma_pct": 8.98,
-  "dist_50dma_pct": 17.47,
-  "dist_200dma_pct": 82.8
+  "rsi_14": 66.58,
+  "atr_pct": 4.83,
+  "rel_volume_20d": 3.07,
+  "dist_20dma_pct": 6.45,
+  "dist_50dma_pct": 14.94,
+  "dist_200dma_pct": 78.76
  }
 }

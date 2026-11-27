@@ -1,31 +1,44 @@
 {
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "market": {
   "light": "yellow",
   "label": "Be selective",
   "advice": "Only the strongest setups, smaller size, quicker profits.",
   "reasons": [
-   "NIFTY 50 is above its 50-day average (+9.5%)",
-   "above its 200-day average (+7.9%)",
-   "3 distribution days in the last 25 sessions",
-   "38% of stocks are above their 50-day average"
+   "NIFTY 50 is above its 50-day average (+8.1%)",
+   "above its 200-day average (+6.7%)",
+   "2 distribution days in the last 25 sessions",
+   "41% of stocks are above their 50-day average"
   ],
-  "nifty_close": 25884.5,
-  "distribution_days": 3,
-  "pct_above_50dma": 38.1
+  "nifty_close": 25607.2,
+  "distribution_days": 2,
+  "pct_above_50dma": 40.9
  },
  "ready": [
   {
+   "symbol": "ACMESOLAR",
+   "name": "Acme Solar Holdings Limited",
+   "ltp": 426.35,
+   "change_pct": 2.54,
+   "rs": 93,
+   "rel_volume": 2.91,
+   "pattern": "vcp",
+   "pivot": 432.0,
+   "gap_to_pivot_pct": -1.31,
+   "stop": 398.65,
+   "dry_up": false
+  },
+  {
    "symbol": "AARTIPHARM",
    "name": "Aarti Pharmalabs Limited",
-   "ltp": 1022.15,
-   "change_pct": -0.32,
+   "ltp": 1015.15,
+   "change_pct": -0.68,
    "rs": 91,
-   "rel_volume": 0.38,
-   "pattern": "near_pivot",
-   "pivot": 1047.25,
-   "gap_to_pivot_pct": -2.4,
-   "stop": 956.15,
+   "rel_volume": 0.52,
+   "pattern": "high_52w_breakout",
+   "pivot": 1024.6,
+   "gap_to_pivot_pct": -0.92,
+   "stop": 900.0,
    "dry_up": false
   }
  ],
@@ -33,216 +46,248 @@
   {
    "symbol": "ACUTAAS",
    "name": "Acutaas Chemicals Limited",
-   "ltp": 4079.9,
-   "change_pct": 2.18,
-   "rs": 97,
-   "rel_volume": 0.6
+   "ltp": 4075.0,
+   "change_pct": -0.12,
+   "rs": 96,
+   "rel_volume": 0.67
   },
   {
    "symbol": "AAREYDRUGS",
    "name": "Aarey Drugs & Pharmaceuticals Limited",
-   "ltp": 111.1,
-   "change_pct": -0.95,
+   "ltp": 112.07,
+   "change_pct": 0.87,
    "rs": 93,
-   "rel_volume": 0.64
+   "rel_volume": 1.05
+  },
+  {
+   "symbol": "ACMESOLAR",
+   "name": "Acme Solar Holdings Limited",
+   "ltp": 426.35,
+   "change_pct": 2.54,
+   "rs": 93,
+   "rel_volume": 2.91
   },
   {
    "symbol": "ABDL",
    "name": "Allied Blenders and Distillers Limited",
-   "ltp": 820.3,
-   "change_pct": 1.62,
+   "ltp": 838.0,
+   "change_pct": 2.16,
    "rs": 93,
-   "rel_volume": 1.31
+   "rel_volume": 0.93
   },
   {
    "symbol": "AARTIPHARM",
    "name": "Aarti Pharmalabs Limited",
-   "ltp": 1022.15,
-   "change_pct": -0.32,
+   "ltp": 1015.15,
+   "change_pct": -0.68,
    "rs": 91,
-   "rel_volume": 0.38
+   "rel_volume": 0.52
   },
   {
    "symbol": "ACE",
    "name": "Action Construction Equipment Limited",
-   "ltp": 1295.0,
-   "change_pct": 8.79,
-   "rs": 90,
-   "rel_volume": 9.78
+   "ltp": 1325.7,
+   "change_pct": 2.37,
+   "rs": 91,
+   "rel_volume": 1.89
   },
   {
    "symbol": "AARTIDRUGS",
    "name": "Aarti Drugs Limited",
-   "ltp": 491.85,
-   "change_pct": 0.81,
-   "rs": 85,
-   "rel_volume": 0.1
+   "ltp": 487.05,
+   "change_pct": -0.98,
+   "rs": 84,
+   "rel_volume": 0.06
   },
   {
    "symbol": "ADANIPORTS",
    "name": "Adani Ports and Special Economic Zone Limited",
-   "ltp": 1911.3,
-   "change_pct": -0.78,
-   "rs": 83,
-   "rel_volume": 0.46
+   "ltp": 1880.0,
+   "change_pct": -1.64,
+   "rs": 81,
+   "rel_volume": 2.34
   },
   {
    "symbol": "ABCAPITAL",
    "name": "Aditya Birla Capital Limited",
-   "ltp": 413.5,
-   "change_pct": -2.01,
-   "rs": 79,
-   "rel_volume": 0.51
+   "ltp": 410.3,
+   "change_pct": -0.77,
+   "rs": 78,
+   "rel_volume": 1.8
   }
  ],
  "delivery_spikes": [
   {
-   "symbol": "FLAIR",
-   "name": "Flair Writing Industries Limited",
-   "ltp": 245.61,
-   "change_pct": 1.61,
-   "rs": 39,
-   "rel_volume": 8.69,
-   "delivery_pct": 87.0,
-   "delivery_avg_pct": 45.3
+   "symbol": "CHOICEIN",
+   "name": "Choice International Limited",
+   "ltp": 770.45,
+   "change_pct": 1.28,
+   "rs": 66,
+   "rel_volume": 2.57,
+   "delivery_pct": 48.0,
+   "delivery_avg_pct": 25.8
   },
   {
-   "symbol": "ZFCVINDIA",
-   "name": "ZF Commercial Vehicle Control Systems India Limited",
-   "ltp": 2190.0,
-   "change_pct": 3.31,
-   "rs": 2,
-   "rel_volume": 1.68,
-   "delivery_pct": 78.8,
-   "delivery_avg_pct": 52.2
+   "symbol": "AGIIL",
+   "name": "Agi Infra Limited",
+   "ltp": 317.15,
+   "change_pct": 3.17,
+   "rs": 79,
+   "rel_volume": 1.81,
+   "delivery_pct": 61.5,
+   "delivery_avg_pct": 34.0
+  },
+  {
+   "symbol": "MIIL",
+   "name": "Meghna Infracon Infrastructure Limited",
+   "ltp": 670.1,
+   "change_pct": 5.83,
+   "rs": null,
+   "rel_volume": 2.77,
+   "delivery_pct": 85.8,
+   "delivery_avg_pct": 52.8
+  },
+  {
+   "symbol": "SANOFICONR",
+   "name": "Sanofi Consumer Healthcare India Limited",
+   "ltp": 3508.2,
+   "change_pct": 1.48,
+   "rs": 25,
+   "rel_volume": 2.18,
+   "delivery_pct": 88.5,
+   "delivery_avg_pct": 54.7
+  },
+  {
+   "symbol": "NIVABUPA",
+   "name": "Niva Bupa Health Insurance Company Limited",
+   "ltp": 75.66,
+   "change_pct": 1.87,
+   "rs": 55,
+   "rel_volume": 4.83,
+   "delivery_pct": 93.8,
+   "delivery_avg_pct": 58.4
+  },
+  {
+   "symbol": "GALAXYSURF",
+   "name": "Galaxy Surfactants Limited",
+   "ltp": 2079.2,
+   "change_pct": 2.01,
+   "rs": 66,
+   "rel_volume": 4.3,
+   "delivery_pct": 83.7,
+   "delivery_avg_pct": 52.7
   }
  ],
  "pocket_pivots": [
   {
-   "symbol": "ACUTAAS",
-   "name": "Acutaas Chemicals Limited",
-   "ltp": 4079.9,
-   "change_pct": 2.18,
-   "rs": 97,
-   "rel_volume": 0.6
-  },
-  {
-   "symbol": "360ONE",
-   "name": "360 ONE WAM LIMITED",
-   "ltp": 1210.0,
-   "change_pct": 3.84,
-   "rs": 74,
-   "rel_volume": 1.61
-  },
-  {
-   "symbol": "ABREL",
-   "name": "Aditya Birla Real Estate Limited",
-   "ltp": 1288.3,
-   "change_pct": 0.42,
-   "rs": 45,
-   "rel_volume": 1.19
+   "symbol": "ACMESOLAR",
+   "name": "Acme Solar Holdings Limited",
+   "ltp": 426.35,
+   "change_pct": 2.54,
+   "rs": 93,
+   "rel_volume": 2.91
   }
  ],
  "sector_leaders": [
   {
    "sector": "NIFTY REALTY",
    "rank": 1,
-   "return_1m": 20.84,
+   "return_1m": 20.19,
    "stocks": [
-    {
-     "symbol": "PHOENIXLTD",
-     "name": "The Phoenix Mills Limited",
-     "ltp": 2291.0,
-     "change_pct": 0.24,
-     "rs": 89,
-     "rel_volume": 1.42
-    },
     {
      "symbol": "DLF",
      "name": "DLF Limited",
-     "ltp": 807.8,
-     "change_pct": 1.61,
+     "ltp": 805.45,
+     "change_pct": -0.29,
      "rs": 86,
-     "rel_volume": 1.37
+     "rel_volume": 0.94
+    },
+    {
+     "symbol": "PHOENIXLTD",
+     "name": "The Phoenix Mills Limited",
+     "ltp": 2229.7,
+     "change_pct": -2.68,
+     "rs": 86,
+     "rel_volume": 1.0
     },
     {
      "symbol": "PRESTIGE",
      "name": "Prestige Estates Projects Limited",
-     "ltp": 1832.1,
-     "change_pct": 8.72,
-     "rs": 83,
-     "rel_volume": 8.32
-    }
-   ]
-  },
-  {
-   "sector": "NIFTY PRIVATE BANK",
-   "rank": 2,
-   "return_1m": 17.48,
-   "stocks": [
-    {
-     "symbol": "FEDERALBNK",
-     "name": "The Federal Bank  Limited",
-     "ltp": 356.85,
-     "change_pct": 0.18,
-     "rs": 84,
-     "rel_volume": 1.2
-    },
-    {
-     "symbol": "ICICIBANK",
-     "name": "ICICI Bank Limited",
-     "ltp": 1611.0,
-     "change_pct": -1.77,
-     "rs": 83,
-     "rel_volume": 0.93
-    },
-    {
-     "symbol": "RBLBANK",
-     "name": "RBL Bank Limited",
-     "ltp": 389.25,
-     "change_pct": -0.31,
-     "rs": 79,
-     "rel_volume": 0.76
+     "ltp": 1796.7,
+     "change_pct": -1.93,
+     "rs": 81,
+     "rel_volume": 1.53
     }
    ]
   },
   {
    "sector": "NIFTY PSU BANK",
-   "rank": 3,
-   "return_1m": 17.27,
+   "rank": 2,
+   "return_1m": 16.7,
    "stocks": [
     {
      "symbol": "MAHABANK",
      "name": "Bank of Maharashtra",
-     "ltp": 94.2,
-     "change_pct": -4.57,
+     "ltp": 95.73,
+     "change_pct": 1.62,
      "rs": 90,
-     "rel_volume": 0.76
+     "rel_volume": 0.88
     },
     {
      "symbol": "PNB",
      "name": "Punjab National Bank",
-     "ltp": 147.5,
-     "change_pct": -0.75,
-     "rs": 89,
-     "rel_volume": 0.38
+     "ltp": 146.5,
+     "change_pct": -0.68,
+     "rs": 88,
+     "rel_volume": 0.62
     },
     {
      "symbol": "UNIONBANK",
      "name": "Union Bank of India",
-     "ltp": 210.2,
-     "change_pct": -1.55,
-     "rs": 86,
-     "rel_volume": 0.45
+     "ltp": 211.1,
+     "change_pct": 0.43,
+     "rs": 85,
+     "rel_volume": 0.83
+    }
+   ]
+  },
+  {
+   "sector": "NIFTY PRIVATE BANK",
+   "rank": 3,
+   "return_1m": 15.75,
+   "stocks": [
+    {
+     "symbol": "FEDERALBNK",
+     "name": "The Federal Bank  Limited",
+     "ltp": 360.0,
+     "change_pct": 0.88,
+     "rs": 85,
+     "rel_volume": 0.56
+    },
+    {
+     "symbol": "ICICIBANK",
+     "name": "ICICI Bank Limited",
+     "ltp": 1593.4,
+     "change_pct": -1.09,
+     "rs": 82,
+     "rel_volume": 0.54
+    },
+    {
+     "symbol": "RBLBANK",
+     "name": "RBL Bank Limited",
+     "ltp": 390.0,
+     "change_pct": 0.19,
+     "rs": 79,
+     "rel_volume": 1.21
     }
    ]
   }
  ],
  "counts": {
-  "rated": 2335,
-  "trend_template": 11,
-  "ready": 1,
-  "delivery_spikes": 2,
-  "pocket_pivots": 3
+  "rated": 2336,
+  "trend_template": 12,
+  "ready": 2,
+  "delivery_spikes": 6,
+  "pocket_pivots": 1
  }
 }

@@ -1,153 +1,153 @@
 {
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "source": "ai",
- "universe": 359,
- "eligible": 14,
+ "universe": 362,
+ "eligible": 22,
  "picks": [
   {
-   "symbol": "RACLGEAR",
-   "ltp": 1608.2,
+   "symbol": "BALRAMCHIN",
+   "ltp": 675.45,
    "technicals": {
-    "rsi_14": 62.43,
-    "rel_volume_20d": 2.39,
-    "dist_20dma_pct": 8.06,
-    "dist_50dma_pct": 4.04,
-    "dist_200dma_pct": 16.05
+    "rsi_14": 56.5,
+    "rel_volume_20d": 1.6,
+    "dist_20dma_pct": 5.25,
+    "dist_50dma_pct": 1.72,
+    "dist_200dma_pct": 16.85
+   },
+   "pattern": {
+    "code": "trendline_breakout",
+    "stage": "confirmed",
+    "pivot_price": 659.4,
+    "stop_suggestion": 609.0,
+    "target_suggestion": 791.28,
+    "gap_to_pivot_pct": 2.43
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 1876.3,
+    "net_income_cr": 102.3,
+    "revenue_qoq_pct": 14.6,
+    "net_income_qoq_pct": 132.0
+   },
+   "reason": "Confirmed trendline breakout backed by 1.6x average volume and 56.5 RSI. Fundamentals are strong with net profit surging 132.0% QoQ to \u20b9102.3 cr alongside steady revenue growth.",
+   "rank": 1,
+   "name": "Balrampur Chini Mills Limited"
+  },
+  {
+   "symbol": "ACMESOLAR",
+   "ltp": 426.35,
+   "technicals": {
+    "rsi_14": 57.34,
+    "rel_volume_20d": 2.91,
+    "dist_20dma_pct": 3.54,
+    "dist_50dma_pct": 1.81,
+    "dist_200dma_pct": 24.36
+   },
+   "pattern": {
+    "code": "vcp",
+    "stage": "forming",
+    "pivot_price": 432.0,
+    "stop_suggestion": 398.65,
+    "target_suggestion": 540.0,
+    "gap_to_pivot_pct": -1.31
+   },
+   "fundamentals": {
+    "quarter": "Q2 FY27",
+    "revenue_cr": 887.0,
+    "net_income_cr": 268.4,
+    "revenue_qoq_pct": 3.4,
+    "net_income_qoq_pct": 14.1
+   },
+   "reason": "Forms a tight VCP pattern -1.31% from pivot with high 2.91x average volume and 57.34 RSI. Profits grew 14.1% QoQ to \u20b9268.4 cr on \u20b9887.0 cr revenue.",
+   "rank": 2,
+   "name": "Acme Solar Holdings Limited"
+  },
+  {
+   "symbol": "ZENTEC",
+   "ltp": 1793.2,
+   "technicals": {
+    "rsi_14": 63.65,
+    "rel_volume_20d": 0.9,
+    "dist_20dma_pct": 4.96,
+    "dist_50dma_pct": 8.19,
+    "dist_200dma_pct": 9.42
    },
    "pattern": {
     "code": "near_pivot",
     "stage": "forming",
-    "pivot_price": 1618.0,
-    "stop_suggestion": 1507.07,
-    "target_suggestion": 1860.7,
-    "gap_to_pivot_pct": -0.61
+    "pivot_price": 1805.7,
+    "stop_suggestion": 1705.52,
+    "target_suggestion": 2076.55,
+    "gap_to_pivot_pct": -0.69
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 136.8,
-    "net_income_cr": 17.6,
-    "revenue_qoq_pct": 3.4,
-    "net_income_qoq_pct": 97.8
+    "revenue_cr": 345.1,
+    "net_income_cr": 89.5,
+    "revenue_qoq_pct": 143.7,
+    "net_income_qoq_pct": 159.4
    },
-   "reason": "Trading just -0.61% from its \u20b91618.0 pivot with strong 2.39x average volume and 62.43 RSI, backed by 97.8% QoQ net profit growth and 3.4% QoQ revenue growth.",
-   "rank": 1,
-   "name": "RACL Geartech Limited"
-  },
-  {
-   "symbol": "ETERNAL",
-   "ltp": 367.7,
-   "technicals": {
-    "rsi_14": 61.81,
-    "rel_volume_20d": 1.03,
-    "dist_20dma_pct": 3.12,
-    "dist_50dma_pct": 9.11,
-    "dist_200dma_pct": 28.06
-   },
-   "pattern": {
-    "code": "vcp",
-    "stage": "forming",
-    "pivot_price": 378.0,
-    "stop_suggestion": 352.4,
-    "target_suggestion": 472.5,
-    "gap_to_pivot_pct": -2.72
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 24138.0,
-    "net_income_cr": 125.0,
-    "revenue_qoq_pct": 19.4,
-    "net_income_qoq_pct": 35.9
-   },
-   "reason": "Forming a VCP pattern -2.72% below \u20b9378.0 pivot with healthy 61.81 RSI and 1.03x volume, supported by 19.4% QoQ revenue growth and 35.9% QoQ net profit expansion.",
-   "rank": 2,
-   "name": "ETERNAL LIMITED"
-  },
-  {
-   "symbol": "AGARWALEYE",
-   "ltp": 572.6,
-   "technicals": {
-    "rsi_14": 72.21,
-    "rel_volume_20d": 1.28,
-    "dist_20dma_pct": 7.52,
-    "dist_50dma_pct": 13.47,
-    "dist_200dma_pct": 20.37
-   },
-   "pattern": {
-    "code": "high_52w_breakout",
-    "stage": "confirmed",
-    "pivot_price": 560.7,
-    "stop_suggestion": 505.25,
-    "target_suggestion": 672.84,
-    "gap_to_pivot_pct": 2.12
-   },
-   "fundamentals": {
-    "quarter": "Q2 FY27",
-    "revenue_cr": 655.5,
-    "net_income_cr": 54.7,
-    "revenue_qoq_pct": 6.8,
-    "net_income_qoq_pct": 21.0
-   },
-   "reason": "Confirmed 52-week breakout 2.12% above \u20b9560.7 pivot with 1.28x volume, supported by solid fundamentals as revenue grew 6.8% QoQ and net profit rose 21.0% QoQ.",
+   "reason": "Positioned just -0.69% from its pivot with a healthy 63.65 RSI. Revenue jumped 143.7% QoQ while net profit surged 159.4% QoQ to \u20b989.5 cr, showing outstanding fundamental power.",
    "rank": 3,
-   "name": "Dr. Agarwal's Health Care Limited"
+   "name": "Zen Technologies Limited"
   },
   {
-   "symbol": "ABDL",
-   "ltp": 820.3,
+   "symbol": "ACUTAAS",
+   "ltp": 4075.0,
    "technicals": {
-    "rsi_14": 73.63,
-    "rel_volume_20d": 1.31,
-    "dist_20dma_pct": 9.4,
-    "dist_50dma_pct": 14.66,
-    "dist_200dma_pct": 37.14
+    "rsi_14": 64.71,
+    "rel_volume_20d": 0.67,
+    "dist_20dma_pct": 3.61,
+    "dist_50dma_pct": 15.38,
+    "dist_200dma_pct": 35.18
    },
    "pattern": {
     "code": "high_52w_breakout",
     "stage": "forming",
-    "pivot_price": 808.2,
-    "stop_suggestion": 676.0,
-    "target_suggestion": 969.84,
-    "gap_to_pivot_pct": 1.5
+    "pivot_price": 4039.1,
+    "stop_suggestion": 3704.9,
+    "target_suggestion": 4846.92,
+    "gap_to_pivot_pct": 0.89
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 1147.8,
-    "net_income_cr": 71.5,
-    "revenue_qoq_pct": 17.3,
-    "net_income_qoq_pct": 45.3
+    "revenue_cr": 436.9,
+    "net_income_cr": 125.2,
+    "revenue_qoq_pct": 32.5,
+    "net_income_qoq_pct": 68.5
    },
-   "reason": "Forming a 52-week breakout 1.5% past \u20b9808.2 pivot with strong 1.31x volume, backed by robust fundamental growth with revenue up 17.3% QoQ and net profit up 45.3% QoQ.",
+   "reason": "Forming a 52-week breakout only 0.89% from pivot with ideal 64.71 RSI. Quarterly revenue rose 32.5% QoQ to \u20b9436.9 cr alongside a strong 68.5% QoQ increase in net profit.",
    "rank": 4,
-   "name": "Allied Blenders and Distillers Limited"
+   "name": "Acutaas Chemicals Limited"
   },
   {
-   "symbol": "ICICIBANK",
-   "ltp": 1611.0,
+   "symbol": "AETHER",
+   "ltp": 1761.4,
    "technicals": {
-    "rsi_14": 65.33,
-    "rel_volume_20d": 0.96,
-    "dist_20dma_pct": 5.68,
-    "dist_50dma_pct": 13.32,
-    "dist_200dma_pct": 17.71
+    "rsi_14": 61.54,
+    "rel_volume_20d": 1.21,
+    "dist_20dma_pct": 8.43,
+    "dist_50dma_pct": 7.78,
+    "dist_200dma_pct": 30.28
    },
    "pattern": {
     "code": "vcp",
     "stage": "forming",
-    "pivot_price": 1616.0,
-    "stop_suggestion": 1555.13,
-    "target_suggestion": 2020.0,
-    "gap_to_pivot_pct": -0.31
+    "pivot_price": 1814.1,
+    "stop_suggestion": 1565.1,
+    "target_suggestion": 2267.62,
+    "gap_to_pivot_pct": -2.91
    },
    "fundamentals": {
     "quarter": "Q2 FY27",
-    "revenue_cr": 40153.2,
-    "net_income_cr": 16333.2,
-    "revenue_qoq_pct": 4.7,
-    "net_income_qoq_pct": 5.8
+    "revenue_cr": 347.2,
+    "net_income_cr": 68.0,
+    "revenue_qoq_pct": 6.3,
+    "net_income_qoq_pct": 8.5
    },
-   "reason": "Tight VCP setup sitting just -0.31% below \u20b91616.0 pivot with balanced 65.33 RSI, supported by consistent fundamentals with revenue growing 4.7% QoQ and net profit rising 5.8% QoQ.",
+   "reason": "Developing a VCP pattern -2.91% from pivot with strong 1.21x volume expansion and 61.54 RSI. Revenue grew 6.3% QoQ to \u20b9347.2 cr with net profit up 8.5% QoQ.",
    "rank": 5,
-   "name": "ICICI Bank Limited"
+   "name": "Aether Industries Limited"
   }
  ]
 }

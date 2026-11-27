@@ -2,17 +2,8 @@
  "symbol": "APOLLOHOSP",
  "name": "Apollo Hospitals Enterprise Limited",
  "kind": "stock",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "bars": [
-  {
-   "time": "2025-11-18",
-   "open": 7450.0,
-   "high": 7474.0,
-   "low": 7373.0,
-   "close": 7385.5,
-   "volume": 285148,
-   "delivery_pct": 62.6
-  },
   {
    "time": "2025-11-19",
    "open": 7419.0,
@@ -2262,14 +2253,19 @@
    "close": 9222.5,
    "volume": 209558,
    "delivery_pct": 56.09
+  },
+  {
+   "time": "2026-11-27",
+   "open": 9222.5,
+   "high": 9302.5,
+   "low": 9111.5,
+   "close": 9128.0,
+   "volume": 186188,
+   "delivery_pct": 45.6
   }
  ],
  "ma": {
   "sma_20": [
-   {
-    "time": "2025-12-15",
-    "value": 7245.05
-   },
    {
     "time": "2025-12-16",
     "value": 7228.35
@@ -3193,13 +3189,13 @@
    {
     "time": "2026-11-26",
     "value": 8633.12
+   },
+   {
+    "time": "2026-11-27",
+    "value": 8699.95
    }
   ],
   "sma_50": [
-   {
-    "time": "2026-01-29",
-    "value": 7143.0
-   },
    {
     "time": "2026-01-30",
     "value": 7134.5
@@ -4003,13 +3999,13 @@
    {
     "time": "2026-11-26",
     "value": 8423.44
+   },
+   {
+    "time": "2026-11-27",
+    "value": 8428.0
    }
   ],
   "sma_200": [
-   {
-    "time": "2026-09-08",
-    "value": 7902.09
-   },
    {
     "time": "2026-09-09",
     "value": 7909.99
@@ -4213,15 +4209,19 @@
    {
     "time": "2026-11-26",
     "value": 8232.23
+   },
+   {
+    "time": "2026-11-27",
+    "value": 8243.2
    }
   ]
  },
  "technicals": {
-  "rsi_14": 68.41,
-  "atr_pct": 2.28,
-  "rel_volume_20d": 0.35,
-  "dist_20dma_pct": 6.83,
-  "dist_50dma_pct": 9.49,
-  "dist_200dma_pct": 12.03
+  "rsi_14": 64.63,
+  "atr_pct": 2.29,
+  "rel_volume_20d": 0.32,
+  "dist_20dma_pct": 4.92,
+  "dist_50dma_pct": 8.31,
+  "dist_200dma_pct": 10.73
  }
 }
