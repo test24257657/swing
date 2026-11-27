@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T08:15:52+05:30",
- "for_session": "2026-11-26",
+ "generated_at": "2026-11-27T08:16:00+05:30",
+ "for_session": "2026-11-27",
  "market_light": "yellow",
  "global_cues": [
   {
@@ -11,53 +11,53 @@
    "as_of": "2026-11-25"
   },
   {
-   "label": "Dow",
+   "label": "Nasdaq",
    "group": "US",
-   "value": 50182.95,
-   "change_pct": 0.33,
+   "value": 23585.8,
+   "change_pct": -0.62,
    "as_of": "2026-11-25"
   },
   {
    "label": "Nikkei",
    "group": "Asia",
-   "value": 57886.95,
-   "change_pct": 1.54,
-   "as_of": "2026-11-26"
+   "value": 58172.04,
+   "change_pct": 1.17,
+   "as_of": "2026-11-27"
   },
   {
    "label": "Hang Seng",
    "group": "Asia",
-   "value": 22428.26,
-   "change_pct": 2.1,
-   "as_of": "2026-11-26"
+   "value": 22400.95,
+   "change_pct": 0.78,
+   "as_of": "2026-11-27"
   },
   {
    "label": "Kospi",
    "group": "Asia",
-   "value": 4757.44,
-   "change_pct": 1.28,
-   "as_of": "2026-11-26"
+   "value": 4832.09,
+   "change_pct": 2.57,
+   "as_of": "2026-11-27"
   },
   {
    "label": "Brent crude",
    "group": "Macro",
-   "value": 90.87,
-   "change_pct": -0.58,
-   "as_of": "2026-11-25"
+   "value": 92.16,
+   "change_pct": -2.59,
+   "as_of": "2026-11-26"
   },
   {
    "label": "Gold",
    "group": "Macro",
-   "value": 3626.4,
-   "change_pct": 1.81,
-   "as_of": "2026-11-25"
+   "value": 3659.7,
+   "change_pct": 3.5,
+   "as_of": "2026-11-26"
   },
   {
    "label": "USD/INR",
    "group": "Macro",
-   "value": 92.81,
-   "change_pct": -0.12,
-   "as_of": "2026-11-25"
+   "value": 92.24,
+   "change_pct": -0.61,
+   "as_of": "2026-11-26"
   },
   {
    "label": "US 10Y yield",
@@ -69,124 +69,80 @@
   {
    "label": "Dollar index",
    "group": "Macro",
-   "value": 103.74,
-   "change_pct": -0.07,
-   "as_of": "2026-11-25"
+   "value": 103.68,
+   "change_pct": 0.01,
+   "as_of": "2026-11-26"
   }
  ],
  "global_tone": {
   "tone": "positive",
-  "avg_change_pct": 1.17,
-  "crude_alert": false
+  "avg_change_pct": 0.73,
+  "crude_alert": true
  },
- "nifty": {
-  "session": "2026-11-25",
-  "close": 25819.25,
-  "high": 25951.65,
-  "low": 25619.0,
-  "pivot": 25796.63,
-  "r1": 25974.27,
-  "s1": 25641.62,
-  "r2": 26129.28,
-  "s2": 25463.98,
-  "sma_20": 24679.39,
-  "sma_50": 23598.03,
-  "sma_200": 23999.43
- },
+ "nifty": null,
  "focus": [
   {
-   "symbol": "ACUTAAS",
-   "name": "Acutaas Chemicals Limited",
+   "symbol": "AARTIPHARM",
+   "name": "Aarti Pharmalabs Limited",
    "why": "Ready setup near its pivot",
-   "rs": 96
+   "rs": 91
+  },
+  {
+   "symbol": "RACLGEAR",
+   "name": "RACL Geartech Limited",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "ETERNAL",
+   "name": "ETERNAL LIMITED",
+   "why": "AI top 5",
+   "rs": null
+  },
+  {
+   "symbol": "AGARWALEYE",
+   "name": "Dr. Agarwal's Health Care Limited",
+   "why": "AI top 5",
+   "rs": null
   },
   {
    "symbol": "ABDL",
    "name": "Allied Blenders and Distillers Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 93
-  },
-  {
-   "symbol": "ADANIPORTS",
-   "name": "Adani Ports and Special Economic Zone Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 84
-  },
-  {
-   "symbol": "ABCAPITAL",
-   "name": "Aditya Birla Capital Limited",
-   "why": "Ready setup near its pivot",
-   "rs": 81
-  },
-  {
-   "symbol": "DRREDDY",
-   "name": "Dr. Reddy's Laboratories Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "AUROPHARMA",
-   "name": "Aurobindo Pharma Limited",
+   "symbol": "ICICIBANK",
+   "name": "ICICI Bank Limited",
    "why": "AI top 5",
    "rs": null
   },
   {
-   "symbol": "ANTHEM",
-   "name": "Anthem Biosciences Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "CEATLTD",
-   "name": "CEAT Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "ASTERDM",
-   "name": "Aster DM Quality Care Limited",
-   "why": "AI top 5",
-   "rs": null
-  },
-  {
-   "symbol": "ACE",
-   "name": "Action Construction Equipment Limited",
+   "symbol": "ACUTAAS",
+   "name": "Acutaas Chemicals Limited",
    "why": "Pocket pivot yesterday",
-   "rs": 84
+   "rs": 97
   },
   {
-   "symbol": "ABSLAMC",
-   "name": "Aditya Birla Sun Life AMC Limited",
+   "symbol": "360ONE",
+   "name": "360 ONE WAM LIMITED",
    "why": "Pocket pivot yesterday",
-   "rs": 72
+   "rs": 74
+  },
+  {
+   "symbol": "ABREL",
+   "name": "Aditya Birla Real Estate Limited",
+   "why": "Pocket pivot yesterday",
+   "rs": 45
   }
  ],
- "overnight_news": [
-  {
-   "symbol": "HDFCBANK",
-   "time": "25 Nov 18:01",
-   "category": "Change in Director(s)",
-   "text": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_25112026180104_SE_intimation-_HKB.pdf"
-  },
-  {
-   "symbol": "CEATLTD",
-   "time": "25 Nov 17:43",
-   "category": "Loss of Share Certificates",
-   "text": "CEAT Limited has informed the Exchange about Loss of Share Certificates",
-   "url": "https://nsearchives.nseindia.in/corporate/CEATLTD_25112026174251_selossintimationnov25sign.pdf"
-  },
-  {
-   "symbol": "AXISBANK",
-   "time": "25 Nov 17:30",
-   "category": "ESOP/ESOS/ESPS",
-   "text": "Axis Bank Limited has informed the Exchange regarding Allotment of 282061  Shares.",
-   "url": "https://nsearchives.nseindia.in/corporate/Kapil_25112026172944_SE25112026.pdf"
-  }
+ "overnight_news": [],
+ "events": [
+  "1 company report results today."
  ],
- "events": [],
  "checklist": [
   "Market light is YELLOW — only A+ setups, half size.",
+  "Big crude move — watch oil-sensitive sectors (OMCs, paints, aviation).",
   "Buy only above the pivot on volume; set the stop before you enter."
  ],
  "community": null,
